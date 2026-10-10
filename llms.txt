@@ -4,6 +4,8 @@
 
 - [Complete integration guide](https://wpsydev.github.io/liquid-glass-kit/llms-full.txt): Exact API, import paths, recipes, and limitations.
 - [Interface design contract](https://wpsydev.github.io/liquid-glass-kit/docs/DESIGN.md): Real tasks, readable solid content, restrained glass controls, meaningful states, and review criteria.
+- [AI app design resources](https://wpsydev.github.io/liquid-glass-kit/docs/AI_APP_DESIGN.md): Verified agent-readable design resources, component choices, evidence, selective edits and recoverable agent workflows.
+- [AI interface studies](https://wpsydev.github.io/liquid-glass-kit/ai-design/): Interactive research, writing and agent workflows with clearly labelled sample data.
 - [GitLab UI selection](https://wpsydev.github.io/liquid-glass-kit/docs/UI_RESEARCH.md): Verified primary sources, framework and license tradeoffs, and the selected Pajamas ecosystem.
 - [Mobile widgets](https://wpsydev.github.io/liquid-glass-kit/docs/MOBILE.md): Touch targets, safe areas, coordinated corners, keyboard and responsive recipes.
 - [Mobile research](https://wpsydev.github.io/liquid-glass-kit/docs/MOBILE_RESEARCH.md): Apple and web-platform primary sources with compatibility boundaries.
@@ -17,7 +19,7 @@
 - [Compatibility](https://wpsydev.github.io/liquid-glass-kit/docs/COMPATIBILITY.md): Portable CSS versus experimental refraction.
 - [Repository](https://github.com/wpsydev/liquid-glass-kit): Source, issues, license, and installable skill.
 
-v0.5.0-preview.1. Repository and Pages demo are live; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
+v0.6.0-preview.1. Repository and Pages demo are live; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
 
 - [Experimental scene optics](docs/SCENE.md): optional WebGL2 subpath for an owned procedural background; no arbitrary DOM sampling.
 - [Optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/): interactive refractive lenses and original neon scene.

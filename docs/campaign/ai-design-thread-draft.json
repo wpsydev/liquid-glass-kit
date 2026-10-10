@@ -1,0 +1,83 @@
+{
+  "title": "AI app design: scope, evidence, and recovery",
+  "status": "draft",
+  "preparedAtUtc": "2026-10-10",
+  "publicationOwner": "root",
+  "sourceDocuments": [
+    "docs/AI_APP_DESIGN.md",
+    "docs/campaign/ai-design-research.json"
+  ],
+  "publicationChecks": [
+    "Attach the verified 12-second showcase to post 1.",
+    "Use the original warm-bass music line only after the final soundtrack is attached and verified.",
+    "Verify the public ai-design demo and agent brief links before publication.",
+    "Keep illustrative studies distinct from actual provider application recordings."
+  ],
+  "posts": [
+    {
+      "number": 1,
+      "text": "Make AI apps feel designed.\n\nResearch with evidence in reach. Writing with edits you can keep or undo. Agent work you can recover.\n\n12 seconds, original bass groove. Working UI studies with sample data. Useful resources + a copyable agent brief below. 1/7",
+      "attachment": "verified-12-second-ai-design-showcase",
+      "purpose": "Lead with a concrete interaction pattern and identify the original demo honestly.",
+      "weightedCharacterCount": 255
+    },
+    {
+      "number": 2,
+      "text": "Real tools worth studying:\n\nNotebookLM / Gemini Notebook: inspect source context.\nhttps://support.google.com/gemininotebook/answer/16179559?hl=en\n\nPhotoshop: scope edits to a selection.\nhttps://helpx.adobe.com/photoshop/desktop/create-open-import-images/create-images/edit-images-with-generative-fill.html\n\nClaude Code: know what a checkpoint restores.\nhttps://code.claude.com/docs/en/checkpointing\n2/7",
+      "sourceResourceIds": [
+        "notebook",
+        "photoshop"
+      ],
+      "purpose": "Explain scope and verification as specific UI choices instead of ranking products.",
+      "weightedCharacterCount": 244
+    },
+    {
+      "number": 3,
+      "text": "Agent work: progress, a useful failure state, Retry, and a human decision when scope changes. Label what Undo actually restores; external effects may remain.\n\nCarbon for AI + Microsoft HAX are useful pattern references:\nhttps://carbondesignsystem.com/guidelines/carbon-for-ai/\nhttps://www.microsoft.com/en-us/haxtoolkit/pattern/g9-c-undo-automated-actions/\n3/7",
+      "sourceResourceIds": [
+        "carbon-ai",
+        "hax-undo",
+        "claude-code"
+      ],
+      "purpose": "Connect failure, human control and bounded recovery to primary design references.",
+      "weightedCharacterCount": 271
+    },
+    {
+      "number": 4,
+      "text": "Brief your coding agent: who uses this, what task matters, what sets the density? Choose type roles, color and one signature detail for that job.\n\nAnthropic frontend-design + Impeccable are readable starting points:\nhttps://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md\nhttps://impeccable.style/\n4/7",
+      "sourceResourceIds": [
+        "anthropic-frontend-design",
+        "impeccable"
+      ],
+      "purpose": "Turn art direction into explicit context an agent can act on.",
+      "weightedCharacterCount": 267
+    },
+    {
+      "number": 5,
+      "text": "Then audit the built screen: visible keyboard focus, native controls, mobile targets, long labels, interrupted motion and honest loading/error states. Try real content at small widths.\n\nUse Vercel's Web Interface Guidelines as a review input:\nhttps://vercel.com/design/guidelines\n5/7",
+      "sourceResourceIds": [
+        "vercel-guidelines"
+      ],
+      "purpose": "Connect visual craft to observable interaction and responsive checks.",
+      "weightedCharacterCount": 270
+    },
+    {
+      "number": 6,
+      "text": "Choose one interaction base: React Aria, Base UI, or your existing Radix setup. Preserve focus, keyboard behavior and labels while styling.\n\nshadcn skills + MCP help agents read project context and discover real APIs:\nhttps://ui.shadcn.com/docs/skills\nhttps://ui.shadcn.com/docs/mcp\n6/7",
+      "sourceResourceIds": [
+        "react-aria",
+        "base-ui",
+        "radix",
+        "shadcn"
+      ],
+      "purpose": "Recommend project-aware component discovery without claiming primitives supply a finished design.",
+      "weightedCharacterCount": 269
+    },
+    {
+      "number": 7,
+      "text": "Try the studies. Give your agent the brief: define the task, expose scope, keep output editable and specify recovery. Glass belongs on a small control layer above readable content.\n\nInteractive demo:\nhttps://wpsydev.github.io/liquid-glass-kit/ai-design/\nShareable agent brief:\nhttps://github.com/wpsydev/liquid-glass-kit/blob/main/docs/AI_APP_DESIGN.md\n7/7",
+      "purpose": "Offer a working demo and reusable brief as the practical next step.",
+      "weightedCharacterCount": 274
+    }
+  ]
+}

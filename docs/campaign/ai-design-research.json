@@ -1,0 +1,369 @@
+{
+  "title": "Primary resources for deliberate AI application design",
+  "reviewed_at": "2026-10-10",
+  "sources_reviewed": 60,
+  "sources_reviewed_definition": "Sum of numResults across this agent\u2019s Exa searches, including overlaps; 60 candidate results, not 60 independently validated sources. total_sources_reviewed adds the separate8 parent results.",
+  "workstreams": [
+    "Agent-readable visual design skills/rules",
+    "Maintained accessible primitives and component discovery",
+    "Human control/evidence/recovery patterns"
+  ],
+  "searches": [
+    {
+      "query": "Official open source frontend design agent skills design guidelines SKILL.md Claude Code Vercel accessibility intentional user interface typography layout",
+      "objective": "Find primary maintained agent-consumable UI design skills and exact license files. Prioritize Anthropic skills, Vercel web design guidelines and shadcn MCP docs; exclude roundups and affiliate tutorials.",
+      "numResults": 10
+    },
+    {
+      "query": "Official accessible React component libraries React Aria Base UI Radix shadcn design tokens keyboard focus interactions documentation source license",
+      "objective": "Find official mature headless component documentation explaining keyboard, focus, mobile and styling limits; exact GitHub source licenses and current release evidence. Exclude rankings and paid roundups.",
+      "numResults": 10
+    },
+    {
+      "query": "Official human AI interaction design guidelines evidence citations user control undo recovery disclosure Microsoft HAX Carbon AI Google PAIR",
+      "objective": "Find primary design guidelines with practical evidence, user control, uncertainty, safe recovery patterns; separate research-derived recommendations from vendor marketing.",
+      "numResults": 10
+    },
+    {
+      "query": "Official Vercel agent-skills web-design-guidelines GitHub LICENSE MIT shadcn UI MCP React Aria 2026 source release",
+      "objective": "Verify exact license and current documentation for coding-agent design rules and component registries. Favor canonical repositories; exclude unofficial forks.",
+      "numResults": 5
+    },
+    {
+      "query": "NotebookLM official help chat source citations select sources grounded responses citations source viewer",
+      "objective": "Find Google primary support documentation for real app interaction: source selection, citations and limitations, not marketing comparisons.",
+      "numResults": 5
+    },
+    {
+      "query": "Adobe Photoshop official generative fill selection nondestructive layer variations user control original image",
+      "objective": "Find Adobe primary help documentation demonstrating selection-scoped creative editing and preservation of original content.",
+      "numResults": 5
+    },
+    {
+      "query": "Claude Code official documentation permission modes plan mode checkpointing rewind interrupt agents task status",
+      "objective": "Find Anthropic primary product documentation for human control, permission scope and recoverable agent operations. Exclude tutorials.",
+      "numResults": 5
+    },
+    {
+      "query": "Impeccable style official agent design skill typography distinctive interfaces GitHub pbakaus license install frontend design",
+      "numResults": 5
+    },
+    {
+      "query": "Official Reka UI Vue accessibility components Melt UI Svelte builders WAI ARIA APG patterns GitHub license",
+      "objective": "Verify canonical Reka UI and Melt UI documentation/licenses plus framework-neutral APG guidance; exclude roundups and production-library claims for APG examples.",
+      "numResults": 5
+    }
+  ],
+  "validated_resources": [
+    {
+      "id": "anthropic-frontend-design",
+      "name": "Anthropic frontend-design",
+      "kind": "agent-design-skill",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+      "source_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
+      "license": "Apache-2.0 for this skill folder; repository contains other licenses",
+      "license_url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/LICENSE.txt",
+      "workflow": "New visual direction or complete redesign",
+      "integrate": "State the audience, subject and single job; record palette, type roles, composition and one signature; critique a rendered result against the brief.",
+      "paraphrase": "Its current skill derives character from subject matter, gives structure a real information purpose, and asks for deliberate typography and restrained signature motion.",
+      "limits": "An art-direction brief, not an accessible component implementation or outcome guarantee. Current source should be pinned; whole-repository license assumptions are wrong.",
+      "installation": "Official README: Claude Code marketplace add anthropics/skills, then install example-skills. Other harnesses can read a compatible local SKILL.md; verify their loader.",
+      "maintenance": {
+        "repo": "anthropics/skills",
+        "pushed_at": "2026-10-09T18:45:52Z",
+        "archived": false
+      }
+    },
+    {
+      "id": "impeccable",
+      "name": "Impeccable",
+      "kind": "agent-design-skill",
+      "url": "https://impeccable.style/",
+      "source_url": "https://github.com/pbakaus/impeccable/blob/main/.agents/skills/impeccable/SKILL.md",
+      "license": "Apache-2.0; retain applicable NOTICE material",
+      "license_url": "https://github.com/pbakaus/impeccable/blob/main/LICENSE",
+      "notice_url": "https://github.com/pbakaus/impeccable/blob/main/NOTICE.md",
+      "workflow": "Visual critique, typography/density refinement and preserving a design system",
+      "integrate": "Separate product facts from visual decisions; use Persuade, Operate, Read or Experience mode; inspect actual screenshots, then make bounded fixes.",
+      "paraphrase": "Operate guidance permits one familiar type family and dense information. It distinguishes hierarchy, rhythm and task affordances from decorative novelty.",
+      "limits": "Opinionated detectors cannot prove taste. Review installer and hook trust requirements. Do not override an explicit glass/spring brief with generic bans.",
+      "installation": "Official README: npx impeccable install; project/provider flags available; initialize product context and reload host. Codex skill invocation uses $impeccable; automatic hooks require host trust.",
+      "maintenance": {
+        "repo": "pbakaus/impeccable",
+        "pushed_at": "2026-10-09T18:44:27Z",
+        "archived": false,
+        "release": "skill-v4.5.2",
+        "release_at": "2026-10-09T15:30:51Z"
+      }
+    },
+    {
+      "id": "vercel-guidelines",
+      "name": "Vercel Web Interface Guidelines",
+      "kind": "agent-readable-review-rules",
+      "url": "https://vercel.com/design/guidelines",
+      "source_url": "https://github.com/vercel-labs/web-interface-guidelines/blob/main/command.md",
+      "license": "MIT for web-interface-guidelines source repository; separate agent-skills wrapper has no verified license",
+      "license_url": "https://github.com/vercel-labs/web-interface-guidelines/blob/main/LICENSE",
+      "workflow": "Final interaction and visual consistency review",
+      "integrate": "Review meaningful files against focus, native semantics, mobile targets, resilient content, interruptible motion and recoverable async states.",
+      "paraphrase": "Rules connect visual decisions to hit areas, unobscured focus, layout resilience, readable content and honest loading/error feedback.",
+      "limits": "A living non-exhaustive checklist; some guidance is React/Next-specific. Passing it does not establish aesthetic quality or device certification.",
+      "installation": "Plain Markdown is agent-readable; official agent-skills wrapper fetches current command.md and returns file:line findings. This report links rules rather than installs a wrapper.",
+      "maintenance": {
+        "repo": "vercel-labs/web-interface-guidelines",
+        "pushed_at": "2026-10-05T20:49:17Z",
+        "archived": false
+      }
+    },
+    {
+      "id": "shadcn",
+      "name": "shadcn/ui skills and MCP",
+      "kind": "agent-component-discovery",
+      "url": "https://ui.shadcn.com/docs/skills",
+      "source_url": "https://ui.shadcn.com/docs/mcp",
+      "license": "MIT for official source; third-party registries have separate licenses",
+      "license_url": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md",
+      "workflow": "Generating real forms, editors and app controls with correct APIs",
+      "integrate": "Read components.json and shadcn info --json before generation; search registry docs; select and preserve one primitive base.",
+      "paraphrase": "The skill obtains framework, aliases, installed components and base-library context before composing code. MCP browses, searches and installs registry content.",
+      "limits": "Copied components still need brand tokens and maintained behavior. React Aria, Base UI and Radix APIs differ; registry results are not automatically trusted.",
+      "installation": "Official skills docs: pnpm dlx skills add shadcn/ui. MCP configuration is separate and host-specific. July2026 docs add React Aria as a first-class base.",
+      "maintenance": {
+        "repo": "shadcn-ui/ui",
+        "pushed_at": "2026-10-10T10:11:53Z",
+        "archived": false,
+        "release": "shadcn@4.21.4",
+        "release_at": "2026-10-07T11:11:31Z"
+      }
+    },
+    {
+      "id": "react-aria",
+      "name": "React Aria",
+      "kind": "accessible-component-base",
+      "url": "https://react-aria.adobe.com/",
+      "source_url": "https://github.com/adobe/react-spectrum",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/adobe/react-spectrum/blob/main/LICENSE",
+      "workflow": "Dense editors and source workbenches needing selection, complex forms and internationalization",
+      "integrate": "Choose unstyled components or hooks; derive custom visual tokens while retaining keyboard/focus/press behavior and labels.",
+      "paraphrase": "The official site supplies compositional components, contexts and lower-level hooks for custom interactions rather than prescribing a visual theme.",
+      "limits": "React-specific; application content, contrast and composed workflows still require testing. Hooks add responsibility when overriding default behavior.",
+      "installation": "Use official install/setup documentation or shadcn aria base in a React app; do not add it to this library core.",
+      "maintenance": {
+        "repo": "adobe/react-spectrum",
+        "pushed_at": "2026-10-09T22:01:00Z",
+        "archived": false,
+        "release": "react-aria-components@1.22.0",
+        "release_at": "2026-10-09T03:06:51Z"
+      }
+    },
+    {
+      "id": "base-ui",
+      "name": "Base UI",
+      "kind": "accessible-component-base",
+      "url": "https://base-ui.com/react/overview/about",
+      "source_url": "https://github.com/mui/base-ui",
+      "license": "MIT",
+      "license_url": "https://github.com/mui/base-ui/blob/master/LICENSE",
+      "workflow": "New React apps with custom brand surfaces and familiar controls",
+      "integrate": "Use unstyled composable primitives; apply scoped tokens and original composition rather than replacing focus, labels and keyboard behavior.",
+      "paraphrase": "Base UI does not bundle CSS or require a styling engine; its documentation explains WAI-ARIA patterns, tested environments and a published browser baseline.",
+      "limits": "React17+ and supported modern browsers; author tests are not our device audit. Unstyled components do not supply visual identity.",
+      "installation": "Follow official React installation docs; shadcn currently uses Base UI as its default base.",
+      "maintenance": {
+        "repo": "mui/base-ui",
+        "pushed_at": "2026-10-10T12:33:18Z",
+        "archived": false,
+        "release": "v1.9.0",
+        "release_at": "2026-10-09T08:50:49Z"
+      }
+    },
+    {
+      "id": "radix",
+      "name": "Radix Primitives",
+      "kind": "accessible-component-base",
+      "url": "https://www.radix-ui.com/primitives/docs/overview/accessibility",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "license": "MIT",
+      "license_url": "https://github.com/radix-ui/primitives/blob/main/LICENSE",
+      "workflow": "Existing Radix-based React projects",
+      "integrate": "Preserve established dialog/menu/tab primitives and add visual character through typography, spacing and semantic tokens.",
+      "paraphrase": "Radix handles many keyboard and focus details, while explicitly leaving meaningful accessible labels to the application author.",
+      "limits": "React-specific; do not combine multiple dialog/focus systems casually. No latest GitHub Release returned in this audit; recent repository push is the maintenance signal.",
+      "installation": "Use existing project dependencies and current official component docs; no migration is justified solely by aesthetic preferences.",
+      "maintenance": {
+        "repo": "radix-ui/primitives",
+        "pushed_at": "2026-10-09T21:27:11Z",
+        "archived": false
+      }
+    },
+    {
+      "id": "carbon-ai",
+      "name": "Carbon for AI",
+      "kind": "human-ai-patterns",
+      "url": "https://carbondesignsystem.com/guidelines/carbon-for-ai/",
+      "source_url": "https://github.com/carbon-design-system/carbon",
+      "license": "Apache-2.0 for Carbon code; IBM branding is separate",
+      "license_url": "https://github.com/carbon-design-system/carbon/blob/main/LICENSE",
+      "workflow": "AI suggestions inside familiar data, form and document interfaces",
+      "integrate": "Mark AI involvement at the result, expose concise explanation on demand, allow human edits and restore the original suggestion.",
+      "paraphrase": "Carbon reserves its AI appearance for actual AI involvement and describes a label leading to local explanations plus reversible human override.",
+      "limits": "Adopt the pattern with independent styling. AI labeling alone does not make answers accurate; chat remains preview in the reviewed page.",
+      "installation": "Use existing Carbon components only in apps already choosing Carbon; otherwise implement the documented pattern independently.",
+      "maintenance": {
+        "repo": "carbon-design-system/carbon",
+        "pushed_at": "2026-10-10T14:18:48Z",
+        "archived": false,
+        "release": "v11.118.0",
+        "release_at": "2026-10-07T15:01:26Z"
+      }
+    },
+    {
+      "id": "hax-undo",
+      "name": "Microsoft HAX: Undo automated actions",
+      "kind": "human-ai-patterns",
+      "url": "https://www.microsoft.com/en-us/haxtoolkit/pattern/g9-c-undo-automated-actions/",
+      "source_url": "https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/",
+      "license": "Public research/design reference; no reusable component license asserted",
+      "workflow": "Correction and recovery after AI changes user work",
+      "integrate": "Identify the changed output, show how to reverse it, preserve useful prior state and offer global controls if repeated correction costs too much.",
+      "paraphrase": "The pattern ties undo to a specific automated alteration and warns that repeated correction can be worse than doing the task manually.",
+      "limits": "Older validated research, not a current component package. Real remote effects may not be reversible; no generic Undo guarantee.",
+      "installation": "Translate the pattern into task-specific acceptance criteria; no package installation.",
+      "maintenance": {
+        "page_published": "2021-05-12",
+        "status": "Foundational pattern; original publication2019, not a fresh software-release claim"
+      }
+    },
+    {
+      "id": "notebook",
+      "name": "NotebookLM / Gemini Notebook source-grounded chat",
+      "kind": "reference-ai-app",
+      "url": "https://support.google.com/gemininotebook/answer/16179559?hl=en",
+      "source_url": "https://support.google.com/notebooklm/answer/16164461?hl=en",
+      "license": "Proprietary Google app and documentation; interaction reference only",
+      "workflow": "Research and source comparison",
+      "integrate": "Show selected source scope beside the question, link each citation to exact source context, and retain citations when saving output.",
+      "paraphrase": "Google support describes source checkboxes, quote previews and navigation to original context; current documentation labels the product Gemini Notebook.",
+      "limits": "Documentation observation, not an end-to-end app audit. Mobile limitations and experimental paid desktop agent functions are explicitly noted.",
+      "installation": "Study interaction architecture; no source code or branded UI copied.",
+      "maintenance": {
+        "status": "Official help fetched2026-10-10; naming differs from older NotebookLM links"
+      }
+    },
+    {
+      "id": "photoshop",
+      "name": "Photoshop Generative Fill",
+      "kind": "reference-ai-app",
+      "url": "https://helpx.adobe.com/photoshop/desktop/create-open-import-images/create-images/edit-images-with-generative-fill.html",
+      "license": "Proprietary Adobe app and documentation; interaction reference only",
+      "workflow": "Selective creative editing",
+      "integrate": "Make the selected region visible before generation, offer variations, and preserve original content through a reversible editing model.",
+      "paraphrase": "Adobe describes selecting an area, generating from an optional prompt and choosing a variation as non-destructive editing.",
+      "limits": "Desktop product reference, not a web component library. Model availability and credits vary; no promise of identical results.",
+      "installation": "Use the selection/preview/commit pattern with independent implementation.",
+      "maintenance": {
+        "status": "Official current help fetched2026-10-10"
+      }
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code operations and checkpointing",
+      "kind": "reference-ai-app",
+      "url": "https://code.claude.com/docs/en/how-claude-code-works",
+      "source_url": "https://code.claude.com/docs/en/checkpointing",
+      "additional_url": "https://code.claude.com/docs/en/permissions",
+      "license": "Product documentation reference; no open-source product license asserted",
+      "workflow": "Agent operations with visible scope and recoverable local changes",
+      "integrate": "Show actual task/tool state, provide interruption and permission scope, preview resulting diffs, and label exactly which actions recovery can restore.",
+      "paraphrase": "Current docs separate interruptions and permissions from file checkpoints; shell, remote and many subagent effects are outside checkpoint restoration.",
+      "limits": "Checkpointing is not rollback of databases, messages or deployments. This is source-observed behavior, not a tested product session.",
+      "installation": "Translate control/evidence/recovery patterns into an app; avoid imitating terminal decoration.",
+      "maintenance": {
+        "status": "Official current docs fetched2026-10-10"
+      }
+    }
+  ],
+  "selected_count": 12,
+  "verification": [
+    "Official docs and canonical source files fetched with Exa",
+    "File-level licenses inspected",
+    "GitHub metadata and release endpoints read directly2026-10-10",
+    "Stale Impeccable source/skills URL rejected after direct404; current .agents skill verifiedHTTP200"
+  ],
+  "limitations": [
+    "No new packages, skills or hooks installed",
+    "No runtime/browser certification of third-party libraries",
+    "No automatic agent indexing or discovery claim",
+    "No reference app treated as a reusable implementation library",
+    "Parent research count8 is separate and not included"
+  ],
+  "selection": "Use a subject-grounded design contract, project-aware component discovery and one primitive base. Keep Liquid Glass an optional material layer; the core remains independent and dependency-free.",
+  "parent_sources_reviewed": 8,
+  "total_sources_reviewed": 68,
+  "parent_search_note": "One parent reference-AI-app discovery search requested8results; exact query is retained in parent tool history, not reproduced here.",
+  "additional_references": [
+    {
+      "name": "Perplexity streaming citation parsing",
+      "url": "https://docs.perplexity.ai/docs/cookbook/articles/streaming-citations/README",
+      "kind": "technical-implementation-reference",
+      "paraphrase": "Collect every search-result batch and resolve numbered citations through stable source IDs while displaying streamed text. Missing batches create unresolved citations.",
+      "limits": "Provider-specificAPI; no reusable code license verified. A resolved link does not establish factual correctness.",
+      "verified": "Exa official page fetch by parent and this agent2026-10-10"
+    },
+    {
+      "name": "Cursor PR review page",
+      "url": "https://cursor.com/docs/cursor-review/pr-page",
+      "kind": "additional-real-app-reference",
+      "paraphrase": "Diff, review conversation, checks and an agent sidebar share context; selected lines can become an agent prompt or specific review feedback.",
+      "limits": "Proprietary product reference, not independently tested. Findings and fixes still need actual evidence.",
+      "verified": "Exa official page fetch by parent and this agent2026-10-10"
+    }
+  ],
+  "supplementary_sources": [
+    {
+      "name": "WAI-ARIA Authoring Practices Guide",
+      "kind": "framework-neutral-behavior-reference",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/",
+      "additional_url": "https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/",
+      "license": "W3C reference guidance; no production component or blanket code-reuse license asserted in this review",
+      "paraphrase": "Patterns describe expected roles, states, keyboard and focus behavior. Prefer native HTML first; ARIA attributes do not implement interaction.",
+      "limits": "APG examples are educational references, not a production library; browser/assistive-technology and mobile/touch behavior still require testing.",
+      "verified": "Official Exa page fetch2026-10-10"
+    },
+    {
+      "name": "Reka UI",
+      "kind": "vue-component-base",
+      "url": "https://reka-ui.com/docs/overview/introduction",
+      "source_url": "https://github.com/unovue/reka-ui",
+      "license": "MIT",
+      "license_url": "https://github.com/unovue/reka-ui/blob/v2/LICENSE",
+      "paraphrase": "Unstyled Vue primitives provide keyboard/focus behavior and controlled or uncontrolled state while leaving visual styling to the app.",
+      "limits": "Vue-specific; preserve semantics and test composed flows. No new dependency or adapter adopted here.",
+      "maintenance": {
+        "pushed_at": "2026-10-10T16:31:49Z",
+        "archived": false,
+        "release": "v2.11.0",
+        "release_at": "2026-10-05T06:27:32Z"
+      },
+      "verified": "Official docs/license fetched; GitHub metadata and latest release checked2026-10-10"
+    },
+    {
+      "name": "Melt UI",
+      "kind": "svelte-builder-reference",
+      "url": "https://melt-ui.com/docs/introduction",
+      "source_url": "https://github.com/melt-ui/melt-ui",
+      "license": "MIT",
+      "license_url": "https://github.com/melt-ui/melt-ui/blob/develop/LICENSE",
+      "paraphrase": "Unstyled Svelte builders supply properties and event handlers for application-owned elements, with per-builder accessibility guidance.",
+      "limits": "Reviewed docs warn about minor-release breaking changes before1.0. Latest GitHub Release observed0.86.6 fromMarch2025; check framework/version fit and maintenance before a new adoption.",
+      "maintenance": {
+        "pushed_at": "2025-09-30T11:08:47Z",
+        "archived": false,
+        "release": "v0.86.6",
+        "release_at": "2025-03-28T21:05:59Z"
+      },
+      "verified": "Official docs/license fetched; GitHub metadata and latest release checked2026-10-10"
+    }
+  ]
+}

@@ -16,6 +16,7 @@ export default defineConfig({
         motion: resolve('site/motion/index.html'),
         optics: resolve('site/optics/index.html'),
         mobile: resolve('site/mobile/index.html'),
+        aiDesign: resolve('site/ai-design/index.html'),
       },
     },
   },

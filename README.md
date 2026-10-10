@@ -12,6 +12,8 @@ Inspired by the feel of Apple's Liquid Glass. Independent open source implementa
 
 The new material workbench and listening room use paper, ink, restrained glass and selected MIT GitLab SVGs. [Design contract](docs/DESIGN.md) · [GitLab UI research and selection](docs/UI_RESEARCH.md).
 
+[AI app interface studies](https://wpsydev.github.io/liquid-glass-kit/ai-design/) demonstrate evidence beside research answers, selective writing edits, and recoverable agent work. The [AI app design resource guide](docs/AI_APP_DESIGN.md) gives coding agents verified resources and a task brief. These are interactive UI studies with sample data, not connected model services.
+
 ## Why another glass library?
 
 The material should fit your app's stack and semantics. Liquid Glass Kit separates the **portable material** from **experimental optical enhancement**:
