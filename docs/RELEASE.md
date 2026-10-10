@@ -1,14 +1,15 @@
-Liquid Glass Kit's motion preview adds reusable spring interactions and a live motion playground.
+Liquid Glass Kit's optics preview adds an optional WebGL2 renderer and an original interactive neon demo.
 
-- `attachGlassMotion`: tactile press/release, directional stretch and spring-driven appearance/exit transitions.
-- `attachGlassIndicator(..., { motion: 'spring' })`: a selection backing that preserves velocity when retargeted. The existing ease mode remains the default.
-- Optional `motion` props in React/Vue and motion attributes on the custom element. The same dependency-free DOM API works in other web stacks.
-- Explicit and system reduced-motion preferences snap transitions; cancellation and cleanup stop work. No animation loop runs at rest.
+- Screen-space analytical wallpaper with rounded-rectangle distance-field normals.
+- Edge refraction with neutral center displacement and independently tuned highlights.
+- Draggable semantic lenses, palette changes, a refraction comparison and existing spring controls.
+- A separate `@wpsydev/liquid-glass/scene` import, with no runtime dependency and no import-time DOM requirement.
+- Pause, motion/transparency preferences, bounded rendering density and context-loss fallback.
 
-[Live motion playground](https://wpsydev.github.io/liquid-glass-kit/motion/) · [API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/API.md) · [Apple motion references](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/MOTION_RESEARCH.md)
+[Live optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/) · [Scene API and limitations](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/SCENE.md) · [Inspiration discussion](https://x.com/okandogubudak/status/2108947960621146517)
 
-Install the attached package archive, or use `npm i github:wpsydev/liquid-glass-kit#v0.3.0-preview.1`. npm registry publication remains pending. The release workflow builds the archive after project checks and includes the recorded video when present.
+Install the attached package archive or `npm i github:wpsydev/liquid-glass-kit#v0.4.0-preview.1`. npm registry publication remains pending.
 
-These are independent web animations inspired by Apple's design principles. Geometry transitions and spring reveals do not reproduce native optical shape merging, shared background sampling or Apple's private compositor. Native controls retain their semantics; applications own routing, focus, popover visibility and dismissal. `enter`/`exit` animate visuals only.
+The renderer refracts only its own procedural canvas. It does not sample arbitrary DOM content or external images/video, implement optical shape union, or reproduce Apple's private compositor. The shader and demo are an original implementation inspired by the public technical discussion. Ordinary CSS material integrations stay independent of this renderer.
 
-Motion controllers own individual scale/opacity and motion variables. Use wrappers around consumers with their own transforms or animations. Attach material first and motion second, then destroy motion before material. See the changelog for exact options and composition guidance. Rendering is verified in the T3 Chromium preview; Safari, Firefox and physical iOS devices are not yet certified.
+Browser validation uses the T3 Chromium preview. Mocked WebGL tests establish lifecycle and API behavior, not optical fidelity. Safari, Firefox and physical iOS devices remain unverified.

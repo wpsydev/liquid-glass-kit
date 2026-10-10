@@ -14,6 +14,7 @@ export default defineConfig({
         campaign: resolve('site/campaign/index.html'),
         behavior: resolve('site/behavior/index.html'),
         motion: resolve('site/motion/index.html'),
+        optics: resolve('site/optics/index.html'),
       },
     },
   },

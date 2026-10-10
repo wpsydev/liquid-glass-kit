@@ -6,7 +6,7 @@ Inspired by the feel of Apple's Liquid Glass. Independent open source implementa
 
 ![Live Liquid Glass Kit playground with material controls](docs/assets/playground.webp)
 
-[Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [Motion lab](https://wpsydev.github.io/liquid-glass-kit/motion/) · [Behavior lab](https://wpsydev.github.io/liquid-glass-kit/behavior/) · [Interactive demos](https://wpsydev.github.io/liquid-glass-kit/campaign/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Apple feature audit](docs/APPLE_PARITY.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
+[Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [Optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/) · [Motion lab](https://wpsydev.github.io/liquid-glass-kit/motion/) · [Behavior lab](https://wpsydev.github.io/liquid-glass-kit/behavior/) · [Interactive demos](https://wpsydev.github.io/liquid-glass-kit/campaign/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Apple feature audit](docs/APPLE_PARITY.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
 
 ## Why another glass library?
 
@@ -116,6 +116,16 @@ Automatic backdrop sampling, arbitrary optical merging, native thickness/scatter
 [Watch the behavior walkthrough](docs/campaign/assets/behavior-showcase.mp4) · [Published X demo](https://x.com/wpsygames/status/2108948352230703519)
 
 ![Live behavior lab: material tuning, selection geometry and scroll separation](docs/assets/behavior-lab.webp)
+
+## Experimental scene optics
+
+[![Interactive neon optics lab](docs/assets/optics-lab.webp)](https://wpsydev.github.io/liquid-glass-kit/optics/)
+
+The [neon optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/) bends an animated, shader-owned background through rounded glass lenses. Screen-space sampling keeps the scene aligned as a lens moves; analytic edge normals concentrate displacement near the boundary and leave the center neutral.
+
+Import `attachGlassScene` from `@wpsydev/liquid-glass/scene` after mounting a canvas. This optional WebGL2 experiment has no runtime dependency and does not enter the CSS core bundle. It refracts its own procedural wallpaper; it does not capture arbitrary DOM, images or video. Keep a CSS fallback. Read [scene setup and limitations](docs/SCENE.md).
+
+The technical direction grew from [Okan Doğu Budak's reply](https://x.com/okandogubudak/status/2108947960621146517); the shader, visuals and demo here are an original implementation.
 
 ## Motion you can reuse
 

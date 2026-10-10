@@ -40,3 +40,14 @@ Deployed behavior verification: GitHub Verify and Publish playground workflows p
 The motion layer approximates web geometry and appearance. Native optical merging/shared sampling remain absent. Whole-surface opacity fades can temporarily change CSS backdrop sampling. Browser RAF is throttled in background previews; no frame-rate claim is made.
 
 Deployed motion verification: GitHub Verify, Publish playground and Publish preview release passed for `bda257d`. The public motion route and both release assets returned HTTP 200. The public demo reproduced motion-off snap/no ambient animations, native popover dismissal and no nested glass or mobile horizontal overflow.
+
+## Owned-scene optics preview — 0.4.0-preview.1
+
+- `npm run check` passed: 61 tests across seven files, package typecheck/build and five site routes. The 14 scene tests mock WebGL to verify SSR import, unsupported contexts, backend draw failure, bounded GPU inputs/observers, pause/system motion/visibility, RAF handle zero, context recovery, exact cleanup and one backend error query per initialization. These tests do not render pixels.
+- Optics demo passed separate strict TypeScript. Package dry run includes the optional scene entrypoint and scene documentation. A fresh packed consumer imports the scene without DOM globals, while the core entry remains independent and dependency-free.
+- Native T3 Chromium/Metal browser verification found a backend failure despite successful GLSL compile/link: the initial shader produced `GL_INVALID_OPERATION` and a black canvas. Simplifying repeated wallpaper evaluation and squared-power expressions fixed the actual render. A first-draw backend error check now reports unsupported and releases resources if a driver fails.
+- The final live shader rendered vivid ribbons with WebGL error 0. With time paused, refraction-off/on pixel samples had identical center [120,105,52,255] and outside [53,167,255,255] values; an edge sample changed from [29,52,80,255] to [32,41,52,255]. This is a narrow observed screen-space comparison, not an optical parity or performance benchmark.
+- ArrowRight moved the lens by 16 CSS pixels. Native context loss switched to CSS fallback and disabled lens comparison; restoration rebuilt the context. Explicit solid mode removed all three surface backdrop filters, and quiet mode retained semantic controls.
+- Desktop 1280×900 fits the scene and controls; responsive 390×844 has no horizontal document overflow and button targets at least 44×44 CSS pixels. No nested glass. Resized Chromium is not physical iOS/Safari certification.
+
+The scene samples only its own generated wallpaper. Arbitrary DOM capture, external texture support, physical optical merging and cross-device fidelity remain unverified or absent.

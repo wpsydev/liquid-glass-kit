@@ -94,3 +94,7 @@ The opacity setting multiplies the variant fill; it does not reproduce Apple's c
 The next iteration adds reusable spring press/release, directional deformation, interruptible spring selection bounds and presentation entry/exit transitions. Motion is optional in core, React, Vue and the custom element; explicit/system reduced motion snaps to the target. See [MOTION_RESEARCH.md](MOTION_RESEARCH.md) for primary Apple references and [the motion lab](https://wpsydev.github.io/liquid-glass-kit/motion/) for actual controller-driven examples.
 
 These implement portable animation behavior, including velocity-preserving retargeting. They do not reproduce native materialization, shared optical sampling or arbitrary shape merging. The baseline matrix remains historical. The core still lacks automatic background-pixel sampling, content-aware shadow, size-dependent scattering, ambient color spill, navigation minimization and OS integration.
+
+## Owned-scene optics follow-up — 0.4.0-preview.1
+
+An optional WebGL2 scene renderer now supplies screen-space procedural wallpaper and analytic rounded-rectangle edge refraction. This closes a narrow experiment gap for applications that own the entire rendered background; it does not supply arbitrary DOM background capture, physical shape union, native optical parity or external texture support. The ordinary CSS path remains the portable default. See [SCENE.md](SCENE.md).

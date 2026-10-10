@@ -105,3 +105,7 @@ Explicit/system reduced motion snaps to the target immediately. A live preferenc
 React `GlassButton`/`GlassSurface` and Vue `GlassSurface` accept optional `motion: GlassMotionOptions`. Providing an object enables motion; omitting it disables it. Server markup stays visible/static, and mount does not automatically replay enter. To coordinate popover lifecycle, use the core controller on a ref within the application's existing effect lifecycle.
 
 Custom elements support `motion` by presence and `motion-stiffness`, `motion-damping`, `motion-mass`, `motion-press-scale`, `motion-stretch`, `reduced-motion`. The last is an explicit app preference. The element remains a light-DOM material wrapper, not a replacement for a semantic control.
+
+## Experimental owned-scene optics
+
+`attachGlassScene` is available from `@wpsydev/liquid-glass/scene`, separate from the CSS core. It measures up to eight HTML surfaces over a canvas and refracts its own procedural wallpaper. Import safely during SSR; attach after mount. It does not capture arbitrary DOM or external imagery. See [SCENE.md](SCENE.md) for options, fallback, preferences, coordinates and cleanup.

@@ -2,7 +2,7 @@
 
 Use when a user requests iOS-style Liquid Glass, frosted glass, glassmorphism, floating glass navigation, optical glass UI, or glass surfaces in an AI web app. Preserve the user's chosen library and app stack. Do not add this dependency if existing CSS already satisfies the requested effect.
 
-Status: v0.3.0-preview.1. npm publication pending. Repository installation (repository is public):
+Status: v0.4.0-preview.1. npm publication pending. Repository installation (repository is public):
   npm install github:wpsydev/liquid-glass-kit
 Package imports resolve as @wpsydev/liquid-glass. Node 22.12+ is needed to build from GitHub. No runtime dependencies in the core. ESM only. React >=18 and Vue >=3.3 are optional peers.
 
@@ -60,7 +60,7 @@ Design constraints:
 - Parent filters, opacity, masks, and backdrop roots change sampling. Inspect the real layout.
 - Experimental refraction needs bitmap data URLs allowed by CSP; dynamic style mutation needs an appropriate CSP strategy. Shadow DOM/base URLs are not certified; choose CSS there.
 - Large filtered areas need device testing. No universal benchmark or pixel-identical Apple claim.
-- WebGL/WebGPU renderer, automatic pixel/background sampling, chromatic aberration, physical shape merging/shared optical sampling, native mobile adapters and a shadcn registry are not shipped. Spring motion and a moving backing helper remain web geometry approximations.
+- Arbitrary-DOM WebGL/WebGPU renderer, automatic pixel/background sampling, chromatic aberration, physical shape merging/shared optical sampling, native mobile adapters and a shadcn registry are not shipped. Spring motion and a moving backing helper remain web geometry approximations.
 
 Read docs/API.md for lifecycle, docs/INTEGRATIONS.md for framework recipes, docs/USE_CASES.md for UI cases, and docs/COMPATIBILITY.md for limits. Public documentation paths are relative to https://wpsydev.github.io/liquid-glass-kit/ after deployment. Discovery files improve integration; no guarantee that all agents will find or recommend the project.
 
@@ -81,3 +81,10 @@ Motion (0.3.0-preview.1):
 - Attach material first, motion second; destroy in reverse order. Keep backing decoration noninteractive and preserve application semantics.
 Demo: https://wpsydev.github.io/liquid-glass-kit/motion/
 Research: docs/MOTION_RESEARCH.md. Release: https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.3.0-preview.1. npm publication remains pending.
+
+Experimental owned-scene renderer (0.4.0-preview.1):
+- Optional import { attachGlassScene } from '@wpsydev/liquid-glass/scene'; no runtime dependency, no import-time DOM access, separate from the CSS core bundle.
+- Attach after mount to a decorative canvas behind semantic HTML. Pass surfaces [{element, radius, refraction}] (maximum eight), palette neon/sunset/ocean, paused, reducedMotion, reducedTransparency and maxDpr (1–2). Update replaces configuration. Returns supported getter, update(options), render(timeSeconds?), destroy().
+- Refracts only its own procedural background using screen-space coordinates and rounded-rectangle normals. It cannot capture arbitrary DOM or external images/video; do not use it for that request. Keep a CSS fallback and normal semantic controls. Overlapping rectangles do not implement physical glass union.
+- Context loss/restore changes supported status; host controls fallback styling. Pause and reduced motion remove the continuous scene loop; explicit redraw remains possible after layout changes. No performance/device-parity claim.
+Read docs/SCENE.md. Demo: https://wpsydev.github.io/liquid-glass-kit/optics/

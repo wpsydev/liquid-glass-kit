@@ -1,0 +1,261 @@
+import { afterEach, describe, expect, it, vi } from 'vitest';
+import { attachGlassScene } from '../src/scene.js';
+
+const scenes: Array<{ destroy(): void }> = [];
+afterEach(() => {
+  scenes.forEach(scene => scene.destroy()); scenes.length = 0;
+  document.body.innerHTML = ''; vi.restoreAllMocks(); vi.unstubAllGlobals();
+});
+
+function clock() {
+  let now = 0, next = 0;
+  const frames = new Map<number, FrameRequestCallback>();
+  vi.spyOn(window.performance, 'now').mockImplementation(() => now);
+  vi.spyOn(window, 'requestAnimationFrame').mockImplementation(callback => {
+    const id = next++; frames.set(id, callback); return id;
+  });
+  const cancel = vi.spyOn(window, 'cancelAnimationFrame').mockImplementation(id => { frames.delete(id); });
+  return {
+    frames, cancel,
+    step(milliseconds = 16) {
+      now += milliseconds; const pending = [...frames.values()]; frames.clear();
+      pending.forEach(callback => callback(now));
+    },
+  };
+}
+
+function preferences() {
+  const values = new Map<string, boolean>();
+  const listeners = new Map<string, Set<() => void>>();
+  const remove = vi.fn((query: string, listener: () => void) => listeners.get(query)?.delete(listener));
+  vi.stubGlobal('matchMedia', (query: string) => {
+    const callbacks = listeners.get(query) ?? new Set<() => void>(); listeners.set(query, callbacks);
+    return {
+      media: query, get matches() { return values.get(query) ?? false; }, onchange: null,
+      addEventListener: (_type: string, listener: () => void) => { callbacks.add(listener); },
+      removeEventListener: (_type: string, listener: () => void) => { remove(query, listener); },
+      addListener: (listener: () => void) => { callbacks.add(listener); },
+      removeListener: (listener: () => void) => { remove(query, listener); }, dispatchEvent: () => true,
+    } as MediaQueryList;
+  });
+  return {
+    listeners, remove,
+    set(query: string, value: boolean) { values.set(query, value); listeners.get(query)?.forEach(callback => callback()); },
+  };
+}
+
+// This mock verifies controller calls and resource ownership; it does not compile
+// GLSL or render pixels. The real shader must also be verified in a live browser.
+function gpu() {
+  const gl = {
+    VERTEX_SHADER: 35633, FRAGMENT_SHADER: 35632, COMPILE_STATUS: 35713, LINK_STATUS: 35714,
+    TRIANGLES: 4, COLOR_BUFFER_BIT: 16384, BLEND: 3042, DEPTH_TEST: 2929, NO_ERROR: 0,
+    createShader: vi.fn(() => ({})), shaderSource: vi.fn(), compileShader: vi.fn(),
+    getShaderParameter: vi.fn(() => true), getShaderInfoLog: vi.fn(() => ''), deleteShader: vi.fn(),
+    createProgram: vi.fn(() => ({})), attachShader: vi.fn(), linkProgram: vi.fn(),
+    getProgramParameter: vi.fn(() => true), getProgramInfoLog: vi.fn(() => ''), deleteProgram: vi.fn(),
+    createVertexArray: vi.fn(() => ({})), bindVertexArray: vi.fn(), deleteVertexArray: vi.fn(),
+    getUniformLocation: vi.fn((_program: unknown, name: string) => ({ name })),
+    uniform1f: vi.fn(), uniform1i: vi.fn(), uniform2f: vi.fn(), uniform3f: vi.fn(), uniform4f: vi.fn(),
+    uniform1fv: vi.fn(), uniform2fv: vi.fn(), uniform4fv: vi.fn(),
+    useProgram: vi.fn(), viewport: vi.fn(), drawArrays: vi.fn(),
+    clearColor: vi.fn(), clear: vi.fn(), disable: vi.fn(), flush: vi.fn(), isContextLost: vi.fn(() => false),
+    getError: vi.fn(() => 0),
+  };
+  return gl;
+}
+
+function fixture() {
+  const gl = gpu(); const canvas = document.createElement('canvas'); document.body.append(canvas);
+  vi.spyOn(canvas, 'getContext').mockReturnValue(gl as unknown as WebGL2RenderingContext);
+  vi.spyOn(canvas, 'getBoundingClientRect').mockReturnValue({ left: 10, top: 20, width: 400, height: 300 } as DOMRect);
+  const surface = document.createElement('button'); surface.textContent = 'Save'; document.body.append(surface);
+  vi.spyOn(surface, 'getBoundingClientRect').mockReturnValue({ left: 30, top: 40, width: 100, height: 60 } as DOMRect);
+  return { gl, canvas, surface };
+}
+
+function track<T extends { destroy(): void }>(scene: T): T { scenes.push(scene); return scene; }
+function intUniform(gl: ReturnType<typeof gpu>, name: string) {
+  return gl.uniform1i.mock.calls.filter(call => (call[0] as { name: string }).name === name).at(-1)?.[1];
+}
+function floatUniform(gl: ReturnType<typeof gpu>, name: string) {
+  return gl.uniform1f.mock.calls.filter(call => (call[0] as { name: string }).name === name).at(-1)?.[1];
+}
+
+describe('experimental owned-scene renderer lifecycle', () => {
+  it('imports without browser globals', async () => {
+    vi.resetModules(); vi.stubGlobal('window', undefined); vi.stubGlobal('document', undefined);
+    try { expect(typeof (await import('../src/scene.js')).attachGlassScene).toBe('function'); }
+    finally { vi.unstubAllGlobals(); }
+  });
+
+  it.each(['missing', 'throws'] as const)('leaves the canvas unchanged when WebGL2 %s', kind => {
+    const time = clock(); const canvas = document.createElement('canvas'); document.body.append(canvas);
+    canvas.setAttribute('width', '123'); canvas.setAttribute('height', '77');
+    const get = vi.spyOn(canvas, 'getContext');
+    if (kind === 'missing') get.mockReturnValue(null); else get.mockImplementation(() => { throw new Error('GPU denied'); });
+    const addCanvas = vi.spyOn(canvas, 'addEventListener'); const addDocument = vi.spyOn(document, 'addEventListener');
+    const scene = track(attachGlassScene(canvas));
+    expect(scene.supported).toBe(false); expect(time.frames.size).toBe(0);
+    expect(canvas.getAttribute('width')).toBe('123'); expect(canvas.getAttribute('height')).toBe('77');
+    expect(addCanvas).not.toHaveBeenCalled(); expect(addDocument).not.toHaveBeenCalled();
+    expect(() => { scene.update({ paused: false }); scene.render(2); scene.destroy(); scene.destroy(); }).not.toThrow();
+    expect(time.frames.size).toBe(0);
+  });
+
+  it('draws a static paused scene and schedules only while connected and active', () => {
+    const time = clock(); preferences(); const { gl, canvas, surface } = fixture();
+    const scene = track(attachGlassScene(canvas, { surfaces: [{ element: surface }], paused: true }));
+    expect(scene.supported).toBe(true); expect(gl.drawArrays).toHaveBeenCalled(); expect(time.frames.size).toBe(0);
+    const before = gl.drawArrays.mock.calls.length; scene.render(3); expect(gl.drawArrays.mock.calls.length).toBe(before + 1);
+    expect(time.frames.size).toBe(0);
+    scene.update({ surfaces: [{ element: surface }] }); expect(time.frames.size).toBe(1);
+    time.step(); expect(time.frames.size).toBe(1);
+    scene.update({ paused: true }); expect(time.frames.size).toBe(0);
+    scene.update(); expect(time.frames.size).toBe(1);
+    canvas.remove(); time.step(); expect(time.frames.size).toBe(0);
+  });
+
+  it('stops and resumes for system motion preferences and document visibility', () => {
+    const time = clock(); const prefs = preferences(); const { canvas } = fixture();
+    let hidden = false; vi.spyOn(document, 'hidden', 'get').mockImplementation(() => hidden);
+    const scene = track(attachGlassScene(canvas)); expect(time.frames.size).toBe(1);
+    prefs.set('(prefers-reduced-motion: reduce)', true); expect(time.frames.size).toBe(0);
+    scene.update({ reducedMotion: false }); expect(time.frames.size).toBe(0);
+    prefs.set('(prefers-reduced-motion: reduce)', false); expect(time.frames.size).toBe(1);
+    hidden = true; document.dispatchEvent(new Event('visibilitychange')); expect(time.frames.size).toBe(0);
+    hidden = false; document.dispatchEvent(new Event('visibilitychange')); expect(time.frames.size).toBe(1);
+    scene.update({ reducedMotion: true }); expect(time.frames.size).toBe(0);
+  });
+
+  it('cancels RAF handle zero, releases resources, removes listeners, and restores dimensions exactly', () => {
+    const time = clock(); const prefs = preferences(); const { gl, canvas } = fixture();
+    canvas.setAttribute('width', '0123'); canvas.removeAttribute('height');
+    const disconnect = vi.fn(); const observe = vi.fn();
+    vi.stubGlobal('ResizeObserver', class { observe = observe; disconnect = disconnect; });
+    const removeCanvas = vi.spyOn(canvas, 'removeEventListener'); const removeDocument = vi.spyOn(document, 'removeEventListener');
+    const scene = track(attachGlassScene(canvas)); expect(time.frames.has(0)).toBe(true);
+    expect(observe).toHaveBeenCalledWith(canvas);
+    disconnect.mockClear();
+    scene.destroy(); const drawCount = gl.drawArrays.mock.calls.length;
+    expect(time.cancel).toHaveBeenCalledWith(0); expect(time.frames.size).toBe(0);
+    expect(gl.deleteProgram).toHaveBeenCalledOnce(); expect(gl.deleteVertexArray).toHaveBeenCalledOnce();
+    expect(gl.deleteShader).toHaveBeenCalledTimes(2); expect(disconnect).toHaveBeenCalledOnce();
+    expect(removeCanvas.mock.calls.map(call => call[0])).toContain('webglcontextlost');
+    expect(removeCanvas.mock.calls.map(call => call[0])).toContain('webglcontextrestored');
+    expect(removeDocument.mock.calls.map(call => call[0])).toContain('visibilitychange');
+    expect([...prefs.listeners.values()].every(listeners => listeners.size === 0)).toBe(true);
+    expect(canvas.getAttribute('width')).toBe('0123'); expect(canvas.hasAttribute('height')).toBe(false);
+    scene.destroy(); scene.render(20); scene.update(); time.step();
+    expect(gl.drawArrays).toHaveBeenCalledTimes(drawCount); expect(gl.deleteProgram).toHaveBeenCalledOnce();
+    expect(time.frames.size).toBe(0);
+  });
+
+  it('stops on context loss and recreates resources after restoration', () => {
+    const time = clock(); preferences(); const { gl, canvas } = fixture();
+    const scene = track(attachGlassScene(canvas));
+    expect(gl.getError).toHaveBeenCalledOnce();
+    const lost = new Event('webglcontextlost', { cancelable: true }); canvas.dispatchEvent(lost);
+    expect(lost.defaultPrevented).toBe(true); expect(scene.supported).toBe(false); expect(time.frames.size).toBe(0);
+    const drawCount = gl.drawArrays.mock.calls.length; scene.render(1); expect(gl.drawArrays).toHaveBeenCalledTimes(drawCount);
+    canvas.dispatchEvent(new Event('webglcontextrestored'));
+    expect(scene.supported).toBe(true); expect(gl.createProgram).toHaveBeenCalledTimes(2);
+    expect(gl.createVertexArray).toHaveBeenCalledTimes(2); expect(time.frames.size).toBe(1);
+    expect(gl.drawArrays.mock.calls.length).toBeGreaterThan(drawCount);
+    expect(gl.getError).toHaveBeenCalledTimes(2);
+  });
+
+  it('disables a backend that links but fails its first draw and immediately releases GPU resources', () => {
+    const time = clock(); preferences(); const { gl, canvas } = fixture();
+    gl.getError.mockReturnValue(1282);
+    const scene = track(attachGlassScene(canvas));
+    expect(gl.getProgramParameter).toHaveReturnedWith(true);
+    expect(gl.drawArrays).toHaveBeenCalledOnce(); expect(gl.getError).toHaveBeenCalledOnce();
+    expect(scene.supported).toBe(false); expect(time.frames.size).toBe(0);
+    expect(gl.deleteProgram).toHaveBeenCalledOnce(); expect(gl.deleteVertexArray).toHaveBeenCalledOnce();
+    expect(gl.deleteShader).toHaveBeenCalledTimes(2);
+    scene.render(1); scene.update(); time.step();
+    expect(gl.drawArrays).toHaveBeenCalledOnce(); expect(time.frames.size).toBe(0);
+    scene.destroy(); expect(gl.deleteProgram).toHaveBeenCalledOnce();
+  });
+
+  it('checks the backend once after initialization without querying errors every frame', () => {
+    const time = clock(); preferences(); const { gl, canvas } = fixture();
+    const scene = track(attachGlassScene(canvas)); expect(gl.getError).toHaveBeenCalledOnce();
+    for (let i = 0; i < 10; i++) time.step();
+    scene.render(2); scene.update({ paused: true }); scene.render(3);
+    expect(gl.drawArrays.mock.calls.length).toBeGreaterThan(10);
+    expect(gl.getError).toHaveBeenCalledOnce(); expect(scene.supported).toBe(true);
+  });
+
+  it.each(['compile', 'link'] as const)('releases partially initialized GPU resources after %s failure', failure => {
+    const time = clock(); preferences(); const { gl, canvas } = fixture();
+    if (failure === 'compile') gl.getShaderParameter.mockReturnValue(false);
+    else gl.getProgramParameter.mockReturnValue(false);
+    const add = vi.spyOn(canvas, 'addEventListener'); const width = canvas.getAttribute('width');
+    const scene = track(attachGlassScene(canvas));
+    expect(scene.supported).toBe(false); expect(time.frames.size).toBe(0);
+    expect(gl.deleteShader).toHaveBeenCalledTimes(2); expect(add).not.toHaveBeenCalled();
+    expect(canvas.getAttribute('width')).toBe(width); expect(gl.drawArrays).not.toHaveBeenCalled();
+    expect(gl.deleteProgram).toHaveBeenCalledTimes(failure === 'link' ? 1 : 0);
+    scene.destroy(); expect(gl.deleteShader).toHaveBeenCalledTimes(2);
+  });
+
+  it('bounds GPU inputs, replaces options, and aligns CSS geometry at fractional backing scales', () => {
+    clock(); preferences(); const { gl, canvas, surface } = fixture();
+    vi.spyOn(window, 'devicePixelRatio', 'get').mockReturnValue(3);
+    vi.spyOn(canvas, 'getBoundingClientRect').mockReturnValue({ left: 10, top: 20, width: 400.25, height: 300.4 } as DOMRect);
+    const scene = track(attachGlassScene(canvas, {
+      paused: true, palette: 'ocean', maxDpr: 100,
+      surfaces: [{ element: surface, radius: -10, refraction: 1000 }],
+    }));
+    expect(canvas.width).toBe(801); expect(canvas.height).toBe(601);
+    const uniforms = gl.uniform2f.mock.calls;
+    expect(uniforms.find(call => (call[0] as { name: string }).name === 'uResolution')?.slice(1)).toEqual([400.25, 300.4]);
+    expect(uniforms.find(call => (call[0] as { name: string }).name === 'uDpr')?.slice(1)).toEqual([801 / 400.25, 601 / 300.4]);
+    expect([...gl.uniform4fv.mock.calls.at(-1)![1] as Float32Array].slice(0, 4)).toEqual([70, 50, 50, 30]);
+    expect([...gl.uniform2fv.mock.calls.at(-1)![1] as Float32Array].slice(0, 2)).toEqual([0, 80]);
+    expect(intUniform(gl, 'uPalette')).toBe(2); expect(intUniform(gl, 'uCount')).toBe(1);
+    scene.render(-3); expect(floatUniform(gl, 'uTime')).toBe(0);
+    scene.render(7); scene.render(Infinity); expect(floatUniform(gl, 'uTime')).toBe(7);
+    scene.update({ paused: true, maxDpr: -10, surfaces: [{ element: surface, radius: NaN, refraction: Infinity }] });
+    expect(canvas.width).toBe(400); expect(canvas.height).toBe(300);
+    expect([...gl.uniform2fv.mock.calls.at(-1)![1] as Float32Array].slice(0, 2)).toEqual([28, 22]);
+    expect(intUniform(gl, 'uPalette')).toBe(0);
+    scene.update({ paused: true }); expect(intUniform(gl, 'uCount')).toBe(0);
+  });
+
+  it('bounds stored surfaces and observers to eight mounted entries and leaves native controls unchanged', () => {
+    clock(); preferences(); const { gl, canvas, surface } = fixture();
+    const disconnected = document.createElement('button');
+    const wrongDocument = document.implementation.createHTMLDocument().createElement('button');
+    const zeroSize = document.createElement('div'); document.body.append(zeroSize);
+    const candidates = Array.from({ length: 10 }, () => {
+      const element = document.createElement('button'); document.body.append(element);
+      vi.spyOn(element, 'getBoundingClientRect').mockReturnValue({ left: 30, top: 40, width: 100, height: 60 } as DOMRect);
+      return { element };
+    });
+    surface.setAttribute('aria-label', 'Save project'); surface.className = 'existing'; surface.style.color = 'red';
+    const clicked = vi.fn(); surface.addEventListener('click', clicked); surface.focus(); const before = surface.outerHTML;
+    const observe = vi.fn(); vi.stubGlobal('ResizeObserver', class { observe = observe; disconnect() {} });
+    track(attachGlassScene(canvas, { paused: true, surfaces: [{ element: disconnected }, { element: wrongDocument }, { element: zeroSize }, { element: surface }, ...candidates] }));
+    // A mounted zero-size surface keeps a reserved slot so it can become visible.
+    expect(intUniform(gl, 'uCount')).toBe(7); expect(observe).toHaveBeenCalledTimes(9);
+    expect(surface.outerHTML).toBe(before);
+    expect(document.activeElement).toBe(surface); surface.click(); expect(clicked).toHaveBeenCalledOnce();
+  });
+
+  it('honors explicit and system solid-material preferences without altering host semantics', () => {
+    clock(); const prefs = preferences(); const { gl, canvas, surface } = fixture();
+    const scene = track(attachGlassScene(canvas, { paused: true, surfaces: [{ element: surface }] }));
+    expect(intUniform(gl, 'uSolid')).toBe(0);
+    scene.update({ paused: true, reducedTransparency: true }); expect(intUniform(gl, 'uSolid')).toBe(1);
+    scene.update({ paused: true, reducedTransparency: false }); expect(intUniform(gl, 'uSolid')).toBe(0);
+    for (const query of ['(prefers-reduced-transparency: reduce)', '(prefers-contrast: more)', '(forced-colors: active)']) {
+      prefs.set(query, true); expect(intUniform(gl, 'uSolid')).toBe(1);
+      scene.update({ paused: true, reducedTransparency: false }); expect(intUniform(gl, 'uSolid')).toBe(1);
+      prefs.set(query, false); expect(intUniform(gl, 'uSolid')).toBe(0);
+    }
+    expect(surface.hidden).toBe(false); expect(surface.hasAttribute('aria-hidden')).toBe(false);
+  });
+});

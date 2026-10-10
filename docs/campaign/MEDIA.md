@@ -62,3 +62,14 @@ The final mobile overflow containment does not change the recorded desktop compo
 
 Published motion video post: https://x.com/wpsygames/status/2108956899718656041
 Release/install reply: https://x.com/wpsygames/status/2108957155802177814
+
+## Owned-scene optics update — 2026-10-10
+
+`assets/optics-showcase.mp4`: 26 seconds, 1280×900, H.264/yuv420p at 30 fps, 3,363,354 bytes. Native T3 Chromium recording of the production-built optics demo, with real WebGL2 scene rendering, moving measured lenses, tactile/spring controls, palette changes, refraction off/on and solid/quiet fallback. The native recording was trimmed and encoded with FFmpeg; no audio, copied artwork or composited glass footage. Sampled frames at 1, 5, 10, 13, 18 and 23 seconds show the actual states. Full decoding passed. Export frame rate is not measured device performance.
+
+Captured from a self-contained production bundle transferred into the preview because its localhost serves another application. The shader refracts only its own procedural wallpaper; foreground labels remain HTML. Source inspiration is [Okan Doğu Budak's screen-space discussion](https://x.com/okandogubudak/status/2108947960621146517), credited in the demo and launch copy. Shader, visuals and demo are original.
+
+Live demo: https://wpsydev.github.io/liquid-glass-kit/optics/
+Release: https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.4.0-preview.1
+
+Existing scheduled posts remain unchanged. No native optical parity, arbitrary DOM refraction, physical-device performance or social reach is claimed.

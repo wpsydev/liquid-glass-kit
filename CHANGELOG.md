@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.0-preview.1 — Experimental owned-scene optics
+
+- Added optional `@wpsydev/liquid-glass/scene`: a WebGL2 procedural scene with screen-space sampling, analytic rounded-rectangle normals, neutral center displacement and separate edge highlights.
+- Added the interactive neon optics lab and a recorded walkthrough with refraction comparison, draggable lenses, palettes and preference controls.
+- Core CSS material remains independent of the optional renderer. This experiment refracts its own procedural canvas, not arbitrary DOM content or external imagery.
+
+
 ## 0.3.0-preview.1 — Motion preview
 
 - Added `attachGlassMotion`: spring press/release, localized directional stretch and visual enter/exit transitions with completion/cancellation promises.

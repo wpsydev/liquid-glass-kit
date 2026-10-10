@@ -26,7 +26,7 @@ This matrix covers common application scenarios and explicitly identifies limits
 | Iframes | Element owning document | Supports document/window ownership; do not access cross-origin frames |
 | Shadow DOM | CSS-only path | Provide stylesheet inside shadow root; experimental document filter IDs not certified |
 | Strict CSP | Static class + external CSS | Omit refraction unless bitmap/style policy permits it |
-| Canvas / WebGL app | CSS overlay controls | Texture-based optical renderer is future work |
+| Canvas / WebGL app | CSS overlay controls or optional procedural scene | Owned-scene refraction only; external texture rendering remains future work |
 | Native React Native / Expo | Out of web scope | Use native material primitives; web exports need DOM |
 
 ## Native dialog recipe
