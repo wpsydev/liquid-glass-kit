@@ -5,6 +5,8 @@ export interface GlassOptions {
   /** App-provided backdrop tone. Used only when appearance is auto; no DOM sampling. */
   backdrop?: 'auto' | 'light' | 'dark';
   radius?: number;
+  /** Optional web superellipse enhancement; unsupported engines retain round corners. */
+  corner?: 'round' | 'continuous';
   blur?: number;
   saturation?: number;
   /** Material fill strength, 0–1. Accessibility can still force an opaque material. */
@@ -31,6 +33,7 @@ export function resolveOptions(options: GlassOptions = {}): ResolvedGlassOptions
     appearance: tone(options.appearance),
     backdrop: tone(options.backdrop),
     radius: finite(options.radius, 24, 0, 999),
+    corner: options.corner === 'continuous' ? 'continuous' : 'round',
     blur: finite(options.blur, variant === 'clear' ? 6 : 18, 0, 64),
     saturation: finite(options.saturation, 1.35, 0, 3),
     opacity: finite(options.opacity, 1, 0, 1),
@@ -51,9 +54,14 @@ export function getGlassProps(options: GlassOptions = {}) {
     'data-lg-backdrop': o.backdrop,
     'data-lg-solid': String(o.reducedTransparency),
     'data-lg-interactive': String(o.interactive),
+    'data-lg-corner': o.corner,
     style: {
       '--lg-radius': `${o.radius}px`, '--lg-blur': `${o.blur}px`, '--lg-saturation': String(o.saturation),
       '--lg-opacity': String(o.opacity), '--lg-tint': o.tint, '--lg-tint-opacity': String(o.tintOpacity),
     } as Record<string, string>,
   };
+}
+/** Concentric circular-corner approximation, in CSS pixels; also useful as a nesting token. */
+export function getGlassInnerRadius(outerRadius: number, inset: number): number {
+  return Math.max(0, finite(outerRadius, 0, 0, 999) - finite(inset, 0, 0, 999));
 }

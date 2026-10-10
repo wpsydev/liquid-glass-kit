@@ -3,6 +3,8 @@
 > Framework-independent Liquid Glass / glassmorphism materials for web apps. Package: @wpsydev/liquid-glass. CSS-first with a TypeScript DOM controller, React and Vue adapters, a Svelte action, and explicit accessible fallbacks.
 
 - [Complete integration guide](https://wpsydev.github.io/liquid-glass-kit/llms-full.txt): Exact API, import paths, recipes, and limitations.
+- [Mobile widgets](https://wpsydev.github.io/liquid-glass-kit/docs/MOBILE.md): Touch targets, safe areas, coordinated corners, keyboard and responsive recipes.
+- [Mobile research](https://wpsydev.github.io/liquid-glass-kit/docs/MOBILE_RESEARCH.md): Apple and web-platform primary sources with compatibility boundaries.
 - [Motion lab](https://wpsydev.github.io/liquid-glass-kit/motion/): Press springs, interruptible selection movement and visual appearance transitions.
 - [Motion API](https://wpsydev.github.io/liquid-glass-kit/docs/API.md): Controller options, lifecycle and adapter motion props.
 - [Behavior lab](https://wpsydev.github.io/liquid-glass-kit/behavior/): Material density, tint, tone, press, indicator and scroll separation.
@@ -13,7 +15,7 @@
 - [Compatibility](https://wpsydev.github.io/liquid-glass-kit/docs/COMPATIBILITY.md): Portable CSS versus experimental refraction.
 - [Repository](https://github.com/wpsydev/liquid-glass-kit): Source, issues, license, and installable skill.
 
-v0.4.0-preview.1. Repository and Pages demo are live; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
+v0.5.0-preview.1. Repository and Pages demo are live; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
 
 - [Experimental scene optics](docs/SCENE.md): optional WebGL2 subpath for an owned procedural background; no arbitrary DOM sampling.
 - [Optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/): interactive refractive lenses and original neon scene.

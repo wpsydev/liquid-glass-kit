@@ -13,6 +13,7 @@ Import `@wpsydev/liquid-glass/styles.css` once. Core imports have no framework o
 | `tint` | `#ffffff` | Semantic hue, #RGB or #RRGGBB only |
 | `tintOpacity` | `0` | Separate semantic tint layer alpha, 0–1 |
 | `radius` | `24` | CSS pixels, clamped 0–999 |
+| `corner` | `round` | `round` or optional `continuous` superellipse; rounded fallback when unsupported; SVG rendering stays round |
 | `blur` | regular `18`, clear `6` | CSS pixels, clamped 0–64 |
 | `saturation` | `1.35` | Scalar, clamped 0–3 |
 | `refraction` | `0` | SVG displacement pixels, clamped 0–60; experimental Chromium path |
@@ -31,11 +32,15 @@ SVG maps regenerate on resize, options changes, and relevant preference changes.
 
 ## getGlassProps(options?)
 
-A pure SSR-safe function returning `{ className, style, 'data-lg-variant', 'data-lg-appearance', 'data-lg-backdrop', 'data-lg-solid', 'data-lg-interactive' }`. `style` contains CSS variables. React can spread it directly; other frameworks can rename className to class. It does not install event listeners or refraction filters.
+A pure SSR-safe function returning `{ className, style, 'data-lg-variant', 'data-lg-appearance', 'data-lg-backdrop', 'data-lg-solid', 'data-lg-interactive', 'data-lg-corner' }`. `style` contains CSS variables. React can spread it directly; other frameworks can rename className to class. It does not install event listeners or refraction filters.
 
 ## getGlassCapabilities(view?)
 
-Returns `{ backdrop, experimentalRefraction }`. The first reports syntax support for blur; the second is a **conservative Chromium hint** plus URL filter syntax support. CSS parsing cannot prove the compositor actually rendered a lens. Do not present this as a visual or performance guarantee. `data-lg-renderer` reports the path requested by the controller: `solid`, `css`, or `svg-experimental`.
+Returns `{ backdrop, experimentalRefraction, continuousCorners }`. `continuousCorners` reports syntax support for the independent `superellipse(1.5)` shape; it is not an Apple geometry or visual guarantee. The first reports syntax support for blur; the second is a **conservative Chromium hint** plus URL filter syntax support. CSS parsing cannot prove the compositor actually rendered a lens. Do not present this as a visual or performance guarantee. `data-lg-renderer` reports the path requested by the controller: `solid`, `css`, or `svg-experimental`.
+
+## getGlassInnerRadius(outerRadius, inset)
+
+Pure SSR-safe helper for coordinated corners: `max(0, outerRadius − inset)`, with inputs clamped 0–999. The total inset includes borders. This is exact for uniformly inset circular curves before CSS radius normalization; for continuous corners it is a visual coordination token. See [mobile design](MOBILE.md) for the input fallback contract and recipes.
 
 ## createDisplacementMap(width, height, radius)
 
@@ -53,11 +58,15 @@ No headless dialog/menu state is included. Compose with native dialog/popover or
 
 ## Custom element
 
-`registerGlassElement(name = 'liquid-glass', view?)` from `/element` explicitly registers the light-DOM element. Importing is SSR-safe; registration is a no-op without a browser. Supported attributes: variant, appearance, backdrop, radius, blur, saturation, opacity, tint, tint-opacity, refraction, interactive, reduced-transparency. Boolean attributes are enabled by presence. Supply `display: block` or your desired layout. Wrap semantic children; the element itself does not replace a button or nav.
+`registerGlassElement(name = 'liquid-glass', view?)` from `/element` explicitly registers the light-DOM element. Importing is SSR-safe; registration is a no-op without a browser. Supported attributes: variant, appearance, backdrop, radius, corner, blur, saturation, opacity, tint, tint-opacity, refraction, interactive, reduced-transparency. Boolean attributes are enabled by presence. Supply `display: block` or your desired layout. Wrap semantic children; the element itself does not replace a button or nav.
 
 ## CSS helpers
 
-`.lg-glass` is the material; `.lg-panel` adds padding; `.lg-button` styles native buttons with a 44px minimum target; `.lg-toolbar` lays out direct button children; The old `.lg-scroll-edge` helper is now unmasked to preserve essential content and focus. Use the dedicated overlay helper below.
+`.lg-glass` is the material; `.lg-panel` adds padding; `.lg-button` styles native buttons with a 44px minimum target; `.lg-toolbar` wraps direct button children and long labels to keep them within the container; The old `.lg-scroll-edge` helper is now unmasked to preserve essential content and focus. Use the dedicated overlay helper below.
+
+Opt-in `.lg-touch-target` supplies a 44×44 CSS-pixel minimum without changing semantics. `.lg-mobile-viewport` supplies `min-height: 100vh` with a supported `100dvh` enhancement. `.lg-safe-area` sets four paddings to ordinary spacing plus `env(safe-area-inset-*)`: `--lg-safe-gap` defaults to 16px, with `--lg-safe-top/right/bottom/left` overrides. Use it on a layout wrapper; avoid overriding these paddings accidentally. It does not measure software keyboards.
+
+`corner: continuous` feature-gates the same profile on the material and its decoration. Existing circular round geometry remains the default. The SVG experimental renderer forces round geometry; owned-scene lenses require round surfaces.
 
 ## Material tuning and input feedback
 
@@ -65,7 +74,7 @@ No headless dialog/menu state is included. Compose with native dialog/popover or
 
 `appearance: 'auto', backdrop: 'light'` chooses light fill and dark ink; `backdrop: 'dark'` chooses dark fill and light ink. Explicit appearance wins. With backdrop auto the OS scheme applies; clear's legacy auto light-theme path uses dark fill and bright ink for controlled media. A backdrop hint is information your app supplies, not automatic reading of arbitrary DOM pixels. Test contrast on real images, including opacity zero; no tone or tint option guarantees contrast.
 
-Interactive controllers localize press lighting on touch as well as pointer input, and reset press state on pointer release/cancel, capture loss, focus loss, window blur, update and destruction. Space/Enter feedback on native buttons/links and role=button surfaces does not implement their keyboard behavior. Keep native controls; the controller never prevents native clicks. Native disabled and aria-disabled surfaces suppress feedback. Reduced motion suppresses press lighting/deformation; CSS-only interactive lg-button users get :active scaling with the same preference override.
+Interactive controllers retain the first primary pointer and ignore unrelated pointer releases or secondary fingers. A descendant semantic control owns its tap, so containing material/motion surfaces do not also press. Hover decoration is restricted to hover-capable fine pointers. Controllers preserve scrolling and zoom gestures without pointer capture or event prevention. They localize press lighting on touch as well as pointer input, and reset press state on pointer release/cancel, capture loss, focus loss, window blur, update and destruction. Space/Enter feedback on native buttons/links and role=button surfaces does not implement their keyboard behavior. Keep native controls; the controller never prevents native clicks. Native disabled and aria-disabled surfaces suppress feedback. Reduced motion suppresses press lighting/deformation; CSS-only interactive lg-button users get :active scaling with the same preference override.
 
 ## attachGlassScrollEdge(scrollport, edgeLayer, options?)
 

@@ -1,7 +1,8 @@
-import { getGlassProps, resolveOptions } from './material.js';
+import { getGlassProps, getGlassInnerRadius, resolveOptions } from './material.js';
+import { glassPointerId, isGlassPressTarget } from './input.js';
 import type { GlassOptions } from './material.js';
 import { createDisplacementMap } from './optics.js';
-export { getGlassProps, resolveOptions, createDisplacementMap };
+export { getGlassProps, getGlassInnerRadius, resolveOptions, createDisplacementMap };
 export type { GlassOptions, ResolvedGlassOptions } from './material.js';
 
 /** Conservative engine hint, not proof that an SVG filter rendered. */
@@ -11,11 +12,12 @@ export function getGlassCapabilities(view?: Window) {
   return {
     backdrop: Boolean(css?.supports('backdrop-filter', 'blur(1px)') || css?.supports('-webkit-backdrop-filter', 'blur(1px)')),
     experimentalRefraction: Boolean(w && /Chrome|Chromium|Edg\//.test(w.navigator.userAgent) && css?.supports('backdrop-filter', 'url("#lg-test")')),
+    continuousCorners: Boolean(css?.supports('corner-shape', 'superellipse(1.5)')),
   };
 }
 let serial = 0;
 const properties = ['--lg-radius', '--lg-blur', '--lg-saturation', '--lg-filter', '--lg-pointer-x', '--lg-pointer-y', '--lg-opacity', '--lg-tint', '--lg-tint-opacity'];
-const attributes = ['data-lg-variant', 'data-lg-appearance', 'data-lg-solid', 'data-lg-interactive', 'data-lg-renderer', 'data-lg-backdrop', 'data-lg-pressed'];
+const attributes = ['data-lg-variant', 'data-lg-appearance', 'data-lg-solid', 'data-lg-interactive', 'data-lg-renderer', 'data-lg-backdrop', 'data-lg-pressed', 'data-lg-corner'];
 /** Enhance an existing semantic element. One controller per element; destroy before reattaching. */
 export function attachGlass(element: HTMLElement, initial: GlassOptions = {}) {
   const doc = element.ownerDocument;
@@ -24,6 +26,8 @@ export function attachGlass(element: HTMLElement, initial: GlassOptions = {}) {
   let options = resolveOptions(initial);
   let destroyed = false;
   let frame = 0;
+  let activePointer: number | null = null;
+  let activeKey: string | null = null;
   let svg: SVGSVGElement | undefined;
   const hadClass = element.classList.contains('lg-glass');
   const originalStyles = properties.map(key => [key, element.style.getPropertyValue(key), element.style.getPropertyPriority(key)]);
@@ -75,24 +79,26 @@ export function attachGlass(element: HTMLElement, initial: GlassOptions = {}) {
     element.style.setProperty('--lg-pointer-x', `${Math.max(0, Math.min(100, (event.clientX - rect.left) / rect.width * 100))}%`);
     element.style.setProperty('--lg-pointer-y', `${Math.max(0, Math.min(100, (event.clientY - rect.top) / rect.height * 100))}%`);
   };
-  const move = (event: PointerEvent) => { if (event.pointerType !== 'touch') locatePointer(event); };
-  const release = () => { element.removeAttribute('data-lg-pressed'); resetPointer(); };
+  const move = (event: PointerEvent) => { if (event.pointerType !== 'touch' && isGlassPressTarget(element, event)) locatePointer(event); };
+  const release = () => { activePointer = null; activeKey = null; element.removeAttribute('data-lg-pressed'); resetPointer(); };
+  const pointerRelease = (event: PointerEvent) => { if (activePointer !== null && (event.pointerId === undefined || glassPointerId(event) === activePointer)) release(); };
   const press = (event: PointerEvent) => {
-    if (!options.interactive || reduced?.matches || (event.button !== undefined && event.button !== 0) || element.matches(':disabled, [aria-disabled="true"]')) return;
+    if (!options.interactive || reduced?.matches || activePointer !== null || activeKey !== null || event.isPrimary === false || !isGlassPressTarget(element, event) || (event.button !== undefined && event.button !== 0) || element.matches(':disabled, [aria-disabled="true"]')) return;
+    activePointer = glassPointerId(event);
     locatePointer(event); element.setAttribute('data-lg-pressed', 'true');
   };
   const keyPress = (event: KeyboardEvent) => {
-    if (event.target !== element || !options.interactive || reduced?.matches || element.matches(':disabled, [aria-disabled="true"]')) return;
-    if ((event.key === ' ' || event.key === 'Enter') && element.matches('button, [role="button"], a[href]')) element.setAttribute('data-lg-pressed', 'true');
+    if (event.target !== element || event.repeat || activePointer !== null || activeKey !== null || !options.interactive || reduced?.matches || element.matches(':disabled, [aria-disabled="true"]')) return;
+    if ((event.key === ' ' || event.key === 'Enter') && element.matches('button, [role="button"], a[href]')) { activeKey = event.key; element.setAttribute('data-lg-pressed', 'true'); }
   };
-  const keyRelease = (event: KeyboardEvent) => { if (event.key === ' ' || event.key === 'Enter') release(); };
+  const keyRelease = (event: KeyboardEvent) => { if (event.target === element && event.key === activeKey) release(); };
   const preferenceChanged = () => { resetPointer(); release(); reportRenderer(); scheduleLens(); };
   const media = [reduced, transparency, contrast, forced];
   for (const query of media) query?.addEventListener('change', preferenceChanged);
   element.addEventListener('pointermove', move); element.addEventListener('pointerleave', resetPointer);
   element.addEventListener('pointerdown', press); element.addEventListener('keydown', keyPress); element.addEventListener('keyup', keyRelease);
-  element.addEventListener('lostpointercapture', release); element.addEventListener('focusout', release); view.addEventListener('blur', release);
-  view.addEventListener('pointerup', release); view.addEventListener('pointercancel', release);
+  element.addEventListener('lostpointercapture', pointerRelease); element.addEventListener('focusout', release); view.addEventListener('blur', release);
+  view.addEventListener('pointerup', pointerRelease); view.addEventListener('pointercancel', pointerRelease);
   const Resize = (view as Window & { ResizeObserver?: typeof ResizeObserver }).ResizeObserver;
   const observer = Resize ? new Resize(scheduleLens) : undefined; observer?.observe(element);
   const update = (next: GlassOptions = {}) => {
@@ -113,8 +119,8 @@ export function attachGlass(element: HTMLElement, initial: GlassOptions = {}) {
       for (const query of media) query?.removeEventListener('change', preferenceChanged);
       element.removeEventListener('pointermove', move); element.removeEventListener('pointerleave', resetPointer);
       element.removeEventListener('pointerdown', press); element.removeEventListener('keydown', keyPress); element.removeEventListener('keyup', keyRelease);
-      element.removeEventListener('lostpointercapture', release); element.removeEventListener('focusout', release); view.removeEventListener('blur', release);
-      view.removeEventListener('pointerup', release); view.removeEventListener('pointercancel', release);
+      element.removeEventListener('lostpointercapture', pointerRelease); element.removeEventListener('focusout', release); view.removeEventListener('blur', release);
+      view.removeEventListener('pointerup', pointerRelease); view.removeEventListener('pointercancel', pointerRelease);
       if (!hadClass) element.classList.remove('lg-glass');
       for (const [key, value, priority] of originalStyles) value ? element.style.setProperty(key, value, priority) : element.style.removeProperty(key);
       for (const [key, value] of originalAttrs) value === null ? element.removeAttribute(key!) : element.setAttribute(key!, value!);

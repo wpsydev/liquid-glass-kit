@@ -1,0 +1,465 @@
+{
+  "date": "2026-10-10",
+  "browser": "T3 collaborative Chromium (desktop engine resized; not physical phones)",
+  "suite": "mobile studio, final production-built self-contained preview",
+  "viewportMatrix": [
+    {
+      "bodyHeight": 1088,
+      "clientWidth": 305,
+      "corner": "superellipse(1.5)",
+      "height": 480,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 305,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 320,
+      "sheet": {
+        "bottom": 466,
+        "inputFont": "16px",
+        "left": 14,
+        "open": true,
+        "right": 281,
+        "top": 18
+      }
+    },
+    {
+      "bodyHeight": 1088,
+      "clientWidth": 305,
+      "corner": "superellipse(1.5)",
+      "height": 568,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 305,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 320,
+      "sheet": {
+        "bottom": 554,
+        "inputFont": "16px",
+        "left": 14,
+        "open": true,
+        "right": 281,
+        "top": 42.9140625
+      }
+    },
+    {
+      "bodyHeight": 1088,
+      "clientWidth": 345,
+      "corner": "superellipse(1.5)",
+      "height": 640,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 345,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 360,
+      "sheet": {
+        "bottom": 626,
+        "inputFont": "16px",
+        "left": 14,
+        "open": true,
+        "right": 321,
+        "top": 135.3046875
+      }
+    },
+    {
+      "bodyHeight": 1088,
+      "clientWidth": 345,
+      "corner": "superellipse(1.5)",
+      "height": 800,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 345,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 360,
+      "sheet": {
+        "bottom": 786,
+        "inputFont": "16px",
+        "left": 14,
+        "open": true,
+        "right": 321,
+        "top": 295.3046875
+      }
+    },
+    {
+      "bodyHeight": 1180,
+      "clientWidth": 360,
+      "corner": "superellipse(1.5)",
+      "height": 667,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 360,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 375,
+      "sheet": {
+        "bottom": 653,
+        "inputFont": "16px",
+        "left": 14,
+        "open": true,
+        "right": 336,
+        "top": 162.3046875
+      }
+    },
+    {
+      "bodyHeight": 1079,
+      "clientWidth": 375,
+      "corner": "superellipse(1.5)",
+      "height": 844,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 375,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 390,
+      "sheet": {
+        "bottom": 830,
+        "inputFont": "16px",
+        "left": 14,
+        "open": true,
+        "right": 351,
+        "top": 339.3046875
+      }
+    },
+    {
+      "bodyHeight": 1079,
+      "clientWidth": 378,
+      "corner": "superellipse(1.5)",
+      "height": 852,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 378,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 393,
+      "sheet": {
+        "bottom": 838,
+        "inputFont": "16px",
+        "left": 14,
+        "open": true,
+        "right": 354,
+        "top": 347.3046875
+      }
+    },
+    {
+      "bodyHeight": 1079,
+      "clientWidth": 397,
+      "corner": "superellipse(1.5)",
+      "height": 915,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 397,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 412,
+      "sheet": {
+        "bottom": 901,
+        "inputFont": "16px",
+        "left": 14,
+        "open": true,
+        "right": 373,
+        "top": 410.3046875
+      }
+    },
+    {
+      "bodyHeight": 1079,
+      "clientWidth": 415,
+      "corner": "superellipse(1.5)",
+      "height": 932,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 415,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 430,
+      "sheet": {
+        "bottom": 918,
+        "inputFont": "16px",
+        "left": 14,
+        "open": true,
+        "right": 391,
+        "top": 427.3046875
+      }
+    },
+    {
+      "bodyHeight": 1079,
+      "clientWidth": 465,
+      "corner": "superellipse(1.5)",
+      "height": 800,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 465,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 480,
+      "sheet": {
+        "bottom": 786,
+        "inputFont": "16px",
+        "left": 32.5,
+        "open": true,
+        "right": 432.5,
+        "top": 295.3046875
+      }
+    },
+    {
+      "bodyHeight": 1079,
+      "clientWidth": 525,
+      "corner": "superellipse(1.5)",
+      "height": 720,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 525,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 540,
+      "sheet": {
+        "bottom": 706,
+        "inputFont": "16px",
+        "left": 62.5,
+        "open": true,
+        "right": 462.5,
+        "top": 215.3046875
+      }
+    },
+    {
+      "bodyHeight": 849,
+      "clientWidth": 553,
+      "corner": "superellipse(1.5)",
+      "height": 320,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 553,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 568,
+      "sheet": {
+        "bottom": 308,
+        "inputFont": "16px",
+        "left": 76.5,
+        "open": true,
+        "right": 476.5,
+        "top": 12
+      }
+    },
+    {
+      "bodyHeight": 849,
+      "clientWidth": 652,
+      "corner": "superellipse(1.5)",
+      "height": 375,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 652,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 667,
+      "sheet": {
+        "bottom": 363,
+        "inputFont": "16px",
+        "left": 126,
+        "open": true,
+        "right": 526,
+        "top": 12
+      }
+    },
+    {
+      "bodyHeight": 910,
+      "clientWidth": 829,
+      "corner": "superellipse(1.5)",
+      "height": 390,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 829,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 844,
+      "sheet": {
+        "bottom": 376,
+        "inputFont": "16px",
+        "left": 214.5,
+        "open": true,
+        "right": 614.5,
+        "top": 18
+      }
+    },
+    {
+      "bodyHeight": 910,
+      "clientWidth": 917,
+      "corner": "superellipse(1.5)",
+      "height": 430,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 917,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 932,
+      "sheet": {
+        "bottom": 416,
+        "inputFont": "16px",
+        "left": 258.5,
+        "open": true,
+        "right": 658.5,
+        "top": 18
+      }
+    },
+    {
+      "bodyHeight": 1024,
+      "clientWidth": 768,
+      "corner": "superellipse(1.5)",
+      "height": 1024,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 768,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 768,
+      "sheet": {
+        "bottom": 1010,
+        "inputFont": "16px",
+        "left": 184,
+        "open": true,
+        "right": 584,
+        "top": 519.3046875
+      }
+    },
+    {
+      "bodyHeight": 1180,
+      "clientWidth": 820,
+      "corner": "superellipse(1.5)",
+      "height": 1180,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 820,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 820,
+      "sheet": {
+        "bottom": 1166,
+        "inputFont": "16px",
+        "left": 210,
+        "open": true,
+        "right": 610,
+        "top": 675.3046875
+      }
+    },
+    {
+      "bodyHeight": 977,
+      "clientWidth": 1009,
+      "corner": "superellipse(1.5)",
+      "height": 768,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 1009,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 1024,
+      "sheet": {
+        "bottom": 754,
+        "inputFont": "16px",
+        "left": 304.5,
+        "open": true,
+        "right": 704.5,
+        "top": 263.3046875
+      }
+    },
+    {
+      "bodyHeight": 977,
+      "clientWidth": 1265,
+      "corner": "superellipse(1.5)",
+      "height": 800,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 1265,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 1280,
+      "sheet": {
+        "bottom": 786,
+        "inputFont": "16px",
+        "left": 432.5,
+        "open": true,
+        "right": 832.5,
+        "top": 295.3046875
+      }
+    },
+    {
+      "bodyHeight": 1080,
+      "clientWidth": 1920,
+      "corner": "superellipse(1.5)",
+      "height": 1080,
+      "horizontalOverflow": false,
+      "outsideHorizontal": [],
+      "scrollWidth": 1920,
+      "smallTargets": [],
+      "targets": 14,
+      "width": 1920,
+      "sheet": {
+        "bottom": 1066,
+        "inputFont": "16px",
+        "left": 760,
+        "open": true,
+        "right": 1160,
+        "top": 575.3046875
+      }
+    }
+  ],
+  "textEnlargement": {
+    "method": "Double every computed HTML font size; layout simulation, not physical OS text settings",
+    "results": [
+      {
+        "clientWidth": 305,
+        "height": 568,
+        "scrollWidth": 305,
+        "width": 320
+      },
+      {
+        "clientWidth": 375,
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      },
+      {
+        "clientWidth": 553,
+        "height": 320,
+        "scrollWidth": 553,
+        "width": 568
+      },
+      {
+        "clientWidth": 753,
+        "height": 1024,
+        "scrollWidth": 753,
+        "width": 768
+      }
+    ]
+  },
+  "extraChecks": {
+    "toolbar": "Long localized label wraps inside 320px viewport, 44px minimum targets; small radius clamps to0",
+    "corner": "continuous superellipse1.5; explicit round and SVG requested mode superellipse1",
+    "safeArea": "ordinary spacing override20px12px34px12px in desktop environment with actual env insets0",
+    "syntheticVisualViewport": {
+      "viewport": {
+        "left": 50,
+        "top": 120,
+        "width": 240,
+        "height": 180
+      },
+      "sheet": {
+        "left": 64,
+        "top": 134,
+        "right": 276,
+        "bottom": 286
+      },
+      "focusedInput": {
+        "top": 186.0859375,
+        "bottom": 234.0859375
+      },
+      "scrollable": true,
+      "physicalKeyboard": false
+    }
+  },
+  "boundaries": [
+    "No physical iOS Safari or Android hardware verification",
+    "No software keyboard, pinch gesture, screen-reader or FPS certification"
+  ]
+}

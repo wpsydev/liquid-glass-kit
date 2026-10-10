@@ -2,11 +2,11 @@
 
 **Liquid Glass for the web, in any stack.** A small CSS and TypeScript material system with React and Vue adapters, a Svelte action, and accessible solid fallbacks.
 
-Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.4.0 optics preview**, not a pixel-identical recreation of Apple's renderer.
+Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.5.0 mobile preview**, not a pixel-identical recreation of Apple's renderer.
 
 ![Live Liquid Glass Kit playground with material controls](docs/assets/playground.webp)
 
-[Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [Optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/) · [Motion lab](https://wpsydev.github.io/liquid-glass-kit/motion/) · [Behavior lab](https://wpsydev.github.io/liquid-glass-kit/behavior/) · [Interactive demos](https://wpsydev.github.io/liquid-glass-kit/campaign/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Apple feature audit](docs/APPLE_PARITY.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
+[Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [Mobile studio](https://wpsydev.github.io/liquid-glass-kit/mobile/) · [Mobile design guide](docs/MOBILE.md) · [Optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/) · [Motion lab](https://wpsydev.github.io/liquid-glass-kit/motion/) · [Behavior lab](https://wpsydev.github.io/liquid-glass-kit/behavior/) · [Interactive demos](https://wpsydev.github.io/liquid-glass-kit/campaign/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Apple feature audit](docs/APPLE_PARITY.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
 
 ## Why another glass library?
 
@@ -16,6 +16,7 @@ The material should fit your app's stack and semantics. Liquid Glass Kit separat
 - **Optional interaction:** pointer, touch and keyboard press feedback; rounded-rectangle SVG lensing on eligible Chromium engines. Never refract foreground text.
 - **Material controls:** fill strength, semantic tint and explicit backdrop tone; accessibility preferences retain precedence.
 - **Spring motion:** tactile press/release, spring reveals and velocity-preserving selection retargeting; explicit/system reduced-motion fallbacks.
+- **Mobile details:** owned touch presses, continuous corner enhancement with round fallback, concentric radius helpers, and opt-in safe-area/viewport/target utilities.
 - **Navigation primitives:** one moving decorative glass backing and scroll-aware soft/hard edge scrims; preserve foreground semantics.
 - **Keep native controls:** buttons remain buttons, navigation remains navigation, dialogs retain their focus behavior.
 - **SSR-safe:** no browser globals at import; deterministic server markup and enhancement after mount.

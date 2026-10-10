@@ -76,3 +76,15 @@ Existing scheduled posts remain unchanged. No native optical parity, arbitrary D
 
 Published optics video post: https://x.com/wpsygames/status/2108961116877664553
 Original-thread follow-up: https://x.com/wpsygames/status/2108961400622317981
+
+## Mobile update — 2026-10-10
+
+`assets/mobile-showcase.mp4`: exactly 12 seconds, 1080×1920 vertical, H.264/yuv420p at 30fps, 48kHz stereo AAC. Recorded in the native T3 Chromium preview at 432×768 CSS pixels (864×1536 capture), using the final production-built mobile source transferred into the preview. Four chapters show real spring press/release, selection retargeting, a native editable form sheet and actual 320px-wide shell reflow. The player is a visual UI demo; the exported promotional video has its own soundtrack.
+
+The original 160 BPM instrumental is generated without samples by scripts/render-mobile-beat.py, under this repository’s MIT license. Eight-beat phrases align with each three-second chapter. FFmpeg trims/scales the capture, adds the original track, normalizes loudness and writes streaming metadata. Six sampled frames and complete audio/video decoding passed. Audio peaks at −4.4dBFS; no copyrighted track or outside media was used. Export 30fps is not device performance evidence.
+
+Live mobile studio: https://wpsydev.github.io/liquid-glass-kit/mobile/
+Release: https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.5.0-preview.1
+Resolution evidence: [mobile-validation.json](mobile-validation.json)
+
+Coverage comprises resized desktop Chromium, enlarged-text layout simulation and synthetic VisualViewport bounds. No physical iPhone/Safari, Android hardware or software-keyboard certification is implied.

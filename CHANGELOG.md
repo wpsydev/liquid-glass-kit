@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.5.0-preview.1 — Mobile details
+
+- Fixed primary-pointer ownership in material and spring feedback: secondary fingers, unrelated releases and other input modalities cannot clear the originating press. Descendant semantic controls keep their own feedback without deforming a parent surface.
+- Added optional `corner: continuous` with a feature-gated independent web superellipse and round fallback, `getGlassInnerRadius`, and a continuous-corner syntax capability hint. React/Vue/custom-element integrations retain the same options. SVG optics remain round.
+- Added opt-in 44px touch-target, safe-area padding and dynamic-viewport helpers; restricted hover feedback to hover-capable fine pointers, bounded small toolbar radii, and made toolbar rows/long labels wrap.
+- Added a responsive mobile studio with native controls/sheet, spring selection, quiet/solid preferences, agent recipes and primary-source mobile design research.
+- Added a 12-second vertical showcase with an original synthesized high-beat soundtrack.
+
+Migration: all new material/layout fields are optional; round corners remain the default. Touch feedback now belongs to the originating pointer or key. Use native controls and application-owned overlay/focus state. Continuous corners are progressive enhancement, not Apple geometry or stable iOS certification. Safe-area and `dvh` helpers do not universally avoid software keyboards.
+
 ## 0.4.0-preview.1 — Experimental owned-scene optics
 
 - Added optional `@wpsydev/liquid-glass/scene`: a WebGL2 procedural scene with screen-space sampling, analytic rounded-rectangle normals, neutral center displacement and separate edge highlights.

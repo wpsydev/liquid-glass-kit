@@ -1,15 +1,17 @@
-Liquid Glass Kit's optics preview adds an optional WebGL2 renderer and an original interactive neon demo.
+Liquid Glass Kit’s mobile preview improves the details people feel under their thumbs.
 
-- Screen-space analytical wallpaper with rounded-rectangle distance-field normals.
-- Edge refraction with neutral center displacement and independently tuned highlights.
-- Draggable semantic lenses, palette changes, a refraction comparison and existing spring controls.
-- A separate `@wpsydev/liquid-glass/scene` import, with no runtime dependency and no import-time DOM requirement.
-- Pause, motion/transparency preferences, bounded rendering density and context-loss fallback.
+- Primary-pointer ownership: second fingers and unrelated releases no longer interrupt active press feedback.
+- Descendant buttons, links and sliders keep their own interaction without deforming a containing surface.
+- Optional continuous CSS corners, round fallback and coordinated inner radii.
+- Opt-in 44px touch targets, safe-area spacing and dynamic viewport helpers.
+- A responsive mobile studio with interruptible springs, native form sheets, quiet mode and solid preferences.
+- Agent-ready mobile recipes grounded in primary Apple and web-platform guidance.
+- A 12-second vertical demo with an original 160 BPM soundtrack; no external music samples.
 
-[Live optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/) · [Scene API and limitations](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/SCENE.md) · [Inspiration discussion](https://x.com/okandogubudak/status/2108947960621146517)
+[Mobile studio](https://wpsydev.github.io/liquid-glass-kit/mobile/) · [Mobile guide](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/MOBILE.md) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/MOBILE_RESEARCH.md) · [Validation evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/VALIDATION.md)
 
-Install the attached package archive or `npm i github:wpsydev/liquid-glass-kit#v0.4.0-preview.1`. npm registry publication remains pending.
+Install the attached package archive or `npm i github:wpsydev/liquid-glass-kit#v0.5.0-preview.1`. npm registry publication remains pending.
 
-The renderer refracts only its own procedural canvas. It does not sample arbitrary DOM content or external images/video, implement optical shape union, or reproduce Apple's private compositor. The shader and demo are an original implementation inspired by the public technical discussion. Ordinary CSS material integrations stay independent of this renderer.
+The portable CSS material remains the default. Continuous corners are an independent progressive enhancement, with round fallback on unsupported browsers; SVG and owned-scene optics use round geometry. The library does not reproduce Apple’s private compositor or guarantee arbitrary-background contrast.
 
-Browser validation uses the T3 Chromium preview. Mocked WebGL tests establish lifecycle and API behavior, not optical fidelity. Safari, Firefox and physical iOS devices remain unverified.
+Browser coverage is a resized T3 Chromium viewport matrix, separate from unit tests. Physical iOS Safari/Android hardware, software keyboards and assistive technologies remain unverified. Safe-area spacing and dynamic viewport units do not universally solve keyboard placement.

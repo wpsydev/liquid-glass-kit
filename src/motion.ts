@@ -1,3 +1,5 @@
+import { glassPointerId, isGlassPressTarget } from './input.js';
+
 export interface GlassSpringOptions {
   /** Spring stiffness, clamped to 20–1000. Default 260. */
   stiffness?: number;
@@ -115,6 +117,8 @@ export function attachGlassMotion(element: HTMLElement, initial: GlassMotionOpti
     pressScale: bounded(next.pressScale, .94, .85, 1), stretch: bounded(next.stretch, .035, 0, .08), reducedMotion: next.reducedMotion ?? false });
   let options = resolve(initial);
   let destroyed = false, pressed = false, appearanceTarget = 1;
+  let activePointer: number | null = null;
+  let activeKey: string | null = null;
   let direction = 0;
   let pending: ((completed: boolean) => void) | undefined;
   const keys = ['scale', 'opacity', 'transition', '--lg-motion-scale-x', '--lg-motion-scale-y', '--lg-motion-opacity', '--lg-motion-light-x', '--lg-motion-light-y'];
@@ -165,13 +169,14 @@ export function attachGlassMotion(element: HTMLElement, initial: GlassMotionOpti
     element.setAttribute('data-lg-motion-pressed', 'true'); element.setAttribute('data-lg-motion', 'pressed'); target();
   };
   const release = () => {
+    activePointer = null; activeKey = null;
     if (destroyed || !pressed) return;
     pressed = false; element.removeAttribute('data-lg-motion-pressed');
     element.style.removeProperty('--lg-motion-light-x'); element.style.removeProperty('--lg-motion-light-y'); target();
   };
   const materialize = (visible: boolean) => {
     if (destroyed || !element.isConnected) return Promise.resolve(false);
-    resolvePending(false); pressed = false; element.removeAttribute('data-lg-motion-pressed');
+    resolvePending(false); pressed = false; activePointer = null; activeKey = null; element.removeAttribute('data-lg-motion-pressed');
     if (visible && appearanceTarget === 1 && !spring.active && !reducedMotion()) spring.reset([.92, .92, 0]);
     appearanceTarget = visible ? 1 : 0;
     element.setAttribute('data-lg-motion', visible ? 'enter' : 'exit');
@@ -179,23 +184,25 @@ export function attachGlassMotion(element: HTMLElement, initial: GlassMotionOpti
     return new Promise<boolean>(resolve => { pending = resolve; target(); });
   };
   const pointerDown = (event: PointerEvent) => {
-    if (event.button !== undefined && event.button !== 0) return;
+    if (activePointer !== null || activeKey !== null || event.isPrimary === false || !isGlassPressTarget(element, event) || element.matches(':disabled, [aria-disabled="true"]') || (event.button !== undefined && event.button !== 0)) return;
     const rect = element.getBoundingClientRect(); press({ x: event.clientX - rect.left, y: event.clientY - rect.top });
+    if (pressed) activePointer = glassPointerId(event);
   };
+  const pointerRelease = (event: PointerEvent) => { if (activePointer !== null && (event.pointerId === undefined || glassPointerId(event) === activePointer)) release(); };
   const keyDown = (event: KeyboardEvent) => {
-    if (event.target === element && !event.repeat && (event.key === 'Enter' || event.key === ' ') && element.matches('button, a[href], [role="button"]')) press();
+    if (activePointer === null && activeKey === null && event.target === element && !event.repeat && (event.key === 'Enter' || event.key === ' ') && element.matches('button, a[href], [role="button"]')) { press(); if (pressed) activeKey = event.key; }
   };
-  const keyUp = (event: KeyboardEvent) => { if (event.key === 'Enter' || event.key === ' ') release(); };
+  const keyUp = (event: KeyboardEvent) => { if (event.target === element && event.key === activeKey) release(); };
   const preferenceChanged = () => {
     if (destroyed) return;
-    pressed = false; element.removeAttribute('data-lg-motion-pressed');
+    pressed = false; activePointer = null; activeKey = null; element.removeAttribute('data-lg-motion-pressed');
     element.style.removeProperty('--lg-motion-light-x'); element.style.removeProperty('--lg-motion-light-y');
     target();
   };
   reduced?.addEventListener('change', preferenceChanged);
   element.addEventListener('pointerdown', pointerDown); element.addEventListener('keydown', keyDown); element.addEventListener('keyup', keyUp);
-  element.addEventListener('lostpointercapture', release); element.addEventListener('focusout', release);
-  view.addEventListener('pointerup', release); view.addEventListener('pointercancel', release); view.addEventListener('blur', release);
+  element.addEventListener('lostpointercapture', pointerRelease); element.addEventListener('focusout', release);
+  view.addEventListener('pointerup', pointerRelease); view.addEventListener('pointercancel', pointerRelease); view.addEventListener('blur', release);
   return {
     press, release,
     enter: () => materialize(true), exit: () => materialize(false),
@@ -204,8 +211,8 @@ export function attachGlassMotion(element: HTMLElement, initial: GlassMotionOpti
       if (destroyed) return; destroyed = true; spring.stop(); resolvePending(false);
       reduced?.removeEventListener('change', preferenceChanged);
       element.removeEventListener('pointerdown', pointerDown); element.removeEventListener('keydown', keyDown); element.removeEventListener('keyup', keyUp);
-      element.removeEventListener('lostpointercapture', release); element.removeEventListener('focusout', release);
-      view.removeEventListener('pointerup', release); view.removeEventListener('pointercancel', release); view.removeEventListener('blur', release);
+      element.removeEventListener('lostpointercapture', pointerRelease); element.removeEventListener('focusout', release);
+      view.removeEventListener('pointerup', pointerRelease); view.removeEventListener('pointercancel', pointerRelease); view.removeEventListener('blur', release);
       if (!hadClass) element.classList.remove('lg-motion');
       for (const [key, value, priority] of originalStyles) value ? element.style.setProperty(key, value, priority) : element.style.removeProperty(key);
       if (originalState === null) element.removeAttribute('data-lg-motion'); else element.setAttribute('data-lg-motion', originalState);

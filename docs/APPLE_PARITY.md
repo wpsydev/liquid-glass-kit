@@ -98,3 +98,9 @@ These implement portable animation behavior, including velocity-preserving retar
 ## Owned-scene optics follow-up — 0.4.0-preview.1
 
 An optional WebGL2 scene renderer now supplies screen-space procedural wallpaper and analytic rounded-rectangle edge refraction. This closes a narrow experiment gap for applications that own the entire rendered background; it does not supply arbitrary DOM background capture, physical shape union, native optical parity or external texture support. The ordinary CSS path remains the portable default. See [SCENE.md](SCENE.md).
+
+## Mobile design follow-up — 0.5.0-preview.1
+
+The mobile iteration adds originating-pointer ownership, nested semantic-control isolation, progressive continuous CSS corners, coordinated inner-radius tokens, coarse-pointer hover cleanup, and safe-area/dynamic-viewport/44px target helpers. The mobile studio composes real springs with native navigation, a range and a scrollable form sheet. [MOBILE_RESEARCH.md](MOBILE_RESEARCH.md) connects these decisions to primary Apple and web-platform sources; [MOBILE.md](MOBILE.md) teaches agents how to apply them.
+
+These are independent web adaptations. The superellipse is not Apple’s measured native curve; unsupported engines retain round corners and optical maps remain round. Responsive Chromium checks do not establish physical iOS Safari behavior, native haptics, hardware-radius detection, keyboard geometry, optical merging or private compositor parity.

@@ -19,7 +19,7 @@ function useGlass(options: GlassOptions | undefined, tag: string, motion: GlassM
       attached.destroy(); if (controller.current === attached) controller.current = null;
     };
   }, [tag]);
-  useEffect(() => { controller.current?.update(o); }, [tag, o.variant, o.appearance, o.radius, o.blur, o.saturation, o.refraction, o.interactive, o.reducedTransparency, o.tint, o.tintOpacity, o.opacity, o.backdrop]);
+  useEffect(() => { controller.current?.update(o); }, [tag, o.variant, o.appearance, o.radius, o.corner, o.blur, o.saturation, o.refraction, o.interactive, o.reducedTransparency, o.tint, o.tintOpacity, o.opacity, o.backdrop]);
   useEffect(() => {
     if (!motion) { motionController.current?.destroy(); motionController.current = null; }
     else if (motionController.current) motionController.current.update(motion);

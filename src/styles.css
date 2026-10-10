@@ -16,6 +16,11 @@
   z-index: -1; pointer-events: none;
   background: radial-gradient(ellipse at var(--lg-pointer-x, 20%) var(--lg-pointer-y, 0%), rgb(255 255 255 / .3), transparent 65%);
 }
+/* A web design choice, not Apple's native curve. Optical displacement remains round. */
+@supports (corner-shape: superellipse(1.5)) {
+  .lg-glass[data-lg-corner='continuous']:not([data-lg-renderer='svg-experimental']) { corner-shape: superellipse(1.5); }
+  .lg-glass::before { corner-shape: inherit; }
+}
 @supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
   .lg-glass { background: transparent; }
   .lg-glass::before {
@@ -47,7 +52,9 @@
 .lg-glass[data-lg-solid='true']::before { -webkit-backdrop-filter: none; backdrop-filter: none; background: none; }
 .lg-glass:focus-visible, .lg-glass :focus-visible { outline: 3px solid #4379e8; outline-offset: 4px; }
 .lg-button { font: inherit; min-height: 44px; min-width: 44px; padding: .7rem 1.2rem; cursor: pointer; }
-.lg-button:hover:not(:disabled) { box-shadow: 0 12px 32px -12px rgb(12 20 40 / .4), inset 0 1px 0 white; }
+@media (hover: hover) and (pointer: fine) {
+  .lg-button:hover:not(:disabled) { box-shadow: 0 12px 32px -12px rgb(12 20 40 / .4), inset 0 1px 0 white; }
+}
 .lg-glass[data-lg-interactive='true'] { transition: box-shadow .18s ease; }
 .lg-glass[data-lg-interactive='true'][data-lg-pressed='true'] { box-shadow: 0 4px 16px -6px rgb(12 20 40 / .32), inset 0 1px 3px rgb(255 255 255 / .65); }
 .lg-glass[data-lg-interactive='true'][data-lg-pressed='true']::before { background-position: center; filter: brightness(1.12); }
@@ -55,9 +62,22 @@
 .lg-button[data-lg-interactive='true']:active:not(:disabled), .lg-button[data-lg-interactive='true'][data-lg-pressed='true']:not(:disabled) { scale: .96; }
 .lg-button:disabled { opacity: .55; cursor: not-allowed; }
 .lg-panel { padding: 1.5rem; }
-.lg-toolbar { display: flex; align-items: center; gap: .5rem; padding: .5rem; }
-.lg-toolbar > button { background: transparent; border: 0; color: inherit; font: inherit; min-height: 44px; min-width: 44px; border-radius: calc(var(--lg-radius) - 8px); padding: .5rem 1rem; cursor: pointer; }
-.lg-toolbar > button[aria-pressed='true'], .lg-toolbar > button:hover { background: rgb(127 127 127 / .16); }
+.lg-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; padding: .5rem; }
+.lg-toolbar > button { box-sizing: border-box; max-width: 100%; overflow-wrap: anywhere; white-space: normal; background: transparent; border: 0; color: inherit; font: inherit; min-height: 44px; min-width: 44px; border-radius: max(0px, calc(var(--lg-radius) - 8px)); padding: .5rem 1rem; cursor: pointer; }
+.lg-toolbar > button[aria-pressed='true'] { background: rgb(127 127 127 / .16); }
+@media (hover: hover) and (pointer: fine) {
+  .lg-toolbar > button:hover { background: rgb(127 127 127 / .16); }
+}
+/* Opt-in layout helpers; preserve native scrolling and browser zoom gestures. */
+.lg-touch-target { min-width: 44px; min-height: 44px; min-inline-size: 44px; min-block-size: 44px; }
+.lg-safe-area {
+  padding-top: calc(var(--lg-safe-top, var(--lg-safe-gap, 16px)) + env(safe-area-inset-top, 0px));
+  padding-right: calc(var(--lg-safe-right, var(--lg-safe-gap, 16px)) + env(safe-area-inset-right, 0px));
+  padding-bottom: calc(var(--lg-safe-bottom, var(--lg-safe-gap, 16px)) + env(safe-area-inset-bottom, 0px));
+  padding-left: calc(var(--lg-safe-left, var(--lg-safe-gap, 16px)) + env(safe-area-inset-left, 0px));
+}
+.lg-mobile-viewport { min-height: 100vh; }
+@supports (height: 100dvh) { .lg-mobile-viewport { min-height: 100dvh; } }
 /* Legacy helper no longer masks essential content or focus outlines. Use attachGlassScrollEdge. */
 .lg-scroll-edge { isolation: isolate; }
 @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {

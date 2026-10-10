@@ -32,3 +32,11 @@ Motion uses browser RAF timestamps and CSS individual scale/opacity. It preserve
 Entry/exit fades change whole-surface opacity. Values below 1 create a CSS backdrop root, which can temporarily change the child material's background sampling; this is a web compositor limitation. Test translucent overlays in your actual layout.
 
 An optional `@wpsydev/liquid-glass/scene` WebGL2 renderer now refracts its own procedural background. It is separate from the CSS/SVG paths and does not sample arbitrary DOM or external imagery. Keep a CSS fallback on context failure/loss and use preference/pause controls. See [SCENE.md](SCENE.md).
+
+## Mobile layout and continuous corners
+
+The mobile preview adds primary-pointer ownership and descendant-control isolation to material and motion input. Native scroll/zoom is preserved. Optional 44px target, safe-area padding and dynamic-viewport helpers are layout building blocks; applications still own responsive layout and native dialog/form semantics. `dvh` and safe-area insets do not universally solve software-keyboard placement.
+
+Continuous corners use a feature-gated independent CSS superellipse with the existing rounded fallback. Stable Safari/iOS and Firefox are not claimed to support it; the dated primary-source compatibility record is in [MOBILE_RESEARCH.md](MOBILE_RESEARCH.md). Experimental SVG optics remain circular, and owned-scene lenses should use round surfaces.
+
+See [MOBILE.md](MOBILE.md) for recipes. The resolution matrix in [VALIDATION.md](VALIDATION.md) establishes reflow in resized Chromium, not physical iPhone/Android testing or certification of every phone.

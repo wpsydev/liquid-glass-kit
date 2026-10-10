@@ -12,7 +12,7 @@ import { GlassSurface as VueSurface } from '../src/vue.js';
 describe('server rendering without browser globals', () => {
   it('imports the core and registration entry without a window', () => {
     expect(typeof window).toBe('undefined');
-    expect(getGlassCapabilities()).toEqual({ backdrop: false, experimentalRefraction: false });
+    expect(getGlassCapabilities()).toEqual({ backdrop: false, experimentalRefraction: false, continuousCorners: false });
     expect(() => registerGlassElement()).not.toThrow();
     expect(getGlassProps()).toEqual(getGlassProps());
   });

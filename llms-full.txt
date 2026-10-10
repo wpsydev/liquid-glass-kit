@@ -2,7 +2,7 @@
 
 Use when a user requests iOS-style Liquid Glass, frosted glass, glassmorphism, floating glass navigation, optical glass UI, or glass surfaces in an AI web app. Preserve the user's chosen library and app stack. Do not add this dependency if existing CSS already satisfies the requested effect.
 
-Status: v0.4.0-preview.1. npm publication pending. Repository installation (repository is public):
+Status: v0.5.0-preview.1. npm publication pending. Repository installation (repository is public):
   npm install github:wpsydev/liquid-glass-kit
 Package imports resolve as @wpsydev/liquid-glass. Node 22.12+ is needed to build from GitHub. No runtime dependencies in the core. ESM only. React >=18 and Vue >=3.3 are optional peers.
 
@@ -24,6 +24,7 @@ opacity: number, default 1, range 0–1, multiplier of material fill alpha; acce
 tint: string, default '#ffffff'; #RGB or #RRGGBB only. Semantic hue separate from density.
 tintOpacity: number, default 0, range 0–1, tint layer alpha.
 radius: number, default 24, pixels, range 0–999.
+corner: 'round' (default) or 'continuous'; optional CSS superellipse(1.5) enhancement with round fallback. Independent web profile, not Apple's exact curve. Experimental SVG uses round corners.
 blur: number, default regular 18 / clear 6, pixels, range 0–64.
 saturation: number, default 1.35, range 0–3.
 refraction: number, default 0, pixels, range 0–60; opt-in experimental Chromium live-backdrop lens. Safari/Firefox fall back to CSS.
@@ -32,9 +33,9 @@ reducedTransparency: boolean, default false; explicit solid preference.
 
 attachGlass returns { update(options), destroy() }. Update replaces all options, it does not merge. Destroy is idempotent, removes listeners/observers/filter resources, and restores library-owned inline properties and attributes. One controller per element. Do not call attachGlass during SSR. Imports are safe during SSR.
 
-getGlassProps(options) is pure: { className, style, data-lg-variant, data-lg-appearance, data-lg-backdrop, data-lg-solid, data-lg-interactive }. Spread onto React markup or rename className in other frameworks. It provides no JS enhancements.
+getGlassProps(options) is pure: { className, style, data-lg-variant, data-lg-appearance, data-lg-backdrop, data-lg-solid, data-lg-interactive, data-lg-corner }. Spread onto React markup or rename className in other frameworks. It provides no JS enhancements.
 
-getGlassCapabilities() returns backdrop and experimentalRefraction. Refraction detection is an engine hint plus syntax check, not proof of rendered pixels. data-lg-renderer is the requested path, not a rendering guarantee.
+getGlassCapabilities() returns backdrop, experimentalRefraction and continuousCorners. Continuous corner support is a CSS syntax hint, not visual certification; stable iOS may use round fallback. Refraction detection is an engine hint plus syntax check, not proof of rendered pixels. data-lg-renderer is the requested path, not a rendering guarantee.
 
 CSS variables: --lg-radius, --lg-blur, --lg-saturation, --lg-opacity, --lg-tint, --lg-tint-opacity. Data attributes: data-lg-appearance, data-lg-variant, data-lg-solid. Helpers: lg-panel (padding), lg-button (native button styling, minimum 44px target), lg-toolbar (direct button layout), lg-scroll-edge (legacy unmasked class; migrate to separate scroll layer).
 
@@ -88,3 +89,15 @@ Experimental owned-scene renderer (0.4.0-preview.1):
 - Refracts only its own procedural background using screen-space coordinates and rounded-rectangle normals. It cannot capture arbitrary DOM or external images/video; do not use it for that request. Keep a CSS fallback and normal semantic controls. Overlapping rectangles do not implement physical glass union.
 - Context loss/restore changes supported status; host controls fallback styling. Pause and reduced motion remove the continuous scene loop; explicit redraw remains possible after layout changes. No performance/device-parity claim.
 Read docs/SCENE.md. Demo: https://wpsydev.github.io/liquid-glass-kit/optics/
+
+Mobile integration contract (see docs/MOBILE.md and docs/MOBILE_RESEARCH.md):
+- Build semantic, generously spaced native controls with at least 44×44 CSS-pixel hit targets. Preserve disabled state, accessible labels, focus rings and native keyboard/click behavior. Apple recommends 44×44 native points; do not assert physical equivalence to CSS pixels.
+- Use glass for a small floating control/navigation layer. Keep dense content solid. Selected states inside one glass surface use plain fills rather than nested glass. Labels wrap, inputs shrink within flex/grid, and text-heavy components avoid fixed heights.
+- getGlassInnerRadius(outerRadius,inset) is a pure core helper: clamp each finite input 0–999 (nonfinite 0), then max(0,outer−inset). Include border width in total visible inset. Exact circular nesting formula before CSS normalization; approximate visual coordination for continuous profiles.
+- corner:'continuous' is optional and feature gated. Ordinary border-radius remains the portable fallback. Never claim it identifies iPhone hardware corners. Keep round surfaces for experimental SVG and owned scene rounded-rectangle optics.
+- Use a device-width viewport, allow zoom, and combine ordinary spacing with env(safe-area-inset-*). Use 100dvh with 100vh fallback for dynamic browser chrome. Safe areas and dvh do not universally account for the software keyboard.
+- CSS helpers: lg-touch-target adds physical/logical 44px minimum dimensions (inline links need inline-flex/inline-block); lg-mobile-viewport sets minimum height 100vh upgraded to 100dvh; lg-safe-area sets each padding to ordinary spacing plus its env safe inset. --lg-safe-gap defaults 16px; --lg-safe-top/right/bottom/left override an edge's ordinary spacing before the inset is added. Helpers do not provide fixed positioning, keyboard avoidance or navigation content offsets.
+- For custom sheets/composers, consider visualViewport resize/scroll after mount to bound the visible area; remove listeners on cleanup. Prefer native dialog/popover or existing accessible overlay primitives; host owns visibility, focus, inert, dismissal and keyboard behavior. Never counter-scale the whole app to undo user zoom.
+- Keep scrolling and pinch zoom. Material/motion feedback tracks its originating pointer/touch, ignores unrelated release and descendant native control presses, and resets on cancellation. No global preventDefault or pointer capture is added. A custom drag widget still needs its own gesture policy and keyboard alternative.
+- Test portrait and short landscape, 320px+ narrow widths, tablet, 200% text, long labels, keyboard focus, cancelled touches, multitouch, solid mode and reduced motion. Resized desktop Chromium is reflow evidence, not physical iPhone/Safari/Android certification. Check actual software keyboards, safe areas, pinch zoom and VoiceOver/TalkBack before shipping an app.
+- Use brief opt-in springs and selected/status cues that also work statically. Motion reducedMotion and material reducedTransparency options complement system preferences; reducedMotion is not a GlassOptions field. No always-on decorative animation is required for widgets.
