@@ -1,0 +1,51 @@
+/* The decorative layer is a sibling of the scrollport, never a content mask. */
+.lg-scroll-edges {
+  --lg-scroll-edge-size: 32px;
+  --lg-scroll-edge-fill: rgb(245 247 252 / .86);
+  --lg-scroll-edge-solid-fill: #f4f6fb;
+  --lg-scroll-edge-line: rgb(23 32 51 / .24);
+  position: absolute; inset: 0; z-index: 1;
+  pointer-events: none; user-select: none; border-radius: inherit;
+}
+.lg-scroll-edges::before, .lg-scroll-edges::after {
+  content: ''; position: absolute; inset-inline: 0;
+  height: min(var(--lg-scroll-edge-size), 50%); pointer-events: none;
+  opacity: 0; transition: opacity 140ms ease;
+  background: var(--lg-scroll-edge-fill);
+  /* Only this empty decorative pseudo-element is faded, never scroll content. */
+  -webkit-mask-image: linear-gradient(to bottom, #000, transparent);
+  mask-image: linear-gradient(to bottom, #000, transparent);
+}
+.lg-scroll-edges::before { top: 0; border-top-left-radius: inherit; border-top-right-radius: inherit; }
+.lg-scroll-edges::after {
+  bottom: 0; border-bottom-left-radius: inherit; border-bottom-right-radius: inherit;
+  -webkit-mask-image: linear-gradient(to top, #000, transparent);
+  mask-image: linear-gradient(to top, #000, transparent);
+}
+.lg-scroll-edges[data-lg-edge-top='true']::before, .lg-scroll-edges[data-lg-edge-bottom='true']::after { opacity: 1; }
+/* A focused control and its outline stay completely unobscured. */
+.lg-scroll-edges[data-lg-edge-focus='true']::before, .lg-scroll-edges[data-lg-edge-focus='true']::after { opacity: 0; transition: none; }
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .lg-scroll-edges::before, .lg-scroll-edges::after { -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+}
+.lg-scroll-edges[data-lg-edge-style='hard']::before, .lg-scroll-edges[data-lg-edge-style='hard']::after {
+  -webkit-mask-image: none; mask-image: none;
+}
+.lg-scroll-edges[data-lg-edge-style='hard']::before { border-bottom: 1px solid var(--lg-scroll-edge-line); }
+.lg-scroll-edges[data-lg-edge-style='hard']::after { border-top: 1px solid var(--lg-scroll-edge-line); }
+@media (prefers-color-scheme: dark) {
+  .lg-scroll-edges { --lg-scroll-edge-fill: rgb(22 28 43 / .86); --lg-scroll-edge-solid-fill: #192133; --lg-scroll-edge-line: rgb(244 247 255 / .32); }
+}
+/* Opaque boundaries are thin separators so they do not cover focused content. */
+.lg-scroll-edges[data-lg-edge-solid='true']::before, .lg-scroll-edges[data-lg-edge-solid='true']::after {
+  height: 2px; background: var(--lg-scroll-edge-solid-fill); border: 0;
+  -webkit-mask-image: none; mask-image: none; -webkit-backdrop-filter: none; backdrop-filter: none;
+}
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more), (forced-colors: active) {
+  .lg-scroll-edges::before, .lg-scroll-edges::after {
+    height: 2px; background: CanvasText; border: 0;
+    -webkit-mask-image: none; mask-image: none; -webkit-backdrop-filter: none; backdrop-filter: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) { .lg-scroll-edges::before, .lg-scroll-edges::after { transition: none; } }
+@media print { .lg-scroll-edges { display: none; } }

@@ -13,13 +13,13 @@ This matrix covers common application scenarios and explicitly identifies limits
 | Modal / sheet | lg-glass on native dialog | showModal gives focus containment and Escape behavior; label dialog; safe viewport dimensions |
 | Sidebar / inspector | Regular aside | Use stable appearance across a large surface; do not flip on every pixel |
 | Buttons / toggles | Native button + lg-button | Default button type; disabled, aria-pressed, focus ring and >=44px targets |
-| Tabs / segmented control | One shared glass container | Solid/transparent inner selections; implement keyboard model in app/headless library |
+| Tabs / segmented control | One shared glass container | attachGlassIndicator moves one decorative backing; implement keyboard model in app/headless library |
 | Forms / input fields | Solid inputs in glass panel | Glass should not swallow labels/errors or obscure selection |
 | Dense tables / dashboards / long text | Solid content; glass toolbar | Avoid repeated blur in every row |
 | Toasts / notifications | Existing live-region surface | Preserve announcement semantics; don't move focused controls |
-| Scroll edges | lg-scroll-edge on viewport | Avoid clipping focus; not automatically tied to scroll position |
+| Scroll edges | attachGlassScrollEdge + separate layer | Scroll-aware soft/hard scrim; keep toolbar and focus above decoration |
 | Reduced transparency / high contrast | Explicit solid option + media queries | Preference fallback for browsers without transparency query |
-| Touch / mobile | CSS material | Pointer tracking disabled for touch; avoid hover-only actions |
+| Touch / mobile | CSS material | Touch press lighting and native button deformation; reduced motion overrides; avoid hover-only actions |
 | Print | Solid black-on-white CSS | Browser-native print stylesheet |
 | SSR / hydration | CSS markup + mounted enhancement | Import-safe core/adapters; deterministic options |
 | Portals | Attach after portaled element mounts | Clean up when portal unmounts; definitions live in owning document |

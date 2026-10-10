@@ -1,0 +1,3 @@
+/* One decorative backing; controls retain their own semantics and hit targets. */
+.lg-glass-indicator { box-sizing: border-box; pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { .lg-glass-indicator { transition: none !important; } }

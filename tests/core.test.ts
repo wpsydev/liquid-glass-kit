@@ -76,3 +76,42 @@ describe('DOM lifecycle', () => {
     document.body.append(el); expect(el.style.getPropertyValue('--lg-radius')).toBe('16px'); el.remove();
   });
 });
+
+describe('density, tint and backdrop contracts', () => {
+  it('keeps variants distinct, bounds density and emits deterministic tone hints', () => {
+    expect(resolveOptions({ variant: 'clear' }).blur).toBe(6);
+    expect(resolveOptions({ variant: 'clear', blur: 12 }).blur).toBe(12);
+    expect(resolveOptions({ opacity: -2, tintOpacity: 8, tint: 'url(https://invalid)' })).toMatchObject({ opacity: 0, tintOpacity: 1, tint: '#ffffff' });
+    expect(getGlassProps({ backdrop: 'light', tint: '#AbC', tintOpacity: .2 }).style).toMatchObject({ '--lg-tint': '#abc', '--lg-tint-opacity': '0.2' });
+    expect(getGlassProps({ backdrop: 'dark' })['data-lg-backdrop']).toBe('dark');
+  });
+  it('restores added attributes and color variables on destroy', () => {
+    const el = document.createElement('button'); el.style.setProperty('--lg-tint', '#123456', 'important'); el.setAttribute('data-lg-backdrop', 'prior');
+    document.body.append(el); const c = attachGlass(el, { tint: '#00ffcc', opacity: .4 });
+    expect(el.style.getPropertyValue('--lg-opacity')).toBe('0.4');
+    c.destroy(); expect(el.style.getPropertyValue('--lg-tint')).toBe('#123456'); expect(el.style.getPropertyPriority('--lg-tint')).toBe('important');
+    expect(el.getAttribute('data-lg-backdrop')).toBe('prior'); expect(el.style.getPropertyValue('--lg-opacity')).toBe('');
+  });
+});
+describe('input feedback and accurate fallback state', () => {
+  it('handles touch/cancel and keyboard without canceling native events', () => {
+    const button = document.createElement('button'); document.body.append(button);
+    vi.spyOn(button, 'getBoundingClientRect').mockReturnValue({ width: 100, height: 50, left: 0, top: 0 } as DOMRect);
+    const c = attachGlass(button, { interactive: true });
+    const touch = new MouseEvent('pointerdown', { bubbles: true, clientX: 75, clientY: 25, cancelable: true }); Object.defineProperty(touch, 'pointerType', { value: 'touch' });
+    expect(button.dispatchEvent(touch)).toBe(true); expect(button.getAttribute('data-lg-pressed')).toBe('true'); expect(button.style.getPropertyValue('--lg-pointer-x')).toBe('75%');
+    window.dispatchEvent(new Event('pointercancel')); expect(button.hasAttribute('data-lg-pressed')).toBe(false);
+    button.dispatchEvent(new KeyboardEvent('keydown', { key: ' ', bubbles: true })); expect(button.getAttribute('data-lg-pressed')).toBe('true');
+    button.dispatchEvent(new KeyboardEvent('keyup', { key: ' ', bubbles: true })); expect(button.hasAttribute('data-lg-pressed')).toBe(false);
+    button.disabled = true; button.dispatchEvent(new MouseEvent('pointerdown', { bubbles: true })); expect(button.hasAttribute('data-lg-pressed')).toBe(false);
+    c.destroy(); button.disabled = false; button.dispatchEvent(touch); expect(button.hasAttribute('data-lg-pressed')).toBe(false);
+  });
+  it('reports solid immediately for explicit fallback even when blur syntax exists', () => {
+    const original = Object.getOwnPropertyDescriptor(window, 'CSS');
+    Object.defineProperty(window, 'CSS', { value: { supports: () => true }, configurable: true });
+    const el = document.createElement('div'); document.body.append(el); const c = attachGlass(el, { reducedTransparency: true });
+    expect(el.getAttribute('data-lg-renderer')).toBe('solid');
+    c.update({}); expect(el.getAttribute('data-lg-renderer')).toBe('css'); c.destroy();
+    if (original) Object.defineProperty(window, 'CSS', original); else Reflect.deleteProperty(window, 'CSS');
+  });
+});

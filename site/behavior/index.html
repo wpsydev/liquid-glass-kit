@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glass with behavior — Liquid Glass Kit</title>
+  <meta name="description" content="Explore adjustable glass density, semantic tint, backdrop tone, native press feedback, moving selection geometry, and protected scroll edges. Independent open-source web materials.">
+  <meta name="theme-color" content="#091b1b">
+  <link rel="icon" type="image/svg+xml" href="../mark.svg">
+  <script type="module" src="./main.ts"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header"><a class="brand" href="https://wpsydev.github.io/liquid-glass-kit/"><span aria-hidden="true">◈</span> liquidglass <small>KIT</small></a><nav aria-label="Project"><a href="https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/APPLE_PARITY.md">Research ↗</a><a href="https://github.com/wpsydev/liquid-glass-kit">GitHub ↗</a></nav></header>
+    <main>
+      <div class="intro"><div><p class="eyebrow"><span></span> THE NEXT LAYER / INTERACTIVE LAB</p><h1>Glass with <em>behavior.</em></h1><p class="intro-copy">Depth is a beginning. Tone, touch, motion, and legibility make it useful.</p></div><div class="session-controls"><button id="play-showcase" type="button">Play 24s showcase <span aria-hidden="true">↗</span></button><label class="solid-control"><input id="solid" type="checkbox" role="switch"><span>Solid mode</span></label></div></div>
+      <div class="demo-grid">
+        <section class="demo-panel" aria-labelledby="material-heading">
+          <div class="panel-title"><span>01 / MATERIAL</span><h2 id="material-heading">A little more intention.</h2></div>
+          <div class="stage material-stage" data-tone="light">
+            <div class="color-orbit orbit-one" aria-hidden="true"></div><div class="color-orbit orbit-two" aria-hidden="true"></div><div class="scene-grid" aria-hidden="true"></div>
+            <span class="stage-label">CHOOSE YOUR NEXT MOMENT</span>
+            <article class="material-card lg-glass" id="material-card"><div class="card-top"><span class="card-mark" aria-hidden="true">✳</span><span>FOCUS SESSION</span><span class="card-duration">25:00</span></div><h3>Room to<br>make something.</h3><p>One material. Your density.<br>Your color. Your backdrop.</p></article>
+            <div class="press-area"><button id="press-button" type="button" class="lg-glass lg-button">Begin focus <span aria-hidden="true">↗</span></button><div class="card-bottom"><span id="press-status">Touch or press Enter</span><span aria-hidden="true">◎</span></div></div>
+            <div class="stage-footnote"><span id="material-state">READABLE / LIGHT BACKDROP</span><span>LIVE CSS</span></div>
+          </div>
+          <div class="settings"><label class="range-label" for="density">Material density <output id="density-value">55%</output></label><input id="density" type="range" min="15" max="100" value="55"><div class="setting-row"><span>Semantic tint</span><div class="swatches" role="group" aria-label="Semantic tint"><button type="button" data-tint="#9ceacb" class="mint" aria-pressed="true" aria-label="Mint tint"></button><button type="button" data-tint="#d0e66a" class="lime" aria-pressed="false" aria-label="Lime tint"></button><button type="button" data-tint="#b59dff" class="purple" aria-pressed="false" aria-label="Purple tint"></button><button type="button" data-tint="#ffffff" class="neutral" aria-pressed="false" aria-label="Neutral tint"></button></div></div><div class="setting-row"><span>App-provided backdrop</span><div class="segments" role="group" aria-label="Backdrop tone"><button type="button" data-tone="light" aria-pressed="true">Light</button><button type="button" data-tone="dark" aria-pressed="false">Dark</button></div></div></div>
+        </section>
+        <section class="demo-panel" aria-labelledby="geometry-heading">
+          <div class="panel-title"><span>02 / GEOMETRY</span><h2 id="geometry-heading">A selection that travels.</h2></div>
+          <div class="stage geometry-stage" data-tone="light"><div class="geometry-light" aria-hidden="true"></div><div class="geometry-orb" aria-hidden="true"><span>✳</span></div><div class="geometry-copy"><span id="nav-eyebrow">YOUR SPACE TO THINK</span><h3 id="nav-heading">Ideas, in orbit.</h3><p id="nav-copy">Explore what comes next.</p></div><nav class="moving-nav" id="moving-nav" aria-label="Demo section"><span class="selection-backing" id="selection-backing" aria-hidden="true"></span><button type="button" data-section="explore" aria-pressed="true"><span aria-hidden="true">◈</span>Explore</button><button type="button" data-section="library" aria-pressed="false"><span aria-hidden="true">▤</span>Library</button><button type="button" data-section="saved" aria-pressed="false"><span aria-hidden="true">♡</span>Saved</button></nav><div class="stage-footnote"><span>SHARED SELECTION GEOMETRY</span><span>LIVE DOM</span></div></div>
+          <div class="explanation"><div class="tiny-label">WHAT MOVES</div><p>One glass backing follows the selected native button. Labels and focus stay on the controls.</p><code>indicator.moveTo(button)</code><p class="muted">Animated geometry; no physical glass merging.</p></div>
+        </section>
+        <section class="demo-panel" aria-labelledby="scroll-heading">
+          <div class="panel-title"><span>03 / LEGIBILITY</span><h2 id="scroll-heading">Content keeps its place.</h2></div>
+          <div class="stage scroll-stage" data-tone="light"><div class="collection-header"><span>YOUR COLLECTION</span><strong>Good things,<br>in progress.</strong><span class="collection-count">09</span></div><div class="scroll-frame"><div id="scrollport" class="scrollport" tabindex="0" role="region" aria-label="Scrollable inspiration collection"><div class="collection-list" id="collection-list"></div></div><div id="scroll-edge" class="scroll-edge" aria-hidden="true"></div><header class="protected-toolbar lg-glass" id="protected-toolbar"><span>Inspiration</span><span id="scroll-state">AT THE TOP</span><span aria-hidden="true">↕</span></header></div><div class="stage-footnote"><span>SCROLL BELOW THE TOOLBAR</span><span>NO TEXT MASK</span></div></div>
+          <div class="explanation"><div class="setting-row"><span>Edge treatment</span><div class="segments" role="group" aria-label="Scroll-edge treatment"><button type="button" data-edge-style="soft" aria-pressed="true">Soft</button><button type="button" data-edge-style="hard" aria-pressed="false">Hard</button></div></div><p>The edge responds to real overflow. Focused content remains outside the scrim.</p><code>attachGlassScrollEdge(port, layer)</code></div>
+        </section>
+      </div>
+      <div class="subtitle-bar"><div class="subtitle-step" id="showcase-step">TRY IT LIVE</div><p id="showcase-caption" role="status" aria-live="polite">Move the sliders. Switch the backdrop. Press a button. Follow the glass.</p><span id="showcase-progress" aria-hidden="true">● ○ ○ ○ ○ ○</span></div>
+      <div class="page-note"><p>Independent web materials · CSS default · Explicit experimental refraction · Reduced-motion and solid fallbacks</p><a href="https://github.com/wpsydev/liquid-glass-kit">Explore the source ↗</a></div>
+    </main>
+  </div>
+</body>
+</html>

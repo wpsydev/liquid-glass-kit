@@ -8,11 +8,18 @@ export function registerGlassElement(name = 'liquid-glass', view?: Window) {
   if (registry.get(name)) return;
   const Base = (w as Window & { HTMLElement: typeof HTMLElement }).HTMLElement;
   class LiquidGlassElement extends Base {
-    static observedAttributes = ['variant', 'appearance', 'radius', 'blur', 'refraction', 'interactive', 'reduced-transparency'];
+    static observedAttributes = ['variant', 'appearance', 'radius', 'blur', 'saturation', 'refraction', 'interactive', 'reduced-transparency', 'tint', 'tint-opacity', 'opacity', 'backdrop'];
     private controller?: ReturnType<typeof attachGlass>;
     private options(): GlassOptions {
       const numeric = (key: string) => this.hasAttribute(key) ? Number(this.getAttribute(key)) : undefined;
-      return { variant: this.getAttribute('variant') as GlassOptions['variant'], appearance: this.getAttribute('appearance') as GlassOptions['appearance'], radius: numeric('radius'), blur: numeric('blur'), refraction: numeric('refraction'), interactive: this.hasAttribute('interactive'), reducedTransparency: this.hasAttribute('reduced-transparency') };
+      return {
+        variant: this.getAttribute('variant') as GlassOptions['variant'],
+        appearance: this.getAttribute('appearance') as GlassOptions['appearance'],
+        backdrop: this.getAttribute('backdrop') as GlassOptions['backdrop'],
+        radius: numeric('radius'), blur: numeric('blur'), saturation: numeric('saturation'), refraction: numeric('refraction'),
+        tint: this.getAttribute('tint') ?? undefined, tintOpacity: numeric('tint-opacity'), opacity: numeric('opacity'),
+        interactive: this.hasAttribute('interactive'), reducedTransparency: this.hasAttribute('reduced-transparency'),
+      };
     }
     connectedCallback() { this.controller?.destroy(); this.controller = attachGlass(this, this.options()); }
     disconnectedCallback() { this.controller?.destroy(); this.controller = undefined; }

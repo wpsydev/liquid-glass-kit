@@ -7,3 +7,4 @@ site/public/llms*.txt
 .DS_Store
 coverage/
 .env*
+site/public/CHANGELOG.md

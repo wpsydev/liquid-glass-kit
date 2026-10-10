@@ -1,11 +1,16 @@
 import { afterEach, expect, it, vi } from 'vitest';
-import { act, createElement, createRef } from 'react';
+import { act, createElement, createRef, StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { createApp, h, nextTick, reactive } from 'vue';
-import { GlassButton } from '../src/react.js';
+import { createApp, h, nextTick, reactive, ref as vueRef } from 'vue';
+import { GlassButton, GlassSurface as ReactSurface } from '../src/react.js';
 import { GlassSurface } from '../src/vue.js';
+import { registerGlassElement } from '../src/element.js';
 
-afterEach(() => { document.body.innerHTML = ''; vi.unstubAllGlobals(); });
+afterEach(() => { document.body.innerHTML = ''; vi.restoreAllMocks(); vi.unstubAllGlobals(); });
+const movePointer = (element: HTMLElement, x = 25) => {
+  vi.spyOn(element, 'getBoundingClientRect').mockReturnValue({ width: 100, height: 50, left: 0, top: 0 } as DOMRect);
+  element.dispatchEvent(new MouseEvent('pointermove', { clientX: x, clientY: 10 }));
+};
 it('React preserves refs/events, updates options, and cleans up on unmount', async () => {
   vi.stubGlobal('IS_REACT_ACT_ENVIRONMENT', true);
   const host = document.createElement('div'); document.body.append(host);
@@ -30,4 +35,68 @@ it('Vue reacts to deep option changes and removes enhancement on unmount', async
   expect(nav.style.getPropertyValue('--lg-radius')).toBe('12px');
   expect(nav.getAttribute('aria-label')).toBe('Main');
   app.unmount(); expect(nav.hasAttribute('data-lg-renderer')).toBe(false);
+});
+it('React rebinds a changed semantic tag, forwards the new node, and cleans up in StrictMode', async () => {
+  vi.stubGlobal('IS_REACT_ACT_ENVIRONMENT', true);
+  const host = document.createElement('div'); document.body.append(host);
+  const root = createRoot(host); const ref = createRef<HTMLElement>(); const clicked = vi.fn();
+  const render = (as: 'div' | 'nav', interactive = true) => createElement(StrictMode, null,
+    createElement(ReactSurface, { as, ref, onClick: clicked, 'aria-label': 'Main', glass: { interactive } }, 'Home'));
+  await act(async () => { root.render(render('div')); });
+  const previous = ref.current!; movePointer(previous);
+  expect(previous.style.getPropertyValue('--lg-pointer-x')).toBe('25%');
+  await act(async () => { root.render(render('nav')); });
+  const current = ref.current!;
+  expect(current).toBe(host.querySelector('nav')); expect(current).not.toBe(previous);
+  expect(current.getAttribute('aria-label')).toBe('Main');
+  expect(previous.style.getPropertyValue('--lg-pointer-x')).toBe('');
+  movePointer(previous, 80); expect(previous.style.getPropertyValue('--lg-pointer-x')).toBe('');
+  movePointer(current, 60); expect(current.style.getPropertyValue('--lg-pointer-x')).toBe('60%');
+  await act(async () => { current.click(); }); expect(clicked).toHaveBeenCalledOnce();
+  await act(async () => { root.render(render('nav', false)); });
+  movePointer(current, 80); expect(current.style.getPropertyValue('--lg-pointer-x')).toBe('');
+  await act(async () => { root.unmount(); });
+  expect(ref.current).toBe(null); movePointer(current, 30);
+  expect(current.style.getPropertyValue('--lg-pointer-x')).toBe('');
+});
+it('Vue rebinds a changed semantic tag and exposed element, then updates the new controller', async () => {
+  const host = document.createElement('div'); document.body.append(host);
+  const state = reactive({ tag: 'div', glass: { interactive: true } });
+  const surface = vueRef<{ element: HTMLElement }>(); const clicked = vi.fn();
+  const app = createApp({ render: () => h(GlassSurface, { ref: surface, as: state.tag, glass: state.glass, onClick: clicked, 'aria-label': 'Main' }, () => 'Home') });
+  app.mount(host); await nextTick();
+  const previous = host.firstElementChild as HTMLElement; movePointer(previous);
+  expect(previous.style.getPropertyValue('--lg-pointer-x')).toBe('25%');
+  state.tag = 'nav'; await nextTick();
+  const current = host.querySelector('nav')!;
+  expect(surface.value?.element).toBe(current); expect(current).not.toBe(previous);
+  expect(current.getAttribute('aria-label')).toBe('Main');
+  expect(previous.style.getPropertyValue('--lg-pointer-x')).toBe('');
+  movePointer(previous, 80); expect(previous.style.getPropertyValue('--lg-pointer-x')).toBe('');
+  movePointer(current, 60); expect(current.style.getPropertyValue('--lg-pointer-x')).toBe('60%');
+  current.click(); expect(clicked).toHaveBeenCalledOnce();
+  state.glass.interactive = false; await nextTick();
+  movePointer(current, 80); expect(current.style.getPropertyValue('--lg-pointer-x')).toBe('');
+  app.unmount(); movePointer(current, 30);
+  expect(current.style.getPropertyValue('--lg-pointer-x')).toBe('');
+});
+it('custom elements propagate saturation and material attributes through reconnects', () => {
+  registerGlassElement('adapter-test-glass');
+  const element = document.createElement('adapter-test-glass');
+  element.setAttribute('saturation', '2'); element.setAttribute('tint', '#3366ff');
+  element.setAttribute('tint-opacity', '.25'); element.setAttribute('opacity', '.5'); element.setAttribute('backdrop', 'light');
+  document.body.append(element);
+  expect(element.style.getPropertyValue('--lg-saturation')).toBe('2');
+  expect(element.style.getPropertyValue('--lg-tint')).toBe('#3366ff');
+  expect(element.style.getPropertyValue('--lg-tint-opacity')).toBe('0.25');
+  expect(element.style.getPropertyValue('--lg-opacity')).toBe('0.5');
+  expect(element.getAttribute('data-lg-backdrop')).toBe('light');
+  element.setAttribute('saturation', '1.1'); expect(element.style.getPropertyValue('--lg-saturation')).toBe('1.1');
+  element.setAttribute('backdrop', 'dark'); expect(element.getAttribute('data-lg-backdrop')).toBe('dark');
+  element.setAttribute('tint-opacity', '2'); expect(element.style.getPropertyValue('--lg-tint-opacity')).toBe('1');
+  element.removeAttribute('opacity'); expect(element.style.getPropertyValue('--lg-opacity')).toBe('1');
+  element.remove(); expect(element.style.getPropertyValue('--lg-saturation')).toBe('');
+  document.body.append(element); expect(element.style.getPropertyValue('--lg-saturation')).toBe('1.1');
+  expect(element.getAttribute('data-lg-backdrop')).toBe('dark');
+  expect(element.style.getPropertyValue('--lg-tint')).toBe('#3366ff'); element.remove();
 });

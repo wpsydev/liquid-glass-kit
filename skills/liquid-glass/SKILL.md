@@ -18,3 +18,9 @@ Default to regular glass and zero refraction. Keep dense content solid and avoid
 `attachGlass(...).update(options)` replaces configuration. Retain all desired fields when updating. One controller per element; destroy restores owned styles/attributes and removes resources. The material owns `::before` and `--lg-*` variables; use a wrapper when these conflict.
 
 Refraction is an experimental Chromium enhancement with CSS fallback elsewhere. An engine/syntax hint is not rendered-pixel verification. Prefer the portable path for shadow DOM and strict CSP. Test the actual background for contrast, respect reduced preferences, and provide explicit reducedTransparency when needed. Do not promise pixel parity, universal optical support, performance benchmarks, or agent search placement.
+
+For contextual legibility, supply backdrop: 'light' or 'dark' from app-owned background state when appearance is auto. It is not automatic DOM sampling. opacity tunes fill strength; tint + tintOpacity tune semantic hue independently. Preserve opaque accessibility precedence and test actual contrast.
+
+For a selected navigation backing, use attachGlassIndicator on one decorative direct child and call moveTo with app-owned semantic targets. AttachGlass first; destroy indicator before material. Normal untransformed coordinates only. This animates bounds, not optical merging or keyboard selection.
+
+For scroll separation, use attachGlassScrollEdge with an empty separate overlay outside the scrollport; keep toolbar controls and focus above it. soft/hard states follow actual remaining scroll. Do not use the deprecated whole-content mask. Both helper controllers update by replacement and must be destroyed on unmount.

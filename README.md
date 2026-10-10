@@ -2,18 +2,20 @@
 
 **Liquid Glass for the web, in any stack.** A small CSS and TypeScript material system with React and Vue adapters, a Svelte action, and accessible solid fallbacks.
 
-Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.1.0 preview**, not a pixel-identical recreation of Apple's renderer.
+Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.2.0 preview**, not a pixel-identical recreation of Apple's renderer.
 
 ![Live Liquid Glass Kit playground with material controls](docs/assets/playground.webp)
 
-[Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [Interactive demos](https://wpsydev.github.io/liquid-glass-kit/campaign/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
+[Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [Behavior lab](https://wpsydev.github.io/liquid-glass-kit/behavior/) · [Interactive demos](https://wpsydev.github.io/liquid-glass-kit/campaign/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Apple feature audit](docs/APPLE_PARITY.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
 
 ## Why another glass library?
 
 The material should fit your app's stack and semantics. Liquid Glass Kit separates the **portable material** from **experimental optical enhancement**:
 
 - **CSS first:** frosted backdrop, luminous edges, shadows, light/dark appearances, no runtime dependencies in the core.
-- **Optional interaction:** pointer highlights; rounded-rectangle SVG lensing on eligible Chromium engines. Never refract foreground text.
+- **Optional interaction:** pointer, touch and keyboard press feedback; rounded-rectangle SVG lensing on eligible Chromium engines. Never refract foreground text.
+- **Material controls:** fill strength, semantic tint and explicit backdrop tone; accessibility preferences retain precedence.
+- **Navigation primitives:** one moving decorative glass backing and scroll-aware soft/hard edge scrims; preserve foreground semantics.
 - **Keep native controls:** buttons remain buttons, navigation remains navigation, dialogs retain their focus behavior.
 - **SSR-safe:** no browser globals at import; deterministic server markup and enhancement after mount.
 - **Agent-ready:** typed exports, `llms.txt`, a complete plain-text integration guide, recipes, and an installable skill.
@@ -62,6 +64,8 @@ import { attachGlass } from '@wpsydev/liquid-glass';
 
 const controller = attachGlass(document.querySelector<HTMLElement>('.my-toolbar')!, {
   interactive: true,
+  tint: '#34d399', tintOpacity: 0.16,
+  opacity: 0.8, backdrop: 'dark', // App-supplied tone hint, not DOM sampling.
   refraction: 20, // Experimental live-backdrop lens; CSS fallback elsewhere.
 });
 controller.update({ appearance: 'dark', interactive: true }); // Replaces options.
@@ -101,3 +105,9 @@ npm pack         # Inspect the distributable
 ```
 
 Built with TypeScript, Vite, Vitest, browser-native CSS/SVG, and optional framework peers. ESM only. [Contributions](CONTRIBUTING.md) and reproducible browser reports welcome. [MIT](LICENSE).
+
+## What's new in the behavior preview
+
+An [Apple feature audit](docs/APPLE_PARITY.md) compares 37 native behaviors with the earlier implementation and records current WWDC26 refinements. This iteration adds density/tint/tone controls, touch and keyboard press feedback, `attachGlassIndicator` for moving backing geometry, and `attachGlassScrollEdge` for scroll-aware separation. React/Vue tag changes now rebind safely. Clear defaults to 6px blur; regular remains 18px. The old whole-content edge mask is removed. See [CHANGELOG.md](CHANGELOG.md) for migration details.
+
+Automatic backdrop sampling, arbitrary optical merging, native thickness/scattering, ambient light transport and native OS integrations remain outside this preview. The new helpers are accessible web approximations; [try their behavior](https://wpsydev.github.io/liquid-glass-kit/behavior/).

@@ -1,49 +1,73 @@
+@import './scroll-edge.css';
+@import './indicator.css';
 /* All selectors are prefixed. No reset, no global styles, no required JS. */
 .lg-glass {
   --lg-radius: 24px; --lg-blur: 18px; --lg-saturation: 1.35;
-  --lg-fill: rgb(245 247 252 / .72); --lg-solid-fill: #f4f6fb;
+  --lg-opacity: 1; --lg-tint: #ffffff; --lg-tint-opacity: 0;
+  --lg-fill-rgb: 245 247 252; --lg-fill-alpha: .72; --lg-solid-fill: #f4f6fb;
   --lg-ink: #172033; --lg-edge: rgb(255 255 255 / .72);
   position: relative; z-index: 0; border-radius: var(--lg-radius); color: var(--lg-ink);
   background: var(--lg-solid-fill); border: 1px solid var(--lg-edge);
-  box-shadow: 0 12px 36px -12px rgb(12 20 40 / .28), inset 0 1px 0 rgb(255 255 255 / .5), inset 0 -1px 0 rgb(255 255 255 / .15);
+  box-shadow: 0 12px 36px -12px rgb(12 20 40 / .28), inset 0 1px 0 rgb(255 255 255 / .65), inset 0 -1px 0 rgb(0 0 0 / .12);
 }
 .lg-glass::before {
   content: ''; position: absolute; inset: 0; border-radius: inherit;
-  z-index: -1; pointer-events: none; background: radial-gradient(ellipse at var(--lg-pointer-x, 20%) var(--lg-pointer-y, 0%), rgb(255 255 255 / .3), transparent 65%);
+  z-index: -1; pointer-events: none;
+  background: radial-gradient(ellipse at var(--lg-pointer-x, 20%) var(--lg-pointer-y, 0%), rgb(255 255 255 / .3), transparent 65%);
 }
 @supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
   .lg-glass { background: transparent; }
   .lg-glass::before {
-    background: radial-gradient(ellipse at var(--lg-pointer-x, 20%) var(--lg-pointer-y, 0%), rgb(255 255 255 / .3), transparent 65%), var(--lg-fill);
+    background-color: var(--lg-fill, rgb(var(--lg-fill-rgb) / calc(var(--lg-fill-alpha) * var(--lg-opacity))));
+    background-image: radial-gradient(ellipse at var(--lg-pointer-x, 20%) var(--lg-pointer-y, 0%), rgb(255 255 255 / .3), transparent 65%),
+      linear-gradient(color-mix(in srgb, var(--lg-tint) calc(var(--lg-tint-opacity) * 100%), transparent), color-mix(in srgb, var(--lg-tint) calc(var(--lg-tint-opacity) * 100%), transparent));
     -webkit-backdrop-filter: var(--lg-filter, blur(0px)) blur(var(--lg-blur)) saturate(var(--lg-saturation));
     backdrop-filter: var(--lg-filter, blur(0px)) blur(var(--lg-blur)) saturate(var(--lg-saturation));
   }
 }
-.lg-glass[data-lg-appearance='dark'] { --lg-fill: rgb(22 28 43 / .76); --lg-solid-fill: #192133; --lg-ink: #f4f7ff; --lg-edge: rgb(255 255 255 / .24); }
-@media (prefers-color-scheme: dark) {
-  .lg-glass:not([data-lg-appearance='light']):not([data-lg-appearance='dark']) { --lg-fill: rgb(22 28 43 / .76); --lg-solid-fill: #192133; --lg-ink: #f4f7ff; --lg-edge: rgb(255 255 255 / .24); }
+.lg-glass[data-lg-variant='clear'] { --lg-fill-rgb: 16 22 35; --lg-fill-alpha: .24; --lg-solid-fill: #192133; --lg-ink: #fff; --lg-blur: 6px; }
+.lg-glass[data-lg-appearance='dark'], .lg-glass[data-lg-appearance='auto'][data-lg-backdrop='dark'] {
+  --lg-fill-rgb: 22 28 43; --lg-solid-fill: #192133; --lg-ink: #f4f7ff; --lg-edge: rgb(255 255 255 / .28);
 }
-.lg-glass[data-lg-variant='clear'] { --lg-fill: rgb(16 22 35 / .24); --lg-solid-fill: #192133; --lg-ink: #fff; --lg-blur: 6px; }
+@media (prefers-color-scheme: dark) {
+  .lg-glass:not([data-lg-appearance='light']):not([data-lg-appearance='dark']):not([data-lg-backdrop='light']):not([data-lg-backdrop='dark']) {
+    --lg-fill-rgb: 22 28 43; --lg-solid-fill: #192133; --lg-ink: #f4f7ff; --lg-edge: rgb(255 255 255 / .28);
+  }
+}
+.lg-glass[data-lg-appearance='light'], .lg-glass[data-lg-appearance='auto'][data-lg-backdrop='light'] {
+  --lg-fill-rgb: 245 247 252; --lg-solid-fill: #f4f6fb; --lg-ink: #172033; --lg-edge: rgb(255 255 255 / .72);
+}
+/* Opaque accessibility mode always uses a readable fill/ink pair, including clear. */
+.lg-glass[data-lg-variant='clear'][data-lg-appearance='auto'][data-lg-backdrop='auto'][data-lg-solid='true'] { --lg-ink: #172033; --lg-solid-fill: #f4f6fb; }
+@media (prefers-color-scheme: dark) {
+  .lg-glass[data-lg-variant='clear'][data-lg-appearance='auto'][data-lg-backdrop='auto'][data-lg-solid='true'] { --lg-ink: #f4f7ff; --lg-solid-fill: #192133; }
+}
 .lg-glass[data-lg-solid='true'] { background: var(--lg-solid-fill); }
-.lg-glass[data-lg-solid='true']::before { backdrop-filter: none; -webkit-backdrop-filter: none; background: none; }
-.lg-glass[data-lg-variant='clear'][data-lg-solid='true'] { --lg-ink: #172033; --lg-solid-fill: #f4f6fb; }
-.lg-glass[data-lg-variant='clear'][data-lg-appearance='dark'][data-lg-solid='true'] { --lg-ink: #f4f7ff; --lg-solid-fill: #192133; }
+.lg-glass[data-lg-solid='true']::before { -webkit-backdrop-filter: none; backdrop-filter: none; background: none; }
 .lg-glass:focus-visible, .lg-glass :focus-visible { outline: 3px solid #4379e8; outline-offset: 4px; }
 .lg-button { font: inherit; min-height: 44px; min-width: 44px; padding: .7rem 1.2rem; cursor: pointer; }
 .lg-button:hover:not(:disabled) { box-shadow: 0 12px 32px -12px rgb(12 20 40 / .4), inset 0 1px 0 white; }
-.lg-button:active:not(:disabled) { opacity: .9; }
+.lg-glass[data-lg-interactive='true'] { transition: box-shadow .18s ease; }
+.lg-glass[data-lg-interactive='true'][data-lg-pressed='true'] { box-shadow: 0 4px 16px -6px rgb(12 20 40 / .32), inset 0 1px 3px rgb(255 255 255 / .65); }
+.lg-glass[data-lg-interactive='true'][data-lg-pressed='true']::before { background-position: center; filter: brightness(1.12); }
+.lg-button[data-lg-interactive='true'] { transition: scale .18s cubic-bezier(.2,.8,.2,1), box-shadow .18s ease; }
+.lg-button[data-lg-interactive='true']:active:not(:disabled), .lg-button[data-lg-interactive='true'][data-lg-pressed='true']:not(:disabled) { scale: .96; }
 .lg-button:disabled { opacity: .55; cursor: not-allowed; }
 .lg-panel { padding: 1.5rem; }
 .lg-toolbar { display: flex; align-items: center; gap: .5rem; padding: .5rem; }
 .lg-toolbar > button { background: transparent; border: 0; color: inherit; font: inherit; min-height: 44px; min-width: 44px; border-radius: calc(var(--lg-radius) - 8px); padding: .5rem 1rem; cursor: pointer; }
 .lg-toolbar > button[aria-pressed='true'], .lg-toolbar > button:hover { background: rgb(127 127 127 / .16); }
-.lg-scroll-edge { mask-image: linear-gradient(to bottom, transparent, #000 24px, #000 calc(100% - 24px), transparent); }
+/* Legacy helper no longer masks essential content or focus outlines. Use attachGlassScrollEdge. */
+.lg-scroll-edge { isolation: isolate; }
 @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
   .lg-glass { background: var(--lg-solid-fill); border-color: currentColor; }
-  .lg-glass::before { backdrop-filter: none; -webkit-backdrop-filter: none; background: none; }
-  .lg-glass[data-lg-variant='clear'] { --lg-solid-fill: #192133; --lg-ink: #fff; }
+  .lg-glass::before { -webkit-backdrop-filter: none; backdrop-filter: none; background: none; }
 }
-@media (prefers-reduced-motion: reduce) { .lg-glass, .lg-glass::before { animation: none !important; transition: none !important; } }
+@media (prefers-reduced-motion: reduce) {
+  .lg-glass, .lg-glass::before { animation: none !important; transition: none !important; }
+  .lg-button[data-lg-interactive='true'] { scale: none !important; }
+  .lg-glass[data-lg-pressed='true']::before { filter: none; }
+}
 @media (forced-colors: active) {
   .lg-glass { background: Canvas; color: CanvasText; border: 1px solid CanvasText; box-shadow: none; }
   .lg-glass::before { display: none; }

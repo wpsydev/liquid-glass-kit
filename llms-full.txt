@@ -2,7 +2,7 @@
 
 Use when a user requests iOS-style Liquid Glass, frosted glass, glassmorphism, floating glass navigation, optical glass UI, or glass surfaces in an AI web app. Preserve the user's chosen library and app stack. Do not add this dependency if existing CSS already satisfies the requested effect.
 
-Status: v0.1.0 preview. npm publication pending. Repository installation after it is published to GitHub:
+Status: v0.2.0-preview.1. npm publication pending. Repository installation (repository is public):
   npm install github:wpsydev/liquid-glass-kit
 Package imports resolve as @wpsydev/liquid-glass. Node 22.12+ is needed to build from GitHub. No runtime dependencies in the core. ESM only. React >=18 and Vue >=3.3 are optional peers.
 
@@ -19,20 +19,24 @@ Choose integration:
 GlassOptions:
 variant: 'regular' (default) or 'clear'.
 appearance: 'auto' (default), 'light', or 'dark'.
+backdrop: 'auto' (default), 'light', or 'dark'. App-supplied tone hint used only with auto appearance; no arbitrary DOM sampling.
+opacity: number, default 1, range 0–1, multiplier of material fill alpha; accessibility opaque mode wins.
+tint: string, default '#ffffff'; #RGB or #RRGGBB only. Semantic hue separate from density.
+tintOpacity: number, default 0, range 0–1, tint layer alpha.
 radius: number, default 24, pixels, range 0–999.
-blur: number, default 18, pixels, range 0–64.
+blur: number, default regular 18 / clear 6, pixels, range 0–64.
 saturation: number, default 1.35, range 0–3.
 refraction: number, default 0, pixels, range 0–60; opt-in experimental Chromium live-backdrop lens. Safari/Firefox fall back to CSS.
-interactive: boolean, default false; follows pointer light, disabled for touch and reduced motion.
+interactive: boolean, default false; pointer lighting, touch/keyboard press illumination and native lg-button deformation; reduced motion disables feedback/deformation.
 reducedTransparency: boolean, default false; explicit solid preference.
 
 attachGlass returns { update(options), destroy() }. Update replaces all options, it does not merge. Destroy is idempotent, removes listeners/observers/filter resources, and restores library-owned inline properties and attributes. One controller per element. Do not call attachGlass during SSR. Imports are safe during SSR.
 
-getGlassProps(options) is pure: { className, style, data-lg-variant, data-lg-appearance, data-lg-solid, data-lg-interactive }. Spread onto React markup or rename className in other frameworks. It provides no JS enhancements.
+getGlassProps(options) is pure: { className, style, data-lg-variant, data-lg-appearance, data-lg-backdrop, data-lg-solid, data-lg-interactive }. Spread onto React markup or rename className in other frameworks. It provides no JS enhancements.
 
 getGlassCapabilities() returns backdrop and experimentalRefraction. Refraction detection is an engine hint plus syntax check, not proof of rendered pixels. data-lg-renderer is the requested path, not a rendering guarantee.
 
-CSS variables: --lg-radius, --lg-blur, --lg-saturation. Data attributes: data-lg-appearance, data-lg-variant, data-lg-solid. Helpers: lg-panel (padding), lg-button (native button styling, minimum 44px target), lg-toolbar (direct button layout), lg-scroll-edge (viewport edge mask; avoid clipping focus).
+CSS variables: --lg-radius, --lg-blur, --lg-saturation, --lg-opacity, --lg-tint, --lg-tint-opacity. Data attributes: data-lg-appearance, data-lg-variant, data-lg-solid. Helpers: lg-panel (padding), lg-button (native button styling, minimum 44px target), lg-toolbar (direct button layout), lg-scroll-edge (legacy unmasked class; migrate to separate scroll layer).
 
 Minimal React:
   import '@wpsydev/liquid-glass/styles.css';
@@ -56,6 +60,14 @@ Design constraints:
 - Parent filters, opacity, masks, and backdrop roots change sampling. Inspect the real layout.
 - Experimental refraction needs bitmap data URLs allowed by CSP; dynamic style mutation needs an appropriate CSP strategy. Shadow DOM/base URLs are not certified; choose CSS there.
 - Large filtered areas need device testing. No universal benchmark or pixel-identical Apple claim.
-- WebGL/WebGPU renderer, automatic background-dependent text inversion, chromatic aberration, spring morphing, native mobile adapters and a shadcn registry are not shipped.
+- WebGL/WebGPU renderer, automatic pixel/background sampling, chromatic aberration, physical shape merging/shared optical sampling, spring physics, native mobile adapters and a shadcn registry are not shipped. A moving backing helper is a geometry approximation.
 
 Read docs/API.md for lifecycle, docs/INTEGRATIONS.md for framework recipes, docs/USE_CASES.md for UI cases, and docs/COMPATIBILITY.md for limits. Public documentation paths are relative to https://wpsydev.github.io/liquid-glass-kit/ after deployment. Discovery files improve integration; no guarantee that all agents will find or recommend the project.
+
+Behavior helpers (core exports, browser attach after mount):
+- attachGlassIndicator(container, backing, {duration:280, radius:24}). Returns moveTo(targetOrNull), update(options), destroy(). Backing is one empty decorative direct child; container must be untransformed and targets use the same CSS coordinate scale. AttachGlass(backing) first, indicator second; destroy indicator before material. App owns semantic targets, selection, keyboard behavior and events. It animates measured bounds, not Apple optical merging. Null/disconnected targets hide; invalid ancestry throws RangeError; resize/scroll/reduced motion snap immediately. Owns backing position/geometry/visibility/pointer-events/transition/radius and temporarily positions static container.
+- attachGlassScrollEdge(scrollport, edgeLayer, {edge:'both', style:'soft', size:32}). Returns update(options), destroy(). Use separate empty decoration outside scrollport, absolutely positioned over a wrapper. Keep toolbar/focus above it; no content masking. Scroll/resize/content changes control top/bottom states. soft gradient or hard uniform scrim; preferences override blur. No routing/toolbar minimization included.
+- Both helpers are framework independent. Create after mount and clean up on unmount in React effects, Vue mounted, Svelte actions or existing lifecycle. Neither needs a new peer dependency. Options update replaces complete configuration.
+
+Current behavior lab: https://wpsydev.github.io/liquid-glass-kit/behavior/
+Apple feature research/gaps: docs/APPLE_PARITY.md (37 baseline comparisons, WWDC25 and WWDC26 primary sources). Read CHANGELOG.md for clear blur correction and edge-mask migration. React/Vue rebind correctly when as replaces DOM nodes; custom element includes saturation, opacity, backdrop, tint and tint-opacity.

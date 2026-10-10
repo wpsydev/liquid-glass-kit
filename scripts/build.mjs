@@ -1,7 +1,9 @@
-import { copyFile, mkdir, cp } from 'node:fs/promises';
+import { copyFile, mkdir, cp, readFile, writeFile } from 'node:fs/promises';
 await mkdir('dist', { recursive: true });
-await copyFile('src/styles.css', 'dist/styles.css');
+const material = (await readFile('src/styles.css', 'utf8')).replace(/^@import .*;\n/gm, '');
+await writeFile('dist/styles.css', material + '\n' + await readFile('src/scroll-edge.css', 'utf8') + '\n' + await readFile('src/indicator.css', 'utf8'));
 await mkdir('site/public', { recursive: true });
+await copyFile('CHANGELOG.md', 'site/public/CHANGELOG.md');
 await copyFile('llms.txt', 'site/public/llms.txt');
 await copyFile('llms-full.txt', 'site/public/llms-full.txt');
 await cp('docs', 'site/public/docs', { recursive: true });
