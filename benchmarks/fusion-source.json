@@ -1,0 +1,9 @@
+{
+  "commit": "9acf75480cadec1daf2aa430a4b77daf3c18180e",
+  "sourceSha256": "5c48b8bdf0086474b94defe7e6453423862f30e09458ad0adaa2c93eeb1bd238",
+  "sourceChanges": [
+    "M src/scene-shaders.ts",
+    " M src/scene.ts"
+  ],
+  "hashing": "Sorted src .ts/.tsx/.css file names and contents, each followed by NUL; source bundled directly, not dist."
+}

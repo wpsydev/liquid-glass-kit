@@ -7,7 +7,7 @@ description: Add or tune Liquid Glass and glassmorphism surfaces in web apps usi
 
 Respect the user's existing UI library and dependency choices. This skill supports the independent `@wpsydev/liquid-glass` web package; it is not an instruction to replace an adequate existing material.
 
-Check whether the npm package is published before recommending registry installation. The preview can be installed from `github:wpsydev/liquid-glass-kit` once that repository exists. Import `@wpsydev/liquid-glass/styles.css` once.
+Check whether the npm package is published before recommending registry installation. Registry publication is pending; install the matching preview from `github:wpsydev/liquid-glass-kit#v0.11.0-preview.1` (Node 22.12+ to build). Import `@wpsydev/liquid-glass/styles.css` once.
 
 The 0.9 update retains existing APIs. Static attachGlass controllers avoid input listeners, ResizeObservers and animation frames; per-Window media listeners are shared and cleaned up. Read docs/PERFORMANCE.md for measured controller-lifecycle scope and tradeoffs; no frame-rate, battery or all-phone speed promise follows.
 
@@ -38,6 +38,10 @@ Enter/exit resolve a completion boolean and animate presentation only. The app o
 For an animated scene the application owns, the optional `@wpsydev/liquid-glass/scene` import can refract its procedural canvas through up to eight measured HTML lens rectangles. Read docs/SCENE.md and keep CSS fallback, native semantics, pause and reduced-motion controls. It does not refract arbitrary DOM or external imagery; choose the ordinary CSS material when that is the real requirement.
 
 The 0.10 scene optionally batches decorative `field` instances with stream/wave/orbit motion and deterministic seed. Prefer this for an owned visual field, not thousands of interactive controls. Counts are submitted GPU instances, not semantic widgets or measured FPS. `maxDpr` and optional `maxPixels` bound pixel cost; `maxPixels` explicitly reduces resolution. Keep labels and input in HTML. The RGBA8 wallpaper cache changes sampling relative to the prior analytical renderer. Read docs/SCENE.md for exact defaults/types and docs/RENDERING.md for measurement scope; do not infer all-device speed from one browser run.
+
+The 0.11 scene adds optional `fusion: { drops, smoothness, refraction, dispersion }` for up to eight owned circular shapes. Import `GlassSceneDrop` and `GlassSceneFusionOptions` as types from `/scene`; no fusion prop is added to the React/Vue material adapters. Drop centers/radius use canvas-local CSS pixels. Defaults are smoothness32 [0–120], refraction36 [0–100], dispersion0 [0–8]; `backdrop:'studio'` selects owned procedural artwork and `ribbons` remains the scene default. This scene backdrop option differs from the material controller's app-provided light/dark tone hint.
+
+Call `scene.setDrops(drops)` to copy/stage geometry without resubscribing layout observers. It requires enabled fusion; it does not replace optical options or draw immediately while paused. With `paused:true`, call `scene.render(seconds)` once for the intended pose. `scene.update(options)` still replaces all configuration, including fusion. The host owns animation timing, semantic controls, reduced-motion choreography and fallback; cancel its RAF/timeline before destroying the scene. `stats.fusionCount` describes last-submitted droplets, not widgets, physics or speed. This smooth-circle union does not merge arbitrary DOM or reproduce Apple's native optical grouping. Read docs/FUSION.md and docs/SCENE.md before choosing it; use CSS for ordinary website material.
 
 
 For mobile widgets, read `docs/MOBILE.md` and its primary-source research before choosing layout. Preserve at least 44×44 CSS-pixel native hit targets, visible labels/focus/disabled states, wrapping text and generous spacing. Glass belongs to a small floating control layer; inner selected states use plain fills, not another glass surface.

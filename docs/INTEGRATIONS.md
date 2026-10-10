@@ -126,3 +126,24 @@ If Motion, GSAP or Anime.js already animates your component, let it continue on 
 ## Optional owned visual field across stacks
 
 Import `attachGlassScene` from `@wpsydev/liquid-glass/scene`; attach to a decorative `aria-hidden` canvas after mount and destroy on cleanup. React effects, Vue mounted hooks and Svelte actions use the same controller. Pass `{ field: { count: 3000, motion: 'wave' }, maxDpr: 1.5 }` for decorative instances; the foreground controls remain semantic HTML with the ordinary CSS material. Provide pause and unsupported/context-loss fallback states. `update` replaces all options, so retain the field when updating pause. [SCENE.md](SCENE.md) lists exact defaults, pixel budgets, stats and limits; the canvas samples its owned background, not arbitrary DOM.
+
+## Optional circular fusion across stacks
+
+Use the same `/scene` controller after mount with `{ fusion: { drops }, backdrop: 'studio', paused: true }` when the app owns a decorative glass animation. Each drop is `{ x, y, radius }` in canvas-local CSS pixels; at most eight circles are combined. `backdrop` here selects the scene artwork (`ribbons`/`studio`), unlike the material controller's light/dark tone hint.
+
+```ts
+import { attachGlassScene, type GlassSceneDrop } from '@wpsydev/liquid-glass/scene';
+
+const scene = attachGlassScene(canvas, {
+  backdrop: 'studio', paused: true, maxDpr: 1.5,
+  fusion: { drops: [], smoothness: 32, refraction: 36 },
+});
+function presentPose(drops: readonly GlassSceneDrop[], seconds: number) {
+  scene.setDrops(drops); // copies geometry; does not recreate layout observers
+  scene.render(seconds); // explicit submission because the scene is paused
+}
+// Host supplies presentPose callers.
+// Cancel the host timeline/RAF and call scene.destroy() on unmount.
+```
+
+`setDrops` is a geometry-only staging method; it does not enable omitted fusion or change its optical settings. Use `update` for full configuration replacement and preserve desired fusion/backdrop/palette fields. React/Vue adapters do not add a fusion prop: attach the optional scene through the host's existing effect/mounted lifecycle. SSR retains static HTML and CSS; no canvas attachment runs on the server. Respect reduced motion in the host choreography as well as the scene, retain explicit pause/solid state, and restore a static/CSS fallback after context loss. The shader supplies neither input hit testing nor focus semantics. Read [SCENE.md](SCENE.md) and [FUSION.md](FUSION.md) before integrating; this does not merge arbitrary page controls or sample their backgrounds.

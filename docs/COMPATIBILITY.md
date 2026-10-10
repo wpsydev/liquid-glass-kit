@@ -21,7 +21,7 @@ The lens gate uses a Chromium user-agent hint and syntax check. This is delibera
 - The experimental lens installs a document-level SVG definition. Shadow roots and consumer `<base>` URLs are not certified; use CSS there.
 - Refraction bitmap URLs need `img-src data:` in a strict CSP. Style mutation also needs an appropriate application CSP strategy. CSS-only class styling avoids dynamic style injection, and zero refraction avoids bitmap URLs.
 - Offscreen/zero-size elements receive no lens until measured again. ResizeObserver handles modern environments.
-- Arbitrary-DOM GPU refraction, background-aware automatic text inversion, chromatic aberration, physical shape merging and native mobile adapters remain unimplemented. Spring motion and moving backing geometry are separate CSS/DOM approximations, not optical shape merging.
+- Arbitrary-DOM GPU refraction, background-aware automatic text inversion, native optical shape merging and native mobile adapters remain unimplemented. Optional owned-scene circular fusion and stylized RGB dispersion do not establish those native capabilities. Spring motion and moving backing geometry remain separate CSS/DOM approximations, not optical shape merging.
 - Large blur areas and media backgrounds need device testing; there is no established universal performance budget.
 - The core is ESM. React 18+ and Vue 3.3+ are optional peer contracts. Their latest installed versions are used in local tests, not the full minimum-version range.
 
@@ -34,6 +34,8 @@ Entry/exit fades change whole-surface opacity. Values below 1 create a CSS backd
 An optional `@wpsydev/liquid-glass/scene` WebGL2 renderer now refracts its own procedural background. It is separate from the CSS/SVG paths and does not sample arbitrary DOM or external imagery. Keep a CSS fallback on context failure/loss and use preference/pause controls. See [SCENE.md](SCENE.md).
 
 The 0.10 scene adds decorative instanced fields and a cached RGBA8 wallpaper. Texture interpolation, quantization, edge clamping and float rounding differ from the original analytical shader. `maxPixels` is an explicit resolution tradeoff, never enabled by default. Instance counts are submitted graphics, including boundary-clipped shapes; they do not certify thousands of semantic widgets or any phone's frame rate. Normal CSS backdrop-filter cost remains scene- and device-dependent. See [RENDERING.md](RENDERING.md) for separate map-generation, GPU, cadence and resource evidence.
+
+The 0.11 scene adds a smooth union of up to eight owned circular droplets, a procedural `studio` backdrop and optional stylized dispersion. Fusion has no DOM hit targets or focus semantics; the host owns the foreground HTML and merge/orbit/split choreography. `setDrops` stages copied geometry; paused callers must invoke `render` to submit it. Reduced motion stops the scene's automatic time loop, but cannot stop a separate application animation loop: host-owned choreography must respect that preference too. Keep a static/opaque fallback on unsupported or lost contexts. Fusion does not recursively refract other graphics, merge arbitrary HTML surfaces or reproduce Apple's renderer. See [SCENE.md](SCENE.md) and [FUSION.md](FUSION.md) for contract and measurement boundaries.
 
 ## Mobile layout and continuous corners
 

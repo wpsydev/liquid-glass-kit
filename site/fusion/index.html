@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#eee9df">
+  <title>Soft Matter — Liquid Glass Kit</title>
+  <meta name="description" content="An interactive optical sculpture. Three glass droplets merge, orbit and separate using Liquid Glass Kit's experimental owned-scene fusion API.">
+</head>
+<body>
+<main class="gallery">
+  <header class="masthead"><a href="../" class="brand"><span aria-hidden="true">◒</span><span>LIQUID<br>GLASS KIT</span></a><span class="edition">MATERIAL EXPERIMENT<br>NO. 011 / SOFT MATTER</span><a class="source" href="https://github.com/wpsydev/liquid-glass-kit">Source <span aria-hidden="true">↗</span></a></header>
+  <section class="art" id="art" aria-label="Interactive decorative glass sculpture">
+    <canvas id="glass" aria-hidden="true"></canvas>
+    <div class="title-block"><p class="eyebrow">AN OPTICAL SCULPTURE FOR THE WEB</p><h1><span id="title-first">Soft</span><br><em id="title-second">matter.</em></h1></div>
+    <div class="chapter"><span id="chapter-number">01</span><div><strong id="chapter-name">ATTRACTION</strong><span id="chapter-note">Separate forms. A shared silhouette.</span></div></div>
+    <span class="axis axis-x" aria-hidden="true">X / 01</span><span class="axis axis-y" aria-hidden="true">Y / 02</span>
+    <div class="gesture"><span aria-hidden="true">↔</span><span>Drag the glass.<br>Watch the light bend.</span></div>
+    <div class="annotation" aria-hidden="true"><i></i><span>THE EDGE IS<br>THE EXPERIMENT.</span></div>
+    <span class="unsupported" id="unsupported" hidden>WebGL2 is unavailable. The composition stays static; the controls and documentation remain available.</span>
+  </section>
+  <section class="workbench" aria-label="Sculpture controls">
+    <div class="modes" role="group" aria-label="Sculpture choreography"><button id="merge" aria-pressed="true" type="button">Merge</button><button id="orbit" aria-pressed="false" type="button">Orbit</button><button id="split" aria-pressed="false" type="button">Split</button></div>
+    <div class="tone" role="group" aria-label="Light palette"><button id="cobalt" type="button" aria-pressed="true" aria-label="Cobalt and vermillion light"><i></i></button><button id="citrus" type="button" aria-pressed="false" aria-label="Citrus and ink light"><i></i></button><button id="rose" type="button" aria-pressed="false" aria-label="Rose and midnight light"><i></i></button></div>
+    <div class="transport"><button id="pause" type="button" aria-pressed="false" aria-label="Pause sculpture"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 4v12M14 4v12"/></svg></button><button id="film" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m7 4 9 6-9 6Z"/></svg><span>12s film</span></button><button id="reset" type="button" aria-label="Reset sculpture"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 8a7 7 0 1 1 0 5M3 3v5h5"/></svg></button></div>
+    <label class="tension" for="tension"><span>Surface tension</span><input id="tension" type="range" min="0" max="120" step="1" value="64"></label>
+  </section>
+  <footer class="colophon"><p><strong>Three droplets. One fusion pass.</strong><br><span>Experimental WebGL2 · native HTML controls · CSS stays the default.</span></p><div><button id="copy" type="button">Copy the recipe <span aria-hidden="true">↗</span></button><a href="../docs/FUSION.md">Explore the material <span aria-hidden="true">↗</span></a></div></footer>
+  <div class="progress" aria-hidden="true"><i id="progress"></i></div>
+  <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+</main>
+<script type="module" src="./main.ts"></script>
+</body>
+</html>

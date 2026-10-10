@@ -108,15 +108,43 @@ uniform vec2 uResolution;
 uniform vec2 uDpr;
 uniform float uTime;
 uniform int uPalette;
+uniform int uBackdrop;
 uniform int uSolid;
+`;
+
+const studio = `
+vec3 studio(vec2 point) {
+  float unit = max(1.0, min(uResolution.x, uResolution.y));
+  vec2 p = (point - uResolution * .5) / unit;
+  float t = uTime * .15;
+  vec3 paper = vec3(.933, .914, .875);
+  vec3 cobalt = vec3(.025, .16, .88);
+  vec3 vermilion = vec3(.92, .16, .065);
+  vec3 ink = vec3(.022, .028, .040);
+  if (uPalette == 1) { cobalt = vec3(.78, .86, .17); vermilion = vec3(.03, .035, .035); ink = vec3(.25, .18, .35); }
+  if (uPalette == 2) { cobalt = vec3(.87, .42, .54); vermilion = vec3(.13, .14, .25); ink = vec3(.94, .48, .27); }
+  vec3 color = paper + vec3(.035) * (1.0 - smoothstep(.05, .8, length(p)));
+  float first = abs(p.x + .16 + .22 * sin(p.y * 3.4 + t * .45));
+  color = mix(color, cobalt, 1.0 - smoothstep(.115, .120, first));
+  float second = abs(p.y - .25 + .12 * sin(p.x * 4.1 - t * .6));
+  color = mix(color, vermilion, 1.0 - smoothstep(.095, .100, second));
+  float third = abs(p.x - .24 + .09 * cos(p.y * 4.8 - t * .3));
+  color = mix(color, ink, 1.0 - smoothstep(.025, .029, third));
+  // Screen-anchored calibration lines reveal edge displacement across every band.
+  float stripe = abs(fract((point.x + point.y * .16) / 34.0) - .5) * 34.0;
+  float line = 1.0 - smoothstep(.35, .85, stripe);
+  color = mix(color, ink, line * .26);
+  return color;
+}
 `;
 
 export const wallpaperSource = `#version 300 es
 ${uniforms}
 ${wallpaper}
+${studio}
 void main() {
   vec2 point = vec2(gl_FragCoord.x / uDpr.x, uResolution.y - gl_FragCoord.y / uDpr.y);
-  outColor = vec4(clamp(wallpaper(point), 0.0, 1.0), 1.0);
+  outColor = vec4(clamp(uBackdrop == 1 ? studio(point) : wallpaper(point), 0.0, 1.0), 1.0);
 }`;
 
 export const fragmentSource = `#version 300 es
@@ -270,4 +298,85 @@ void main() {
     glass *= 1.0 - edge * (1.0 - incidence) * .08;
   }
   outColor = vec4(clamp(glass, 0.0, 1.0), coverage);
+}`;
+
+
+export const fusionVertexSource = `#version 300 es
+precision highp float;
+uniform vec2 uResolution;
+uniform vec4 uFusionBounds;
+void main() {
+  vec2 corners[6] = vec2[6](vec2(-1,-1), vec2(1,-1), vec2(-1,1), vec2(-1,1), vec2(1,-1), vec2(1,1));
+  vec2 point = uFusionBounds.xy + corners[gl_VertexID] * uFusionBounds.zw;
+  gl_Position = vec4(point.x / uResolution.x * 2.0 - 1.0, 1.0 - point.y / uResolution.y * 2.0, 0.0, 1.0);
+}`;
+
+export const fusionFragmentSource = `#version 300 es
+${uniforms}
+uniform sampler2D uWallpaper;
+uniform int uFusionCount;
+uniform vec3 uDrops[8];
+uniform vec4 uFusion;
+
+// Circle gradients and the polynomial smooth-min derivative are analytical.
+// The derivative of its blend weight cancels, leaving the weighted gradients.
+void fusedDistance(vec2 point, out float distance, out vec2 normal) {
+  distance = 1e10;
+  vec2 gradient = vec2(0.0, -1.0);
+  for (int i = 0; i < 8; i++) {
+    if (i >= uFusionCount) break;
+    vec2 local = point - uDrops[i].xy;
+    float lengthLocal = length(local);
+    float candidate = lengthLocal - uDrops[i].z;
+    vec2 candidateGradient = lengthLocal > .0001 ? local / lengthLocal : vec2(0.0, -1.0);
+    if (i == 0 || uFusion.x <= .0001) {
+      if (candidate < distance) { distance = candidate; gradient = candidateGradient; }
+    } else {
+      float h = clamp(.5 + .5 * (candidate - distance) / uFusion.x, 0.0, 1.0);
+      distance = mix(candidate, distance, h) - uFusion.x * h * (1.0 - h);
+      gradient = mix(candidateGradient, gradient, h);
+    }
+  }
+  float gradientLength = length(gradient);
+  normal = gradientLength > .0001 ? gradient / gradientLength : vec2(0.0, -1.0);
+}
+vec3 sampleWallpaper(vec2 point) {
+  return texture(uWallpaper, vec2(point.x / uResolution.x, 1.0 - point.y / uResolution.y)).rgb;
+}
+void main() {
+  vec2 point = vec2(gl_FragCoord.x / uDpr.x, uResolution.y - gl_FragCoord.y / uDpr.y);
+  float d; vec2 normal;
+  fusedDistance(point, d, normal);
+  float coverage = 1.0 - smoothstep(-.65, .65, d);
+  float shadow = d > 0.0 ? exp(-d / 12.0) * .17 : 0.0;
+  vec3 glass = vec3(0.0);
+  if (coverage > 0.0) {
+    if (uSolid == 1) glass = vec3(.050, .059, .105);
+    else {
+      float depth = max(0.0, -d);
+      float edge = 1.0 - smoothstep(0.0, uFusion.w, depth);
+      vec2 samplePoint = point - normal * uFusion.y * edge * edge;
+      glass = sampleWallpaper(samplePoint);
+      if (uFusion.z > 0.0) {
+        vec2 split = normal * uFusion.z * edge * edge;
+        glass.r = sampleWallpaper(samplePoint - split).r;
+        glass.b = sampleWallpaper(samplePoint + split).b;
+      }
+      glass = mix(glass, vec3(.97, .985, 1.0), .035);
+      float incidence = max(0.0, dot(normal, vec2(-.6, -.8)));
+      float opposite = max(0.0, dot(normal, vec2(.6, .8)));
+      float rim = exp(-depth / 1.65);
+      float innerPosition = (depth - 4.0) / 3.0;
+      float inner = exp(-innerPosition * innerPosition);
+      // A bright upper-left reflection and dark lower-right rim remain visible
+      // on light paper. They are independent from refractive displacement.
+      glass *= 1.0 - edge * edge * (.11 + opposite * .14);
+      glass += vec3(.95, .98, 1.0) * rim * (.12 + incidence * incidence * .85);
+      glass += vec3(.10, .14, .22) * inner * incidence * .18;
+      glass -= vec3(.16) * rim * opposite;
+    }
+    float grain = fract(sin(dot(floor(point * uDpr), vec2(12.9898, 78.233))) * 43758.5453) - .5;
+    glass += grain / 255.0;
+  }
+  outColor = vec4(glass * coverage, (1.0 - shadow) * (1.0 - coverage));
 }`;

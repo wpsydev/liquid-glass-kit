@@ -21,6 +21,7 @@ export default defineConfig({
         microMotion: resolve('site/micro-motion/index.html'),
         performance: resolve('site/performance/index.html'),
         flow: resolve('site/flow/index.html'),
+        fusion: resolve('site/fusion/index.html'),
       },
     },
   },

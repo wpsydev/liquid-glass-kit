@@ -30,6 +30,7 @@ This matrix covers common application scenarios and explicitly identifies limits
 | Strict CSP | Static class + external CSS | Omit refraction unless bitmap/style policy permits it |
 | Canvas / WebGL app | CSS overlay controls or optional procedural scene | Owned-scene refraction only; external texture rendering remains future work |
 | Thousands of decorative flowing shapes | Optional /scene field | GPU instancing, deterministic stream/wave/orbit motion, shared wallpaper and explicit pixel budget; retain semantic controls outside the canvas |
+| Merging decorative glass droplets / owned animated artwork | Optional /scene fusion | Up to eight circular shapes form one smooth boundary; stage copied CSS-pixel geometry with setDrops, render explicitly while paused, and retain host-owned choreography, foreground semantics and fallback |
 | Native React Native / Expo | Out of web scope | Use native material primitives; web exports need DOM |
 
 ## Native dialog recipe

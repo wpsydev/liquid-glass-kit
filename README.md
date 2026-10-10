@@ -2,18 +2,18 @@
 
 **CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.10 rendering preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.11 fusion preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
 ![Material workbench](docs/assets/studio.webp)
 
-[Playground](https://wpsydev.github.io/liquid-glass-kit/) · [Glass flow](https://wpsydev.github.io/liquid-glass-kit/flow/) · [API](docs/API.md) · [Integrations](docs/INTEGRATIONS.md) · [Agent guide](llms-full.txt) · [Rendering guide](docs/RENDERING.md)
+[Playground](https://wpsydev.github.io/liquid-glass-kit/) · [Soft Matter](https://wpsydev.github.io/liquid-glass-kit/fusion/) · [Glass flow](https://wpsydev.github.io/liquid-glass-kit/flow/) · [API](docs/API.md) · [Integrations](docs/INTEGRATIONS.md) · [Agent guide](llms-full.txt)
 
 ## Start with CSS
 
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.10.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.11.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -67,8 +67,9 @@ surface.destroy();
 | Anchored overlay / scroll boundary | Optional `attachGlassOverlay` / `attachGlassScrollEdge` |
 | Owned procedural optical scene | Experimental `/scene`; keep CSS fallback |
 | Thousands of decorative flowing shapes | Optional `/scene` field: one instanced draw, shader motion, explicit pixel budget |
+| Merging decorative glass droplets | Experimental `/scene` fusion: up to eight owned circular shapes, staged geometry and host-owned choreography |
 
-Dedicated adapters are tested for React and Vue; other stacks have [recipes](docs/INTEGRATIONS.md). No new public API is required for the performance update. Static controllers avoid input listeners, resize observers and animation frames; preference listeners are shared per browser window. Adapters share one lifecycle and skip unchanged updates. See the [reproducible benchmark and limits](docs/PERFORMANCE.md).
+Dedicated adapters are tested for React and Vue; other stacks have [recipes](docs/INTEGRATIONS.md). Static controllers avoid input listeners, resize observers and animation frames; preference listeners are shared per browser window. Adapters share one lifecycle and skip unchanged updates. See the [reproducible benchmark and limits](docs/PERFORMANCE.md).
 
 ## Examples and boundaries
 
@@ -76,7 +77,7 @@ Dedicated adapters are tested for React and Vue; other stacks have [recipes](doc
 
 The material respects reduced motion, supported reduced transparency, increased contrast, forced colors and printing. Set `reducedTransparency` explicitly when needed. Mobile helpers cover minimum targets, wrapping, safe-area spacing and coordinated corners; they do not certify every phone or software keyboard. [Mobile guide](docs/MOBILE.md) · [Browser limits](docs/COMPATIBILITY.md) · [Use cases](docs/USE_CASES.md).
 
-SVG refraction is an opt-in Chromium experiment. Its displacement generation is optimized without changing bitmap bytes. The separate WebGL2 scene caches its own procedural wallpaper and batches decorative stream/wave/orbit instances; it does not sample arbitrary DOM or replace semantic controls. Automatic backdrop sampling, optical merging, native scattering and OS integration remain outside this library. [Scene API](docs/SCENE.md) · [Rendering research](docs/RENDERING_RESEARCH.md) · [Apple feature audit](docs/APPLE_PARITY.md).
+SVG refraction is an opt-in Chromium experiment. Its displacement generation is optimized without changing bitmap bytes. The separate WebGL2 scene caches its own procedural wallpaper, batches decorative stream/wave/orbit instances, and smoothly joins up to eight circular droplets. Fusion uses one shared boundary with edge refraction, specular lighting and optional color dispersion; `setDrops()` stages geometry for host-owned motion. It does not sample arbitrary DOM or replace semantic controls. Native Apple optical grouping, arbitrary DOM merging, native scattering and OS integration remain gaps. [Scene API](docs/SCENE.md) · [Fusion study](docs/FUSION.md) · [Rendering guide](docs/RENDERING.md) · [Apple feature audit](docs/APPLE_PARITY.md).
 
 ## For coding agents
 

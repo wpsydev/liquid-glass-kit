@@ -1,6 +1,6 @@
 import { bounded } from './numeric.js';
 import { captureState, listen } from './lifecycle.js';
-import { fieldFragmentSource, fieldVertexSource, fragmentSource, lensFragmentSource, lensVertexSource, vertexSource, wallpaperSource } from './scene-shaders.js';
+import { fieldFragmentSource, fieldVertexSource, fragmentSource, fusionFragmentSource, fusionVertexSource, lensFragmentSource, lensVertexSource, vertexSource, wallpaperSource } from './scene-shaders.js';
 
 /** A surface in an owned WebGL scene. Coordinates and optics use CSS pixels. */
 export interface GlassSceneSurface {
@@ -23,10 +23,27 @@ export interface GlassSceneFieldOptions {
   seed?: number;
 }
 
+/** A circular droplet in canvas-local CSS pixels; no DOM element is created. */
+export interface GlassSceneDrop {
+  x: number;
+  y: number;
+  radius: number;
+}
+
+/** Experimental smooth union of up to eight owned-scene circular droplets. */
+export interface GlassSceneFusionOptions {
+  drops: readonly GlassSceneDrop[];
+  smoothness?: number;
+  refraction?: number;
+  dispersion?: number;
+}
+
 /** Experimental optics for a wallpaper rendered by this controller, never arbitrary DOM. */
 export interface GlassSceneOptions {
   surfaces?: GlassSceneSurface[];
   field?: GlassSceneFieldOptions;
+  fusion?: GlassSceneFusionOptions;
+  backdrop?: 'ribbons' | 'studio';
   palette?: 'neon' | 'sunset' | 'ocean';
   paused?: boolean;
   reducedMotion?: boolean;
@@ -40,6 +57,7 @@ export interface GlassSceneOptions {
 export interface GlassSceneStats {
   readonly renderer: 'webgl2';
   readonly fieldCount: number;
+  readonly fusionCount: number;
   readonly drawCalls: number;
   readonly wallpaperPasses: number;
   readonly width: number;
@@ -50,8 +68,9 @@ export interface GlassSceneStats {
 
 const MAX_SURFACES = 8;
 type Pipeline = { program: WebGLProgram; locations: Record<string, WebGLUniformLocation | null> };
-const uniformNames = ['uResolution', 'uDpr', 'uTime', 'uPalette', 'uCount', 'uSolid', 'uRects[0]', 'uOptics[0]', 'uWallpaper', 'uField', 'uDirection', 'uMotion'];
-const emptyStats = (): GlassSceneStats => ({ renderer: 'webgl2', fieldCount: 0, drawCalls: 0, wallpaperPasses: 0, width: 0, height: 0, dpr: 0, pixels: 0 });
+const uniformNames = ['uResolution', 'uDpr', 'uTime', 'uPalette', 'uCount', 'uSolid', 'uRects[0]', 'uOptics[0]', 'uWallpaper', 'uField', 'uDirection', 'uMotion', 'uBackdrop', 'uDrops[0]', 'uFusionCount', 'uFusion', 'uFusionBounds'];
+type MutableStats = { -readonly [Key in keyof GlassSceneStats]: GlassSceneStats[Key] };
+const emptyStats = (): MutableStats => ({ renderer: 'webgl2', fieldCount: 0, fusionCount: 0, drawCalls: 0, wallpaperPasses: 0, width: 0, height: 0, dpr: 0, pixels: 0 });
 
 /**
  * Render an experimental owned wallpaper, optional lenses and decorative instances.
@@ -68,6 +87,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
     get supported() { return false; },
     get stats() { return { ...stats }; },
     update(_options: GlassSceneOptions = {}) {},
+    setDrops(_drops: readonly GlassSceneDrop[]) {},
     render(_timeSeconds?: number) {},
     destroy() { destroyed = true; },
   };
@@ -81,6 +101,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   let composite: Pipeline | null = null;
   let field: Pipeline | null = null;
   let lenses: Pipeline | null = null;
+  let fusion: Pipeline | null = null;
   let vao: WebGLVertexArrayObject | null = null;
   let texture: WebGLTexture | null = null;
   let framebuffer: WebGLFramebuffer | null = null;
@@ -92,6 +113,8 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   let options: GlassSceneOptions = {};
   let surfaces: GlassSceneSurface[] = [];
   let fieldCount = 0;
+  let fusionEnabled = false, fusionCount = 0;
+  let fusionSmoothness = 32, fusionRefraction = 36, fusionDispersion = 0, fusionEdgeWidth = 44;
   const restore = captureState(canvas, [], ['width', 'height']);
   const reduced = view.matchMedia?.('(prefers-reduced-motion: reduce)');
   const transparency = view.matchMedia?.('(prefers-reduced-transparency: reduce)');
@@ -106,11 +129,11 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   const canAnimate = () => !destroyed && supported && canvas.isConnected && !doc.hidden
     && !options.paused && !options.reducedMotion && !reduced?.matches;
   const releaseGpu = () => {
-    for (const pipeline of [background, composite, lenses, field]) if (pipeline) context.deleteProgram(pipeline.program);
+    for (const pipeline of [background, composite, fusion, lenses, field]) if (pipeline) context.deleteProgram(pipeline.program);
     if (vao) context.deleteVertexArray(vao);
     if (texture) context.deleteTexture(texture);
     if (framebuffer) context.deleteFramebuffer(framebuffer);
-    background = null; composite = null; lenses = null; field = null; vao = null; texture = null; framebuffer = null;
+    background = null; composite = null; lenses = null; fusion = null; field = null; vao = null; texture = null; framebuffer = null;
     textureWidth = textureHeight = 0;
   };
   const createPipeline = (vertexSource: string, fragmentSource: string): Pipeline | null => {
@@ -152,6 +175,41 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
 
   const rectData = new Float32Array(MAX_SURFACES * 4);
   const opticData = new Float32Array(MAX_SURFACES * 2);
+  const dropData = new Float32Array(MAX_SURFACES * 3);
+  const fusionBounds = new Float32Array(4);
+  const writeDrops = (drops: readonly GlassSceneDrop[]) => {
+    fusionCount = 0;
+    let left = Infinity, top = Infinity, right = -Infinity, bottom = -Infinity, minimumRadius = 1024;
+    if (Array.isArray(drops)) for (let index = 0; index < drops.length && fusionCount < MAX_SURFACES; index++) {
+      const drop = drops[index];
+      if (!drop || typeof drop !== 'object') continue;
+      const offset = fusionCount * 3;
+      dropData[offset] = bounded(drop.x, 0, -100_000, 100_000);
+      dropData[offset + 1] = bounded(drop.y, 0, -100_000, 100_000);
+      dropData[offset + 2] = bounded(drop.radius, 80, 1, 1024);
+      const x = dropData[offset]!, y = dropData[offset + 1]!, radius = dropData[offset + 2]!;
+      left = Math.min(left, x - radius); right = Math.max(right, x + radius);
+      top = Math.min(top, y - radius); bottom = Math.max(bottom, y + radius);
+      minimumRadius = Math.min(minimumRadius, radius);
+      fusionCount++;
+    }
+    if (!fusionCount) { fusionBounds.fill(0); return; }
+    // Each polynomial union can grow its contour by at most smoothness / 4.
+    const margin = 96 + fusionSmoothness * (fusionCount - 1) * .25;
+    fusionBounds[0] = (left + right) * .5; fusionBounds[1] = (top + bottom) * .5;
+    fusionBounds[2] = (right - left) * .5 + margin; fusionBounds[3] = (bottom - top) * .5 + margin;
+    fusionEdgeWidth = Math.max(8, Math.min(70, minimumRadius * .55));
+  };
+  const use = (pipeline: Pipeline, cssWidth: number, cssHeight: number, scaleX: number, scaleY: number, palette: number, solid: number) => {
+    const { locations } = pipeline;
+    context.useProgram(pipeline.program);
+    context.uniform2f(locations.uResolution ?? null, cssWidth, cssHeight);
+    context.uniform2f(locations.uDpr ?? null, scaleX, scaleY);
+    context.uniform1f(locations.uTime ?? null, time);
+    context.uniform1i(locations.uPalette ?? null, palette);
+    context.uniform1i(locations.uBackdrop ?? null, options.backdrop === 'studio' ? 1 : 0);
+    context.uniform1i(locations.uSolid ?? null, solid);
+  };
   const draw = (flush = false) => {
     if (destroyed || !supported || !background || !composite || !canvas.isConnected || doc.hidden) return;
     const bounds = canvas.getBoundingClientRect();
@@ -182,6 +240,9 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
       opticData[count * 2 + 1] = bounded(surface.refraction, 22, 0, 80);
       count++;
     }
+    const drawFusion = fusionEnabled && fusionCount > 0
+      && fusionBounds[0]! + fusionBounds[2]! >= 0 && fusionBounds[0]! - fusionBounds[2]! <= bounds.width
+      && fusionBounds[1]! + fusionBounds[3]! >= 0 && fusionBounds[1]! - fusionBounds[3]! <= bounds.height;
     try {
       if (textureWidth !== width || textureHeight !== height) {
         if (texture) context.deleteTexture(texture);
@@ -199,6 +260,11 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
         textureWidth = width; textureHeight = height;
         firstDraw = true;
       }
+      if (drawFusion && !fusion) {
+        fusion = createPipeline(fusionVertexSource, fusionFragmentSource);
+        if (!fusion) throw new Error('Fusion pipeline unavailable');
+        firstDraw = true;
+      }
       if (count && !lenses) {
         lenses = createPipeline(lensVertexSource, lensFragmentSource);
         if (!lenses) throw new Error('Lens pipeline unavailable');
@@ -213,25 +279,28 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
       context.disable(context.BLEND);
       const palette = options.palette === 'sunset' ? 1 : options.palette === 'ocean' ? 2 : 0;
       const solid = options.reducedTransparency || transparency?.matches || contrast?.matches || forced?.matches ? 1 : 0;
-      const use = (pipeline: Pipeline) => {
-        const { locations } = pipeline;
-        context.useProgram(pipeline.program);
-        context.uniform2f(locations.uResolution ?? null, bounds.width, bounds.height);
-        context.uniform2f(locations.uDpr ?? null, scaleX, scaleY);
-        context.uniform1f(locations.uTime ?? null, time);
-        context.uniform1i(locations.uPalette ?? null, palette);
-        context.uniform1i(locations.uSolid ?? null, solid);
-      };
       // Compute the procedural wallpaper once. Every lens samples the same full-resolution image.
       context.bindFramebuffer(context.FRAMEBUFFER, framebuffer);
-      use(background); context.drawArrays(context.TRIANGLES, 0, 3);
+      use(background, bounds.width, bounds.height, scaleX, scaleY, palette, solid); context.drawArrays(context.TRIANGLES, 0, 3);
       context.bindFramebuffer(context.FRAMEBUFFER, null);
       context.activeTexture(context.TEXTURE0); context.bindTexture(context.TEXTURE_2D, texture);
-      use(composite);
+      use(composite, bounds.width, bounds.height, scaleX, scaleY, palette, solid);
       context.uniform1i(composite.locations.uWallpaper ?? null, 0);
       context.drawArrays(context.TRIANGLES, 0, 3);
+      if (drawFusion && fusion) {
+        use(fusion, bounds.width, bounds.height, scaleX, scaleY, palette, solid);
+        context.uniform1i(fusion.locations.uWallpaper ?? null, 0);
+        context.uniform1i(fusion.locations.uFusionCount ?? null, fusionCount);
+        context.uniform3fv(fusion.locations['uDrops[0]'] ?? null, dropData);
+        context.uniform4fv(fusion.locations.uFusionBounds ?? null, fusionBounds);
+        context.uniform4f(fusion.locations.uFusion ?? null, fusionSmoothness, fusionRefraction, fusionDispersion, fusionEdgeWidth);
+        context.enable(context.BLEND);
+        context.blendFuncSeparate(context.ONE, context.SRC_ALPHA, context.ZERO, context.ONE);
+        context.drawArrays(context.TRIANGLES, 0, 6);
+        context.disable(context.BLEND);
+      }
       if (count && lenses) {
-        use(lenses);
+        use(lenses, bounds.width, bounds.height, scaleX, scaleY, palette, solid);
         context.uniform1i(lenses.locations.uWallpaper ?? null, 0);
         context.uniform1i(lenses.locations.uCount ?? null, count);
         context.uniform4fv(lenses.locations['uRects[0]'] ?? null, rectData);
@@ -242,7 +311,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
         context.disable(context.BLEND);
       } else context.uniform1i(composite.locations.uCount ?? null, 0);
       if (fieldCount && field) {
-        use(field);
+        use(field, bounds.width, bounds.height, scaleX, scaleY, palette, solid);
         const settings = options.field;
         const direction = settings?.direction;
         context.uniform1i(field.locations.uWallpaper ?? null, 0);
@@ -254,7 +323,9 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
         context.disable(context.BLEND);
       }
       context.bindVertexArray(null);
-      stats = { renderer: 'webgl2', fieldCount, drawCalls: 2 + (count ? 1 : 0) + (fieldCount ? 1 : 0), wallpaperPasses: 1, width, height, dpr, pixels: width * height };
+      stats.fieldCount = fieldCount; stats.fusionCount = drawFusion ? fusionCount : 0;
+      stats.drawCalls = 2 + (drawFusion ? 1 : 0) + (count ? 1 : 0) + (fieldCount ? 1 : 0);
+      stats.wallpaperPasses = 1; stats.width = width; stats.height = height; stats.dpr = dpr; stats.pixels = width * height;
       if (flush) context.flush();
       if (firstDraw) {
         firstDraw = false;
@@ -278,7 +349,12 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   const observer = Resize ? new Resize(refresh) : undefined;
   const update = (next: GlassSceneOptions = {}) => {
     if (destroyed) return;
-    options = { ...next, field: next.field ? { ...next.field } : undefined };
+    options = { ...next, field: next.field ? { ...next.field } : undefined, fusion: next.fusion ? { ...next.fusion, drops: [] } : undefined };
+    fusionEnabled = Boolean(next.fusion);
+    fusionSmoothness = bounded(next.fusion?.smoothness, 32, 0, 120);
+    fusionRefraction = bounded(next.fusion?.refraction, 36, 0, 100);
+    fusionDispersion = bounded(next.fusion?.dispersion, 0, 0, 8);
+    writeDrops(next.fusion?.drops ?? []);
     fieldCount = next.field ? Math.round(bounded(next.field.count, 1000, 0, 20_000)) : 0;
     surfaces = (Array.isArray(next.surfaces) ? next.surfaces : [])
       .filter(surface => surface?.element && surface.element.ownerDocument === doc && surface.element.isConnected).slice(0, MAX_SURFACES)
@@ -304,6 +380,11 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
     get supported() { return supported && !destroyed; },
     get stats() { return { ...stats }; },
     update,
+    /** Stage owned droplet geometry; call render() explicitly while paused. */
+    setDrops(drops: readonly GlassSceneDrop[]) {
+      if (destroyed || !fusionEnabled) return;
+      writeDrops(drops); schedule();
+    },
     render(timeSeconds?: number) {
       if (destroyed) return;
       if (typeof timeSeconds === 'number' && Number.isFinite(timeSeconds)) time = Math.min(1_000_000, Math.max(0, timeSeconds));

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.11.0-preview.1 — Soft Matter
+
+- Added experimental owned-scene `fusion`: up to eight circular glass droplets form an analytic smooth union with a shared boundary normal, edge refraction, specular highlights and optional color dispersion. This applies to the renderer's procedural background, not arbitrary DOM or Apple's native glass groups.
+- Added `GlassSceneDrop`, `GlassSceneFusionOptions`, `backdrop: 'studio'`, readonly `stats.fusionCount` and `setDrops(drops)`. Geometry is copied into preallocated storage without recreating ResizeObserver subscriptions; paused scenes submit staged changes through explicit `render()`. The ordinary ribbons backdrop remains the default.
+- Fusion draws one bounded pass before existing HTML lenses and decorative fields. Fusion-only scenes use three scene draws including wallpaper and presentation. Draw counts describe submissions, not speed or frame-rate guarantees.
+- Added the Soft Matter gallery with host-owned merge/orbit/split choreography, semantic controls and static accessibility/fallback states. Fusion measurement methodology and native-browser evidence are recorded separately in docs/FUSION.md and docs/VALIDATION.md.
+
+Migration: additive `/scene` API; portable CSS, existing material options and optional React/Vue peers remain unchanged. `update` replaces configuration, including fusion. `setDrops` changes geometry only while fusion is enabled; it does not move HTML controls, supply hit testing or implement physical-fluid simulation. Preserve foreground semantics and an unsupported/context-loss fallback.
+
 ## 0.10.0-preview.1 — Glass in full flow
 
 - Reworked optional `/scene` rendering: shared full-resolution wallpaper texture, trigonometric phase reuse, and bounded ordered instanced HTML lenses instead of an eight-lens loop across every pixel. Existing lens options and CSS-first controls remain.

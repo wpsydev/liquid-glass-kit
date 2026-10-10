@@ -1,0 +1,559 @@
+{
+  "schema": 1,
+  "version": "0.11.0-preview.1",
+  "state": "prepared",
+  "sourceSha256": "5c48b8bdf0086474b94defe7e6453423862f30e09458ad0adaa2c93eeb1bd238",
+  "nativeBrowser": "T3 Chrome 152 on Apple M1 Pro; responsive Chromium and controlled preference fixture, not physical phone/Safari validation",
+  "layouts": [
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "merge",
+          "width": 55
+        },
+        {
+          "height": 44,
+          "id": "orbit",
+          "width": 55
+        },
+        {
+          "height": 44,
+          "id": "split",
+          "width": 55
+        },
+        {
+          "height": 44,
+          "id": "cobalt",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "citrus",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "rose",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "pause",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "film",
+          "width": 79.453125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "tension",
+          "width": 85
+        },
+        {
+          "height": 44,
+          "id": "copy",
+          "width": 72.03125
+        }
+      ],
+      "height": 568,
+      "noOverflow": true,
+      "scrollWidth": 305,
+      "supported": true,
+      "width": 320
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "merge",
+          "width": 55
+        },
+        {
+          "height": 44,
+          "id": "orbit",
+          "width": 55
+        },
+        {
+          "height": 44,
+          "id": "split",
+          "width": 55
+        },
+        {
+          "height": 44,
+          "id": "cobalt",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "citrus",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "rose",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "pause",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "film",
+          "width": 77
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "tension",
+          "width": 85
+        },
+        {
+          "height": 44,
+          "id": "copy",
+          "width": 72.03125
+        }
+      ],
+      "height": 844,
+      "noOverflow": true,
+      "scrollWidth": 390,
+      "supported": true,
+      "width": 390
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "merge",
+          "width": 65
+        },
+        {
+          "height": 44,
+          "id": "orbit",
+          "width": 65
+        },
+        {
+          "height": 44,
+          "id": "split",
+          "width": 65
+        },
+        {
+          "height": 44,
+          "id": "cobalt",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "citrus",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "rose",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "pause",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "film",
+          "width": 81.453125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "tension",
+          "width": 180
+        },
+        {
+          "height": 44,
+          "id": "copy",
+          "width": 79.03125
+        }
+      ],
+      "height": 320,
+      "noOverflow": true,
+      "scrollWidth": 553,
+      "supported": true,
+      "width": 568
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "merge",
+          "width": 70
+        },
+        {
+          "height": 44,
+          "id": "orbit",
+          "width": 70
+        },
+        {
+          "height": 44,
+          "id": "split",
+          "width": 70
+        },
+        {
+          "height": 44,
+          "id": "cobalt",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "citrus",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "rose",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "pause",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "film",
+          "width": 81.453125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "tension",
+          "width": 125
+        },
+        {
+          "height": 44,
+          "id": "copy",
+          "width": 93.0390625
+        }
+      ],
+      "height": 900,
+      "noOverflow": true,
+      "scrollWidth": 1280,
+      "supported": true,
+      "width": 1280
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "merge",
+          "width": 65
+        },
+        {
+          "height": 44,
+          "id": "orbit",
+          "width": 65
+        },
+        {
+          "height": 44,
+          "id": "split",
+          "width": 65
+        },
+        {
+          "height": 44,
+          "id": "cobalt",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "citrus",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "rose",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "pause",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "film",
+          "width": 81.453125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "tension",
+          "width": 180
+        },
+        {
+          "height": 44,
+          "id": "copy",
+          "width": 79.03125
+        }
+      ],
+      "height": 1280,
+      "noOverflow": true,
+      "scrollWidth": 720,
+      "supported": true,
+      "width": 720
+    }
+  ],
+  "reducedMotionFixture": {
+    "state": {
+      "dragIndex": -1,
+      "drops": [
+        {
+          "radius": 194.68800000000002,
+          "x": 358.56000000000006,
+          "y": 615.12
+        },
+        {
+          "radius": 134.78400000000002,
+          "x": 544.8996159330349,
+          "y": 504.59405985307455
+        },
+        {
+          "radius": 97.34400000000001,
+          "x": 232.21042247366182,
+          "y": 701.5660336574974
+        }
+      ],
+      "filmElapsed": 12,
+      "filmEvent": 0,
+      "mode": "merge",
+      "paused": true,
+      "reducedMotion": true,
+      "running": false,
+      "stats": {
+        "dpr": 1.1214032600406414,
+        "drawCalls": 3,
+        "fieldCount": 0,
+        "fusionCount": 3,
+        "height": 1114,
+        "pixels": 898998,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 807
+      },
+      "supported": true,
+      "time": 12,
+      "tone": "rose"
+    },
+    "status": "Reduced motion enabled. Static final composition."
+  },
+  "galleryContextRecovery": {
+    "before": {
+      "dragIndex": -1,
+      "drops": [
+        {
+          "radius": 194.68800000000002,
+          "x": 358.56000000000006,
+          "y": 615.12
+        },
+        {
+          "radius": 134.78400000000002,
+          "x": 580.474945213244,
+          "y": 496.7032458549983
+        },
+        {
+          "radius": 97.34400000000001,
+          "x": 193.07756026543163,
+          "y": 711.8252149671034
+        }
+      ],
+      "filmElapsed": 0,
+      "filmEvent": 0,
+      "mode": "merge",
+      "paused": false,
+      "reducedMotion": false,
+      "running": true,
+      "stats": {
+        "dpr": 1.1214032600406414,
+        "drawCalls": 3,
+        "fieldCount": 0,
+        "fusionCount": 3,
+        "height": 1114,
+        "pixels": 898998,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 807
+      },
+      "supported": true,
+      "time": 0.23566666666666666,
+      "tone": "cobalt"
+    },
+    "error": 0,
+    "lost": {
+      "dragIndex": -1,
+      "drops": [
+        {
+          "radius": 194.68800000000002,
+          "x": 358.56000000000006,
+          "y": 615.12
+        },
+        {
+          "radius": 134.78400000000002,
+          "x": 580.474945213244,
+          "y": 496.7032458549983
+        },
+        {
+          "radius": 97.34400000000001,
+          "x": 193.07756026543163,
+          "y": 711.8252149671034
+        }
+      ],
+      "filmElapsed": 0,
+      "filmEvent": 0,
+      "mode": "merge",
+      "paused": false,
+      "reducedMotion": false,
+      "running": false,
+      "stats": {
+        "dpr": 0,
+        "drawCalls": 0,
+        "fieldCount": 0,
+        "fusionCount": 0,
+        "height": 0,
+        "pixels": 0,
+        "renderer": "webgl2",
+        "wallpaperPasses": 0,
+        "width": 0
+      },
+      "supported": false,
+      "time": 0.23566666666666666,
+      "tone": "cobalt"
+    },
+    "restored": {
+      "dragIndex": -1,
+      "drops": [
+        {
+          "radius": 194.68800000000002,
+          "x": 358.56000000000006,
+          "y": 615.12
+        },
+        {
+          "radius": 134.78400000000002,
+          "x": 506.5311685599578,
+          "y": 624.5403651833185
+        },
+        {
+          "radius": 97.34400000000001,
+          "x": 274.4157145840465,
+          "y": 498.28765603768267
+        }
+      ],
+      "filmElapsed": 0,
+      "filmEvent": 0,
+      "mode": "merge",
+      "paused": false,
+      "reducedMotion": false,
+      "running": true,
+      "stats": {
+        "dpr": 1.1214032600406414,
+        "drawCalls": 3,
+        "fieldCount": 0,
+        "fusionCount": 3,
+        "height": 1114,
+        "pixels": 898998,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 807
+      },
+      "supported": true,
+      "time": 4.6691333333336065,
+      "tone": "cobalt"
+    }
+  },
+  "film": {
+    "chapter": "LIQUID GLASS KIT / OPEN SOURCE",
+    "end": "true",
+    "state": {
+      "dragIndex": -1,
+      "drops": [
+        {
+          "radius": 194.68800000000002,
+          "x": 358.55999999999995,
+          "y": 615.1199999999998
+        },
+        {
+          "radius": 134.78400000000002,
+          "x": 550.1571368199512,
+          "y": 506.6815668627189
+        },
+        {
+          "radius": 97.34400000000001,
+          "x": 226.4271494980538,
+          "y": 703.047705475823
+        }
+      ],
+      "filmElapsed": 12,
+      "filmEvent": 5,
+      "mode": "merge",
+      "paused": true,
+      "reducedMotion": false,
+      "running": false,
+      "stats": {
+        "dpr": 1.1214032600406414,
+        "drawCalls": 3,
+        "fieldCount": 0,
+        "fusionCount": 3,
+        "height": 1114,
+        "pixels": 898998,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 807
+      },
+      "supported": true,
+      "time": 12,
+      "tone": "rose"
+    },
+    "title": "Make\nit melt."
+  },
+  "posts": [],
+  "npmRegistry": "not published; GitHub release archive and tag are the installation path",
+  "media": {
+    "path": "docs/campaign/assets/fusion-showcase.mp4",
+    "sha256": "861dbbcab3d1d60f51ade2f0af8c2ab1798c929b9d6601484683718a31d551ed",
+    "bytes": 1126872,
+    "durationSeconds": 12,
+    "width": 720,
+    "height": 1280,
+    "frames": 360,
+    "exportFps": 30,
+    "video": "H.264 yuv420p",
+    "audio": "original 160 BPM synthesis; AAC stereo 48 kHz",
+    "audioMeanDbfs": -14.5,
+    "audioPeakDbfs": -2.1,
+    "fastStart": true,
+    "fullDecodePassed": true,
+    "contactFramesReviewed": 6
+  }
+}

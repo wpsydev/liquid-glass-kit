@@ -66,7 +66,7 @@ function gpu() {
     createVertexArray: vi.fn(() => ({})), bindVertexArray: vi.fn(), deleteVertexArray: vi.fn(),
     getUniformLocation: vi.fn((_program: unknown, name: string) => ({ name })),
     uniform1f: vi.fn(), uniform1i: vi.fn(), uniform2f: vi.fn(), uniform3f: vi.fn(), uniform4f: vi.fn(),
-    uniform1fv: vi.fn(), uniform2fv: vi.fn(), uniform4fv: vi.fn(),
+    uniform1fv: vi.fn(), uniform2fv: vi.fn(), uniform3fv: vi.fn(), uniform4fv: vi.fn(),
     useProgram: vi.fn(), viewport: vi.fn(), drawArrays: vi.fn(),
     clearColor: vi.fn(), clear: vi.fn(), disable: vi.fn(), flush: vi.fn(), isContextLost: vi.fn(() => false),
     getError: vi.fn(() => 0),
@@ -373,6 +373,109 @@ describe('experimental owned-scene renderer lifecycle', () => {
     expect(gl.deleteProgram).toHaveBeenCalledTimes(3); expect(gl.deleteShader).toHaveBeenCalledTimes(6);
     expect(gl.deleteTexture).toHaveBeenCalledOnce(); expect(gl.deleteFramebuffer).toHaveBeenCalledOnce();
     scene.destroy(); expect(gl.deleteProgram).toHaveBeenCalledTimes(3);
+  });
+
+
+  it('renders optional fusion once between the wallpaper and other layers, using one bounded rectangle', () => {
+    clock(); preferences(); const { gl, canvas, surface } = fixture();
+    const scene = track(attachGlassScene(canvas, { paused: true, backdrop: 'studio',
+      fusion: { drops: [{ x: 100, y: 100, radius: 80 }, { x: 190, y: 100, radius: 80 }] },
+      surfaces: [{ element: surface }], field: { count: 3000 },
+    }));
+    expect(scene.supported).toBe(true); expect(scene.stats).toMatchObject({ fusionCount: 2, fieldCount: 3000, drawCalls: 5 });
+    expect(gl.createProgram).toHaveBeenCalledTimes(5);
+    expect(gl.drawArrays.mock.calls.map(call => call[2])).toEqual([3, 3, 6]);
+    expect(gl.drawArraysInstanced.mock.calls.map(call => call[3])).toEqual([1, 3000]);
+    expect(gl.drawArrays.mock.invocationCallOrder.at(-1)).toBeLessThan(gl.drawArraysInstanced.mock.invocationCallOrder[0]!);
+    expect(intUniform(gl, 'uBackdrop')).toBe(1); expect(intUniform(gl, 'uFusionCount')).toBe(2);
+    expect(gl.uniform4f.mock.calls.find(call => (call[0] as { name: string }).name === 'uFusion')?.slice(1)).toEqual([32, 36, 0, 44]);
+    scene.destroy(); expect(gl.deleteProgram).toHaveBeenCalledTimes(5);
+  });
+
+  it('bounds and snapshots authored fusion inputs and grows bounds for every smooth union', () => {
+    clock(); preferences(); const { gl, canvas } = fixture();
+    const drops = [null, 7, { x: Infinity, y: NaN, radius: NaN }, { x: 999999, y: -999999, radius: -3 }, ...Array.from({ length: 9 }, () => ({ x: 100, y: 100, radius: 2000 }))];
+    const fusion = { drops: drops as never, smoothness: 999, refraction: Infinity, dispersion: 999 };
+    const scene = track(attachGlassScene(canvas, { paused: true, fusion }));
+    expect(scene.stats.fusionCount).toBe(8);
+    const data = gl.uniform3fv.mock.calls.at(-1)![1] as Float32Array;
+    expect([...data].slice(0, 9)).toEqual([0, 0, 80, 100000, -100000, 1, 100, 100, 1024]);
+    const controls = gl.uniform4f.mock.calls.filter(call => (call[0] as { name: string }).name === 'uFusion').at(-1)!;
+    expect(controls.slice(1)).toEqual([120, 36, 8, 8]);
+    const bounds = gl.uniform4fv.mock.calls.at(-1)![1] as Float32Array;
+    expect([...bounds]).toEqual([49538.5, -49438.5, 50768.5, 50868.5]);
+    fusion.smoothness = 0; (drops[2] as { x: number }).x = 50;
+    scene.render(1);
+    expect(data[0]).toBe(0);
+    expect(gl.uniform4f.mock.calls.filter(call => (call[0] as { name: string }).name === 'uFusion').at(-1)?.[1]).toBe(120);
+  });
+
+  it('stages fast droplet updates without drawing, reallocating arrays or reconnecting observers', () => {
+    const time = clock(); preferences(); const { gl, canvas } = fixture();
+    const observe = vi.fn(), disconnect = vi.fn();
+    vi.stubGlobal('ResizeObserver', class { observe = observe; disconnect = disconnect; });
+    const scene = track(attachGlassScene(canvas, { paused: true, fusion: { drops: [{ x: 80, y: 90, radius: 30 }] } }));
+    const data = gl.uniform3fv.mock.calls.at(-1)![1];
+    const nativeFloat = globalThis.Float32Array;
+    const construct = vi.fn();
+    vi.stubGlobal('Float32Array', new Proxy(nativeFloat, { construct(target, args) { construct(); return Reflect.construct(target, args); } }));
+    observe.mockClear(); disconnect.mockClear(); gl.drawArrays.mockClear(); gl.uniform3fv.mockClear();
+    const drops = [{ x: 150, y: 170, radius: 60 }];
+    scene.setDrops(drops); drops[0]!.x = 999;
+    expect((data as Float32Array)[0]).toBe(150); // Authored arrays are copied during staging.
+    scene.setDrops([{ x: 160, y: 180, radius: 70 }, { x: 220, y: 180, radius: 50 }]);
+    expect(construct).not.toHaveBeenCalled(); expect(observe).not.toHaveBeenCalled(); expect(disconnect).not.toHaveBeenCalled();
+    expect(gl.drawArrays).not.toHaveBeenCalled(); expect(gl.uniform3fv).not.toHaveBeenCalled(); expect(time.frames.size).toBe(0);
+    scene.render(3);
+    expect(gl.uniform3fv.mock.calls.at(-1)![1]).toBe(data);
+    expect([...data as Float32Array].slice(0, 6)).toEqual([160, 180, 70, 220, 180, 50]);
+    expect(scene.stats.fusionCount).toBe(2); expect(construct).not.toHaveBeenCalled();
+    scene.setDrops([]); scene.render(4); expect(scene.stats.fusionCount).toBe(0); expect(scene.stats.drawCalls).toBe(2);
+  });
+
+  it('keeps disabled fusion disabled, lazily compiles staged enabled drops, and draws zero for offscreen fusion', () => {
+    clock(); preferences(); const { gl, canvas } = fixture();
+    const scene = track(attachGlassScene(canvas, { paused: true }));
+    scene.setDrops([{ x: 100, y: 100, radius: 80 }]); scene.render(1);
+    expect(scene.stats.fusionCount).toBe(0); expect(gl.createProgram).toHaveBeenCalledTimes(2);
+    scene.update({ paused: true, fusion: { drops: [] } });
+    scene.setDrops([{ x: 100, y: 100, radius: 80 }]);
+    expect(gl.createProgram).toHaveBeenCalledTimes(2);
+    scene.render(2); expect(scene.stats.fusionCount).toBe(1); expect(gl.createProgram).toHaveBeenCalledTimes(3);
+    scene.setDrops([{ x: -100000, y: -100000, radius: 1 }]); scene.render(3);
+    expect(scene.stats.fusionCount).toBe(0); expect(scene.stats.drawCalls).toBe(2);
+    scene.update({ paused: true }); scene.setDrops([{ x: 100, y: 100, radius: 80 }]); scene.render(4);
+    expect(scene.stats.fusionCount).toBe(0); expect(intUniform(gl, 'uBackdrop')).toBe(0);
+    scene.destroy(); scene.setDrops([{ x: 100, y: 100, radius: 80 }]); expect(scene.stats.fusionCount).toBe(0);
+  });
+
+  it('consumes staged fusion geometry on the next active frame and restores fusion after context loss', () => {
+    const time = clock(); const prefs = preferences(); const { gl, canvas } = fixture();
+    const scene = track(attachGlassScene(canvas, { fusion: { drops: [{ x: 100, y: 100, radius: 80 }] } }));
+    const draws = gl.drawArrays.mock.calls.length;
+    scene.setDrops([{ x: 140, y: 130, radius: 90 }, { x: 240, y: 130, radius: 90 }]);
+    expect(gl.drawArrays).toHaveBeenCalledTimes(draws); expect(time.frames.size).toBe(1);
+    time.step(); expect(scene.stats.fusionCount).toBe(2);
+    for (const query of ['(prefers-reduced-transparency: reduce)', '(prefers-contrast: more)', '(forced-colors: active)']) {
+      prefs.set(query, true); expect(intUniform(gl, 'uSolid')).toBe(1); prefs.set(query, false);
+    }
+    canvas.dispatchEvent(new Event('webglcontextlost', { cancelable: true }));
+    expect(scene.supported).toBe(false); expect(scene.stats.fusionCount).toBe(0); expect(gl.deleteProgram).toHaveBeenCalledTimes(3);
+    canvas.dispatchEvent(new Event('webglcontextrestored'));
+    expect(scene.supported).toBe(true); expect(scene.stats.fusionCount).toBe(2); expect(gl.createProgram).toHaveBeenCalledTimes(6);
+    scene.destroy(); expect(gl.deleteProgram).toHaveBeenCalledTimes(6); expect(time.frames.size).toBe(0);
+  });
+
+  it('cleans up a failed lazy fusion pipeline and exposes a safe setter without WebGL2', () => {
+    clock(); preferences(); const { gl, canvas } = fixture();
+    gl.getProgramParameter.mockImplementationOnce(() => true).mockImplementationOnce(() => true).mockImplementationOnce(() => false);
+    const scene = track(attachGlassScene(canvas, { fusion: { drops: [{ x: 100, y: 100, radius: 80 }] } }));
+    expect(scene.supported).toBe(false); expect(scene.stats.fusionCount).toBe(0); expect(gl.deleteProgram).toHaveBeenCalledTimes(3);
+    scene.destroy(); expect(gl.deleteProgram).toHaveBeenCalledTimes(3);
+    const other = document.createElement('canvas'); document.body.append(other);
+    vi.spyOn(other, 'getContext').mockReturnValue(null);
+    const unsupported = track(attachGlassScene(other));
+    expect(() => unsupported.setDrops([{ x: 100, y: 100, radius: 80 }])).not.toThrow(); expect(unsupported.stats.fusionCount).toBe(0);
   });
 
 });

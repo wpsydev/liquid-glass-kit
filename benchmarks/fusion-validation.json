@@ -1,0 +1,127 @@
+{
+  "changedReadback": true,
+  "environment": {
+    "devicePixelRatio": 2,
+    "documentHidden": false,
+    "hardwareConcurrency": 10,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+    "viewport": [
+      1280,
+      800
+    ]
+  },
+  "recovery": {
+    "before": {
+      "stats": {
+        "dpr": 1,
+        "drawCalls": 3,
+        "fieldCount": 0,
+        "fusionCount": 3,
+        "height": 240,
+        "pixels": 76800,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 320
+      },
+      "supported": true
+    },
+    "loss": {
+      "stats": {
+        "dpr": 0,
+        "drawCalls": 0,
+        "fieldCount": 0,
+        "fusionCount": 0,
+        "height": 0,
+        "pixels": 0,
+        "renderer": "webgl2",
+        "wallpaperPasses": 0,
+        "width": 0
+      },
+      "supported": false
+    },
+    "restored": {
+      "error": 0,
+      "stats": {
+        "dpr": 1,
+        "drawCalls": 3,
+        "fieldCount": 0,
+        "fusionCount": 3,
+        "height": 240,
+        "pixels": 76800,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 320
+      },
+      "supported": true
+    }
+  },
+  "samples": [
+    {
+      "error": 0,
+      "maxRgb": 255,
+      "meanRgb": 177.0933,
+      "minRgb": 3,
+      "pixelFnv1a32": "a1ee6d7e",
+      "stats": {
+        "dpr": 1,
+        "drawCalls": 3,
+        "fieldCount": 0,
+        "fusionCount": 3,
+        "height": 240,
+        "pixels": 76800,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 320
+      },
+      "time": 0
+    },
+    {
+      "error": 0,
+      "maxRgb": 255,
+      "meanRgb": 177.443,
+      "minRgb": 3,
+      "pixelFnv1a32": "68d963b2",
+      "stats": {
+        "dpr": 1,
+        "drawCalls": 3,
+        "fieldCount": 0,
+        "fusionCount": 3,
+        "height": 240,
+        "pixels": 76800,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 320
+      },
+      "time": 1.5
+    },
+    {
+      "error": 0,
+      "maxRgb": 255,
+      "meanRgb": 176.5049,
+      "minRgb": 4,
+      "pixelFnv1a32": "085c19a6",
+      "stats": {
+        "dpr": 1,
+        "drawCalls": 3,
+        "fieldCount": 0,
+        "fusionCount": 3,
+        "height": 240,
+        "pixels": 76800,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 320
+      },
+      "time": 3
+    }
+  ],
+  "scope": "Separate native fixed-time shader readback and actual context restoration; not timing or image-equivalence evidence.",
+  "source": {
+    "commit": "9acf75480cadec1daf2aa430a4b77daf3c18180e",
+    "hashing": "Sorted src .ts/.tsx/.css file names and contents, each followed by NUL; source bundled directly, not dist.",
+    "sourceChanges": [
+      "M src/scene-shaders.ts",
+      " M src/scene.ts"
+    ],
+    "sourceSha256": "5c48b8bdf0086474b94defe7e6453423862f30e09458ad0adaa2c93eeb1bd238"
+  }
+}
