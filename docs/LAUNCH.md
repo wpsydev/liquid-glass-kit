@@ -1,5 +1,15 @@
 # Launch and adoption plan
 
+## Published status — 2026-10-10
+
+- [Public repository](https://github.com/wpsydev/liquid-glass-kit), source and real playground screenshot published under wpsydev.
+- [Live demo](https://wpsydev.github.io/liquid-glass-kit/) and agent/API/research documentation verified with HTTP 200.
+- [Preview release](https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.1.0-preview.1) includes a tested prebuilt package archive.
+- CI passes 12 tests, type checking, package and site builds. Both tarball and GitHub installation verified in clean projects.
+- [Browser contribution issue](https://github.com/wpsydev/liquid-glass-kit/issues/1) and [SvelteKit good first issue](https://github.com/wpsydev/liquid-glass-kit/issues/2) are open.
+- npm publication awaits account authentication. GitHub topics/profile placement and external social/community posts await an available account/browser connection. Launch copy below is prepared, not externally posted.
+- [Technical article](ARTICLE.md) is published with the project and can be adapted to the maintainer's chosen publishing channel.
+
 ## Positioning
 
 Liquid Glass Kit is a portable web material layer: CSS first, typed enhancement, semantic controls, optional React/Vue, and clear instructions for agents. Lead with a real interactive demonstration and the small integration surface. Avoid universal optical parity, unmeasured performance, and “best library” claims.
