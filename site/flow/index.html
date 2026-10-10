@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111820">
+  <title>Glass in full flow — Liquid Glass Kit</title>
+  <meta name="description" content="Thousands of decorative glass instances in one owned WebGL2 scene. A live, opt-in rendering study with accessible controls and bounded resolution.">
+</head>
+<body>
+<main class="studio">
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="scrim" aria-hidden="true"></div>
+  <header class="masthead"><a href="https://github.com/wpsydev/liquid-glass-kit"><span aria-hidden="true">◒</span> LIQUID GLASS KIT</a><span>RENDERING STUDY / 10</span></header>
+  <section class="intro" aria-labelledby="title">
+    <p class="eyebrow"><span></span> GLASS IN FULL FLOW</p>
+    <h1 id="title"><span id="headline">Three thousand.</span><br><em id="subhead">One field.</em></h1>
+    <p class="lede" id="lede">A river of light.<br>Rendered together.</p>
+  </section>
+  <div class="scene-label"><span id="scene-number">01</span><strong id="scene-label">THE WIND STREAM</strong><i aria-hidden="true"></i><span>LIVE RENDER</span></div>
+  <section class="bottom" aria-label="Live rendering controls and statistics">
+    <div class="statistics"><div class="count"><strong id="instance-count">—</strong><span>GLASS INSTANCES</span></div><dl><div><dt>Scene draw calls</dt><dd id="draw-calls">—</dd></div><div><dt>Render buffer</dt><dd id="buffer-size">—</dd></div></dl><div class="architecture"><b>ONE CANVAS.</b><span>NO PARTICLE DOM.</span></div></div>
+    <a class="benchmark" href="../docs/RENDERING.md"><span>SEPARATE 8-LENS GPU TEST <b><span id="gpu-before">—</span> → <span id="gpu-after">—</span> ms</b></span><strong id="gpu-reduction">Measured rendering</strong><small>Chrome 152 / M1 Pro · same resolution · 5 paired runs</small></a>
+    <div class="controls">
+      <div class="modes lg-glass" data-lg-appearance="dark" data-lg-variant="clear" role="group" aria-label="Field animation"><button id="stream" type="button" aria-pressed="true">Stream</button><button id="vortex" type="button" aria-pressed="false">Vortex</button><button id="wave" type="button" aria-pressed="false">Wave</button></div>
+      <div class="transport"><button id="pause" type="button" aria-pressed="false" aria-label="Pause the glass animation"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 4v12M14 4v12"/></svg></button><button id="reverse" type="button" aria-pressed="false" aria-label="Reverse the glass flow"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4 2 9l5 5M2 9h10a5 5 0 0 1 0 10"/></svg></button><button id="replay" type="button" aria-label="Replay the twelve second glass demonstration"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 8a7 7 0 1 1 0 5M3 3v5h5"/></svg><span>12s film</span></button></div>
+      <div class="density"><label for="density">Instances</label><select id="density"><option value="1000">1,000</option><option value="3000" selected>3,000</option></select></div>
+    </div>
+    <p class="scope" id="scope">Decorative WebGL2 scene; its own background. Native website controls keep the portable CSS material.</p>
+    <footer><a href="https://github.com/wpsydev/liquid-glass-kit">Open source. Build something good. <span aria-hidden="true">↗</span></a><a href="../">Explore the kit</a></footer>
+  </section>
+  <div class="film-line" aria-hidden="true"><i id="film-progress"></i></div>
+  <p class="sr-only" id="status" role="status" aria-live="polite"></p>
+</main>
+<script type="module" src="./main.ts"></script>
+</body>
+</html>

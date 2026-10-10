@@ -1,0 +1,310 @@
+{
+  "byteEquality": [
+    {
+      "bytes": 4,
+      "differentBytes": 0,
+      "height": 1,
+      "radius": 0,
+      "width": 1
+    },
+    {
+      "bytes": 252,
+      "differentBytes": 0,
+      "height": 9,
+      "radius": 0,
+      "width": 7
+    },
+    {
+      "bytes": 1024,
+      "differentBytes": 0,
+      "height": 16,
+      "radius": 8,
+      "width": 16
+    },
+    {
+      "bytes": 5828,
+      "differentBytes": 0,
+      "height": 31,
+      "radius": 7,
+      "width": 47
+    },
+    {
+      "bytes": 163840,
+      "differentBytes": 0,
+      "height": 160,
+      "radius": 28,
+      "width": 256
+    },
+    {
+      "bytes": 1048576,
+      "differentBytes": 0,
+      "height": 512,
+      "radius": 256,
+      "width": 512
+    },
+    {
+      "bytes": 39424,
+      "differentBytes": 0,
+      "height": 77,
+      "radius": 13.5,
+      "width": 128
+    }
+  ],
+  "environment": {
+    "devicePixelRatio": 2,
+    "documentHidden": false,
+    "hardwareConcurrency": 10,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+    "viewport": [
+      1280,
+      800
+    ]
+  },
+  "measuredAt": "2026-10-10T21:31:24.328Z",
+  "method": {
+    "count": 8,
+    "height": 160,
+    "radius": 28,
+    "repetitions": 31,
+    "scope": "Pure CPU pixel generation; output allocation included, CSS/SVG filter composition and GPU rendering excluded. Seeded paired order after warmups. Last output retained.",
+    "seed": 407111,
+    "units": "milliseconds per synchronous batch of eight displacement maps",
+    "warmups": 5,
+    "width": 256
+  },
+  "orders": [
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "current",
+      "baseline"
+    ],
+    [
+      "baseline",
+      "current"
+    ],
+    [
+      "baseline",
+      "current"
+    ]
+  ],
+  "outputBytes": 163840,
+  "samples": {
+    "baseline": [
+      19.6,
+      16.9,
+      16.5,
+      16.6,
+      16.6,
+      16.6,
+      16.9,
+      17.4,
+      20.5,
+      16.6,
+      16.6,
+      16.8,
+      16.5,
+      16.7,
+      17.4,
+      17.4,
+      17,
+      16.7,
+      16.5,
+      17.3,
+      16.8,
+      16.8,
+      16.6,
+      16.8,
+      16.8,
+      18.3,
+      17.7,
+      16.8,
+      16.6,
+      16.7,
+      16.8
+    ],
+    "current": [
+      4.2,
+      4.2,
+      4.1,
+      4,
+      4.1,
+      4,
+      4,
+      4,
+      4,
+      4.2,
+      4.1,
+      4.1,
+      4.6,
+      4.1,
+      4.3,
+      4.4,
+      4.1,
+      4.1,
+      4.2,
+      4.3,
+      4,
+      4,
+      4.1,
+      4.1,
+      4.1,
+      4.4,
+      4.3,
+      4,
+      4.1,
+      4.1,
+      4.1
+    ]
+  },
+  "schema": 1,
+  "source": {
+    "baseline": {
+      "commit": "bb1f647c2d9920863ce41a0134a9000873dac5a9",
+      "sourceChanges": [],
+      "sourceSha256": "601ade5c20f324630d99449d5f9508def7479b09edd922f0f89961c14760b065"
+    },
+    "bundler": "Vite IIFE / es2022 / minified / no source maps / same global name",
+    "current": {
+      "commit": "bb1f647c2d9920863ce41a0134a9000873dac5a9",
+      "sourceChanges": [
+        "M src/index.ts",
+        " M src/optics.ts",
+        " M src/scene.ts",
+        "?? src/scene-shaders.ts"
+      ],
+      "sourceSha256": "d70d055210b3c5234474a8e381835877389cdf5e25597f2142c7c560c9bb61f5"
+    },
+    "generatedAt": "2026-10-10T21:31:22.789Z",
+    "node": "v24.21.0",
+    "schema": 1
+  },
+  "summary": {
+    "baseline": {
+      "count": 31,
+      "max": 20.5,
+      "mean": 17.0903,
+      "median": 16.8,
+      "min": 16.5,
+      "p95": 19.6
+    },
+    "current": {
+      "count": 31,
+      "max": 4.6,
+      "mean": 4.1419,
+      "median": 4.1,
+      "min": 4,
+      "p95": 4.4
+    }
+  }
+}

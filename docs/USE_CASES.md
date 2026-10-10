@@ -29,6 +29,7 @@ This matrix covers common application scenarios and explicitly identifies limits
 | Shadow DOM | CSS-only path | Provide stylesheet inside shadow root; experimental document filter IDs not certified |
 | Strict CSP | Static class + external CSS | Omit refraction unless bitmap/style policy permits it |
 | Canvas / WebGL app | CSS overlay controls or optional procedural scene | Owned-scene refraction only; external texture rendering remains future work |
+| Thousands of decorative flowing shapes | Optional /scene field | GPU instancing, deterministic stream/wave/orbit motion, shared wallpaper and explicit pixel budget; retain semantic controls outside the canvas |
 | Native React Native / Expo | Out of web scope | Use native material primitives; web exports need DOM |
 
 ## Native dialog recipe

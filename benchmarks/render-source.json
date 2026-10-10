@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-10T21:34:17.998Z",
+  "node": "v24.21.0",
+  "bundler": "Vite IIFE / es2022 / minified / no source maps / same global name",
+  "baseline": {
+    "commit": "bb1f647c2d9920863ce41a0134a9000873dac5a9",
+    "sourceSha256": "601ade5c20f324630d99449d5f9508def7479b09edd922f0f89961c14760b065",
+    "sourceChanges": []
+  },
+  "current": {
+    "commit": "bb1f647c2d9920863ce41a0134a9000873dac5a9",
+    "sourceSha256": "d70d055210b3c5234474a8e381835877389cdf5e25597f2142c7c560c9bb61f5",
+    "sourceChanges": [
+      "M src/index.ts",
+      " M src/optics.ts",
+      " M src/scene.ts",
+      "?? src/scene-shaders.ts"
+    ]
+  }
+}

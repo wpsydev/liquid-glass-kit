@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.10.0-preview.1 — Glass in full flow
+
+- Reworked optional `/scene` rendering: shared full-resolution wallpaper texture, trigonometric phase reuse, and bounded ordered instanced HTML lenses instead of an eight-lens loop across every pixel. Existing lens options and CSS-first controls remain.
+- Added decorative GPU fields with stream/wave/orbit motion, deterministic seed, variable sizes and directional flow; up to 20,000 submitted instances, without per-particle DOM or transform uploads. Added readonly submission stats and explicit optional `maxPixels` resolution budgeting.
+- Fixed native context restoration by clearing lost GPU handles before rebuilding. `speed: 0` freezes every field motion component. Hidden, paused and reduced-motion scenes retain static redraw and cleanup behavior.
+- Optimized SVG displacement generation while retaining released bitmap bytes; unchanged geometry retains the filter/encoded map and strength changes update only its scale.
+- Native Chrome 152 / Apple M1 Pro, equal 1280×800 backing resolution: eight-lens GPU median 1.5827 → 0.8455 ms (46.6% less), moving lenses 1.5800 → 0.8552 ms (45.9% less), five paired runs each. Eight-map CPU generation 16.8 → 4.1 ms (75.6% less), 31 pairs. These are scoped GPU/generation measurements, not whole-app or phone FPS gains. Raw samples and unsuccessful iterations are retained.
+- Added the 3,000-instance flow studio and twelve-second recorded demonstration with an original synthesized score.
+
+Migration: additive field/statistics/budget options; core imports, optional React/Vue adapters and replacement-style updates remain. Cached RGBA8 sampling, bounded shadows and ordered framebuffer blending introduce small visual differences, including bright overlapping rims; pixel identity is not promised. Keep semantic input in HTML and retain CSS fallback. See docs/SCENE.md and docs/RENDERING.md.
+
 ## 0.9.0-preview.1 — Less idle work
 
 - Static material controllers allocate no input listeners, resize observers or RAFs. Four live media listeners and capability hints are shared per Window; optional interaction and refraction resources follow option/accessibility changes.

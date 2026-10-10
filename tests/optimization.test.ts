@@ -119,4 +119,34 @@ describe('material resource ownership', () => {
       expect(element.hasAttribute('data-lg-motion-pressed')).toBe(false);
     } finally { motion.destroy(); }
   });
+
+  it('retains a lens definition on equivalent updates and scale changes, rebuilding only for geometry', () => {
+    preferences(); vi.spyOn(window.navigator, 'userAgent', 'get').mockReturnValue('Chrome/152');
+    let queued: FrameRequestCallback | undefined;
+    vi.spyOn(window, 'requestAnimationFrame').mockImplementation(fn => { queued = fn; return 0; });
+    vi.spyOn(window, 'cancelAnimationFrame').mockImplementation(() => { queued = undefined; });
+    const imageData = vi.fn((width: number, height: number) => ({ data: new Uint8ClampedArray(width * height * 4) }));
+    vi.spyOn(HTMLCanvasElement.prototype, 'getContext').mockReturnValue({ createImageData: imageData, putImageData() {} } as unknown as CanvasRenderingContext2D);
+    vi.spyOn(HTMLCanvasElement.prototype, 'toDataURL').mockReturnValue('data:image/png;base64,test');
+    const { element, controller } = mount();
+    const bounds = { width: 100, height: 50 };
+    vi.spyOn(element, 'getBoundingClientRect').mockImplementation(() => bounds as DOMRect);
+    const redraw = () => { const render = queued!; queued = undefined; render(0); };
+    controller.update({ refraction: 12 }); redraw();
+    const original = document.querySelector('svg');
+    controller.update({ refraction: 12 }); redraw();
+    controller.update({ refraction: 18 }); redraw();
+    expect(document.querySelector('svg')).toBe(original); expect(imageData).toHaveBeenCalledOnce();
+    expect(document.querySelector('feDisplacementMap')?.getAttribute('scale')).toBe('18');
+    controller.update({ refraction: 18, radius: 12 }); redraw();
+    expect(document.querySelector('svg')).not.toBe(original); expect(imageData).toHaveBeenCalledTimes(2);
+    bounds.width = 120;
+    controller.update({ refraction: 18, radius: 12 }); redraw();
+    expect(imageData).toHaveBeenCalledTimes(3);
+    controller.update({ reducedTransparency: true, refraction: 18 });
+    expect(document.querySelector('svg')).toBeNull();
+    controller.update({ refraction: 18, radius: 12 }); redraw();
+    expect(imageData).toHaveBeenCalledTimes(4);
+    controller.destroy(); expect(document.querySelector('svg')).toBeNull();
+  });
 });

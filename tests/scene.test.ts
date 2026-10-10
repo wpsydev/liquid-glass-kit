@@ -49,6 +49,15 @@ function preferences() {
 function gpu() {
   const gl = {
     VERTEX_SHADER: 35633, FRAGMENT_SHADER: 35632, COMPILE_STATUS: 35713, LINK_STATUS: 35714,
+    TEXTURE_2D: 3553, TEXTURE0: 33984, RGBA8: 32856, FRAMEBUFFER: 36160, COLOR_ATTACHMENT0: 36064,
+    FRAMEBUFFER_COMPLETE: 36053, TEXTURE_MIN_FILTER: 10241, TEXTURE_MAG_FILTER: 10240,
+    TEXTURE_WRAP_S: 10242, TEXTURE_WRAP_T: 10243, LINEAR: 9729, CLAMP_TO_EDGE: 33071,
+    SRC_ALPHA: 770, ONE_MINUS_SRC_ALPHA: 771, ONE: 1, ZERO: 0,
+    createTexture: vi.fn(() => ({})), deleteTexture: vi.fn(), bindTexture: vi.fn(), activeTexture: vi.fn(),
+    texStorage2D: vi.fn(), texParameteri: vi.fn(),
+    createFramebuffer: vi.fn(() => ({})), deleteFramebuffer: vi.fn(), bindFramebuffer: vi.fn(),
+    framebufferTexture2D: vi.fn(), checkFramebufferStatus: vi.fn(() => 36053),
+    enable: vi.fn(), blendFunc: vi.fn(), blendFuncSeparate: vi.fn(), drawArraysInstanced: vi.fn(),
     TRIANGLES: 4, COLOR_BUFFER_BIT: 16384, BLEND: 3042, DEPTH_TEST: 2929, NO_ERROR: 0,
     createShader: vi.fn(() => ({})), shaderSource: vi.fn(), compileShader: vi.fn(),
     getShaderParameter: vi.fn(() => true), getShaderInfoLog: vi.fn(() => ''), deleteShader: vi.fn(),
@@ -107,7 +116,7 @@ describe('experimental owned-scene renderer lifecycle', () => {
     const time = clock(); preferences(); const { gl, canvas, surface } = fixture();
     const scene = track(attachGlassScene(canvas, { surfaces: [{ element: surface }], paused: true }));
     expect(scene.supported).toBe(true); expect(gl.drawArrays).toHaveBeenCalled(); expect(time.frames.size).toBe(0);
-    const before = gl.drawArrays.mock.calls.length; scene.render(3); expect(gl.drawArrays.mock.calls.length).toBe(before + 1);
+    const before = gl.drawArrays.mock.calls.length; scene.render(3); expect(gl.drawArrays.mock.calls.length).toBe(before + 2);
     expect(time.frames.size).toBe(0);
     scene.update({ surfaces: [{ element: surface }] }); expect(time.frames.size).toBe(1);
     time.step(); expect(time.frames.size).toBe(1);
@@ -139,15 +148,15 @@ describe('experimental owned-scene renderer lifecycle', () => {
     disconnect.mockClear();
     scene.destroy(); const drawCount = gl.drawArrays.mock.calls.length;
     expect(time.cancel).toHaveBeenCalledWith(0); expect(time.frames.size).toBe(0);
-    expect(gl.deleteProgram).toHaveBeenCalledOnce(); expect(gl.deleteVertexArray).toHaveBeenCalledOnce();
-    expect(gl.deleteShader).toHaveBeenCalledTimes(2); expect(disconnect).toHaveBeenCalledOnce();
+    expect(gl.deleteProgram).toHaveBeenCalledTimes(2); expect(gl.deleteVertexArray).toHaveBeenCalledOnce();
+    expect(gl.deleteShader).toHaveBeenCalledTimes(4); expect(disconnect).toHaveBeenCalledOnce();
     expect(removeCanvas.mock.calls.map(call => call[0])).toContain('webglcontextlost');
     expect(removeCanvas.mock.calls.map(call => call[0])).toContain('webglcontextrestored');
     expect(removeDocument.mock.calls.map(call => call[0])).toContain('visibilitychange');
     expect([...prefs.listeners.values()].every(listeners => listeners.size === 0)).toBe(true);
     expect(canvas.getAttribute('width')).toBe('0123'); expect(canvas.hasAttribute('height')).toBe(false);
     scene.destroy(); scene.render(20); scene.update(); time.step();
-    expect(gl.drawArrays).toHaveBeenCalledTimes(drawCount); expect(gl.deleteProgram).toHaveBeenCalledOnce();
+    expect(gl.drawArrays).toHaveBeenCalledTimes(drawCount); expect(gl.deleteProgram).toHaveBeenCalledTimes(2);
     expect(time.frames.size).toBe(0);
   });
 
@@ -159,7 +168,7 @@ describe('experimental owned-scene renderer lifecycle', () => {
     expect(lost.defaultPrevented).toBe(true); expect(scene.supported).toBe(false); expect(time.frames.size).toBe(0);
     const drawCount = gl.drawArrays.mock.calls.length; scene.render(1); expect(gl.drawArrays).toHaveBeenCalledTimes(drawCount);
     canvas.dispatchEvent(new Event('webglcontextrestored'));
-    expect(scene.supported).toBe(true); expect(gl.createProgram).toHaveBeenCalledTimes(2);
+    expect(scene.supported).toBe(true); expect(gl.createProgram).toHaveBeenCalledTimes(4);
     expect(gl.createVertexArray).toHaveBeenCalledTimes(2); expect(time.frames.size).toBe(1);
     expect(gl.drawArrays.mock.calls.length).toBeGreaterThan(drawCount);
     expect(gl.getError).toHaveBeenCalledTimes(2);
@@ -170,13 +179,13 @@ describe('experimental owned-scene renderer lifecycle', () => {
     gl.getError.mockReturnValue(1282);
     const scene = track(attachGlassScene(canvas));
     expect(gl.getProgramParameter).toHaveReturnedWith(true);
-    expect(gl.drawArrays).toHaveBeenCalledOnce(); expect(gl.getError).toHaveBeenCalledOnce();
+    expect(gl.drawArrays).toHaveBeenCalledTimes(2); expect(gl.getError).toHaveBeenCalledOnce();
     expect(scene.supported).toBe(false); expect(time.frames.size).toBe(0);
-    expect(gl.deleteProgram).toHaveBeenCalledOnce(); expect(gl.deleteVertexArray).toHaveBeenCalledOnce();
-    expect(gl.deleteShader).toHaveBeenCalledTimes(2);
+    expect(gl.deleteProgram).toHaveBeenCalledTimes(2); expect(gl.deleteVertexArray).toHaveBeenCalledOnce();
+    expect(gl.deleteShader).toHaveBeenCalledTimes(4);
     scene.render(1); scene.update(); time.step();
-    expect(gl.drawArrays).toHaveBeenCalledOnce(); expect(time.frames.size).toBe(0);
-    scene.destroy(); expect(gl.deleteProgram).toHaveBeenCalledOnce();
+    expect(gl.drawArrays).toHaveBeenCalledTimes(2); expect(time.frames.size).toBe(0);
+    scene.destroy(); expect(gl.deleteProgram).toHaveBeenCalledTimes(2);
   });
 
   it('checks the backend once after initialization without querying errors every frame', () => {
@@ -190,14 +199,13 @@ describe('experimental owned-scene renderer lifecycle', () => {
 
   it.each(['compile', 'link'] as const)('releases partially initialized GPU resources after %s failure', failure => {
     const time = clock(); preferences(); const { gl, canvas } = fixture();
-    if (failure === 'compile') gl.getShaderParameter.mockReturnValue(false);
-    else gl.getProgramParameter.mockReturnValue(false);
+    gl.getProgramParameter.mockReturnValue(false); // A failed shader also fails linking.
     const add = vi.spyOn(canvas, 'addEventListener'); const width = canvas.getAttribute('width');
     const scene = track(attachGlassScene(canvas));
     expect(scene.supported).toBe(false); expect(time.frames.size).toBe(0);
     expect(gl.deleteShader).toHaveBeenCalledTimes(2); expect(add).not.toHaveBeenCalled();
     expect(canvas.getAttribute('width')).toBe(width); expect(gl.drawArrays).not.toHaveBeenCalled();
-    expect(gl.deleteProgram).toHaveBeenCalledTimes(failure === 'link' ? 1 : 0);
+    expect(gl.deleteProgram).toHaveBeenCalledOnce();
     scene.destroy(); expect(gl.deleteShader).toHaveBeenCalledTimes(2);
   });
 
@@ -258,4 +266,113 @@ describe('experimental owned-scene renderer lifecycle', () => {
     }
     expect(surface.hidden).toBe(false); expect(surface.hasAttribute('aria-hidden')).toBe(false);
   });
+
+  it('submits thousands of procedural instances in one draw without per-instance DOM work or texture uploads', () => {
+    const time = clock(); preferences(); const { gl, canvas } = fixture();
+    const bounds = vi.mocked(canvas.getBoundingClientRect);
+    const scene = track(attachGlassScene(canvas, { paused: true, field: { count: 3000, size: 22, speed: 100, seed: 7 } }));
+    expect(scene.supported).toBe(true);
+    expect(gl.drawArraysInstanced).toHaveBeenLastCalledWith(gl.TRIANGLES, 0, 6, 3000);
+    expect(scene.stats).toMatchObject({ fieldCount: 3000, drawCalls: 3, wallpaperPasses: 1, width: 400, height: 300, pixels: 120000 });
+    expect(gl.createProgram).toHaveBeenCalledTimes(3);
+    expect(gl.texStorage2D).toHaveBeenCalledOnce(); expect(gl.framebufferTexture2D).toHaveBeenCalledOnce();
+    bounds.mockClear();
+    for (let i = 0; i < 5; i++) scene.render(i);
+    expect(bounds).toHaveBeenCalledTimes(5);
+    expect(gl.texStorage2D).toHaveBeenCalledOnce(); expect(gl.checkFramebufferStatus).toHaveBeenCalledOnce();
+    expect(gl.createProgram).toHaveBeenCalledTimes(3); expect(gl.getError).toHaveBeenCalledOnce();
+    expect(time.frames.size).toBe(0);
+    scene.update({ paused: true });
+    expect(scene.stats.fieldCount).toBe(0); expect(scene.stats.drawCalls).toBe(2);
+    expect(gl.drawArraysInstanced).toHaveBeenCalledTimes(6);
+    scene.destroy();
+    expect(gl.deleteProgram).toHaveBeenCalledTimes(3); expect(gl.deleteTexture).toHaveBeenCalledOnce();
+    expect(gl.deleteFramebuffer).toHaveBeenCalledOnce();
+  });
+
+  it('bounds field parameters, snapshots options, and preserves the optional explicit pixel budget', () => {
+    clock(); preferences(); const { gl, canvas } = fixture();
+    vi.spyOn(window, 'devicePixelRatio', 'get').mockReturnValue(3);
+    vi.mocked(canvas.getBoundingClientRect).mockReturnValue({ left: 0, top: 0, width: 400.25, height: 300.4 } as DOMRect);
+    const field = { count: 99999, size: -2, speed: Infinity, seed: 99999, direction: 'up' as const, motion: 'orbit' as const };
+    const scene = track(attachGlassScene(canvas, { paused: true, field, maxPixels: 100000 }));
+    expect(scene.stats.pixels).toBeLessThanOrEqual(100000); expect(scene.stats.dpr).toBeLessThan(1);
+    expect(gl.uniform4f.mock.calls.at(-1)?.slice(1)).toEqual([20000, 4, 60, 65535]);
+    expect(intUniform(gl, 'uMotion')).toBe(2);
+    const direction = gl.uniform2f.mock.calls.filter(call => (call[0] as { name: string }).name === 'uDirection').at(-1);
+    expect(direction?.slice(1)).toEqual([0, -1]);
+    field.count = 4; field.size = 40; scene.render(1);
+    expect(scene.stats.fieldCount).toBe(20000); expect(gl.uniform4f.mock.calls.at(-1)?.slice(1)).toEqual([20000, 4, 60, 65535]);
+    scene.update({ paused: true, field: { count: NaN, size: 999, speed: -1, seed: NaN }, maxPixels: NaN });
+    expect(scene.stats.fieldCount).toBe(1000); expect(scene.stats.width).toBe(801);
+    expect(gl.uniform4f.mock.calls.at(-1)?.slice(1)).toEqual([1000, 180, 0, 1]);
+    const copiedStats = scene.stats as { fieldCount: number }; copiedStats.fieldCount = 1;
+    expect(scene.stats.fieldCount).toBe(1000);
+  });
+
+  it('recreates texture storage only after backing dimensions change, including context restoration', () => {
+    clock(); preferences(); const { gl, canvas } = fixture();
+    const scene = track(attachGlassScene(canvas, { paused: true, field: { count: 3000 } }));
+    scene.render(1); scene.render(2); expect(gl.texStorage2D).toHaveBeenCalledOnce();
+    vi.mocked(canvas.getBoundingClientRect).mockReturnValue({ left: 0, top: 0, width: 500, height: 300 } as DOMRect);
+    scene.render(3); expect(gl.texStorage2D).toHaveBeenCalledTimes(2); expect(gl.deleteTexture).toHaveBeenCalledOnce();
+    canvas.dispatchEvent(new Event('webglcontextlost', { cancelable: true }));
+    expect(scene.stats.fieldCount).toBe(0); expect(scene.supported).toBe(false);
+    expect(gl.deleteProgram).toHaveBeenCalledTimes(3); expect(gl.deleteTexture).toHaveBeenCalledTimes(2);
+    canvas.dispatchEvent(new Event('webglcontextrestored'));
+    expect(scene.supported).toBe(true); expect(scene.stats.fieldCount).toBe(3000);
+    expect(gl.texStorage2D).toHaveBeenCalledTimes(3); expect(gl.createProgram).toHaveBeenCalledTimes(6);
+    expect(gl.deleteProgram).toHaveBeenCalledTimes(3); // No stale-handle deletion after restoration.
+    scene.destroy(); expect(gl.deleteTexture).toHaveBeenCalledTimes(3); expect(gl.deleteFramebuffer).toHaveBeenCalledTimes(2);
+  });
+
+  it.each(['texture', 'framebuffer', 'incomplete', 'field'] as const)('cleans up after %s allocation failure', failure => {
+    const time = clock(); preferences(); const { gl, canvas } = fixture();
+    canvas.setAttribute('width', '0123'); canvas.removeAttribute('height');
+    if (failure === 'texture') gl.createTexture.mockReturnValue(null as never);
+    if (failure === 'framebuffer') gl.createFramebuffer.mockReturnValue(null as never);
+    if (failure === 'incomplete') gl.checkFramebufferStatus.mockReturnValue(0);
+    if (failure === 'field') gl.getProgramParameter.mockImplementationOnce(() => true).mockImplementationOnce(() => true).mockImplementationOnce(() => false);
+    const scene = track(attachGlassScene(canvas, { field: { count: 3000 } }));
+    expect(scene.supported).toBe(false); expect(scene.stats.drawCalls).toBe(0); expect(time.frames.size).toBe(0);
+    expect(gl.deleteProgram).toHaveBeenCalledTimes(failure === 'field' ? 3 : 2);
+    expect(gl.deleteVertexArray).toHaveBeenCalledOnce();
+    expect(gl.deleteFramebuffer).toHaveBeenCalledTimes(failure === 'framebuffer' ? 0 : 1);
+    expect(gl.deleteTexture).toHaveBeenCalledTimes(failure === 'framebuffer' || failure === 'texture' ? 0 : 1);
+    scene.destroy();
+    expect(canvas.getAttribute('width')).toBe('0123'); expect(canvas.hasAttribute('height')).toBe(false);
+  });
+
+
+  it('batches ordered HTML lens geometry into one bounded instanced pass', () => {
+    clock(); preferences(); const { gl, canvas } = fixture();
+    const elements = Array.from({ length: 8 }, (_, index) => {
+      const element = document.createElement('button'); document.body.append(element);
+      vi.spyOn(element, 'getBoundingClientRect').mockReturnValue({ left: 20 + index * 12, top: 30, width: 100, height: 60 } as DOMRect);
+      return element;
+    });
+    const scene = track(attachGlassScene(canvas, { paused: true, surfaces: elements.map(element => ({ element })) }));
+    expect(gl.drawArraysInstanced).toHaveBeenLastCalledWith(gl.TRIANGLES, 0, 6, 8);
+    expect(gl.blendFuncSeparate).toHaveBeenLastCalledWith(gl.ONE, gl.SRC_ALPHA, gl.ZERO, gl.ONE);
+    expect(scene.stats).toMatchObject({ fieldCount: 0, drawCalls: 3 });
+    const rects = gl.uniform4fv.mock.calls.at(-1)![1] as Float32Array;
+    expect(Array.from({ length: 8 }, (_, index) => rects[index * 4])).toEqual([60, 72, 84, 96, 108, 120, 132, 144]);
+    scene.update({ paused: true, surfaces: elements.map(element => ({ element })), field: { count: 3000 } });
+    expect(gl.drawArraysInstanced.mock.calls.slice(-2).map(call => call[3])).toEqual([8, 3000]);
+    expect(scene.stats).toMatchObject({ fieldCount: 3000, drawCalls: 4 });
+    scene.update({ paused: true });
+    expect(scene.stats.drawCalls).toBe(2);
+    scene.destroy(); expect(gl.deleteProgram).toHaveBeenCalledTimes(4);
+  });
+
+  it('releases all owned resources when the optional lens pipeline fails to link', () => {
+    const time = clock(); preferences(); const { gl, canvas, surface } = fixture();
+    gl.getProgramParameter.mockImplementationOnce(() => true).mockImplementationOnce(() => true).mockImplementationOnce(() => false);
+    const scene = track(attachGlassScene(canvas, { surfaces: [{ element: surface }] }));
+    expect(scene.supported).toBe(false); expect(scene.stats.drawCalls).toBe(0); expect(time.frames.size).toBe(0);
+    expect(gl.deleteProgram).toHaveBeenCalledTimes(3); expect(gl.deleteShader).toHaveBeenCalledTimes(6);
+    expect(gl.deleteTexture).toHaveBeenCalledOnce(); expect(gl.deleteFramebuffer).toHaveBeenCalledOnce();
+    scene.destroy(); expect(gl.deleteProgram).toHaveBeenCalledTimes(3);
+  });
+
 });

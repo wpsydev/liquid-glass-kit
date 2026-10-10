@@ -6,6 +6,7 @@ import { createSSRApp, h } from 'vue';
 import { renderToString as renderVue } from '@vue/server-renderer';
 import { attachGlassOverlay, attachGlassTransition, getGlassCapabilities, getGlassProps } from '../src/index.js';
 import { registerGlassElement } from '../src/element.js';
+import { attachGlassScene } from '../src/scene.js';
 import { GlassButton, GlassSurface } from '../src/react.js';
 import { GlassSurface as VueSurface } from '../src/vue.js';
 
@@ -14,6 +15,7 @@ describe('server rendering without browser globals', () => {
     expect(typeof window).toBe('undefined');
     expect(typeof attachGlassOverlay).toBe('function');
     expect(typeof attachGlassTransition).toBe('function');
+    expect(typeof attachGlassScene).toBe('function');
     expect(getGlassCapabilities()).toEqual({ backdrop: false, experimentalRefraction: false, continuousCorners: false });
     expect(() => registerGlassElement()).not.toThrow();
     expect(getGlassProps()).toEqual(getGlassProps());

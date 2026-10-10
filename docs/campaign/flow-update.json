@@ -1,0 +1,429 @@
+{
+  "schema": 1,
+  "version": "0.10.0-preview.1",
+  "state": "prepared",
+  "sourceSha256": "d70d055210b3c5234474a8e381835877389cdf5e25597f2142c7c560c9bb61f5",
+  "nativeBrowser": "T3 Chrome 152 on Apple M1 Pro; viewport resizing is not physical phone validation",
+  "layouts": [
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "stream",
+          "width": 87
+        },
+        {
+          "height": 44,
+          "id": "vortex",
+          "width": 87
+        },
+        {
+          "height": 44,
+          "id": "wave",
+          "width": 87
+        },
+        {
+          "height": 44,
+          "id": "pause",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "reverse",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "replay",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "density",
+          "width": 100
+        }
+      ],
+      "height": 568,
+      "scrollHeight": 750,
+      "scrollWidth": 305,
+      "stats": {
+        "dpr": 1.5,
+        "drawCalls": 3,
+        "fieldCount": 3000,
+        "height": 1125,
+        "pixels": 515250,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 458
+      },
+      "width": 320
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "stream",
+          "width": 69
+        },
+        {
+          "height": 44,
+          "id": "vortex",
+          "width": 69
+        },
+        {
+          "height": 44,
+          "id": "wave",
+          "width": 69
+        },
+        {
+          "height": 44,
+          "id": "pause",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "reverse",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "replay",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "density",
+          "width": 100
+        }
+      ],
+      "height": 844,
+      "scrollHeight": 844,
+      "scrollWidth": 390,
+      "stats": {
+        "dpr": 1.5,
+        "drawCalls": 3,
+        "fieldCount": 3000,
+        "height": 1266,
+        "pixels": 740610,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 585
+      },
+      "width": 390
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "stream",
+          "width": 62.234375
+        },
+        {
+          "height": 44,
+          "id": "vortex",
+          "width": 58.3515625
+        },
+        {
+          "height": 44,
+          "id": "wave",
+          "width": 55.1953125
+        },
+        {
+          "height": 44,
+          "id": "pause",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "reverse",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "replay",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "density",
+          "width": 100
+        }
+      ],
+      "height": 320,
+      "scrollHeight": 560,
+      "scrollWidth": 553,
+      "stats": {
+        "dpr": 1.5,
+        "drawCalls": 3,
+        "fieldCount": 3000,
+        "height": 840,
+        "pixels": 697200,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 830
+      },
+      "width": 568
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "stream",
+          "width": 75.4609375
+        },
+        {
+          "height": 44,
+          "id": "vortex",
+          "width": 71.1875
+        },
+        {
+          "height": 44,
+          "id": "wave",
+          "width": 67.7109375
+        },
+        {
+          "height": 44,
+          "id": "pause",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "reverse",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "replay",
+          "width": 86.453125
+        },
+        {
+          "height": 44,
+          "id": "density",
+          "width": 82
+        }
+      ],
+      "height": 800,
+      "scrollHeight": 800,
+      "scrollWidth": 1280,
+      "stats": {
+        "dpr": 1.5,
+        "drawCalls": 3,
+        "fieldCount": 3000,
+        "height": 1200,
+        "pixels": 2304000,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 1920
+      },
+      "width": 1280
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "stream",
+          "width": 84.6796875
+        },
+        {
+          "height": 44,
+          "id": "vortex",
+          "width": 80.0234375
+        },
+        {
+          "height": 44,
+          "id": "wave",
+          "width": 76.234375
+        },
+        {
+          "height": 48,
+          "id": "pause",
+          "width": 48
+        },
+        {
+          "height": 48,
+          "id": "reverse",
+          "width": 48
+        },
+        {
+          "height": 48,
+          "id": "replay",
+          "width": 48
+        },
+        {
+          "height": 44,
+          "id": "density",
+          "width": 100
+        }
+      ],
+      "height": 1280,
+      "scrollHeight": 1280,
+      "scrollWidth": 720,
+      "stats": {
+        "dpr": 1.5,
+        "drawCalls": 3,
+        "fieldCount": 3000,
+        "height": 1920,
+        "pixels": 2073600,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 1080
+      },
+      "width": 720
+    }
+  ],
+  "controls": [
+    {
+      "elapsed": 0,
+      "eventIndex": 0,
+      "mode": "wave",
+      "paused": true,
+      "reducedMotion": false,
+      "reversed": false,
+      "running": false,
+      "stats": {
+        "dpr": 1.5,
+        "drawCalls": 3,
+        "fieldCount": 3000,
+        "height": 1920,
+        "pixels": 2073600,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 1080
+      },
+      "supported": true
+    },
+    {
+      "elapsed": 0,
+      "eventIndex": 0,
+      "mode": "vortex",
+      "paused": true,
+      "reducedMotion": false,
+      "reversed": false,
+      "running": false,
+      "stats": {
+        "dpr": 1.5,
+        "drawCalls": 3,
+        "fieldCount": 3000,
+        "height": 1920,
+        "pixels": 2073600,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 1080
+      },
+      "supported": true
+    },
+    {
+      "elapsed": 0,
+      "eventIndex": 0,
+      "mode": "vortex",
+      "paused": true,
+      "reducedMotion": false,
+      "reversed": true,
+      "running": false,
+      "stats": {
+        "dpr": 1.5,
+        "drawCalls": 3,
+        "fieldCount": 3000,
+        "height": 1920,
+        "pixels": 2073600,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 1080
+      },
+      "supported": true
+    }
+  ],
+  "film": {
+    "elapsed": 12,
+    "eventIndex": 5,
+    "mode": "stream",
+    "paused": true,
+    "reducedMotion": false,
+    "reversed": true,
+    "running": false,
+    "stats": {
+      "dpr": 1.5,
+      "drawCalls": 3,
+      "fieldCount": 3000,
+      "height": 1920,
+      "pixels": 2073600,
+      "renderer": "webgl2",
+      "wallpaperPasses": 1,
+      "width": 1080
+    },
+    "supported": true
+  },
+  "rawRecording": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-f40e4461-78a3-438b-bbe1-e46df465d162-mp4.mp4",
+  "audio": {
+    "source": "scripts/render-flow-beat.py",
+    "bpm": 160,
+    "original": true,
+    "samples": "No external samples",
+    "license": "MIT"
+  },
+  "claims": {
+    "sceneGpu": "1.5827→0.8455ms; 46.58% less; separate eight-lens equal-resolution five-pair native GPU test",
+    "mapCpu": "16.8→4.1ms; 75.6% less; 31 paired batches of eight maps",
+    "cadence": "Near60Hz both; no whole-app FPS improvement claimed",
+    "field": "3000 submitted decorative instances, one field draw; three scene draws total",
+    "quality": "RGBA8 interpolation, clamped edge sampling and bright overlap rim differences; not pixel-identical"
+  },
+  "publication": {
+    "release": null,
+    "x": [],
+    "npm": "Pending; authenticated session lacks required npm2FA publishing authorization"
+  },
+  "media": {
+    "path": "docs/campaign/assets/flow-showcase.mp4",
+    "bytes": 3062300,
+    "sha256": "ee97f76bd460561ac256f107830640ded05370f4027b3feab14244bdcf3c8694",
+    "atoms": [
+      {
+        "type": "ftyp",
+        "bytes": 32,
+        "offset": 0
+      },
+      {
+        "type": "moov",
+        "bytes": 14529,
+        "offset": 32
+      },
+      {
+        "type": "free",
+        "bytes": 8,
+        "offset": 14561
+      },
+      {
+        "type": "mdat",
+        "bytes": 3047731,
+        "offset": 14569
+      }
+    ],
+    "durationSeconds": 12,
+    "video": {
+      "codec": "H.264",
+      "width": 720,
+      "height": 1280,
+      "format": "yuv420p",
+      "exportFps": 30,
+      "frames": 360
+    },
+    "audio": {
+      "codec": "AAC",
+      "channels": 2,
+      "sampleRate": 48000,
+      "bpm": 160,
+      "peakDb": -2.2,
+      "meanDb": -14.4
+    },
+    "validation": "Full decode passed. Export FPS is not a rendering benchmark."
+  },
+  "packaging": {
+    "dryRun": {
+      "files": 68,
+      "bytes": 141200,
+      "unpackedBytes": 432400
+    },
+    "consumer": "Fresh offline install imports core/scene/element without browser globals, React or Vue; zero runtime dependencies"
+  }
+}

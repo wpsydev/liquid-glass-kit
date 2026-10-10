@@ -33,6 +33,8 @@ Entry/exit fades change whole-surface opacity. Values below 1 create a CSS backd
 
 An optional `@wpsydev/liquid-glass/scene` WebGL2 renderer now refracts its own procedural background. It is separate from the CSS/SVG paths and does not sample arbitrary DOM or external imagery. Keep a CSS fallback on context failure/loss and use preference/pause controls. See [SCENE.md](SCENE.md).
 
+The 0.10 scene adds decorative instanced fields and a cached RGBA8 wallpaper. Texture interpolation, quantization, edge clamping and float rounding differ from the original analytical shader. `maxPixels` is an explicit resolution tradeoff, never enabled by default. Instance counts are submitted graphics, including boundary-clipped shapes; they do not certify thousands of semantic widgets or any phone's frame rate. Normal CSS backdrop-filter cost remains scene- and device-dependent. See [RENDERING.md](RENDERING.md) for separate map-generation, GPU, cadence and resource evidence.
+
 ## Mobile layout and continuous corners
 
 The mobile preview adds primary-pointer ownership and descendant-control isolation to material and motion input. Native scroll/zoom is preserved. Optional 44px target, safe-area padding and dynamic-viewport helpers are layout building blocks; applications still own responsive layout and native dialog/form semantics. `dvh` and safe-area insets do not universally solve software-keyboard placement.

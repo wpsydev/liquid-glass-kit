@@ -1,0 +1,14 @@
+{
+  "sourceSha256": "d70d055210b3c5234474a8e381835877389cdf5e25597f2142c7c560c9bb61f5",
+  "staticGpu": {
+    "baseline": 1.5827,
+    "current": 0.8455,
+    "lessPercent": 46.578631452581035
+  },
+  "mapGeneration": {
+    "baseline": 16.8,
+    "current": 4.1,
+    "lessPercent": 75.59523809523809
+  },
+  "scope": "Saved native Chrome 152 / Apple M1 Pro timings; eight lenses at 1280×800, DPR 1, five paired runs. Separate eight-map CPU batches, 31 pairs."
+}

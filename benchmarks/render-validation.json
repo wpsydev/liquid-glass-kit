@@ -1,0 +1,164 @@
+{
+  "overlaps": [
+    {
+      "cssSize": [
+        320,
+        240
+      ],
+      "overlappingLenses": 8,
+      "palette": "neon",
+      "positions": "left50+4i,top45+3i,width210,height140",
+      "radius": 28,
+      "refraction": 0,
+      "rgbMAE": 1.0138411458333334,
+      "rgbMax": 60,
+      "rgbP95": 2,
+      "rgbPercentOver8": 2.1510416666666665,
+      "time": 2
+    },
+    {
+      "cssSize": [
+        320,
+        240
+      ],
+      "overlappingLenses": 8,
+      "palette": "neon",
+      "positions": "left50+4i,top45+3i,width210,height140",
+      "radius": 28,
+      "refraction": 22,
+      "rgbMAE": 1.0440928819444444,
+      "rgbMax": 63,
+      "rgbP95": 2,
+      "rgbPercentOver8": 2.2938368055555554,
+      "time": 2
+    },
+    {
+      "cssSize": [
+        320,
+        240
+      ],
+      "overlappingLenses": 8,
+      "palette": "sunset",
+      "positions": "left50+4i,top45+3i,width210,height140",
+      "radius": 28,
+      "refraction": 0,
+      "rgbMAE": 1.0031119791666667,
+      "rgbMax": 58,
+      "rgbP95": 2,
+      "rgbPercentOver8": 2.2547743055555554,
+      "time": 2
+    },
+    {
+      "cssSize": [
+        320,
+        240
+      ],
+      "overlappingLenses": 8,
+      "palette": "sunset",
+      "positions": "left50+4i,top45+3i,width210,height140",
+      "radius": 28,
+      "refraction": 22,
+      "rgbMAE": 1.0507682291666667,
+      "rgbMax": 68,
+      "rgbP95": 2,
+      "rgbPercentOver8": 2.4622395833333335,
+      "time": 2
+    },
+    {
+      "cssSize": [
+        320,
+        240
+      ],
+      "overlappingLenses": 8,
+      "palette": "ocean",
+      "positions": "left50+4i,top45+3i,width210,height140",
+      "radius": 28,
+      "refraction": 0,
+      "rgbMAE": 0.9579774305555555,
+      "rgbMax": 62,
+      "rgbP95": 2,
+      "rgbPercentOver8": 2.01171875,
+      "time": 2
+    },
+    {
+      "cssSize": [
+        320,
+        240
+      ],
+      "overlappingLenses": 8,
+      "palette": "ocean",
+      "positions": "left50+4i,top45+3i,width210,height140",
+      "radius": 28,
+      "refraction": 22,
+      "rgbMAE": 1.0267795138888889,
+      "rgbMax": 62,
+      "rgbP95": 2,
+      "rgbPercentOver8": 2.267361111111111,
+      "time": 2
+    }
+  ],
+  "restoration": {
+    "before": {
+      "stats": {
+        "dpr": 1,
+        "drawCalls": 4,
+        "fieldCount": 3000,
+        "height": 240,
+        "pixels": 76800,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 320
+      },
+      "supported": true
+    },
+    "loss": {
+      "stats": {
+        "dpr": 0,
+        "drawCalls": 0,
+        "fieldCount": 0,
+        "height": 0,
+        "pixels": 0,
+        "renderer": "webgl2",
+        "wallpaperPasses": 0,
+        "width": 0
+      },
+      "supported": false
+    },
+    "restored": {
+      "error": 0,
+      "stats": {
+        "dpr": 1,
+        "drawCalls": 4,
+        "fieldCount": 3000,
+        "height": 240,
+        "pixels": 76800,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 320
+      },
+      "supported": true
+    }
+  },
+  "scope": "Native fixed-time readback, overlap and actual context restoration; separate from timing and mocked tests.",
+  "source": {
+    "baseline": {
+      "commit": "bb1f647c2d9920863ce41a0134a9000873dac5a9",
+      "sourceChanges": [],
+      "sourceSha256": "601ade5c20f324630d99449d5f9508def7479b09edd922f0f89961c14760b065"
+    },
+    "bundler": "Vite IIFE / es2022 / minified / no source maps / same global name",
+    "current": {
+      "commit": "bb1f647c2d9920863ce41a0134a9000873dac5a9",
+      "sourceChanges": [
+        "M src/index.ts",
+        " M src/optics.ts",
+        " M src/scene.ts",
+        "?? src/scene-shaders.ts"
+      ],
+      "sourceSha256": "d70d055210b3c5234474a8e381835877389cdf5e25597f2142c7c560c9bb61f5"
+    },
+    "generatedAt": "2026-10-10T21:34:17.998Z",
+    "node": "v24.21.0",
+    "schema": 1
+  }
+}

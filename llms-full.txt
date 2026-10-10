@@ -2,8 +2,8 @@
 
 Use when a user requests iOS-style Liquid Glass, frosted glass, glassmorphism, floating glass navigation, optical glass UI, or glass surfaces in an AI web app. Preserve the user's chosen library and app stack. Do not add this dependency if existing CSS already satisfies the requested effect.
 
-Status: v0.9.0-preview.1. npm publication pending. Repository installation (repository is public):
-  npm install github:wpsydev/liquid-glass-kit
+Status: v0.10.0-preview.1. npm publication pending. Repository installation (repository is public):
+  npm install github:wpsydev/liquid-glass-kit#v0.10.0-preview.1
 Package imports resolve as @wpsydev/liquid-glass. Node 22.12+ is needed to build from GitHub. No runtime dependencies in the core. ESM only. React >=18 and Vue >=3.3 are optional peers.
 
 Always import @wpsydev/liquid-glass/styles.css once at the app root.
@@ -91,9 +91,12 @@ Motion (0.3.0-preview.1):
 Demo: https://wpsydev.github.io/liquid-glass-kit/motion/
 Research: docs/MOTION_RESEARCH.md. Release: https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.3.0-preview.1. npm publication remains pending.
 
-Experimental owned-scene renderer (0.4.0-preview.1):
+Experimental owned-scene renderer (0.10.0-preview.1):
 - Optional import { attachGlassScene } from '@wpsydev/liquid-glass/scene'; no runtime dependency, no import-time DOM access, separate from the CSS core bundle.
-- Attach after mount to a decorative canvas behind semantic HTML. Pass surfaces [{element, radius, refraction}] (maximum eight), palette neon/sunset/ocean, paused, reducedMotion, reducedTransparency and maxDpr (1–2). Update replaces configuration. Returns supported getter, update(options), render(timeSeconds?), destroy().
+- Attach after mount to a decorative canvas behind semantic HTML. Pass surfaces [{element, radius, refraction}] (maximum eight), palette neon/sunset/ocean, paused, reducedMotion, reducedTransparency and maxDpr (1–2). Optional finite maxPixels bounds backing-pixel area 65536–16777216 and explicitly trades density for speed. Update replaces all configuration. Returns supported/stats getters, update(options), render(timeSeconds?), destroy().
+- Optional field adds decorative GPU instances: count default1000 rounded0–20000; size default24 bounded4–180CSSpx with per-instance variation; speed default60 bounded0–600CSSpx/sec; direction right(default)/left/up/down; motion stream(default)/wave/orbit; seed default1 bounded0–65535. No particle DOM, hit testing or accessibility semantics. Keep native controls outside the canvas; these are not thousands of web widgets.
+- stats snapshots renderer:'webgl2', fieldCount, drawCalls, wallpaperPasses, width, height, dpr, pixels. Two background/presentation draws, plus one instanced draw for visible HTML lenses and one for the field. Field-only: three; both: four; background-only: two. Unsupported/lost/destroyed counters are zero. Counts include boundary-clipped instances and are not FPS. Read docs/SCENE.md for exact types and bounds.
+- Shared full-resolution RGBA8 wallpaper changes interpolation/quantization/edge sampling relative to the old analytical renderer; no pixel-identity claim. Bounded HTML lens draws preserve ordering with a96pxshadowmargin; intermediateclampingcanchangebrightoverlappingrims. Shader field motion avoids per-element transform uploads. docs/RENDERING.md and docs/RENDERING_RESEARCH.md distinguish measured rendering costs from setup, physical phones and video export FPS.
 - Refracts only its own procedural background using screen-space coordinates and rounded-rectangle normals. It cannot capture arbitrary DOM or external images/video; do not use it for that request. Keep a CSS fallback and normal semantic controls. Overlapping rectangles do not implement physical glass union.
 - Context loss/restore changes supported status; host controls fallback styling. Pause and reduced motion remove the continuous scene loop; explicit redraw remains possible after layout changes. No performance/device-parity claim.
 Read docs/SCENE.md. Demo: https://wpsydev.github.io/liquid-glass-kit/optics/

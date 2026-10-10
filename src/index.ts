@@ -22,21 +22,31 @@ export function attachGlass(element: HTMLElement, initial: GlassOptions = {}) {
   let observer: ResizeObserver | undefined;
   let input: ReturnType<typeof attachGlassPressInput> | undefined;
   let svg: SVGSVGElement | undefined;
+  let displacement: SVGElement | undefined;
+  let lensGeometry = '';
+  let lensFilter = '';
   const restore = captureState(element, properties, attributes, 'lg-glass');
-  const removeFilter = () => { svg?.remove(); svg = undefined; if (element.style.getPropertyValue('--lg-filter')) element.style.removeProperty('--lg-filter'); };
+  const removeFilter = () => { svg?.remove(); svg = undefined; displacement = undefined; lensGeometry = ''; lensFilter = ''; if (element.style.getPropertyValue('--lg-filter')) element.style.removeProperty('--lg-filter'); };
   const attr = (key: string, value: string) => { if (element.getAttribute(key) !== value) element.setAttribute(key, value); };
   const isSolid = () => options.reducedTransparency || (environment.media[1]?.matches || environment.media[2]?.matches || environment.media[3]?.matches) || !environment.capabilities.backdrop;
   const usesLens = () => options.refraction && !isSolid() && environment.capabilities.experimentalRefraction;
   const reportRenderer = () => attr('data-lg-renderer', isSolid() ? 'solid' : 'css');
   const renderLens = () => {
-    removeFilter();
-    reportRenderer();
-    if (!usesLens()) return;
+    if (!usesLens()) { removeFilter(); reportRenderer(); return; }
     const rect = element.getBoundingClientRect();
-    if (!rect.width || !rect.height) return;
+    if (!rect.width || !rect.height) { removeFilter(); reportRenderer(); return; }
     const ratio = Math.min(1, 256 / Math.max(rect.width, rect.height));
     const width = Math.max(1, Math.round(rect.width * ratio));
     const height = Math.max(1, Math.round(rect.height * ratio));
+    const geometry = `${width}/${height}/${options.radius * ratio}`;
+    if (svg?.isConnected && displacement && lensGeometry === geometry) {
+      const scale = String(options.refraction);
+      if (displacement.getAttribute('scale') !== scale) displacement.setAttribute('scale', scale);
+      if (element.style.getPropertyValue('--lg-filter') !== lensFilter) element.style.setProperty('--lg-filter', lensFilter);
+      attr('data-lg-renderer', 'svg-experimental');
+      return;
+    }
+    removeFilter(); reportRenderer();
     const canvas = doc.createElement('canvas'); canvas.width = width; canvas.height = height;
     const ctx = canvas.getContext('2d'); if (!ctx) return;
     const data = ctx.createImageData(width, height);
@@ -51,9 +61,10 @@ export function attachGlass(element: HTMLElement, initial: GlassOptions = {}) {
     const id = `lg-lens-${++serial}`;
     const filter = node('filter', { id, 'color-interpolation-filters': 'sRGB', x: '0', y: '0', width: '100%', height: '100%' });
     const map = node('feImage', { href: canvas.toDataURL(), width: '100%', height: '100%', preserveAspectRatio: 'none', result: 'lens' });
-    const displacement = node('feDisplacementMap', { in: 'SourceGraphic', in2: 'lens', scale: String(options.refraction), xChannelSelector: 'R', yChannelSelector: 'G' });
+    displacement = node('feDisplacementMap', { in: 'SourceGraphic', in2: 'lens', scale: String(options.refraction), xChannelSelector: 'R', yChannelSelector: 'G' });
     filter.append(map, displacement); svg.append(filter); doc.body.append(svg);
-    element.style.setProperty('--lg-filter', `url("#${id}")`);
+    lensGeometry = geometry; lensFilter = `url("#${id}")`;
+    element.style.setProperty('--lg-filter', lensFilter);
     attr('data-lg-renderer', 'svg-experimental');
   };
   const scheduleLens = () => { if (!destroyed && frame === null && usesLens()) frame = view.requestAnimationFrame(() => { frame = null; renderLens(); }); };

@@ -37,6 +37,8 @@ Enter/exit resolve a completion boolean and animate presentation only. The app o
 
 For an animated scene the application owns, the optional `@wpsydev/liquid-glass/scene` import can refract its procedural canvas through up to eight measured HTML lens rectangles. Read docs/SCENE.md and keep CSS fallback, native semantics, pause and reduced-motion controls. It does not refract arbitrary DOM or external imagery; choose the ordinary CSS material when that is the real requirement.
 
+The 0.10 scene optionally batches decorative `field` instances with stream/wave/orbit motion and deterministic seed. Prefer this for an owned visual field, not thousands of interactive controls. Counts are submitted GPU instances, not semantic widgets or measured FPS. `maxDpr` and optional `maxPixels` bound pixel cost; `maxPixels` explicitly reduces resolution. Keep labels and input in HTML. The RGBA8 wallpaper cache changes sampling relative to the prior analytical renderer. Read docs/SCENE.md for exact defaults/types and docs/RENDERING.md for measurement scope; do not infer all-device speed from one browser run.
+
 
 For mobile widgets, read `docs/MOBILE.md` and its primary-source research before choosing layout. Preserve at least 44×44 CSS-pixel native hit targets, visible labels/focus/disabled states, wrapping text and generous spacing. Glass belongs to a small floating control layer; inner selected states use plain fills, not another glass surface.
 

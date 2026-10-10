@@ -10,15 +10,23 @@ export function createDisplacementMap(width: number, height: number, radius: num
   const distance = (x: number, y: number) => {
     const qx = Math.abs(x - width / 2) - (width / 2 - r);
     const qy = Math.abs(y - height / 2) - (height / 2 - r);
-    return Math.hypot(Math.max(qx, 0), Math.max(qy, 0)) + Math.min(Math.max(qx, qy), 0) - r;
+    // Only the rounded corner needs a Euclidean distance. Axis-aligned regions
+    // have an exact signed distance without a square root.
+    return qx > 0 && qy > 0 ? Math.hypot(qx, qy) - r : Math.max(qx, qy) - r;
   };
   const pixels = new Uint8ClampedArray(width * height * 4);
   for (let y = 0; y < height; y++) for (let x = 0; x < width; x++) {
     const d = distance(x + .5, y + .5);
     const edge = Math.max(0, 1 - Math.abs(d) / band);
+    const i = (y * width + x) * 4;
+    if (edge === 0) {
+      // Outside the edge band, both displacement channels are exactly neutral.
+      pixels[i] = 128; pixels[i + 1] = 128;
+      pixels[i + 2] = 128; pixels[i + 3] = 255;
+      continue;
+    }
     const nx = (distance(x + 1, y + .5) - distance(x, y + .5));
     const ny = (distance(x + .5, y + 1) - distance(x + .5, y));
-    const i = (y * width + x) * 4;
     pixels[i] = 128 + 120 * nx * edge * edge;
     pixels[i + 1] = 128 + 120 * ny * edge * edge;
     pixels[i + 2] = 128; pixels[i + 3] = 255;

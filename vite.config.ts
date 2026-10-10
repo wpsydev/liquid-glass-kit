@@ -20,6 +20,7 @@ export default defineConfig({
         overlays: resolve('site/overlays/index.html'),
         microMotion: resolve('site/micro-motion/index.html'),
         performance: resolve('site/performance/index.html'),
+        flow: resolve('site/flow/index.html'),
       },
     },
   },
