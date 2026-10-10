@@ -8,7 +8,8 @@
 - CI passes 12 tests, type checking, package and site builds. Both tarball and GitHub installation verified in clean projects.
 - [Browser contribution issue](https://github.com/wpsydev/liquid-glass-kit/issues/1) and [SvelteKit good first issue](https://github.com/wpsydev/liquid-glass-kit/issues/2) are open.
 - GitHub website metadata and 12 relevant topics are configured, including liquid-glass, glassmorphism, ai-agents, and framework terms.
-- npm publication awaits account authentication. X was selected for the launch, but its browser session is signed out; the [248-character post](X-LAUNCH.txt) is prepared and has not been posted. No account credentials are available here. Other community copy below is also prepared, not externally posted.
+- [X launch post](https://x.com/wpsygames/status/2108936339475276157) is live on @wpsygames with the playground screenshot. Published text, image, and demo link were verified.
+- npm CLI authentication succeeded as wpsydev. Registry publication is pending account two-factor authentication enrollment; the registry rejected publication with HTTP 403 requiring 2FA. The account's security-key enrollment form is available in the shared browser. Other community copy below is prepared, not externally posted.
 - [Technical article](ARTICLE.md) is published with the project and can be adapted to the maintainer's chosen publishing channel.
 
 ## Positioning
@@ -64,4 +65,4 @@ Explain backdrop sampling and roots; demonstrate why filtering the foreground bl
 | 3 | Fix highest-impact browser/integration issues; invite small contributions | Successful fixes and outside contributors |
 | 4 | Publish measured comparison/demo update; improve recipes based on real use | Retained usage, downloads after npm publication |
 
-Measure stars alongside actual installs, retention, useful issues, and contributors. No purchased stars, mass unsolicited messages, fabricated testimonials, or artificial adoption counts. Community posts are prepared here; posting requires access to the intended account and its community rules. No external social posts are claimed by this document.
+Measure stars alongside actual installs, retention, useful issues, and contributors. No purchased stars, mass unsolicited messages, fabricated testimonials, or artificial adoption counts. The verified X launch is linked above. Other community posts are prepared here; posting requires access to the intended account and its community rules.
