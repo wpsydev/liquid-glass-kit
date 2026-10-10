@@ -395,5 +395,125 @@
     "ssrCoreOnlyEntrypoints": 13,
     "treeShakenConsumerSamplesIdentical": 4
   },
-  "publication": null
+  "publication": {
+    "commit": "d272dbec98ed97a54370b4b6f88bc0bb0a84e7b6",
+    "releaseUrl": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.12.0-preview.1",
+    "demoUrl": "https://wpsydev.github.io/liquid-glass-kit/loading/",
+    "workflows": [
+      {
+        "name": "Publish preview release",
+        "conclusion": "success",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38094001232"
+      },
+      {
+        "name": "Publish playground",
+        "conclusion": "success",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38094001244"
+      },
+      {
+        "name": "Verify",
+        "conclusion": "success",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38094001226"
+      }
+    ],
+    "assets": [
+      {
+        "name": "wpsydev-liquid-glass-0.12.0-preview.1.tgz",
+        "size": 160864,
+        "digest": "sha256:1beb24ee0ef22f7bab0613687694a39086bf5235c62a75c9b882a54e5c16f2eb",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.12.0-preview.1/wpsydev-liquid-glass-0.12.0-preview.1.tgz"
+      }
+    ],
+    "initialHTTPResources": {
+      "canvasTop": 2036.3515625,
+      "preloads": [
+        "/liquid-glass-kit/assets/modulepreload-polyfill-P2Xu9kJm.js"
+      ],
+      "resources": [
+        {
+          "initiator": "script",
+          "path": "/liquid-glass-kit/assets/loading-XNIwzDU3.js"
+        },
+        {
+          "initiator": "link",
+          "path": "/liquid-glass-kit/assets/loading-ul7DJiW_.css"
+        },
+        {
+          "initiator": "other",
+          "path": "/liquid-glass-kit/assets/modulepreload-polyfill-P2Xu9kJm.js"
+        }
+      ],
+      "scroll": 0,
+      "state": {
+        "paused": false,
+        "state": "waiting",
+        "stats": null,
+        "supported": false
+      },
+      "url": "https://wpsydev.github.io/liquid-glass-kit/loading/?v=d272dbe"
+    },
+    "afterIntersectionHTTPResources": {
+      "preloads": [
+        "/liquid-glass-kit/assets/modulepreload-polyfill-P2Xu9kJm.js",
+        "/liquid-glass-kit/assets/scene-_2SHJbbn.js",
+        "/liquid-glass-kit/assets/lifecycle-cvSYq5ei.js"
+      ],
+      "resources": [
+        {
+          "initiator": "script",
+          "path": "/liquid-glass-kit/assets/loading-XNIwzDU3.js"
+        },
+        {
+          "initiator": "link",
+          "path": "/liquid-glass-kit/assets/loading-ul7DJiW_.css"
+        },
+        {
+          "initiator": "other",
+          "path": "/liquid-glass-kit/assets/modulepreload-polyfill-P2Xu9kJm.js"
+        },
+        {
+          "initiator": "script",
+          "path": "/liquid-glass-kit/assets/scene-_2SHJbbn.js"
+        },
+        {
+          "initiator": "script",
+          "path": "/liquid-glass-kit/assets/lifecycle-cvSYq5ei.js"
+        }
+      ],
+      "state": {
+        "paused": false,
+        "state": "ready",
+        "stats": {
+          "dpr": 1.133742853802719,
+          "drawCalls": 3,
+          "fieldCount": 0,
+          "fusionCount": 2,
+          "height": 476,
+          "pixels": 599760,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 1260
+        },
+        "supported": true
+      },
+      "status": "Scene ready. Three scene draws; controls stay HTML.",
+      "url": "https://wpsydev.github.io/liquid-glass-kit/loading/?v=d272dbe"
+    },
+    "releasedArchive": {
+      "version": "0.12.0-preview.1",
+      "files": 80,
+      "coreOnlySSRImports": 13,
+      "optionalPeersAbsent": true,
+      "sha256": "1beb24ee0ef22f7bab0613687694a39086bf5235c62a75c9b882a54e5c16f2eb"
+    },
+    "packedLazyConsumerBuild": {
+      "entryBytes": 2724,
+      "entryStaticImports": 0,
+      "entryContainsRenderer": false,
+      "deferredSceneChunkBytes": 25517
+    },
+    "publicDocsAndAgentGuideHTTP200": true,
+    "publicSourceHashMatches": true,
+    "npmRegistry": "publication pending"
+  }
 }
