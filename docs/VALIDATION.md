@@ -81,3 +81,9 @@ Verify, Publish playground and Publish preview release passed for `94740e8`. The
 - The twelve-second video records the actual workbench, palette spring, radius/material transitions and native dialog. Export: 1080×1920, H.264/yuv420p at 30 fps, stereo 48 kHz AAC, original 120 BPM synthesized music without external samples. Sampled frames and complete audio/video decoding pass. Audio peak −3.5 dBFS; export frame rate is not a device benchmark.
 
 Physical Safari/Android hardware, OS text settings and assistive technologies remain unverified. This design update does not add Apple compositor parity or upstream component certification.
+
+Verify, Pages and release workflows passed for `27503f4`. The public workbench, listening room, research and both release downloads returned HTTP 200. Deployed controls reproduced palette, radius, opaque material, native Escape/focus restoration and saved state; foreground text filter remained `none`.
+
+[Published redesign video](https://x.com/wpsygames/status/2108976875443810436) · [Release/install reply](https://x.com/wpsygames/status/2108977086245556558). The released source is exactly twelve seconds; X may pad its processed rendition. No reach or repository-star growth is claimed.
+
+X’s public processed player decoded nonblack 720×1280 frames and 20,219 audio bytes; its observed duration was 12.03 seconds. This verifies a playable published video and audio track, not listener volume or engagement.

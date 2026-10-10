@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-10",
+  "account": "@wpsygames",
+  "status": "published",
+  "postUrl": "https://x.com/wpsygames/status/2108976875443810436",
+  "copy": "Liquid Glass Kit, redesigned.\n\nPaper + ink, editorial type, original moving light and gentle springs. A focused workbench and a new mobile listening room.\n\n12 seconds, with an original upbeat soundtrack.\n\nOpen source → https://wpsydev.github.io/liquid-glass-kit/",
+  "replyUrl": "https://x.com/wpsygames/status/2108977086245556558",
+  "replyCopy": "Release + install:\nhttps://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.6.0-preview.1\n\nGitLab research led to Pajamas guidance and selected MIT SVGs. The repo includes the comparisons, design contract and mobile checks.\n\nnpm i github:wpsydev/liquid-glass-kit#v0.6.0-preview.1",
+  "release": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.6.0-preview.1",
+  "commit": "27503f4297ca80ca8cdaa2113feb4182b088391e",
+  "workflows": [
+    {
+      "name": "Publish playground",
+      "sha": "27503f4297ca80ca8cdaa2113feb4182b088391e",
+      "status": "completed",
+      "conclusion": "success",
+      "id": 38072846218
+    },
+    {
+      "name": "Verify",
+      "sha": "27503f4297ca80ca8cdaa2113feb4182b088391e",
+      "status": "completed",
+      "conclusion": "success",
+      "id": 38072846209
+    },
+    {
+      "name": "Publish preview release",
+      "sha": "27503f4297ca80ca8cdaa2113feb4182b088391e",
+      "status": "completed",
+      "conclusion": "success",
+      "id": 38072846208
+    }
+  ],
+  "assets": [
+    {
+      "name": "liquid-glass-studio.mp4",
+      "size": 1623866,
+      "url": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.6.0-preview.1/liquid-glass-studio.mp4"
+    },
+    {
+      "name": "wpsydev-liquid-glass-0.6.0-preview.1.tgz",
+      "size": 100986,
+      "url": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.6.0-preview.1/wpsydev-liquid-glass-0.6.0-preview.1.tgz"
+    }
+  ],
+  "publicPlayback": {
+    "audioDecodedBytes": 20219,
+    "duration": 12.032942,
+    "height": 1280,
+    "pixel": [
+      255,
+      206,
+      164,
+      255
+    ],
+    "videoDecodedBytes": 118548,
+    "width": 720
+  },
+  "sourceVideoSeconds": 12,
+  "music": "Original synthesized 120 BPM instrumental; MIT; no external samples",
+  "npmRegistryPublication": "pending"
+}

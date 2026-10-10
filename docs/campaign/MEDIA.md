@@ -100,3 +100,9 @@ Publication receipts and exact copy: [mobile-update.json](mobile-update.json). X
 The original upbeat 120 BPM soundtrack is synthesized by `scripts/render-studio-beat.py` under MIT, without external samples. FFmpeg trims/scales the recording, holds its final frame for one extra frame if needed, normalizes the original audio and writes streaming metadata. Six sampled frames and full decoding passed. Peak −3.5 dBFS; export 30 fps is not a rendering performance claim.
 
 `../assets/studio.webp` is an uncomposited 1280×900 native preview screenshot of the actual workbench, encoded as WebP. UI research, asset selection and MIT attribution are in `../UI_RESEARCH.md` and `../THIRD_PARTY.md`.
+
+Published redesign video: https://x.com/wpsygames/status/2108976875443810436
+
+Release/install and GitLab selection reply: https://x.com/wpsygames/status/2108977086245556558
+
+The source release includes `liquid-glass-studio.mp4` (1,623,866 bytes) and the package archive. All release, Verify and Pages workflows passed for `27503f4`; the deployed routes and both release downloads returned HTTP 200. Publication receipts: `studio-x-post.json`.
