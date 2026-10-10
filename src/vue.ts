@@ -1,7 +1,8 @@
 import { defineComponent, h, onBeforeUnmount, ref, watch } from 'vue';
 import type { PropType } from 'vue';
-import { getGlassProps } from './index.js';
-import type { GlassMotionOptions, GlassOptions } from './index.js';
+import { getGlassProps } from './material.js';
+import type { GlassOptions } from './material.js';
+import type { GlassMotionOptions } from './motion.js';
 import { bindGlass } from './binding.js';
 export const GlassSurface = defineComponent({
   name: 'GlassSurface', inheritAttrs: false,

@@ -2,7 +2,7 @@
 
 **CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.11 fusion preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.12 loading preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
 ![Material workbench](docs/assets/studio.webp)
 
@@ -13,13 +13,13 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.11.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.12.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
 
 ```js
-import '@wpsydev/liquid-glass/styles.css';
+import '@wpsydev/liquid-glass/material.css';
 ```
 
 Add one class to an existing semantic surface. No JavaScript controller is required for static glass:
@@ -34,7 +34,7 @@ Keep dense content solid. Use glass for small floating controls, navigation, com
 
 ## Add only what the interaction needs
 
-React and Vue are optional peers. Existing native or headless controls keep their keyboard, focus, disabled and dismissal behavior.
+React and Vue are optional peers. Add `/motion.css` when passing `motion`; `/styles.css` remains the compatible all-helper stylesheet. Existing native or headless controls keep their keyboard, focus, disabled and dismissal behavior.
 
 ```tsx
 import { GlassButton, GlassSurface } from '@wpsydev/liquid-glass/react';
@@ -47,7 +47,7 @@ import { GlassButton, GlassSurface } from '@wpsydev/liquid-glass/react';
 For HTML or another framework, attach after mount and destroy on cleanup:
 
 ```ts
-import { attachGlass } from '@wpsydev/liquid-glass';
+import { attachGlass } from '@wpsydev/liquid-glass/dom';
 
 const surface = attachGlass(toolbar, { radius: 28, interactive: true });
 surface.update({ radius: 28, interactive: true, appearance: 'dark' });
@@ -78,6 +78,10 @@ Dedicated adapters are tested for React and Vue; other stacks have [recipes](doc
 The material respects reduced motion, supported reduced transparency, increased contrast, forced colors and printing. Set `reducedTransparency` explicitly when needed. Mobile helpers cover minimum targets, wrapping, safe-area spacing and coordinated corners; they do not certify every phone or software keyboard. [Mobile guide](docs/MOBILE.md) · [Browser limits](docs/COMPATIBILITY.md) · [Use cases](docs/USE_CASES.md).
 
 SVG refraction is an opt-in Chromium experiment. Its displacement generation is optimized without changing bitmap bytes. The separate WebGL2 scene caches its own procedural wallpaper, batches decorative stream/wave/orbit instances, and smoothly joins up to eight circular droplets. Fusion uses one shared boundary with edge refraction, specular lighting and optional color dispersion; `setDrops()` stages geometry for host-owned motion. It does not sample arbitrary DOM or replace semantic controls. Native Apple optical grouping, arbitrary DOM merging, native scattering and OS integration remain gaps. [Scene API](docs/SCENE.md) · [Fusion study](docs/FUSION.md) · [Rendering guide](docs/RENDERING.md) · [Apple feature audit](docs/APPLE_PARITY.md).
+
+## Load less at startup
+
+Use `/material.css` for static surfaces, `/material` for pure server-side props, `/dom` for enhancement, and individual helper entries for interactions. `/lazy` imports and mounts optional scene optics only near the viewport or on an explicit request. The complete root and stylesheet stay compatible. [Loading guide and measured payloads](docs/LOADING.md) · [Working loading study](https://wpsydev.github.io/liquid-glass-kit/loading/).
 
 ## For coding agents
 

@@ -6,7 +6,7 @@ import { GlassButton, GlassSurface as ReactSurface } from '../src/react.js';
 import { GlassSurface } from '../src/vue.js';
 import { registerGlassElement } from '../src/element.js';
 import type { GlassMotionOptions } from '../src/index.js';
-import * as material from '../src/index.js';
+import * as material from '../src/dom.js';
 import * as motion from '../src/motion.js';
 
 afterEach(() => { document.body.innerHTML = ''; vi.restoreAllMocks(); vi.unstubAllGlobals(); });

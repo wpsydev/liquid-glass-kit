@@ -15,6 +15,8 @@ The lens gate uses a Chromium user-agent hint and syntax check. This is delibera
 
 ## Constraints
 
+- 0.12 adds narrow entrypoints/component styles and `/lazy` without removing legacy exports or changing the complete stylesheet. Lazy scene loading needs dynamic module delivery allowed by the host's CSP; chunk/network failures keep host-authored HTML/CSS fallback. Missing IntersectionObserver loads when the document is visible. Unsupported WebGL still returns a controller with `supported: false`. Deferral preserves renderer preferences and is not physical-phone or page-load-time certification.
+
 - The pseudo-element uses `::before`; choose another wrapper if the app already owns that pseudo-element.
 - Translucency cannot guarantee contrast over arbitrary content. Use a solid preference and test foreground labels.
 - Parent opacity, filters, masks, and stacking contexts can alter backdrop sampling. Inspect the actual ancestor tree.

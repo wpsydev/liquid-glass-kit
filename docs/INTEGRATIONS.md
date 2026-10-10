@@ -1,6 +1,6 @@
 # Framework recipes
 
-All examples assume the package is installed and `@wpsydev/liquid-glass/styles.css` is loaded. Material options do not implement dialog/menu state. Use your existing semantic/headless components.
+The existing examples work with the complete `@wpsydev/liquid-glass/styles.css`. In 0.12, choose `/material.css` for static surfaces and add only needed `/motion.css`, `/indicator.css` or `/scroll-edge.css`. Narrow JS entries reduce the raw import graph; see [LOADING.md](LOADING.md). Material options do not implement dialog/menu state. Use your existing semantic/headless components.
 
 ## React / Next.js / React Router
 

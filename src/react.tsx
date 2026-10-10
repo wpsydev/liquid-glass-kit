@@ -1,8 +1,9 @@
 'use client';
 import { createElement, forwardRef, useEffect, useImperativeHandle, useRef } from 'react';
 import type { CSSProperties, HTMLAttributes, ButtonHTMLAttributes, ReactNode } from 'react';
-import { getGlassProps } from './index.js';
-import type { GlassMotionOptions, GlassOptions } from './index.js';
+import { getGlassProps } from './material.js';
+import type { GlassOptions } from './material.js';
+import type { GlassMotionOptions } from './motion.js';
 import { bindGlass } from './binding.js';
 export interface GlassSurfaceProps extends HTMLAttributes<HTMLElement> { as?: 'div' | 'section' | 'nav' | 'aside' | 'header' | 'footer'; glass?: GlassOptions; motion?: GlassMotionOptions; children?: ReactNode }
 function useGlass(options: GlassOptions | undefined, motion: GlassMotionOptions | undefined) {

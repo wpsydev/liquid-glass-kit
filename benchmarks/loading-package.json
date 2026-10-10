@@ -1,0 +1,1109 @@
+{
+  "schema": 1,
+  "scope": "Static reachable library ESM files without consumer tree shaking. Compression is the sum of each file compressed independently (gzip level 9 / Brotli quality 11), excluding HTTP headers, app code and optional peer frameworks. Dynamic imports excluded until invoked. Byte changes are not measured network or page-load-time changes.",
+  "environment": {
+    "node": "v24.21.0",
+    "platform": "linux",
+    "rolldown": "1.2.13"
+  },
+  "currentSourceSha256": "b9f6dea367d21e5b507bc1c48a92d0bdf1f4bea7eb2be6c3857a1b3fbdde6ca4",
+  "baselineVersion": "0.11.0-preview.1",
+  "currentVersion": "0.12.0-preview.1",
+  "baseline": {
+    "index": {
+      "modules": 12,
+      "raw": 57071,
+      "gzip": 18571,
+      "brotli": 15661,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/index.js",
+          "raw": 8680,
+          "gzip": 2495,
+          "brotli": 2156
+        },
+        {
+          "path": "dist/material.js",
+          "raw": 2159,
+          "gzip": 839,
+          "brotli": 701
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 211,
+          "gzip": 171,
+          "brotli": 147
+        },
+        {
+          "path": "dist/input.js",
+          "raw": 2724,
+          "gzip": 1011,
+          "brotli": 833
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 1214,
+          "gzip": 471,
+          "brotli": 363
+        },
+        {
+          "path": "dist/optics.js",
+          "raw": 2018,
+          "gzip": 830,
+          "brotli": 711
+        },
+        {
+          "path": "dist/environment.js",
+          "raw": 1841,
+          "gzip": 771,
+          "brotli": 625
+        },
+        {
+          "path": "dist/scroll-edge.js",
+          "raw": 4829,
+          "gzip": 1632,
+          "brotli": 1370
+        },
+        {
+          "path": "dist/indicator.js",
+          "raw": 6780,
+          "gzip": 2085,
+          "brotli": 1746
+        },
+        {
+          "path": "dist/motion.js",
+          "raw": 11236,
+          "gzip": 3172,
+          "brotli": 2733
+        },
+        {
+          "path": "dist/overlay.js",
+          "raw": 7738,
+          "gzip": 2606,
+          "brotli": 2189
+        },
+        {
+          "path": "dist/micro-motion.js",
+          "raw": 7641,
+          "gzip": 2488,
+          "brotli": 2087
+        }
+      ]
+    },
+    "react": {
+      "modules": 14,
+      "raw": 60276,
+      "gzip": 19624,
+      "brotli": 16535,
+      "external": [
+        "react"
+      ],
+      "files": [
+        {
+          "path": "dist/react.js",
+          "raw": 1653,
+          "gzip": 524,
+          "brotli": 449
+        },
+        {
+          "path": "dist/index.js",
+          "raw": 8680,
+          "gzip": 2495,
+          "brotli": 2156
+        },
+        {
+          "path": "dist/material.js",
+          "raw": 2159,
+          "gzip": 839,
+          "brotli": 701
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 211,
+          "gzip": 171,
+          "brotli": 147
+        },
+        {
+          "path": "dist/input.js",
+          "raw": 2724,
+          "gzip": 1011,
+          "brotli": 833
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 1214,
+          "gzip": 471,
+          "brotli": 363
+        },
+        {
+          "path": "dist/optics.js",
+          "raw": 2018,
+          "gzip": 830,
+          "brotli": 711
+        },
+        {
+          "path": "dist/environment.js",
+          "raw": 1841,
+          "gzip": 771,
+          "brotli": 625
+        },
+        {
+          "path": "dist/scroll-edge.js",
+          "raw": 4829,
+          "gzip": 1632,
+          "brotli": 1370
+        },
+        {
+          "path": "dist/indicator.js",
+          "raw": 6780,
+          "gzip": 2085,
+          "brotli": 1746
+        },
+        {
+          "path": "dist/motion.js",
+          "raw": 11236,
+          "gzip": 3172,
+          "brotli": 2733
+        },
+        {
+          "path": "dist/overlay.js",
+          "raw": 7738,
+          "gzip": 2606,
+          "brotli": 2189
+        },
+        {
+          "path": "dist/micro-motion.js",
+          "raw": 7641,
+          "gzip": 2488,
+          "brotli": 2087
+        },
+        {
+          "path": "dist/binding.js",
+          "raw": 1552,
+          "gzip": 529,
+          "brotli": 425
+        }
+      ]
+    },
+    "vue": {
+      "modules": 14,
+      "raw": 59939,
+      "gzip": 19650,
+      "brotli": 16548,
+      "external": [
+        "vue"
+      ],
+      "files": [
+        {
+          "path": "dist/vue.js",
+          "raw": 1316,
+          "gzip": 550,
+          "brotli": 462
+        },
+        {
+          "path": "dist/index.js",
+          "raw": 8680,
+          "gzip": 2495,
+          "brotli": 2156
+        },
+        {
+          "path": "dist/material.js",
+          "raw": 2159,
+          "gzip": 839,
+          "brotli": 701
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 211,
+          "gzip": 171,
+          "brotli": 147
+        },
+        {
+          "path": "dist/input.js",
+          "raw": 2724,
+          "gzip": 1011,
+          "brotli": 833
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 1214,
+          "gzip": 471,
+          "brotli": 363
+        },
+        {
+          "path": "dist/optics.js",
+          "raw": 2018,
+          "gzip": 830,
+          "brotli": 711
+        },
+        {
+          "path": "dist/environment.js",
+          "raw": 1841,
+          "gzip": 771,
+          "brotli": 625
+        },
+        {
+          "path": "dist/scroll-edge.js",
+          "raw": 4829,
+          "gzip": 1632,
+          "brotli": 1370
+        },
+        {
+          "path": "dist/indicator.js",
+          "raw": 6780,
+          "gzip": 2085,
+          "brotli": 1746
+        },
+        {
+          "path": "dist/motion.js",
+          "raw": 11236,
+          "gzip": 3172,
+          "brotli": 2733
+        },
+        {
+          "path": "dist/overlay.js",
+          "raw": 7738,
+          "gzip": 2606,
+          "brotli": 2189
+        },
+        {
+          "path": "dist/micro-motion.js",
+          "raw": 7641,
+          "gzip": 2488,
+          "brotli": 2087
+        },
+        {
+          "path": "dist/binding.js",
+          "raw": 1552,
+          "gzip": 529,
+          "brotli": 425
+        }
+      ]
+    },
+    "element": {
+      "modules": 14,
+      "raw": 61026,
+      "gzip": 19896,
+      "brotli": 16749,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/element.js",
+          "raw": 2403,
+          "gzip": 796,
+          "brotli": 663
+        },
+        {
+          "path": "dist/binding.js",
+          "raw": 1552,
+          "gzip": 529,
+          "brotli": 425
+        },
+        {
+          "path": "dist/index.js",
+          "raw": 8680,
+          "gzip": 2495,
+          "brotli": 2156
+        },
+        {
+          "path": "dist/material.js",
+          "raw": 2159,
+          "gzip": 839,
+          "brotli": 701
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 211,
+          "gzip": 171,
+          "brotli": 147
+        },
+        {
+          "path": "dist/input.js",
+          "raw": 2724,
+          "gzip": 1011,
+          "brotli": 833
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 1214,
+          "gzip": 471,
+          "brotli": 363
+        },
+        {
+          "path": "dist/optics.js",
+          "raw": 2018,
+          "gzip": 830,
+          "brotli": 711
+        },
+        {
+          "path": "dist/environment.js",
+          "raw": 1841,
+          "gzip": 771,
+          "brotli": 625
+        },
+        {
+          "path": "dist/scroll-edge.js",
+          "raw": 4829,
+          "gzip": 1632,
+          "brotli": 1370
+        },
+        {
+          "path": "dist/indicator.js",
+          "raw": 6780,
+          "gzip": 2085,
+          "brotli": 1746
+        },
+        {
+          "path": "dist/motion.js",
+          "raw": 11236,
+          "gzip": 3172,
+          "brotli": 2733
+        },
+        {
+          "path": "dist/overlay.js",
+          "raw": 7738,
+          "gzip": 2606,
+          "brotli": 2189
+        },
+        {
+          "path": "dist/micro-motion.js",
+          "raw": 7641,
+          "gzip": 2488,
+          "brotli": 2087
+        }
+      ]
+    },
+    "scene": {
+      "modules": 4,
+      "raw": 39809,
+      "gzip": 10778,
+      "brotli": 9339,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/scene.js",
+          "raw": 21275,
+          "gzip": 5266,
+          "brotli": 4564
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 211,
+          "gzip": 171,
+          "brotli": 147
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 1214,
+          "gzip": 471,
+          "brotli": 363
+        },
+        {
+          "path": "dist/scene-shaders.js",
+          "raw": 17109,
+          "gzip": 4870,
+          "brotli": 4265
+        }
+      ]
+    }
+  },
+  "current": {
+    "index": {
+      "modules": 13,
+      "raw": 39026,
+      "gzip": 14242,
+      "brotli": 12275,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/index.js",
+          "raw": 457,
+          "gzip": 218,
+          "brotli": 178
+        },
+        {
+          "path": "dist/material.js",
+          "raw": 1532,
+          "gzip": 637,
+          "brotli": 541
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 114,
+          "gzip": 112,
+          "brotli": 93
+        },
+        {
+          "path": "dist/dom.js",
+          "raw": 6008,
+          "gzip": 2053,
+          "brotli": 1794
+        },
+        {
+          "path": "dist/input.js",
+          "raw": 1927,
+          "gzip": 788,
+          "brotli": 666
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 862,
+          "gzip": 346,
+          "brotli": 268
+        },
+        {
+          "path": "dist/optics.js",
+          "raw": 1021,
+          "gzip": 509,
+          "brotli": 453
+        },
+        {
+          "path": "dist/environment.js",
+          "raw": 1342,
+          "gzip": 612,
+          "brotli": 507
+        },
+        {
+          "path": "dist/scroll-edge.js",
+          "raw": 3298,
+          "gzip": 1256,
+          "brotli": 1046
+        },
+        {
+          "path": "dist/indicator.js",
+          "raw": 4719,
+          "gzip": 1636,
+          "brotli": 1403
+        },
+        {
+          "path": "dist/motion.js",
+          "raw": 7815,
+          "gzip": 2489,
+          "brotli": 2216
+        },
+        {
+          "path": "dist/overlay.js",
+          "raw": 5256,
+          "gzip": 1837,
+          "brotli": 1587
+        },
+        {
+          "path": "dist/micro-motion.js",
+          "raw": 4675,
+          "gzip": 1749,
+          "brotli": 1523
+        }
+      ]
+    },
+    "react": {
+      "modules": 10,
+      "raw": 22978,
+      "gzip": 8426,
+      "brotli": 7281,
+      "external": [
+        "react"
+      ],
+      "files": [
+        {
+          "path": "dist/react.js",
+          "raw": 1375,
+          "gzip": 475,
+          "brotli": 411
+        },
+        {
+          "path": "dist/material.js",
+          "raw": 1532,
+          "gzip": 637,
+          "brotli": 541
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 114,
+          "gzip": 112,
+          "brotli": 93
+        },
+        {
+          "path": "dist/binding.js",
+          "raw": 982,
+          "gzip": 405,
+          "brotli": 332
+        },
+        {
+          "path": "dist/dom.js",
+          "raw": 6008,
+          "gzip": 2053,
+          "brotli": 1794
+        },
+        {
+          "path": "dist/input.js",
+          "raw": 1927,
+          "gzip": 788,
+          "brotli": 666
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 862,
+          "gzip": 346,
+          "brotli": 268
+        },
+        {
+          "path": "dist/optics.js",
+          "raw": 1021,
+          "gzip": 509,
+          "brotli": 453
+        },
+        {
+          "path": "dist/environment.js",
+          "raw": 1342,
+          "gzip": 612,
+          "brotli": 507
+        },
+        {
+          "path": "dist/motion.js",
+          "raw": 7815,
+          "gzip": 2489,
+          "brotli": 2216
+        }
+      ]
+    },
+    "vue": {
+      "modules": 10,
+      "raw": 22568,
+      "gzip": 8431,
+      "brotli": 7272,
+      "external": [
+        "vue"
+      ],
+      "files": [
+        {
+          "path": "dist/vue.js",
+          "raw": 965,
+          "gzip": 480,
+          "brotli": 402
+        },
+        {
+          "path": "dist/material.js",
+          "raw": 1532,
+          "gzip": 637,
+          "brotli": 541
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 114,
+          "gzip": 112,
+          "brotli": 93
+        },
+        {
+          "path": "dist/binding.js",
+          "raw": 982,
+          "gzip": 405,
+          "brotli": 332
+        },
+        {
+          "path": "dist/dom.js",
+          "raw": 6008,
+          "gzip": 2053,
+          "brotli": 1794
+        },
+        {
+          "path": "dist/input.js",
+          "raw": 1927,
+          "gzip": 788,
+          "brotli": 666
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 862,
+          "gzip": 346,
+          "brotli": 268
+        },
+        {
+          "path": "dist/optics.js",
+          "raw": 1021,
+          "gzip": 509,
+          "brotli": 453
+        },
+        {
+          "path": "dist/environment.js",
+          "raw": 1342,
+          "gzip": 612,
+          "brotli": 507
+        },
+        {
+          "path": "dist/motion.js",
+          "raw": 7815,
+          "gzip": 2489,
+          "brotli": 2216
+        }
+      ]
+    },
+    "element": {
+      "modules": 10,
+      "raw": 23456,
+      "gzip": 8629,
+      "brotli": 7451,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/element.js",
+          "raw": 1853,
+          "gzip": 678,
+          "brotli": 581
+        },
+        {
+          "path": "dist/binding.js",
+          "raw": 982,
+          "gzip": 405,
+          "brotli": 332
+        },
+        {
+          "path": "dist/dom.js",
+          "raw": 6008,
+          "gzip": 2053,
+          "brotli": 1794
+        },
+        {
+          "path": "dist/material.js",
+          "raw": 1532,
+          "gzip": 637,
+          "brotli": 541
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 114,
+          "gzip": 112,
+          "brotli": 93
+        },
+        {
+          "path": "dist/input.js",
+          "raw": 1927,
+          "gzip": 788,
+          "brotli": 666
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 862,
+          "gzip": 346,
+          "brotli": 268
+        },
+        {
+          "path": "dist/optics.js",
+          "raw": 1021,
+          "gzip": 509,
+          "brotli": 453
+        },
+        {
+          "path": "dist/environment.js",
+          "raw": 1342,
+          "gzip": 612,
+          "brotli": 507
+        },
+        {
+          "path": "dist/motion.js",
+          "raw": 7815,
+          "gzip": 2489,
+          "brotli": 2216
+        }
+      ]
+    },
+    "scene": {
+      "modules": 4,
+      "raw": 32345,
+      "gzip": 9639,
+      "brotli": 8475,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/scene.js",
+          "raw": 14298,
+          "gzip": 4308,
+          "brotli": 3851
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 114,
+          "gzip": 112,
+          "brotli": 93
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 862,
+          "gzip": 346,
+          "brotli": 268
+        },
+        {
+          "path": "dist/scene-shaders.js",
+          "raw": 17071,
+          "gzip": 4873,
+          "brotli": 4263
+        }
+      ]
+    },
+    "material": {
+      "modules": 2,
+      "raw": 1646,
+      "gzip": 749,
+      "brotli": 634,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/material.js",
+          "raw": 1532,
+          "gzip": 637,
+          "brotli": 541
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 114,
+          "gzip": 112,
+          "brotli": 93
+        }
+      ]
+    },
+    "dom": {
+      "modules": 7,
+      "raw": 12806,
+      "gzip": 5057,
+      "brotli": 4322,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/dom.js",
+          "raw": 6008,
+          "gzip": 2053,
+          "brotli": 1794
+        },
+        {
+          "path": "dist/material.js",
+          "raw": 1532,
+          "gzip": 637,
+          "brotli": 541
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 114,
+          "gzip": 112,
+          "brotli": 93
+        },
+        {
+          "path": "dist/input.js",
+          "raw": 1927,
+          "gzip": 788,
+          "brotli": 666
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 862,
+          "gzip": 346,
+          "brotli": 268
+        },
+        {
+          "path": "dist/optics.js",
+          "raw": 1021,
+          "gzip": 509,
+          "brotli": 453
+        },
+        {
+          "path": "dist/environment.js",
+          "raw": 1342,
+          "gzip": 612,
+          "brotli": 507
+        }
+      ]
+    },
+    "capabilities": {
+      "modules": 2,
+      "raw": 1394,
+      "gzip": 684,
+      "brotli": 555,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/capabilities.js",
+          "raw": 52,
+          "gzip": 72,
+          "brotli": 48
+        },
+        {
+          "path": "dist/environment.js",
+          "raw": 1342,
+          "gzip": 612,
+          "brotli": 507
+        }
+      ]
+    },
+    "motion": {
+      "modules": 4,
+      "raw": 10718,
+      "gzip": 3735,
+      "brotli": 3243,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/motion.js",
+          "raw": 7815,
+          "gzip": 2489,
+          "brotli": 2216
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 114,
+          "gzip": 112,
+          "brotli": 93
+        },
+        {
+          "path": "dist/input.js",
+          "raw": 1927,
+          "gzip": 788,
+          "brotli": 666
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 862,
+          "gzip": 346,
+          "brotli": 268
+        }
+      ]
+    },
+    "indicator": {
+      "modules": 5,
+      "raw": 15437,
+      "gzip": 5371,
+      "brotli": 4646,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/indicator.js",
+          "raw": 4719,
+          "gzip": 1636,
+          "brotli": 1403
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 114,
+          "gzip": 112,
+          "brotli": 93
+        },
+        {
+          "path": "dist/motion.js",
+          "raw": 7815,
+          "gzip": 2489,
+          "brotli": 2216
+        },
+        {
+          "path": "dist/input.js",
+          "raw": 1927,
+          "gzip": 788,
+          "brotli": 666
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 862,
+          "gzip": 346,
+          "brotli": 268
+        }
+      ]
+    },
+    "scroll-edge": {
+      "modules": 2,
+      "raw": 4160,
+      "gzip": 1602,
+      "brotli": 1314,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/scroll-edge.js",
+          "raw": 3298,
+          "gzip": 1256,
+          "brotli": 1046
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 862,
+          "gzip": 346,
+          "brotli": 268
+        }
+      ]
+    },
+    "overlay": {
+      "modules": 3,
+      "raw": 6232,
+      "gzip": 2295,
+      "brotli": 1948,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/overlay.js",
+          "raw": 5256,
+          "gzip": 1837,
+          "brotli": 1587
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 114,
+          "gzip": 112,
+          "brotli": 93
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 862,
+          "gzip": 346,
+          "brotli": 268
+        }
+      ]
+    },
+    "micro-motion": {
+      "modules": 3,
+      "raw": 5651,
+      "gzip": 2207,
+      "brotli": 1884,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/micro-motion.js",
+          "raw": 4675,
+          "gzip": 1749,
+          "brotli": 1523
+        },
+        {
+          "path": "dist/numeric.js",
+          "raw": 114,
+          "gzip": 112,
+          "brotli": 93
+        },
+        {
+          "path": "dist/lifecycle.js",
+          "raw": 862,
+          "gzip": 346,
+          "brotli": 268
+        }
+      ]
+    },
+    "optics": {
+      "modules": 1,
+      "raw": 1021,
+      "gzip": 509,
+      "brotli": 453,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/optics.js",
+          "raw": 1021,
+          "gzip": 509,
+          "brotli": 453
+        }
+      ]
+    },
+    "lazy": {
+      "modules": 1,
+      "raw": 1895,
+      "gzip": 787,
+      "brotli": 656,
+      "external": [],
+      "files": [
+        {
+          "path": "dist/lazy.js",
+          "raw": 1895,
+          "gzip": 787,
+          "brotli": 656
+        }
+      ]
+    }
+  },
+  "consumers": {
+    "getGlassProps": {
+      "before": {
+        "raw": 1269,
+        "gzip": 638,
+        "brotli": 525,
+        "sha256": "15ad4355bfa4b22a4b3fa73bc80efd3d559d1e9056779b370ddb2bb5f1b36682"
+      },
+      "after": {
+        "raw": 1269,
+        "gzip": 638,
+        "brotli": 525,
+        "sha256": "15ad4355bfa4b22a4b3fa73bc80efd3d559d1e9056779b370ddb2bb5f1b36682"
+      },
+      "identical": true
+    },
+    "attachGlass": {
+      "before": {
+        "raw": 8212,
+        "gzip": 3471,
+        "brotli": 3056,
+        "sha256": "e4e09e8bb73a9f2267ba5947c45b6de08d7d768bc501d003d49ab708680a1799"
+      },
+      "after": {
+        "raw": 8212,
+        "gzip": 3471,
+        "brotli": 3056,
+        "sha256": "e4e09e8bb73a9f2267ba5947c45b6de08d7d768bc501d003d49ab708680a1799"
+      },
+      "identical": true
+    },
+    "attachGlassTransition": {
+      "before": {
+        "raw": 3338,
+        "gzip": 1608,
+        "brotli": 1426,
+        "sha256": "a29fff72b50c8139f019e077b36e524f50e995191586d129fc266d54bcf58140"
+      },
+      "after": {
+        "raw": 3338,
+        "gzip": 1608,
+        "brotli": 1426,
+        "sha256": "a29fff72b50c8139f019e077b36e524f50e995191586d129fc266d54bcf58140"
+      },
+      "identical": true
+    },
+    "attachGlassScene": {
+      "before": {
+        "raw": 25615,
+        "gzip": 8572,
+        "brotli": 7537,
+        "sha256": "a612c6a9acf1af1b056081cfc567d386876a3ec61f9ad498841f5241a1d55e4b"
+      },
+      "after": {
+        "raw": 25615,
+        "gzip": 8572,
+        "brotli": 7537,
+        "sha256": "a612c6a9acf1af1b056081cfc567d386876a3ec61f9ad498841f5241a1d55e4b"
+      },
+      "identical": true
+    }
+  },
+  "css": {
+    "styles": {
+      "raw": 10921,
+      "gzip": 2778,
+      "brotli": 2333
+    },
+    "material": {
+      "raw": 6916,
+      "gzip": 2029,
+      "brotli": 1705
+    },
+    "motion": {
+      "raw": 619,
+      "gzip": 341,
+      "brotli": 272
+    },
+    "indicator": {
+      "raw": 250,
+      "gzip": 190,
+      "brotli": 144
+    },
+    "scroll-edge": {
+      "raw": 3133,
+      "gzip": 918,
+      "brotli": 748
+    },
+    "baselineStyles": {
+      "raw": 10921,
+      "gzip": 2778,
+      "brotli": 2333
+    },
+    "aggregateByteIdentical": true
+  }
+}

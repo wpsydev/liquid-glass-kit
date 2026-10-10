@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.12.0-preview.1 — Material first
+
+- Added narrow `/material`, `/dom`, `/capabilities`, `/motion`, `/indicator`, `/scroll-edge`, `/overlay`, `/micro-motion` and `/optics` entrypoints. Existing root exports and optional adapters remain compatible. Adapters now import their actual dependencies instead of the complete barrel.
+- Added `/material.css` and component helper sheets with no CSS import chains. Complete `/styles.css` retains byte-identical 0.11 rules and order. Material-only CSS is 6,916 raw / 2,029 gzip bytes, versus 10,921 / 2,778 for the complete sheet.
+- Added SSR-safe `/lazy`: `attachGlassSceneLazy` defers the scene module/GPU initialization until a canvas nears the viewport or is explicitly requested, waits while hidden, supports fallback, option replacement and cancellation-safe teardown.
+- Distributed ESM uses formatting-only Oxc minification; exports, function names, module boundaries, shader strings and React's client directive are retained. No core runtime dependencies added. React library graph shrinks from 60,276 to 22,978 raw bytes, 19,624 to 8,426 summed per-file gzip bytes (framework excluded).
+- Added the working loading study, payload audit and packaged-module checks. Four representative already tree-shaken bundles are byte-identical before/after. These are payload and deferral improvements, not measured LCP, INP or universal page-load-time gains.
+
+Migration: optional narrow imports and component styles; no changes required to existing root/complete-sheet integrations. When using `/material.css`, add the corresponding sheet for spring motion, indicators or scroll edges. Mount one lazy loader per canvas and destroy it on unmount; a pending import cannot be aborted but will not mount after destruction. Keep HTML/CSS fallback and intrinsic canvas dimensions.
+
 ## 0.11.0-preview.1 — Soft Matter
 
 - Added experimental owned-scene `fusion`: up to eight circular glass droplets form an analytic smooth union with a shared boundary normal, edge refraction, specular highlights and optional color dispersion. This applies to the renderer's procedural background, not arbitrary DOM or Apple's native glass groups.

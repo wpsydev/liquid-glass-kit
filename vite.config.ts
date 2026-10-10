@@ -22,6 +22,7 @@ export default defineConfig({
         performance: resolve('site/performance/index.html'),
         flow: resolve('site/flow/index.html'),
         fusion: resolve('site/fusion/index.html'),
+        loading: resolve('site/loading/index.html'),
       },
     },
   },

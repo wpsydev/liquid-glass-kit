@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#eee9df"><title>First paint. No baggage. — Liquid Glass Kit</title>
+  <meta name="description" content="CSS material first, optional optics when visible. A working lazy-loading example and a reproducible package payload study.">
+  <link rel="stylesheet" href="../../src/material.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header><a href="../">◒ <b>LIQUID GLASS KIT</b></a><span>LOADING STUDY / 012</span><a href="../docs/LOADING.md">The method ↗</a></header>
+<main>
+  <section class="intro" aria-labelledby="title">
+    <p class="eyebrow">MATERIAL FIRST. OPTICS WHEN NEEDED.</p>
+    <h1 id="title">First paint.<br><em>No baggage.</em></h1>
+    <div class="sample" aria-label="CSS glass without a JavaScript controller">
+      <div class="ink" aria-hidden="true"></div><nav class="lg-glass lg-toolbar" data-lg-appearance="light" aria-label="Study navigation"><a href="#payload">The payload</a><a href="#optics">The experiment</a><a href="../docs/LOADING.md">The recipe ↗</a></nav>
+      <p>Real HTML. Portable CSS.<br>No glass controller or GPU startup for this navigation.</p>
+    </div>
+  </section>
+  <section id="payload" class="payload" aria-labelledby="payload-title">
+    <p class="eyebrow">LESS TO DOWNLOAD AND PARSE</p><h2 id="payload-title">Import the part<br><em>you actually use.</em></h2>
+    <dl><div><dt>Material-only CSS</dt><dd>6,916 <small>bytes</small></dd><p>37% less raw CSS than the complete stylesheet.</p></div><div><dt>React library graph</dt><dd>62% <small>smaller</small></dd><p>60,276 → 22,978 raw bytes. React itself excluded.</p></div><div><dt>Lazy loader</dt><dd>1,895 <small>bytes</small></dd><p>One initial module; the scene imports on demand.</p></div></dl>
+    <p class="scope">Distributed ESM file sizes before app bundling. Byte reductions are not page-load-time measurements. Existing tree-shaken consumers already exclude unused code. <a href="../benchmarks/loading-package.json">Inspect the raw audit ↗</a></p>
+    <pre><code>import '@wpsydev/liquid-glass/material.css';
+// Static markup needs no controller.
+// Pure server-side props: /material
+// DOM enhancement: /dom
+// Individual helpers: /motion, /overlay, /micro-motion</code></pre>
+  </section>
+  <section id="optics" class="optics" aria-labelledby="optics-title">
+    <div><p class="eyebrow">THE OPTIONAL PART</p><h2 id="optics-title">Wait for<br><em>the moment.</em></h2><p class="description">This canvas begins below the fold. The scene module and graphics pipeline stay deferred until you scroll within 200 pixels, or choose Load now.</p></div>
+    <div id="stage" class="stage"><div class="placeholder" aria-hidden="true"><i></i><span>CSS FALLBACK<br>OPTICS ARE OPTIONAL.</span></div><canvas id="glass" aria-hidden="true"></canvas></div>
+    <div class="actions"><button id="load" type="button">Load now ↗</button><button id="pause" type="button" disabled aria-pressed="false">Pause scene</button><span id="state" role="status" aria-live="polite">Waiting for the canvas.</span></div>
+    <p class="scope">Experimental WebGL2 samples its own artwork. HTML stays readable if loading or graphics support fails. Reduced-motion and transparency settings are handled by the scene. Reserve canvas dimensions in CSS; destroy the loader on unmount.</p>
+  </section>
+</main>
+<footer><a href="https://github.com/wpsydev/liquid-glass-kit">Source ↗</a><a href="../fusion/">Soft Matter ↗</a><a href="../docs/LOADING.md">Loading guide ↗</a></footer>
+<script type="module" src="./main.ts"></script>
+</body>
+</html>

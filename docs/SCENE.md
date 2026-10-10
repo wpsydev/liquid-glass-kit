@@ -1,5 +1,7 @@
 # Experimental owned-scene optics
 
+For below-fold or optional artwork, 0.12's `/lazy` entry defers this module and GPU initialization until a canvas is near the viewport or explicitly requested. It preserves this renderer's options and fallback behavior. Reserve canvas dimensions, keep HTML controls eager and destroy the loader on unmount. [Loading guide and exact readiness semantics](LOADING.md).
+
 This opt-in WebGL2 renderer bends its own procedural wallpaper behind semantic HTML surfaces, animates thousands of decorative glass instances, and smoothly merges up to eight circular droplets. It does not read a page screenshot, sample arbitrary DOM, import external textures, or reproduce Apple's private compositor.
 
 ## Inspiration and implementation

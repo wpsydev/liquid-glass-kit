@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.11.0-preview.1",
+  "version": "0.12.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -66,6 +66,50 @@
     "./scene": {
       "types": "./dist/scene.d.ts",
       "import": "./dist/scene.js"
+    },
+    "./material": {
+      "types": "./dist/material.d.ts",
+      "import": "./dist/material.js"
+    },
+    "./dom": {
+      "types": "./dist/dom.d.ts",
+      "import": "./dist/dom.js"
+    },
+    "./motion": {
+      "types": "./dist/motion.d.ts",
+      "import": "./dist/motion.js"
+    },
+    "./indicator": {
+      "types": "./dist/indicator.d.ts",
+      "import": "./dist/indicator.js"
+    },
+    "./scroll-edge": {
+      "types": "./dist/scroll-edge.d.ts",
+      "import": "./dist/scroll-edge.js"
+    },
+    "./overlay": {
+      "types": "./dist/overlay.d.ts",
+      "import": "./dist/overlay.js"
+    },
+    "./micro-motion": {
+      "types": "./dist/micro-motion.d.ts",
+      "import": "./dist/micro-motion.js"
+    },
+    "./optics": {
+      "types": "./dist/optics.d.ts",
+      "import": "./dist/optics.js"
+    },
+    "./lazy": {
+      "types": "./dist/lazy.d.ts",
+      "import": "./dist/lazy.js"
+    },
+    "./material.css": "./dist/material.css",
+    "./motion.css": "./dist/motion.css",
+    "./indicator.css": "./dist/indicator.css",
+    "./scroll-edge.css": "./dist/scroll-edge.css",
+    "./capabilities": {
+      "types": "./dist/capabilities.d.ts",
+      "import": "./dist/capabilities.js"
     }
   },
   "scripts": {
@@ -74,7 +118,7 @@
     "test": "vitest run",
     "dev": "vite --host 0.0.0.0",
     "build:site": "vite build",
-    "check": "npm run typecheck && npm test && npm run build && npm run build:site",
+    "check": "npm run typecheck && npm test && npm run build && node scripts/verify-package.mjs && npm run build:site",
     "prepack": "npm run build",
     "prepare": "npm run build",
     "icons": "node scripts/sync-gitlab-icons.mjs"
@@ -103,7 +147,8 @@
     "typescript": "^7.0.2",
     "vite": "^8.3.4",
     "vitest": "^5.0.3",
-    "vue": "^3.5.0"
+    "vue": "^3.5.0",
+    "rolldown": "1.2.13"
   },
   "engines": {
     "node": ">=22.12"

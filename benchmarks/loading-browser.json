@@ -1,0 +1,399 @@
+{
+  "schema": 1,
+  "version": "0.12.0-preview.1",
+  "sourceSha256": "b9f6dea367d21e5b507bc1c48a92d0bdf1f4bea7eb2be6c3857a1b3fbdde6ca4",
+  "scope": "Native T3 Chrome 152 on Apple M1 Pro. Actual distributed modules imported through a Blob-URL transfer fixture; all module strings embedded upfront, so evaluation/context deferral only, not network or load-time evidence. Public HTTP request verification is recorded after deployment. Responsive Chromium is not physical-phone validation.",
+  "initial": {
+    "canvasBounds": {
+      "bottom": 2456.3515625,
+      "height": 420,
+      "left": 76.796875,
+      "right": 1188.203125,
+      "top": 2036.3515625,
+      "width": 1111.40625,
+      "x": 76.796875,
+      "y": 2036.3515625
+    },
+    "native": {
+      "contextRequests": 0,
+      "evaluated": [
+        "lazy.js"
+      ]
+    },
+    "scroll": 0,
+    "state": {
+      "paused": false,
+      "state": "waiting",
+      "stats": null,
+      "supported": false
+    }
+  },
+  "afterIntersection": {
+    "backing": [
+      1260,
+      476
+    ],
+    "error": "undefined",
+    "native": {
+      "contextRequests": 1,
+      "evaluated": [
+        "lazy.js",
+        "numeric.js",
+        "lifecycle.js",
+        "scene-shaders.js",
+        "scene.js"
+      ]
+    },
+    "state": {
+      "paused": false,
+      "state": "ready",
+      "stats": {
+        "dpr": 1.133742853802719,
+        "drawCalls": 3,
+        "fieldCount": 0,
+        "fusionCount": 2,
+        "height": 476,
+        "pixels": 599760,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 1260
+      },
+      "supported": true
+    },
+    "status": "Scene ready. Three scene draws; controls stay HTML."
+  },
+  "layouts": [
+    {
+      "controls": [
+        {
+          "height": 44,
+          "label": "◒\nLIQUID GLASS KIT",
+          "width": 154.203125
+        },
+        {
+          "height": 44,
+          "label": "The method ↗",
+          "width": 79.375
+        },
+        {
+          "height": 44,
+          "label": "The payload",
+          "width": 71.5546875
+        },
+        {
+          "height": 44,
+          "label": "The experiment",
+          "width": 90.328125
+        },
+        {
+          "height": 44,
+          "label": "The recipe ↗",
+          "width": 78.0390625
+        },
+        {
+          "height": 44,
+          "label": "Inspect the raw audit ↗",
+          "width": 126.0703125
+        },
+        {
+          "height": 44,
+          "label": "Load now ↗",
+          "width": 103.3828125
+        },
+        {
+          "height": 44,
+          "label": "Resume scene",
+          "width": 116.0390625
+        },
+        {
+          "height": 44,
+          "label": "Source ↗",
+          "width": 53.359375
+        },
+        {
+          "height": 44,
+          "label": "Soft Matter ↗",
+          "width": 74.0234375
+        },
+        {
+          "height": 44,
+          "label": "Loading guide ↗",
+          "width": 90.7421875
+        }
+      ],
+      "height": 568,
+      "overflow": false,
+      "scrollWidth": 305,
+      "state": "ready",
+      "width": 320
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "label": "◒\nLIQUID GLASS KIT",
+          "width": 154.203125
+        },
+        {
+          "height": 44,
+          "label": "The method ↗",
+          "width": 79.375
+        },
+        {
+          "height": 44,
+          "label": "The payload",
+          "width": 71.5546875
+        },
+        {
+          "height": 44,
+          "label": "The experiment",
+          "width": 90.328125
+        },
+        {
+          "height": 44,
+          "label": "The recipe ↗",
+          "width": 78.0390625
+        },
+        {
+          "height": 44,
+          "label": "Inspect the raw audit ↗",
+          "width": 126.0703125
+        },
+        {
+          "height": 44,
+          "label": "Load now ↗",
+          "width": 103.3828125
+        },
+        {
+          "height": 44,
+          "label": "Resume scene",
+          "width": 116.0390625
+        },
+        {
+          "height": 44,
+          "label": "Source ↗",
+          "width": 53.359375
+        },
+        {
+          "height": 44,
+          "label": "Soft Matter ↗",
+          "width": 74.0234375
+        },
+        {
+          "height": 44,
+          "label": "Loading guide ↗",
+          "width": 90.7421875
+        }
+      ],
+      "height": 844,
+      "overflow": false,
+      "scrollWidth": 375,
+      "state": "ready",
+      "width": 390
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "label": "◒\nLIQUID GLASS KIT",
+          "width": 154.203125
+        },
+        {
+          "height": 44,
+          "label": "The method ↗",
+          "width": 79.375
+        },
+        {
+          "height": 44,
+          "label": "The payload",
+          "width": 71.5546875
+        },
+        {
+          "height": 44,
+          "label": "The experiment",
+          "width": 90.328125
+        },
+        {
+          "height": 44,
+          "label": "The recipe ↗",
+          "width": 78.0390625
+        },
+        {
+          "height": 44,
+          "label": "Inspect the raw audit ↗",
+          "width": 126.0703125
+        },
+        {
+          "height": 44,
+          "label": "Load now ↗",
+          "width": 103.3828125
+        },
+        {
+          "height": 44,
+          "label": "Resume scene",
+          "width": 116.0390625
+        },
+        {
+          "height": 44,
+          "label": "Source ↗",
+          "width": 53.359375
+        },
+        {
+          "height": 44,
+          "label": "Soft Matter ↗",
+          "width": 74.0234375
+        },
+        {
+          "height": 44,
+          "label": "Loading guide ↗",
+          "width": 90.7421875
+        }
+      ],
+      "height": 320,
+      "overflow": false,
+      "scrollWidth": 553,
+      "state": "ready",
+      "width": 568
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "label": "◒\nLIQUID GLASS KIT",
+          "width": 154.203125
+        },
+        {
+          "height": 44,
+          "label": "The method ↗",
+          "width": 79.375
+        },
+        {
+          "height": 44,
+          "label": "The payload",
+          "width": 77.0546875
+        },
+        {
+          "height": 44,
+          "label": "The experiment",
+          "width": 97.2734375
+        },
+        {
+          "height": 44,
+          "label": "The recipe ↗",
+          "width": 84.0390625
+        },
+        {
+          "height": 44,
+          "label": "Inspect the raw audit ↗",
+          "width": 126.0703125
+        },
+        {
+          "height": 44,
+          "label": "Load now ↗",
+          "width": 103.3828125
+        },
+        {
+          "height": 44,
+          "label": "Resume scene",
+          "width": 116.0390625
+        },
+        {
+          "height": 44,
+          "label": "Source ↗",
+          "width": 53.359375
+        },
+        {
+          "height": 44,
+          "label": "Soft Matter ↗",
+          "width": 74.0234375
+        },
+        {
+          "height": 44,
+          "label": "Loading guide ↗",
+          "width": 90.7421875
+        }
+      ],
+      "height": 800,
+      "overflow": false,
+      "scrollWidth": 1265,
+      "state": "ready",
+      "width": 1280
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "label": "◒\nLIQUID GLASS KIT",
+          "width": 154.203125
+        },
+        {
+          "height": 44,
+          "label": "The method ↗",
+          "width": 79.375
+        },
+        {
+          "height": 44,
+          "label": "The payload",
+          "width": 77.0546875
+        },
+        {
+          "height": 44,
+          "label": "The experiment",
+          "width": 97.2734375
+        },
+        {
+          "height": 44,
+          "label": "The recipe ↗",
+          "width": 84.0390625
+        },
+        {
+          "height": 44,
+          "label": "Inspect the raw audit ↗",
+          "width": 126.0703125
+        },
+        {
+          "height": 44,
+          "label": "Load now ↗",
+          "width": 103.3828125
+        },
+        {
+          "height": 44,
+          "label": "Resume scene",
+          "width": 116.0390625
+        },
+        {
+          "height": 44,
+          "label": "Source ↗",
+          "width": 53.359375
+        },
+        {
+          "height": 44,
+          "label": "Soft Matter ↗",
+          "width": 74.0234375
+        },
+        {
+          "height": 44,
+          "label": "Loading guide ↗",
+          "width": 90.7421875
+        }
+      ],
+      "height": 1280,
+      "overflow": false,
+      "scrollWidth": 705,
+      "state": "ready",
+      "width": 720
+    }
+  ],
+  "controls": "Native Pause click preserved focus and changed aria-pressed to true; loader destruction reported destroyed/null scene.",
+  "transferFixtureFailure": "Initial transfer failed to rewrite a template-literal dynamic import. Loader resolved failed with TypeError, zero GPU context requests and readable CSS fallback. Harness was corrected and the valid distributed-module checks rerun.",
+  "checks": {
+    "tests": 142,
+    "testFiles": 13,
+    "siteRoutes": 13,
+    "packageFiles": 80,
+    "coreRuntimeDependencies": 0,
+    "ssrCoreOnlyEntrypoints": 13,
+    "treeShakenConsumerSamplesIdentical": 4
+  },
+  "publication": null
+}

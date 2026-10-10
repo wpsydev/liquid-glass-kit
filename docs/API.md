@@ -1,6 +1,14 @@
 # API reference
 
-Import `@wpsydev/liquid-glass/styles.css` once. Core imports have no framework or runtime dependencies. ESM only.
+Import `@wpsydev/liquid-glass/material.css` once for material-only pages, or retain `/styles.css` for the complete helper sheet. Core imports have no framework or runtime dependencies. ESM only.
+
+## Loading and narrow imports (0.12)
+
+Root exports remain compatible. Choose `/material` for pure props/radius/option helpers, `/dom` for `attachGlass` and `glass`, `/capabilities` for `getGlassCapabilities`, and `/motion`, `/indicator`, `/scroll-edge`, `/overlay`, `/micro-motion`, `/optics` for the named helper. React/Vue/custom-element and `/scene` paths remain available. `/material` also exports `getResolvedGlassProps`, which accepts a fully resolved configuration.
+
+Component stylesheets `/material.css`, `/motion.css`, `/indicator.css`, `/scroll-edge.css` contain no imports. `/styles.css` includes all four with its previous rules/order. Add each needed helper sheet once; do not duplicate the aggregate and components.
+
+`attachGlassSceneLazy(canvas, sceneOptions?, visibilityOptions?)` is exported only from `/lazy`. It observes a mounted canvas with `{ root: null, rootMargin: '200px' }` defaults and dynamically imports `/scene` when near the viewport or explicitly requested, waiting while the document is hidden. No IntersectionObserver means a visible-document fallback. It returns `ready: Promise<GlassSceneController | null>`, `load()` (same promise), `update(options?)`, `destroy()` and readonly `scene`, `state`, `error`. States: waiting/loading/ready/failed/destroyed. Readiness returns an unsupported controller for a GPU fallback, or null on failed import/initialization or pre-ready destruction. Updates replace pending/mounted options. Destroy prevents a pending import from mounting, releases observation/listeners and destroys a mounted scene once. Already resolved readiness retains its now-destroyed controller; imports already started cannot be cancelled. Types: `GlassSceneController`, `LazyGlassSceneOptions`, `LazyGlassSceneState`. [Loading guide](LOADING.md) covers recipes, failure handling and measured payload boundaries.
 
 ## GlassOptions
 

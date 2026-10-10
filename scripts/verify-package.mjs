@@ -1,0 +1,20 @@
+/** Exercise the distributed modules, not only the TypeScript source. */
+import assert from 'node:assert/strict';
+import { readFile, access } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import { pathToFileURL } from 'node:url';
+import { parseSync } from 'rolldown/utils';
+const pkg = JSON.parse(await readFile('package.json'));
+for (const value of Object.values(pkg.exports)) for (const file of typeof value === 'string' ? [value] : Object.values(value)) await access(file);
+assert.equal(pkg.dependencies, undefined, 'Core must have no runtime dependencies');
+const core = await import('../dist/index.js'), dom = await import('../dist/dom.js'), material = await import('../dist/material.js');
+assert.equal(core.attachGlass, dom.attachGlass); assert.equal(core.glass, dom.glass); assert.equal(core.getGlassProps, material.getGlassProps);
+for (const key of Object.keys(pkg.exports)) if (!['./react', './vue'].includes(key) && typeof pkg.exports[key] !== 'string') await import(pathToFileURL(resolve(pkg.exports[key].import)));
+const react = await readFile('dist/react.js', 'utf8'); assert.match(react, /^['"]use client['"]/);
+const lazy = parseSync('dist/lazy.js', await readFile('dist/lazy.js', 'utf8'));
+assert.equal(lazy.errors.length, 0); assert.equal(lazy.program.body.some(node => node.source), false, 'Lazy loader must have no static dependencies');
+const full = await readFile('dist/styles.css', 'utf8'), base = await readFile('dist/material.css', 'utf8');
+for (const file of ['styles', 'material', 'motion', 'indicator', 'scroll-edge']) assert.doesNotMatch(await readFile(`dist/${file}.css`, 'utf8'), /@import\b/);
+assert.match(base, /-webkit-backdrop-filter: none; backdrop-filter: none/); assert.match(base, /forced-colors/); assert.match(base, /prefers-reduced-transparency/);
+assert.equal(full, base + '\n' + await readFile('dist/scroll-edge.css', 'utf8') + '\n' + await readFile('dist/indicator.css', 'utf8') + '\n' + await readFile('dist/motion.css', 'utf8'));
+console.log('Package exports, SSR imports, shared identities, client directive, lazy split and CSS fallbacks passed.');

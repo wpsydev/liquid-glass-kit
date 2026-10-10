@@ -1,4 +1,4 @@
-import { attachGlass } from './index.js';
+import { attachGlass } from './dom.js';
 import { attachGlassMotion, type GlassMotionOptions } from './motion.js';
 import type { GlassOptions } from './material.js';
 
