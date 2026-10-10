@@ -14,5 +14,77 @@
     "status": "published",
     "publishedUrl": "https://x.com/wpsygames/status/2108941345477812295",
     "verification": "Sent receipt and public profile text verified."
+  },
+  {
+    "id": "roastify-onboarding",
+    "parentUrl": "https://x.com/paoloecom/status/2108980505735725134",
+    "text": "The Chill Room makes stats feel like a shared space. One onboarding tweak: put the anonymous global-leaderboard opt-out beside Connect Shopify, so 'private room' expectations stay clear. Could sale sounds also have per-room quiet hours?",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2108982151593226550",
+    "verification": "Exact published text and status URL read back from X; parent and draft checked before sending.",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "heckle-agent-qa",
+    "parentUrl": "https://x.com/zroutisnomore/status/2108959629443268739",
+    "text": "The confirmed/likely split plus repro steps makes the agent handoff useful. I'd add keyboard-only and 200% text checks, naming the failing control. Does Safe Mode also skip sends/invites, or only destructive actions?",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2108982860569055541",
+    "verification": "Exact published text and status URL read back from X; parent and draft checked before sending.",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "pomodoro-readability",
+    "parentUrl": "https://x.com/alisharjeel/status/2108932823705108595",
+    "text": "The cat makes the timer feel like a companion. In the clip, scenery moves behind the digits; I'd offer a calm background for long sessions. Does it calculate time from an end timestamp after sleep, or count timer ticks?",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2108983082921460004",
+    "verification": "Exact published text and status URL read back from X; parent and draft checked before sending.",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "creative-review-versions",
+    "parentUrl": "https://x.com/Matt_Warren/status/2108305463200653650",
+    "text": "The 'one decision at a time' review flow looks focused. For agent revisions, I'd put a before/after diff beside the feedback and bind approval to that exact version. How do you separate 'change the app' requests from 'change this creative'?",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2108983378070446481",
+    "verification": "Exact published text and status URL read back from X; parent and draft checked before sending.",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "cavy-path-tap-recovery",
+    "parentUrl": "https://x.com/ccc7_chacha/status/2108454635157729396",
+    "text": "The green-to-brown trail makes progress easy to read. I'd test one-step Undo for accidental taps, especially with Hint and Reset beside each other in the clip. Does a hint reveal just the next move, or the whole route?",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2108983457074336212",
+    "verification": "Exact published text and status URL read back from X; parent and draft checked before sending.",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "shell-mindmap-layout",
+    "parentUrl": "https://x.com/TvWoo/status/2108954855633260565",
+    "text": "Read the README: local .mm files and Markdown export make this useful beyond a quick sketch. I'd add a short resize demo with a long Unicode branch to show the narrow-tab layout. Is undo history kept after reopening a map?",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2108983724306296904",
+    "verification": "Exact published text and status URL read back from X; parent and draft checked before sending.",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "roastify-clarification",
+    "parentUrl": "https://x.com/paoloecom/status/2108983510992076885",
+    "text": "Thanks for clarifying! The landing page's Privacy section still says 'one switch takes your store off it'—that's where I got the opt-out idea. I'd update that line to match the anonymous global board. Glad quiet hours are on the list.",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2108984569688895733",
+    "verification": "Published text and status URL read back from X; complete draft and parent checked before sending.",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "refraction-source-followup",
+    "parentUrl": "https://x.com/okandogubudak/status/2108947960621146517",
+    "text": "We use analytic rounded-box normals, with rim lighting separate from displacement. I'd compare capsule vs rounded-rect edges during drag + resize. Our procedural-scene shader, if useful: https://github.com/wpsydev/liquid-glass-kit/blob/main/src/scene.ts",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2108984651188773302",
+    "verification": "Published text and status URL read back from X; complete draft and parent checked before sending. X abbreviates the displayed source link.",
+    "engagementRecord": "engagement.json"
   }
 ]

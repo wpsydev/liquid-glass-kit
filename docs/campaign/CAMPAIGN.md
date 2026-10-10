@@ -84,3 +84,9 @@ Platform references: [X scheduling guidance](https://help.x.com/en/business-and-
 ## Published behavior update — 2026-10-10
 
 Following the Apple feature audit, published a25s walkthrough of the new material controls, input feedback, geometry backing and scroll-aware edges: https://x.com/wpsygames/status/2108948352230703519. Public playback verified duration25, readyState4 and advancing currentTime. Source/install reply: https://x.com/wpsygames/status/2108948670246760946. Exact receipts and copy are in behavior-update.json; media provenance is in MEDIA.md. Existing8scheduled campaign posts were retained.
+
+## Builder feedback launch — 2026-10-10
+
+Launched a separate engagement round from @wpsygames: six reviewed builder posts liked and six tailored replies published to different developers. Topics include private-room onboarding, agent QA, timer readability, revision approval, tap recovery and terminal layout. [ENGAGEMENT.md](ENGAGEMENT.md) contains the continuation playbook; [engagement.json](engagement.json) records review evidence and verified action receipts. The first round makes no adoption or reach claim, and no unattended reply/like worker was configured. Existing scheduled demo posts remain in place.
+
+One new builder responded during the launch. Answered that clarification and an earlier refraction response, liking both: the launch session totals eight likes and eight published replies across seven developers. The clarification exposed conflicting Privacy copy in the builder's landing page; the refraction follow-up shares the directly relevant scene shader.

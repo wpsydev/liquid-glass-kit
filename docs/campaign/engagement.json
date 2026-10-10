@@ -1,0 +1,214 @@
+{
+  "name": "Builder feedback campaign",
+  "launchedOn": "2026-10-10",
+  "account": "@wpsygames",
+  "audience": "Vibe coders and developers sharing actual app demos, launches or requests for feedback",
+  "approach": "Review a real demo, public page or README; give a specific observation and one useful suggestion or question. Use product links only when they directly answer the discussion.",
+  "continuation": "Start each future session with responses to these conversations. Review a few fresh builder projects, then engage only when there is useful original feedback.",
+  "automationStatus": "Launch round executed through the connected X browser with agent-assisted research. No unattended reply or like job configured.",
+  "verifiedAtUtc": "2026-10-10T18:15:51.620Z",
+  "results": {
+    "postsLiked": 8,
+    "repliesPublished": 8,
+    "developersEngaged": 7,
+    "newBuilderConversations": 6,
+    "followupReplies": 2,
+    "newCampaignConversationsWithObservedResponse": 1
+  },
+  "interactions": [
+    {
+      "id": "roastify-onboarding",
+      "author": "@paoloecom",
+      "parentUrl": "https://x.com/paoloecom/status/2108980505735725134",
+      "parentPublishedAtUtc": "2026-10-10T17:58:30.000Z",
+      "reviewedApp": "https://roastify.io",
+      "reviewEvidence": [
+        "Public Privacy paragraph advertises a global-board opt-out; builder later clarified that anonymous participation is mandatory (see roastify-clarification follow-up).",
+        "Chill Room screenshot shows sales feed, chat and podium",
+        "Public demo reviewed; no account or Shopify connection"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent post rendered an Unlike control after the like action."
+      },
+      "reply": {
+        "text": "The Chill Room makes stats feel like a shared space. One onboarding tweak: put the anonymous global-leaderboard opt-out beside Connect Shopify, so 'private room' expectations stay clear. Could sale sounds also have per-room quiet hours?",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2108982151593226550",
+        "recordedAtUtc": "2026-10-10T18:05:04.357Z",
+        "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
+      }
+    },
+    {
+      "id": "heckle-agent-qa",
+      "author": "@zroutisnomore",
+      "parentUrl": "https://x.com/zroutisnomore/status/2108959629443268739",
+      "parentPublishedAtUtc": "2026-10-10T16:35:32.000Z",
+      "reviewedApp": "https://tryheckle.lol/",
+      "reviewEvidence": [
+        "Reviewed public landing and benchmark report; confirmed/likely categories, reproduction evidence and Copy report for your agent",
+        "Read Safe Mode and viewport checks; did not install desktop app"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent post rendered an Unlike control after the like action."
+      },
+      "reply": {
+        "text": "The confirmed/likely split plus repro steps makes the agent handoff useful. I'd add keyboard-only and 200% text checks, naming the failing control. Does Safe Mode also skip sends/invites, or only destructive actions?",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2108982860569055541",
+        "recordedAtUtc": "2026-10-10T18:08:12.543Z",
+        "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
+      }
+    },
+    {
+      "id": "pomodoro-readability",
+      "author": "@alisharjeel",
+      "parentUrl": "https://x.com/alisharjeel/status/2108932823705108595",
+      "parentPublishedAtUtc": "2026-10-10T14:49:01.000Z",
+      "reviewEvidence": [
+        "Watched 8.96-second clip: pixel cat perched on rounded floating Pomodoro timer with moving colorful background behind white digits",
+        "Video-only review; no installation or live app test"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent post rendered an Unlike control after the like action."
+      },
+      "reply": {
+        "text": "The cat makes the timer feel like a companion. In the clip, scenery moves behind the digits; I'd offer a calm background for long sessions. Does it calculate time from an end timestamp after sleep, or count timer ticks?",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2108983082921460004",
+        "recordedAtUtc": "2026-10-10T18:08:50.497Z",
+        "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
+      }
+    },
+    {
+      "id": "creative-review-versions",
+      "author": "@Matt_Warren",
+      "parentUrl": "https://x.com/Matt_Warren/status/2108305463200653650",
+      "parentPublishedAtUtc": "2026-10-08T21:16:07.000Z",
+      "reviewEvidence": [
+        "Read full post describing an agent-driven creative review queue and app/creative change requests",
+        "Inspected screenshot: one decision at a time, email preview and review/revision/approval counters",
+        "Screenshot/post review only; no live app link supplied"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent post rendered an Unlike control after the like action."
+      },
+      "reply": {
+        "text": "The 'one decision at a time' review flow looks focused. For agent revisions, I'd put a before/after diff beside the feedback and bind approval to that exact version. How do you separate 'change the app' requests from 'change this creative'?",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2108983378070446481",
+        "recordedAtUtc": "2026-10-10T18:09:56.634Z",
+        "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
+      }
+    },
+    {
+      "id": "cavy-path-tap-recovery",
+      "author": "@ccc7_chacha",
+      "parentUrl": "https://x.com/ccc7_chacha/status/2108454635157729396",
+      "parentPublishedAtUtc": "2026-10-09T07:08:52.000Z",
+      "reviewEvidence": [
+        "Watched Cavy Path demo: guinea pig, leafy tiles turning brown, carrot goal, Hint and Reset controls",
+        "Read existing timer discussion and chose a different interaction topic",
+        "Video-only review; did not install or verify App Store availability"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent post rendered an Unlike control after the like action."
+      },
+      "reply": {
+        "text": "The green-to-brown trail makes progress easy to read. I'd test one-step Undo for accidental taps, especially with Hint and Reset beside each other in the clip. Does a hint reveal just the next move, or the whole route?",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2108983457074336212",
+        "recordedAtUtc": "2026-10-10T18:10:15.831Z",
+        "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
+      }
+    },
+    {
+      "id": "shell-mindmap-layout",
+      "author": "@TvWoo",
+      "parentUrl": "https://x.com/TvWoo/status/2108954855633260565",
+      "parentPublishedAtUtc": "2026-10-10T16:16:34.000Z",
+      "reviewedApp": "https://github.com/verycafe/shell-mindmap",
+      "reviewEvidence": [
+        "Read invitation for feedback and linked README: TypeScript/React/Ink, keyboard editing, local .mm files, Markdown import/export, narrow-terminal tabs, Unicode, undo/redo and recovery snapshots",
+        "Documentation and demo review; did not run the CLI"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent post rendered an Unlike control after the like action."
+      },
+      "reply": {
+        "text": "Read the README: local .mm files and Markdown export make this useful beyond a quick sketch. I'd add a short resize demo with a long Unicode branch to show the narrow-tab layout. Is undo history kept after reopening a map?",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2108983724306296904",
+        "recordedAtUtc": "2026-10-10T18:11:19.049Z",
+        "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
+      }
+    },
+    {
+      "id": "roastify-clarification",
+      "kind": "follow-up",
+      "conversationId": "roastify-onboarding",
+      "author": "@paoloecom",
+      "parentUrl": "https://x.com/paoloecom/status/2108983510992076885",
+      "parentPublishedAtUtc": "2026-10-10T18:10:26.000Z",
+      "reviewedApp": "https://roastify.io/",
+      "reviewEvidence": [
+        "Builder clarified that anonymous global-board participation is mandatory; per-room mute and sale-sound controls exist; timed quiet hours are on the roadmap",
+        "Reopened live landing and verified Privacy paragraph still says 'one switch takes your store off it', conflicting with mandatory-board clarification"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent post rendered an Unlike control after the like action."
+      },
+      "reply": {
+        "text": "Thanks for clarifying! The landing page's Privacy section still says 'one switch takes your store off it'—that's where I got the opt-out idea. I'd update that line to match the anonymous global board. Glad quiet hours are on the list.",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2108984569688895733",
+        "recordedAtUtc": "2026-10-10T18:14:40.837Z",
+        "verification": "Published text and status URL read back from X; complete draft and parent checked before sending."
+      }
+    },
+    {
+      "id": "refraction-source-followup",
+      "kind": "follow-up",
+      "conversationId": "refraction-help",
+      "author": "@okandogubudak",
+      "parentUrl": "https://x.com/okandogubudak/status/2108947960621146517",
+      "parentPublishedAtUtc": "2026-10-10T15:49:10.000Z",
+      "reviewEvidence": [
+        "Read builder's reply: analytical screen-space wallpaper and sampled 16-tap edge normal, with an SDF experiment planned",
+        "Checked src/scene.ts: rounded-box distance and analytic normal, edge-only displacement, rim lighting separate from refraction",
+        "Offered directly relevant source code; no Apple parity or arbitrary-DOM shader claim"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent post rendered an Unlike control after the like action."
+      },
+      "reply": {
+        "text": "We use analytic rounded-box normals, with rim lighting separate from displacement. I'd compare capsule vs rounded-rect edges during drag + resize. Our procedural-scene shader, if useful: https://github.com/wpsydev/liquid-glass-kit/blob/main/src/scene.ts",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2108984651188773302",
+        "recordedAtUtc": "2026-10-10T18:14:59.983Z",
+        "verification": "Published text and status URL read back from X; complete draft and parent checked before sending. X abbreviates the displayed source link."
+      }
+    }
+  ],
+  "observedResponses": [
+    {
+      "author": "@paoloecom",
+      "url": "https://x.com/paoloecom/status/2108983510992076885",
+      "origin": "New builder conversation launched in this round",
+      "finding": "Mandatory anonymous global leaderboard, existing mute/sale-sound controls, quiet-hours roadmap. Follow-up identified contradictory public Privacy copy."
+    },
+    {
+      "author": "@okandogubudak",
+      "url": "https://x.com/okandogubudak/status/2108947960621146517",
+      "origin": "Response to an earlier refraction conversation; answered during this round",
+      "finding": "Analytical screen-space wallpaper with a sampled 16-tap edge normal. Shared relevant procedural-scene source and proposed drag/resize comparison."
+    }
+  ]
+}
