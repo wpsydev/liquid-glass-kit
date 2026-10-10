@@ -49,6 +49,80 @@
     "validation": "six sampled frames inspected; full audio/video decode passed; exported frame rate is not measured applicationFPS"
   },
   "publication": {
-    "status": "prepared; will be updated with verified release and post receipts"
+    "status": "published and verified",
+    "sourceCommit": "d4b4b6996d86acc053f5ed9da350922c3ef80fb2",
+    "release": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.9.0-preview.1",
+    "demo": "https://wpsydev.github.io/liquid-glass-kit/performance/",
+    "videoDownload": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.9.0-preview.1/liquid-glass-performance.mp4",
+    "packageDownload": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.9.0-preview.1/wpsydev-liquid-glass-0.9.0-preview.1.tgz",
+    "releaseVideoSha256": "9bb1766bbc28ea3762c2ab250a679ef5bbf7d8eb87e9094d700c9ea9243df355",
+    "packageBytes": 120056,
+    "checks": [
+      {
+        "name": "Verify",
+        "id": 38085707114,
+        "conclusion": "success"
+      },
+      {
+        "name": "Publish preview release",
+        "id": 38085707088,
+        "conclusion": "success"
+      },
+      {
+        "name": "Publish playground",
+        "id": 38085707109,
+        "conclusion": "success"
+      }
+    ],
+    "demoProof": {
+      "metrics": [
+        "0.90",
+        "2.20",
+        "105.0"
+      ],
+      "overflow": false,
+      "scope": "100 surfaces \u00b7 31 paired runs \u00b7 median synchronous elapsed times, not FPS. Payload drops by removing unused maps; client JS grew slightly.",
+      "sourceCount": 100,
+      "title": "Same glass. Less work. \u2014 Liquid Glass Kit"
+    },
+    "x": {
+      "account": "wpsygames",
+      "posts": [
+        {
+          "url": "https://x.com/wpsygames/status/2109026252111610018",
+          "text": "Liquid Glass Kit 0.9: same glass, less idle work. Mounting 100 static controllers: 1.70 \u2192 0.90ms (47% less time; Chrome 152; 31 paired runs). Zero static input listeners, resize observers or RAFs. Same APIs. Demo + raw evidence: https://wpsydev.github.io/liquid-glass-kit/performance/"
+        },
+        {
+          "url": "https://x.com/wpsygames/status/2109026614910873856",
+          "parent": "https://x.com/wpsygames/status/2109026252111610018",
+          "text": "Scope: synchronous elapsed time, not FPS. Full static lifecycle: 3.70 \u2192 2.20ms. Source: 1,567 \u2192 1,561 lines. Library files: 47% smaller mainly from removing unusable maps; client JS grew slightly. 104 tests pass. Reproduce: https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/PERFORMANCE.md"
+        },
+        {
+          "url": "https://x.com/wpsygames/status/2109027205691080858",
+          "parent": "https://x.com/wpsygames/status/2109026614910873856",
+          "text": "0.9.0-preview.1 is on GitHub: npm i github:wpsydev/liquid-glass-kit#v0.9.0-preview.1. Start with one CSS class; add motion when needed. Same options/update/destroy API, semantic controls, SSR-safe core. Release + archive: https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.9.0-preview.1"
+        }
+      ],
+      "playback": {
+        "duration": 12.053333,
+        "dimensions": [
+          720,
+          1280
+        ],
+        "time": 0.569703,
+        "readyState": 4,
+        "decodedAudioBytes": 185780,
+        "decodedFrames": 415,
+        "nonblackFrameInspected": true,
+        "note": "X automatically muted playback; decoding verifies audio track, not listener loudness."
+      },
+      "engagement": "Not measured; no reach, star growth or virality claim."
+    },
+    "npm": {
+      "status": "not published",
+      "authenticatedAccount": "wpsydev",
+      "attemptResult": "E403: Two-factor authentication or granular access token with bypass 2fa enabled is required to publish packages.",
+      "installation": "npm i github:wpsydev/liquid-glass-kit#v0.9.0-preview.1"
+    }
   }
 }
