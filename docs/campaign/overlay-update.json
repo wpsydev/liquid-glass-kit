@@ -1,0 +1,186 @@
+{
+  "title": "Anchored glass popovers",
+  "status": "published",
+  "version": "0.7.0-preview.1",
+  "account": "@wpsygames",
+  "verifiedAtUtc": "2026-10-10T19:12:00Z",
+  "repository": "https://github.com/wpsydev/liquid-glass-kit",
+  "sourceCommit": "ea534c31b48640d5ee33a4ee228105c6afd23987",
+  "releaseCommit": "e25b31bc0647d838ef1f18f3bb0f0f65022a2be0",
+  "demoUrl": "https://wpsydev.github.io/liquid-glass-kit/overlays/",
+  "guideUrl": "https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/OVERLAYS.md",
+  "release": {
+    "url": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.7.0-preview.1",
+    "tag": "v0.7.0-preview.1",
+    "prerelease": true,
+    "assets": [
+      {
+        "name": "liquid-glass-overlays.mp4",
+        "bytes": 873172,
+        "url": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.7.0-preview.1/liquid-glass-overlays.mp4"
+      },
+      {
+        "name": "wpsydev-liquid-glass-0.7.0-preview.1.tgz",
+        "bytes": 115973,
+        "url": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.7.0-preview.1/wpsydev-liquid-glass-0.7.0-preview.1.tgz"
+      }
+    ]
+  },
+  "post": {
+    "url": "https://x.com/wpsygames/status/2108998269510856982",
+    "text": "Liquid Glass Kit 0.7: popovers that fit the screen.\n\nCitations, model picks and source panels with edge flipping, viewport bounds and spring entry.\n\nNative Escape + outside dismissal. Zero core runtime dependencies.\n\n12s working demo ↓\nhttps://wpsydev.github.io/liquid-glass-kit/overlays/",
+    "composerCopyVerified": true,
+    "publicTextVerified": true,
+    "sendReceiptVerified": true,
+    "videoPlayback": {
+      "duration": 12.053333,
+      "currentTime": 5.843089,
+      "readyState": 4,
+      "muted": false,
+      "paused": false,
+      "audioDecodedBytes": 104196
+    }
+  },
+  "guideReply": {
+    "url": "https://x.com/wpsygames/status/2108998933112656153",
+    "publicText": "https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/OVERLAYS.md",
+    "inReplyTo": "2108998269510856982",
+    "sendReceiptVerified": true,
+    "publicLinkVerified": true,
+    "note": "The native editor sent the guide URL alone. The longer draft was not published; this receipt records the public result."
+  },
+  "media": {
+    "assetPath": "docs/campaign/assets/overlay-showcase.mp4",
+    "sha256": "a936336406f7e72e29a0e34c597733fe08becab8ac5fa6515af9ca05f963bb74",
+    "bytes": 873172,
+    "width": 720,
+    "height": 1280,
+    "videoFrames": 360,
+    "fps": 30,
+    "videoDurationSeconds": 12,
+    "containerDurationSeconds": 12.02,
+    "codec": "H.264 High / yuv420p",
+    "audio": "AAC-LC stereo 48 kHz",
+    "soundtrack": "Original six-bar 120 BPM bass groove; MIT generator, no borrowed samples or voices.",
+    "provenance": "docs/campaign/OVERLAY_MEDIA.md",
+    "completeDecodePassed": true
+  },
+  "validation": {
+    "npmRunCheck": "passed",
+    "tests": 82,
+    "testFiles": 9,
+    "focusedOverlayTests": 13,
+    "npmPackDryRun": "passed",
+    "packageFiles": 75,
+    "ssrImport": "passed",
+    "viewportSizes": [
+      [
+        320,
+        568
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        1280,
+        800
+      ]
+    ],
+    "browser": "Native T3 Chromium",
+    "checks": [
+      "No horizontal page overflow at the four viewport sizes",
+      "Native Enter/Escape and focus restoration on a fresh public page",
+      "Outside-click dismissal",
+      "Scrollable source list and final item at 320 px",
+      "Fit-content width stable while moving anchor left/right",
+      "Public 12-second film checkpoints within viewport"
+    ],
+    "filmCheckpoints": [
+      {
+        "time": 1.2,
+        "height": 1280,
+        "panels": [
+          {
+            "bottom": 860.6953125,
+            "height": 535,
+            "id": "source-panel",
+            "left": 16,
+            "origin": "109.5px 535px",
+            "placement": "top",
+            "right": 496,
+            "top": 325.671875,
+            "width": 480
+          }
+        ],
+        "scrollHeight": 1280,
+        "scrollWidth": 720,
+        "width": 720
+      },
+      {
+        "time": 4.2,
+        "height": 1280,
+        "panels": [
+          {
+            "bottom": 879.828125,
+            "height": 463,
+            "id": "model-panel",
+            "left": 131.78311157226562,
+            "origin": "345.434px 0px",
+            "placement": "bottom",
+            "right": 508.9831237792969,
+            "top": 454.328125,
+            "width": 410
+          }
+        ],
+        "scrollHeight": 1280,
+        "scrollWidth": 720,
+        "width": 720
+      },
+      {
+        "time": 9.6,
+        "height": 1280,
+        "panels": [
+          {
+            "bottom": 928.828125,
+            "height": 475,
+            "id": "library-panel",
+            "left": 168,
+            "origin": "416.574px 0px",
+            "placement": "bottom",
+            "right": 648,
+            "top": 454.328125,
+            "width": 480
+          }
+        ],
+        "scrollHeight": 1280,
+        "scrollWidth": 720,
+        "width": 720
+      }
+    ],
+    "limits": "Browser emulation and unit evidence, not physical-phone, Safari, Firefox or assistive-technology certification."
+  },
+  "actions": [
+    {
+      "name": "Verify",
+      "conclusion": "success",
+      "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38078589145"
+    },
+    {
+      "name": "Publish preview release",
+      "conclusion": "success",
+      "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38078589097"
+    },
+    {
+      "name": "Publish playground",
+      "conclusion": "success",
+      "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38078589134"
+    }
+  ],
+  "npmRegistryPublished": false,
+  "reachResult": "Not measured; no virality, adoption or star increase claimed."
+}
