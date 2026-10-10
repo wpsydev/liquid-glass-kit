@@ -2,7 +2,7 @@ name: Publish preview release
 on:
   push:
     branches: [main]
-    paths: [.github/workflows/release.yml]
+    paths: [.github/workflows/release.yml, package.json, docs/RELEASE.md, docs/campaign/assets/overlay-showcase.mp4]
   workflow_dispatch:
 permissions:
   contents: write
@@ -35,14 +35,14 @@ jobs:
               if (error.status !== 404) throw error;
               release = (await github.rest.repos.createRelease({
                 owner, repo, tag_name: tag, target_commitish: context.sha,
-                name: `Liquid Glass Kit ${pkg.version} — Studio`,
+                name: `Liquid Glass Kit ${pkg.version}`,
                 prerelease: pkg.version.includes('-'), body
               })).data;
             }
             const packageFile = `wpsydev-liquid-glass-${pkg.version}.tgz`;
             const assets = [
               { path: packageFile, name: packageFile },
-              { path: 'docs/campaign/assets/studio-showcase.mp4', name: 'liquid-glass-studio.mp4' }
+              { path: 'docs/campaign/assets/overlay-showcase.mp4', name: 'liquid-glass-overlays.mp4' }
             ];
             for (const asset of assets) {
               if (!fs.existsSync(asset.path)) {
