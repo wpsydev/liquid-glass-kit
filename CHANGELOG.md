@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.7.0-preview.1 — Anchored overlays
+
+- Added dependency-free `attachGlassOverlay` and `GlassOverlayOptions` for same-document fixed/top-layer surfaces: vertical flipping, horizontal shifting, RTL alignment, constrained width/height and optional trigger width.
+- Follow anchor/overlay resize, nested scrolling and visible-viewport changes; use unscaled layout dimensions during spring reveals.
+- Expose actual placement and trigger-based transform origin while preserving native/headless visibility, focus, roles and dismissal. Restore owned geometry and priorities on cleanup.
+- Added native-popover citation, model and source-panel studies plus agent and framework lifecycle recipes.
+
+Migration: additive core exports; material/adapter defaults stay compatible. Horizontal writing modes, axis-aligned anchors and untransformed fixed coordinates only. This is not an arbitrary clipping-boundary solver or a physical-phone keyboard certification.
+
+
 ## 0.6.0-preview.1 — Studio redesign
 
 - Rebuilt the homepage as a focused material workbench: editorial type, warm paper/ink palette, original moving light sculpture, flat parameter rail, useful documentation rows and native dialog.

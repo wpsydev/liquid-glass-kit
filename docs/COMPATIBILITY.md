@@ -40,3 +40,7 @@ The mobile preview adds primary-pointer ownership and descendant-control isolati
 Continuous corners use a feature-gated independent CSS superellipse with the existing rounded fallback. Stable Safari/iOS and Firefox are not claimed to support it; the dated primary-source compatibility record is in [MOBILE_RESEARCH.md](MOBILE_RESEARCH.md). Experimental SVG optics remain circular, and owned-scene lenses should use round surfaces.
 
 See [MOBILE.md](MOBILE.md) for recipes. The resolution matrix in [VALIDATION.md](VALIDATION.md) establishes reflow in resized Chromium, not physical iPhone/Android testing or certification of every phone.
+
+## Anchored overlay geometry
+
+`attachGlassOverlay` uses DOM layout and optional VisualViewport/ResizeObserver. Its native-popover recipe requires a browser with the Popover API; geometry itself can enhance an existing fixed accessible surface. Positioning uses measured layout dimensions, avoiding transient spring scale. Scope is same-document horizontal-writing fixed/top-layer overlays, with viewport bounds, not arbitrary clipping ancestors or virtual anchors. Avoid transformed containing blocks and competing positioning engines. Padding does not include hardware safe insets. Host owns roles, focus, dismissal and offscreen-anchor policy. See [OVERLAYS.md](OVERLAYS.md).

@@ -112,3 +112,7 @@ Vue: `<GlassSurface :glass="{interactive:true}" :motion="{damping:22}">...</Glas
 Other frameworks can call `attachGlassMotion(element, {damping:22})` in the same mounted lifecycle as `attachGlass`. Destroy motion before the material. For popup coordination, keep the controller and await `enter`/`exit` completion booleans; the app owns semantic visibility/focus. Existing Svelte/headless components retain their event and keyboard models.
 
 Custom element: `<liquid-glass motion motion-damping="22" reduced-motion>...</liquid-glass>` combines explicit reduced motion with system settings. Motion attributes enhance the wrapper; native semantic children keep their behavior. Preserve static server rendering instead of hiding content until JavaScript starts.
+
+## Anchored popovers across stacks
+
+Use the same `attachGlassOverlay` core controller after refs mount in React, Vue, Svelte, Astro or plain HTML. [OVERLAYS.md](OVERLAYS.md) includes native markup and React/Vue cleanup recipes. This is optional geometry; keep an incumbent headless library’s positioning instead of running two engines. Overlay behavior and accessibility semantics remain with the browser or host.

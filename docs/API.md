@@ -115,6 +115,14 @@ React `GlassButton`/`GlassSurface` and Vue `GlassSurface` accept optional `motio
 
 Custom elements support `motion` by presence and `motion-stiffness`, `motion-damping`, `motion-mass`, `motion-press-scale`, `motion-stretch`, `reduced-motion`. The last is an explicit app preference. The element remains a light-DOM material wrapper, not a replacement for a semantic control.
 
+## attachGlassOverlay(anchor, overlay, options?)
+
+Optional geometry for a same-document fixed/top-layer native or headless surface. Returns `{ refresh(), update(options), destroy() }`; visibility, focus, roles and dismissal stay with the host. Options: `placement: 'top' | 'bottom'` (bottom), `align: 'start' | 'center' | 'end'` (start, direction-aware), `gap` (8px, 0–128), `padding` (16px, 0–128), `matchWidth` (false). Nonfinite numbers use defaults; updates replace options.
+
+Flips vertically when needed and the opposite side has more room, shifts horizontally and constrains maximum width/height with internal overflow. Native fit-content dimensions are measured from a neutral inset; unscaled layout dimensions avoid chasing spring scale. Follows resize, nested scroll, native toggle and optional VisualViewport events, coalesced into one pending frame. Closed/disconnected surfaces no-op. Refresh after showing; beforetoggle opening is still hidden.
+
+Actual side is `data-lg-overlay-placement`; `--lg-overlay-origin` and inline `transform-origin` point an entry spring toward the trigger. Owns fixed positioning/insets, margins, sizing/overflow and native anchor-rule overrides; restores authored declarations/priorities on cleanup. Does not own scale/opacity or semantic state. Do not combine positioning engines on one surface. Horizontal writing modes, axis-aligned anchors and untransformed fixed coordinates only; no virtual anchors, arbitrary clipping-boundary solver or phone keyboard certification. Safe insets and offscreen-anchor policy belong to the app. [OVERLAYS.md](OVERLAYS.md) contains native markup and framework lifecycle recipes.
+
 ## Experimental owned-scene optics
 
 `attachGlassScene` is available from `@wpsydev/liquid-glass/scene`, separate from the CSS core. It measures up to eight HTML surfaces over a canvas and refracts its own procedural wallpaper. Import safely during SSR; attach after mount. It does not capture arbitrary DOM or external imagery. See [SCENE.md](SCENE.md) for options, fallback, preferences, coordinates and cleanup.

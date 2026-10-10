@@ -1,5 +1,14 @@
 # Validation evidence
 
+## 0.7.0-preview.1 anchored overlays — 10 October 2026
+
+- `npm run check` passed typechecking, 82 tests across 9 files, the library build and the complete multi-page site build. Thirteen overlay cases cover edge flips, constraints, synthetic visible-viewport offsets/shrink, RTL, unscaled spring dimensions, width replacement, hidden/disconnected elements, native semantics, coalesced updates and cleanup. Regressions exercise partial/mixed-priority physical/logical margins/insets, overflow restoration and intrinsic fit-content measurement near an edge.
+- `npm pack --dry-run` found 75 files, including distributed `overlay.js`/types and `docs/OVERLAYS.md`. Core still has no runtime dependencies; React/Vue stay optional. The Node SSR suite imports the new helper without browser globals.
+- Native T3 Chromium demo checks at 320×568, 390×844, 768×1024 and 1280×800 found no horizontal overflow. Ordinary source/model buttons operate; Escape after keyboard invocation closes a native popover and restores trigger focus; outside click dismisses. The final source remains reachable through internal scrolling at 320px.
+- A separate actual native popover without an authored width retained a 334px layout width when its anchor moved between the left and right edges at a 390px viewport. Repeated refresh kept it within 16px viewport margins. This browser check covers the fit-content regression that mocked rectangles alone cannot establish.
+- The 720×1280 portrait film checks source placement above its trigger, model placement below, and a scrollable source list, with unobstructed captions. Demo data and display selections are authored/simulated; no model/backend is connected.
+- Evidence is resized Chromium plus synthetic geometry tests. No physical iPhone/Android, software-keyboard, screen-reader, performance or Apple-native parity certification is claimed. Visible-viewport padding does not measure hardware safe insets. The host owns semantics, focus, visibility and offscreen-anchor policy.
+
 Date: 2026-10-10. Environment: Node 24.21.0, Linux x64. Dependencies are pinned by package-lock.json.
 
 - `npm run check`: passed TypeScript checking, 12 Vitest tests across core DOM/lens, mounted React/Vue adapters, and Node SSR suites, package build, and production playground build.

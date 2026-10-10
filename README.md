@@ -2,7 +2,7 @@
 
 **Liquid Glass for the web, in any stack.** A small CSS and TypeScript material system with React and Vue adapters, a Svelte action, and accessible solid fallbacks.
 
-Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.6.0 studio preview**, not a pixel-identical recreation of Apple's renderer.
+Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.7.0 anchored-overlay preview**, not a pixel-identical recreation of Apple's renderer.
 
 ![Liquid Glass Kit material workbench](docs/assets/studio.webp)
 
@@ -14,6 +14,8 @@ The new material workbench and listening room use paper, ink, restrained glass a
 
 [AI app interface studies](https://wpsydev.github.io/liquid-glass-kit/ai-design/) demonstrate evidence beside research answers, selective writing edits, and recoverable agent work. The [AI app design resource guide](docs/AI_APP_DESIGN.md) gives coding agents verified resources and a task brief. These are interactive UI studies with sample data, not connected model services.
 
+[Anchored overlays](https://wpsydev.github.io/liquid-glass-kit/overlays/) add viewport-aware placement for citations, source pickers and contextual panels. [Overlay guide](docs/OVERLAYS.md) includes native-popover and React/Vue lifecycle recipes.
+
 ## Why another glass library?
 
 The material should fit your app's stack and semantics. Liquid Glass Kit separates the **portable material** from **experimental optical enhancement**:
@@ -23,6 +25,7 @@ The material should fit your app's stack and semantics. Liquid Glass Kit separat
 - **Material controls:** fill strength, semantic tint and explicit backdrop tone; accessibility preferences retain precedence.
 - **Spring motion:** tactile press/release, spring reveals and velocity-preserving selection retargeting; explicit/system reduced-motion fallbacks.
 - **Mobile details:** owned touch presses, continuous corner enhancement with round fallback, concentric radius helpers, and opt-in safe-area/viewport/target utilities.
+- **Anchored overlays:** edge flipping, RTL alignment, visible-viewport bounds and trigger-based spring origins; native/headless controls retain focus and dismissal.
 - **Navigation primitives:** one moving decorative glass backing and scroll-aware soft/hard edge scrims; preserve foreground semantics.
 - **Keep native controls:** buttons remain buttons, navigation remains navigation, dialogs retain their focus behavior.
 - **SSR-safe:** no browser globals at import; deterministic server markup and enhancement after mount.

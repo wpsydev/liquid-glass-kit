@@ -106,6 +106,8 @@ The safe-area helper sets padding only. Your app owns fixed positioning, overlay
 
 ## Keyboard and overlay placement
 
+For an anchored native popover or fixed headless surface, [attachGlassOverlay](OVERLAYS.md) now supplies visible-viewport bounds, vertical flipping, horizontal shifting and internal overflow. Use it after mount with cleanup; keep focus, semantics and dismissal in the native/headless layer. It is optional: retain an existing positioning engine when it already works. The full-screen sheet recipe below remains a separate application layout pattern.
+
 Prefer browser-managed dialogs/popovers or existing accessible overlay primitives. Keep sheets scrollable, put autofocus/focus restoration in the application's behavior layer, and allow immediate Escape/outside dismissal. Show the surface before calling `enter()`; hide it only after a successful `exit()` and never remove a reopened surface after an interrupted exit.
 
 A custom fixed sheet can use the visible viewport's dimensions when supported. Call this after mount and remove both listeners during cleanup:

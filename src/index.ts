@@ -137,3 +137,6 @@ export type { GlassIndicatorOptions } from './indicator.js';
 
 export { attachGlassMotion } from './motion.js';
 export type { GlassMotionOptions } from './motion.js';
+
+export { attachGlassOverlay } from './overlay.js';
+export type { GlassOverlayOptions } from './overlay.js';

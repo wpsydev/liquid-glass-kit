@@ -9,7 +9,8 @@ This matrix covers common application scenarios and explicitly identifies limits
 | Media controls | Clear over a controlled dimmed image/video | Bold bright labels; never assume random media passes contrast |
 | AI chat composer | Regular form | Native textarea, label, submit button; solid response content |
 | Agent task status / command palette | Regular overlay | Use native dialog or existing headless command UI; keep live status announcements |
-| Menus, tooltips, popovers | Style existing headless surface | Keep focus, dismiss, placement and keyboard behavior in the existing library |
+| Citations, source/model pickers, popovers | Native popover + optional attachGlassOverlay | Viewport flip/shift/constraints; keep roles, focus, dismissal and keyboard behavior native or in the existing library |
+| Menus and tooltips | Style existing headless surface | Keep complete keyboard/hover/focus model and existing positioning engine |
 | Modal / sheet | lg-glass on native dialog | showModal gives focus containment and Escape behavior; label dialog; safe viewport dimensions |
 | Sidebar / inspector | Regular aside | Use stable appearance across a large surface; do not flip on every pixel |
 | Buttons / toggles | Native button + lg-button | Default button type; disabled, aria-pressed, focus ring and >=44px targets |

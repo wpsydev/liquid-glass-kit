@@ -1,13 +1,11 @@
-Liquid Glass Kit 0.6 turns the demo into a focused material studio.
+Liquid Glass Kit 0.7 adds anchored glass overlays for citations, source/model pickers and contextual controls.
 
-- A paper-and-ink workbench with editorial typography, original animated light artwork and flat parameter controls.
-- A redesigned mobile listening room with record artwork, restrained springs, saved-session feedback and a native appearance sheet.
-- Selected MIT GitLab SVGs and Pajamas interaction guidance after checking authentic GitLab-hosted UI libraries. The core remains free of runtime dependencies.
-- An agent design contract covering useful workflows, hierarchy, glass restraint, semantics and motion.
-- A twelve-second vertical recording with an original upbeat 120 BPM soundtrack, without external music samples.
+`attachGlassOverlay` supplies viewport-aware top/bottom placement, edge flipping, horizontal shifting, RTL alignment, size constraints and trigger-based spring origins. Native popovers or an existing headless primitive retain visibility, focus, roles and dismissal. Geometry uses unscaled layout dimensions during motion and restores authored styles/priorities on cleanup. The core stays free of runtime dependencies and import-safe during SSR.
 
-[Material studio](https://wpsydev.github.io/liquid-glass-kit/) · [Listening room](https://wpsydev.github.io/liquid-glass-kit/mobile/) · [UI research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/UI_RESEARCH.md) · [Design contract](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/DESIGN.md) · [Validation](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/VALIDATION.md)
+The [working overlay studies](https://wpsydev.github.io/liquid-glass-kit/overlays/) show a citation opening above its trigger, native model-choice buttons and a scrollable source library. All content is authored sample data; no AI model or external service runs in this study.
 
-Install the attached archive or `npm i github:wpsydev/liquid-glass-kit#v0.6.0-preview.1`. npm registry publication remains pending.
+[Overlay guide](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/OVERLAYS.md) · [API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/API.md) · [Validation](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/VALIDATION.md)
 
-This is an independent web material. Portable CSS remains the default; refraction is explicit and experimental. Existing APIs and material defaults remain compatible. Continuous corners have a round fallback. Browser evidence uses resized T3 Chromium viewports; it does not certify physical iOS/Android devices or native Apple rendering.
+Install the attached archive or `npm i github:wpsydev/liquid-glass-kit#v0.7.0-preview.1`. npm registry publication remains pending.
+
+Migration is additive; existing material/adapters and defaults remain compatible. Geometry supports horizontal writing modes and same-document fixed/top-layer surfaces without transformed containing blocks. It does not replace a general clipping-boundary solver. Browser observations use resized T3 Chromium viewports; physical iOS/Android, assistive-technology and software-keyboard certification are not implied. This independent material does not claim Apple's native rendering parity.

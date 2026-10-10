@@ -17,6 +17,7 @@ export default defineConfig({
         optics: resolve('site/optics/index.html'),
         mobile: resolve('site/mobile/index.html'),
         aiDesign: resolve('site/ai-design/index.html'),
+        overlays: resolve('site/overlays/index.html'),
       },
     },
   },

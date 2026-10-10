@@ -19,7 +19,10 @@
 - [Compatibility](https://wpsydev.github.io/liquid-glass-kit/docs/COMPATIBILITY.md): Portable CSS versus experimental refraction.
 - [Repository](https://github.com/wpsydev/liquid-glass-kit): Source, issues, license, and installable skill.
 
-v0.6.0-preview.1. Repository and Pages demo are live; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
+v0.7.0-preview.1. Repository and Pages demo are live; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
 
 - [Experimental scene optics](docs/SCENE.md): optional WebGL2 subpath for an owned procedural background; no arbitrary DOM sampling.
 - [Optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/): interactive refractive lenses and original neon scene.
+
+- [Anchored overlay guide](https://wpsydev.github.io/liquid-glass-kit/docs/OVERLAYS.md): attachGlassOverlay positioning, native popover composition, motion, cleanup and scope.
+- [Overlay workbench](https://wpsydev.github.io/liquid-glass-kit/overlays/): Working sample citation, model and source popovers.
