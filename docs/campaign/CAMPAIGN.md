@@ -1,5 +1,7 @@
 # Liquid Glass Kit: X campaign
 
+The [AI app design resource thread](https://x.com/wpsygames/status/2108990703527195029) is live with seven connected posts and a 12-second portrait video with original bass music. It links primary design skills, accessible component bases and real product interaction references. The [working studies](https://wpsydev.github.io/liquid-glass-kit/ai-design/) show evidence inspection, reversible writing assistance and recovery in a bounded agent simulation. The [agent-ready guide](../AI_APP_DESIGN.md), [publication receipts](ai-design-thread.json) and [media provenance](AI_DESIGN_MEDIA.md) document the sources, actual UI behavior and limits. No virality or adoption result is claimed.
+
 Account: **@wpsygames**, creator **wpsydev**. The [original launch post](https://x.com/wpsygames/status/2108936339475276157) is live and pinned. The [24-second showcase post](https://x.com/wpsygames/status/2108940573113532524) is published; its text and video playback were verified. All eight follow-ups for October 11–24, 2026 are **scheduled in X**, with their full text, media thumbnails and dates read back from the native queue. [posts.json](posts.json) stores verified status and receipts. Scheduled posts are not live yet.
 
 A [source/install reply](https://x.com/wpsygames/status/2108941345477812295) accompanies the video. One [technical reply](https://x.com/wpsygames/status/2108939185662878135) answers an explicit refraction question. [replies.json](replies.json) records both. No paid campaign was started.

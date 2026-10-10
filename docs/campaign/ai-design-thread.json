@@ -1,0 +1,289 @@
+{
+  "title": "AI app design: scope, evidence, and recovery",
+  "status": "published",
+  "account": "@wpsygames",
+  "publishedAtUtc": "2026-10-10T18:40:48.582Z",
+  "threadUrl": "https://x.com/wpsygames/status/2108990703527195029",
+  "posts": [
+    {
+      "number": 1,
+      "text": "Make AI apps feel designed.\n\nResearch with evidence in reach. Writing with edits you can keep or undo. Agent work you can recover.\n\n12 seconds, original bass groove. Working UI studies with sample data. Useful resources + a copyable agent brief below. 1/7",
+      "attachment": "verified-12-second-ai-design-showcase",
+      "purpose": "Lead with a concrete interaction pattern and identify the original demo honestly.",
+      "weightedCharacterCount": 255,
+      "url": "https://x.com/wpsygames/status/2108990703527195029",
+      "id": "2108990703527195029",
+      "publishedAt": "2026-10-10T18:39:09.406Z",
+      "composerCopyVerified": true,
+      "parentVerifiedBeforeSend": false,
+      "publicTextVerified": true
+    },
+    {
+      "number": 2,
+      "text": "Real tools worth studying:\n\nNotebookLM / Gemini Notebook: inspect source context.\nhttps://support.google.com/gemininotebook/answer/16179559?hl=en\n\nPhotoshop: scope edits to a selection.\nhttps://helpx.adobe.com/photoshop/desktop/create-open-import-images/create-images/edit-images-with-generative-fill.html\n\nClaude Code: know what a checkpoint restores.\nhttps://code.claude.com/docs/en/checkpointing\n2/7",
+      "sourceResourceIds": [
+        "notebook",
+        "photoshop"
+      ],
+      "purpose": "Explain scope and verification as specific UI choices instead of ranking products.",
+      "weightedCharacterCount": 244,
+      "url": "https://x.com/wpsygames/status/2108990832959189064",
+      "id": "2108990832959189064",
+      "inReplyTo": "2108990703527195029",
+      "publishedAt": "2026-10-10T18:39:33.857Z",
+      "composerCopyVerified": true,
+      "parentVerifiedBeforeSend": true,
+      "publicTextVerified": true
+    },
+    {
+      "number": 3,
+      "text": "Agent work: progress, a useful failure state, Retry, and a human decision when scope changes. Label what Undo actually restores; external effects may remain.\n\nCarbon for AI + Microsoft HAX are useful pattern references:\nhttps://carbondesignsystem.com/guidelines/carbon-for-ai/\nhttps://www.microsoft.com/en-us/haxtoolkit/pattern/g9-c-undo-automated-actions/\n3/7",
+      "sourceResourceIds": [
+        "carbon-ai",
+        "hax-undo",
+        "claude-code"
+      ],
+      "purpose": "Connect failure, human control and bounded recovery to primary design references.",
+      "weightedCharacterCount": 271,
+      "url": "https://x.com/wpsygames/status/2108990912588059098",
+      "id": "2108990912588059098",
+      "inReplyTo": "2108990832959189064",
+      "publishedAt": "2026-10-10T18:39:52.999Z",
+      "composerCopyVerified": true,
+      "parentVerifiedBeforeSend": true,
+      "publicTextVerified": true
+    },
+    {
+      "number": 4,
+      "text": "Brief your coding agent: who uses this, what task matters, what sets the density? Choose type roles, color and one signature detail for that job.\n\nAnthropic frontend-design + Impeccable are readable starting points:\nhttps://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md\nhttps://impeccable.style/\n4/7",
+      "sourceResourceIds": [
+        "anthropic-frontend-design",
+        "impeccable"
+      ],
+      "purpose": "Turn art direction into explicit context an agent can act on.",
+      "weightedCharacterCount": 267,
+      "url": "https://x.com/wpsygames/status/2108990935090819132",
+      "id": "2108990935090819132",
+      "inReplyTo": "2108990912588059098",
+      "publishedAt": "2026-10-10T18:39:58.246Z",
+      "composerCopyVerified": true,
+      "parentVerifiedBeforeSend": true,
+      "publicTextVerified": true
+    },
+    {
+      "number": 5,
+      "text": "Then audit the built screen: visible keyboard focus, native controls, mobile targets, long labels, interrupted motion and honest loading/error states. Try real content at small widths.\n\nUse Vercel's Web Interface Guidelines as a review input:\nhttps://vercel.com/design/guidelines\n5/7",
+      "sourceResourceIds": [
+        "vercel-guidelines"
+      ],
+      "purpose": "Connect visual craft to observable interaction and responsive checks.",
+      "weightedCharacterCount": 270,
+      "url": "https://x.com/wpsygames/status/2108990957475557824",
+      "id": "2108990957475557824",
+      "inReplyTo": "2108990935090819132",
+      "publishedAt": "2026-10-10T18:40:03.766Z",
+      "composerCopyVerified": true,
+      "parentVerifiedBeforeSend": true,
+      "publicTextVerified": true
+    },
+    {
+      "number": 6,
+      "text": "Choose one interaction base: React Aria, Base UI, or your existing Radix setup. Preserve focus, keyboard behavior and labels while styling.\n\nshadcn skills + MCP help agents read project context and discover real APIs:\nhttps://ui.shadcn.com/docs/skills\nhttps://ui.shadcn.com/docs/mcp\n6/7",
+      "sourceResourceIds": [
+        "react-aria",
+        "base-ui",
+        "radix",
+        "shadcn"
+      ],
+      "purpose": "Recommend project-aware component discovery without claiming primitives supply a finished design.",
+      "weightedCharacterCount": 269,
+      "url": "https://x.com/wpsygames/status/2108990978015039665",
+      "id": "2108990978015039665",
+      "inReplyTo": "2108990957475557824",
+      "publishedAt": "2026-10-10T18:40:08.645Z",
+      "composerCopyVerified": true,
+      "parentVerifiedBeforeSend": true,
+      "publicTextVerified": true
+    },
+    {
+      "number": 7,
+      "text": "Try the studies. Give your agent the brief: define the task, expose scope, keep output editable and specify recovery. Glass belongs on a small control layer above readable content.\n\nInteractive demo:\nhttps://wpsydev.github.io/liquid-glass-kit/ai-design/\nShareable agent brief:\nhttps://github.com/wpsydev/liquid-glass-kit/blob/main/docs/AI_APP_DESIGN.md\n7/7",
+      "purpose": "Offer a working demo and reusable brief as the practical next step.",
+      "weightedCharacterCount": 274,
+      "url": "https://x.com/wpsygames/status/2108990999922196974",
+      "id": "2108990999922196974",
+      "inReplyTo": "2108990978015039665",
+      "publishedAt": "2026-10-10T18:40:13.781Z",
+      "composerCopyVerified": true,
+      "parentVerifiedBeforeSend": true,
+      "publicTextVerified": true
+    }
+  ],
+  "demoUrl": "https://wpsydev.github.io/liquid-glass-kit/ai-design/",
+  "guideUrl": "https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/AI_APP_DESIGN.md",
+  "sourceCommit": "50863303c3e2976b03e5e96c2b5d691456d8cac2",
+  "video": {
+    "path": "docs/campaign/assets/ai-app-design-12s.mp4",
+    "sha256": "1a9e2d70d930b34217b12be2936349e69a1cdd907265fe8a99e469497382ba79",
+    "bytes": 871048,
+    "width": 720,
+    "height": 1280,
+    "videoFrames": 360,
+    "frameRate": 30,
+    "videoSeconds": 12,
+    "containerSeconds": 12.02,
+    "audio": "Original MIT bass groove; AAC stereo 48kHz",
+    "meanVolumeDbfs": -15,
+    "maxSampleVolumeDbfs": -2.1,
+    "fullDecode": "success",
+    "publicPlayback": {
+      "url": "https://x.com/wpsygames/status/2108990703527195029",
+      "durationSeconds": 12.053333,
+      "currentTimeObserved": 5.872827,
+      "audioDecodedBytes": 99973,
+      "muted": false,
+      "subsequentDecodedAudioBytes": 885831,
+      "readyState": 4
+    }
+  },
+  "validation": {
+    "localCheck": "npm run check passed: typecheck, 69 tests, library and site production builds",
+    "packDryRun": {
+      "files": 70,
+      "guideIncluded": true
+    },
+    "githubActions": [
+      {
+        "name": "Verify",
+        "conclusion": "success",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38076374656"
+      },
+      {
+        "name": "Publish playground",
+        "conclusion": "success",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38076374610"
+      }
+    ],
+    "viewports": [
+      {
+        "width": 320,
+        "workflow": "research",
+        "client": 305,
+        "minButtonHeight": 44,
+        "scroll": 305
+      },
+      {
+        "width": 320,
+        "workflow": "writing",
+        "client": 305,
+        "minButtonHeight": 44,
+        "scroll": 305
+      },
+      {
+        "width": 320,
+        "workflow": "agent",
+        "client": 305,
+        "minButtonHeight": 44,
+        "scroll": 305
+      },
+      {
+        "width": 390,
+        "workflow": "research",
+        "client": 375,
+        "minButtonHeight": 44,
+        "scroll": 375
+      },
+      {
+        "width": 390,
+        "workflow": "writing",
+        "client": 375,
+        "minButtonHeight": 44,
+        "scroll": 375
+      },
+      {
+        "width": 390,
+        "workflow": "agent",
+        "client": 375,
+        "minButtonHeight": 44,
+        "scroll": 375
+      },
+      {
+        "width": 768,
+        "workflow": "research",
+        "client": 753,
+        "minButtonHeight": 44,
+        "scroll": 753
+      },
+      {
+        "width": 768,
+        "workflow": "writing",
+        "client": 753,
+        "minButtonHeight": 44,
+        "scroll": 753
+      },
+      {
+        "width": 768,
+        "workflow": "agent",
+        "client": 753,
+        "minButtonHeight": 44,
+        "scroll": 753
+      },
+      {
+        "width": 1280,
+        "workflow": "research",
+        "client": 1265,
+        "minButtonHeight": 44,
+        "scroll": 1265
+      },
+      {
+        "width": 1280,
+        "workflow": "writing",
+        "client": 1265,
+        "minButtonHeight": 44,
+        "scroll": 1265
+      },
+      {
+        "width": 1280,
+        "workflow": "agent",
+        "client": 1265,
+        "minButtonHeight": 44,
+        "scroll": 1265
+      }
+    ],
+    "keyboard": "Tab reached Writing; Enter activated it; visible 3px focus outline",
+    "writing": "Selection, Suggest, Keep and Undo verified in native browser; separate agent validation preserves manual edits after Suggest or Keep",
+    "publicResources": [
+      {
+        "path": "/ai-design/",
+        "status": 200
+      },
+      {
+        "path": "/docs/AI_APP_DESIGN.md",
+        "status": 200
+      },
+      {
+        "path": "/llms-full.txt",
+        "status": 200
+      }
+    ],
+    "limits": "Chromium responsive viewport observations; no real phone or assistive-technology certification. Authored sample data and deterministic simulated actions, no AI provider/backend."
+  },
+  "outcomeLimits": "Publication is verified; no reach, virality, star or adoption outcome is claimed.",
+  "publicReadbacks": {
+    "verifiedPostNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "routes": [
+      "https://x.com/wpsygames/status/2108990703527195029",
+      "https://x.com/wpsygames/status/2108990935090819132",
+      "https://x.com/wpsygames/status/2108990999922196974"
+    ],
+    "method": "Native browser article text and permalink readback; X wraps and abbreviates rendered resource URLs. Full copy and parent context matched before each send."
+  }
+}

@@ -1,6 +1,6 @@
 # AI app design showcase soundtrack
 
-This note documents the original music for the 12-second AI app design showcase. The final browser capture and combined video can be documented here after capture and muxing.
+This note documents the original music and published 12-second AI app design showcase.
 
 ## Original composition
 
@@ -60,4 +60,16 @@ If video conversion is needed, replace `-c:v copy` with `-c:v libx264 -preset me
 
 ## Visual capture provenance
 
-The parent task owns the native T3 browser capture and final mux. Append the final video path, capture route, exact duration and dimensions, and verified public post URL here after those steps complete. This soundtrack note does not establish that a video or post has already been published.
+The final picture was recorded in the native T3 collaborative browser from the deployed [AI workflow studies](https://wpsydev.github.io/liquid-glass-kit/ai-design/?film=1), at a 720 × 1280 CSS viewport. The film controller drives the same working evidence, selection/edit and simulated agent controls available on the page. These are original interface studies with authored sample data; the film is not a recording of NotebookLM, Photoshop, Claude Code, or a connected model backend.
+
+Native capture evidence ID: `28105162-0472-4705-8632-6b21d2e581a1-c556c01c-39da-446b-ad3d-7d937991637f-mp4`. Capture began on 10 October 2026 at 18:37:26.525 UTC, the controller started at 18:37:32.001 UTC, and the recording stopped at approximately 18:37:44.644 UTC. Recording initialization occurred asynchronously. The lead-in was trimmed by 1.947 seconds using the actual container length and controller-to-stop interval. Six sampled frames and the final frame were visually reviewed. The final seven missing output frames were filled by holding the real closing frame for approximately 0.233 seconds; no synthetic UI or generated video was inserted.
+
+The compact export is [assets/ai-app-design-12s.mp4](assets/ai-app-design-12s.mp4): 871,048 bytes, 720 × 1280, square pixels, H.264 High / yuv420p, 30 fps, exactly 360 video frames (12 seconds). Audio is AAC-LC stereo at 48 kHz with the complete original groove. Container duration rounds to 12.02 seconds due to audio encoding. A complete FFmpeg decode succeeded; decoded audio measured −15.0 dBFS mean and −2.1 dBFS sample peak. These are sample-volume measurements, not LUFS or true peak.
+
+Final MP4 SHA-256:
+
+```text
+1a9e2d70d930b34217b12be2936349e69a1cdd907265fe8a99e469497382ba79
+```
+
+The [opening X post](https://x.com/wpsygames/status/2108990703527195029) is live with this video. Public playback was observed advancing, readyState 4, with sound enabled and 99,973 decoded audio bytes. X's transcoded playback reported 12.053333 seconds. Seven connected posts, copy checks, public readbacks and responsive browser observations are recorded in [ai-design-thread.json](ai-design-thread.json). Publication and playback do not establish reach or virality.
