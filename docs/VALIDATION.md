@@ -106,3 +106,14 @@ Verify, Pages and release workflows passed for `27503f4`. The public workbench, 
 [Published redesign video](https://x.com/wpsygames/status/2108976875443810436) · [Release/install reply](https://x.com/wpsygames/status/2108977086245556558). The released source is exactly twelve seconds; X may pad its processed rendition. No reach or repository-star growth is claimed.
 
 X’s public processed player decoded nonblack 720×1280 frames and 20,219 audio bytes; its observed duration was 12.03 seconds. This verifies a playable published video and audio track, not listener volume or engagement.
+
+
+## Performance and simplification — 0.9.0-preview.1
+
+`npm run check` passes 104 tests across 11 files, typecheck, library and ten-route site builds. New regressions verify zero static input/observer/frame allocations, shared live preference teardown, interactive enable/disable, unchanged setters, experimental allocation/accessibility/frame-zero cancellation, semantic gesture ownership after programmatic spring actions, adapter duplicate updates and scroll observation stability. Existing priorities, native input behavior, SSR and geometry cases remain covered.
+
+Native T3 desktop Chromium measurements compare frozen `49e2b19` with source hash `601ade5c20f324630d99449d5f9508def7479b09edd922f0f89961c14760b065`. Five warm-up pairs and 31 seeded randomized pairs per 100-controller static/interactive scenario retain all samples. The final uninterrupted run used active preview capture; an earlier stalled run is retained and excluded from claims. Static mount median 1.70 → 0.90 ms; complete lifecycle 3.70 → 2.20 ms. Browser validation is separate from jsdom resource counters and unit tests. Raw records and limitations are in [PERFORMANCE.md](PERFORMANCE.md). These do not establish GPU/FPS, physical-device, battery or whole-app improvements.
+
+The final production-bundled performance studio was transferred into the native preview. Static/Interactive buttons change all 100 real surfaces between zero and 100 interactive surfaces; five resized layouts (320×568,390×844,568×320,1280×800,720×1280) show no horizontal overflow or visible targets below 44 CSS pixels. The 720×1280 view fits one screen. The twelve-second replay ends with its finite animation finished and no active film frame. These are desktop layout/input checks, not physical-phone certification.
+
+The recorded promotional source is exactly 12 seconds, 360 frames, 1080×1920 H264/yuv420p/30fps/SAR1:1, with 48kHz stereo AAC and an original 120BPM synthesized score. Six frames were inspected; full video/audio decode passes; decoded peak −2.1dBFS. Export FPS is not an application benchmark. `npm pack --dry-run` passes and a fresh offline consumer installs one package and imports core/element/scene without browser globals. Detailed provenance and publication receipts are in [campaign/performance-update.json](campaign/performance-update.json).

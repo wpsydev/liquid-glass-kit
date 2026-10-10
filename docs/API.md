@@ -28,6 +28,8 @@ Enhances an existing `HTMLElement`; call after mount. Returns `{ update(options)
 
 The controller owns `.lg-glass`, `data-lg-*` attributes, and `--lg-radius`, `--lg-blur`, `--lg-saturation`, `--lg-filter`, `--lg-pointer-*`, `--lg-opacity`, `--lg-tint`, and `--lg-tint-opacity` variables. Interactive native `.lg-button` elements use CSS `scale`; put custom transforms/scale on a wrapper. Put layout and custom animations on a wrapper. Do not assign your own `::before` on the glass element: the material uses it to keep effects behind foreground content.
 
+Static CSS controllers allocate no input listeners, resize observers or animation frames. Interactive input is installed only while `interactive` is enabled. Four browser preference subscriptions and capability hints are shared per Window while controllers are mounted; final cleanup releases them. Eligible experimental refraction alone allocates resize/frame resources. Unchanged owned styles/attributes are not rewritten; updates still replace options and repair modified owned fields.
+
 SVG maps regenerate on resize, options changes, and relevant preference changes. Resize work is coalesced into a frame; generated maps are capped at 256 pixels on their longest side. No continuous animation loop. A resize without ResizeObserver is not automatically tracked; call update in older environments. Unsupported refraction uses CSS; no blur uses a solid fallback.
 
 ## getGlassProps(options?)

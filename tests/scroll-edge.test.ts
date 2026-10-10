@@ -153,4 +153,24 @@ describe('scroll edge controller', () => {
     document.body.append(layer); layer.innerHTML = '<button>Do not hide me</button>';
     expect(() => attachGlassScrollEdge(scrollport, layer)).toThrow(/must be empty/);
   });
+
+  it('coalesces frame ID zero and avoids unchanged writes or observation churn', async () => {
+    vi.spyOn(window, 'requestAnimationFrame').mockImplementation(callback => { frames.set(0, callback); return 0; });
+    const disconnect = vi.fn(), observe = vi.fn();
+    vi.stubGlobal('ResizeObserver', class { observe = observe; disconnect = disconnect; });
+    const { scrollport, layer } = fixture();
+    const controller = attachGlassScrollEdge(scrollport, layer);
+    const writes = vi.spyOn(layer, 'setAttribute');
+    const initialObservations = observe.mock.calls.length;
+    scrollport.dispatchEvent(new Event('scroll')); scrollport.dispatchEvent(new Event('scroll'));
+    expect(frames.size).toBe(1);
+    expect(window.requestAnimationFrame).toHaveBeenCalledTimes(1);
+    flush(); expect(writes).not.toHaveBeenCalled();
+    scrollport.firstElementChild!.setAttribute('style', 'padding: 12px');
+    scrollport.querySelector('button')!.textContent = 'Changed content';
+    await Promise.resolve(); flush();
+    expect(observe).toHaveBeenCalledTimes(initialObservations);
+    expect(disconnect).toHaveBeenCalledTimes(1);
+    controller.destroy();
+  });
 });

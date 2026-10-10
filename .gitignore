@@ -8,4 +8,5 @@ site/public/llms*.txt
 coverage/
 .env*
 site/public/CHANGELOG.md
+site/public/benchmarks/
 docs/campaign/assets/ai-design-beat.wav

@@ -1,3 +1,6 @@
+import { bounded } from './numeric.js';
+import { captureState } from './lifecycle.js';
+
 export interface GlassTransitionOptions {
   /** Movement direction. Up enters from below and exits above. Default up. */
   direction?: 'up' | 'down' | 'left' | 'right';
@@ -11,8 +14,6 @@ export interface GlassTransitionOptions {
 type Visual = { translate: string; scale: string; opacity: string };
 type Task = { animation?: Animation; end: Visual | null; resolve: (completed: boolean) => void };
 const properties = ['translate', 'scale', 'opacity'] as const;
-const bounded = (value: number | undefined, fallback: number, min: number, max: number) =>
-  Number.isFinite(value) ? Math.min(max, Math.max(min, value!)) : fallback;
 const resolveOptions = (options: GlassTransitionOptions) => ({
   direction: ['up', 'down', 'left', 'right'].includes(options.direction ?? '') ? options.direction! : 'up',
   distance: bounded(options.distance, 12, 0, 32),
@@ -45,7 +46,7 @@ export function attachGlassTransition(element: HTMLElement, initial: GlassTransi
   if (!view) throw new Error('Glass transitions require an element in a browser document');
   let options = resolveOptions(initial), destroyed = false;
   let active: Task | undefined, exited: Visual | null = null;
-  const original = properties.map(key => [key, element.style.getPropertyValue(key), element.style.getPropertyPriority(key)]);
+  const restore = captureState(element, properties);
   const computed = view.getComputedStyle(element);
   const alpha = Number.parseFloat(computed.opacity);
   const baseline: Visual = {
@@ -54,9 +55,6 @@ export function attachGlassTransition(element: HTMLElement, initial: GlassTransi
   };
   const media = view.matchMedia?.('(prefers-reduced-motion: reduce)');
   const reduced = () => options.reducedMotion || Boolean(media?.matches);
-  const restore = () => {
-    for (const [key, value, priority] of original) value ? element.style.setProperty(key, value, priority) : element.style.removeProperty(key);
-  };
   const apply = (visual: Visual | null) => {
     restore();
     if (visual) for (const key of properties) element.style.setProperty(key, visual[key]);

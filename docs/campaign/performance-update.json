@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "version": "0.9.0-preview.1",
+  "baselineCommit": "49e2b19eaec04844a04f92bac590df5308c4e60e",
+  "sourceSha256": "601ade5c20f324630d99449d5f9508def7479b09edd922f0f89961c14760b065",
+  "validation": {
+    "check": "104 tests across 11 files, typecheck, library and ten-route site build passed",
+    "package": "npm pack --dry-run passed; offline fresh consumer installed one package and SSR-imported core, element and scene without browser globals",
+    "browser": "T3 Chromium152, final production-bundled performance studio; Static/Interactive toggles 0/100 actual enhanced surfaces; all tested layouts retain100surfaces,44px targets and no horizontal overflow; film ends at12s with no running animations",
+    "layouts": [
+      [
+        320,
+        568
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        568,
+        320
+      ],
+      [
+        1280,
+        800
+      ],
+      [
+        720,
+        1280
+      ]
+    ]
+  },
+  "benchmark": "../../benchmarks/browser.json",
+  "resources": "../../benchmarks/resources.json",
+  "size": "../../benchmarks/source-and-size.json",
+  "packageSize": "../../benchmarks/package.json",
+  "video": {
+    "path": "assets/performance-showcase.mp4",
+    "sha256": "9bb1766bbc28ea3762c2ab250a679ef5bbf7d8eb87e9094d700c9ea9243df355",
+    "bytes": 864213,
+    "duration": 12,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "video": "H264 yuv420p 30fps SAR1:1,360frames",
+    "audio": "original synthesized120BPM score,48kHz stereo AAC160kbps",
+    "audioPeakDbfs": -2.1,
+    "validation": "six sampled frames inspected; full audio/video decode passed; exported frame rate is not measured applicationFPS"
+  },
+  "publication": {
+    "status": "prepared; will be updated with verified release and post receipts"
+  }
+}

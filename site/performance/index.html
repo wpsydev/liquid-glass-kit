@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f3f0e9"><title>Same glass. Less work. — Liquid Glass Kit</title>
+  <meta name="description" content="A controlled 100-surface workload: fewer idle resources, saved before-and-after browser measurements, and a simpler CSS-first library.">
+  <link rel="stylesheet" href="../../src/styles.css">
+</head>
+<body>
+<main class="study">
+  <header class="masthead"><a href="https://github.com/wpsydev/liquid-glass-kit" aria-label="Liquid Glass Kit on GitHub"><span aria-hidden="true">◒</span> LIQUID GLASS KIT</a><span>PERFORMANCE STUDY / 09</span></header>
+  <section class="intro" aria-labelledby="title"><p class="eyebrow"><span></span> A LIGHTER MATERIAL LIBRARY</p><h1 id="title">Same glass.<br><em>Less work.</em></h1><p class="lede">Keep the finish.<br>Lose the work you never needed.</p></section>
+  <div class="controls"><div role="group" aria-label="Glass surface mode"><button type="button" id="static" aria-pressed="true">Static</button><button type="button" id="interactive" aria-pressed="false">Interactive</button></div><button type="button" id="replay" aria-label="Replay the twelve second performance demonstration">↻ <span>Replay</span></button></div>
+  <div class="dashboard">
+    <section class="material-study" aria-label="One hundred real glass surfaces">
+      <div class="stage-heading"><span><b>100</b> REAL SURFACES</span><span id="mode">STATIC / NO INPUT TRACKING</span></div>
+      <div class="glass-stage"><div class="color-field" aria-hidden="true"><i></i><i></i><i></i></div><div id="glass-grid" aria-hidden="true"></div><div class="endcard" aria-hidden="true"><span>OPEN SOURCE / CSS FIRST</span><strong>Small footprint.<br><em>Considered feel.</em></strong><p>github.com/wpsydev/liquid-glass-kit</p></div></div>
+      <p class="stage-note"><span>Portable CSS material</span><span>Motion stays opt-in</span></p>
+    </section>
+    <section class="resources" aria-labelledby="resources-title"><div class="section-heading"><h2 id="resources-title">Idle resources, removed.</h2><span>BEFORE → AFTER</span></div><dl class="resource-grid">
+      <div><dt>Input listeners</dt><dd><span>1,000</span><i aria-hidden="true">→</i><strong>0</strong></dd></div>
+      <div><dt>Media listeners</dt><dd><span>400</span><i aria-hidden="true">→</i><strong>4</strong></dd></div>
+      <div><dt>Resize observers</dt><dd><span>100</span><i aria-hidden="true">→</i><strong>0</strong></dd></div>
+      <div><dt>Queued animation frames</dt><dd><span>100</span><i aria-hidden="true">→</i><strong>0</strong></dd></div>
+    </dl><p class="scope">Library allocations for 100 static surfaces. Before: 0.8.0-preview.1. <span id="allocation-mode">The interactive toggle changes the real surfaces above; these saved counts describe static mode.</span></p></section>
+  </div>
+  <section class="measurements" aria-labelledby="measurements-title"><div class="section-heading"><h2 id="measurements-title">Measured, on the same workload.</h2><span id="benchmark-environment">SAVED DESKTOP BROWSER RUN</span></div><div class="metric-grid">
+    <article><h3>Mount 100 surfaces</h3><p><span id="mount-before">—</span><i aria-hidden="true">→</i><strong id="mount-after">—</strong><small>ms · median</small></p></article>
+    <article><h3>Mount + 2 updates + cleanup</h3><p><span id="total-before">—</span><i aria-hidden="true">→</i><strong id="total-after">—</strong><small>ms · median</small></p></article>
+    <article><h3>Distributed library files</h3><p><span id="source-before">—</span><i aria-hidden="true">→</i><strong id="source-after">—</strong><small>kB · JS / types / maps</small></p></article>
+  </div><p class="scope" id="benchmark-scope">Loading saved measurements. Library payload includes removed source maps; consumer JS grew slightly.</p></section>
+  <section class="recipe"><div><span class="eyebrow">START SIMPLE</span><h2>CSS first. JavaScript when needed.</h2></div><code>&lt;button class="lg-glass lg-button"&gt;Save&lt;/button&gt;</code><span>Import the stylesheet once.</span></section>
+  <footer><a href="https://github.com/wpsydev/liquid-glass-kit">Explore the library <span aria-hidden="true">↗</span></a><a href="../benchmarks/browser.json">Browser evidence</a><a href="../docs/PERFORMANCE.md">Method + size tradeoff</a></footer>
+  <div class="film-progress" aria-hidden="true"><i id="progress"></i></div>
+  <p class="sr-only" id="status" role="status" aria-live="polite"></p>
+</main>
+<script type="module" src="./demo.js"></script>
+</body>
+</html>

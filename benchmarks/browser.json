@@ -1,0 +1,1369 @@
+{
+  "environment": {
+    "devicePixelRatio": 2,
+    "documentHidden": false,
+    "hardwareConcurrency": 10,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+    "viewport": [
+      1280,
+      800
+    ],
+    "previewCaptureActive": true
+  },
+  "measuredAt": "2026-10-10T20:45:39.656Z",
+  "method": {
+    "count": 100,
+    "repetitions": 31,
+    "seed": 91206,
+    "timing": "DOM controller mount, one same-options update, one changed-options update, destroy; fixture DOM creation/removal excluded; no animation frames rendered inside measured batches",
+    "units": "milliseconds per complete synchronous batch",
+    "warmups": 5
+  },
+  "scenarios": {
+    "interactive": {
+      "order": [
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ]
+      ],
+      "samples": {
+        "baseline": [
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 0.8999999761581421,
+            "mount": 3.6999999284744263,
+            "sameOptionsUpdate": 0.8000000715255737,
+            "total": 6.099999904632568
+          },
+          {
+            "changedOptionsUpdate": 0.7999999523162842,
+            "destroy": 0.7000000476837158,
+            "mount": 1.8000000715255737,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.9000000953674316
+          },
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 0.7000000476837158,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.700000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.8000000715255737,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.7999999523162842,
+            "total": 3.8000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.7999999523162842,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.700000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.7000000476837158,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.6999999284744263,
+            "total": 3.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.7000000476837158,
+            "destroy": 0.5999999046325684,
+            "mount": 1.6999999284744263,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 3.6999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.5999999046325684,
+            "destroy": 0.8000000715255737,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5999999046325684,
+            "destroy": 0.7000000476837158,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.5
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.6999999284744263,
+            "mount": 1.5,
+            "sameOptionsUpdate": 0.5,
+            "total": 3.1999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.6999999284744263,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.5
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.7000000476837158,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.6999999284744263,
+            "total": 3.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5999999046325684,
+            "destroy": 0.6000000238418579,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.5,
+            "total": 3.299999952316284
+          },
+          {
+            "changedOptionsUpdate": 0.7000000476837158,
+            "destroy": 0.6000000238418579,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.5,
+            "total": 3.4000000953674316
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.7999999523162842,
+            "mount": 1.8000000715255737,
+            "sameOptionsUpdate": 0.6999999284744263,
+            "total": 3.899999976158142
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.6999999284744263,
+            "mount": 1.7999999523162842,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 3.799999952316284
+          },
+          {
+            "changedOptionsUpdate": 0.8000000715255737,
+            "destroy": 0.6999999284744263,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.6999999284744263,
+            "total": 3.899999976158142
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 1.5,
+            "mount": 1.6999999284744263,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 4.5
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.7000000476837158,
+            "mount": 1.5,
+            "sameOptionsUpdate": 0.5,
+            "total": 3.3000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 0.8000000715255737,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.5,
+            "total": 3.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.5,
+            "mount": 1.5,
+            "sameOptionsUpdate": 0.6999999284744263,
+            "total": 3.1999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 1.5,
+            "mount": 1.5,
+            "sameOptionsUpdate": 0.5,
+            "total": 4
+          },
+          {
+            "changedOptionsUpdate": 0.5999999046325684,
+            "destroy": 0.6000000238418579,
+            "mount": 1.899999976158142,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.6999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.7999999523162842,
+            "mount": 1.9000000953674316,
+            "sameOptionsUpdate": 0.6999999284744263,
+            "total": 4
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.6000000238418579,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.6999999284744263,
+            "total": 3.5
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.7000000476837158,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.5999999046325684,
+            "total": 3.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.6999999284744263,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.5,
+            "total": 3.399999976158142
+          },
+          {
+            "changedOptionsUpdate": 0.5999999046325684,
+            "destroy": 0.7000000476837158,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 0.8000000715255737,
+            "mount": 1.9000000953674316,
+            "sameOptionsUpdate": 2,
+            "total": 5.400000095367432
+          },
+          {
+            "changedOptionsUpdate": 0.5999999046325684,
+            "destroy": 0.8000000715255737,
+            "mount": 1.8000000715255737,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.8000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.7000000476837158,
+            "mount": 1.8000000715255737,
+            "sameOptionsUpdate": 0.5999999046325684,
+            "total": 3.700000047683716
+          }
+        ],
+        "current": [
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.8999999761581421,
+            "mount": 2.1999999284744263,
+            "sameOptionsUpdate": 0.40000009536743164,
+            "total": 4
+          },
+          {
+            "changedOptionsUpdate": 6.799999952316284,
+            "destroy": 1.8000000715255737,
+            "mount": 1.2000000476837158,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 10.400000095367432
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.8000000715255737,
+            "mount": 1.2000000476837158,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.8000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.6999999284744263,
+            "mount": 1.1999999284744263,
+            "sameOptionsUpdate": 0.40000009536743164,
+            "total": 2.6999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.6000000238418579,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.5,
+            "total": 2.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.2999999523162842,
+            "destroy": 1.3000000715255737,
+            "mount": 0.9000000953674316,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.9000000953674316
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.7000000476837158,
+            "mount": 1,
+            "sameOptionsUpdate": 0.5,
+            "total": 2.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.40000009536743164,
+            "destroy": 0.6999999284744263,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.40000009536743164,
+            "destroy": 0.6999999284744263,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 1.399999976158142,
+            "mount": 1,
+            "sameOptionsUpdate": 0.30000007152557373,
+            "total": 3.200000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.7000000476837158,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.2999999523162842,
+            "total": 2.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.6000000238418579,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.2999999523162842,
+            "total": 2.5
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.6000000238418579,
+            "mount": 1,
+            "sameOptionsUpdate": 0.5,
+            "total": 2.5
+          },
+          {
+            "changedOptionsUpdate": 0.40000009536743164,
+            "destroy": 1.399999976158142,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 3.3000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.8000000715255737,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.700000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.7000000476837158,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.700000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.5,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.5
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.7000000476837158,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.6000000238418579,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.6999999284744263,
+            "mount": 1.1999999284744263,
+            "sameOptionsUpdate": 0.30000007152557373,
+            "total": 2.6999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.40000009536743164,
+            "destroy": 0.6999999284744263,
+            "mount": 1.2000000476837158,
+            "sameOptionsUpdate": 0.2999999523162842,
+            "total": 2.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.6999999284744263,
+            "mount": 1.1999999284744263,
+            "sameOptionsUpdate": 0.30000007152557373,
+            "total": 2.6999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.8999999761581421,
+            "mount": 1.2000000476837158,
+            "sameOptionsUpdate": 0.2999999523162842,
+            "total": 2.799999952316284
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.7000000476837158,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.700000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.7000000476837158,
+            "mount": 1.2999999523162842,
+            "sameOptionsUpdate": 0.5,
+            "total": 2.899999976158142
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.7999999523162842,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 0.30000007152557373,
+            "total": 2.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.5,
+            "mount": 1.1999999284744263,
+            "sameOptionsUpdate": 0.40000009536743164,
+            "total": 2.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.40000009536743164,
+            "destroy": 0.5999999046325684,
+            "mount": 1.0999999046325684,
+            "sameOptionsUpdate": 0.5,
+            "total": 2.5999999046325684
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.7000000476837158,
+            "mount": 1.3000000715255737,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.8000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.5,
+            "mount": 1.399999976158142,
+            "sameOptionsUpdate": 0.40000009536743164,
+            "total": 2.8000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.6999999284744263,
+            "mount": 1.1999999284744263,
+            "sameOptionsUpdate": 0.40000009536743164,
+            "total": 2.6999999284744263
+          }
+        ]
+      },
+      "summary": {
+        "baseline": {
+          "changedOptionsUpdate": {
+            "median": 0.6000000238418579,
+            "p95": 0.7999999523162842
+          },
+          "destroy": {
+            "median": 0.7000000476837158,
+            "p95": 1.5
+          },
+          "mount": {
+            "median": 1.7000000476837158,
+            "p95": 1.9000000953674316
+          },
+          "sameOptionsUpdate": {
+            "median": 0.6000000238418579,
+            "p95": 0.8000000715255737
+          },
+          "total": {
+            "median": 3.6999999284744263,
+            "p95": 5.400000095367432
+          }
+        },
+        "current": {
+          "changedOptionsUpdate": {
+            "median": 0.40000009536743164,
+            "p95": 0.5
+          },
+          "destroy": {
+            "median": 0.7000000476837158,
+            "p95": 1.399999976158142
+          },
+          "mount": {
+            "median": 1.100000023841858,
+            "p95": 1.399999976158142
+          },
+          "sameOptionsUpdate": {
+            "median": 0.3999999761581421,
+            "p95": 0.5
+          },
+          "total": {
+            "median": 2.6999999284744263,
+            "p95": 4
+          }
+        }
+      }
+    },
+    "static": {
+      "order": [
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "current",
+          "baseline"
+        ],
+        [
+          "baseline",
+          "current"
+        ],
+        [
+          "baseline",
+          "current"
+        ]
+      ],
+      "samples": {
+        "baseline": [
+          {
+            "changedOptionsUpdate": 0.8000000715255737,
+            "destroy": 0.6999999284744263,
+            "mount": 1.899999976158142,
+            "sameOptionsUpdate": 0.6999999284744263,
+            "total": 4.099999904632568
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 1.100000023841858,
+            "mount": 2,
+            "sameOptionsUpdate": 0.7999999523162842,
+            "total": 4.5
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 1.1999999284744263,
+            "mount": 1.899999976158142,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 4.299999952316284
+          },
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 0.8000000715255737,
+            "mount": 1.899999976158142,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 4.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 0.7000000476837158,
+            "mount": 1.899999976158142,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 4
+          },
+          {
+            "changedOptionsUpdate": 0.7000000476837158,
+            "destroy": 0.6999999284744263,
+            "mount": 1.7999999523162842,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 3.899999976158142
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.8000000715255737,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.7999999523162842,
+            "total": 3.700000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.5999999046325684,
+            "destroy": 0.6000000238418579,
+            "mount": 1.899999976158142,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 3.799999952316284
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.6999999284744263,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.5,
+            "total": 3.5
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.7000000476837158,
+            "mount": 1.5,
+            "sameOptionsUpdate": 0.5,
+            "total": 3.200000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.7000000476837158,
+            "mount": 1.5999999046325684,
+            "sameOptionsUpdate": 0.5,
+            "total": 3.299999952316284
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.6999999284744263,
+            "mount": 1.5,
+            "sameOptionsUpdate": 0.5,
+            "total": 3.1999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.6000000238418579,
+            "mount": 1.6999999284744263,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.5
+          },
+          {
+            "changedOptionsUpdate": 0.7000000476837158,
+            "destroy": 0.5999999046325684,
+            "mount": 1.6999999284744263,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.5999999046325684
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.7000000476837158,
+            "mount": 1.6999999284744263,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 0.7000000476837158,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.700000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.5999999046325684,
+            "destroy": 0.8000000715255737,
+            "mount": 1.899999976158142,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 4
+          },
+          {
+            "changedOptionsUpdate": 0.7000000476837158,
+            "destroy": 0.6000000238418579,
+            "mount": 1.7999999523162842,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.700000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.5999999046325684,
+            "destroy": 0.7000000476837158,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 0.7000000476837158,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 3.700000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 1.100000023841858,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 4.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.6000000238418579,
+            "mount": 1.600000023841858,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 3.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.6000000238418579,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.6999999284744263,
+            "total": 3.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.7000000476837158,
+            "mount": 1.8000000715255737,
+            "sameOptionsUpdate": 0.6999999284744263,
+            "total": 3.8000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.5999999046325684,
+            "destroy": 0.5,
+            "mount": 1.7000000476837158,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 3.5
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.5,
+            "mount": 1.6999999284744263,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.399999976158142
+          },
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 0.5,
+            "mount": 1.8000000715255737,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.600000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.7999999523162842,
+            "mount": 1.6999999284744263,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.6999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.6000000238418579,
+            "destroy": 0.7999999523162842,
+            "mount": 1.6999999284744263,
+            "sameOptionsUpdate": 0.6000000238418579,
+            "total": 3.6999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 0.6000000238418579,
+            "mount": 1.899999976158142,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 3.899999976158142
+          },
+          {
+            "changedOptionsUpdate": 0.6999999284744263,
+            "destroy": 0.8000000715255737,
+            "mount": 1.899999976158142,
+            "sameOptionsUpdate": 0.7000000476837158,
+            "total": 4.100000023841858
+          }
+        ],
+        "current": [
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.7000000476837158,
+            "mount": 1.3000000715255737,
+            "sameOptionsUpdate": 0.2999999523162842,
+            "total": 2.8000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.5,
+            "mount": 1.100000023841858,
+            "sameOptionsUpdate": 1.899999976158142,
+            "total": 4
+          },
+          {
+            "changedOptionsUpdate": 0.2999999523162842,
+            "destroy": 0.5,
+            "mount": 0.7000000476837158,
+            "sameOptionsUpdate": 0.2999999523162842,
+            "total": 1.7999999523162842
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.3999999761581421,
+            "mount": 0.8999999761581421,
+            "sameOptionsUpdate": 0.5,
+            "total": 2.299999952316284
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.3999999761581421,
+            "mount": 1,
+            "sameOptionsUpdate": 0.40000009536743164,
+            "total": 2.3000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.3999999761581421,
+            "mount": 0.7999999523162842,
+            "sameOptionsUpdate": 0.40000009536743164,
+            "total": 2.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.2999999523162842,
+            "destroy": 0.5,
+            "mount": 0.8999999761581421,
+            "sameOptionsUpdate": 0.5,
+            "total": 2.1999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.5,
+            "mount": 0.9000000953674316,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.3000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.40000009536743164,
+            "mount": 0.8999999761581421,
+            "sameOptionsUpdate": 0.5,
+            "total": 2.200000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.40000009536743164,
+            "destroy": 0.5,
+            "mount": 0.8999999761581421,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.200000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.40000009536743164,
+            "mount": 0.7999999523162842,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.3999999761581421,
+            "mount": 0.7999999523162842,
+            "sameOptionsUpdate": 0.40000009536743164,
+            "total": 2.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.40000009536743164,
+            "destroy": 0.3999999761581421,
+            "mount": 1,
+            "sameOptionsUpdate": 0.2999999523162842,
+            "total": 2.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.2999999523162842,
+            "mount": 0.8999999761581421,
+            "sameOptionsUpdate": 0.40000009536743164,
+            "total": 2.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.5,
+            "mount": 0.8000000715255737,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.200000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.2999999523162842,
+            "destroy": 0.5,
+            "mount": 0.7000000476837158,
+            "sameOptionsUpdate": 0.2999999523162842,
+            "total": 1.7999999523162842
+          },
+          {
+            "changedOptionsUpdate": 0.19999992847442627,
+            "destroy": 0.3999999761581421,
+            "mount": 0.7999999523162842,
+            "sameOptionsUpdate": 0.30000007152557373,
+            "total": 1.6999999284744263
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.5,
+            "mount": 0.9000000953674316,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.200000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.3999999761581421,
+            "mount": 1,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.299999952316284
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.3999999761581421,
+            "mount": 1,
+            "sameOptionsUpdate": 0.40000009536743164,
+            "total": 2.3000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.3999999761581421,
+            "mount": 1,
+            "sameOptionsUpdate": 0.40000009536743164,
+            "total": 2.3000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.40000009536743164,
+            "mount": 0.8999999761581421,
+            "sameOptionsUpdate": 0.2999999523162842,
+            "total": 2.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.40000009536743164,
+            "destroy": 0.5,
+            "mount": 0.7999999523162842,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.5,
+            "destroy": 0.3999999761581421,
+            "mount": 0.8000000715255737,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.30000007152557373,
+            "destroy": 0.5,
+            "mount": 0.8999999761581421,
+            "sameOptionsUpdate": 0.5,
+            "total": 2.200000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.3999999761581421,
+            "destroy": 0.40000009536743164,
+            "mount": 0.8999999761581421,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2.100000023841858
+          },
+          {
+            "changedOptionsUpdate": 0.40000009536743164,
+            "destroy": 0.5,
+            "mount": 0.8999999761581421,
+            "sameOptionsUpdate": 0.5,
+            "total": 2.3000000715255737
+          },
+          {
+            "changedOptionsUpdate": 0.40000009536743164,
+            "destroy": 0.3999999761581421,
+            "mount": 0.8999999761581421,
+            "sameOptionsUpdate": 0.5,
+            "total": 2.200000047683716
+          },
+          {
+            "changedOptionsUpdate": 0.30000007152557373,
+            "destroy": 0.5,
+            "mount": 0.9000000953674316,
+            "sameOptionsUpdate": 0.19999992847442627,
+            "total": 1.9000000953674316
+          },
+          {
+            "changedOptionsUpdate": 0.2999999523162842,
+            "destroy": 0.3999999761581421,
+            "mount": 0.7999999523162842,
+            "sameOptionsUpdate": 0.30000007152557373,
+            "total": 1.7999999523162842
+          },
+          {
+            "changedOptionsUpdate": 0.2999999523162842,
+            "destroy": 0.5,
+            "mount": 0.8000000715255737,
+            "sameOptionsUpdate": 0.3999999761581421,
+            "total": 2
+          }
+        ]
+      },
+      "summary": {
+        "baseline": {
+          "changedOptionsUpdate": {
+            "median": 0.6000000238418579,
+            "p95": 0.7000000476837158
+          },
+          "destroy": {
+            "median": 0.7000000476837158,
+            "p95": 1.100000023841858
+          },
+          "mount": {
+            "median": 1.7000000476837158,
+            "p95": 1.899999976158142
+          },
+          "sameOptionsUpdate": {
+            "median": 0.6000000238418579,
+            "p95": 0.7999999523162842
+          },
+          "total": {
+            "median": 3.700000047683716,
+            "p95": 4.299999952316284
+          }
+        },
+        "current": {
+          "changedOptionsUpdate": {
+            "median": 0.40000009536743164,
+            "p95": 0.5
+          },
+          "destroy": {
+            "median": 0.40000009536743164,
+            "p95": 0.5
+          },
+          "mount": {
+            "median": 0.8999999761581421,
+            "p95": 1.100000023841858
+          },
+          "sameOptionsUpdate": {
+            "median": 0.3999999761581421,
+            "p95": 0.5
+          },
+          "total": {
+            "median": 2.1999999284744263,
+            "p95": 2.8000000715255737
+          }
+        }
+      }
+    }
+  },
+  "schema": 1,
+  "source": {
+    "baseline": {
+      "bundles": {
+        "attachGlass": {
+          "cssIncluded": false,
+          "format": "iife",
+          "gzipBytes": 3064,
+          "gzipLevel": 9,
+          "minifiedBytes": 7748,
+          "target": "es2022"
+        },
+        "getGlassProps": {
+          "cssIncluded": false,
+          "format": "iife",
+          "gzipBytes": 638,
+          "gzipLevel": 9,
+          "minifiedBytes": 1256,
+          "target": "es2022"
+        }
+      },
+      "commit": "49e2b19eaec04844a04f92bac590df5308c4e60e",
+      "files": {
+        "element.ts": 46,
+        "index.ts": 140,
+        "indicator.css": 3,
+        "indicator.ts": 143,
+        "input.ts": 13,
+        "material.ts": 67,
+        "micro-motion.ts": 145,
+        "motion.css": 7,
+        "motion.ts": 217,
+        "optics.ts": 27,
+        "overlay.ts": 127,
+        "react.tsx": 42,
+        "scene.ts": 314,
+        "scroll-edge.css": 51,
+        "scroll-edge.ts": 100,
+        "styles.css": 96,
+        "vue.ts": 29
+      },
+      "nonblankSourceLines": 1567,
+      "sourceSha256": "0f21556ee82aad93a332d3f681c9154245eac51b7cdfaf925255f18bed753189",
+      "workingTreeChanges": []
+    },
+    "bundler": {
+      "vite": "8.3.4"
+    },
+    "current": {
+      "bundles": {
+        "attachGlass": {
+          "cssIncluded": false,
+          "format": "iife",
+          "gzipBytes": 3350,
+          "gzipLevel": 9,
+          "minifiedBytes": 7847,
+          "target": "es2022"
+        },
+        "getGlassProps": {
+          "cssIncluded": false,
+          "format": "iife",
+          "gzipBytes": 643,
+          "gzipLevel": 9,
+          "minifiedBytes": 1274,
+          "target": "es2022"
+        }
+      },
+      "commit": "49e2b19eaec04844a04f92bac590df5308c4e60e",
+      "files": {
+        "binding.ts": 27,
+        "element.ts": 36,
+        "environment.ts": 34,
+        "index.ts": 114,
+        "indicator.css": 3,
+        "indicator.ts": 122,
+        "input.ts": 42,
+        "lifecycle.ts": 17,
+        "material.ts": 69,
+        "micro-motion.ts": 142,
+        "motion.css": 7,
+        "motion.ts": 198,
+        "numeric.ts": 3,
+        "optics.ts": 27,
+        "overlay.ts": 118,
+        "react.tsx": 32,
+        "scene.ts": 307,
+        "scroll-edge.css": 51,
+        "scroll-edge.ts": 94,
+        "styles.css": 96,
+        "vue.ts": 22
+      },
+      "nonblankSourceLines": 1561,
+      "sourceSha256": "601ade5c20f324630d99449d5f9508def7479b09edd922f0f89961c14760b065",
+      "workingTreeChanges": [
+        "M src/element.ts",
+        " M src/index.ts",
+        " M src/indicator.ts",
+        " M src/input.ts",
+        " M src/material.ts",
+        " M src/micro-motion.ts",
+        " M src/motion.ts",
+        " M src/overlay.ts",
+        " M src/react.tsx",
+        " M src/scene.ts",
+        " M src/scroll-edge.ts",
+        " M src/vue.ts",
+        "?? src/binding.ts",
+        "?? src/environment.ts",
+        "?? src/lifecycle.ts",
+        "?? src/numeric.ts"
+      ]
+    },
+    "generatedAt": "2026-10-10T20:43:53.038Z",
+    "node": "v24.21.0",
+    "schema": 1,
+    "sourceScope": "All nonblank lines under src ending .ts, .tsx or .css, including comments; tests, docs, demos and generated dist excluded."
+  }
+}

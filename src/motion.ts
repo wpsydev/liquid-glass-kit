@@ -1,4 +1,6 @@
-import { glassPointerId, isGlassPressTarget } from './input.js';
+import { bounded } from './numeric.js';
+import { attachGlassPressInput } from './input.js';
+import { captureState } from './lifecycle.js';
 
 export interface GlassSpringOptions {
   /** Spring stiffness, clamped to 20–1000. Default 260. */
@@ -17,8 +19,6 @@ export interface GlassMotionOptions extends GlassSpringOptions {
   reducedMotion?: boolean;
 }
 type SpringParameters = Required<GlassSpringOptions>;
-const bounded = (value: number | undefined, fallback: number, min: number, max: number) =>
-  Number.isFinite(value) ? Math.min(max, Math.max(min, value!)) : fallback;
 
 /** Internal shared spring parameters; no browser globals are read during import. */
 export function resolveGlassSpring(options: GlassSpringOptions = {}): SpringParameters {
@@ -117,15 +117,10 @@ export function attachGlassMotion(element: HTMLElement, initial: GlassMotionOpti
     pressScale: bounded(next.pressScale, .94, .85, 1), stretch: bounded(next.stretch, .035, 0, .08), reducedMotion: next.reducedMotion ?? false });
   let options = resolve(initial);
   let destroyed = false, pressed = false, appearanceTarget = 1;
-  let activePointer: number | null = null;
-  let activeKey: string | null = null;
   let direction = 0;
   let pending: ((completed: boolean) => void) | undefined;
   const keys = ['scale', 'opacity', 'transition', '--lg-motion-scale-x', '--lg-motion-scale-y', '--lg-motion-opacity', '--lg-motion-light-x', '--lg-motion-light-y'];
-  const originalStyles = keys.map(key => [key, element.style.getPropertyValue(key), element.style.getPropertyPriority(key)]);
-  const originalState = element.getAttribute('data-lg-motion');
-  const originalPress = element.getAttribute('data-lg-motion-pressed');
-  const hadClass = element.classList.contains('lg-motion');
+  const restore = captureState(element, keys, ['data-lg-motion', 'data-lg-motion-pressed'], 'lg-motion');
   const originalOpacity = [element.style.getPropertyValue('opacity'), element.style.getPropertyPriority('opacity')];
   const computedAlpha = Number.parseFloat(view.getComputedStyle(element).opacity);
   const alpha = Number.isFinite(computedAlpha) ? computedAlpha : 1;
@@ -169,40 +164,31 @@ export function attachGlassMotion(element: HTMLElement, initial: GlassMotionOpti
     element.setAttribute('data-lg-motion-pressed', 'true'); element.setAttribute('data-lg-motion', 'pressed'); target();
   };
   const release = () => {
-    activePointer = null; activeKey = null;
+    input.reset();
     if (destroyed || !pressed) return;
     pressed = false; element.removeAttribute('data-lg-motion-pressed');
     element.style.removeProperty('--lg-motion-light-x'); element.style.removeProperty('--lg-motion-light-y'); target();
   };
   const materialize = (visible: boolean) => {
     if (destroyed || !element.isConnected) return Promise.resolve(false);
-    resolvePending(false); pressed = false; activePointer = null; activeKey = null; element.removeAttribute('data-lg-motion-pressed');
+    resolvePending(false); pressed = false; input.reset(); element.removeAttribute('data-lg-motion-pressed');
     if (visible && appearanceTarget === 1 && !spring.active && !reducedMotion()) spring.reset([.92, .92, 0]);
     appearanceTarget = visible ? 1 : 0;
     element.setAttribute('data-lg-motion', visible ? 'enter' : 'exit');
     element.style.setProperty('opacity', `calc(var(--lg-motion-opacity, 1) * ${alpha})`);
     return new Promise<boolean>(resolve => { pending = resolve; target(); });
   };
-  const pointerDown = (event: PointerEvent) => {
-    if (activePointer !== null || activeKey !== null || event.isPrimary === false || !isGlassPressTarget(element, event) || element.matches(':disabled, [aria-disabled="true"]') || (event.button !== undefined && event.button !== 0)) return;
-    const rect = element.getBoundingClientRect(); press({ x: event.clientX - rect.left, y: event.clientY - rect.top });
-    if (pressed) activePointer = glassPointerId(event);
-  };
-  const pointerRelease = (event: PointerEvent) => { if (activePointer !== null && (event.pointerId === undefined || glassPointerId(event) === activePointer)) release(); };
-  const keyDown = (event: KeyboardEvent) => {
-    if (activePointer === null && activeKey === null && event.target === element && !event.repeat && (event.key === 'Enter' || event.key === ' ') && element.matches('button, a[href], [role="button"]')) { press(); if (pressed) activeKey = event.key; }
-  };
-  const keyUp = (event: KeyboardEvent) => { if (event.target === element && event.key === activeKey) release(); };
+  const input = attachGlassPressInput(element, view, event => {
+    const rect = event && element.getBoundingClientRect();
+    press(event && rect ? { x: event.clientX - rect.left, y: event.clientY - rect.top } : undefined); return pressed;
+  }, release);
   const preferenceChanged = () => {
     if (destroyed) return;
-    pressed = false; activePointer = null; activeKey = null; element.removeAttribute('data-lg-motion-pressed');
+    pressed = false; input.reset(); element.removeAttribute('data-lg-motion-pressed');
     element.style.removeProperty('--lg-motion-light-x'); element.style.removeProperty('--lg-motion-light-y');
     target();
   };
   reduced?.addEventListener('change', preferenceChanged);
-  element.addEventListener('pointerdown', pointerDown); element.addEventListener('keydown', keyDown); element.addEventListener('keyup', keyUp);
-  element.addEventListener('lostpointercapture', pointerRelease); element.addEventListener('focusout', release);
-  view.addEventListener('pointerup', pointerRelease); view.addEventListener('pointercancel', pointerRelease); view.addEventListener('blur', release);
   return {
     press, release,
     enter: () => materialize(true), exit: () => materialize(false),
@@ -210,13 +196,8 @@ export function attachGlassMotion(element: HTMLElement, initial: GlassMotionOpti
     destroy() {
       if (destroyed) return; destroyed = true; spring.stop(); resolvePending(false);
       reduced?.removeEventListener('change', preferenceChanged);
-      element.removeEventListener('pointerdown', pointerDown); element.removeEventListener('keydown', keyDown); element.removeEventListener('keyup', keyUp);
-      element.removeEventListener('lostpointercapture', pointerRelease); element.removeEventListener('focusout', release);
-      view.removeEventListener('pointerup', pointerRelease); view.removeEventListener('pointercancel', pointerRelease); view.removeEventListener('blur', release);
-      if (!hadClass) element.classList.remove('lg-motion');
-      for (const [key, value, priority] of originalStyles) value ? element.style.setProperty(key, value, priority) : element.style.removeProperty(key);
-      if (originalState === null) element.removeAttribute('data-lg-motion'); else element.setAttribute('data-lg-motion', originalState);
-      if (originalPress === null) element.removeAttribute('data-lg-motion-pressed'); else element.setAttribute('data-lg-motion-pressed', originalPress);
+      input.destroy();
+      restore();
     },
   };
 }

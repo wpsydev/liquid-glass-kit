@@ -9,6 +9,8 @@ Respect the user's existing UI library and dependency choices. This skill suppor
 
 Check whether the npm package is published before recommending registry installation. The preview can be installed from `github:wpsydev/liquid-glass-kit` once that repository exists. Import `@wpsydev/liquid-glass/styles.css` once.
 
+The 0.9 update retains existing APIs. Static attachGlass controllers avoid input listeners, ResizeObservers and animation frames; per-Window media listeners are shared and cleaned up. Read docs/PERFORMANCE.md for measured controller-lifecycle scope and tradeoffs; no frame-rate, battery or all-phone speed promise follows.
+
 Choose the smallest integration: `.lg-glass` for static CSS and existing headless surfaces, `/react` or `/vue` for those frameworks, `glass` as a Svelte action, or `attachGlass` after mount with destroy on cleanup. Core imports are SSR-safe; attaching requires a browser element.
 
 Read the shipped `llms-full.txt` from the package/repository for exact API defaults and framework examples. If using web documentation, the canonical location after deployment is https://wpsydev.github.io/liquid-glass-kit/llms-full.txt. Do not invent unavailable exports.

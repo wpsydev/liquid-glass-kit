@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.9.0-preview.1 — Less idle work
+
+- Static material controllers allocate no input listeners, resize observers or RAFs. Four live media listeners and capability hints are shared per Window; optional interaction and refraction resources follow option/accessibility changes.
+- Updates normalize material options once and skip unchanged owned fields. React, Vue and custom elements share a lifecycle that avoids duplicate initial and equivalent updates. Semantic press ownership, numeric bounds and reversible state/listener cleanup are reused across helpers.
+- Scroll edges retain their observed children during attribute/text changes, refresh membership only when direct children change, and skip unchanged decoration writes.
+- Clean package builds omit maps pointing at unshipped sources. The README begins with CSS-only usage; APIs/defaults remain compatible.
+- Reproducible resource/source/bundle audit and native Chromium measurements: 100 static controllers mount in median 1.70 → 0.90 ms; complete synchronous lifecycle 3.70 → 2.20 ms across 31 paired runs. Library source 1,567 → 1,561 nonblank lines. Consumer JS bundles grew slightly; these are controller controller timing results, not FPS, phone, GPU or whole-app gains. See docs/PERFORMANCE.md for raw samples and limits.
+
+Migration: existing imports and replacement-style updates remain unchanged. Source/declaration maps are no longer shipped; source remains in the repository. Optional adapters/scene keep their entrypoints; reduced preferences and native semantic behavior remain intact.
+
 ## 0.8.0-preview.1 — Fast microinteractions
 
 - Added optional `attachGlassTransition` and `GlassTransitionOptions`: up/down/left/right timed entry and exit, restrained confirmation and error feedback, completion booleans and explicit cancellation.

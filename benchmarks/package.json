@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "method": "npm pack JSON metadata, same installed dependency tree. Exact local pre-promotion archives; source/declaration maps omitted only in current. Archive documentation changes are included; no network timing measured.",
+  "reports": {
+    "baseline": {
+      "version": "0.8.0-preview.1",
+      "archiveBytes": 131590,
+      "unpackedBytes": 451618,
+      "packageFiles": 81,
+      "libraryDistBytes": 199091,
+      "libraryDistFiles": 53,
+      "mapFiles": 26,
+      "integrity": "sha512-rCq3iHHN2DjEipbhgL4fwVijKdmd2qm/f2zJZ76Vihumm1ztEf3g/o5+jHjcC5dhA1ec6vhSloEH91aBNlYLkw==",
+      "filename": "wpsydev-liquid-glass-0.8.0-preview.1.tgz"
+    },
+    "current": {
+      "version": "0.9.0-preview.1",
+      "archiveBytes": 119371,
+      "unpackedBytes": 363911,
+      "packageFiles": 64,
+      "libraryDistBytes": 104995,
+      "libraryDistFiles": 35,
+      "mapFiles": 0,
+      "integrity": "sha512-mfr056EfWmX1mMjP9co1bcYWREuTCKidEOq9NEPb0jIQ4kZd72178M4mQJmQ6ngbz+JfaIMaSsJn72j/RD6qQg==",
+      "filename": "wpsydev-liquid-glass-0.9.0-preview.1.tgz"
+    }
+  }
+}

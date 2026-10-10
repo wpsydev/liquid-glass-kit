@@ -1,3 +1,4 @@
+import { bounded } from './numeric.js';
 export interface GlassOptions {
   /** Regular is the readable default; clear needs a controlled media backdrop. */
   variant?: 'regular' | 'clear';
@@ -23,8 +24,6 @@ export interface GlassOptions {
   reducedTransparency?: boolean;
 }
 export type ResolvedGlassOptions = Required<GlassOptions>;
-const finite = (value: number | undefined, fallback: number, min: number, max: number) =>
-  Number.isFinite(value) ? Math.min(max, Math.max(min, value!)) : fallback;
 const tone = (value: unknown) => value === 'light' || value === 'dark' ? value : 'auto';
 export function resolveOptions(options: GlassOptions = {}): ResolvedGlassOptions {
   const variant = options.variant === 'clear' ? 'clear' : 'regular';
@@ -32,21 +31,24 @@ export function resolveOptions(options: GlassOptions = {}): ResolvedGlassOptions
     variant,
     appearance: tone(options.appearance),
     backdrop: tone(options.backdrop),
-    radius: finite(options.radius, 24, 0, 999),
+    radius: bounded(options.radius, 24, 0, 999),
     corner: options.corner === 'continuous' ? 'continuous' : 'round',
-    blur: finite(options.blur, variant === 'clear' ? 6 : 18, 0, 64),
-    saturation: finite(options.saturation, 1.35, 0, 3),
-    opacity: finite(options.opacity, 1, 0, 1),
+    blur: bounded(options.blur, variant === 'clear' ? 6 : 18, 0, 64),
+    saturation: bounded(options.saturation, 1.35, 0, 3),
+    opacity: bounded(options.opacity, 1, 0, 1),
     tint: typeof options.tint === 'string' && /^#(?:[a-f\d]{3}|[a-f\d]{6})$/i.test(options.tint) ? options.tint.toLowerCase() : '#ffffff',
-    tintOpacity: finite(options.tintOpacity, 0, 0, 1),
-    refraction: finite(options.refraction, 0, 0, 60),
+    tintOpacity: bounded(options.tintOpacity, 0, 0, 1),
+    refraction: bounded(options.refraction, 0, 0, 60),
     interactive: options.interactive ?? false,
     reducedTransparency: options.reducedTransparency ?? false,
   };
 }
 /** Pure and SSR-safe. Spread attributes; CSS variables belong on style. */
 export function getGlassProps(options: GlassOptions = {}) {
-  const o = resolveOptions(options);
+  return getResolvedGlassProps(resolveOptions(options));
+}
+/** Internal renderer path: normalize each update once. */
+export function getResolvedGlassProps(o: ResolvedGlassOptions) {
   return {
     className: 'lg-glass',
     'data-lg-variant': o.variant,
@@ -63,5 +65,5 @@ export function getGlassProps(options: GlassOptions = {}) {
 }
 /** Concentric circular-corner approximation, in CSS pixels; also useful as a nesting token. */
 export function getGlassInnerRadius(outerRadius: number, inset: number): number {
-  return Math.max(0, finite(outerRadius, 0, 0, 999) - finite(inset, 0, 0, 999));
+  return Math.max(0, bounded(outerRadius, 0, 0, 999) - bounded(inset, 0, 0, 999));
 }

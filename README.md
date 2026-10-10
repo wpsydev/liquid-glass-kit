@@ -1,167 +1,94 @@
 # Liquid Glass Kit
 
-**Liquid Glass for the web, in any stack.** A small CSS and TypeScript material system with React and Vue adapters, a Svelte action, and accessible solid fallbacks.
+**CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.8.0 microinteraction preview**, not a pixel-identical recreation of Apple's renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.9 performance preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
-![Liquid Glass Kit material workbench](docs/assets/studio.webp)
+![Material workbench](docs/assets/studio.webp)
 
-[Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [Mobile studio](https://wpsydev.github.io/liquid-glass-kit/mobile/) · [Mobile design guide](docs/MOBILE.md) · [Optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/) · [Motion lab](https://wpsydev.github.io/liquid-glass-kit/motion/) · [Behavior lab](https://wpsydev.github.io/liquid-glass-kit/behavior/) · [Interactive demos](https://wpsydev.github.io/liquid-glass-kit/campaign/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Apple feature audit](docs/APPLE_PARITY.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
+[Playground](https://wpsydev.github.io/liquid-glass-kit/) · [API](docs/API.md) · [Integrations](docs/INTEGRATIONS.md) · [Agent guide](llms-full.txt) · [Performance evidence](docs/PERFORMANCE.md)
 
-[Watch the twelve-second redesign video with its original upbeat soundtrack](https://x.com/wpsygames/status/2108976875443810436).
+## Start with CSS
 
-The new material workbench and listening room use paper, ink, restrained glass and selected MIT GitLab SVGs. [Design contract](docs/DESIGN.md) · [GitLab UI research and selection](docs/UI_RESEARCH.md).
-
-[AI app interface studies](https://wpsydev.github.io/liquid-glass-kit/ai-design/) demonstrate evidence beside research answers, selective writing edits, and recoverable agent work. The [AI app design resource guide](docs/AI_APP_DESIGN.md) gives coding agents verified resources and a task brief. These are interactive UI studies with sample data, not connected model services.
-
-[Anchored overlays](https://wpsydev.github.io/liquid-glass-kit/overlays/) add viewport-aware placement for citations, source pickers and contextual panels. [Overlay guide](docs/OVERLAYS.md) includes native-popover and React/Vue lifecycle recipes.
-
-[Microinteraction studio](https://wpsydev.github.io/liquid-glass-kit/micro-motion/) shows four directional reveals and short confirmation/error feedback on one screen. Use the optional [transition helper](docs/MICRO_MOTION.md) for fast timed cues; the [toolbox research](docs/MICRO_MOTION_RESEARCH.md) compares Motion, GSAP, Anime.js, Rive, Lottie and native Web Animations.
-
-[Watch the 12-second microinteraction video and toolbox thread on X](https://x.com/wpsygames/status/2109015324276465803).
-
-## Why another glass library?
-
-The material should fit your app's stack and semantics. Liquid Glass Kit separates the **portable material** from **experimental optical enhancement**:
-
-- **CSS first:** frosted backdrop, luminous edges, shadows, light/dark appearances, no runtime dependencies in the core.
-- **Optional interaction:** pointer, touch and keyboard press feedback; rounded-rectangle SVG lensing on eligible Chromium engines. Never refract foreground text.
-- **Material controls:** fill strength, semantic tint and explicit backdrop tone; accessibility preferences retain precedence.
-- **Spring motion:** tactile press/release, spring reveals and velocity-preserving selection retargeting; explicit/system reduced-motion fallbacks.
-- **Fast microinteractions:** optional 180 ms directional reveals and one-shot confirmation/error cues, with cancellation and live reduced-motion support; no animation runtime dependency.
-- **Mobile details:** owned touch presses, continuous corner enhancement with round fallback, concentric radius helpers, and opt-in safe-area/viewport/target utilities.
-- **Anchored overlays:** edge flipping, RTL alignment, visible-viewport bounds and trigger-based spring origins; native/headless controls retain focus and dismissal.
-- **Navigation primitives:** one moving decorative glass backing and scroll-aware soft/hard edge scrims; preserve foreground semantics.
-- **Keep native controls:** buttons remain buttons, navigation remains navigation, dialogs retain their focus behavior.
-- **SSR-safe:** no browser globals at import; deterministic server markup and enhancement after mount.
-- **Agent-ready:** typed exports, `llms.txt`, a complete plain-text integration guide, recipes, and an installable skill.
-
-## Install
-
-npm publication is pending. Until then, install from the repository (requires Node 22.12+ for the build):
+The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit
+npm install github:wpsydev/liquid-glass-kit#v0.9.0-preview.1
 ```
 
-Once published, the package name will be `@wpsydev/liquid-glass`. Import the stylesheet once:
+Import the stylesheet once at your app root:
 
-```tsx
+```js
 import '@wpsydev/liquid-glass/styles.css';
-import { GlassSurface, GlassButton } from '@wpsydev/liquid-glass/react';
-
-export function Navigation() {
-  return (
-    <GlassSurface as="nav" className="lg-panel" aria-label="Main">
-      <a href="/">Home</a>
-    </GlassSurface>
-  );
-}
-
-export function SaveButton() {
-  return <GlassButton onClick={() => save()}>Save</GlassButton>;
-}
-// Provide your application's save() implementation.
 ```
 
-Or use CSS alone on any semantic HTML element:
+Add one class to an existing semantic surface. No JavaScript controller is required for static glass:
 
 ```html
-<nav class="lg-glass lg-panel" data-lg-appearance="light"
-  style="--lg-radius: 28px" aria-label="Main">
+<nav class="lg-glass lg-panel" aria-label="Main">
   <a href="/">Home</a>
 </nav>
 ```
 
-Add interactions only when needed:
+Keep dense content solid. Use glass for small floating controls, navigation, composers and overlays. Test contrast on your actual background; `regular` is the default. `clear` requires a controlled dimmed media backdrop. [Design guide](docs/DESIGN.md).
+
+## Add only what the interaction needs
+
+React and Vue are optional peers. Existing native or headless controls keep their keyboard, focus, disabled and dismissal behavior.
+
+```tsx
+import { GlassButton, GlassSurface } from '@wpsydev/liquid-glass/react';
+
+<GlassSurface as="nav" aria-label="Main">...</GlassSurface>
+<GlassButton motion={{ damping: 22 }} onClick={save}>Save</GlassButton>
+// save is your application's handler. Motion is opt-in.
+```
+
+For HTML or another framework, attach after mount and destroy on cleanup:
 
 ```ts
 import { attachGlass } from '@wpsydev/liquid-glass';
 
-const controller = attachGlass(document.querySelector<HTMLElement>('.my-toolbar')!, {
-  interactive: true,
-  tint: '#34d399', tintOpacity: 0.16,
-  opacity: 0.8, backdrop: 'dark', // App-supplied tone hint, not DOM sampling.
-  refraction: 20, // Experimental live-backdrop lens; CSS fallback elsewhere.
-});
-controller.update({ appearance: 'dark', interactive: true }); // Replaces options.
-controller.destroy(); // Restores owned styles/attributes and removes observers.
+const surface = attachGlass(toolbar, { radius: 28, interactive: true });
+surface.update({ radius: 28, interactive: true, appearance: 'dark' });
+// update replaces the full configuration; omitted fields return to defaults.
+surface.destroy();
 ```
 
-## Framework coverage
-
-| Stack | Integration |
+| Need | Smallest integration |
 | --- | --- |
-| React 18+, Next.js, Remix / React Router | `@wpsydev/liquid-glass/react` client components, server-safe rendering |
-| Vue 3, Nuxt | `@wpsydev/liquid-glass/vue` adapter |
-| Svelte, SvelteKit | `glass` action + CSS class for initial SSR styling |
-| Astro, HTML, static sites | CSS alone; optional DOM enhancement |
-| Angular, Solid, Qwik, Lit | CSS with lifecycle-managed `attachGlass`; recipes provided |
-| Tailwind, shadcn/ui, Radix, Base UI | Add `lg-glass` to the existing semantic surface; preserve their interactions |
+| Static glass / Astro / Tailwind / existing primitives | `.lg-glass` + stylesheet |
+| React / Next.js / Remix | `/react`: `GlassSurface`, `GlassButton` |
+| Vue / Nuxt | `/vue`: `GlassSurface` |
+| Svelte / SvelteKit | `glass` action + SSR CSS class |
+| Other frameworks | `attachGlass` in the mount/unmount lifecycle |
+| Fast reveals or status feedback | Optional `attachGlassTransition` |
+| Elastic press or selection | Optional `attachGlassMotion` / `attachGlassIndicator` |
+| Anchored overlay / scroll boundary | Optional `attachGlassOverlay` / `attachGlassScrollEdge` |
+| Owned procedural optical scene | Experimental `/scene`; keep CSS fallback |
 
-Dedicated adapters are tested for React and Vue. Other integrations are recipes, not independently certified runtime adapters. React and Vue are optional peers; plain HTML users need neither.
+Dedicated adapters are tested for React and Vue; other stacks have [recipes](docs/INTEGRATIONS.md). No new public API is required for the performance update. Static controllers avoid input listeners, resize observers and animation frames; preference listeners are shared per browser window. Adapters share one lifecycle and skip unchanged updates. See the [reproducible benchmark and limits](docs/PERFORMANCE.md).
 
-## Design with intention
+## Examples and boundaries
 
-Use glass for floating navigation, toolbars, media controls, chat composers, menus, and overlays. Keep dense content and long text on solid surfaces. Avoid nested glass. `regular` is the default; `clear` needs a controlled, dimmed media background and bold bright content. Transparent backgrounds cannot guarantee contrast over arbitrary content: test your real screen and offer the solid preference.
+[Mobile widgets](https://wpsydev.github.io/liquid-glass-kit/mobile/) · [Springs](https://wpsydev.github.io/liquid-glass-kit/motion/) · [Fast cues](https://wpsydev.github.io/liquid-glass-kit/micro-motion/) · [Overlays](https://wpsydev.github.io/liquid-glass-kit/overlays/) · [AI app studies](https://wpsydev.github.io/liquid-glass-kit/ai-design/) · [Optics experiment](https://wpsydev.github.io/liquid-glass-kit/optics/)
 
-The library respects reduced motion, reduced transparency where supported, increased contrast, forced colors, and printing. An explicit `reducedTransparency` option covers browsers that do not expose the preference. See the [use-case matrix](docs/USE_CASES.md) for dialog, popover, table, video, portal, CSP, and mobile guidance.
+The material respects reduced motion, supported reduced transparency, increased contrast, forced colors and printing. Set `reducedTransparency` explicitly when needed. Mobile helpers cover minimum targets, wrapping, safe-area spacing and coordinated corners; they do not certify every phone or software keyboard. [Mobile guide](docs/MOBILE.md) · [Browser limits](docs/COMPATIBILITY.md) · [Use cases](docs/USE_CASES.md).
+
+SVG refraction is an opt-in Chromium experiment. The separate WebGL2 scene refracts its own procedural wallpaper, not arbitrary DOM. Automatic backdrop sampling, optical merging, native scattering and OS integration remain outside this library. [Apple feature audit](docs/APPLE_PARITY.md).
 
 ## For coding agents
 
-Read [llms-full.txt](llms-full.txt) for the API and integration choices. The skill at [`skills/liquid-glass/SKILL.md`](skills/liquid-glass/SKILL.md) has a focused Liquid Glass/glassmorphism discovery description and practical constraints. Copy the folder into your agent's skill directory or use a compatible skill installer. Discovery files aid integration; they do not force agents or search engines to recommend a package.
+Start with [llms-full.txt](llms-full.txt) for exact exports, defaults and lifecycle recipes. The installable [Liquid Glass skill](skills/liquid-glass/SKILL.md) gives design and integration constraints. Choose CSS alone for static surfaces; preserve the host app's design system and semantic behavior. Discovery files aid integration without guaranteeing indexing or recommendations.
 
 ## Development
 
 ```sh
 npm ci
-npm run dev       # Playground at http://localhost:5173
-npm run check     # Types, unit/SSR tests, package build, site build
-npm pack         # Inspect the distributable
+npm run dev       # Interactive playground
+npm run check     # Types, unit/SSR tests, library and site builds
+npm pack --dry-run
+node scripts/benchmark.mjs --help  # Reproducible comparison; see performance guide
 ```
 
-Built with TypeScript, Vite, Vitest, browser-native CSS/SVG, and optional framework peers. ESM only. [Contributions](CONTRIBUTING.md) and reproducible browser reports welcome. [MIT](LICENSE).
-
-## What's new in the behavior preview
-
-An [Apple feature audit](docs/APPLE_PARITY.md) compares 38 native behaviors with the earlier implementation and records current WWDC26 refinements. This iteration adds density/tint/tone controls, touch and keyboard press feedback, `attachGlassIndicator` for moving backing geometry, and `attachGlassScrollEdge` for scroll-aware separation. React/Vue tag changes now rebind safely. Clear defaults to 6px blur; regular remains 18px. The old whole-content edge mask is removed. See [CHANGELOG.md](CHANGELOG.md) for migration details.
-
-Automatic backdrop sampling, arbitrary optical merging, native thickness/scattering, ambient light transport and native OS integrations remain outside this preview. The new helpers are accessible web approximations; [try their behavior](https://wpsydev.github.io/liquid-glass-kit/behavior/).
-
-[Watch the behavior walkthrough](docs/campaign/assets/behavior-showcase.mp4) · [Published X demo](https://x.com/wpsygames/status/2108948352230703519)
-
-![Live behavior lab: material tuning, selection geometry and scroll separation](docs/assets/behavior-lab.webp)
-
-## Experimental scene optics
-
-[![Interactive neon optics lab](docs/assets/optics-lab.webp)](https://wpsydev.github.io/liquid-glass-kit/optics/)
-
-Watch the [26-second optics video](https://x.com/wpsygames/status/2108961116877664553). The [neon optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/) bends an animated, shader-owned background through rounded glass lenses. Screen-space sampling keeps the scene aligned as a lens moves; analytic edge normals concentrate displacement near the boundary and leave the center neutral.
-
-Import `attachGlassScene` from `@wpsydev/liquid-glass/scene` after mounting a canvas. This optional WebGL2 experiment has no runtime dependency and does not enter the CSS core bundle. It refracts its own procedural wallpaper; it does not capture arbitrary DOM, images or video. Keep a CSS fallback. Read [scene setup and limitations](docs/SCENE.md).
-
-The technical direction grew from [Okan Doğu Budak's reply](https://x.com/okandogubudak/status/2108947960621146517); the shader, visuals and demo here are an original implementation.
-
-## Motion you can reuse
-
-[![Animated motion playground](docs/assets/motion-lab.webp)](https://wpsydev.github.io/liquid-glass-kit/motion/)
-
-```tsx
-<GlassButton glass={{ interactive: true }} motion={{ damping: 22 }}>
-  Start something
-</GlassButton>
-```
-
-```ts
-import { attachGlass, attachGlassMotion } from '@wpsydev/liquid-glass';
-const material = attachGlass(button, { interactive: true });
-const motion = attachGlassMotion(button, { stiffness: 260, damping: 22 });
-// Press/release feedback is automatic on native controls.
-await motion.enter(); // Visual reveal; your app owns visibility and focus.
-// Cleanup in reverse order:
-motion.destroy(); material.destroy();
-```
-
-Use `attachGlassIndicator(nav, backing, { motion: 'spring' })` for an interruptible selection backing. Targets keep their native semantics; springs preserve current velocity on retargeting. Watch the [28-second motion video on X](https://x.com/wpsygames/status/2108956899718656041). Try the [live motion playground](https://wpsydev.github.io/liquid-glass-kit/motion/) and read the [motion references](docs/MOTION_RESEARCH.md).
-
-These are independently implemented web springs and geometry transitions. They do not reproduce native optical merging or Apple's private renderer. CSS/default ease behavior stays available; the core has no runtime dependency. Motion helpers reserve individual scale, opacity and transition; use a wrapper when composing other animations.
+TypeScript, Vite, Vitest and browser-native CSS/SVG/Web Animations. ESM only. [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md) · [MIT](LICENSE).

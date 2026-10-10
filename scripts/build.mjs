@@ -7,3 +7,4 @@ await copyFile('CHANGELOG.md', 'site/public/CHANGELOG.md');
 await copyFile('llms.txt', 'site/public/llms.txt');
 await copyFile('llms-full.txt', 'site/public/llms-full.txt');
 await cp('docs', 'site/public/docs', { recursive: true });
+await cp('benchmarks', 'site/public/benchmarks', { recursive: true });

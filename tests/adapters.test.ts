@@ -6,6 +6,8 @@ import { GlassButton, GlassSurface as ReactSurface } from '../src/react.js';
 import { GlassSurface } from '../src/vue.js';
 import { registerGlassElement } from '../src/element.js';
 import type { GlassMotionOptions } from '../src/index.js';
+import * as material from '../src/index.js';
+import * as motion from '../src/motion.js';
 
 afterEach(() => { document.body.innerHTML = ''; vi.restoreAllMocks(); vi.unstubAllGlobals(); });
 const movePointer = (element: HTMLElement, x = 25) => {
@@ -208,4 +210,36 @@ it('custom element motion requires presence opt-in and updates attributes across
   document.body.append(element); clock.settle(); expect(element.getAttribute('data-lg-motion')).toBe('idle');
   element.removeAttribute('reduced-motion'); pressMotion(element); element.remove(); clock.settle();
   expect(element.hasAttribute('data-lg-motion')).toBe(false); expect(clock.frames.size).toBe(0);
+});
+
+it('React mounts each controller once, skips equivalent renders and observes in-place options', async () => {
+  vi.stubGlobal('IS_REACT_ACT_ENVIRONMENT', true);
+  const attachMaterial = material.attachGlass, attachMotion = motion.attachGlassMotion;
+  const materialUpdates = vi.fn(), motionUpdates = vi.fn();
+  const materialMounts = vi.spyOn(material, 'attachGlass').mockImplementation((element, options) => {
+    const controller = attachMaterial(element, options), update = controller.update;
+    controller.update = options => { materialUpdates(options); update(options); };
+    return controller;
+  });
+  const motionMounts = vi.spyOn(motion, 'attachGlassMotion').mockImplementation((element, options) => {
+    const controller = attachMotion(element, options), update = controller.update;
+    controller.update = options => { motionUpdates(options); update(options); };
+    return controller;
+  });
+  const clock = motionClock(), host = document.createElement('div'); document.body.append(host);
+  const root = createRoot(host), ref = createRef<HTMLButtonElement>();
+  const glass = { radius: 18 }, physics = { pressScale: .9, stretch: 0 };
+  const render = (label: string) => createElement(GlassButton, { ref, glass, motion: physics }, label);
+  await act(async () => { root.render(render('Save')); });
+  expect(materialMounts).toHaveBeenCalledOnce(); expect(motionMounts).toHaveBeenCalledOnce();
+  expect(materialUpdates).not.toHaveBeenCalled(); expect(motionUpdates).not.toHaveBeenCalled();
+  await act(async () => { root.render(createElement(GlassButton, { ref, glass: { ...glass }, motion: { ...physics } }, 'Saved')); });
+  expect(materialUpdates).not.toHaveBeenCalled(); expect(motionUpdates).not.toHaveBeenCalled();
+  glass.radius = 24; physics.pressScale = .97;
+  await act(async () => { root.render(render('Save again')); });
+  expect(materialUpdates).toHaveBeenCalledOnce(); expect(motionUpdates).toHaveBeenCalledOnce();
+  expect(ref.current!.style.getPropertyValue('--lg-radius')).toBe('24px');
+  pressMotion(ref.current!); clock.settle(); expect(ref.current!.style.getPropertyValue('--lg-motion-scale-x')).toBe('0.97');
+  await act(async () => { root.unmount(); });
+  expect(clock.frames.size).toBe(0); expect(ref.current).toBe(null);
 });

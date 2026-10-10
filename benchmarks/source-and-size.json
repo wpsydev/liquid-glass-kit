@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-10T20:43:53.038Z",
+  "node": "v24.21.0",
+  "bundler": {
+    "vite": "8.3.4"
+  },
+  "sourceScope": "All nonblank lines under src ending .ts, .tsx or .css, including comments; tests, docs, demos and generated dist excluded.",
+  "baseline": {
+    "commit": "49e2b19eaec04844a04f92bac590df5308c4e60e",
+    "sourceSha256": "0f21556ee82aad93a332d3f681c9154245eac51b7cdfaf925255f18bed753189",
+    "workingTreeChanges": [],
+    "nonblankSourceLines": 1567,
+    "files": {
+      "element.ts": 46,
+      "index.ts": 140,
+      "indicator.css": 3,
+      "indicator.ts": 143,
+      "input.ts": 13,
+      "material.ts": 67,
+      "micro-motion.ts": 145,
+      "motion.css": 7,
+      "motion.ts": 217,
+      "optics.ts": 27,
+      "overlay.ts": 127,
+      "react.tsx": 42,
+      "scene.ts": 314,
+      "scroll-edge.css": 51,
+      "scroll-edge.ts": 100,
+      "styles.css": 96,
+      "vue.ts": 29
+    },
+    "bundles": {
+      "attachGlass": {
+        "minifiedBytes": 7748,
+        "gzipBytes": 3064,
+        "target": "es2022",
+        "format": "iife",
+        "gzipLevel": 9,
+        "cssIncluded": false
+      },
+      "getGlassProps": {
+        "minifiedBytes": 1256,
+        "gzipBytes": 638,
+        "target": "es2022",
+        "format": "iife",
+        "gzipLevel": 9,
+        "cssIncluded": false
+      }
+    }
+  },
+  "current": {
+    "commit": "49e2b19eaec04844a04f92bac590df5308c4e60e",
+    "sourceSha256": "601ade5c20f324630d99449d5f9508def7479b09edd922f0f89961c14760b065",
+    "workingTreeChanges": [
+      "M src/element.ts",
+      " M src/index.ts",
+      " M src/indicator.ts",
+      " M src/input.ts",
+      " M src/material.ts",
+      " M src/micro-motion.ts",
+      " M src/motion.ts",
+      " M src/overlay.ts",
+      " M src/react.tsx",
+      " M src/scene.ts",
+      " M src/scroll-edge.ts",
+      " M src/vue.ts",
+      "?? src/binding.ts",
+      "?? src/environment.ts",
+      "?? src/lifecycle.ts",
+      "?? src/numeric.ts"
+    ],
+    "nonblankSourceLines": 1561,
+    "files": {
+      "binding.ts": 27,
+      "element.ts": 36,
+      "environment.ts": 34,
+      "index.ts": 114,
+      "indicator.css": 3,
+      "indicator.ts": 122,
+      "input.ts": 42,
+      "lifecycle.ts": 17,
+      "material.ts": 69,
+      "micro-motion.ts": 142,
+      "motion.css": 7,
+      "motion.ts": 198,
+      "numeric.ts": 3,
+      "optics.ts": 27,
+      "overlay.ts": 118,
+      "react.tsx": 32,
+      "scene.ts": 307,
+      "scroll-edge.css": 51,
+      "scroll-edge.ts": 94,
+      "styles.css": 96,
+      "vue.ts": 22
+    },
+    "bundles": {
+      "attachGlass": {
+        "minifiedBytes": 7847,
+        "gzipBytes": 3350,
+        "target": "es2022",
+        "format": "iife",
+        "gzipLevel": 9,
+        "cssIncluded": false
+      },
+      "getGlassProps": {
+        "minifiedBytes": 1274,
+        "gzipBytes": 643,
+        "target": "es2022",
+        "format": "iife",
+        "gzipLevel": 9,
+        "cssIncluded": false
+      }
+    }
+  }
+}

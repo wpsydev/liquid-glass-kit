@@ -19,6 +19,7 @@ export default defineConfig({
         aiDesign: resolve('site/ai-design/index.html'),
         overlays: resolve('site/overlays/index.html'),
         microMotion: resolve('site/micro-motion/index.html'),
+        performance: resolve('site/performance/index.html'),
       },
     },
   },

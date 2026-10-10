@@ -1,3 +1,6 @@
+import { bounded } from './numeric.js';
+import { captureState, listen } from './lifecycle.js';
+
 /** A surface in an owned WebGL scene. Coordinates and optics use CSS pixels. */
 export interface GlassSceneSurface {
   element: HTMLElement;
@@ -16,8 +19,6 @@ export interface GlassSceneOptions {
 }
 
 const MAX_SURFACES = 8;
-const bounded = (value: number | undefined, fallback: number, low: number, high: number) =>
-  typeof value === 'number' && Number.isFinite(value) ? Math.min(high, Math.max(low, value)) : fallback;
 const vertexSource = `#version 300 es
 precision highp float;
 void main() {
@@ -164,8 +165,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   let lastTimestamp: number | null = null;
   let options: GlassSceneOptions = {};
   let surfaces: GlassSceneSurface[] = [];
-  const originalWidth = canvas.getAttribute('width');
-  const originalHeight = canvas.getAttribute('height');
+  const restore = captureState(canvas, [], ['width', 'height']);
   const reduced = view.matchMedia?.('(prefers-reduced-motion: reduce)');
   const transparency = view.matchMedia?.('(prefers-reduced-transparency: reduce)');
   const contrast = view.matchMedia?.('(prefers-contrast: more)');
@@ -291,13 +291,11 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   };
   const lost = (event: Event) => { event.preventDefault(); supported = false; stop(); };
   const restored = () => { if (destroyed) return; supported = initialize(); refresh(); };
-  const visibilityChanged = () => { refresh(); };
-  canvas.addEventListener('webglcontextlost', lost);
-  canvas.addEventListener('webglcontextrestored', restored);
-  doc.addEventListener('visibilitychange', visibilityChanged);
-  view.addEventListener('resize', refresh);
-  view.addEventListener('scroll', refresh, true);
-  for (const query of media) query?.addEventListener('change', refresh);
+  const unlisten = listen([
+    [canvas, 'webglcontextlost', lost], [canvas, 'webglcontextrestored', restored],
+    [doc, 'visibilitychange', refresh], [view, 'resize', refresh], [view, 'scroll', refresh, true],
+    ...media.flatMap(query => query ? [[query, 'change', refresh] as const] : []),
+  ]);
   update(initial);
   return {
     get supported() { return supported && !destroyed; },
@@ -310,13 +308,9 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
     destroy() {
       if (destroyed) return;
       destroyed = true; supported = false; stop(); observer?.disconnect();
-      canvas.removeEventListener('webglcontextlost', lost); canvas.removeEventListener('webglcontextrestored', restored);
-      doc.removeEventListener('visibilitychange', visibilityChanged);
-      view.removeEventListener('resize', refresh); view.removeEventListener('scroll', refresh, true);
-      for (const query of media) query?.removeEventListener('change', refresh);
+      unlisten();
       releaseGpu();
-      if (originalWidth === null) canvas.removeAttribute('width'); else canvas.setAttribute('width', originalWidth);
-      if (originalHeight === null) canvas.removeAttribute('height'); else canvas.setAttribute('height', originalHeight);
+      restore();
     },
   };
 }

@@ -1,3 +1,6 @@
+import { bounded } from './numeric.js';
+import { captureState, listen } from './lifecycle.js';
+
 export interface GlassOverlayOptions {
   /** Preferred vertical side; flips when the opposite side offers more room. */
   placement?: 'top' | 'bottom';
@@ -11,17 +14,18 @@ export interface GlassOverlayOptions {
   matchWidth?: boolean;
 }
 
-const bounded = (value: number | undefined, fallback: number) =>
-  Number.isFinite(value) ? Math.max(0, Math.min(128, value!)) : fallback;
 const resolve = (options: GlassOverlayOptions) => ({
   placement: options.placement === 'top' ? 'top' as const : 'bottom' as const,
   align: options.align === 'center' || options.align === 'end' ? options.align : 'start' as const,
-  gap: bounded(options.gap, 8), padding: bounded(options.padding, 16), matchWidth: options.matchWidth ?? false,
+  gap: bounded(options.gap, 8, 0, 128), padding: bounded(options.padding, 16, 0, 128), matchWidth: options.matchWidth ?? false,
 });
-const properties = ['position', 'inset', 'inset-block', 'inset-inline', 'inset-block-start', 'inset-block-end', 'inset-inline-start', 'inset-inline-end', 'left', 'top', 'right', 'bottom',
-  'margin', 'margin-block', 'margin-inline', 'margin-block-start', 'margin-block-end', 'margin-inline-start', 'margin-inline-end', 'margin-top', 'margin-right', 'margin-bottom', 'margin-left', 'box-sizing',
-  'min-width', 'min-height', 'max-width', 'max-height', 'width', 'overflow', 'overflow-x', 'overflow-y', 'transform-origin',
-  '--lg-overlay-origin', 'position-anchor', 'position-area', 'position-try-fallbacks'];
+const fixedStyles: Record<string, string> = {
+  ...Object.fromEntries(['inset', 'inset-block', 'inset-inline', 'inset-block-start', 'inset-block-end', 'inset-inline-start', 'inset-inline-end', 'left', 'top', 'right', 'bottom'].map(key => [key, 'auto'])),
+  ...Object.fromEntries(['margin', 'margin-block', 'margin-inline', 'margin-block-start', 'margin-block-end', 'margin-inline-start', 'margin-inline-end', 'margin-top', 'margin-right', 'margin-bottom', 'margin-left'].map(key => [key, '0px'])),
+  position: 'fixed', 'box-sizing': 'border-box', 'min-width': '0px', 'min-height': '0px',
+  overflow: 'auto', 'overflow-x': 'auto', 'overflow-y': 'auto', 'position-anchor': 'auto', 'position-area': 'none', 'position-try-fallbacks': 'none',
+};
+const properties = [...Object.keys(fixedStyles), 'max-width', 'max-height', 'width', 'transform-origin', '--lg-overlay-origin'];
 
 /**
  * Position a same-document, top-layer or ordinary fixed overlay beside an anchor.
@@ -43,15 +47,11 @@ export function attachGlassOverlay(anchor: HTMLElement, overlay: HTMLElement, in
   const original = Array.from(overlay.style).filter(key => properties.includes(key))
     .map(key => [key, overlay.style.getPropertyValue(key), overlay.style.getPropertyPriority(key)] as const);
   const originalPlacement = overlay.getAttribute('data-lg-overlay-placement');
-  const originalWidth = [overlay.style.getPropertyValue('width'), overlay.style.getPropertyPriority('width')] as const;
+  const restoreWidth = captureState(overlay, ['width']);
   let options = resolve(initial), frame = 0, destroyed = false;
   const viewport = view.visualViewport;
   const set = (key: string, value: string) => {
     if (overlay.style.getPropertyValue(key) !== value || overlay.style.getPropertyPriority(key)) overlay.style.setProperty(key, value);
-  };
-  const restoreWidth = () => {
-    if (originalWidth[0]) overlay.style.setProperty('width', originalWidth[0], originalWidth[1]);
-    else overlay.style.removeProperty('width');
   };
   const clamp = (value: number, low: number, high: number) => Math.min(Math.max(low, high), Math.max(low, value));
   const refresh = () => {
@@ -96,20 +96,14 @@ export function attachGlassOverlay(anchor: HTMLElement, overlay: HTMLElement, in
   const Resize = (view as Window & { ResizeObserver?: typeof ResizeObserver }).ResizeObserver;
   const observer = Resize ? new Resize(schedule) : undefined;
   observer?.observe(anchor); observer?.observe(overlay);
-  view.addEventListener('resize', schedule);
-  view.addEventListener('scroll', schedule, { capture: true, passive: true });
-  viewport?.addEventListener('resize', schedule); viewport?.addEventListener('scroll', schedule);
-  overlay.addEventListener('toggle', schedule);
+  const unlisten = listen([
+    [view, 'resize', schedule], [view, 'scroll', schedule, { capture: true, passive: true }], [overlay, 'toggle', schedule],
+    ...(viewport ? [[viewport, 'resize', schedule], [viewport, 'scroll', schedule]] as const : []),
+  ]);
   const update = (next: GlassOverlayOptions = {}) => {
     if (destroyed) return;
     options = resolve(next);
-    set('position', 'fixed'); set('inset', 'auto'); set('margin', '0px');
-    set('inset-block', 'auto'); set('inset-inline', 'auto'); set('margin-block', '0px'); set('margin-inline', '0px');
-    for (const key of ['left', 'top', 'right', 'bottom', 'inset-block-start', 'inset-block-end', 'inset-inline-start', 'inset-inline-end']) set(key, 'auto');
-    for (const key of ['margin-top', 'margin-right', 'margin-bottom', 'margin-left', 'margin-block-start', 'margin-block-end', 'margin-inline-start', 'margin-inline-end']) set(key, '0px');
-    set('box-sizing', 'border-box'); set('min-width', '0px'); set('min-height', '0px');
-    set('overflow', 'auto'); set('overflow-x', 'auto'); set('overflow-y', 'auto');
-    set('position-anchor', 'auto'); set('position-area', 'none'); set('position-try-fallbacks', 'none');
+    for (const [key, value] of Object.entries(fixedStyles)) set(key, value);
     refresh();
   };
   update(initial);
@@ -118,9 +112,7 @@ export function attachGlassOverlay(anchor: HTMLElement, overlay: HTMLElement, in
     destroy() {
       if (destroyed) return;
       destroyed = true; view.cancelAnimationFrame(frame); observer?.disconnect();
-      view.removeEventListener('resize', schedule); view.removeEventListener('scroll', schedule, true);
-      viewport?.removeEventListener('resize', schedule); viewport?.removeEventListener('scroll', schedule);
-      overlay.removeEventListener('toggle', schedule);
+      unlisten();
       for (const key of properties) overlay.style.removeProperty(key);
       for (const [key, value, priority] of original) overlay.style.setProperty(key, value, priority);
       originalPlacement === null ? overlay.removeAttribute('data-lg-overlay-placement') : overlay.setAttribute('data-lg-overlay-placement', originalPlacement);

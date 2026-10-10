@@ -1,5 +1,7 @@
+import { bounded } from './numeric.js';
 import { createGlassSpring, resolveGlassSpring } from './motion.js';
 import type { GlassSpringOptions } from './motion.js';
+import { captureState, listen } from './lifecycle.js';
 
 export interface GlassIndicatorOptions extends GlassSpringOptions {
   /** Geometry transition duration in milliseconds, clamped to 0–1000. */
@@ -12,8 +14,6 @@ export interface GlassIndicatorOptions extends GlassSpringOptions {
   reducedMotion?: boolean;
 }
 
-const bounded = (value: number | undefined, fallback: number, max: number) =>
-  Number.isFinite(value) ? Math.min(max, Math.max(0, value!)) : fallback;
 
 /**
  * Moves one decorative backing between semantic targets. This is a geometry
@@ -29,17 +29,15 @@ export function attachGlassIndicator(container: HTMLElement, backing: HTMLElemen
   if (!view) throw new Error('Glass indicator requires a browser document');
   if (backing.parentElement !== container) throw new RangeError('Glass indicator backing must be a direct child of its container');
   if (backing.children.length || backing.textContent?.trim()) throw new Error('Glass indicator backing must be empty decorative markup');
-  const resolve = (next: GlassIndicatorOptions) => ({ ...resolveGlassSpring(next), duration: bounded(next.duration, 280, 1000), radius: bounded(next.radius, 24, 999), motion: next.motion === 'spring' ? 'spring' : 'ease', reducedMotion: next.reducedMotion ?? false });
+  const resolve = (next: GlassIndicatorOptions) => ({ ...resolveGlassSpring(next), duration: bounded(next.duration, 280, 0, 1000), radius: bounded(next.radius, 24, 0, 999), motion: next.motion === 'spring' ? 'spring' : 'ease', reducedMotion: next.reducedMotion ?? false });
   let options = resolve(initial);
   let target: HTMLElement | null = null;
   let positioned = false;
   let destroyed = false;
   let frame = 0;
   const keys = ['position', 'left', 'top', 'width', 'height', 'visibility', 'pointer-events', 'transition', '--lg-radius'];
-  const originalStyles = keys.map(key => [key, backing.style.getPropertyValue(key), backing.style.getPropertyPriority(key)]);
-  const hadClass = backing.classList.contains('lg-glass-indicator');
-  const originalAria = backing.getAttribute('aria-hidden');
-  const containerPosition = [container.style.getPropertyValue('position'), container.style.getPropertyPriority('position')];
+  const restore = captureState(backing, keys, ['aria-hidden'], 'lg-glass-indicator');
+  const restoreContainer = captureState(container, ['position']);
   const positionContainer = view.getComputedStyle(container).position;
   const ownsContainerPosition = !positionContainer || positionContainer === 'static';
   if (ownsContainerPosition) container.style.setProperty('position', 'relative');
@@ -62,15 +60,9 @@ export function attachGlassIndicator(container: HTMLElement, backing: HTMLElemen
 
   const render = (animate: boolean) => {
     if (destroyed) return;
-    if (!target || !container.isConnected || !backing.isConnected || !target.isConnected || !container.contains(target)) {
-      spring.stop();
-      backing.style.setProperty('transition', 'none');
-      backing.style.setProperty('visibility', 'hidden');
-      positioned = false;
-      return;
-    }
-    const bounds = target.getBoundingClientRect();
-    if (!bounds.width || !bounds.height) {
+    const bounds = target?.isConnected && container.isConnected && backing.isConnected && container.contains(target)
+      ? target.getBoundingClientRect() : undefined;
+    if (!bounds?.width || !bounds.height) {
       spring.stop();
       backing.style.setProperty('transition', 'none');
       backing.style.setProperty('visibility', 'hidden');
@@ -84,13 +76,8 @@ export function attachGlassIndicator(container: HTMLElement, backing: HTMLElemen
     backing.style.setProperty('transition', duration
       ? `left ${duration}ms cubic-bezier(.2,.8,.2,1), top ${duration}ms cubic-bezier(.2,.8,.2,1), width ${duration}ms cubic-bezier(.2,.8,.2,1), height ${duration}ms cubic-bezier(.2,.8,.2,1)`
       : 'none');
-    if (options.motion === 'spring') {
-      if (!positioned || isReduced()) spring.reset(geometry);
-      else if (animate || spring.active) spring.target(geometry);
-      else spring.reset(geometry);
-    } else {
-      spring.reset(geometry);
-    }
+    if (options.motion === 'spring' && positioned && !isReduced() && (animate || spring.active)) spring.target(geometry);
+    else spring.reset(geometry);
     backing.style.setProperty('visibility', 'visible');
     // Commit the first, unanimated placement before a subsequent moveTo call.
     if (!positioned) void backing.offsetWidth;
@@ -102,9 +89,8 @@ export function attachGlassIndicator(container: HTMLElement, backing: HTMLElemen
   const Resize = (view as Window & { ResizeObserver?: typeof ResizeObserver }).ResizeObserver;
   const observer = Resize ? new Resize(schedule) : undefined;
   observer?.observe(container);
-  container.addEventListener('scroll', schedule, { passive: true, capture: true });
-  view.addEventListener('resize', schedule);
   const preferenceChanged = () => render(false);
+  const unlisten = listen([[container, 'scroll', schedule, { passive: true, capture: true }], [view, 'resize', schedule]]);
   reduced?.addEventListener('change', preferenceChanged);
 
   return {
@@ -131,17 +117,10 @@ export function attachGlassIndicator(container: HTMLElement, backing: HTMLElemen
       destroyed = true; spring.stop();
       view.cancelAnimationFrame(frame);
       observer?.disconnect();
-      container.removeEventListener('scroll', schedule, true);
-      view.removeEventListener('resize', schedule);
+      unlisten();
       reduced?.removeEventListener('change', preferenceChanged);
-      if (!hadClass) backing.classList.remove('lg-glass-indicator');
-      if (originalAria === null) backing.removeAttribute('aria-hidden'); else backing.setAttribute('aria-hidden', originalAria);
-      for (const [key, value, priority] of originalStyles) value
-        ? backing.style.setProperty(key, value, priority)
-        : backing.style.removeProperty(key);
-      if (ownsContainerPosition) containerPosition[0]
-        ? container.style.setProperty('position', containerPosition[0], containerPosition[1])
-        : container.style.removeProperty('position');
+      restore();
+      if (ownsContainerPosition) restoreContainer();
       target = null;
     },
   };

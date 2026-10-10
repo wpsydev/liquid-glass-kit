@@ -2,7 +2,7 @@ name: Publish preview release
 on:
   push:
     branches: [main]
-    paths: [.github/workflows/release.yml, package.json, docs/RELEASE.md, docs/campaign/assets/micro-motion-showcase.mp4]
+    paths: [.github/workflows/release.yml, package.json, docs/RELEASE.md, docs/campaign/assets/performance-showcase.mp4]
   workflow_dispatch:
 permissions:
   contents: write
@@ -42,7 +42,7 @@ jobs:
             const packageFile = `wpsydev-liquid-glass-${pkg.version}.tgz`;
             const assets = [
               { path: packageFile, name: packageFile },
-              { path: 'docs/campaign/assets/micro-motion-showcase.mp4', name: 'liquid-glass-microinteractions.mp4' }
+              { path: 'docs/campaign/assets/performance-showcase.mp4', name: 'liquid-glass-performance.mp4' }
             ];
             for (const asset of assets) {
               if (!fs.existsSync(asset.path)) {

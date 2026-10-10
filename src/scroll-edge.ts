@@ -1,3 +1,5 @@
+import { captureState, listen } from './lifecycle.js';
+
 export interface GlassScrollEdgeOptions {
   /** Which boundary receives a decorative scroll edge. */
   edge?: 'top' | 'bottom' | 'both';
@@ -31,13 +33,13 @@ export function attachGlassScrollEdge(scrollport: HTMLElement, edgeLayer: HTMLEl
   const view = scrollport.ownerDocument.defaultView;
   if (!view) throw new Error('Scroll edges require elements in a browser document');
 
-  const hadClass = edgeLayer.classList.contains('lg-scroll-edges');
-  const originalAttributes = ownedAttributes.map(key => [key, edgeLayer.getAttribute(key)] as const);
-  const originalSize = edgeLayer.style.getPropertyValue(sizeProperty);
-  const originalPriority = edgeLayer.style.getPropertyPriority(sizeProperty);
+  const restore = captureState(edgeLayer, [sizeProperty], ownedAttributes, 'lg-scroll-edges');
   let edge: NonNullable<GlassScrollEdgeOptions['edge']> = 'both';
   let destroyed = false;
-  let frame = 0;
+  let frame: number | null = null;
+  const set = (key: string, value: string) => {
+    if (edgeLayer.getAttribute(key) !== value) edgeLayer.setAttribute(key, value);
+  };
 
   const render = () => {
     if (destroyed) return;
@@ -45,12 +47,12 @@ export function attachGlassScrollEdge(scrollport: HTMLElement, edgeLayer: HTMLEl
     // flicker when scrollHeight/clientHeight and scrollTop disagree slightly.
     const maximum = Math.max(0, scrollport.scrollHeight - scrollport.clientHeight);
     const position = Math.max(0, Math.min(maximum, scrollport.scrollTop));
-    edgeLayer.setAttribute('data-lg-edge-top', String(edge !== 'bottom' && position > 1));
-    edgeLayer.setAttribute('data-lg-edge-bottom', String(edge !== 'top' && maximum - position > 1));
-    edgeLayer.setAttribute('data-lg-edge-focus', String(scrollport.contains(scrollport.ownerDocument.activeElement)));
+    set('data-lg-edge-top', String(edge !== 'bottom' && position > 1));
+    set('data-lg-edge-bottom', String(edge !== 'top' && maximum - position > 1));
+    set('data-lg-edge-focus', String(scrollport.contains(scrollport.ownerDocument.activeElement)));
   };
   const schedule = () => {
-    if (!destroyed && !frame) frame = view.requestAnimationFrame(() => { frame = 0; render(); });
+    if (!destroyed && frame === null) frame = view.requestAnimationFrame(() => { frame = null; render(); });
   };
 
   const Resize = (view as Window & { ResizeObserver?: typeof ResizeObserver }).ResizeObserver;
@@ -61,14 +63,17 @@ export function attachGlassScrollEdge(scrollport: HTMLElement, edgeLayer: HTMLEl
     for (const child of scrollport.children) resize?.observe(child);
   };
   const Mutation = (view as Window & { MutationObserver?: typeof MutationObserver }).MutationObserver;
-  const mutation = Mutation ? new Mutation(() => { observeContent(); schedule(); }) : undefined;
+  const mutation = Mutation ? new Mutation(records => {
+    // Attribute/text changes can resize content without changing observed children.
+    if (records.some(record => record.type === 'childList' && record.target === scrollport)) observeContent();
+    schedule();
+  }) : undefined;
   observeContent();
   mutation?.observe(scrollport, { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['class', 'style', 'hidden', 'open', 'src'] });
-  scrollport.addEventListener('scroll', schedule, { passive: true });
-  scrollport.addEventListener('focusin', render);
-  scrollport.addEventListener('focusout', schedule);
-  scrollport.addEventListener('load', schedule, true);
-  view.addEventListener('resize', schedule);
+  const unlisten = listen([
+    [scrollport, 'scroll', schedule, { passive: true }], [scrollport, 'focusin', render],
+    [scrollport, 'focusout', schedule], [scrollport, 'load', schedule, true], [view, 'resize', schedule],
+  ]);
 
   const update = (options: GlassScrollEdgeOptions = {}) => {
     if (destroyed) return;
@@ -76,13 +81,10 @@ export function attachGlassScrollEdge(scrollport: HTMLElement, edgeLayer: HTMLEl
     const style = options.style === 'hard' ? 'hard' : 'soft';
     const size = options.size === undefined || !Number.isFinite(options.size) ? 32 : Math.max(0, Math.min(160, options.size));
     edgeLayer.classList.add('lg-scroll-edges');
-    edgeLayer.setAttribute('aria-hidden', 'true');
-    edgeLayer.setAttribute('inert', '');
-    edgeLayer.setAttribute('tabindex', '-1');
-    edgeLayer.setAttribute('data-lg-edge', edge);
-    edgeLayer.setAttribute('data-lg-edge-style', style);
-    edgeLayer.setAttribute('data-lg-edge-solid', String(options.reducedTransparency ?? false));
-    edgeLayer.style.setProperty(sizeProperty, `${size}px`);
+    set('aria-hidden', 'true'); set('inert', ''); set('tabindex', '-1');
+    set('data-lg-edge', edge); set('data-lg-edge-style', style);
+    set('data-lg-edge-solid', String(options.reducedTransparency ?? false));
+    if (edgeLayer.style.getPropertyValue(sizeProperty) !== `${size}px` || edgeLayer.style.getPropertyPriority(sizeProperty)) edgeLayer.style.setProperty(sizeProperty, `${size}px`);
     render();
   };
   update(initial);
@@ -92,16 +94,9 @@ export function attachGlassScrollEdge(scrollport: HTMLElement, edgeLayer: HTMLEl
     destroy() {
       if (destroyed) return;
       destroyed = true;
-      view.cancelAnimationFrame(frame);
+      if (frame !== null) view.cancelAnimationFrame(frame);
       resize?.disconnect(); mutation?.disconnect();
-      scrollport.removeEventListener('scroll', schedule);
-      scrollport.removeEventListener('focusin', render);
-      scrollport.removeEventListener('focusout', schedule);
-      scrollport.removeEventListener('load', schedule, true);
-      view.removeEventListener('resize', schedule);
-      if (!hadClass) edgeLayer.classList.remove('lg-scroll-edges');
-      for (const [key, value] of originalAttributes) value === null ? edgeLayer.removeAttribute(key) : edgeLayer.setAttribute(key, value);
-      originalSize ? edgeLayer.style.setProperty(sizeProperty, originalSize, originalPriority) : edgeLayer.style.removeProperty(sizeProperty);
+      unlisten(); restore();
     },
   };
 }
