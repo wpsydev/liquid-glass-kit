@@ -8,7 +8,7 @@ Source: `campaign-media/index.html`, `campaign-media/main.ts`, and `campaign-med
 
 ## Assets
 
-All paths below are relative to this document. Images are 1280 × 800 WebP screenshots. Videos are silent 1280 × 800 H.264 MP4, 30 fps, with `yuv420p` pixels and metadata moved to the start for streaming.
+The original launch assets in this table use paths relative to this document. Images are 1280 × 800 WebP screenshots. Videos are silent 1280 × 800 H.264 MP4, 30 fps, with `yuv420p` pixels and metadata moved to the start for streaming.
 
 | Asset | Content | Suggested caption |
 | --- | --- | --- |
@@ -88,3 +88,7 @@ Release: https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.5.0-preview
 Resolution evidence: [mobile-validation.json](mobile-validation.json)
 
 Coverage comprises resized desktop Chromium, enlarged-text layout simulation and synthetic VisualViewport bounds. No physical iPhone/Safari, Android hardware or software-keyboard certification is implied.
+
+Published video: https://x.com/wpsygames/status/2108968276214579284
+Release/install reply: https://x.com/wpsygames/status/2108968592322482382
+Publication receipts and exact copy: [mobile-update.json](mobile-update.json). X’s processed 720×1280 version played real frames and decoded audio; its transcode adds approximately 0.05 seconds. The source release file is exactly 12 seconds and 2,793,765 bytes. Existing scheduled campaign posts remain unchanged.

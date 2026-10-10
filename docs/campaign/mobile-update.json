@@ -1,0 +1,56 @@
+{
+  "version": "0.5.0-preview.1",
+  "date": "2026-10-10",
+  "status": "posted",
+  "account": "@wpsygames",
+  "sourceCommit": "94740e8458d52d6fde88bed7eba1e6dbd3bb00ad",
+  "release": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.5.0-preview.1",
+  "demo": "https://wpsydev.github.io/liquid-glass-kit/mobile/",
+  "post": "https://x.com/wpsygames/status/2108968276214579284",
+  "releaseReply": "https://x.com/wpsygames/status/2108968592322482382",
+  "postCopy": "Glass that feels good under your thumb.\n\nNew Liquid Glass Kit mobile preview:\n• Smarter touch feedback\n• Concentric corners + round fallback\n• Safe-area helpers\n• Interruptible springs\n\n20 layout sizes checked. 12 seconds. Original beat.\n\nTry it → https://wpsydev.github.io/liquid-glass-kit/mobile/",
+  "replyCopy": "v0.5.0 preview is live:\nhttps://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.5.0-preview.1\n\nInstall:\nnpm i github:wpsydev/liquid-glass-kit#v0.5.0-preview.1\n\nThe 20-size matrix uses resized Chromium. Physical iOS Safari/Android testing is still pending.\n\nAgent-ready mobile recipes:\nhttps://github.com/wpsydev/liquid-glass-kit/blob/main/docs/MOBILE.md",
+  "video": {
+    "path": "docs/campaign/assets/mobile-showcase.mp4",
+    "bytes": 2793765,
+    "durationSeconds": 12,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "videoCodec": "H264",
+    "audioCodec": "AAC",
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "audioOrigin": "Original 160 BPM synthesis; scripts/render-mobile-beat.py; MIT; no external samples",
+    "publicXPlayback": {
+      "decodedVideo": true,
+      "decodedAudio": true,
+      "videoDimensions": [
+        720,
+        1280
+      ],
+      "decodedAudioBytes": 111114,
+      "pixel": [
+        173,
+        231,
+        236,
+        255
+      ]
+    }
+  },
+  "validation": {
+    "unitTests": 69,
+    "testFiles": 8,
+    "productionRoutes": 6,
+    "resizedChromiumViewports": 20,
+    "textEnlargementViewports": 4,
+    "evidence": "docs/campaign/mobile-validation.json",
+    "physicalIOSAndroid": false
+  },
+  "workflows": [
+    "Verify: success",
+    "Publish playground: success",
+    "Publish preview release: success"
+  ],
+  "priorScheduledPosts": "Unchanged"
+}
