@@ -1,0 +1,18 @@
+[
+  {
+    "id": "refraction-help",
+    "parentUrl": "https://x.com/okandogubudak/status/2108846965857390949",
+    "text": "One thing I'd test: derive the edge normal from a rounded-rectangle distance field and keep the center displacement neutral. Tune the highlight separately from the lens. Is your wallpaper sampled in screen-space UVs or panel-local UVs?",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2108939185662878135",
+    "verification": "Published reply read in original thread."
+  },
+  {
+    "id": "demo-install",
+    "parentUrl": "https://x.com/wpsygames/status/2108940573113532524",
+    "text": "Source + install (Node 22.12+):\nnpm i github:wpsydev/liquid-glass-kit\n\nMIT preview. React/Vue adapters, Svelte action, CSS-only HTML, browser limits and agent docs. npm registry publication is pending.\n\nhttps://github.com/wpsydev/liquid-glass-kit",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2108941345477812295",
+    "verification": "Sent receipt and public profile text verified."
+  }
+]

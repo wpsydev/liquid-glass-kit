@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Liquid Glass Kit — developer cards</title>
+  <link rel="stylesheet" href="card.css">
+</head>
+<body data-card="frameworks">
+  <main class="canvas">
+    <div class="halo halo-one"></div><div class="halo halo-two"></div>
+    <header class="brand"><span class="brand-mark"><i></i></span><span>LIQUID GLASS KIT</span><span class="edition">WEB MATERIAL / OPEN SOURCE</span></header>
+
+    <section class="card-content frameworks" aria-label="Framework integrations">
+      <div class="headline"><p class="eyebrow">YOUR STACK. ONE MATERIAL.</p><h1>Bring your framework.<br><em>Keep your semantics.</em></h1></div>
+      <div class="framework-grid">
+        <article class="glass-panel"><span class="panel-number">01</span><h2>React / Vue</h2><p>Optional adapters</p><code>GlassSurface</code><small>Native attributes + lifecycle cleanup</small></article>
+        <article class="glass-panel"><span class="panel-number">02</span><h2>Svelte</h2><p>Mounted action + SSR styling</p><code>use:glass={options}</code><small>Start with the CSS class on your surface</small></article>
+        <article class="glass-panel"><span class="panel-number">03</span><h2>HTML / other stacks</h2><p>CSS first. Enhance when needed.</p><code>class="lg-glass"</code><small>Framework recipes + attachGlass()</small></article>
+      </div>
+      <p class="note"><span></span>Core: no runtime dependencies · Import-safe during SSR</p>
+    </section>
+
+    <section class="card-content agent" aria-label="Coding agent prompt">
+      <div class="headline"><p class="eyebrow">A BETTER PROMPT STARTS WITH A SOURCE.</p><h1>Give your agent<br><em>a glass brief.</em></h1></div>
+      <article class="glass-panel prompt-panel"><div class="prompt-header"><span class="terminal-dot"></span><span>INTEGRATION PROMPT</span><span class="prompt-source">llms-full.txt</span></div><p>Read Liquid Glass Kit's <strong>llms-full.txt</strong>.<br>Add CSS glass to my toolbar.<br>Preserve native controls.<br>Keep long text solid.<br>Leave experimental refraction off.</p></article>
+      <p class="note"><span></span>Typed APIs · Framework recipes · Focused integration skill</p>
+    </section>
+
+    <section class="card-content optics" aria-label="Rendering tiers explained">
+      <div class="headline"><p class="eyebrow">TWO TIERS. EXPLICIT CHOICES.</p><h1>Blur ≠ refraction.<br><em>Know what you're shipping.</em></h1></div>
+      <div class="optics-grid">
+        <article class="glass-panel"><span class="tier-label">DEFAULT</span><h2>CSS material</h2><p>Frosted backdrop<br>Luminous edges<br>Solid fallback</p><code>refraction: 0</code></article>
+        <article class="glass-panel experimental"><span class="tier-label">EXPERIMENTAL / OPT-IN</span><h2>SVG backdrop lens</h2><p>Chromium-gated enhancement<br>Other engines keep CSS<br>Foreground text stays unfiltered</p><code>refraction: 20</code></article>
+      </div>
+      <p class="note"><span></span>Independent web implementation · No pixel-parity claim</p>
+    </section>
+
+    <section class="card-content browser" aria-label="Browser report invitation">
+      <div class="headline"><p class="eyebrow">SMALL REPORTS. USEFUL CONTRIBUTIONS.</p><h1>Your real device<br><em>can make this better.</em></h1></div>
+      <div class="browser-layout"><article class="glass-panel report-panel"><div class="prompt-header"><span class="terminal-dot"></span><span>A REPRODUCIBLE REPORT</span></div><ol><li><b>Browser + OS</b><span>Include actual versions</span></li><li><b>Small example + screenshot</b><span>Show the surface and its backdrop</span></li><li><b>Rendering path</b><span>CSS or experimental lens?</span></li></ol></article><aside><span class="issue-label">OPEN ISSUE #1</span><h2>Safari<br>Firefox<br>iOS</h2><p>Real-device rendering<br>needs more validation.</p></aside></div>
+    </section>
+
+    <footer><span>github.com/wpsydev/liquid-glass-kit</span><span class="footer-preview">MIT LICENSED · v0.1 PREVIEW</span></footer>
+  </main>
+  <script>
+    window.renderCard = function(name) {
+      const valid = ['frameworks', 'agent', 'optics', 'browser'];
+      document.body.dataset.card = valid.includes(name) ? name : 'frameworks';
+      document.title = 'Liquid Glass Kit — ' + document.body.dataset.card;
+    };
+    renderCard(new URLSearchParams(location.search).get('card') || location.hash.slice(1));
+  </script>
+</body>
+</html>

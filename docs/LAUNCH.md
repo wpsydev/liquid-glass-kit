@@ -9,6 +9,7 @@
 - [Browser contribution issue](https://github.com/wpsydev/liquid-glass-kit/issues/1) and [SvelteKit good first issue](https://github.com/wpsydev/liquid-glass-kit/issues/2) are open.
 - GitHub website metadata and 12 relevant topics are configured, including liquid-glass, glassmorphism, ai-agents, and framework terms.
 - [X launch post](https://x.com/wpsygames/status/2108936339475276157) is live on @wpsygames with the playground screenshot. Published text, image, and demo link were verified.
+- [X campaign](campaign/CAMPAIGN.md) is running: a [24-second demo post](https://x.com/wpsygames/status/2108940573113532524), source/install reply, one technical reply, and eight verified follow-ups scheduled for October 11–24. Three real demo videos, four teaching cards and four interface screenshots are checked in. The [interactive material studies](https://wpsydev.github.io/liquid-glass-kit/campaign/) are live.
 - npm CLI authentication succeeded as wpsydev. Registry publication is pending account two-factor authentication enrollment; the registry rejected publication with HTTP 403 requiring 2FA. The account's security-key enrollment form is available in the shared browser. Other community copy below is prepared, not externally posted.
 - [Technical article](ARTICLE.md) is published with the project and can be adapted to the maintainer's chosen publishing channel.
 

@@ -28,7 +28,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <nav aria-label="Material controls"><button id="scene" class="header-button" aria-label="Switch between composer and media demos">${icon('grid', 17)}<span>Switch scene</span></button><button id="solid" class="header-button" aria-pressed="false"><i class="status-dot"></i><span>Glass on</span></button><a class="repo-link" href="https://github.com/wpsydev/liquid-glass-kit">GitHub ↗</a></nav>
   </header>
   <main>
-    <div class="intro"><p class="eyebrow"><span></span> MATERIAL STUDIES · 01 / 02</p><h1>Make the interface<br><em>feel alive.</em></h1><p class="intro-copy">A little light. A little depth.<br>Glass that belongs on the web.</p></div>
+    <div class="intro"><p class="eyebrow"><span></span> MATERIAL STUDIES · 01 / 02</p><h1>Make the interface<br> <em>feel alive.</em></h1><p class="intro-copy">A little light. A little depth.<br> Glass that belongs on the web.</p></div>
     <section class="canvas" aria-label="Interactive material showcase">
       <div class="scene-label"><span id="scene-name">THE AI COMPOSER</span><span class="scene-line"></span><span>LIVE CSS</span></div>
       <section class="composer material" aria-label="AI composer demo">

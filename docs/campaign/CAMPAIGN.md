@@ -1,6 +1,8 @@
 # Liquid Glass Kit: X campaign
 
-Account: **@wpsygames**, creator **wpsydev**. The [original launch post](https://x.com/wpsygames/status/2108936339475276157) is live. This campaign follows it with a real demonstration and eight distinct, useful posts from October 11–24, 2026. Copy in [posts.json](posts.json) is **prepared**, not evidence that it has been posted or scheduled. Change each record only after the corresponding action is confirmed, saving its public post URL.
+Account: **@wpsygames**, creator **wpsydev**. The [original launch post](https://x.com/wpsygames/status/2108936339475276157) is live and pinned. The [24-second showcase post](https://x.com/wpsygames/status/2108940573113532524) is published; its text and video playback were verified. All eight follow-ups for October 11–24, 2026 are **scheduled in X**, with their full text, media thumbnails and dates read back from the native queue. [posts.json](posts.json) stores verified status and receipts. Scheduled posts are not live yet.
+
+A [source/install reply](https://x.com/wpsygames/status/2108941345477812295) accompanies the video. One [technical reply](https://x.com/wpsygames/status/2108939185662878135) answers an explicit refraction question. [replies.json](replies.json) records both. No paid campaign was started.
 
 The aim is hands-on trials, genuine integrations, useful browser reports and eventual repository stars. No reach, conversion or adoption target is represented as an achieved result.
 
@@ -16,19 +18,21 @@ All times are UTC. These are initial timing experiments, not claimed optimal pos
 
 | ID | Time UTC | Asset | Useful reason to read |
 | --- | --- | --- | --- |
-| demo-now | Immediate, October 10 | Real playground video | Try the material, light/dark, and solid choices |
-| css-recipe | October 11, 16:20 | Semantic nav recipe | Start with one CSS class and preserve native HTML |
-| glass-vs-solid | October 13, 09:40 | Glass/solid comparison | Test translucency and keep a readable fallback |
-| optics-explained | October 15, 17:10 | CSS/lens comparison | Understand blur versus experimental backdrop refraction |
-| ai-composer | October 17, 12:30 | Composer demo | Put glass on tools while keeping answers readable |
+| demo-now | Published, October 10 | 24s material studies video | Try the composer, solid preference and media scene |
+| css-recipe | October 11, 16:20 | Playground screenshot | Start with one CSS class and preserve native HTML |
+| glass-vs-solid | October 13, 09:40 | 10s solid toggle video | Test translucency and keep a readable fallback |
+| optics-explained | October 15, 17:10 | Optics teaching card | Understand blur versus experimental backdrop refraction |
+| ai-composer | October 17, 12:30 | Solid response screenshot | Put glass on tools while keeping answers readable |
 | framework-paths | October 19, 18:00 | Framework recipe cards | Choose an adapter, action, or lifecycle recipe |
 | agent-prompt | October 21, 10:15 | Agent prompt card | Give a coding agent an accurate, constrained task |
 | browser-contributions | October 23, 15:45 | Browser report card | Supply a reproducible report from a real device |
-| build-with-it | October 24, 17:30 | Use-case montage | Share a genuine integration and evaluate the repo |
+| build-with-it | October 24, 17:30 | 14s media controls video | Share a genuine integration and evaluate the repo |
 
 Only `demo-now` and `build-with-it` ask for stars, and both make it conditional on usefulness. Other posts give a recipe, explain a trade-off, or invite a concrete contribution.
 
 ## Demo and video brief
+
+Delivered assets and actual rendering checks are documented in [MEDIA.md](MEDIA.md). The interactive [material studies](https://wpsydev.github.io/liquid-glass-kit/campaign/) page uses the real CSS material and native controls. The teaching-card sources are [cards.html](cards.html) and [card.css](card.css). The bullets below remain creative briefs for possible additional clips; they do not imply every proposed clip was produced. No lens comparison video was captured for this campaign.
 
 Capture actual browser output using the shared T3 preview. A staged UI must be described as a demo; do not imply that it is a deployed customer application or that an agent/model backend is connected. Foreground labels must remain readable at social-feed size.
 
