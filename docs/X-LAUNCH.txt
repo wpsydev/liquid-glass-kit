@@ -1,0 +1,6 @@
+I built Liquid Glass Kit: CSS-first glass for React, Vue, Svelte & HTML.
+
+Zero core dependencies, solid fallbacks and agent-ready docs. Refraction is experimental and opt-in.
+
+Try the playground + source:
+https://wpsydev.github.io/liquid-glass-kit/

@@ -7,7 +7,8 @@
 - [Preview release](https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.1.0-preview.1) includes a tested prebuilt package archive.
 - CI passes 12 tests, type checking, package and site builds. Both tarball and GitHub installation verified in clean projects.
 - [Browser contribution issue](https://github.com/wpsydev/liquid-glass-kit/issues/1) and [SvelteKit good first issue](https://github.com/wpsydev/liquid-glass-kit/issues/2) are open.
-- npm publication awaits account authentication. GitHub topics/profile placement and external social/community posts await an available account/browser connection. Launch copy below is prepared, not externally posted.
+- GitHub website metadata and 12 relevant topics are configured, including liquid-glass, glassmorphism, ai-agents, and framework terms.
+- npm publication awaits account authentication. X was selected for the launch, but its browser session is signed out; the [248-character post](X-LAUNCH.txt) is prepared and has not been posted. No account credentials are available here. Other community copy below is also prepared, not externally posted.
 - [Technical article](ARTICLE.md) is published with the project and can be adapted to the maintainer's chosen publishing channel.
 
 ## Positioning
