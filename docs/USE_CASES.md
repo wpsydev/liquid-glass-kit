@@ -13,13 +13,13 @@ This matrix covers common application scenarios and explicitly identifies limits
 | Modal / sheet | lg-glass on native dialog | showModal gives focus containment and Escape behavior; label dialog; safe viewport dimensions |
 | Sidebar / inspector | Regular aside | Use stable appearance across a large surface; do not flip on every pixel |
 | Buttons / toggles | Native button + lg-button | Default button type; disabled, aria-pressed, focus ring and >=44px targets |
-| Tabs / segmented control | One shared glass container | attachGlassIndicator moves one decorative backing; implement keyboard model in app/headless library |
+| Tabs / segmented control | One shared glass container | attachGlassIndicator optionally springs one decorative backing; implement keyboard model in app/headless library |
 | Forms / input fields | Solid inputs in glass panel | Glass should not swallow labels/errors or obscure selection |
 | Dense tables / dashboards / long text | Solid content; glass toolbar | Avoid repeated blur in every row |
 | Toasts / notifications | Existing live-region surface | Preserve announcement semantics; don't move focused controls |
 | Scroll edges | attachGlassScrollEdge + separate layer | Scroll-aware soft/hard scrim; keep toolbar and focus above decoration |
 | Reduced transparency / high contrast | Explicit solid option + media queries | Preference fallback for browsers without transparency query |
-| Touch / mobile | CSS material | Touch press lighting and native button deformation; reduced motion overrides; avoid hover-only actions |
+| Touch / mobile | CSS material | Touch press lighting and optional spring deformation; reduced motion overrides; avoid hover-only actions |
 | Print | Solid black-on-white CSS | Browser-native print stylesheet |
 | SSR / hydration | CSS markup + mounted enhancement | Import-safe core/adapters; deterministic options |
 | Portals | Attach after portaled element mounts | Clean up when portal unmounts; definitions live in owning document |
@@ -57,3 +57,5 @@ This matrix covers common application scenarios and explicitly identifies limits
 ```
 
 Supply your app's submit behavior; the material library does not call models, add telemetry, or create backend dependencies.
+
+For spring appearance, enhance the native surface with attachGlassMotion and show it before enter(). An explicit close can await exit() before hiding, while retaining native Escape/outside dismissal. Do not assume opacity zero removes focus or accessibility exposure; that state belongs to the host. The motion helper also works with existing menu/sheet components but supplies no headless state or focus model.

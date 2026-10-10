@@ -128,3 +128,6 @@ export { attachGlassScrollEdge } from './scroll-edge.js';
 export type { GlassScrollEdgeOptions } from './scroll-edge.js';
 export { attachGlassIndicator } from './indicator.js';
 export type { GlassIndicatorOptions } from './indicator.js';
+
+export { attachGlassMotion } from './motion.js';
+export type { GlassMotionOptions } from './motion.js';

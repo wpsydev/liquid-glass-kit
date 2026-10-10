@@ -6,6 +6,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: release
+  cancel-in-progress: false
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -22,19 +25,31 @@ jobs:
         with:
           script: |
             const fs = require('node:fs');
-            const tag = 'v0.1.0-preview.1';
+            const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+            const tag = `v${pkg.version}`;
             const { owner, repo } = context.repo;
+            const body = fs.readFileSync('docs/RELEASE.md', 'utf8');
             let release;
             try { release = (await github.rest.repos.getReleaseByTag({owner, repo, tag})).data; }
             catch (error) {
               if (error.status !== 404) throw error;
               release = (await github.rest.repos.createRelease({
                 owner, repo, tag_name: tag, target_commitish: context.sha,
-                name: 'Liquid Glass Kit 0.1.0 — Preview', prerelease: true,
-                body: 'CSS-first Liquid Glass materials, a typed DOM controller, React/Vue adapters, a Svelte action, and agent integration guides.\n\nThe portable material is the default. SVG live-backdrop refraction is an opt-in experimental Chromium enhancement. See docs/COMPATIBILITY.md and docs/VALIDATION.md for evidence and limitations.\n\nnpm publication is pending; install from GitHub or the attached package archive. The archive was built after type checking and all tests passed.'
+                name: `Liquid Glass Kit ${pkg.version} — Motion`,
+                prerelease: pkg.version.includes('-'), body
               })).data;
             }
-            const name = 'wpsydev-liquid-glass-0.1.0.tgz';
-            if (!release.assets.some(asset => asset.name === name)) {
-              await github.rest.repos.uploadReleaseAsset({owner, repo, release_id: release.id, name, data: fs.readFileSync(name)});
+            const packageFile = `wpsydev-liquid-glass-${pkg.version}.tgz`;
+            const assets = [
+              { path: packageFile, name: packageFile },
+              { path: 'docs/campaign/assets/motion-showcase.mp4', name: 'liquid-glass-motion.mp4' }
+            ];
+            for (const asset of assets) {
+              if (!fs.existsSync(asset.path)) {
+                if (asset.path === packageFile) throw new Error(`Missing package ${packageFile}`);
+                continue;
+              }
+              if (!release.assets.some(existing => existing.name === asset.name)) {
+                await github.rest.repos.uploadReleaseAsset({owner, repo, release_id: release.id, name: asset.name, data: fs.readFileSync(asset.path)});
+              }
             }

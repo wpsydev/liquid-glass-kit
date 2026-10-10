@@ -115,4 +115,43 @@ describe('decorative geometry indicator', () => {
     const c = attachGlassIndicator(container, backing); c.destroy();
     expect(backing.getAttribute('aria-hidden')).toBe('false');
   });
+
+  it('springs geometry with overshoot and preserves velocity when the selection changes mid-flight', () => {
+    const { container, backing, one, two } = fixture();
+    let now = 0, next = 0; const callbacks = new Map<number, FrameRequestCallback>();
+    vi.spyOn(window.performance, 'now').mockImplementation(() => now);
+    vi.spyOn(window, 'requestAnimationFrame').mockImplementation(callback => { const id = next++; callbacks.set(id, callback); return id; });
+    vi.spyOn(window, 'cancelAnimationFrame').mockImplementation(id => { callbacks.delete(id); });
+    const step = (ms = 16) => { now += ms; const pending = [...callbacks.values()]; callbacks.clear(); pending.forEach(callback => callback(now)); };
+    const c = attachGlassIndicator(container, backing, { motion: 'spring', damping: 8 });
+    c.moveTo(one); c.moveTo(two); expect(backing.style.left).toBe('20px'); expect(backing.style.transition).toBe('none');
+    step(50); const intermediate = Number.parseFloat(backing.style.left);
+    expect(intermediate).toBeGreaterThan(20); expect(intermediate).toBeLessThan(120);
+    c.moveTo(one); expect(Number.parseFloat(backing.style.left)).toBeCloseTo(intermediate, 10);
+    step(5); expect(Number.parseFloat(backing.style.left)).toBeGreaterThan(intermediate);
+    for (let i = 0; i < 400 && callbacks.size; i++) step();
+    expect(backing.style.left).toBe('20px'); expect(callbacks.size).toBe(0);
+    c.moveTo(two); let maximum = 0;
+    for (let i = 0; i < 400 && callbacks.size; i++) { step(); maximum = Math.max(maximum, Number.parseFloat(backing.style.left)); }
+    expect(maximum).toBeGreaterThan(120); expect(backing.style.left).toBe('120px');
+    expect(backing.style.width).toBe('90px'); expect(backing.style.height).toBe('50px'); expect(callbacks.size).toBe(0);
+    c.moveTo(one); expect(callbacks.size).toBe(1); c.destroy(); expect(callbacks.size).toBe(0);
+    expect(backing.style.left).toBe('');
+  });
+
+  it('retains an active spring through resize delivery, snaps explicit reduced motion, and stops for disconnected targets', () => {
+    const { container, backing, one, two } = fixture();
+    let now = 0, next = 0, resize: (() => void) | undefined; const callbacks = new Map<number, FrameRequestCallback>();
+    vi.spyOn(window.performance, 'now').mockImplementation(() => now);
+    vi.spyOn(window, 'requestAnimationFrame').mockImplementation(callback => { const id = next++; callbacks.set(id, callback); return id; });
+    vi.spyOn(window, 'cancelAnimationFrame').mockImplementation(id => { callbacks.delete(id); });
+    vi.stubGlobal('ResizeObserver', class { constructor(callback: () => void) { resize = callback; } observe() {} unobserve() {} disconnect() {} });
+    const step = (ms = 16) => { now += ms; const pending = [...callbacks.values()]; callbacks.clear(); pending.forEach(callback => callback(now)); };
+    const c = attachGlassIndicator(container, backing, { motion: 'spring' }); c.moveTo(one); c.moveTo(two); step(50);
+    resize!(); step(); expect(Number.parseFloat(backing.style.left)).toBeLessThan(120); expect(callbacks.size).toBe(1);
+    c.update({ motion: 'spring', reducedMotion: true }); expect(backing.style.left).toBe('120px'); expect(callbacks.size).toBe(0);
+    c.moveTo(one); expect(backing.style.left).toBe('20px'); expect(callbacks.size).toBe(0);
+    c.update({ motion: 'spring' }); c.moveTo(two); two.remove(); step();
+    expect(callbacks.size).toBe(0); expect(backing.style.visibility).toBe('hidden'); c.destroy();
+  });
 });

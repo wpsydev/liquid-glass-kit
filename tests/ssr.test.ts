@@ -32,4 +32,18 @@ describe('server rendering without browser globals', () => {
     expect(html).toContain('<nav'); expect(html).toContain('lg-glass custom');
     expect(html).toContain('--lg-radius:32px'); expect(html).toContain('aria-label="Main"'); expect(html).toContain('Home');
   });
+  it('renders opt-in React motion as visible static markup without browser scheduling or hydration entry', () => {
+    const node = createElement(GlassButton, { motion: { stiffness: 350, pressScale: .9 }, 'aria-label': 'Save' }, 'Save');
+    const html = renderToString(node);
+    expect(html).toBe(renderToString(node)); expect(html).toContain('lg-motion'); expect(html).toContain('Save');
+    expect(html).not.toContain('data-lg-motion'); expect(html).not.toContain('--lg-motion');
+    expect(html).not.toMatch(/(?:style="|;)opacity:/); expect(html).not.toContain('motion="');
+    expect(renderToString(createElement(GlassSurface, { motion: {}, as: 'nav' }, 'Home'))).toContain('lg-motion');
+  });
+  it('renders opt-in Vue motion as visible static semantic markup without entering', async () => {
+    const html = await renderVue(createSSRApp({ render: () => h(VueSurface, { as: 'nav', motion: { reducedMotion: true }, 'aria-label': 'Main' }, () => 'Home') }));
+    expect(html).toContain('<nav'); expect(html).toContain('lg-motion'); expect(html).toContain('Home');
+    expect(html).not.toContain('data-lg-motion'); expect(html).not.toContain('--lg-motion');
+    expect(html).not.toMatch(/(?:style="|;)opacity:/); expect(html).not.toContain('motion="');
+  });
 });

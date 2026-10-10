@@ -2,11 +2,11 @@
 
 **Liquid Glass for the web, in any stack.** A small CSS and TypeScript material system with React and Vue adapters, a Svelte action, and accessible solid fallbacks.
 
-Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.2.0 preview**, not a pixel-identical recreation of Apple's renderer.
+Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.3.0 motion preview**, not a pixel-identical recreation of Apple's renderer.
 
 ![Live Liquid Glass Kit playground with material controls](docs/assets/playground.webp)
 
-[Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [Behavior lab](https://wpsydev.github.io/liquid-glass-kit/behavior/) · [Interactive demos](https://wpsydev.github.io/liquid-glass-kit/campaign/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Apple feature audit](docs/APPLE_PARITY.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
+[Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [Motion lab](https://wpsydev.github.io/liquid-glass-kit/motion/) · [Behavior lab](https://wpsydev.github.io/liquid-glass-kit/behavior/) · [Interactive demos](https://wpsydev.github.io/liquid-glass-kit/campaign/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Apple feature audit](docs/APPLE_PARITY.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
 
 ## Why another glass library?
 
@@ -15,6 +15,7 @@ The material should fit your app's stack and semantics. Liquid Glass Kit separat
 - **CSS first:** frosted backdrop, luminous edges, shadows, light/dark appearances, no runtime dependencies in the core.
 - **Optional interaction:** pointer, touch and keyboard press feedback; rounded-rectangle SVG lensing on eligible Chromium engines. Never refract foreground text.
 - **Material controls:** fill strength, semantic tint and explicit backdrop tone; accessibility preferences retain precedence.
+- **Spring motion:** tactile press/release, spring reveals and velocity-preserving selection retargeting; explicit/system reduced-motion fallbacks.
 - **Navigation primitives:** one moving decorative glass backing and scroll-aware soft/hard edge scrims; preserve foreground semantics.
 - **Keep native controls:** buttons remain buttons, navigation remains navigation, dialogs retain their focus behavior.
 - **SSR-safe:** no browser globals at import; deterministic server markup and enhancement after mount.
@@ -115,3 +116,27 @@ Automatic backdrop sampling, arbitrary optical merging, native thickness/scatter
 [Watch the behavior walkthrough](docs/campaign/assets/behavior-showcase.mp4) · [Published X demo](https://x.com/wpsygames/status/2108948352230703519)
 
 ![Live behavior lab: material tuning, selection geometry and scroll separation](docs/assets/behavior-lab.webp)
+
+## Motion you can reuse
+
+[![Animated motion playground](docs/assets/motion-lab.webp)](https://wpsydev.github.io/liquid-glass-kit/motion/)
+
+```tsx
+<GlassButton glass={{ interactive: true }} motion={{ damping: 22 }}>
+  Start something
+</GlassButton>
+```
+
+```ts
+import { attachGlass, attachGlassMotion } from '@wpsydev/liquid-glass';
+const material = attachGlass(button, { interactive: true });
+const motion = attachGlassMotion(button, { stiffness: 260, damping: 22 });
+// Press/release feedback is automatic on native controls.
+await motion.enter(); // Visual reveal; your app owns visibility and focus.
+// Cleanup in reverse order:
+motion.destroy(); material.destroy();
+```
+
+Use `attachGlassIndicator(nav, backing, { motion: 'spring' })` for an interruptible selection backing. Targets keep their native semantics; springs preserve current velocity on retargeting. Try the [live motion playground](https://wpsydev.github.io/liquid-glass-kit/motion/) and read the [motion references](docs/MOTION_RESEARCH.md).
+
+These are independently implemented web springs and geometry transitions. They do not reproduce native optical merging or Apple's private renderer. CSS/default ease behavior stays available; the core has no runtime dependency. Motion helpers reserve individual scale, opacity and transition; use a wrapper when composing other animations.

@@ -1,8 +1,15 @@
-export interface GlassIndicatorOptions {
+import { createGlassSpring, resolveGlassSpring } from './motion.js';
+import type { GlassSpringOptions } from './motion.js';
+
+export interface GlassIndicatorOptions extends GlassSpringOptions {
   /** Geometry transition duration in milliseconds, clamped to 0–1000. */
   duration?: number;
   /** Decorative backing corner radius in CSS pixels, clamped to 0–999. */
   radius?: number;
+  /** Ease is the compatible default; spring retains geometry velocity when retargeted. */
+  motion?: 'ease' | 'spring';
+  /** Explicit application preference; combines with the system preference. */
+  reducedMotion?: boolean;
 }
 
 const bounded = (value: number | undefined, fallback: number, max: number) =>
@@ -22,7 +29,8 @@ export function attachGlassIndicator(container: HTMLElement, backing: HTMLElemen
   if (!view) throw new Error('Glass indicator requires a browser document');
   if (backing.parentElement !== container) throw new RangeError('Glass indicator backing must be a direct child of its container');
   if (backing.children.length || backing.textContent?.trim()) throw new Error('Glass indicator backing must be empty decorative markup');
-  let options = { duration: bounded(initial.duration, 280, 1000), radius: bounded(initial.radius, 24, 999) };
+  const resolve = (next: GlassIndicatorOptions) => ({ ...resolveGlassSpring(next), duration: bounded(next.duration, 280, 1000), radius: bounded(next.radius, 24, 999), motion: next.motion === 'spring' ? 'spring' : 'ease', reducedMotion: next.reducedMotion ?? false });
+  let options = resolve(initial);
   let target: HTMLElement | null = null;
   let positioned = false;
   let destroyed = false;
@@ -42,10 +50,20 @@ export function attachGlassIndicator(container: HTMLElement, backing: HTMLElemen
   backing.style.setProperty('visibility', 'hidden');
   backing.style.setProperty('--lg-radius', `${options.radius}px`);
   const reduced = view.matchMedia?.('(prefers-reduced-motion: reduce)');
+  const isReduced = () => options.reducedMotion || Boolean(reduced?.matches);
+  const applyBounds = (bounds: readonly number[]) => {
+    if (destroyed) return;
+    backing.style.setProperty('left', `${bounds[0]}px`); backing.style.setProperty('top', `${bounds[1]}px`);
+    backing.style.setProperty('width', `${Math.max(0, bounds[2])}px`); backing.style.setProperty('height', `${Math.max(0, bounds[3])}px`);
+  };
+  const spring = createGlassSpring(view, [0, 0, 0, 0], options, applyBounds, completed => {
+    if (!completed && !destroyed) { backing.style.setProperty('visibility', 'hidden'); positioned = false; }
+  }, () => !destroyed && Boolean(target?.isConnected && container.isConnected && backing.isConnected && container.contains(target)), .03);
 
   const render = (animate: boolean) => {
     if (destroyed) return;
     if (!target || !container.isConnected || !backing.isConnected || !target.isConnected || !container.contains(target)) {
+      spring.stop();
       backing.style.setProperty('transition', 'none');
       backing.style.setProperty('visibility', 'hidden');
       positioned = false;
@@ -53,20 +71,26 @@ export function attachGlassIndicator(container: HTMLElement, backing: HTMLElemen
     }
     const bounds = target.getBoundingClientRect();
     if (!bounds.width || !bounds.height) {
+      spring.stop();
       backing.style.setProperty('transition', 'none');
       backing.style.setProperty('visibility', 'hidden');
       positioned = false;
       return;
     }
     const origin = container.getBoundingClientRect();
-    const duration = animate && positioned && !reduced?.matches ? options.duration : 0;
+    const geometry = [bounds.left - origin.left - container.clientLeft + container.scrollLeft,
+      bounds.top - origin.top - container.clientTop + container.scrollTop, bounds.width, bounds.height];
+    const duration = animate && positioned && !isReduced() && options.motion === 'ease' ? options.duration : 0;
     backing.style.setProperty('transition', duration
       ? `left ${duration}ms cubic-bezier(.2,.8,.2,1), top ${duration}ms cubic-bezier(.2,.8,.2,1), width ${duration}ms cubic-bezier(.2,.8,.2,1), height ${duration}ms cubic-bezier(.2,.8,.2,1)`
       : 'none');
-    backing.style.setProperty('left', `${bounds.left - origin.left - container.clientLeft + container.scrollLeft}px`);
-    backing.style.setProperty('top', `${bounds.top - origin.top - container.clientTop + container.scrollTop}px`);
-    backing.style.setProperty('width', `${bounds.width}px`);
-    backing.style.setProperty('height', `${bounds.height}px`);
+    if (options.motion === 'spring') {
+      if (!positioned || isReduced()) spring.reset(geometry);
+      else if (animate || spring.active) spring.target(geometry);
+      else spring.reset(geometry);
+    } else {
+      spring.reset(geometry);
+    }
     backing.style.setProperty('visibility', 'visible');
     // Commit the first, unanimated placement before a subsequent moveTo call.
     if (!positioned) void backing.offsetWidth;
@@ -98,13 +122,13 @@ export function attachGlassIndicator(container: HTMLElement, backing: HTMLElemen
     },
     update(next: GlassIndicatorOptions = {}) {
       if (destroyed) return;
-      options = { duration: bounded(next.duration, 280, 1000), radius: bounded(next.radius, 24, 999) };
+      options = resolve(next); spring.configure(options);
       backing.style.setProperty('--lg-radius', `${options.radius}px`);
       render(false);
     },
     destroy() {
       if (destroyed) return;
-      destroyed = true;
+      destroyed = true; spring.stop();
       view.cancelAnimationFrame(frame);
       observer?.disconnect();
       container.removeEventListener('scroll', schedule, true);

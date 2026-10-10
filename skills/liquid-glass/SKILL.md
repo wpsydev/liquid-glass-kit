@@ -24,3 +24,7 @@ For contextual legibility, supply backdrop: 'light' or 'dark' from app-owned bac
 For a selected navigation backing, use attachGlassIndicator on one decorative direct child and call moveTo with app-owned semantic targets. AttachGlass first; destroy indicator before material. Normal untransformed coordinates only. This animates bounds, not optical merging or keyboard selection.
 
 For scroll separation, use attachGlassScrollEdge with an empty separate overlay outside the scrollport; keep toolbar controls and focus above it. soft/hard states follow actual remaining scroll. Do not use the deprecated whole-content mask. Both helper controllers update by replacement and must be destroyed on unmount.
+
+For iOS-inspired tactile spring motion, use optional motion={{damping:22}} on React/Vue surfaces or attachGlassMotion after mount. Use attachGlassIndicator with motion:'spring' for selection backing that retains velocity on retarget. Both combine system preference with explicit reducedMotion. Motion is opt-in and reserves scale/opacity/transition. Controllers restore owned fields; destroy motion before material.
+
+Enter/exit resolve a completion boolean and animate presentation only. The app owns native popup/dialog visibility, focus, inert and dismissal. Show before entering; hide after successful exit, and retain a reopened surface when an exit was superseded. Native outside/Escape may remain immediate. No native optical merging or all-browser iOS parity claim. Read the current API before generating options or lifecycle code.

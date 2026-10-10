@@ -103,3 +103,12 @@ registerGlassElement();
 ## Tailwind / shadcn / Radix / Base UI
 
 Keep the component's focus/keyboard/portal behavior. Apply `lg-glass` to its existing surface and remove conflicting opaque backgrounds. Use Tailwind for layout; the material class owns its pseudo-element and border radius. Example: `<nav className="lg-glass flex items-center gap-4 p-4">...</nav>`. Prefer CSS variables or the typed options for material tuning. A registry installer is not shipped in this preview.
+
+## Optional motion across stacks
+
+React: `<GlassButton glass={{interactive:true}} motion={{damping:22}}>Save</GlassButton>`.
+Vue: `<GlassSurface :glass="{interactive:true}" :motion="{damping:22}">...</GlassSurface>`.
+
+Other frameworks can call `attachGlassMotion(element, {damping:22})` in the same mounted lifecycle as `attachGlass`. Destroy motion before the material. For popup coordination, keep the controller and await `enter`/`exit` completion booleans; the app owns semantic visibility/focus. Existing Svelte/headless components retain their event and keyboard models.
+
+Custom element: `<liquid-glass motion motion-damping="22" reduced-motion>...</liquid-glass>` combines explicit reduced motion with system settings. Motion attributes enhance the wrapper; native semantic children keep their behavior. Preserve static server rendering instead of hiding content until JavaScript starts.

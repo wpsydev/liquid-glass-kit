@@ -75,8 +75,33 @@ Returns `{ update(options), destroy() }`; update replaces options. Scroll, resiz
 
 ## attachGlassIndicator(container, backing, options?)
 
-One decorative backing moves between measured semantic targets. `backing` must be a direct child of an untransformed `container`; targets must use the same CSS coordinate scale; enhance it separately with `attachGlass` to choose its material. Options: `duration` (280 ms, 0–1000), `radius` (24 px, 0–999). Returns `{ moveTo(targetOrNull), update(options), destroy() }`. The host owns selection, routing, events and ARIA; buttons and focus remain in place.
+One decorative backing moves between measured semantic targets. `backing` must be a direct child of an untransformed `container`; targets must use the same CSS coordinate scale; enhance it separately with `attachGlass` to choose its material. Options: `duration` (280 ms, 0–1000; ease mode), `radius` (24 px, 0–999), `motion: 'ease' | 'spring'` (ease), spring `stiffness` (260, 20–1000), `damping` (22, 1–100), `mass` (1, .1–10), and `reducedMotion` (false). Returns `{ moveTo(targetOrNull), update(options), destroy() }`. The host owns selection, routing, events and ARIA; buttons and focus remain in place.
 
-First placement is immediate, later selections transition left/top/width/height; repeated moves can interrupt transitions. Null hides the backing; a selected target that later disconnects hides on refresh. Calling moveTo with an already detached outside target throws. Invalid outside targets or the backing/its descendants throw RangeError. Geometry accounts for container border and scroll. Resize/scroll realign immediately. Reduced-motion changes remove animation. A static container temporarily becomes positioned, restored on destroy along with owned backing styles/attributes. Attach material first and indicator second; destroy the indicator before the material because both own --lg-radius.
+First placement is immediate, later selections transition left/top/width/height; repeated moves can interrupt transitions. Null hides the backing; a selected target that later disconnects hides on refresh. Calling moveTo with an already detached outside target throws. Invalid outside targets or the backing/its descendants throw RangeError. Geometry accounts for container border and scroll. Resize/scroll snap settled indicators to layout; an active spring retargets the new bounds while retaining velocity. Reduced-motion changes remove animation. A static container temporarily becomes positioned, restored on destroy along with owned backing styles/attributes. Attach material first and indicator second; destroy the indicator before the material because both own --lg-radius.
 
-This is a matched-bounds visual approximation. It does not merge arbitrary shapes, provide spring physics, share optical sampling across surfaces or implement Apple's GlassEffectContainer. Do not animate layout of the container/targets concurrently without refreshing moveTo after layout settles.
+This is a matched-bounds visual approximation. Spring mode preserves velocity when retargeted. It does not merge arbitrary shapes or share optical sampling across surfaces or implement Apple's GlassEffectContainer. Do not animate layout of the container/targets concurrently without refreshing moveTo after layout settles.
+
+## attachGlassMotion(element, options?)
+
+Opt-in spring feedback and appearance transitions on an existing semantic surface. Core exports `attachGlassMotion` and `GlassMotionOptions`. No DOM globals are accessed during import; attach after mount.
+
+| Option | Default | Bounds / behavior |
+| --- | --- | --- |
+| stiffness | 260 | 20–1000 |
+| damping | 22 | 1–100 |
+| mass | 1 | .1–10 |
+| pressScale | .94 | .85–1 |
+| stretch | .035 | 0–.08, restrained directional scale deformation |
+| reducedMotion | false | App preference combines with system reduced motion |
+
+Nonfinite numeric inputs use defaults. The controller returns `press(point?)`, `release()`, `enter()`, `exit()`, `update(options)`, `destroy()`. A press point is `{x,y}` in local CSS pixels. Pointer/touch and native-button keyboard feedback are installed automatically; disabled controls suppress press. No clicks/keyboard events are prevented. The host owns keyboard behavior for custom roles.
+
+`enter()` and `exit()` return `Promise<boolean>`: true after completion, false when superseded, disconnected or destroyed. They alter presentation only: scale and whole-surface opacity. They never toggle hidden/inert, manage popover visibility, remove elements or move focus. Your app must show a surface before enter, and hide/remove it after a successful exit. Reset your app's state when an animation is interrupted; a false result is not permission to remove a newly reopened surface. Native Escape/outside dismissal can remain immediate.
+
+Springs use an analytic damped model and elapsed frame timestamps. Repeated targets preserve velocity; work stops at rest. A six-second upper settling bound prevents deliberately low-damping settings from running indefinitely. CSS geometry springs are a web approximation, not native optical union. Existing ease indicator behavior remains the default.
+
+Explicit/system reduced motion snaps to the target immediately. A live preference change stops deformation and completes the current presentation target. Motion consumes `.lg-motion`, `data-lg-motion`, `data-lg-motion-pressed`, individual inline `scale`, presentation `opacity`, `transition`, and `--lg-motion-*` variables; destroy restores original fields/priorities. Attach material first, motion second; destroy motion before material. Reserve these fields or use a wrapper for other animations. No foreground blur/filter is installed.
+
+React `GlassButton`/`GlassSurface` and Vue `GlassSurface` accept optional `motion: GlassMotionOptions`. Providing an object enables motion; omitting it disables it. Server markup stays visible/static, and mount does not automatically replay enter. To coordinate popover lifecycle, use the core controller on a ref within the application's existing effect lifecycle.
+
+Custom elements support `motion` by presence and `motion-stiffness`, `motion-damping`, `motion-mass`, `motion-press-scale`, `motion-stretch`, `reduced-motion`. The last is an explicit app preference. The element remains a light-DOM material wrapper, not a replacement for a semantic control.

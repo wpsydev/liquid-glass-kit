@@ -48,3 +48,14 @@ Browser checks, separate from unit tests:
 Live demo: https://wpsydev.github.io/liquid-glass-kit/behavior/
 X post: https://x.com/wpsygames/status/2108948352230703519
 Source at capture: 399840a. Production Pages was separately checked after deployment, including the standard solid backdrop-filter reset. Existing scheduled campaign posts remain in place; this is a separate feature-update post.
+
+## Motion update — 2026-10-10
+
+`assets/motion-showcase.mp4`: 28 seconds, 1280×900, H.264/yuv420p at 30 fps, 1,396,026 bytes. Recorded with the native T3 preview from the production-built motion demo. The actual `attachGlassMotion` and spring indicator controllers drive press/release, interrupted selection and native popover appearance. Color mood changes and explicit reduced motion are part of the walkthrough. There is no audio or backend service.
+
+The self-contained production bundle was transferred into the preview because browser localhost resolves to another application. FFmpeg trimmed/compressed the native recording and moved metadata to the start. Sampled frames at 0, 2, 5, 9, 18 and 24 seconds show press deformation, selection, popover and quieter/gold/ocean states. Full-file decoding passed. Export frame rate is not a device performance measurement.
+
+Live demo: https://wpsydev.github.io/liquid-glass-kit/motion/
+Release: https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.3.0-preview.1
+
+The final mobile overflow containment does not change the recorded desktop composition. Existing scheduled campaign posts remain unchanged. Native optical merging, Safari/Firefox and physical iOS fidelity are not claimed.

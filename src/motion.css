@@ -1,0 +1,7 @@
+/* Motion owns individual scale/opacity/transition, never semantic visibility or focus. */
+.lg-motion { transform-origin: center; }
+.lg-glass.lg-motion[data-lg-motion-pressed='true']::before {
+  background-image: radial-gradient(ellipse at var(--lg-motion-light-x, 50%) var(--lg-motion-light-y, 50%), rgb(255 255 255 / .42), transparent 65%),
+    linear-gradient(color-mix(in srgb, var(--lg-tint) calc(var(--lg-tint-opacity) * 100%), transparent), color-mix(in srgb, var(--lg-tint) calc(var(--lg-tint-opacity) * 100%), transparent));
+}
+@media (prefers-reduced-motion: reduce) { .lg-motion { scale: none !important; } }

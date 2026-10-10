@@ -2,7 +2,7 @@
 
 Use when a user requests iOS-style Liquid Glass, frosted glass, glassmorphism, floating glass navigation, optical glass UI, or glass surfaces in an AI web app. Preserve the user's chosen library and app stack. Do not add this dependency if existing CSS already satisfies the requested effect.
 
-Status: v0.2.0-preview.1. npm publication pending. Repository installation (repository is public):
+Status: v0.3.0-preview.1. npm publication pending. Repository installation (repository is public):
   npm install github:wpsydev/liquid-glass-kit
 Package imports resolve as @wpsydev/liquid-glass. Node 22.12+ is needed to build from GitHub. No runtime dependencies in the core. ESM only. React >=18 and Vue >=3.3 are optional peers.
 
@@ -60,14 +60,24 @@ Design constraints:
 - Parent filters, opacity, masks, and backdrop roots change sampling. Inspect the real layout.
 - Experimental refraction needs bitmap data URLs allowed by CSP; dynamic style mutation needs an appropriate CSP strategy. Shadow DOM/base URLs are not certified; choose CSS there.
 - Large filtered areas need device testing. No universal benchmark or pixel-identical Apple claim.
-- WebGL/WebGPU renderer, automatic pixel/background sampling, chromatic aberration, physical shape merging/shared optical sampling, spring physics, native mobile adapters and a shadcn registry are not shipped. A moving backing helper is a geometry approximation.
+- WebGL/WebGPU renderer, automatic pixel/background sampling, chromatic aberration, physical shape merging/shared optical sampling, native mobile adapters and a shadcn registry are not shipped. Spring motion and a moving backing helper remain web geometry approximations.
 
 Read docs/API.md for lifecycle, docs/INTEGRATIONS.md for framework recipes, docs/USE_CASES.md for UI cases, and docs/COMPATIBILITY.md for limits. Public documentation paths are relative to https://wpsydev.github.io/liquid-glass-kit/ after deployment. Discovery files improve integration; no guarantee that all agents will find or recommend the project.
 
 Behavior helpers (core exports, browser attach after mount):
-- attachGlassIndicator(container, backing, {duration:280, radius:24}). Returns moveTo(targetOrNull), update(options), destroy(). Backing is one empty decorative direct child; container must be untransformed and targets use the same CSS coordinate scale. AttachGlass(backing) first, indicator second; destroy indicator before material. App owns semantic targets, selection, keyboard behavior and events. It animates measured bounds, not Apple optical merging. Null/disconnected targets hide; invalid ancestry throws RangeError; resize/scroll/reduced motion snap immediately. Owns backing position/geometry/visibility/pointer-events/transition/radius and temporarily positions static container.
+- attachGlassIndicator(container, backing, {duration:280, radius:24}). Returns moveTo(targetOrNull), update(options), destroy(). Backing is one empty decorative direct child; container must be untransformed and targets use the same CSS coordinate scale. AttachGlass(backing) first, indicator second; destroy indicator before material. App owns semantic targets, selection, keyboard behavior and events. It animates measured bounds, not Apple optical merging. Null/disconnected targets hide; invalid ancestry throws RangeError; resize/scroll snap when settled (or retarget active springs); reduced motion snaps immediately. Owns backing position/geometry/visibility/pointer-events/transition/radius and temporarily positions static container.
 - attachGlassScrollEdge(scrollport, edgeLayer, {edge:'both', style:'soft', size:32}). Returns update(options), destroy(). Use separate empty decoration outside scrollport, absolutely positioned over a wrapper. Keep toolbar/focus above it; no content masking. Scroll/resize/content changes control top/bottom states. soft gradient or hard uniform scrim; preferences override blur. No routing/toolbar minimization included.
 - Both helpers are framework independent. Create after mount and clean up on unmount in React effects, Vue mounted, Svelte actions or existing lifecycle. Neither needs a new peer dependency. Options update replaces complete configuration.
 
 Current behavior lab: https://wpsydev.github.io/liquid-glass-kit/behavior/
 Apple feature research/gaps: docs/APPLE_PARITY.md (38 baseline comparisons, WWDC25 and WWDC26 primary sources). Read CHANGELOG.md for clear blur correction and edge-mask migration. React/Vue rebind correctly when as replaces DOM nodes; custom element includes saturation, opacity, backdrop, tint and tint-opacity.
+
+Motion (0.3.0-preview.1):
+- attachGlassMotion(element, options). Defaults: stiffness 260 [20–1000], damping 22 [1–100], mass 1 [.1–10], pressScale .94 [.85–1], stretch .035 [0–.08], reducedMotion false. Attach after mount. Pointer/touch/native keyboard press and release preserve events and disabled semantics.
+- Returns press({x,y}?), release(), enter(), exit(), update(options), destroy(). Press coordinates are local CSS pixels. Enter/exit resolve true when completed or false when interrupted, disconnected or destroyed. They animate scale/opacity only; apps own hidden/inert/focus/popover state. Show the popup before enter; hide after a successful exit. Never remove a reopened surface after an interrupted exit. Native outside/Escape dismissal can remain immediate.
+- Analytic damped springs retain position and velocity when retargeted, use elapsed RAF timestamps and stop at rest, with a six-second maximum settling time. Explicit/system reduced motion snaps to targets. Motion owns individual scale, opacity, transition and motion variables; use wrappers for other animations. No foreground blur is installed.
+- React GlassButton/GlassSurface and Vue GlassSurface accept an optional motion options object. Omit it to disable. SSR markup is static and visible; mount does not automatically replay enter. Use a core controller on an element ref to coordinate appearance lifecycle. Custom elements support motion by presence plus motion-stiffness, motion-damping, motion-mass, motion-press-scale, motion-stretch and reduced-motion attributes.
+- attachGlassIndicator supports motion: 'ease' | 'spring' (default ease), stiffness/damping/mass with the same defaults/bounds, and reducedMotion (false). Ease duration remains 280 ms. Spring mode preserves velocity on retargeting. Resize/scroll snap when settled and retarget an active spring. Optical shape merging is not included.
+- Attach material first, motion second; destroy in reverse order. Keep backing decoration noninteractive and preserve application semantics.
+Demo: https://wpsydev.github.io/liquid-glass-kit/motion/
+Research: docs/MOTION_RESEARCH.md. Release: https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.3.0-preview.1. npm publication remains pending.

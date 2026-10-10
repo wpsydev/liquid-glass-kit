@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.0-preview.1 — Motion preview
+
+- Added `attachGlassMotion`: spring press/release, localized directional stretch and visual enter/exit transitions with completion/cancellation promises.
+- Added optional velocity-preserving spring mode to `attachGlassIndicator`; existing ease mode remains default.
+- Added motion options to React/Vue adapters and opt-in custom element attributes. SSR starts visible without replaying an entrance during hydration.
+- Explicit and system reduced motion snap to targets; animation loops stop at rest and teardown restores owned styles.
+- Explicit material isolation keeps negative backdrop decoration contained in flex controls.
+- Added an animated motion playground, primary Apple spring/transition references and integration recipes.
+
+Migration: existing material and ease indicator integrations continue to work. Motion is opt-in and reserves individual scale, opacity and transition; compose on a wrapper if these already belong to your app. Enter/exit are visual only; the app owns native popover/dialog visibility, focus and dismissal. Springs and bounds movement do not supply optical shape merging.
+
 ## 0.2.0-preview.1 — 2026-10-10
 
 - Added independent fill strength (`opacity`), semantic hex tint (`tint`/`tintOpacity`) and application-provided backdrop tone (`backdrop`). Explicit appearance wins; preferences still override transparency.

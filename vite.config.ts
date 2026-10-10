@@ -13,6 +13,7 @@ export default defineConfig({
         playground: resolve('site/index.html'),
         campaign: resolve('site/campaign/index.html'),
         behavior: resolve('site/behavior/index.html'),
+        motion: resolve('site/motion/index.html'),
       },
     },
   },

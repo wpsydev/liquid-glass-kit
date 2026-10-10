@@ -1,6 +1,6 @@
 import '../../src/styles.css';
 import './style.css';
-import { attachGlass, attachGlassIndicator, attachGlassScrollEdge } from '../../src/index';
+import { attachGlass, attachGlassIndicator, attachGlassScrollEdge, attachGlassMotion } from '../../src/index';
 import type { GlassOptions } from '../../src/index';
 
 declare global { interface Window { runBehaviorShowcase: () => Promise<void>; } }
@@ -22,7 +22,8 @@ const timers = new Map<number, (continued: boolean) => void>();
 
 const glassElements = [$('#material-card'), pressButton, backing, $('#protected-toolbar')];
 const materials = glassElements.map(element => attachGlass(element));
-const indicator = attachGlassIndicator(nav, backing, { duration: 280, radius: 20 });
+const pressMotion = attachGlassMotion(pressButton);
+const indicator = attachGlassIndicator(nav, backing, { motion: 'spring', radius: 20 });
 const edge = attachGlassScrollEdge(scrollport, $('#scroll-edge'), { edge: 'both', style: edgeStyle, size: 32 });
 
 const items = [
@@ -152,5 +153,5 @@ window.runBehaviorShowcase = async () => {
 };
 
 $('#play-showcase').addEventListener('click', () => { void window.runBehaviorShowcase(); });
-window.addEventListener('pagehide', () => { stopShowcase(); indicator.destroy(); edge.destroy(); materials.forEach(material => material.destroy()); });
+window.addEventListener('pagehide', event => { stopShowcase(); if (!event.persisted) { pressMotion.destroy(); indicator.destroy(); edge.destroy(); materials.forEach(material => material.destroy()); } });
 applyMaterial(); selectSection(navButtons[0]); updateScrollState();
