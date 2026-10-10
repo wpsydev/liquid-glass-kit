@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "version": "0.11.0-preview.1",
-  "state": "prepared",
+  "state": "published",
   "sourceSha256": "5c48b8bdf0086474b94defe7e6453423862f30e09458ad0adaa2c93eeb1bd238",
   "nativeBrowser": "T3 Chrome 152 on Apple M1 Pro; responsive Chromium and controlled preference fixture, not physical phone/Safari validation",
   "layouts": [
@@ -537,7 +537,25 @@
     },
     "title": "Make\nit melt."
   },
-  "posts": [],
+  "posts": [
+    {
+      "kind": "video",
+      "url": "https://x.com/wpsygames/status/2109050831026741286",
+      "text": "Soft matter. Hard light.\nThree glass droplets that merge, orbit and break apart.\n\nLiquid Glass Kit 0.11 adds shared silhouettes, edge refraction and RGB dispersion.\n\n12 seconds. Original music. Open source.\nTry the new studio: https://wpsydev.github.io/liquid-glass-kit/fusion/"
+    },
+    {
+      "kind": "implementation",
+      "url": "https://x.com/wpsygames/status/2109050971930440004",
+      "replyTo": "https://x.com/wpsygames/status/2109050831026741286",
+      "text": "How it works: analytic shape union + one bounded fusion pass. setDrops() stages geometry; your animation loop submits it.\n\n3-drop GPU fixture: 0.584ms median; p95 up to 2.557ms (Chrome 152/M1 Pro, 5 runs, 900k-pixel cap).\nMethod + raw evidence: https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/FUSION.md"
+    },
+    {
+      "kind": "installation",
+      "url": "https://x.com/wpsygames/status/2109051083880575029",
+      "replyTo": "https://x.com/wpsygames/status/2109050971930440004",
+      "text": "Build your own material experiment.\n\n0.11 includes the studio backdrop, merging droplets, edge refraction and RGB dispersion. Core stays dependency-free; CSS remains the default.\n\nInstall the GitHub release archive or version tag. npm registry pending.\nhttps://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.11.0-preview.1"
+    }
+  ],
   "npmRegistry": "not published; GitHub release archive and tag are the installation path",
   "media": {
     "path": "docs/campaign/assets/fusion-showcase.mp4",
@@ -555,5 +573,108 @@
     "fastStart": true,
     "fullDecodePassed": true,
     "contactFramesReviewed": 6
-  }
+  },
+  "publication": {
+    "commit": "8d5d417e8902acca5c8933879323327b2b4ea7c6",
+    "releaseUrl": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.11.0-preview.1",
+    "demoUrl": "https://wpsydev.github.io/liquid-glass-kit/fusion/",
+    "runs": [
+      {
+        "name": "Verify",
+        "conclusion": "success",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38092070155"
+      },
+      {
+        "name": "Publish playground",
+        "conclusion": "success",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38092070164"
+      },
+      {
+        "name": "Publish preview release",
+        "conclusion": "success",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38092070148"
+      }
+    ],
+    "releaseAssets": [
+      {
+        "name": "liquid-glass-fusion.mp4",
+        "bytes": 1126872,
+        "digest": "sha256:861dbbcab3d1d60f51ade2f0af8c2ab1798c929b9d6601484683718a31d551ed",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.11.0-preview.1/liquid-glass-fusion.mp4"
+      },
+      {
+        "name": "wpsydev-liquid-glass-0.11.0-preview.1.tgz",
+        "bytes": 155164,
+        "digest": "sha256:4ade4ae16e2b8bcf0f1e5a3a9788110569630176f61889e76f669656cab9a899",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.11.0-preview.1/wpsydev-liquid-glass-0.11.0-preview.1.tgz"
+      }
+    ],
+    "pagesVideoSha256": "861dbbcab3d1d60f51ade2f0af8c2ab1798c929b9d6601484683718a31d551ed",
+    "pagesSourceSha256": "5c48b8bdf0086474b94defe7e6453423862f30e09458ad0adaa2c93eeb1bd238",
+    "releasedPackage": {
+      "version": "0.11.0-preview.1",
+      "files": 69,
+      "runtimeDependencies": 0,
+      "optionalPeers": [
+        "react",
+        "vue"
+      ],
+      "sha256": "4ade4ae16e2b8bcf0f1e5a3a9788110569630176f61889e76f669656cab9a899"
+    },
+    "mainLinkDestination": "https://wpsydev.github.io/liquid-glass-kit/fusion/",
+    "xPlayback": {
+      "currentTime": 5.941775,
+      "decodedAudioBytes": 303208,
+      "decodedFrames": 547,
+      "duration": 12.053333,
+      "height": 1280,
+      "mediaRequests": [],
+      "muted": false,
+      "paused": false,
+      "readyState": 4,
+      "url": "https://x.com/wpsygames/status/2109050831026741286",
+      "volume": 0.3,
+      "width": 720
+    },
+    "replyLinkDestinations": [
+      "https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/FUSION.md",
+      "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.11.0-preview.1"
+    ]
+  },
+  "publicTextReceipts": [
+    {
+      "links": [
+        {
+          "label": "https://\nwpsydev.github.io/liquid-glass-k\nit/fusion/\n…",
+          "url": "https://t.co/CSBcUSabJ2"
+        }
+      ],
+      "text": "Soft matter. Hard light.\nThree glass droplets that merge, orbit and break apart.\n\nLiquid Glass Kit 0.11 adds shared silhouettes, edge refraction and RGB dispersion.\n\n12 seconds. Original music. Open source.\nTry the new studio: \nhttps://\nwpsydev.github.io/liquid-glass-k\nit/fusion/\n…",
+      "url": "https://x.com/wpsygames/status/2109050831026741286"
+    },
+    {
+      "links": [
+        {
+          "label": "https://\ngithub.com/wpsydev/liquid\n-glass-kit/blob/main/docs/FUSION.md\n…",
+          "url": "https://t.co/PQh3moiybj"
+        }
+      ],
+      "text": "How it works: analytic shape union + one bounded fusion pass. setDrops() stages geometry; your animation loop submits it.\n\n3-drop GPU fixture: 0.584ms median; p95 up to 2.557ms (Chrome 152/M1 Pro, 5 runs, 900k-pixel cap).\nMethod + raw evidence: \nhttps://\ngithub.com/wpsydev/liquid\n-glass-kit/blob/main/docs/FUSION.md\n…",
+      "url": "https://x.com/wpsygames/status/2109050971930440004"
+    },
+    {
+      "links": [
+        {
+          "label": "github.com Release Liquid Glass Kit 0.11.0-preview.1 · wpsydev/liquid-glass-kit",
+          "url": "https://t.co/4OuOMzLPPx"
+        },
+        {
+          "label": "From github.com",
+          "url": "https://t.co/4OuOMzLPPx"
+        }
+      ],
+      "text": "Build your own material experiment.\n\n0.11 includes the studio backdrop, merging droplets, edge refraction and RGB dispersion. Core stays dependency-free; CSS remains the default.\n\nInstall the GitHub release archive or version tag. npm registry pending.",
+      "url": "https://x.com/wpsygames/status/2109051083880575029"
+    }
+  ]
 }
