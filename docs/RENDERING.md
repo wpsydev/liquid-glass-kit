@@ -36,6 +36,8 @@ Measured in the native T3 preview, Chromium 152 on an Apple M1 Pro through ANGLE
 
 The GPU numbers are medians of five run medians from seeded randomized paired runs, each two seconds after 12 warmup frames. The asynchronous timer extension was available; no samples were disjoint, skipped, or unanswered. Both versions retained approximately 60 Hz callback cadence. JavaScript submission medians were unchanged at 0.1 ms for stationary lenses and 0.2 ms for moving lenses. These results establish lower measured GPU work on this workload, not a whole-app speedup, higher FPS, or physical-phone performance. [Raw rendering results](../benchmarks/render-browser.json)
 
+The serialized `gl.finish()` diagnostic returned smaller CPU-clock intervals than the asynchronous GPU timer on this backend. Although the harness calls the standard completion API, those intervals are not validated GPU completion latency and do not support a speedup claim.
+
 The displacement-map numbers use 31 paired batches after five warmups. Output allocation is included; SVG/filter composition is excluded. The harness compares seven dimension/radius cases byte for byte before timing. [Raw optics results](../benchmarks/optics-browser.json)
 
 The new field is an additional workload because the previous release did not support thousands of scene instances. Its count and draw calls establish submitted graphics, not thousands of DOM widgets. Frame callbacks and a video's export rate are not proof of presented frames or physical-phone performance. Keep raw samples, timing conditions, source hashes, disjoint-query status and resource accounting with any claimed result.

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "version": "0.10.0-preview.1",
-  "state": "prepared",
+  "state": "published",
   "sourceSha256": "d70d055210b3c5234474a8e381835877389cdf5e25597f2142c7c560c9bb61f5",
   "nativeBrowser": "T3 Chrome 152 on Apple M1 Pro; viewport resizing is not physical phone validation",
   "layouts": [
@@ -369,9 +369,109 @@
     "quality": "RGBA8 interpolation, clamped edge sampling and bright overlap rim differences; not pixel-identical"
   },
   "publication": {
-    "release": null,
-    "x": [],
-    "npm": "Pending; authenticated session lacks required npm2FA publishing authorization"
+    "commit": "d3a2fb82bf10434556c47d3bd1a32b8a25f7f11f",
+    "release": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.10.0-preview.1",
+    "releaseAssets": [
+      {
+        "name": "liquid-glass-flow.mp4",
+        "bytes": 3062300,
+        "digest": "sha256:ee97f76bd460561ac256f107830640ded05370f4027b3feab14244bdcf3c8694",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.10.0-preview.1/liquid-glass-flow.mp4"
+      },
+      {
+        "name": "wpsydev-liquid-glass-0.10.0-preview.1.tgz",
+        "bytes": 141330,
+        "digest": "sha256:04b42d7773c1c2d62df2459a8366964a77121e35517c8d65a74f964d8a22ec38",
+        "url": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.10.0-preview.1/wpsydev-liquid-glass-0.10.0-preview.1.tgz"
+      }
+    ],
+    "workflows": [
+      {
+        "name": "Verify",
+        "id": 38088698391,
+        "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38088698391",
+        "conclusion": "success"
+      },
+      {
+        "name": "Publish preview release",
+        "id": 38088698388,
+        "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38088698388",
+        "conclusion": "success"
+      },
+      {
+        "name": "Publish playground",
+        "id": 38088698384,
+        "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38088698384",
+        "conclusion": "success"
+      }
+    ],
+    "demo": "https://wpsydev.github.io/liquid-glass-kit/flow/",
+    "demoVerified": {
+      "count": 3000,
+      "drawCalls": 3,
+      "renderBuffer": [
+        1080,
+        1920
+      ],
+      "benchmarkDisplay": "1.58 → 0.85 ms; separate8lensGPUtest47%",
+      "httpStatus": 200,
+      "rawSourceHashMatches": true,
+      "publicVideoSha256Matches": true
+    },
+    "x": [
+      {
+        "text": "3,000 GPU glass instances. One field draw.\nStream → wave → vortex.\n\nLiquid Glass Kit 0.10: separate 8-lens GPU test 1.58 → 0.85ms (47% less; Chrome 152/M1 Pro, 5 paired runs).\n\nCSS stays the default. Play with it:\nhttps://wpsydev.github.io/liquid-glass-kit/flow/",
+        "url": "https://x.com/wpsygames/status/2109037423493828848",
+        "parent": null
+      },
+      {
+        "text": "How: cached wallpaper, bounded lens draws, shader-driven motion.\nMap generation: 16.8 → 4.1ms (31 paired batches; byte-identical output).\nFrame callbacks stayed ~60Hz. No FPS claim. Cached optics are approximate.\nMethod + raw data:\nhttps://github.com/wpsydev/liquid-glass-kit/blob/main/docs/RENDERING.md",
+        "url": "https://x.com/wpsygames/status/2109037626179383461",
+        "parent": "https://x.com/wpsygames/status/2109037423493828848"
+      },
+      {
+        "text": "0.10.0-preview.1: 124 tests passed. SSR-safe; no runtime dependencies; React/Vue optional.\nStream/wave/orbit, pause and pixel budgets.\nInstall: npm i github:wpsydev/liquid-glass-kit#v0.10.0-preview.1\nRelease + video:\nhttps://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.10.0-preview.1",
+        "url": "https://x.com/wpsygames/status/2109037807755014495",
+        "parent": "https://x.com/wpsygames/status/2109037626179383461"
+      }
+    ],
+    "playback": {
+      "currentTime": 9.081872,
+      "decodedAudioBytes": 159397,
+      "decodedFrames": 282,
+      "duration": 12.053333,
+      "height": 1280,
+      "muted": false,
+      "readyState": 4,
+      "src": "blob:https://x.com/ef770730-33bc-4d11-a10a-4c19440b15cf",
+      "volume": 0.3,
+      "width": 720
+    },
+    "npm": "Not published to registry; current authenticated session lacks required npm2FA publishing authorization. GitHub tag/archive installation is live.",
+    "verifiedAt": "2026-10-10T21:47:00Z",
+    "engagement": "No reach, popularity, stars or virality claim.",
+    "publicLinks": [
+      {
+        "short": "https://t.co/SSDy44koUP",
+        "target": "https://wpsydev.github.io/liquid-glass-kit/flow/",
+        "status": 200
+      },
+      {
+        "short": "https://t.co/T966qqukcJ",
+        "target": "https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/RENDERING.md",
+        "redirectStatus": 301
+      },
+      {
+        "short": "https://t.co/9gqd5DBVFB",
+        "target": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.10.0-preview.1",
+        "redirectStatus": 301
+      }
+    ],
+    "installPostCard": {
+      "aria": "github.com Release Liquid Glass Kit 0.10.0-preview.1 · wpsydev/liquid-glass-kit",
+      "href": "https://t.co/9gqd5DBVFB",
+      "text": "Release Liquid Glass Kit 0.10.0-preview.1 · wpsydev/liquid-glass-kit"
+    }
   },
   "media": {
     "path": "docs/campaign/assets/flow-showcase.mp4",
