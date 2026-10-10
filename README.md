@@ -18,6 +18,8 @@ The new material workbench and listening room use paper, ink, restrained glass a
 
 [Microinteraction studio](https://wpsydev.github.io/liquid-glass-kit/micro-motion/) shows four directional reveals and short confirmation/error feedback on one screen. Use the optional [transition helper](docs/MICRO_MOTION.md) for fast timed cues; the [toolbox research](docs/MICRO_MOTION_RESEARCH.md) compares Motion, GSAP, Anime.js, Rive, Lottie and native Web Animations.
 
+[Watch the 12-second microinteraction video and toolbox thread on X](https://x.com/wpsygames/status/2109015324276465803).
+
 ## Why another glass library?
 
 The material should fit your app's stack and semantics. Liquid Glass Kit separates the **portable material** from **experimental optical enhancement**:

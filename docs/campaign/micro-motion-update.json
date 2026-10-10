@@ -1,0 +1,178 @@
+{
+  "title": "Fast glass microinteractions",
+  "status": "published",
+  "version": "0.8.0-preview.1",
+  "account": "@wpsygames",
+  "verifiedAtUtc": "2026-10-10T20:20:17Z",
+  "repository": "https://github.com/wpsydev/liquid-glass-kit",
+  "sourceCommit": "f77f0ac95ec17ae7da852e50b89a58d609333d81",
+  "releaseCommit": "57f0c7434915caddda90fd35bfea5f3b848d7616",
+  "demoUrl": "https://wpsydev.github.io/liquid-glass-kit/micro-motion/",
+  "researchUrl": "https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/MICRO_MOTION_RESEARCH.md",
+  "release": {
+    "url": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.8.0-preview.1",
+    "tag": "v0.8.0-preview.1",
+    "prerelease": true,
+    "assets": [
+      {
+        "name": "liquid-glass-microinteractions.mp4",
+        "bytes": 518869,
+        "url": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.8.0-preview.1/liquid-glass-microinteractions.mp4"
+      },
+      {
+        "name": "wpsydev-liquid-glass-0.8.0-preview.1.tgz",
+        "bytes": 131292,
+        "url": "https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.8.0-preview.1/wpsydev-liquid-glass-0.8.0-preview.1.tgz"
+      }
+    ]
+  },
+  "threadUrl": "https://x.com/wpsygames/status/2109015324276465803",
+  "posts": [
+    {
+      "number": 1,
+      "url": "https://x.com/wpsygames/status/2109015324276465803",
+      "text": "Small moves. Better feel. Liquid Glass Kit 0.8 adds four directional reveals + quick confirm/error cues. 180ms default, reduced-motion support, zero core runtime dependencies. Six working demos, one screen ↓ https://wpsydev.github.io/liquid-glass-kit/micro-motion/",
+      "weightedCharacterCount": 231,
+      "inReplyTo": null,
+      "composerCopyAndModelVerified": true,
+      "parentVerifiedBeforeSend": false,
+      "sendReceiptVerified": true,
+      "publicTextVerified": true,
+      "publicLinkDestinationVerified": true,
+      "attachment": "12-second-microinteraction-showcase"
+    },
+    {
+      "number": 2,
+      "url": "https://x.com/wpsygames/status/2109015496482054456",
+      "text": "Motion for React layout. GSAP for timelines. Anime.js for SVG. Rive/Lottie for artwork. For these small cues, we chose native Web Animations. Research, dated adoption signals + designer guidance: https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/MICRO_MOTION_RESEARCH.md",
+      "weightedCharacterCount": 219,
+      "inReplyTo": "2109015324276465803",
+      "composerCopyAndModelVerified": true,
+      "parentVerifiedBeforeSend": true,
+      "sendReceiptVerified": true,
+      "publicTextVerified": true,
+      "publicLinkDestinationVerified": true,
+      "attachment": null
+    },
+    {
+      "number": 3,
+      "url": "https://x.com/wpsygames/status/2109015617873588649",
+      "text": "Try attachGlassTransition: enter(), exit(), feedback('confirm' | 'reject'). Cancelable, SSR-safe imports; your app keeps focus, visibility and real operations. Installable 0.8 preview + source: https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.8.0-preview.1",
+      "weightedCharacterCount": 217,
+      "inReplyTo": "2109015496482054456",
+      "composerCopyAndModelVerified": true,
+      "parentVerifiedBeforeSend": true,
+      "sendReceiptVerified": true,
+      "publicTextVerified": true,
+      "publicLinkDestinationVerified": true,
+      "attachment": null
+    }
+  ],
+  "videoPlayback": {
+    "audioDecodedBytes": 964027,
+    "currentTime": 2.698738,
+    "duration": 12.053333,
+    "muted": false,
+    "paused": false,
+    "readyState": 4
+  },
+  "media": {
+    "assetPath": "docs/campaign/assets/micro-motion-showcase.mp4",
+    "bytes": 518869,
+    "sha256": "7a1843ab56e789496632d227a149dc3b426ca8cb121e04d542f22803b494ecc6",
+    "width": 720,
+    "height": 1280,
+    "videoFrames": 360,
+    "fps": 30,
+    "videoDurationSeconds": 12,
+    "containerDurationSeconds": 12.02,
+    "codec": "H.264 High / yuv420p",
+    "audio": "AAC-LC stereo 48 kHz",
+    "provenance": "docs/campaign/MICRO_MOTION_MEDIA.md",
+    "recordingEvidence": "28105162-0472-4705-8632-6b21d2e581a1-a4da9c32-4036-4932-9453-72096b08d0de-mp4",
+    "completeDecodePassed": true,
+    "soundtrack": "Reused repository-original 120 BPM synthesized bass groove; MIT, no borrowed samples or voices."
+  },
+  "validation": {
+    "npmRunCheck": "passed",
+    "tests": 95,
+    "testFiles": 10,
+    "focusedTransitionTests": 13,
+    "npmPackDryRun": "passed",
+    "packageFiles": 81,
+    "ssrImport": "passed",
+    "browser": "Native T3 Chromium",
+    "viewports": [
+      [
+        320,
+        568
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        720,
+        1280
+      ],
+      [
+        1280,
+        800
+      ]
+    ],
+    "allButtonTargetsAtLeast44px": true,
+    "noHorizontalOverflow": true,
+    "allSixExamplesAndFooterFit": "390×844,720×1280,1280×800;320×568 naturally scrolls",
+    "nativeKeyboard": "Enter activates toast without moving focus; reduced-motion button works",
+    "actualWAAPIReversal": {
+      "before": {
+        "translate": "10px 20.647px",
+        "scale": "0.9",
+        "opacity": "0.614952"
+      },
+      "after": {
+        "translate": "10px 20.647px",
+        "scale": "0.9",
+        "opacity": "0.614952"
+      },
+      "interrupted": false,
+      "done": true,
+      "endpoint": {
+        "animations": 0,
+        "opacity": "0",
+        "translate": "10px calc(8px)"
+      },
+      "reducedMotionEntry": {
+        "completed": true,
+        "animations": 0,
+        "opacity": "0.65",
+        "scale": "0.9",
+        "translate": "10px 20px"
+      }
+    },
+    "publicReducedMotion": {
+      "opacity": 1,
+      "animations": 0
+    },
+    "limits": "No physical-phone, Safari/Firefox, assistive-technology or performance certification."
+  },
+  "actions": [
+    {
+      "name": "Verify",
+      "conclusion": "success",
+      "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38082959900"
+    },
+    {
+      "name": "Publish preview release",
+      "conclusion": "success",
+      "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38082959910"
+    },
+    {
+      "name": "Publish playground",
+      "conclusion": "success",
+      "url": "https://github.com/wpsydev/liquid-glass-kit/actions/runs/38082959886"
+    }
+  ],
+  "npmRegistryPublished": false,
+  "reachResult": "Not measured. No virality, adoption or star increase claimed."
+}
