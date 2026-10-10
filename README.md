@@ -2,13 +2,13 @@
 
 **Liquid Glass for the web, in any stack.** A small CSS and TypeScript material system with React and Vue adapters, a Svelte action, and accessible solid fallbacks.
 
-Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.5.0 mobile preview**, not a pixel-identical recreation of Apple's renderer.
+Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.6.0 studio preview**, not a pixel-identical recreation of Apple's renderer.
 
-![Live Liquid Glass Kit playground with material controls](docs/assets/playground.webp)
+![Liquid Glass Kit material workbench](docs/assets/studio.webp)
 
 [Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [Mobile studio](https://wpsydev.github.io/liquid-glass-kit/mobile/) · [Mobile design guide](docs/MOBILE.md) · [Optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/) · [Motion lab](https://wpsydev.github.io/liquid-glass-kit/motion/) · [Behavior lab](https://wpsydev.github.io/liquid-glass-kit/behavior/) · [Interactive demos](https://wpsydev.github.io/liquid-glass-kit/campaign/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Apple feature audit](docs/APPLE_PARITY.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
 
-[Watch the 12-second mobile demo with its original soundtrack](https://x.com/wpsygames/status/2108968276214579284).
+The new material workbench and listening room use paper, ink, restrained glass and selected MIT GitLab SVGs. [Design contract](docs/DESIGN.md) · [GitLab UI research and selection](docs/UI_RESEARCH.md).
 
 ## Why another glass library?
 

@@ -92,3 +92,11 @@ Coverage comprises resized desktop Chromium, enlarged-text layout simulation and
 Published video: https://x.com/wpsygames/status/2108968276214579284
 Release/install reply: https://x.com/wpsygames/status/2108968592322482382
 Publication receipts and exact copy: [mobile-update.json](mobile-update.json). X’s processed 720×1280 version played real frames and decoded audio; its transcode adds approximately 0.05 seconds. The source release file is exactly 12 seconds and 2,793,765 bytes. Existing scheduled campaign posts remain unchanged.
+
+## Studio redesign — 0.6.0-preview.1
+
+`assets/studio-showcase.mp4`: exactly 12 seconds, 1080×1920 vertical, H.264/yuv420p at 30 fps and stereo 48 kHz AAC. Native T3 recording of the final production-built material workbench transferred as a self-contained bundle. The actual controls and spring indicator drive frost, palette and corner changes; the detail is a native dialog. Original CSS light artwork, no copied footage or composited fake UI. The opt-in recording layout uses the same controllers with condensed page framing.
+
+The original upbeat 120 BPM soundtrack is synthesized by `scripts/render-studio-beat.py` under MIT, without external samples. FFmpeg trims/scales the recording, holds its final frame for one extra frame if needed, normalizes the original audio and writes streaming metadata. Six sampled frames and full decoding passed. Peak −3.5 dBFS; export 30 fps is not a rendering performance claim.
+
+`../assets/studio.webp` is an uncomposited 1280×900 native preview screenshot of the actual workbench, encoded as WebP. UI research, asset selection and MIT attribution are in `../UI_RESEARCH.md` and `../THIRD_PARTY.md`.

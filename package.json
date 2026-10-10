@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.5.0-preview.1",
+  "version": "0.6.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -72,7 +72,8 @@
     "build:site": "vite build",
     "check": "npm run typecheck && npm test && npm run build && npm run build:site",
     "prepack": "npm run build",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "icons": "node scripts/sync-gitlab-icons.mjs"
   },
   "peerDependencies": {
     "react": ">=18",
@@ -87,17 +88,18 @@
     }
   },
   "devDependencies": {
+    "@gitlab/svgs": "3.166.0",
+    "@types/node": "^24.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "@types/node": "^24.0.0",
-    "typescript": "^7.0.2",
-    "vite": "^8.3.4",
-    "vitest": "^5.0.3",
+    "@vue/server-renderer": "^3.5.0",
     "jsdom": "^29.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "vue": "^3.5.0",
-    "@vue/server-renderer": "^3.5.0"
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3",
+    "vue": "^3.5.0"
   },
   "engines": {
     "node": ">=22.12"

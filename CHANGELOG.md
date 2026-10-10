@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.6.0-preview.1 — Studio redesign
+
+- Rebuilt the homepage as a focused material workbench: editorial type, warm paper/ink palette, original moving light sculpture, flat parameter rail, useful documentation rows and native dialog.
+- Redesigned the mobile listening room with original record artwork, ruled metadata, restrained press springs and functional saved-session feedback.
+- Selected the official GitLab Pajamas ecosystem after researching GitLab-hosted alternatives; use pinned MIT GitLab SVG icons as build assets without adding a core runtime dependency.
+- Added an agent design contract that asks for real workflows, coherent hierarchy, readable controls and purposeful motion.
+- Added a twelve-second recorded redesign showcase with an original 120 BPM score.
+
+Migration: public material APIs and defaults are unchanged. The demo icon dependency is development-only. No Apple rendering parity, upstream component certification or physical-device coverage is implied.
+
 ## 0.5.0-preview.1 — Mobile details
 
 - Fixed primary-pointer ownership in material and spring feedback: secondary fingers, unrelated releases and other input modalities cannot clear the originating press. Descendant semantic controls keep their own feedback without deforming a parent surface.

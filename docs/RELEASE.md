@@ -1,17 +1,13 @@
-Liquid Glass Kit’s mobile preview improves the details people feel under their thumbs.
+Liquid Glass Kit 0.6 turns the demo into a focused material studio.
 
-- Primary-pointer ownership: second fingers and unrelated releases no longer interrupt active press feedback.
-- Descendant buttons, links and sliders keep their own interaction without deforming a containing surface.
-- Optional continuous CSS corners, round fallback and coordinated inner radii.
-- Opt-in 44px touch targets, safe-area spacing and dynamic viewport helpers.
-- A responsive mobile studio with interruptible springs, native form sheets, quiet mode and solid preferences.
-- Agent-ready mobile recipes grounded in primary Apple and web-platform guidance.
-- A 12-second vertical demo with an original 160 BPM soundtrack; no external music samples.
+- A paper-and-ink workbench with editorial typography, original animated light artwork and flat parameter controls.
+- A redesigned mobile listening room with record artwork, restrained springs, saved-session feedback and a native appearance sheet.
+- Selected MIT GitLab SVGs and Pajamas interaction guidance after checking authentic GitLab-hosted UI libraries. The core remains free of runtime dependencies.
+- An agent design contract covering useful workflows, hierarchy, glass restraint, semantics and motion.
+- A twelve-second vertical recording with an original upbeat 120 BPM soundtrack, without external music samples.
 
-[Mobile studio](https://wpsydev.github.io/liquid-glass-kit/mobile/) · [Mobile guide](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/MOBILE.md) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/MOBILE_RESEARCH.md) · [Validation evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/VALIDATION.md)
+[Material studio](https://wpsydev.github.io/liquid-glass-kit/) · [Listening room](https://wpsydev.github.io/liquid-glass-kit/mobile/) · [UI research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/UI_RESEARCH.md) · [Design contract](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/DESIGN.md) · [Validation](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/VALIDATION.md)
 
-Install the attached package archive or `npm i github:wpsydev/liquid-glass-kit#v0.5.0-preview.1`. npm registry publication remains pending.
+Install the attached archive or `npm i github:wpsydev/liquid-glass-kit#v0.6.0-preview.1`. npm registry publication remains pending.
 
-The portable CSS material remains the default. Continuous corners are an independent progressive enhancement, with round fallback on unsupported browsers; SVG and owned-scene optics use round geometry. The library does not reproduce Apple’s private compositor or guarantee arbitrary-background contrast.
-
-Browser coverage is a resized T3 Chromium viewport matrix, separate from unit tests. Physical iOS Safari/Android hardware, software keyboards and assistive technologies remain unverified. Safe-area spacing and dynamic viewport units do not universally solve keyboard placement.
+This is an independent web material. Portable CSS remains the default; refraction is explicit and experimental. Existing APIs and material defaults remain compatible. Continuous corners have a round fallback. Browser evidence uses resized T3 Chromium viewports; it does not certify physical iOS/Android devices or native Apple rendering.

@@ -1,0 +1,475 @@
+{
+  "date": "2026-10-10",
+  "browser": "T3 collaborative desktop Chromium resized; not physical devices",
+  "source": "Final production-built self-contained bundles transferred into native preview",
+  "homeMatrix": [
+    {
+      "bad": [],
+      "client": 305,
+      "scroll": 305,
+      "viewport": [
+        320,
+        480
+      ]
+    },
+    {
+      "bad": [],
+      "client": 305,
+      "scroll": 305,
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "bad": [],
+      "client": 345,
+      "scroll": 345,
+      "viewport": [
+        360,
+        640
+      ]
+    },
+    {
+      "bad": [],
+      "client": 345,
+      "scroll": 345,
+      "viewport": [
+        360,
+        800
+      ]
+    },
+    {
+      "bad": [],
+      "client": 360,
+      "scroll": 360,
+      "viewport": [
+        375,
+        667
+      ]
+    },
+    {
+      "bad": [],
+      "client": 375,
+      "scroll": 375,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "bad": [],
+      "client": 378,
+      "scroll": 378,
+      "viewport": [
+        393,
+        852
+      ]
+    },
+    {
+      "bad": [],
+      "client": 397,
+      "scroll": 397,
+      "viewport": [
+        412,
+        915
+      ]
+    },
+    {
+      "bad": [],
+      "client": 415,
+      "scroll": 415,
+      "viewport": [
+        430,
+        932
+      ]
+    },
+    {
+      "bad": [],
+      "client": 465,
+      "scroll": 465,
+      "viewport": [
+        480,
+        800
+      ]
+    },
+    {
+      "bad": [],
+      "client": 525,
+      "scroll": 525,
+      "viewport": [
+        540,
+        720
+      ]
+    },
+    {
+      "bad": [],
+      "client": 553,
+      "scroll": 553,
+      "viewport": [
+        568,
+        320
+      ]
+    },
+    {
+      "bad": [],
+      "client": 652,
+      "scroll": 652,
+      "viewport": [
+        667,
+        375
+      ]
+    },
+    {
+      "bad": [],
+      "client": 829,
+      "scroll": 829,
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "bad": [],
+      "client": 917,
+      "scroll": 917,
+      "viewport": [
+        932,
+        430
+      ]
+    },
+    {
+      "bad": [],
+      "client": 753,
+      "scroll": 753,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "bad": [],
+      "client": 805,
+      "scroll": 805,
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "bad": [],
+      "client": 1009,
+      "scroll": 1009,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "bad": [],
+      "client": 1265,
+      "scroll": 1265,
+      "viewport": [
+        1280,
+        800
+      ]
+    },
+    {
+      "bad": [],
+      "client": 1905,
+      "scroll": 1905,
+      "viewport": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "homeTextDouble": [
+    {
+      "client": 305,
+      "scroll": 305,
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "client": 375,
+      "scroll": 375,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "client": 553,
+      "scroll": 553,
+      "viewport": [
+        568,
+        320
+      ]
+    },
+    {
+      "client": 753,
+      "scroll": 753,
+      "viewport": [
+        768,
+        1024
+      ]
+    }
+  ],
+  "mobileMatrix": [
+    {
+      "bad": [],
+      "client": 305,
+      "scroll": 305,
+      "viewport": [
+        320,
+        480
+      ]
+    },
+    {
+      "bad": [],
+      "client": 305,
+      "scroll": 305,
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "bad": [],
+      "client": 345,
+      "scroll": 345,
+      "viewport": [
+        360,
+        640
+      ]
+    },
+    {
+      "bad": [],
+      "client": 345,
+      "scroll": 345,
+      "viewport": [
+        360,
+        800
+      ]
+    },
+    {
+      "bad": [],
+      "client": 360,
+      "scroll": 360,
+      "viewport": [
+        375,
+        667
+      ]
+    },
+    {
+      "bad": [],
+      "client": 375,
+      "scroll": 375,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "bad": [],
+      "client": 378,
+      "scroll": 378,
+      "viewport": [
+        393,
+        852
+      ]
+    },
+    {
+      "bad": [],
+      "client": 397,
+      "scroll": 397,
+      "viewport": [
+        412,
+        915
+      ]
+    },
+    {
+      "bad": [],
+      "client": 415,
+      "scroll": 415,
+      "viewport": [
+        430,
+        932
+      ]
+    },
+    {
+      "bad": [],
+      "client": 465,
+      "scroll": 465,
+      "viewport": [
+        480,
+        800
+      ]
+    },
+    {
+      "bad": [],
+      "client": 525,
+      "scroll": 525,
+      "viewport": [
+        540,
+        720
+      ]
+    },
+    {
+      "bad": [],
+      "client": 553,
+      "scroll": 553,
+      "viewport": [
+        568,
+        320
+      ]
+    },
+    {
+      "bad": [],
+      "client": 652,
+      "scroll": 652,
+      "viewport": [
+        667,
+        375
+      ]
+    },
+    {
+      "bad": [],
+      "client": 829,
+      "scroll": 829,
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "bad": [],
+      "client": 917,
+      "scroll": 917,
+      "viewport": [
+        932,
+        430
+      ]
+    },
+    {
+      "bad": [],
+      "client": 753,
+      "scroll": 753,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "bad": [],
+      "client": 820,
+      "scroll": 820,
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "bad": [],
+      "client": 1009,
+      "scroll": 1009,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "bad": [],
+      "client": 1265,
+      "scroll": 1265,
+      "viewport": [
+        1280,
+        800
+      ]
+    },
+    {
+      "bad": [],
+      "client": 1905,
+      "scroll": 1905,
+      "viewport": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "semantics": {
+    "homeNativeEscapeFocusRestored": "inspect",
+    "homeRadiusInput": "42px",
+    "homeOpaqueInput": true,
+    "mobileSavedStatePersistsAcrossTrackChange": true,
+    "mobileNativeEscapeFocusRestored": "mobile-mood"
+  },
+  "media": {
+    "recording": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-ccef3005-2658-49ab-a835-81d2a65bf1aa-mp4.mp4",
+    "cssViewport": [
+      432,
+      768
+    ],
+    "capturePixels": [
+      864,
+      1536
+    ],
+    "exportPixels": [
+      1080,
+      1920
+    ],
+    "duration": 12,
+    "fps": 30,
+    "soundtrack": "Original 120 BPM stereo synthesis via scripts/render-studio-beat.py; no external samples",
+    "sampledFramesReviewed": true,
+    "fullDecodePassed": true,
+    "bytes": 1623866
+  },
+  "limits": [
+    "Resized desktop Chromium is not iOS Safari or physical Android testing",
+    "Text doubling simulates layout; not OS font scaling",
+    "Export 30fps is not a performance benchmark"
+  ],
+  "mobileTextDouble": [
+    {
+      "client": 305,
+      "scroll": 305,
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "client": 375,
+      "scroll": 375,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "client": 553,
+      "scroll": 553,
+      "viewport": [
+        568,
+        320
+      ]
+    },
+    {
+      "client": 753,
+      "scroll": 753,
+      "viewport": [
+        768,
+        1024
+      ]
+    }
+  ],
+  "packedConsumer": {
+    "version": "0.6.0-preview.1",
+    "runtimeDependencies": {},
+    "ssrImportPassed": true
+  }
+}

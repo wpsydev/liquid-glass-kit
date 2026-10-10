@@ -3,6 +3,8 @@
 > Framework-independent Liquid Glass / glassmorphism materials for web apps. Package: @wpsydev/liquid-glass. CSS-first with a TypeScript DOM controller, React and Vue adapters, a Svelte action, and explicit accessible fallbacks.
 
 - [Complete integration guide](https://wpsydev.github.io/liquid-glass-kit/llms-full.txt): Exact API, import paths, recipes, and limitations.
+- [Interface design contract](https://wpsydev.github.io/liquid-glass-kit/docs/DESIGN.md): Real tasks, readable solid content, restrained glass controls, meaningful states, and review criteria.
+- [GitLab UI selection](https://wpsydev.github.io/liquid-glass-kit/docs/UI_RESEARCH.md): Verified primary sources, framework and license tradeoffs, and the selected Pajamas ecosystem.
 - [Mobile widgets](https://wpsydev.github.io/liquid-glass-kit/docs/MOBILE.md): Touch targets, safe areas, coordinated corners, keyboard and responsive recipes.
 - [Mobile research](https://wpsydev.github.io/liquid-glass-kit/docs/MOBILE_RESEARCH.md): Apple and web-platform primary sources with compatibility boundaries.
 - [Motion lab](https://wpsydev.github.io/liquid-glass-kit/motion/): Press springs, interruptible selection movement and visual appearance transitions.
