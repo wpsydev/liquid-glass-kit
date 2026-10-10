@@ -40,3 +40,11 @@ Browser checks, separate from unit tests:
 - The public `/campaign/` page loaded, and its solid, media, and playback controls worked.
 
 `npm run check` passed after the demo changes: type checking, 12 existing tests, library build, and the Vite multi-page site build. Those tests validate the library; they do not establish physical-device performance, browser-wide optical equivalence, or experimental refraction support.
+
+## Behavior update — 2026-10-10
+
+`assets/behavior-showcase.mp4`: 25s, 1280×1024, H.264/yuv420p at30fps, 558205bytes. Recorded in the native T3 Chromium preview using the actual production-built behavior demo transferred into the preview (localhost belonged to another app). `window.runBehaviorShowcase()` uses the actual controllers for density/tint/tone, synthetic touch/keyboard feedback, backing bounds, real scroll state and solid mode. The native recording was trimmed and encoded with FFmpeg; sampled frames confirm every chapter. It has no audio, backend AI, performance claim or physical-device claim.
+
+Live demo: https://wpsydev.github.io/liquid-glass-kit/behavior/
+X post: https://x.com/wpsygames/status/2108948352230703519
+Source at capture: 399840a. Production Pages was separately checked after deployment, including the standard solid backdrop-filter reset. Existing scheduled campaign posts remain in place; this is a separate feature-update post.

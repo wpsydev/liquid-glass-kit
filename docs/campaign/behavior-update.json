@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-10",
+  "status": "published",
+  "account": "wpsygames",
+  "url": "https://x.com/wpsygames/status/2108948352230703519",
+  "asset": "assets/behavior-showcase.mp4",
+  "durationSeconds": 25,
+  "releaseVersion": "0.2.0-preview.1",
+  "codeCommit": "399840a5892946dd2904bd4054a04aef3e47bc37",
+  "demoUrl": "https://wpsydev.github.io/liquid-glass-kit/behavior/",
+  "copy": "Liquid Glass Kit: the behavior update.\n\nDensity + semantic tint.\nTouch/keyboard feedback.\nMoving glass selection.\nScroll-aware soft/hard edges.\n\nBuilt from a 38-feature Apple audit. MIT, zero core dependencies.\n\nTry the live demo: https://wpsydev.github.io/liquid-glass-kit/behavior/",
+  "evidence": "Native X send receipt confirmed the public URL; processed attachment reported duration25, readyState4 before send. Public post playback verified: duration25, readyState4, paused=false, currentTime1.1s.",
+  "reply": {
+    "url": "https://x.com/wpsygames/status/2108948670246760946",
+    "purpose": "Source/install instructions and precise approximation limits",
+    "status": "published"
+  }
+}

@@ -70,4 +70,4 @@ Behavior helpers (core exports, browser attach after mount):
 - Both helpers are framework independent. Create after mount and clean up on unmount in React effects, Vue mounted, Svelte actions or existing lifecycle. Neither needs a new peer dependency. Options update replaces complete configuration.
 
 Current behavior lab: https://wpsydev.github.io/liquid-glass-kit/behavior/
-Apple feature research/gaps: docs/APPLE_PARITY.md (37 baseline comparisons, WWDC25 and WWDC26 primary sources). Read CHANGELOG.md for clear blur correction and edge-mask migration. React/Vue rebind correctly when as replaces DOM nodes; custom element includes saturation, opacity, backdrop, tint and tint-opacity.
+Apple feature research/gaps: docs/APPLE_PARITY.md (38 baseline comparisons, WWDC25 and WWDC26 primary sources). Read CHANGELOG.md for clear blur correction and edge-mask migration. React/Vue rebind correctly when as replaces DOM nodes; custom element includes saturation, opacity, backdrop, tint and tint-opacity.

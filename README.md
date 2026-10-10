@@ -108,6 +108,10 @@ Built with TypeScript, Vite, Vitest, browser-native CSS/SVG, and optional framew
 
 ## What's new in the behavior preview
 
-An [Apple feature audit](docs/APPLE_PARITY.md) compares 37 native behaviors with the earlier implementation and records current WWDC26 refinements. This iteration adds density/tint/tone controls, touch and keyboard press feedback, `attachGlassIndicator` for moving backing geometry, and `attachGlassScrollEdge` for scroll-aware separation. React/Vue tag changes now rebind safely. Clear defaults to 6px blur; regular remains 18px. The old whole-content edge mask is removed. See [CHANGELOG.md](CHANGELOG.md) for migration details.
+An [Apple feature audit](docs/APPLE_PARITY.md) compares 38 native behaviors with the earlier implementation and records current WWDC26 refinements. This iteration adds density/tint/tone controls, touch and keyboard press feedback, `attachGlassIndicator` for moving backing geometry, and `attachGlassScrollEdge` for scroll-aware separation. React/Vue tag changes now rebind safely. Clear defaults to 6px blur; regular remains 18px. The old whole-content edge mask is removed. See [CHANGELOG.md](CHANGELOG.md) for migration details.
 
 Automatic backdrop sampling, arbitrary optical merging, native thickness/scattering, ambient light transport and native OS integrations remain outside this preview. The new helpers are accessible web approximations; [try their behavior](https://wpsydev.github.io/liquid-glass-kit/behavior/).
+
+[Watch the behavior walkthrough](docs/campaign/assets/behavior-showcase.mp4) · [Published X demo](https://x.com/wpsygames/status/2108948352230703519)
+
+![Live behavior lab: material tuning, selection geometry and scroll separation](docs/assets/behavior-lab.webp)

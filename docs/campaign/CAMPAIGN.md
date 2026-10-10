@@ -80,3 +80,7 @@ Initial JSON status is `prepared`. The publishing owner may use `scheduled`, `pu
 Scheduling uses X's native web interface; its displayed timezone is **Europe/Kiev** (UTC+3 on all selected dates). The queue record stores UTC timestamps and the verified local caption. [Manage scheduled posts](https://x.com/compose/post/unsent/scheduled). Review points are a measurement plan, not a claim that an unattended monitoring job exists.
 
 Platform references: [X scheduling guidance](https://help.x.com/en/business-and-advertising/scheduled-tweets) and [X authenticity rules](https://help.x.com/en/rules-and-policies/authenticity). This campaign uses distinct educational posts and replies only where the actual discussion makes a response useful.
+
+## Published behavior update — 2026-10-10
+
+Following the Apple feature audit, published a25s walkthrough of the new material controls, input feedback, geometry backing and scroll-aware edges: https://x.com/wpsygames/status/2108948352230703519. Public playback verified duration25, readyState4 and advancing currentTime. Source/install reply: https://x.com/wpsygames/status/2108948670246760946. Exact receipts and copy are in behavior-update.json; media provenance is in MEDIA.md. Existing8scheduled campaign posts were retained.
