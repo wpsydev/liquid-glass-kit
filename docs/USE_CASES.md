@@ -1,0 +1,59 @@
+# Use-case coverage
+
+This matrix covers common application scenarios and explicitly identifies limits. It is not a claim to cover every conceivable UI.
+
+| Scenario | Recipe / material | Integration detail |
+| --- | --- | --- |
+| Desktop nav, mobile tab bar, dock | Regular nav + lg-toolbar | Preserve links/buttons; selected state belongs to app; account for safe-area-inset-bottom |
+| Sticky header | Regular header | Keep content padding and z-index explicit; inspect scrolling backdrop roots |
+| Media controls | Clear over a controlled dimmed image/video | Bold bright labels; never assume random media passes contrast |
+| AI chat composer | Regular form | Native textarea, label, submit button; solid response content |
+| Agent task status / command palette | Regular overlay | Use native dialog or existing headless command UI; keep live status announcements |
+| Menus, tooltips, popovers | Style existing headless surface | Keep focus, dismiss, placement and keyboard behavior in the existing library |
+| Modal / sheet | lg-glass on native dialog | showModal gives focus containment and Escape behavior; label dialog; safe viewport dimensions |
+| Sidebar / inspector | Regular aside | Use stable appearance across a large surface; do not flip on every pixel |
+| Buttons / toggles | Native button + lg-button | Default button type; disabled, aria-pressed, focus ring and >=44px targets |
+| Tabs / segmented control | One shared glass container | Solid/transparent inner selections; implement keyboard model in app/headless library |
+| Forms / input fields | Solid inputs in glass panel | Glass should not swallow labels/errors or obscure selection |
+| Dense tables / dashboards / long text | Solid content; glass toolbar | Avoid repeated blur in every row |
+| Toasts / notifications | Existing live-region surface | Preserve announcement semantics; don't move focused controls |
+| Scroll edges | lg-scroll-edge on viewport | Avoid clipping focus; not automatically tied to scroll position |
+| Reduced transparency / high contrast | Explicit solid option + media queries | Preference fallback for browsers without transparency query |
+| Touch / mobile | CSS material | Pointer tracking disabled for touch; avoid hover-only actions |
+| Print | Solid black-on-white CSS | Browser-native print stylesheet |
+| SSR / hydration | CSS markup + mounted enhancement | Import-safe core/adapters; deterministic options |
+| Portals | Attach after portaled element mounts | Clean up when portal unmounts; definitions live in owning document |
+| Iframes | Element owning document | Supports document/window ownership; do not access cross-origin frames |
+| Shadow DOM | CSS-only path | Provide stylesheet inside shadow root; experimental document filter IDs not certified |
+| Strict CSP | Static class + external CSS | Omit refraction unless bitmap/style policy permits it |
+| Canvas / WebGL app | CSS overlay controls | Texture-based optical renderer is future work |
+| Native React Native / Expo | Out of web scope | Use native material primitives; web exports need DOM |
+
+## Native dialog recipe
+
+```html
+<button id="open">Open preferences</button>
+<dialog id="preferences" class="lg-glass lg-panel" aria-labelledby="heading">
+  <form method="dialog">
+    <h2 id="heading">Preferences</h2>
+    <p>Keep essential text on a readable surface.</p>
+    <button class="lg-button">Close</button>
+  </form>
+</dialog>
+<script>
+  document.querySelector('#open').addEventListener('click', () =>
+    document.querySelector('#preferences').showModal());
+</script>
+```
+
+## AI composer recipe
+
+```html
+<form class="lg-glass lg-panel" aria-label="Message composer">
+  <label for="prompt">Your message</label>
+  <textarea id="prompt" name="prompt" rows="3" required></textarea>
+  <button type="submit" class="lg-button">Send</button>
+</form>
+```
+
+Supply your app's submit behavior; the material library does not call models, add telemetry, or create backend dependencies.

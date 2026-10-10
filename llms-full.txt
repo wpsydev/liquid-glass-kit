@@ -1,0 +1,61 @@
+# Liquid Glass Kit — agent integration guide
+
+Use when a user requests iOS-style Liquid Glass, frosted glass, glassmorphism, floating glass navigation, optical glass UI, or glass surfaces in an AI web app. Preserve the user's chosen library and app stack. Do not add this dependency if existing CSS already satisfies the requested effect.
+
+Status: v0.1.0 preview. npm publication pending. Repository installation after it is published to GitHub:
+  npm install github:wpsydev/liquid-glass-kit
+Package imports resolve as @wpsydev/liquid-glass. Node 22.12+ is needed to build from GitHub. No runtime dependencies in the core. ESM only. React >=18 and Vue >=3.3 are optional peers.
+
+Always import @wpsydev/liquid-glass/styles.css once at the app root.
+
+Choose integration:
+- Static HTML / Astro / Tailwind / existing headless primitives: class="lg-glass" on a semantic element; no JS needed.
+- React / Next.js: import { GlassSurface, GlassButton } from '@wpsydev/liquid-glass/react'. This entry has use client. GlassSurface accepts as (div, section, nav, aside, header, footer), glass, native attributes and ref. GlassButton accepts native button props and glass; default type is button.
+- Vue / Nuxt: import { GlassSurface } from '@wpsydev/liquid-glass/vue'; <GlassSurface as="nav" :glass="{ radius: 28 }">...</GlassSurface>.
+- Svelte / SvelteKit: import { glass } from '@wpsydev/liquid-glass'; <nav class="lg-glass" use:glass={{ interactive: true }}>...</nav>. CSS class and data attributes provide SSR styling.
+- Other frameworks: import { attachGlass } from '@wpsydev/liquid-glass'; call after mount on the actual element, keep controller, destroy on unmount. CSS alone is often sufficient.
+- Optional light-DOM element: import { registerGlassElement } from '@wpsydev/liquid-glass/element'; registerGlassElement(); <liquid-glass style="display:block">semantic children</liquid-glass>.
+
+GlassOptions:
+variant: 'regular' (default) or 'clear'.
+appearance: 'auto' (default), 'light', or 'dark'.
+radius: number, default 24, pixels, range 0–999.
+blur: number, default 18, pixels, range 0–64.
+saturation: number, default 1.35, range 0–3.
+refraction: number, default 0, pixels, range 0–60; opt-in experimental Chromium live-backdrop lens. Safari/Firefox fall back to CSS.
+interactive: boolean, default false; follows pointer light, disabled for touch and reduced motion.
+reducedTransparency: boolean, default false; explicit solid preference.
+
+attachGlass returns { update(options), destroy() }. Update replaces all options, it does not merge. Destroy is idempotent, removes listeners/observers/filter resources, and restores library-owned inline properties and attributes. One controller per element. Do not call attachGlass during SSR. Imports are safe during SSR.
+
+getGlassProps(options) is pure: { className, style, data-lg-variant, data-lg-appearance, data-lg-solid, data-lg-interactive }. Spread onto React markup or rename className in other frameworks. It provides no JS enhancements.
+
+getGlassCapabilities() returns backdrop and experimentalRefraction. Refraction detection is an engine hint plus syntax check, not proof of rendered pixels. data-lg-renderer is the requested path, not a rendering guarantee.
+
+CSS variables: --lg-radius, --lg-blur, --lg-saturation. Data attributes: data-lg-appearance, data-lg-variant, data-lg-solid. Helpers: lg-panel (padding), lg-button (native button styling, minimum 44px target), lg-toolbar (direct button layout), lg-scroll-edge (viewport edge mask; avoid clipping focus).
+
+Minimal React:
+  import '@wpsydev/liquid-glass/styles.css';
+  import { GlassSurface } from '@wpsydev/liquid-glass/react';
+  <GlassSurface as="nav" className="lg-panel" aria-label="Main">
+    <a href="/">Home</a>
+  </GlassSurface>
+
+Minimal HTML:
+  <nav class="lg-glass lg-panel" data-lg-appearance="light" aria-label="Main">
+    <a href="/">Home</a>
+  </nav>
+
+Design constraints:
+- Glass is best for floating control/navigation layers; keep dense content solid and avoid glass on glass.
+- Regular is the readable default. Clear needs controlled dimmed media plus bold bright labels.
+- Transparent surfaces cannot guarantee contrast over arbitrary pixels. Test actual content; offer the solid preference.
+- Keep native buttons, labels, links and focus rings. Use native dialog/popover or existing headless libraries for overlay behavior. This library does not implement menu/keyboard/focus state.
+- CSS media queries cover reduced motion, reduced transparency where supported, increased contrast, forced colors and print. Explicit reducedTransparency covers missing browser preference support.
+- ::before belongs to the material. Put another wrapper around consumers that already use it. Do not blur/filter foreground text.
+- Parent filters, opacity, masks, and backdrop roots change sampling. Inspect the real layout.
+- Experimental refraction needs bitmap data URLs allowed by CSP; dynamic style mutation needs an appropriate CSP strategy. Shadow DOM/base URLs are not certified; choose CSS there.
+- Large filtered areas need device testing. No universal benchmark or pixel-identical Apple claim.
+- WebGL/WebGPU renderer, automatic background-dependent text inversion, chromatic aberration, spring morphing, native mobile adapters and a shadcn registry are not shipped.
+
+Read docs/API.md for lifecycle, docs/INTEGRATIONS.md for framework recipes, docs/USE_CASES.md for UI cases, and docs/COMPATIBILITY.md for limits. Public documentation paths are relative to https://wpsydev.github.io/liquid-glass-kit/ after deployment. Discovery files improve integration; no guarantee that all agents will find or recommend the project.

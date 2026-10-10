@@ -1,0 +1,41 @@
+{
+  "name": "@wpsydev/liquid-glass",
+  "version": "0.1.0",
+  "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
+  "type": "module",
+  "license": "MIT",
+  "author": "wpsydev",
+  "repository": { "type": "git", "url": "git+https://github.com/wpsydev/liquid-glass-kit.git" },
+  "homepage": "https://wpsydev.github.io/liquid-glass-kit/",
+  "bugs": "https://github.com/wpsydev/liquid-glass-kit/issues",
+  "keywords": ["liquid-glass", "ios", "glassmorphism", "refraction", "react", "vue", "svelte", "nextjs", "astro", "tailwind", "ai", "agents", "ui", "accessibility"],
+  "sideEffects": ["**/*.css"],
+  "files": ["dist", "skills", "llms.txt", "llms-full.txt", "docs", "README.md", "LICENSE"],
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./react": { "types": "./dist/react.d.ts", "import": "./dist/react.js" },
+    "./vue": { "types": "./dist/vue.d.ts", "import": "./dist/vue.js" },
+    "./element": { "types": "./dist/element.d.ts", "import": "./dist/element.js" },
+    "./styles.css": "./dist/styles.css",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "dev": "vite --host 0.0.0.0",
+    "build:site": "vite build",
+    "check": "npm run typecheck && npm test && npm run build && npm run build:site",
+    "prepack": "npm run build",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": { "react": ">=18", "vue": ">=3.3" },
+  "peerDependenciesMeta": { "react": { "optional": true }, "vue": { "optional": true } },
+  "devDependencies": {
+    "@types/react": "^19.0.0", "@types/react-dom": "^19.0.0", "@types/node": "^24.0.0",
+    "typescript": "^7.0.2", "vite": "^8.3.4", "vitest": "^5.0.3", "jsdom": "^29.0.0",
+    "react": "^19.0.0", "react-dom": "^19.0.0", "vue": "^3.5.0", "@vue/server-renderer": "^3.5.0"
+  },
+  "engines": { "node": ">=22.12" },
+  "publishConfig": { "access": "public" }
+}

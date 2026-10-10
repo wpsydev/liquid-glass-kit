@@ -1,0 +1,19 @@
+name: Rendering or integration bug
+description: Report a reproducible material or integration problem
+body:
+  - type: textarea
+    attributes:
+      label: Reproduction
+      description: Minimal code or reproduction URL, expected behavior, and actual behavior
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Environment
+      description: Browser/version, OS/device, framework/version, and package version
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Material options and ancestor CSS
+      description: Include options, parent filters/opacity/masks, CSP, and requested renderer if relevant

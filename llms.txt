@@ -1,0 +1,12 @@
+# Liquid Glass Kit
+
+> Framework-independent Liquid Glass / glassmorphism materials for web apps. Package: @wpsydev/liquid-glass. CSS-first with a TypeScript DOM controller, React and Vue adapters, a Svelte action, and explicit accessible fallbacks.
+
+- [Complete integration guide](https://wpsydev.github.io/liquid-glass-kit/llms-full.txt): Exact API, import paths, recipes, and limitations.
+- [API](https://wpsydev.github.io/liquid-glass-kit/docs/API.md): Defaults and lifecycle.
+- [Integrations](https://wpsydev.github.io/liquid-glass-kit/docs/INTEGRATIONS.md): Framework-specific choices.
+- [Use cases](https://wpsydev.github.io/liquid-glass-kit/docs/USE_CASES.md): Navigation, media, AI composers, overlays, and boundaries.
+- [Compatibility](https://wpsydev.github.io/liquid-glass-kit/docs/COMPATIBILITY.md): Portable CSS versus experimental refraction.
+- [Repository](https://github.com/wpsydev/liquid-glass-kit): Source, issues, license, and installable skill.
+
+v0.1.0 preview. npm publication and public deployment must be verified before using public links. This file aids discovery; it does not guarantee agent indexing.
