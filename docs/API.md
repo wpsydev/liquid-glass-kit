@@ -123,6 +123,14 @@ Flips vertically when needed and the opposite side has more room, shifts horizon
 
 Actual side is `data-lg-overlay-placement`; `--lg-overlay-origin` and inline `transform-origin` point an entry spring toward the trigger. Owns fixed positioning/insets, margins, sizing/overflow and native anchor-rule overrides; restores authored declarations/priorities on cleanup. Does not own scale/opacity or semantic state. Do not combine positioning engines on one surface. Horizontal writing modes, axis-aligned anchors and untransformed fixed coordinates only; no virtual anchors, arbitrary clipping-boundary solver or phone keyboard certification. Safe insets and offscreen-anchor policy belong to the app. [OVERLAYS.md](OVERLAYS.md) contains native markup and framework lifecycle recipes.
 
+## attachGlassTransition(element, options?)
+
+Optional timed microinteractions; core exports `attachGlassTransition` and `GlassTransitionOptions`. Defaults: direction `up` (`up/down/left/right`, physical movement), distance 12px (0–32), duration 180ms (0–600), reducedMotion false combined with the live system preference. Nonfinite numbers use defaults. Updates replace options for subsequent effects; enabling reduced motion or duration 0 also settles an active effect.
+
+Returns `{ enter(), exit(), feedback('confirm' | 'reject'), cancel(), update(options), destroy() }`. Effect promises resolve a completion boolean. Superseding/canceling/disconnecting/destroying resolves false; missing Web Animations, duration 0 and reduced motion settle the intended state immediately. Enter restores authored fields after completion; exit retains its translated opacity-zero endpoint until enter/cancel/destroy. Confirmation is a short scale cue; rejection is a small horizontal nudge. Feedback preserves the previous stable presentation and skips disabled surfaces.
+
+Owns individual translate/scale/opacity on a dedicated layer. Samples current visual state when interrupted; these timed curves do not promise spring velocity continuity. Restores owned values/priorities and removes pending work/listeners on cleanup. The host owns hidden/inert, focus, roles, dismissal, operations and live announcements. Do not combine motion engines or CSS transitions on the same owned fields. [MICRO_MOTION.md](MICRO_MOTION.md) supplies lifecycle and integration guidance.
+
 ## Experimental owned-scene optics
 
 `attachGlassScene` is available from `@wpsydev/liquid-glass/scene`, separate from the CSS core. It measures up to eight HTML surfaces over a canvas and refracts its own procedural wallpaper. Import safely during SSR; attach after mount. It does not capture arbitrary DOM or external imagery. See [SCENE.md](SCENE.md) for options, fallback, preferences, coordinates and cleanup.

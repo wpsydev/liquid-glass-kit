@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.8.0-preview.1 — Fast microinteractions
+
+- Added optional `attachGlassTransition` and `GlassTransitionOptions`: up/down/left/right timed entry and exit, restrained confirmation and error feedback, completion booleans and explicit cancellation.
+- Native Web Animations run one bounded effect per controller; interruptions supersede old promises, live reduced motion settles the intended state, and cleanup restores owned styles/priorities. No runtime dependencies or semantic event handlers were added.
+- Added a six-part one-screen studio with working native controls and a motion-toolbox research guide using primary documentation and dated adoption snapshots.
+
+Migration: additive core API. Existing springs and adapter defaults remain compatible. Reserve individual translate/scale/opacity on a dedicated visual layer; use separate wrappers for another motion engine. The host still owns visibility, focus, dismissal, validation and announcements. Timed easing is not a velocity-preserving spring.
+
 ## 0.7.0-preview.1 — Anchored overlays
 
 - Added dependency-free `attachGlassOverlay` and `GlassOverlayOptions` for same-document fixed/top-layer surfaces: vertical flipping, horizontal shifting, RTL alignment, constrained width/height and optional trigger width.

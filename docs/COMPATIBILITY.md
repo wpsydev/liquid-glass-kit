@@ -44,3 +44,7 @@ See [MOBILE.md](MOBILE.md) for recipes. The resolution matrix in [VALIDATION.md]
 ## Anchored overlay geometry
 
 `attachGlassOverlay` uses DOM layout and optional VisualViewport/ResizeObserver. Its native-popover recipe requires a browser with the Popover API; geometry itself can enhance an existing fixed accessible surface. Positioning uses measured layout dimensions, avoiding transient spring scale. Scope is same-document horizontal-writing fixed/top-layer overlays, with viewport bounds, not arbitrary clipping ancestors or virtual anchors. Avoid transformed containing blocks and competing positioning engines. Padding does not include hardware safe insets. Host owns roles, focus, dismissal and offscreen-anchor policy. See [OVERLAYS.md](OVERLAYS.md).
+
+## Fast timed transitions
+
+`attachGlassTransition` uses optional native Web Animations and individual translate/scale/opacity; unavailable animation support settles immediately. Imported core code remains SSR-safe. Explicit/system reduced motion removes temporal movement and preserves the intended endpoint. Use a dedicated layer without competing animations/CSS transitions on those properties. An active effect observes DOM detachment; idle controllers should still be destroyed during host unmount. No GPU/compositor guarantee, browser benchmark, physical-phone or accessibility certification is implied. These short timing curves differ from the existing velocity-preserving spring helper. See [MICRO_MOTION.md](MICRO_MOTION.md).

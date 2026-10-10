@@ -116,3 +116,9 @@ Custom element: `<liquid-glass motion motion-damping="22" reduced-motion>...</li
 ## Anchored popovers across stacks
 
 Use the same `attachGlassOverlay` core controller after refs mount in React, Vue, Svelte, Astro or plain HTML. [OVERLAYS.md](OVERLAYS.md) includes native markup and React/Vue cleanup recipes. This is optional geometry; keep an incumbent headless library’s positioning instead of running two engines. Overlay behavior and accessibility semantics remain with the browser or host.
+
+## Timed microinteractions across stacks
+
+Use `attachGlassTransition(ref, { direction: 'up', duration: 180, distance: 12 })` in the same mounted lifecycle as `attachGlass`, then destroy it before the material. React effects, Vue mount/unmount hooks, Svelte actions and plain HTML use the same core helper; it is not an adapter `motion` prop. Effects resolve completion booleans and remain presentation-only. Read [MICRO_MOTION.md](MICRO_MOTION.md) before coordinating visibility or feedback.
+
+If Motion, GSAP or Anime.js already animates your component, let it continue on its own layer and apply glass as material. Keep this helper or the existing springs on a different wrapper if needed; never run competing translate/scale/opacity owners. Rive/Lottie artwork should sit in a separate artwork layer with semantic HTML controls and static/reduced-motion state. No animation engine is added to the core dependency graph.

@@ -1,5 +1,14 @@
 # Validation evidence
 
+## 0.8.0-preview.1 fast microinteractions — 10 October 2026
+
+- `npm run check` passes typechecking, 95 tests across 10 files, the library build and all nine site routes. Thirteen focused transition cases exercise direction and numeric bounds, replacement options, authored alpha/translation/scale, priority restoration, WAAPI failure and AbortError handling, interrupted promises, disabled feedback, disconnection, reduced motion and SSR-safe import.
+- `npm pack --dry-run` reports 81 files including `dist/micro-motion.js`, its types/maps and both microinteraction guides. Core runtime dependencies remain absent; React/Vue peers remain optional.
+- The actual bundled library and studio were transferred into native T3 Chromium for browser checks because browser localhost points to another service. At 720×1280, 390×844 and 1280×800, all six examples and the footer fit the viewport. At 320×568 the page scrolls naturally, with no horizontal overflow. Visible native buttons measure at least 44×44 CSS pixels. Enter activated the toast trigger while retaining focus and updating its live status.
+- A real WAAPI fixture with authored translation `10px 20px`, scale `.9` and alpha `.65` paused entry at 90 ms. On reversing, both the sampled presentation and the new effect's first frame were `10px 20.647px` / `.9` / `.614952`: no reset jump. The superseded entry resolved false; exit completed true with no retained Animation objects. Enabling the app's reduced-motion setting returned the authored fields immediately with zero active effects.
+- Native keyboard activation of the studio's reduced-motion button followed by a reveal produced visible opacity 1 and no Animation objects. Removing the override respects the system preference; deterministic unit tests exercise live system-preference changes separately.
+- These are browser observations and synthetic lifecycle tests, not physical-phone, Safari/Firefox, assistive-technology or performance certification. No animation benchmark, universal preference or Apple rendering parity is claimed. The host still owns semantic hiding, focus, native dismissal and real operations.
+
 ## 0.7.0-preview.1 anchored overlays — 10 October 2026
 
 - `npm run check` passed typechecking, 82 tests across 9 files, the library build and the complete multi-page site build. Thirteen overlay cases cover edge flips, constraints, synthetic visible-viewport offsets/shrink, RTL, unscaled spring dimensions, width replacement, hidden/disconnected elements, native semantics, coalesced updates and cleanup. Regressions exercise partial/mixed-priority physical/logical margins/insets, overflow restoration and intrinsic fit-content measurement near an edge.

@@ -2,7 +2,7 @@
 
 Use when a user requests iOS-style Liquid Glass, frosted glass, glassmorphism, floating glass navigation, optical glass UI, or glass surfaces in an AI web app. Preserve the user's chosen library and app stack. Do not add this dependency if existing CSS already satisfies the requested effect.
 
-Status: v0.5.0-preview.1. npm publication pending. Repository installation (repository is public):
+Status: v0.8.0-preview.1. npm publication pending. Repository installation (repository is public):
   npm install github:wpsydev/liquid-glass-kit
 Package imports resolve as @wpsydev/liquid-glass. Node 22.12+ is needed to build from GitHub. No runtime dependencies in the core. ESM only. React >=18 and Vue >=3.3 are optional peers.
 
@@ -118,3 +118,14 @@ ANCHORED OVERLAYS — 0.7.0-preview.1
 - Refresh after showPopover/showModal; beforetoggle opening is still hidden. On toggle open call refresh then motion.enter. Never delay native dismissal. Motion respects reducedMotion/system preference.
 - React/Vue/Svelte/HTML use the same mounted-ref controller; destroy overlay then motion then material on cleanup. Closed or detached elements are not positioned; showing again triggers geometry refresh.
 - Browser validation and limits are in docs/OVERLAYS.md and docs/VALIDATION.md. No Apple parity or physical-device keyboard certification claim.
+
+FAST MICROINTERACTIONS — 0.8.0-preview.1
+- Export attachGlassTransition(element, options?) and GlassTransitionOptions from the core. Read docs/MICRO_MOTION.md and the API. Attach to a mounted dedicated visual layer; core import is server-safe. React/Vue/Svelte/HTML use lifecycle refs, not a new adapter prop.
+- Defaults: direction up (up/down/left/right, physical movement), distance 12 CSS px [0–32], duration 180ms [0–600], reducedMotion false OR live system preference. Nonfinite values use defaults. Up enters from positive Y and exits toward negative Y; left enters from positive X and exits toward negative X. Reverse direction before exit when returning toward an origin. distance0 is a fade.
+- Returns enter(), exit(), feedback('confirm'|'reject'), cancel(), update(options), destroy(). Effect promises are boolean; latest intent supersedes prior work with false. Enter completion restores authored inline properties. Exit keeps its translated opacity0 endpoint until enter/cancel/destroy; opacity0 alone does not remove interactive content from focus/accessibility.
+- Native Web Animations are optional. No WAAPI, duration0 or explicit/system reduced motion settle the intended state immediately. Enabling reduced motion mid-effect completes its intended state. update replaces options for later effects; duration0/reducedMotion can settle active work. There is no permanent RAF/timer loop.
+- Confirmation is a single restrained scale; rejection is a small one-shot horizontal nudge. Disabled surfaces skip feedback. The host supplies actual operations/validation and meaningful persistent status/error text; animation never establishes successful backend work.
+- Owns individual translate/scale/opacity. Do not run CSS transitions, attachGlassMotion, Motion, GSAP, Anime.js or another engine on the same properties on this layer. Use wrappers. Style priorities are restored on cleanup; stylesheet !important can override keyframes. Timed easing does not preserve spring velocity.
+- Host owns semantic visibility/inert/focus/roles/native dismissal. Show before entering; only hide after a successfully completed explicit exit, retain reopened state after superseded exits, and keep native Escape/outside dismissal immediate. Destroy on unmount.
+- Optional tool selection and dated adoption evidence: docs/MICRO_MOTION_RESEARCH.md. Keep app-owned Motion layout/presence, GSAP timelines, Anime SVG, Rive or Lottie art when useful; no third-party animation dependency is imported by the core.
+Demo: https://wpsydev.github.io/liquid-glass-kit/micro-motion/

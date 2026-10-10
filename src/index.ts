@@ -140,3 +140,6 @@ export type { GlassMotionOptions } from './motion.js';
 
 export { attachGlassOverlay } from './overlay.js';
 export type { GlassOverlayOptions } from './overlay.js';
+
+export { attachGlassTransition } from './micro-motion.js';
+export type { GlassTransitionOptions } from './micro-motion.js';

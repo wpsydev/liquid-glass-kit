@@ -2,7 +2,7 @@
 
 **Liquid Glass for the web, in any stack.** A small CSS and TypeScript material system with React and Vue adapters, a Svelte action, and accessible solid fallbacks.
 
-Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.7.0 anchored-overlay preview**, not a pixel-identical recreation of Apple's renderer.
+Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.8.0 microinteraction preview**, not a pixel-identical recreation of Apple's renderer.
 
 ![Liquid Glass Kit material workbench](docs/assets/studio.webp)
 
@@ -16,6 +16,8 @@ The new material workbench and listening room use paper, ink, restrained glass a
 
 [Anchored overlays](https://wpsydev.github.io/liquid-glass-kit/overlays/) add viewport-aware placement for citations, source pickers and contextual panels. [Overlay guide](docs/OVERLAYS.md) includes native-popover and React/Vue lifecycle recipes.
 
+[Microinteraction studio](https://wpsydev.github.io/liquid-glass-kit/micro-motion/) shows four directional reveals and short confirmation/error feedback on one screen. Use the optional [transition helper](docs/MICRO_MOTION.md) for fast timed cues; the [toolbox research](docs/MICRO_MOTION_RESEARCH.md) compares Motion, GSAP, Anime.js, Rive, Lottie and native Web Animations.
+
 ## Why another glass library?
 
 The material should fit your app's stack and semantics. Liquid Glass Kit separates the **portable material** from **experimental optical enhancement**:
@@ -24,6 +26,7 @@ The material should fit your app's stack and semantics. Liquid Glass Kit separat
 - **Optional interaction:** pointer, touch and keyboard press feedback; rounded-rectangle SVG lensing on eligible Chromium engines. Never refract foreground text.
 - **Material controls:** fill strength, semantic tint and explicit backdrop tone; accessibility preferences retain precedence.
 - **Spring motion:** tactile press/release, spring reveals and velocity-preserving selection retargeting; explicit/system reduced-motion fallbacks.
+- **Fast microinteractions:** optional 180 ms directional reveals and one-shot confirmation/error cues, with cancellation and live reduced-motion support; no animation runtime dependency.
 - **Mobile details:** owned touch presses, continuous corner enhancement with round fallback, concentric radius helpers, and opt-in safe-area/viewport/target utilities.
 - **Anchored overlays:** edge flipping, RTL alignment, visible-viewport bounds and trigger-based spring origins; native/headless controls retain focus and dismissal.
 - **Navigation primitives:** one moving decorative glass backing and scroll-aware soft/hard edge scrims; preserve foreground semantics.

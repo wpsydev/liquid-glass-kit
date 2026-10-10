@@ -18,6 +18,7 @@ export default defineConfig({
         mobile: resolve('site/mobile/index.html'),
         aiDesign: resolve('site/ai-design/index.html'),
         overlays: resolve('site/overlays/index.html'),
+        microMotion: resolve('site/micro-motion/index.html'),
       },
     },
   },

@@ -21,6 +21,7 @@ This matrix covers common application scenarios and explicitly identifies limits
 | Scroll edges | attachGlassScrollEdge + separate layer | Scroll-aware soft/hard scrim; keep toolbar and focus above decoration |
 | Reduced transparency / high contrast | Explicit solid option + media queries | Preference fallback for browsers without transparency query |
 | Touch / mobile | CSS material | Touch press lighting and optional spring deformation; reduced motion overrides; avoid hover-only actions |
+| Toast, local reveal, short status feedback | Optional attachGlassTransition | Four physical directions, confirmation/error cues; host owns visibility, semantic state and announcements; no background loop |
 | Print | Solid black-on-white CSS | Browser-native print stylesheet |
 | SSR / hydration | CSS markup + mounted enhancement | Import-safe core/adapters; deterministic options |
 | Portals | Attach after portaled element mounts | Clean up when portal unmounts; definitions live in owning document |
