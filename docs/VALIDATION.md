@@ -51,3 +51,5 @@ Deployed motion verification: GitHub Verify, Publish playground and Publish prev
 - Desktop 1280×900 fits the scene and controls; responsive 390×844 has no horizontal document overflow and button targets at least 44×44 CSS pixels. No nested glass. Resized Chromium is not physical iOS/Safari certification.
 
 The scene samples only its own generated wallpaper. Arbitrary DOM capture, external texture support, physical optical merging and cross-device fidelity remain unverified or absent.
+
+Deployment verification: Verify, Publish playground and Publish preview release all passed for `152ecff`. The public optics route rendered WebGL2 with error 0, comparison/pause state changed, and foreground label filter remained none. Demo and both release assets returned HTTP 200.

@@ -2,7 +2,7 @@
 
 **Liquid Glass for the web, in any stack.** A small CSS and TypeScript material system with React and Vue adapters, a Svelte action, and accessible solid fallbacks.
 
-Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.3.0 motion preview**, not a pixel-identical recreation of Apple's renderer.
+Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.4.0 optics preview**, not a pixel-identical recreation of Apple's renderer.
 
 ![Live Liquid Glass Kit playground with material controls](docs/assets/playground.webp)
 
@@ -121,7 +121,7 @@ Automatic backdrop sampling, arbitrary optical merging, native thickness/scatter
 
 [![Interactive neon optics lab](docs/assets/optics-lab.webp)](https://wpsydev.github.io/liquid-glass-kit/optics/)
 
-The [neon optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/) bends an animated, shader-owned background through rounded glass lenses. Screen-space sampling keeps the scene aligned as a lens moves; analytic edge normals concentrate displacement near the boundary and leave the center neutral.
+Watch the [26-second optics video](https://x.com/wpsygames/status/2108961116877664553). The [neon optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/) bends an animated, shader-owned background through rounded glass lenses. Screen-space sampling keeps the scene aligned as a lens moves; analytic edge normals concentrate displacement near the boundary and leave the center neutral.
 
 Import `attachGlassScene` from `@wpsydev/liquid-glass/scene` after mounting a canvas. This optional WebGL2 experiment has no runtime dependency and does not enter the CSS core bundle. It refracts its own procedural wallpaper; it does not capture arbitrary DOM, images or video. Keep a CSS fallback. Read [scene setup and limitations](docs/SCENE.md).
 

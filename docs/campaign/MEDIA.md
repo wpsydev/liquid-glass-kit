@@ -73,3 +73,6 @@ Live demo: https://wpsydev.github.io/liquid-glass-kit/optics/
 Release: https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.4.0-preview.1
 
 Existing scheduled posts remain unchanged. No native optical parity, arbitrary DOM refraction, physical-device performance or social reach is claimed.
+
+Published optics video post: https://x.com/wpsygames/status/2108961116877664553
+Original-thread follow-up: https://x.com/wpsygames/status/2108961400622317981

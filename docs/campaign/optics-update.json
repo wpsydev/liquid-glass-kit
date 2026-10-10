@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-10",
+  "account": "wpsygames",
+  "version": "0.4.0-preview.1",
+  "feature": "Experimental owned-scene optics",
+  "inspiration": "https://x.com/okandogubudak/status/2108947960621146517",
+  "originalThread": "https://x.com/wpsygames/status/2108939185662878135",
+  "commit": "152ecff4a343bc47bb9f5ad91f66db3b26921da9",
+  "demo": "https://wpsydev.github.io/liquid-glass-kit/optics/",
+  "release": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.4.0-preview.1",
+  "post": "https://x.com/wpsygames/status/2108961116877664553",
+  "video": "assets/optics-showcase.mp4",
+  "durationSeconds": 26,
+  "videoBytes": 3363354,
+  "verification": [
+    "Exact copy and processed 26-second video verified before publication",
+    "Published post observed with matching text and attribution",
+    "GitHub checks and release deployment passed",
+    "Live WebGL2 rendering and release assets verified",
+    "Public post loaded with matching copy, credit, processed 26-second video and playback (readyState 4)",
+    "Reply observed beneath the source discussion with links to the new video and demo"
+  ],
+  "npmRegistryPublication": "pending",
+  "existingScheduledPosts": "unchanged",
+  "limits": "Procedural owned scene only; no arbitrary DOM capture, native optical merging or physical-device parity claim",
+  "reply": "https://x.com/wpsygames/status/2108961400622317981"
+}
