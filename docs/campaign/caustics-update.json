@@ -1,0 +1,1216 @@
+{
+  "schema": 1,
+  "status": "prepared",
+  "version": "0.13.0-preview.1",
+  "source": {
+    "commit": "d4e4c47d54676395fd21a83e191e22115b7dea71",
+    "sourceSha256": "9380a40a2aa01dd0fde712274c7d4e14ed64641d298bcdb027e4a5c449ec657b",
+    "hashing": "Sorted src .ts/.tsx/.css filenames and bytes separated by NUL."
+  },
+  "renderer": "Original single-interface planar refracted mesh; static shared UV/index buffers; filtered half-scale light receiver sampled in existing wallpaper pass; optional WebGL2, not full transport or DOM capture.",
+  "iterations": [
+    "Direct projection: GLSL built-in naming collision corrected; discontinuous focal lines observed.",
+    "Lower-resolution receiver: one extra instanced draw, shared static buffers; procedural indexing alone did not consistently improve timings.",
+    "Six semantic UI studies: fixed narrow player and short-landscape film clipping.",
+    "Broader waves and five-tap footprint; 64-cell gallery, larger film text; re-recorded and inspected all six cases."
+  ],
+  "browser": {
+    "galleryLayouts": [
+      {
+        "cases": [
+          {
+            "contained": true,
+            "object": [
+              223.859375,
+              66
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 99348,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 398775,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 409
+            },
+            "study": 0
+          },
+          {
+            "contained": true,
+            "object": [
+              223.859375,
+              319.5
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 99348,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 398775,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 409
+            },
+            "study": 1
+          },
+          {
+            "contained": true,
+            "object": [
+              242,
+              80
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 99348,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 398775,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 409
+            },
+            "study": 2
+          },
+          {
+            "contained": true,
+            "object": [
+              212.9375,
+              136
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 99348,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 398775,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 409
+            },
+            "study": 3
+          },
+          {
+            "contained": true,
+            "object": [
+              234.7734375,
+              105
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 99348,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 398775,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 409
+            },
+            "study": 4
+          },
+          {
+            "contained": true,
+            "object": [
+              218.3984375,
+              83
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 99348,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 398775,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 409
+            },
+            "study": 5
+          }
+        ],
+        "viewport": [
+          320,
+          568
+        ]
+      },
+      {
+        "cases": [
+          {
+            "contained": true,
+            "object": [
+              275.515625,
+              66
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 122724,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 491400,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 504
+            },
+            "study": 0
+          },
+          {
+            "contained": true,
+            "object": [
+              275.515625,
+              319.5
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 122724,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 491400,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 504
+            },
+            "study": 1
+          },
+          {
+            "contained": true,
+            "object": [
+              242,
+              80
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 122724,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 491400,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 504
+            },
+            "study": 2
+          },
+          {
+            "contained": true,
+            "object": [
+              262.078125,
+              136
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 122724,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 491400,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 504
+            },
+            "study": 3
+          },
+          {
+            "contained": true,
+            "object": [
+              288.953125,
+              86
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 122724,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 491400,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 504
+            },
+            "study": 4
+          },
+          {
+            "contained": true,
+            "object": [
+              268.796875,
+              83
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 122724,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 975,
+              "pixels": 491400,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 504
+            },
+            "study": 5
+          }
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      },
+      {
+        "cases": [
+          {
+            "contained": true,
+            "object": [
+              406.8828125,
+              66
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 158844,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 855,
+              "pixels": 636120,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 744
+            },
+            "study": 0
+          },
+          {
+            "contained": true,
+            "object": [
+              290,
+              319.5
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 158844,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 855,
+              "pixels": 636120,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 744
+            },
+            "study": 1
+          },
+          {
+            "contained": true,
+            "object": [
+              242,
+              80
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 158844,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 855,
+              "pixels": 636120,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 744
+            },
+            "study": 2
+          },
+          {
+            "contained": true,
+            "object": [
+              387.03125,
+              136
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 158844,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 855,
+              "pixels": 636120,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 744
+            },
+            "study": 3
+          },
+          {
+            "contained": true,
+            "object": [
+              426.734375,
+              86
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 158844,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 855,
+              "pixels": 636120,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 744
+            },
+            "study": 4
+          },
+          {
+            "contained": true,
+            "object": [
+              396.9609375,
+              83
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 158844,
+              "causticTriangles": 8192,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 855,
+              "pixels": 636120,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 744
+            },
+            "study": 5
+          }
+        ],
+        "viewport": [
+          568,
+          320
+        ]
+      },
+      {
+        "cases": [
+          {
+            "contained": true,
+            "object": [
+              490,
+              78
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 224692,
+              "causticTriangles": 8192,
+              "dpr": 1.048515304975054,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 754,
+              "pixels": 898768,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1192
+            },
+            "study": 0
+          },
+          {
+            "contained": true,
+            "object": [
+              290,
+              319.5
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 224692,
+              "causticTriangles": 8192,
+              "dpr": 1.048515304975054,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 754,
+              "pixels": 898768,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1192
+            },
+            "study": 1
+          },
+          {
+            "contained": true,
+            "object": [
+              332,
+              96
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 224692,
+              "causticTriangles": 8192,
+              "dpr": 1.048515304975054,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 754,
+              "pixels": 898768,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1192
+            },
+            "study": 2
+          },
+          {
+            "contained": true,
+            "object": [
+              400,
+              136
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 224692,
+              "causticTriangles": 8192,
+              "dpr": 1.048515304975054,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 754,
+              "pixels": 898768,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1192
+            },
+            "study": 3
+          },
+          {
+            "contained": true,
+            "object": [
+              460,
+              96
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 224692,
+              "causticTriangles": 8192,
+              "dpr": 1.048515304975054,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 754,
+              "pixels": 898768,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1192
+            },
+            "study": 4
+          },
+          {
+            "contained": true,
+            "object": [
+              440,
+              93
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 224692,
+              "causticTriangles": 8192,
+              "dpr": 1.048515304975054,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 754,
+              "pixels": 898768,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1192
+            },
+            "study": 5
+          }
+        ],
+        "viewport": [
+          1280,
+          800
+        ]
+      },
+      {
+        "cases": [
+          {
+            "contained": true,
+            "object": [
+              490,
+              78
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 225000,
+              "causticTriangles": 8192,
+              "dpr": 1.3888888888888888,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 1000,
+              "pixels": 900000,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 900
+            },
+            "study": 0
+          },
+          {
+            "contained": true,
+            "object": [
+              290,
+              319.5
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 225000,
+              "causticTriangles": 8192,
+              "dpr": 1.3888888888888888,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 1000,
+              "pixels": 900000,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 900
+            },
+            "study": 1
+          },
+          {
+            "contained": true,
+            "object": [
+              332,
+              96
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 225000,
+              "causticTriangles": 8192,
+              "dpr": 1.3888888888888888,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 1000,
+              "pixels": 900000,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 900
+            },
+            "study": 2
+          },
+          {
+            "contained": true,
+            "object": [
+              400,
+              136
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 225000,
+              "causticTriangles": 8192,
+              "dpr": 1.3888888888888888,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 1000,
+              "pixels": 900000,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 900
+            },
+            "study": 3
+          },
+          {
+            "contained": true,
+            "object": [
+              460,
+              96
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 225000,
+              "causticTriangles": 8192,
+              "dpr": 1.3888888888888888,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 1000,
+              "pixels": 900000,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 900
+            },
+            "study": 4
+          },
+          {
+            "contained": true,
+            "object": [
+              440,
+              93
+            ],
+            "overflow": false,
+            "smallTargets": [],
+            "stats": {
+              "causticCount": 1,
+              "causticPixels": 225000,
+              "causticTriangles": 8192,
+              "dpr": 1.3888888888888888,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 1000,
+              "pixels": 900000,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 900
+            },
+            "study": 5
+          }
+        ],
+        "viewport": [
+          720,
+          1280
+        ]
+      }
+    ],
+    "filmLayouts": [
+      {
+        "results": [
+          {
+            "contained": true,
+            "object": [
+              256,
+              74
+            ],
+            "overflow": false,
+            "study": 0
+          },
+          {
+            "contained": true,
+            "object": [
+              224,
+              323.5
+            ],
+            "overflow": false,
+            "study": 1
+          },
+          {
+            "contained": true,
+            "object": [
+              248,
+              86
+            ],
+            "overflow": false,
+            "study": 2
+          },
+          {
+            "contained": true,
+            "object": [
+              243.1953125,
+              158
+            ],
+            "overflow": false,
+            "study": 3
+          },
+          {
+            "contained": true,
+            "object": [
+              256,
+              115
+            ],
+            "overflow": false,
+            "study": 4
+          },
+          {
+            "contained": true,
+            "object": [
+              256,
+              86
+            ],
+            "overflow": false,
+            "study": 5
+          }
+        ],
+        "viewport": [
+          320,
+          568
+        ]
+      },
+      {
+        "results": [
+          {
+            "contained": true,
+            "object": [
+              312,
+              73.99996948242188
+            ],
+            "overflow": false,
+            "study": 0
+          },
+          {
+            "contained": true,
+            "object": [
+              273,
+              323.5
+            ],
+            "overflow": false,
+            "study": 1
+          },
+          {
+            "contained": true,
+            "object": [
+              248,
+              86
+            ],
+            "overflow": false,
+            "study": 2
+          },
+          {
+            "contained": true,
+            "object": [
+              296.3984375,
+              158
+            ],
+            "overflow": false,
+            "study": 3
+          },
+          {
+            "contained": true,
+            "object": [
+              312,
+              86
+            ],
+            "overflow": false,
+            "study": 4
+          },
+          {
+            "contained": true,
+            "object": [
+              312,
+              83
+            ],
+            "overflow": false,
+            "study": 5
+          }
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      },
+      {
+        "results": [
+          {
+            "contained": true,
+            "object": [
+              261.2734375,
+              78
+            ],
+            "overflow": false,
+            "study": 0
+          },
+          {
+            "contained": true,
+            "object": [
+              250,
+              218.5
+            ],
+            "overflow": false,
+            "study": 1
+          },
+          {
+            "contained": true,
+            "object": [
+              248,
+              86
+            ],
+            "overflow": false,
+            "study": 2
+          },
+          {
+            "contained": true,
+            "object": [
+              261.2734375,
+              112
+            ],
+            "overflow": false,
+            "study": 3
+          },
+          {
+            "contained": true,
+            "object": [
+              261.2734375,
+              78
+            ],
+            "overflow": false,
+            "study": 4
+          },
+          {
+            "contained": true,
+            "object": [
+              261.2734375,
+              82
+            ],
+            "overflow": false,
+            "study": 5
+          }
+        ],
+        "viewport": [
+          568,
+          320
+        ]
+      },
+      {
+        "results": [
+          {
+            "contained": true,
+            "object": [
+              576,
+              90
+            ],
+            "overflow": false,
+            "study": 0
+          },
+          {
+            "contained": true,
+            "object": [
+              390,
+              411
+            ],
+            "overflow": false,
+            "study": 1
+          },
+          {
+            "contained": true,
+            "object": [
+              430,
+              122
+            ],
+            "overflow": false,
+            "study": 2
+          },
+          {
+            "contained": true,
+            "object": [
+              520,
+              162
+            ],
+            "overflow": false,
+            "study": 3
+          },
+          {
+            "contained": true,
+            "object": [
+              576,
+              100.5
+            ],
+            "overflow": false,
+            "study": 4
+          },
+          {
+            "contained": true,
+            "object": [
+              576,
+              93
+            ],
+            "overflow": false,
+            "study": 5
+          }
+        ],
+        "viewport": [
+          720,
+          1280
+        ]
+      }
+    ],
+    "initialLandscapeFailure": {
+      "results": [
+        {
+          "contained": false,
+          "object": [
+            454.3984375,
+            66
+          ],
+          "overflow": false,
+          "study": 0
+        },
+        {
+          "contained": true,
+          "object": [
+            250,
+            221.49998474121094
+          ],
+          "overflow": false,
+          "study": 1
+        },
+        {
+          "contained": true,
+          "object": [
+            248,
+            86
+          ],
+          "overflow": false,
+          "study": 2
+        },
+        {
+          "contained": false,
+          "object": [
+            431.6796875,
+            154
+          ],
+          "overflow": false,
+          "study": 3
+        },
+        {
+          "contained": false,
+          "object": [
+            454.3984375,
+            86
+          ],
+          "overflow": false,
+          "study": 4
+        },
+        {
+          "contained": false,
+          "object": [
+            454.3984375,
+            83
+          ],
+          "overflow": false,
+          "study": 5
+        }
+      ],
+      "viewport": [
+        568,
+        320
+      ]
+    },
+    "gpuFallback": {
+      "canvasVisibility": "hidden",
+      "pressed": "true",
+      "state": {
+        "elapsed": 0,
+        "enabled": true,
+        "film": false,
+        "paused": false,
+        "reducedMotion": false,
+        "running": false,
+        "selected": 1,
+        "stats": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0,
+          "drawCalls": 0,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 0,
+          "pixels": 0,
+          "renderer": "webgl2",
+          "wallpaperPasses": 0,
+          "width": 0
+        },
+        "supported": false
+      },
+      "status": "Player UI active. This is a visual demo."
+    },
+    "controlledMotionFilm": {
+      "elapsed": 12,
+      "enabled": true,
+      "film": true,
+      "paused": true,
+      "reducedMotion": true,
+      "running": false,
+      "selected": 5,
+      "stats": {
+        "causticCount": 1,
+        "causticPixels": 224360,
+        "causticTriangles": 8192,
+        "dpr": 0.9882117688026185,
+        "drawCalls": 4,
+        "fieldCount": 0,
+        "fusionCount": 0,
+        "height": 1264,
+        "pixels": 898704,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 711
+      },
+      "supported": true
+    },
+    "filmEnd": {
+      "canvasError": 0,
+      "endVisible": true,
+      "state": {
+        "elapsed": 12,
+        "enabled": true,
+        "film": true,
+        "paused": true,
+        "reducedMotion": false,
+        "running": false,
+        "selected": 5,
+        "stats": {
+          "causticCount": 1,
+          "causticPixels": 224360,
+          "causticTriangles": 8192,
+          "dpr": 0.9882117688026185,
+          "drawCalls": 4,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 1264,
+          "pixels": 898704,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 711
+        },
+        "supported": true
+      }
+    },
+    "interactions": [
+      "Native player button changed aria-pressed.",
+      "Native dock Favorites changed selected state.",
+      "Native keyboard ArrowRight moved range72\u219273 and updated output/status.",
+      "Native toast acknowledgment worked.",
+      "Native booking demo changed label and disclosed no actual reservation.",
+      "Native search typed 'a', reported no network request and retained focus.",
+      "Native Escape exited film and restored visible controls."
+    ],
+    "limits": "Desktop Chrome resized to phone dimensions. Controlled matchMedia/GPU denial fixtures, not physical phones, native OS preference toggles, software keyboards or assistive technology."
+  },
+  "benchmark": "benchmarks/caustics-browser.json; earlier complete experiments1\u20133 retained; no pixel-identical optimization claim.",
+  "media": {
+    "path": "docs/campaign/assets/caustics-showcase.mp4",
+    "bytes": 821899,
+    "sha256": "8535be843959820576cd1970a443b1887f36b083baef04278ea867b83c1e7fe1",
+    "durationSeconds": 12,
+    "width": 720,
+    "height": 1280,
+    "frames": 360,
+    "exportFps": 30,
+    "video": "H.264/yuv420p, faststart MP4",
+    "audio": "Original synthesized141.176BPM, stereo48kHzAAC; no external samples, MIT; mean\u221214.8/peak\u22122.5dBFS",
+    "musicSource": "scripts/render-caustics-beat.py",
+    "review": "Full decode passed; six frames at.8/2.5/4.2/5.9/7.6/9.3s verified each option; end card inspected.",
+    "captureScope": "Native T3 browser, production-source self-contained fixture, one emitter at64 cells; movie is a presentation artifact, not a benchmark.",
+    "demoSHA256": {
+      "site/caustics/index.html": "a57bbc648c8e0d5380d713dab49a2e48a53fef205b843db63438444ab6b12a48",
+      "site/caustics/style.css": "dbf837631cc941cefa41d96cec6b18b1e70fb67bc3854dd4d61690977c308b36",
+      "site/caustics/main.ts": "9e328c34e4f23ab72ce5a7b1e7abf7618678026adc9ae78add253693d9743a2c"
+    }
+  },
+  "publication": {
+    "release": null,
+    "demo": null,
+    "x": null,
+    "npm": "Registry pending publishing2FA; release archive/tag installation available after publication."
+  },
+  "checks": {
+    "check": "148 tests/13 files; types, package verification, library and14-route site build passed",
+    "packDryRun": "83 files",
+    "packedConsumer": "13 non-peer JS entrypoints imported with no browser globals or runtime dependencies"
+  }
+}

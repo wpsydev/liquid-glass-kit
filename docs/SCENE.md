@@ -32,21 +32,22 @@ Imports are safe during SSR. React/Vue/Svelte integrations can attach in their e
 
 ## Contract
 
-`attachGlassScene(canvas, options?)` returns readonly `supported` and `stats` getters, `update(options?)`, `setDrops(drops)`, `render(timeSeconds?)` and idempotent `destroy()`. Update replaces all configuration, including `field` and `fusion`; nested options and droplet coordinates are copied. One controller owns a canvas; create it after mount. Keep the canvas and surfaces in the same document and coordinate scale. Use a canvas without CSS transforms; transformed/rotated HTML surfaces are represented by their axis-aligned bounding boxes, not their actual outlines.
+`attachGlassScene(canvas, options?)` returns readonly `supported` and `stats` getters, `update(options?)`, `setDrops(drops)`, `render(timeSeconds?)` and idempotent `destroy()`. Update replaces all configuration, including `field`, `fusion` and `caustics`; nested options and droplet coordinates are copied. One controller owns a canvas; create it after mount. Keep the canvas and surfaces in the same document and coordinate scale. Use a canvas without CSS transforms; transformed/rotated HTML surfaces are represented by their axis-aligned bounding boxes, not their actual outlines.
 
 | Option | Default | Meaning |
 | --- | --- | --- |
 | surfaces | [] | First eight mounted, same-document `{ element, radius, refraction }` entries |
 | radius | 28 | Rounded lens radius in CSS pixels, bounded 0–256, then constrained to half the measured width/height |
 | refraction | 22 | Edge displacement in CSS pixels; bounded 0–80; zero removes bending |
-| palette | neon | `neon`, `sunset` or `ocean` procedural scene |
-| backdrop | ribbons | `ribbons` or `studio`; both are owned procedural backgrounds, not DOM samples |
+| palette | neon | `neon`, `sunset` or `ocean` procedural scene and caustic light hue |
+| backdrop | ribbons | `ribbons`, `studio` or `mineral`; all are owned procedural backgrounds, not DOM samples |
 | paused | false | Freeze scene time and remove the continuous animation loop |
 | reducedMotion | false | App preference combined with the system setting |
 | reducedTransparency | false | App preference combined with supported accessibility queries |
 | maxDpr | 2 | Rendering density cap, bounded to 1–2 |
 | maxPixels | absent | Optional backing-pixel budget, finite values bounded to 65,536–16,777,216; can lower effective DPR below 1, explicitly trading resolution for cost |
 | field | absent | Optional decorative GPU field; no per-instance DOM nodes or semantics |
+| caustics | absent | Optional single-interface planar light projection; [exact bounds and research](CAUSTICS.md) |
 | fusion | absent | Optional smooth union of up to eight circular droplets; no HTML shape merging |
 
 ## Merging circular droplets
@@ -93,7 +94,7 @@ const scene = attachGlassScene(canvas, {
 // scene.update() replaces all options; carry forward field/palette when changing pause.
 ```
 
-`GlassSceneFieldOptions`, `GlassSceneDrop`, `GlassSceneFusionOptions`, `GlassSceneOptions`, `GlassSceneSurface` and `GlassSceneStats` are type exports from `/scene`.
+`GlassSceneCausticsOptions`, `GlassSceneCausticEmitter`, `GlassSceneFieldOptions`, `GlassSceneDrop`, `GlassSceneFusionOptions`, `GlassSceneOptions`, `GlassSceneSurface` and `GlassSceneStats` are type exports from `/scene`.
 
 | Field option | Default | Meaning |
 | --- | --- | --- |
@@ -104,7 +105,7 @@ const scene = attachGlassScene(canvas, {
 | motion | stream | `stream`, `wave`, `orbit`; time-driven shader motion |
 | seed | 1 | Deterministic layout seed, bounded 0–65,535 |
 
-`stats` is a copied snapshot of the last submitted draw: `renderer: 'webgl2'`, `fieldCount`, `fusionCount`, `drawCalls`, `wallpaperPasses`, `width`, `height`, `dpr`, and `pixels`. Unsupported/lost/destroyed scenes report zero counters; use `supported` to select fallback. Background alone uses two draws. Visible fusion adds one bounded draw; visible HTML lenses add one ordered instanced draw; the field adds one separate instanced draw. Field-only or fusion-only scenes therefore use three total draws; all three layers together use five. `fusionCount` counts the droplets submitted in an intersecting fusion region; a wholly offscreen region submits zero. `fieldCount` counts submitted GPU instances, including any clipped at the canvas boundary. These are not visible-widget counts, measured FPS or GPU timing. The dpr is the requested effective density before integer backing dimensions; pixel scales account for that rounding.
+`stats` is a copied snapshot of the last submitted draw: `renderer: 'webgl2'`, `fieldCount`, `fusionCount`, `causticCount`, `causticTriangles`, `causticPixels`, `drawCalls`, `wallpaperPasses`, `width`, `height`, `dpr`, and `pixels`. Unsupported/lost/destroyed scenes report zero counters; use `supported` to select fallback. Background alone uses two draws. Visible fusion adds one bounded draw; visible HTML lenses add one ordered instanced draw; the field adds one separate instanced draw. Field-only or fusion-only scenes therefore use three total draws; all three layers together use five. Caustics adds one instanced light-receiver draw, sampled by the existing wallpaper pass: HTML lenses plus caustics use four total draws, and all layers with caustics use six. `causticPixels` is an additional light texture area, excluded from main `pixels`. `fusionCount` counts the droplets submitted in an intersecting fusion region; a wholly offscreen region submits zero. `fieldCount` counts submitted GPU instances, including any clipped at the canvas boundary. These are not visible-widget counts, measured FPS or GPU timing. The dpr is the requested effective density before integer backing dimensions; pixel scales account for that rounding.
 
 The wallpaper is evaluated once into a reusable full-resolution RGBA8 texture, then lenses sample it. Shared trigonometric phases reduce repeated ribbon calculations using angle-addition identities. HTML lens quads include a 96 CSS-pixel shadow margin, geometrically avoiding shading distant pixels; the omitted attenuation is below 0.00002 per lens. Ordered blending preserves lens mixing, while intermediate RGBA8 clamping/quantization can change bright overlapping rims. Float rounding, interpolation and canvas-edge sampling also differ from the original analytical shader. Existing optics, displacement-zero behavior and semantic lens anchors remain, but output is not byte-identical. Field objects sample the wallpaper rather than recursively refracting other instances or HTML lenses. Pixel budget is explicit and never silently enabled. See [rendering decisions and benchmarks](RENDERING.md) and the [flow studio](https://wpsydev.github.io/liquid-glass-kit/flow/).
 
@@ -117,3 +118,7 @@ The shader draws a controlled scene, which is why it can refract that scene cons
 Screen-space coordinates need a CSS-to-framebuffer scale and Y-axis conversion: GLSL's fragment window coordinates differ from DOM rectangles. Context restoration invalidates previous GPU resources. These are documented browser contracts, not an inference from screenshots. [Khronos WebGL2](https://registry.khronos.org/webgl/specs/latest/2.0/), [GLSL ES 3.00 coordinates](https://registry.khronos.org/OpenGL/specs/es/3.0/GLSL_ES_Specification_3.00.pdf), [MDN context restoration](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/webglcontextrestored_event), [MDN WebGL best practices](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices)
 
 Validation distinguishes mocked lifecycle tests from actual browser rendering. Read [VALIDATION.md](VALIDATION.md). Safari, Firefox and physical iOS devices remain unverified.
+
+## Caustic light projection (0.13)
+
+See [CAUSTICS.md](CAUSTICS.md) for the complete options, exact emitter coordinates, six examples, research, quality choices and measurements. Visible HTML surfaces emit automatically when caustics is enabled; up to eight total sources including explicit canvas-local emitters. Fusion/field are not automatically light emitters. The owned receiver is illuminated before all optical sampling; no arbitrary DOM capture, recursive glass layers or full light transport. Opaque accessibility modes skip caustic submissions. Reduced-motion explicit redraws use static time.

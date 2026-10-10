@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.13.0-preview.1 — Caustic light studies
+
+- Add optional WebGL2 `caustics`: single-interface refracted mesh projection onto an owned planar receiver, up to eight sources, shared static UV/index buffers and one extra instanced draw.
+- Add bounded intensity/IOR/depth/ripple/speed/resolution/light/renderScale options, copied canvas-local emitters, caustic submission counters and the `mineral` backdrop.
+- Filter a lower-resolution RGBA8 light receiver inside the existing wallpaper pass; keep semantic HTML sharp. Skip caustics for opacity/contrast/forced-color preferences; preserve static motion reduction, context restoration and full cleanup.
+- Add six interactive light studies, responsive/quiet/fallback validation, an original12-second film and soundtrack, recent research with implementation boundaries, and raw GPU/CPU/resource experiments.
+- Preserve CSS defaults, runtime-dependency-free SSR-safe core, narrow imports, lazy startup and optional React/Vue peers. Caustics remains experimental planar optics, not full transport or Apple parity.
+
+
 ## 0.12.0-preview.1 — Material first
 
 - Added narrow `/material`, `/dom`, `/capabilities`, `/motion`, `/indicator`, `/scroll-edge`, `/overlay`, `/micro-motion` and `/optics` entrypoints. Existing root exports and optional adapters remain compatible. Adapters now import their actual dependencies instead of the complete barrel.

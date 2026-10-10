@@ -2,18 +2,18 @@
 
 **CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.12 loading preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.13 caustics preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
 ![Material workbench](docs/assets/studio.webp)
 
-[Playground](https://wpsydev.github.io/liquid-glass-kit/) · [Soft Matter](https://wpsydev.github.io/liquid-glass-kit/fusion/) · [Glass flow](https://wpsydev.github.io/liquid-glass-kit/flow/) · [API](docs/API.md) · [Integrations](docs/INTEGRATIONS.md) · [Agent guide](llms-full.txt)
+[Light studies](https://wpsydev.github.io/liquid-glass-kit/caustics/) · [Playground](https://wpsydev.github.io/liquid-glass-kit/) · [Soft Matter](https://wpsydev.github.io/liquid-glass-kit/fusion/) · [Glass flow](https://wpsydev.github.io/liquid-glass-kit/flow/) · [API](docs/API.md) · [Integrations](docs/INTEGRATIONS.md) · [Agent guide](llms-full.txt)
 
 ## Start with CSS
 
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.12.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.13.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -67,6 +67,7 @@ surface.destroy();
 | Anchored overlay / scroll boundary | Optional `attachGlassOverlay` / `attachGlassScrollEdge` |
 | Owned procedural optical scene | Experimental `/scene`; keep CSS fallback |
 | Thousands of decorative flowing shapes | Optional `/scene` field: one instanced draw, shader motion, explicit pixel budget |
+| Light concentrating behind owned glass controls | Experimental `/scene` caustics: shared refracted mesh, planar receiver, semantic HTML foreground |
 | Merging decorative glass droplets | Experimental `/scene` fusion: up to eight owned circular shapes, staged geometry and host-owned choreography |
 
 Dedicated adapters are tested for React and Vue; other stacks have [recipes](docs/INTEGRATIONS.md). Static controllers avoid input listeners, resize observers and animation frames; preference listeners are shared per browser window. Adapters share one lifecycle and skip unchanged updates. See the [reproducible benchmark and limits](docs/PERFORMANCE.md).
@@ -98,3 +99,7 @@ node scripts/benchmark.mjs --help  # Reproducible comparison; see performance gu
 ```
 
 TypeScript, Vite, Vitest and browser-native CSS/SVG/Web Animations. ESM only. [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md) · [MIT](LICENSE).
+
+## Light studies
+
+Opt-in `caustics` projects refracted mesh light onto the owned scene. Six UI studies explore search, player, dock, range, toast and action. Shared static buffers, one instanced pass and a filtered light receiver keep cost bounded. This is a single-interface planar approximation, not full light transport or DOM capture. [Guide and research](docs/CAUSTICS.md) · [Try the studies](https://wpsydev.github.io/liquid-glass-kit/caustics/).

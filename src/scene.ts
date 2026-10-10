@@ -1,3 +1,4 @@
+import { causticFragmentSource, causticVertexSource } from './scene-caustics.js';
 import { bounded } from './numeric.js';
 import { captureState, listen } from './lifecycle.js';
 import { fieldFragmentSource, fieldVertexSource, fragmentSource, fusionFragmentSource, fusionVertexSource, lensFragmentSource, lensVertexSource, vertexSource, wallpaperSource } from './scene-shaders.js';
@@ -38,12 +39,42 @@ export interface GlassSceneFusionOptions {
   dispersion?: number;
 }
 
+/** Single-interface refracted mesh onto an owned planar receiver, not full light transport. */
+export interface GlassSceneCausticEmitter {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  radius?: number;
+}
+export interface GlassSceneCausticsOptions {
+  /** Additional canvas-local emitters; visible surfaces take priority. Eight total. */
+  emitters?: readonly GlassSceneCausticEmitter[];
+  /** Bounded 0–1; default .16. Zero skips the pass. */
+  intensity?: number;
+  /** Refractive index, 1–2.4; default 1.45. */
+  ior?: number;
+  /** Receiver separation in CSS pixels, 0–240; default 100. */
+  depth?: number;
+  /** Analytic wave slope amount, 0–1; default .5. */
+  ripple?: number;
+  /** Phase speed, 0–3; default .6. Respects scene motion preferences. */
+  speed?: number;
+  /** Source mesh cells per axis, 16–96; default 40. Quality/cost tradeoff. */
+  resolution?: number;
+  /** Caustic texture scale relative to scene backing size, .25–1; default .5. */
+  renderScale?: number;
+  /** Incoming light XY slope; each component -1–1. Default [.45, .65]. */
+  light?: readonly [number, number];
+}
+
 /** Experimental optics for a wallpaper rendered by this controller, never arbitrary DOM. */
 export interface GlassSceneOptions {
   surfaces?: GlassSceneSurface[];
   field?: GlassSceneFieldOptions;
   fusion?: GlassSceneFusionOptions;
-  backdrop?: 'ribbons' | 'studio';
+  caustics?: GlassSceneCausticsOptions;
+  backdrop?: 'ribbons' | 'studio' | 'mineral';
   palette?: 'neon' | 'sunset' | 'ocean';
   paused?: boolean;
   reducedMotion?: boolean;
@@ -58,6 +89,9 @@ export interface GlassSceneStats {
   readonly renderer: 'webgl2';
   readonly fieldCount: number;
   readonly fusionCount: number;
+  readonly causticCount: number;
+  readonly causticTriangles: number;
+  readonly causticPixels: number;
   readonly drawCalls: number;
   readonly wallpaperPasses: number;
   readonly width: number;
@@ -68,9 +102,9 @@ export interface GlassSceneStats {
 
 const MAX_SURFACES = 8;
 type Pipeline = { program: WebGLProgram; locations: Record<string, WebGLUniformLocation | null> };
-const uniformNames = ['uResolution', 'uDpr', 'uTime', 'uPalette', 'uCount', 'uSolid', 'uRects[0]', 'uOptics[0]', 'uWallpaper', 'uField', 'uDirection', 'uMotion', 'uBackdrop', 'uDrops[0]', 'uFusionCount', 'uFusion', 'uFusionBounds'];
+const uniformNames = ['uResolution', 'uDpr', 'uTime', 'uPalette', 'uCount', 'uSolid', 'uRects[0]', 'uOptics[0]', 'uWallpaper', 'uField', 'uDirection', 'uMotion', 'uBackdrop', 'uDrops[0]', 'uFusionCount', 'uFusion', 'uFusionBounds', 'uCausticRects[0]', 'uCausticRadii[0]', 'uCaustics', 'uCausticLight', 'uCausticGrid', 'uCausticMap', 'uCausticActive'];
 type MutableStats = { -readonly [Key in keyof GlassSceneStats]: GlassSceneStats[Key] };
-const emptyStats = (): MutableStats => ({ renderer: 'webgl2', fieldCount: 0, fusionCount: 0, drawCalls: 0, wallpaperPasses: 0, width: 0, height: 0, dpr: 0, pixels: 0 });
+const emptyStats = (): MutableStats => ({ renderer: 'webgl2', fieldCount: 0, fusionCount: 0, causticCount: 0, causticTriangles: 0, causticPixels: 0, drawCalls: 0, wallpaperPasses: 0, width: 0, height: 0, dpr: 0, pixels: 0 });
 
 /**
  * Render an experimental owned wallpaper, optional lenses and decorative instances.
@@ -102,6 +136,12 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   let field: Pipeline | null = null;
   let lenses: Pipeline | null = null;
   let fusion: Pipeline | null = null;
+  let caustics: Pipeline | null = null;
+  let causticIndices: WebGLBuffer | null = null, causticVertices: WebGLBuffer | null = null;
+  let causticTexture: WebGLTexture | null = null, causticFramebuffer: WebGLFramebuffer | null = null;
+  let causticWidth = 0, causticHeight = 0;
+  let causticGrid = 0;
+  let causticRects: Float32Array | null = null, causticRadii: Float32Array | null = null;
   let vao: WebGLVertexArrayObject | null = null;
   let texture: WebGLTexture | null = null;
   let framebuffer: WebGLFramebuffer | null = null;
@@ -129,7 +169,14 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   const canAnimate = () => !destroyed && supported && canvas.isConnected && !doc.hidden
     && !options.paused && !options.reducedMotion && !reduced?.matches;
   const releaseGpu = () => {
-    for (const pipeline of [background, composite, fusion, lenses, field]) if (pipeline) context.deleteProgram(pipeline.program);
+    for (const pipeline of [background, composite, fusion, lenses, field, caustics]) if (pipeline) context.deleteProgram(pipeline.program);
+    if (causticTexture) context.deleteTexture(causticTexture);
+    if (causticFramebuffer) context.deleteFramebuffer(causticFramebuffer);
+    causticTexture = null; causticFramebuffer = null; causticWidth = causticHeight = 0;
+    if (causticIndices) context.deleteBuffer(causticIndices);
+    if (causticVertices) context.deleteBuffer(causticVertices);
+    causticVertices = null;
+    causticIndices = null; causticGrid = 0; caustics = null;
     if (vao) context.deleteVertexArray(vao);
     if (texture) context.deleteTexture(texture);
     if (framebuffer) context.deleteFramebuffer(framebuffer);
@@ -207,7 +254,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
     context.uniform2f(locations.uDpr ?? null, scaleX, scaleY);
     context.uniform1f(locations.uTime ?? null, time);
     context.uniform1i(locations.uPalette ?? null, palette);
-    context.uniform1i(locations.uBackdrop ?? null, options.backdrop === 'studio' ? 1 : 0);
+    context.uniform1i(locations.uBackdrop ?? null, options.backdrop === 'studio' ? 1 : options.backdrop === 'mineral' ? 2 : 0);
     context.uniform1i(locations.uSolid ?? null, solid);
   };
   const draw = (flush = false) => {
@@ -239,6 +286,29 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
       opticData[count * 2] = Math.min(bounded(surface.radius, 28, 0, 256), rect.width / 2, rect.height / 2);
       opticData[count * 2 + 1] = bounded(surface.refraction, 22, 0, 80);
       count++;
+    }
+    const causticOptions = options.caustics;
+    const intensity = causticOptions ? bounded(causticOptions.intensity, .16, 0, 1) : 0;
+    const solid = options.reducedTransparency || transparency?.matches || contrast?.matches || forced?.matches ? 1 : 0;
+    let causticCount = 0;
+    if (intensity > 0 && !solid) {
+      causticRects ??= new Float32Array(MAX_SURFACES * 4);
+      causticRadii ??= new Float32Array(MAX_SURFACES);
+      for (let i = 0; i < count; i++) {
+        for (let k = 0; k < 4; k++) causticRects[i * 4 + k] = rectData[i * 4 + k]!;
+        causticRadii[i] = opticData[i * 2]!;
+      }
+      causticCount = count;
+      for (const emitter of causticOptions?.emitters ?? []) {
+        if (causticCount >= MAX_SURFACES) break;
+        if (!emitter || !(emitter.width > 0 && emitter.height > 0)) continue;
+        const x = bounded(emitter.x, 0, -100_000, 100_000), y = bounded(emitter.y, 0, -100_000, 100_000);
+        const w = bounded(emitter.width, 80, 1, 2048) * .5, h = bounded(emitter.height, 80, 1, 2048) * .5;
+        if (x + w < -480 || y + h < -480 || x - w > bounds.width + 480 || y - h > bounds.height + 480) continue;
+        const offset = causticCount * 4;
+        causticRects[offset] = x; causticRects[offset + 1] = y; causticRects[offset + 2] = w; causticRects[offset + 3] = h;
+        causticRadii[causticCount++] = Math.min(w, h, bounded(emitter.radius, 28, 0, 1024));
+      }
     }
     const drawFusion = fusionEnabled && fusionCount > 0
       && fusionBounds[0]! + fusionBounds[2]! >= 0 && fusionBounds[0]! - fusionBounds[2]! <= bounds.width
@@ -275,13 +345,85 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
         if (!field) throw new Error('Field pipeline unavailable');
         firstDraw = true;
       }
+      if (causticCount && !caustics) {
+        caustics = createPipeline(causticVertexSource, causticFragmentSource);
+        if (!caustics) throw new Error('Caustic pipeline unavailable');
+        firstDraw = true;
+      }
+      if (causticCount) {
+        const scale = bounded(causticOptions?.renderScale, .5, .25, 1);
+        const cw = Math.max(1, Math.floor(width * scale)), ch = Math.max(1, Math.floor(height * scale));
+        if (cw !== causticWidth || ch !== causticHeight) {
+          if (causticTexture) context.deleteTexture(causticTexture);
+          causticTexture = context.createTexture();
+          causticFramebuffer ??= context.createFramebuffer();
+          if (!causticTexture || !causticFramebuffer) throw new Error('Caustic target unavailable');
+          context.bindTexture(context.TEXTURE_2D, causticTexture);
+          context.texStorage2D(context.TEXTURE_2D, 1, context.RGBA8, cw, ch);
+          context.texParameteri(context.TEXTURE_2D, context.TEXTURE_MIN_FILTER, context.LINEAR);
+          context.texParameteri(context.TEXTURE_2D, context.TEXTURE_MAG_FILTER, context.LINEAR);
+          context.texParameteri(context.TEXTURE_2D, context.TEXTURE_WRAP_S, context.CLAMP_TO_EDGE);
+          context.texParameteri(context.TEXTURE_2D, context.TEXTURE_WRAP_T, context.CLAMP_TO_EDGE);
+          context.bindFramebuffer(context.FRAMEBUFFER, causticFramebuffer);
+          context.framebufferTexture2D(context.FRAMEBUFFER, context.COLOR_ATTACHMENT0, context.TEXTURE_2D, causticTexture, 0);
+          if (context.checkFramebufferStatus(context.FRAMEBUFFER) !== context.FRAMEBUFFER_COMPLETE) throw new Error('Caustic framebuffer unavailable');
+          causticWidth = cw; causticHeight = ch; firstDraw = true;
+        }
+      }
+      context.bindVertexArray(vao);
+      if (causticCount) {
+        const grid = Math.round(bounded(causticOptions?.resolution, 40, 16, 96));
+        if (grid !== causticGrid) {
+          const indices = new Uint16Array(grid * grid * 6);
+          const stride = grid + 1;
+          const vertices = new Float32Array(stride * stride * 2);
+          for (let y = 0; y <= grid; y++) for (let x = 0; x <= grid; x++) {
+            const offset = (y * stride + x) * 2;
+            vertices[offset] = x / grid; vertices[offset + 1] = y / grid;
+          }
+          causticVertices ??= context.createBuffer();
+          if (!causticVertices) throw new Error('Caustic vertex buffer unavailable');
+          context.bindBuffer(context.ARRAY_BUFFER, causticVertices);
+          context.bufferData(context.ARRAY_BUFFER, vertices, context.STATIC_DRAW);
+          context.enableVertexAttribArray(0); context.vertexAttribPointer(0, 2, context.FLOAT, false, 0, 0);
+          let index = 0;
+          for (let y = 0; y < grid; y++) for (let x = 0; x < grid; x++) {
+            const a = y * stride + x, b = a + 1, c = a + stride, d = c + 1;
+            indices[index++] = a; indices[index++] = b; indices[index++] = c;
+            indices[index++] = c; indices[index++] = b; indices[index++] = d;
+          }
+          causticIndices ??= context.createBuffer();
+          if (!causticIndices) throw new Error('Caustic index buffer unavailable');
+          context.bindBuffer(context.ELEMENT_ARRAY_BUFFER, causticIndices);
+          context.bufferData(context.ELEMENT_ARRAY_BUFFER, indices, context.STATIC_DRAW);
+          causticGrid = grid;
+        }
+      }
       context.viewport(0, 0, width, height); context.bindVertexArray(vao);
       context.disable(context.BLEND);
       const palette = options.palette === 'sunset' ? 1 : options.palette === 'ocean' ? 2 : 0;
-      const solid = options.reducedTransparency || transparency?.matches || contrast?.matches || forced?.matches ? 1 : 0;
-      // Compute the procedural wallpaper once. Every lens samples the same full-resolution image.
+      if (causticCount && caustics) {
+        context.bindFramebuffer(context.FRAMEBUFFER, causticFramebuffer);
+        context.viewport(0, 0, causticWidth, causticHeight);
+        context.clearColor(0, 0, 0, 0); context.clear(context.COLOR_BUFFER_BIT);
+        use(caustics, bounds.width, bounds.height, scaleX, scaleY, palette, solid);
+        context.uniform4fv(caustics.locations['uCausticRects[0]'] ?? null, causticRects!);
+        context.uniform1fv(caustics.locations['uCausticRadii[0]'] ?? null, causticRadii!);
+        context.uniform4f(caustics.locations.uCaustics ?? null, intensity, bounded(causticOptions?.ior, 1.45, 1, 2.4), bounded(causticOptions?.depth, 100, 0, 240), bounded(causticOptions?.ripple, .5, 0, 1));
+        context.uniform3f(caustics.locations.uCausticLight ?? null, bounded(causticOptions?.light?.[0], .45, -1, 1), bounded(causticOptions?.light?.[1], .65, -1, 1), bounded(causticOptions?.speed, .6, 0, 3));
+        context.uniform1i(caustics.locations.uCausticGrid ?? null, causticGrid);
+        context.enable(context.BLEND); context.blendFunc(context.ONE, context.ONE);
+        context.drawElementsInstanced(context.TRIANGLES, causticGrid * causticGrid * 6, context.UNSIGNED_SHORT, 0, causticCount);
+        context.disable(context.BLEND);
+      }
+      // Light receiver is lower resolution, then sampled during the existing wallpaper pass.
       context.bindFramebuffer(context.FRAMEBUFFER, framebuffer);
-      use(background, bounds.width, bounds.height, scaleX, scaleY, palette, solid); context.drawArrays(context.TRIANGLES, 0, 3);
+      context.viewport(0, 0, width, height);
+      context.activeTexture(context.TEXTURE1); context.bindTexture(context.TEXTURE_2D, causticTexture);
+      use(background, bounds.width, bounds.height, scaleX, scaleY, palette, solid);
+      context.uniform1i(background.locations.uCausticMap ?? null, 1);
+      context.uniform1i(background.locations.uCausticActive ?? null, causticCount ? 1 : 0);
+      context.drawArrays(context.TRIANGLES, 0, 3);
       context.bindFramebuffer(context.FRAMEBUFFER, null);
       context.activeTexture(context.TEXTURE0); context.bindTexture(context.TEXTURE_2D, texture);
       use(composite, bounds.width, bounds.height, scaleX, scaleY, palette, solid);
@@ -324,7 +466,9 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
       }
       context.bindVertexArray(null);
       stats.fieldCount = fieldCount; stats.fusionCount = drawFusion ? fusionCount : 0;
-      stats.drawCalls = 2 + (drawFusion ? 1 : 0) + (count ? 1 : 0) + (fieldCount ? 1 : 0);
+      stats.causticPixels = causticCount ? causticWidth * causticHeight : 0;
+      stats.causticCount = causticCount; stats.causticTriangles = causticCount * causticGrid * causticGrid * 2;
+      stats.drawCalls = 2 + (causticCount ? 1 : 0) + (drawFusion ? 1 : 0) + (count ? 1 : 0) + (fieldCount ? 1 : 0);
       stats.wallpaperPasses = 1; stats.width = width; stats.height = height; stats.dpr = dpr; stats.pixels = width * height;
       if (flush) context.flush();
       if (firstDraw) {
@@ -349,7 +493,8 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   const observer = Resize ? new Resize(refresh) : undefined;
   const update = (next: GlassSceneOptions = {}) => {
     if (destroyed) return;
-    options = { ...next, field: next.field ? { ...next.field } : undefined, fusion: next.fusion ? { ...next.fusion, drops: [] } : undefined };
+    options = { ...next, caustics: next.caustics ? { ...next.caustics, light: next.caustics.light ? [...next.caustics.light] as [number, number] : undefined,
+      emitters: (Array.isArray(next.caustics.emitters) ? next.caustics.emitters : []).slice(0, MAX_SURFACES).map(e => ({ ...e })) } : undefined, field: next.field ? { ...next.field } : undefined, fusion: next.fusion ? { ...next.fusion, drops: [] } : undefined };
     fusionEnabled = Boolean(next.fusion);
     fusionSmoothness = bounded(next.fusion?.smoothness, 32, 0, 120);
     fusionRefraction = bounded(next.fusion?.refraction, 36, 0, 100);
@@ -387,7 +532,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
     },
     render(timeSeconds?: number) {
       if (destroyed) return;
-      if (typeof timeSeconds === 'number' && Number.isFinite(timeSeconds)) time = Math.min(1_000_000, Math.max(0, timeSeconds));
+      if (typeof timeSeconds === 'number' && Number.isFinite(timeSeconds)) time = options.reducedMotion || reduced?.matches ? 0 : Math.min(1_000_000, Math.max(0, timeSeconds));
       draw(true); schedule();
     },
     destroy() {

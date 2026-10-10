@@ -23,6 +23,7 @@ export default defineConfig({
         flow: resolve('site/flow/index.html'),
         fusion: resolve('site/fusion/index.html'),
         loading: resolve('site/loading/index.html'),
+        caustics: resolve('site/caustics/index.html'),
       },
     },
   },

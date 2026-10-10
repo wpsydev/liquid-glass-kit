@@ -1,0 +1,9 @@
+# Light studies film
+
+The 0.13 film records six working UI studies from the production-source caustics gallery in the native T3 collaborative browser: command search, player, dock, range, toast and primary action. Original HTML/SVG/CSS artwork, Georgia/Arial typography and a mineral-teal receiver frame the animated light. Each1.7-second chapter demonstrates a small native state change; an end card finishes the 12-second sequence.
+
+The final composition uses one 64-cell source mesh, intensity.20/depth160/ripple.65, a900,000 main-pixel budget and half-scale light storage. At 720×1280 CSS recording size, the main backing buffer is711×1264 (898,704 pixels); the light texture is355×632 (224,360 pixels). It uses four draws: light receiver, wallpaper, presentation and HTML lens. Semantic HTML remains separate. This is a single-interface planar approximation, not full physical light transport or Apple's rendering. The film is a presentation artifact, not a measurement of app FPS.
+
+Export: `assets/caustics-showcase.mp4`,720×1280 H.264/yuv420p,360 frames at30 export fps, exactly12 seconds, stereo48kHzAAC and faststart MP4. Native variable-frame capture was trimmed0.20s at the start and normally resampled, without speeding up choreography. Music is the original141.176 BPM synth score from `scripts/render-caustics-beat.py`, with no third-party samples, licensed under the repository's MIT license.
+
+Full video/audio decoding passed. Six inspected frames at.8/2.5/4.2/5.9/7.6/9.3 seconds show every option; the final card is readable. Decoded audio mean−14.8dBFS, peak−2.5dBFS. Final file:821,899 bytes, SHA256 `8535be843959820576cd1970a443b1887f36b083baef04278ea867b83c1e7fe1`. The campaign receipt records responsive checks, context recovery, static/opaque preferences, fallback and publication evidence.

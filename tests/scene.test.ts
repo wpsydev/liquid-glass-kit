@@ -52,6 +52,8 @@ function gpu() {
     TEXTURE_2D: 3553, TEXTURE0: 33984, RGBA8: 32856, FRAMEBUFFER: 36160, COLOR_ATTACHMENT0: 36064,
     FRAMEBUFFER_COMPLETE: 36053, TEXTURE_MIN_FILTER: 10241, TEXTURE_MAG_FILTER: 10240,
     TEXTURE_WRAP_S: 10242, TEXTURE_WRAP_T: 10243, LINEAR: 9729, CLAMP_TO_EDGE: 33071,
+    ARRAY_BUFFER:34962, FLOAT:5126, enableVertexAttribArray:vi.fn(), vertexAttribPointer:vi.fn(), TEXTURE1: 33985, ELEMENT_ARRAY_BUFFER: 34963, STATIC_DRAW: 35044, UNSIGNED_SHORT: 5123,
+    createBuffer: vi.fn(() => ({})), deleteBuffer: vi.fn(), bindBuffer: vi.fn(), bufferData: vi.fn(), drawElementsInstanced: vi.fn(),
     SRC_ALPHA: 770, ONE_MINUS_SRC_ALPHA: 771, ONE: 1, ZERO: 0,
     createTexture: vi.fn(() => ({})), deleteTexture: vi.fn(), bindTexture: vi.fn(), activeTexture: vi.fn(),
     texStorage2D: vi.fn(), texParameteri: vi.fn(),
@@ -478,4 +480,64 @@ describe('experimental owned-scene renderer lifecycle', () => {
     expect(() => unsupported.setDrops([{ x: 100, y: 100, radius: 80 }])).not.toThrow(); expect(unsupported.stats.fusionCount).toBe(0);
   });
 
+});
+
+
+describe('planar caustic receivers', () => {
+  it('adds one instanced pass and a quarter-area receiver, reuses resources on steady frames', () => {
+    clock(); preferences(); const {gl,canvas,surface}=fixture();
+    const scene=track(attachGlassScene(canvas,{paused:true,surfaces:[{element:surface}],caustics:{resolution:40}}));
+    expect(scene.supported).toBe(true);
+    expect(scene.stats).toMatchObject({causticCount:1,causticTriangles:3200,causticPixels:30000,drawCalls:4,pixels:120000});
+    expect(gl.drawElementsInstanced).toHaveBeenLastCalledWith(gl.TRIANGLES,9600,gl.UNSIGNED_SHORT,0,1);
+    expect(gl.createBuffer).toHaveBeenCalledTimes(2);expect(gl.bufferData).toHaveBeenCalledTimes(2);
+    const targetAllocations=gl.texStorage2D.mock.calls.length,programs=gl.createProgram.mock.calls.length;
+    scene.render(2);scene.render(3);
+    expect(gl.bufferData).toHaveBeenCalledTimes(2);expect(gl.texStorage2D).toHaveBeenCalledTimes(targetAllocations);expect(gl.createProgram).toHaveBeenCalledTimes(programs);
+    scene.destroy();expect(gl.deleteBuffer).toHaveBeenCalledTimes(2);expect(gl.deleteTexture).toHaveBeenCalledTimes(2);expect(gl.deleteFramebuffer).toHaveBeenCalledTimes(2);
+  });
+  it('allocates no caustic buffer or target for default scenes or intensity zero', () => {
+    clock();preferences();const {gl,canvas,surface}=fixture();
+    const scene=track(attachGlassScene(canvas,{paused:true,surfaces:[{element:surface}]}));
+    scene.update({paused:true,surfaces:[{element:surface}],caustics:{intensity:0}});
+    expect(gl.createBuffer).not.toHaveBeenCalled();expect(gl.drawElementsInstanced).not.toHaveBeenCalled();expect(gl.createTexture).toHaveBeenCalledTimes(1);
+    expect(scene.stats.causticCount).toBe(0);expect(scene.stats.drawCalls).toBe(3);
+  });
+  it('stops caustic submissions for opacity accessibility preferences and resumes afterwards', () => {
+    clock();const prefs=preferences(),{gl,canvas,surface}=fixture();
+    const scene=track(attachGlassScene(canvas,{paused:true,surfaces:[{element:surface}],caustics:{}}));
+    for(const query of ['(prefers-reduced-transparency: reduce)','(prefers-contrast: more)','(forced-colors: active)']) {
+      const submitted=gl.drawElementsInstanced.mock.calls.length;prefs.set(query,true);
+      expect(scene.stats.causticCount).toBe(0);expect(scene.stats.causticPixels).toBe(0);expect(gl.drawElementsInstanced).toHaveBeenCalledTimes(submitted);
+      prefs.set(query,false);expect(scene.stats.causticCount).toBe(1);
+    }
+  });
+  it('bounds grid and receiver settings, rebuilds the index only when topology changes', () => {
+    clock();preferences();const {gl,canvas,surface}=fixture();
+    const options={paused:true,surfaces:[{element:surface}],caustics:{resolution:Infinity,renderScale:NaN,ior:NaN,depth:Infinity,ripple:NaN,speed:NaN}};
+    const scene=track(attachGlassScene(canvas,options));expect(scene.stats.causticTriangles).toBe(3200);
+    scene.update({...options,caustics:{resolution:999,renderScale:10,ior:4,depth:999,ripple:4}});
+    expect(scene.stats.causticTriangles).toBe(18432);expect(scene.stats.causticPixels).toBe(120000);expect(gl.bufferData).toHaveBeenCalledTimes(4);
+    const uniforms=gl.uniform4f.mock.calls.filter(c=>(c[0] as {name:string}).name==='uCaustics').at(-1);
+    expect(uniforms?.slice(1)).toEqual([.16,2.4,240,1]);
+    scene.update({...options,caustics:{resolution:96}});expect(gl.bufferData).toHaveBeenCalledTimes(4);
+  });
+  it('copies emitter geometry and light, prioritizes visible surfaces and skips far-off emitters', () => {
+    clock();preferences();const {gl,canvas,surface}=fixture();
+    const light:[number,number]=[.2,.4];const emitters=Array.from({length:12},(_,i)=>({x:50+i,y:60,width:50,height:60,radius:200}));
+    const scene=track(attachGlassScene(canvas,{paused:true,surfaces:[{element:surface}],caustics:{emitters,light}}));
+    expect(scene.stats.causticCount).toBe(8);emitters[0].x=9999;light[0]=1;scene.render(2);
+    const uploaded=gl.uniform4fv.mock.calls.filter(c=>(c[0] as {name:string}).name==='uCausticRects[0]').at(-1)?.[1] as Float32Array;
+    expect(uploaded[4]).toBe(50);
+    expect(gl.uniform3f.mock.calls.filter(c=>(c[0] as {name:string}).name==='uCausticLight').at(-1)?.slice(1)).toEqual([.2,.4,.6]);
+    scene.update({paused:true,caustics:{emitters:[{x:10000,y:10000,width:80,height:80}]}});expect(scene.stats.causticCount).toBe(0);
+  });
+  it('rebuilds caustic resources after context loss, and disables an unavailable target safely', () => {
+    clock();preferences();const {gl,canvas,surface}=fixture();
+    const scene=track(attachGlassScene(canvas,{paused:true,surfaces:[{element:surface}],caustics:{}}));
+    canvas.dispatchEvent(new Event('webglcontextlost',{cancelable:true}));expect(scene.stats.causticCount).toBe(0);
+    canvas.dispatchEvent(new Event('webglcontextrestored'));expect(scene.supported).toBe(true);expect(scene.stats.causticCount).toBe(1);expect(gl.createBuffer).toHaveBeenCalledTimes(4);
+    gl.checkFramebufferStatus.mockReturnValue(0);scene.update({paused:true,surfaces:[{element:surface}],caustics:{renderScale:1}});
+    expect(scene.supported).toBe(false);expect(scene.stats.drawCalls).toBe(0);
+  });
 });

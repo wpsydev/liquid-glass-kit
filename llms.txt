@@ -19,7 +19,7 @@
 - [Compatibility](https://wpsydev.github.io/liquid-glass-kit/docs/COMPATIBILITY.md): Portable CSS versus experimental refraction.
 - [Repository](https://github.com/wpsydev/liquid-glass-kit): Source, issues, license, and installable skill.
 
-v0.12.0-preview.1. Install from the matching GitHub release/tag; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
+v0.13.0-preview.1. Install from the matching GitHub release/tag; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
 
 - [Experimental scene optics](docs/SCENE.md): optional WebGL2 subpath for an owned procedural background; no arbitrary DOM sampling.
 - [Optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/): interactive refractive lenses and original neon scene.
@@ -39,3 +39,6 @@ v0.12.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Loading guide](https://wpsydev.github.io/liquid-glass-kit/docs/LOADING.md): Narrow imports, component CSS, lazy scene readiness/cleanup, measured payloads and limitations.
 - [Loading study](https://wpsydev.github.io/liquid-glass-kit/loading/): CSS-first navigation and an actual deferred WebGL canvas.
+
+- [Caustic light studies](https://wpsydev.github.io/liquid-glass-kit/caustics/): six semantic UI examples with opt-in WebGL light concentration.
+- [Caustic guide](https://wpsydev.github.io/liquid-glass-kit/docs/CAUSTICS.md): exact options, current research, planar approximation and benchmark scope.
