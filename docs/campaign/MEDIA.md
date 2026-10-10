@@ -59,3 +59,6 @@ Live demo: https://wpsydev.github.io/liquid-glass-kit/motion/
 Release: https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.3.0-preview.1
 
 The final mobile overflow containment does not change the recorded desktop composition. Existing scheduled campaign posts remain unchanged. Native optical merging, Safari/Firefox and physical iOS fidelity are not claimed.
+
+Published motion video post: https://x.com/wpsygames/status/2108956899718656041
+Release/install reply: https://x.com/wpsygames/status/2108957155802177814

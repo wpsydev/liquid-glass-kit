@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-10",
+  "account": "wpsygames",
+  "feature": "Spring motion preview",
+  "version": "0.3.0-preview.1",
+  "commit": "bda257ddf1aa711bc637b24cf223f7f5af88b253",
+  "demo": "https://wpsydev.github.io/liquid-glass-kit/motion/",
+  "release": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.3.0-preview.1",
+  "post": "https://x.com/wpsygames/status/2108956899718656041",
+  "video": "assets/motion-showcase.mp4",
+  "durationSeconds": 28,
+  "videoBytes": 1396026,
+  "verification": [
+    "Published post observed in home feed with matching text and processed 28-second video",
+    "GitHub checks and release workflow passed",
+    "Live demo and release assets returned HTTP 200",
+    "Public post URL loaded with matching text and processed 28-second video (readyState 4, playback observed)",
+    "Release/install reply observed beneath the new video post"
+  ],
+  "npmRegistryPublication": "pending",
+  "existingScheduledPosts": "unchanged",
+  "reply": "https://x.com/wpsygames/status/2108957155802177814"
+}

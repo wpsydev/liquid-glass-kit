@@ -137,6 +137,6 @@ await motion.enter(); // Visual reveal; your app owns visibility and focus.
 motion.destroy(); material.destroy();
 ```
 
-Use `attachGlassIndicator(nav, backing, { motion: 'spring' })` for an interruptible selection backing. Targets keep their native semantics; springs preserve current velocity on retargeting. Try the [live motion playground](https://wpsydev.github.io/liquid-glass-kit/motion/) and read the [motion references](docs/MOTION_RESEARCH.md).
+Use `attachGlassIndicator(nav, backing, { motion: 'spring' })` for an interruptible selection backing. Targets keep their native semantics; springs preserve current velocity on retargeting. Watch the [28-second motion video on X](https://x.com/wpsygames/status/2108956899718656041). Try the [live motion playground](https://wpsydev.github.io/liquid-glass-kit/motion/) and read the [motion references](docs/MOTION_RESEARCH.md).
 
 These are independently implemented web springs and geometry transitions. They do not reproduce native optical merging or Apple's private renderer. CSS/default ease behavior stays available; the core has no runtime dependency. Motion helpers reserve individual scale, opacity and transition; use a wrapper when composing other animations.
