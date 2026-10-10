@@ -1,0 +1,81 @@
+[
+  {
+    "id": "demo-now",
+    "text": "Glass you can actually try.\n\nI built Liquid Glass Kit for floating nav, media controls and AI composers. CSS first, optional enhancement, solid mode when you need it.\n\nThis is the real playground. Try it, then star the repo if useful:\nhttps://wpsydev.github.io/liquid-glass-kit/",
+    "scheduledAtUtc": null,
+    "publishIntent": "immediate",
+    "preparedForUtc": "2026-10-10T15:15:00Z",
+    "assetTheme": "hero-demo-video",
+    "purpose": "Show working material changes and invite a first hands-on trial.",
+    "status": "prepared"
+  },
+  {
+    "id": "css-recipe",
+    "text": "Your nav is already a nav. Keep it that way.\n\nLiquid Glass Kit's CSS path is just a class on semantic HTML:\n<nav class=\"lg-glass lg-panel\">...</nav>\n\nImport the stylesheet once. No hydration needed for this path.\n\nRecipe + demo:\nhttps://wpsydev.github.io/liquid-glass-kit/",
+    "scheduledAtUtc": "2026-10-11T16:20:00Z",
+    "assetTheme": "semantic-nav-recipe",
+    "purpose": "Teach the smallest integration and show a native navigation surface.",
+    "status": "scheduled",
+    "assetPath": "docs/assets/playground.webp",
+    "queueUrl": "https://x.com/compose/post/unsent/scheduled",
+    "queueCaption": "Will send on Sun, Oct 11, 2026 at 7:20 PM",
+    "schedulerTimeZone": "Europe/Kiev",
+    "verifiedAtUtc": "2026-10-10T15:12:20.583Z"
+  },
+  {
+    "id": "glass-vs-solid",
+    "text": "One UI, two material choices: glass and solid.\n\nTransparent UI cannot guarantee contrast over every backdrop. Liquid Glass Kit includes an explicit solid option and preference fallbacks.\n\nTry the toggle on your own background:\nhttps://wpsydev.github.io/liquid-glass-kit/",
+    "scheduledAtUtc": "2026-10-13T09:40:00Z",
+    "assetTheme": "glass-solid-comparison-video",
+    "purpose": "Demonstrate a practical fallback and invite real contrast feedback.",
+    "status": "prepared"
+  },
+  {
+    "id": "optics-explained",
+    "text": "Blur and refraction are different effects.\n\nLiquid Glass Kit defaults to CSS frosted material. Its SVG backdrop lens is experimental, opt-in and Chromium-gated; other engines keep the CSS path. Foreground text stays unfiltered.\n\nHow it works:\nhttps://github.com/wpsydev/liquid-glass-kit/blob/main/docs/RESEARCH.md",
+    "scheduledAtUtc": "2026-10-15T17:10:00Z",
+    "assetTheme": "css-lens-comparison-video",
+    "purpose": "Explain the optical tiers without implying universal refraction support.",
+    "status": "prepared"
+  },
+  {
+    "id": "ai-composer",
+    "text": "A little glass goes a long way in an AI app.\n\nPut it on the composer and floating tools. Keep the answer readable on a solid surface. Use a native form, labelled textarea and submit button.\n\nLiquid Glass Kit's recipe:\nhttps://github.com/wpsydev/liquid-glass-kit/blob/main/docs/USE_CASES.md",
+    "scheduledAtUtc": "2026-10-17T12:30:00Z",
+    "assetTheme": "ai-composer-demo-video",
+    "purpose": "Show a specific AI-app use case with semantic inputs and readable output.",
+    "status": "prepared"
+  },
+  {
+    "id": "framework-paths",
+    "text": "Same material, your stack.\n\nLiquid Glass Kit has React/Vue adapters, a Svelte action, and CSS/DOM recipes for other web frameworks. The core has no runtime dependencies and is import-safe during SSR.\n\nPick an integration:\nhttps://github.com/wpsydev/liquid-glass-kit/blob/main/docs/INTEGRATIONS.md",
+    "scheduledAtUtc": "2026-10-19T18:00:00Z",
+    "assetTheme": "framework-recipe-cards",
+    "purpose": "Help developers choose an actual integration instead of implying every stack has an adapter.",
+    "status": "prepared"
+  },
+  {
+    "id": "agent-prompt",
+    "text": "Prompt for your coding agent:\n\n\"Read Liquid Glass Kit's llms-full.txt. Add CSS glass to my toolbar, preserve native controls, keep long text solid, and leave experimental refraction off.\"\n\nTyped APIs, recipes and a skill are included.\nhttps://wpsydev.github.io/liquid-glass-kit/llms-full.txt",
+    "scheduledAtUtc": "2026-10-21T10:15:00Z",
+    "assetTheme": "agent-prompt-card",
+    "purpose": "Give agents a concrete source-led task while avoiding automatic discovery promises.",
+    "status": "prepared"
+  },
+  {
+    "id": "browser-contributions",
+    "text": "Help make this preview better on real devices.\n\nLiquid Glass Kit needs reproducible Safari, Firefox and iOS reports: browser/OS, a small example, screenshot, and whether the CSS or experimental lens path was used.\n\nBrowser validation issue:\nhttps://github.com/wpsydev/liquid-glass-kit/issues/1",
+    "scheduledAtUtc": "2026-10-23T15:45:00Z",
+    "assetTheme": "browser-report-card",
+    "purpose": "Invite useful open-source contributions and expose unverified browser coverage.",
+    "status": "prepared"
+  },
+  {
+    "id": "build-with-it",
+    "text": "What would you build with Liquid Glass Kit?\n\nA floating dock, media controls, an AI composer, a native dialog? The preview is MIT licensed, with a live playground and documented limits.\n\nShare an integration. Star it if it earns a place in your toolkit:\nhttps://github.com/wpsydev/liquid-glass-kit",
+    "scheduledAtUtc": "2026-10-24T17:30:00Z",
+    "assetTheme": "use-case-montage-video",
+    "purpose": "Invite genuine adoption examples and an optional star after useful evaluation.",
+    "status": "prepared"
+  }
+]

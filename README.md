@@ -6,7 +6,7 @@ Inspired by the feel of Apple's Liquid Glass. Independent open source implementa
 
 ![Live Liquid Glass Kit playground with material controls](docs/assets/playground.webp)
 
-[Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
+[Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [Interactive demos](https://wpsydev.github.io/liquid-glass-kit/campaign/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
 
 ## Why another glass library?
 

@@ -1,0 +1,78 @@
+# Liquid Glass Kit: X campaign
+
+Account: **@wpsygames**, creator **wpsydev**. The [original launch post](https://x.com/wpsygames/status/2108936339475276157) is live. This campaign follows it with a real demonstration and eight distinct, useful posts from October 11–24, 2026. Copy in [posts.json](posts.json) is **prepared**, not evidence that it has been posted or scheduled. Change each record only after the corresponding action is confirmed, saving its public post URL.
+
+The aim is hands-on trials, genuine integrations, useful browser reports and eventual repository stars. No reach, conversion or adoption target is represented as an achieved result.
+
+## Positioning and evidence
+
+Liquid Glass Kit is a CSS-first web material layer with optional TypeScript enhancement, React/Vue adapters, a Svelte action, readable agent guides, and solid fallbacks. It is an independent MIT-licensed preview inspired by Liquid Glass. Lead with the working interface; discuss the experimental lens when it is actually demonstrated.
+
+Use the [live playground](https://wpsydev.github.io/liquid-glass-kit/) for trials and the [repository](https://github.com/wpsydev/liquid-glass-kit) for adoption. The [API](../API.md), [integration recipes](../INTEGRATIONS.md), [use-case matrix](../USE_CASES.md), [compatibility limits](../COMPATIBILITY.md), and [validation record](../VALIDATION.md) support the copy. The [research](../RESEARCH.md) explains the rendering tiers. No campaign post claims npm registry availability, pixel parity with Apple, universal refraction, benchmark results, certified accessibility, or guaranteed agent discovery.
+
+## Publication queue
+
+All times are UTC. These are initial timing experiments, not claimed optimal posting times. `demo-now` is intended for immediate publication on October 10; its preparation reference is approximately 15:15 UTC. It has no scheduled timestamp. Eight follow-ups span the next fourteen calendar days.
+
+| ID | Time UTC | Asset | Useful reason to read |
+| --- | --- | --- | --- |
+| demo-now | Immediate, October 10 | Real playground video | Try the material, light/dark, and solid choices |
+| css-recipe | October 11, 16:20 | Semantic nav recipe | Start with one CSS class and preserve native HTML |
+| glass-vs-solid | October 13, 09:40 | Glass/solid comparison | Test translucency and keep a readable fallback |
+| optics-explained | October 15, 17:10 | CSS/lens comparison | Understand blur versus experimental backdrop refraction |
+| ai-composer | October 17, 12:30 | Composer demo | Put glass on tools while keeping answers readable |
+| framework-paths | October 19, 18:00 | Framework recipe cards | Choose an adapter, action, or lifecycle recipe |
+| agent-prompt | October 21, 10:15 | Agent prompt card | Give a coding agent an accurate, constrained task |
+| browser-contributions | October 23, 15:45 | Browser report card | Supply a reproducible report from a real device |
+| build-with-it | October 24, 17:30 | Use-case montage | Share a genuine integration and evaluate the repo |
+
+Only `demo-now` and `build-with-it` ask for stars, and both make it conditional on usefulness. Other posts give a recipe, explain a trade-off, or invite a concrete contribution.
+
+## Demo and video brief
+
+Capture actual browser output using the shared T3 preview. A staged UI must be described as a demo; do not imply that it is a deployed customer application or that an agent/model backend is connected. Foreground labels must remain readable at social-feed size.
+
+- **Hero clip, 15–25 seconds:** show the CSS material on dock/media/composer surfaces, switch light to dark, then turn on explicit solid mode. Finish on the working playground address. Use short, truthful captions such as “CSS-first material”, “Light / dark”, and “Solid option”.
+- **Glass/solid comparison, 8–15 seconds:** use the same surface and background in both states. Demonstrate the control instead of relying on a render that changes unrelated colors or layout.
+- **Optics clip, 10–20 seconds:** show CSS and experimental SVG lens settings in the verified Chromium preview. Label the enhanced state “Experimental Chromium lens”. Keep text in the foreground. Do not use this recording as proof of Safari/Firefox support or a physical optical simulation.
+- **AI composer clip, 10–20 seconds:** show native input and submit affordances on a glass composer, with a solid response area. A scripted demo response is labelled as sample content. Do not imply the material library calls a model.
+- **Use-case montage, 15–25 seconds:** show only implemented, working examples such as navigation, media controls, composer and native dialog. Preserve keyboard/focus behavior. Captions list the use case, not unsupported performance claims.
+- **Static teaching cards:** readable code from the checked-in recipes and a simple prompt sourced from the agent guide. Avoid fabricated terminal output or “AI installed it automatically” claims.
+
+Use MP4/H.264 for uploaded video if the platform accepts the produced artifact. Inspect the final file and the attached composer preview. Check spelling, aspect ratio, duration and legibility. Save each asset path and published URL with the post record. An upload failure is not a published post. A scheduled item is not a live post.
+
+## Autonomous publishing and replies
+
+The maintainer authorized posting to the connected X account. Publish the immediate demo and queue future posts through available account UI if scheduling is supported. Inspect the resulting live post and scheduled-post list. Use the preparation files as a queue when a supported scheduler is unavailable; do not describe that queue as scheduled.
+
+Read genuine replies at the review points. Answer specific implementation questions with a recipe or documented limit. Ask for a small reproduction when someone reports a bug. Thank contributors without making unsupported adoption claims. No mass mentions, copied replies to unrelated accounts, unsolicited DMs, purchased stars, engagement exchanges, or repetition of the same promotional copy. Rework later posts if real feedback exposes an inaccurate claim or a broken example.
+
+## Measurement and review
+
+Baseline inspected at approximately 15:11 UTC on October 10, before the new demo post: GitHub **0 stars, 0 forks**, two maintainer-created issues; X **0 followers**, and the original launch showed **2 views, 0 replies, 0 reposts, 0 likes**. Views include our own verification and do not establish outside reach. The launch is pinned on the account. Private traffic, impressions and link clicks were unavailable. Use account analytics, repository traffic and visible public evidence only; do not estimate missing reach or infer unique users from page requests. GitHub traffic and X analytics may have different reporting windows.
+
+| Metric | Baseline, October 10 | 48-hour review, October 12 | Day 7, October 17 | Day 14, October 24 |
+| --- | --- | --- | --- | --- |
+| Repository stars | 0 | | | |
+| Repository unique visitors, stated window | | | | |
+| Repository unique cloners, stated window | | | | |
+| X impressions, per-post / stated window | | | | |
+| Demo link clicks, if available | | | | |
+| Useful implementation questions | | | | |
+| Reproducible browser reports | | | | |
+| Outside contributors / accepted PRs | | | | |
+| Linked working integration examples | | | | |
+
+At **48 hours**, inspect whether the demo communicates the material and whether replies identify integration friction. Correct confusing language, broken links or unreadable captions. Compare posts using their actual exposure windows.
+
+At **7 days**, group useful replies into rendering, accessibility/contrast and framework integration. Prioritize reproducible bugs. Choose the next demonstration from a real question rather than copying the launch hook. Mention a fix only after it has landed and the public demo reflects it.
+
+At **14 days**, compare the baseline and actual evidence. Report stars alongside trials, contributions and working integrations. Look for which recipe generated useful discussion and which clip generated qualified questions. Adjust timing using account evidence only. Package download measurements remain blank until a registry artifact exists and an appropriate observation window is available.
+
+## Status discipline
+
+Initial JSON status is `prepared`. The publishing owner may use `scheduled`, `published`, or `failed` after verification and add `publishedUrl`, `scheduledAtUtc`, `assetPath`, `verifiedAtUtc`, or `failureReason`. Keep actual results distinct from planned intent. If a scheduled time has passed before queueing, revise it to a future time and record the change instead of claiming the original time was honored.
+
+Scheduling uses X's native web interface; its displayed timezone is **Europe/Kiev** (UTC+3 on all selected dates). The queue record stores UTC timestamps and the verified local caption. [Manage scheduled posts](https://x.com/compose/post/unsent/scheduled). Review points are a measurement plan, not a claim that an unattended monitoring job exists.
+
+Platform references: [X scheduling guidance](https://help.x.com/en/business-and-advertising/scheduled-tweets) and [X authenticity rules](https://help.x.com/en/rules-and-policies/authenticity). This campaign uses distinct educational posts and replies only where the actual discussion makes a response useful.
