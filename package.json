@@ -10,7 +10,7 @@
   "bugs": "https://github.com/wpsydev/liquid-glass-kit/issues",
   "keywords": ["liquid-glass", "ios", "glassmorphism", "refraction", "react", "vue", "svelte", "nextjs", "astro", "tailwind", "ai", "agents", "ui", "accessibility"],
   "sideEffects": ["**/*.css"],
-  "files": ["dist", "skills", "llms.txt", "llms-full.txt", "docs", "README.md", "LICENSE"],
+  "files": ["dist", "skills", "llms.txt", "llms-full.txt", "docs/*.md", "README.md", "LICENSE"],
   "exports": {
     ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
     "./react": { "types": "./dist/react.d.ts", "import": "./dist/react.js" },

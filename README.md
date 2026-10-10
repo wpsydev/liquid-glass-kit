@@ -4,7 +4,7 @@
 
 Inspired by the feel of Apple's Liquid Glass. Independent open source implementation; not affiliated with Apple. This is a **v0.1.0 preview**, not a pixel-identical recreation of Apple's renderer.
 
-<!-- Add a real demo recording here after public deployment; do not substitute fabricated screenshots or metrics. -->
+![Live Liquid Glass Kit playground with material controls](docs/assets/playground.webp)
 
 [Live playground](https://wpsydev.github.io/liquid-glass-kit/) · [API](docs/API.md) · [Framework recipes](docs/INTEGRATIONS.md) · [Research](docs/RESEARCH.md) · [Browser limits](docs/COMPATIBILITY.md) · [Agent guide](llms-full.txt)
 
