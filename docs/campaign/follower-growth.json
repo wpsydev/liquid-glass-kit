@@ -38,7 +38,7 @@
     }
   ],
   "latestObserved": {
-    "atUtc": "2026-10-11T12:31:00Z",
+    "atUtc": "2026-10-11T13:25:23Z",
     "followers": 1,
     "following": 44,
     "followerGainFromBaseline": 0,
@@ -52,7 +52,7 @@
     "pin": "Verified pinned on own public profile; matching dock status is the first article"
   },
   "repositoryObserved": {
-    "atUtc": "2026-10-11T11:41:21Z",
+    "atUtc": "2026-10-11T13:25:23Z",
     "stars": 1,
     "forks": 0,
     "verification": "Public GitHub repository API readback; no growth or attribution inferred from a single observation"
