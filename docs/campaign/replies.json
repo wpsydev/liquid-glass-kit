@@ -216,5 +216,25 @@
     "recordedAtUtc": "2026-10-11T08:02:37Z",
     "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink",
     "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "swarmpane-race-review-demo",
+    "parentUrl": "https://x.com/borrhensaidi/status/2109194488530768001",
+    "text": "on the site's race demo, i'd put a review-diff step beside merge, with changed tests called out\n\nseeing what each agent changed would help me choose when both pass, especially if the faster result is a much bigger patch",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109200873326780862",
+    "recordedAtUtc": "2026-10-11T08:34:24Z",
+    "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "tack-figure-renumber-followup",
+    "parentUrl": "https://x.com/artifexdev/status/2109188718930112659",
+    "text": "yeah, removing just the bad capture sounds right. i'd test deleting figure 2 of 3 and check that the old figure 3 becomes figure 2 in both the thumbnails and the pasted prompt",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109205643177365979",
+    "recordedAtUtc": "2026-10-11T08:53:23Z",
+    "verification": "Exact draft and incoming parent checked before one submit; exact own-account text and URL read back in thread and direct permalink",
+    "engagementRecord": "engagement.json"
   }
 ]

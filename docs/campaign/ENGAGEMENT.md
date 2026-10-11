@@ -104,3 +104,11 @@ At 07:46 UTC, no new mentions needed an answer. Read Jurly’s full design-refer
 ### Foreground round 11
 
 At 07:59 UTC, no new mentions needed an answer. Read Port’s full mod announcement and inspected its attached terminal panels. [Published a specific question](https://x.com/wpsygames/status/2109192861308608911) about where deployment freezes are enforced, with a suggestion to demonstrate a rejected deploy. One parent like and exact reply verified. No installation, deployment or security test performed; enforcement not inferred from the badge. No new incoming response or adoption observed.
+
+### Foreground round 12
+
+At 08:31 UTC, no new mentions needed an answer. Read SwarmPane’s launch thread, Product Hunt listing, public landing sample race and product descriptions. [Published demo feedback](https://x.com/wpsygames/status/2109200873326780862) suggesting a review-diff step and changed-test callouts beside merge. The product already documents file/diff review; the suggestion concerns its public demo. One parent like and exact reply verified. No vote, payment, installation, actual agent race or merge performed; sample timing not counted as a benchmark. No new incoming response or adoption observed.
+
+### Foreground round 13
+
+At 08:51 UTC, observed a new reply from Tack’s builder to our review-step feedback. They said individual screenshot removal with renumbering is on their list; implementation is not verified. [Continued the conversation](https://x.com/wpsygames/status/2109205643177365979) with a middle-figure deletion test covering thumbnail numbers and pasted-prompt references. One incoming-response like and exact follow-up verified. No new cold conversation, additional unique developer or adoption counted.
