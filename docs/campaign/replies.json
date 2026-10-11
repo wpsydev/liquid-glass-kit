@@ -146,5 +146,25 @@
     "recordedAtUtc": "2026-10-11T05:17:25Z",
     "verification": "Exact draft and target checked before one submit; exact own-account text and URL read back in thread and direct permalink",
     "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "tracekit-approval-onboarding",
+    "parentUrl": "https://x.com/bravish_/status/2109153498315243843",
+    "text": "read the limits page: approvals behave quite differently across adapters\n\na tiny table beside the one-line setup showing pause, interrupt or timed wait would help people pick the right integration before their first held call",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109156173479915785",
+    "recordedAtUtc": "2026-10-11T05:36:55Z",
+    "verification": "Exact draft and target checked before one submit; exact own-account text and URL read back in thread and direct permalink",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "tracekit-sidecar-latency-help",
+    "parentUrl": "https://x.com/wangzailry/status/2109154293106483465",
+    "text": "found the measured setup in their faq: local unix socket on macos, with a postgres store\n\nit also lists a separate-user signer as unmeasured, so a sidecar run would still be useful\n\nhttps://github.com/Cygnux-Labs/Tracekit/blob/main/docs/faq.md#how-much-does-it-slow-an-agent-down",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109161297929728129",
+    "recordedAtUtc": "2026-10-11T05:57:45Z",
+    "verification": "Exact draft and question checked before one submit; exact prose and own permalink read back. X rendered the source URL as a card; clicked it natively and verified the exact FAQ section URL",
+    "engagementRecord": "engagement.json"
   }
 ]
