@@ -236,5 +236,15 @@
     "recordedAtUtc": "2026-10-11T08:53:23Z",
     "verification": "Exact draft and incoming parent checked before one submit; exact own-account text and URL read back in thread and direct permalink",
     "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "orrery-iteration-process",
+    "parentUrl": "https://x.com/shmopixbzn/status/2109208140386304411",
+    "text": "the shared-time constraint in your brief makes the rewind behavior easier to reason about\n\nwhat changed most in the two feedback rounds? a before/after of the winding interaction would be useful to see",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109211372231799044",
+    "recordedAtUtc": "2026-10-11T09:16:22Z",
+    "verification": "Exact draft and parent checked before one submit; delayed thread render inspected without resubmission, then exact own-account text and URL read back in thread and direct permalink",
+    "engagementRecord": "engagement.json"
   }
 ]
