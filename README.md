@@ -130,3 +130,7 @@ Optional `/design-contract` exports a typed source of truth for DESIGN.md, scope
 ## Command palette
 
 Optional `/command-palette` and `/command-palette.css` provide a native modal combobox for your own actions. Bounded visible results, keyboard/focus handling and async revision guards preserve app control. [API](docs/COMMAND_PALETTE.md) · [Cutroom](https://wpsydev.github.io/liquid-glass-kit/commands/).
+
+## Intrinsic composition
+
+Optional `/composition` and `/composition.css` add split/stack/cluster/grid layouts, bounded reading measure and container-relative headings. Pure props can be generated before client load; source order and host fonts remain yours. [API](docs/COMPOSITION.md) · [Space / Form](https://wpsydev.github.io/liquid-glass-kit/composition/).

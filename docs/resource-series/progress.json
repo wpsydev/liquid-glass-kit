@@ -33,12 +33,12 @@
     {
       "order": 3,
       "url": "https://vibeprompts.dev",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Native command palette",
       "version": "0.19.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/commands/",
       "video": "docs/campaign/assets/command-palette-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109430921627664774",
       "performance": [
         "benchmarks/command-palette-payload.json",
         "benchmarks/command-palette-browser.json"
@@ -47,13 +47,16 @@
     {
       "order": 4,
       "url": "https://minimal.gallery",
-      "status": "implemented-awaiting-validation",
+      "status": "validated-awaiting-publication",
       "feature": "Composition",
-      "version": null,
+      "version": "0.20.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/composition-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/composition.json",
+        "benchmarks/composition-browser.json"
+      ]
     },
     {
       "order": 5,

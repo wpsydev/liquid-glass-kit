@@ -1,0 +1,76 @@
+/* Optional intrinsic composition. No page reset, font download or motion loop. */
+.lg-composition {
+  --lg-composition-gap: 1.5rem;
+  --lg-composition-measure: 60ch;
+  --lg-composition-leading: 1;
+  --lg-composition-trailing: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--lg-composition-gap);
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  box-sizing: border-box;
+  container-name: lg-composition;
+  container-type: inline-size;
+}
+.lg-composition[data-lg-density='compact'] { --lg-composition-gap: .75rem; }
+.lg-composition[data-lg-density='editorial'] { --lg-composition-gap: 2.5rem; }
+.lg-composition[data-lg-ratio='2:1'] { --lg-composition-leading: 2; }
+.lg-composition[data-lg-ratio='1:2'] { --lg-composition-trailing: 2; }
+.lg-composition > * {
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+.lg-composition:not([data-lg-layout]),
+.lg-composition[data-lg-layout='split'] { align-items: start; }
+.lg-composition:not([data-lg-layout]) > *,
+.lg-composition[data-lg-layout='split'] > * {
+  flex: 1 1 0;
+  min-inline-size: min(100%, 18rem);
+}
+.lg-composition:not([data-lg-layout]) > :first-child,
+.lg-composition[data-lg-layout='split'] > :first-child { flex-grow: var(--lg-composition-leading); }
+.lg-composition:not([data-lg-layout]) > :nth-child(2),
+.lg-composition[data-lg-layout='split'] > :nth-child(2) { flex-grow: var(--lg-composition-trailing); }
+.lg-composition[data-lg-layout='stack'] { flex-direction: column; flex-wrap: nowrap; }
+.lg-composition[data-lg-layout='cluster'] { align-items: center; }
+.lg-composition[data-lg-layout='grid'] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  align-items: start;
+}
+/* Query descendants; the flex container never attempts to query its own size. */
+@container lg-composition (max-width: 40rem) {
+  .lg-composition:not([data-lg-layout]) > *,
+  .lg-composition[data-lg-layout='split'] > * { flex-basis: 100%; }
+}
+/* Apply only to short headings; paragraph wrapping remains the browser default. */
+.lg-composition-heading {
+  margin: 0;
+  font-family: inherit;
+  font-size: 2rem;
+  line-height: 1.08;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+@supports (font-size: 1cqi) {
+  .lg-composition .lg-composition-heading {
+    font-size: clamp(1.875rem, calc(1.1rem + 3cqi), 4.5rem);
+  }
+}
+.lg-composition-reading {
+  max-inline-size: min(100%, var(--lg-composition-measure, 60ch));
+  overflow-wrap: anywhere;
+}
+/* Density changes grouping, never the minimum size of semantic controls. */
+.lg-composition :where(button, input:not([type='hidden']), select, textarea, [role='button'], .lg-composition-control) {
+  min-inline-size: 44px;
+  min-block-size: 44px;
+  max-inline-size: 100%;
+  box-sizing: border-box;
+  font: inherit;
+}
+.lg-composition :where([role='button']),
+.lg-composition-control { display: inline-flex; align-items: center; }

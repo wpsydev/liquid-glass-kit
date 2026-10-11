@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 887704,
+  "sha256": "ceeb428936084797e2c61abf68cc0d7b598c5bbfd8c1590ea580f07f62dc1221",
+  "music": {
+    "style": "afro",
+    "bpm": 124,
+    "seed": 20,
+    "patch": "marimba",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Actual T3 source-preview props/layout interactions, adaptive capture; export FPS is not app FPS"
+}

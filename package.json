@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.19.0-preview.1",
+  "version": "0.20.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -138,7 +138,12 @@
       "types": "./dist/command-palette.d.ts",
       "import": "./dist/command-palette.js"
     },
-    "./command-palette.css": "./dist/command-palette.css"
+    "./command-palette.css": "./dist/command-palette.css",
+    "./composition": {
+      "types": "./dist/composition.d.ts",
+      "import": "./dist/composition.js"
+    },
+    "./composition.css": "./dist/composition.css"
   },
   "scripts": {
     "build": "node scripts/clean.mjs && node scripts/compile-library.mjs && node scripts/build.mjs",

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.20.0-preview.1
+
+- Add optional pure intrinsic composition props and scoped CSS for split/stack/cluster/grid, asymmetric growth, spacing rhythm and bounded reading measure.
+- Scale descendant headings to their nearest inline-size container, inherit fonts and logical RTL flow, preserve source order and44px controls.
+- Add original Space / Form study,30 settled layout/viewport cases, enlarged-root-font checks and scoped generation/payload measurements. No resize observer, runtime dependency or default material change.
+
 ## 0.19.0-preview.1
 
 - Add optional native modal command palette with labeled combobox/listbox, cached accent-insensitive search and bounded visible results.

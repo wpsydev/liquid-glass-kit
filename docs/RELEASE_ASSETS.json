@@ -1,14 +1,14 @@
 {
-  "version": "0.19.0-preview.1",
+  "version": "0.20.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/command-palette-showcase.mp4",
-      "name": "liquid-glass-cutroom.mp4",
+      "path": "docs/campaign/assets/composition-showcase.mp4",
+      "name": "liquid-glass-space-form.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/command-palette-showcase.png",
-      "name": "liquid-glass-cutroom.png",
+      "path": "docs/campaign/assets/composition-showcase.png",
+      "name": "liquid-glass-space-form.png",
       "type": "image/png"
     }
   ]

@@ -31,6 +31,7 @@ export default defineConfig({
         island: resolve('site/island/index.html'),
         designContract: resolve('site/design-contract/index.html'),
         commands: resolve('site/commands/index.html'),
+        composition: resolve('site/composition/index.html'),
       },
     },
   },
