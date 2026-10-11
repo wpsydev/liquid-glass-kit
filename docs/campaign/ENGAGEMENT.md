@@ -96,3 +96,11 @@ At 06:59 UTC, no new mentions needed an answer. Reviewed FixRoast’s public lan
 ### Foreground round 9
 
 At 07:20 UTC, no new mentions needed an answer. Sampled Tack’s native embedded demo and read its public README. [Published interaction feedback](https://x.com/wpsygames/status/2109183715939168573) suggesting an optional transcript-and-thumbnail review before paste. One parent like and exact reply verified. No macOS installation, transcription benchmark or full video/audio review claimed. No new incoming response or adoption observed.
+
+### Foreground round 10
+
+At 07:46 UTC, no new mentions needed an answer. Read Jurly’s full design-reference workflow post and the linked repository’s README, agent guidance and one glass landing prompt. [Published workflow feedback](https://x.com/wpsygames/status/2109189225413517477) suggesting a small real-screen trial with error, disabled and loading states before restyling every route. One parent like and exact reply verified. Documentation review only; no template installation or app testing claimed. No new incoming response or adoption observed.
+
+### Foreground round 11
+
+At 07:59 UTC, no new mentions needed an answer. Read Port’s full mod announcement and inspected its attached terminal panels. [Published a specific question](https://x.com/wpsygames/status/2109192861308608911) about where deployment freezes are enforced, with a suggestion to demonstrate a rejected deploy. One parent like and exact reply verified. No installation, deployment or security test performed; enforcement not inferred from the badge. No new incoming response or adoption observed.

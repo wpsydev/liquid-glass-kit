@@ -196,5 +196,25 @@
     "recordedAtUtc": "2026-10-11T07:26:12Z",
     "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink",
     "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "design-reference-app-state-trial",
+    "parentUrl": "https://x.com/jurlycat/status/2109181324410200339",
+    "text": "i'd try the extracted system on one real app screen first, with a form error, a disabled button and a loading state\n\nthen review that small change before asking the agent to restyle every route",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109189225413517477",
+    "recordedAtUtc": "2026-10-11T07:48:09Z",
+    "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "port-mod-freeze-boundary",
+    "parentUrl": "https://x.com/tweetsbyport/status/2109191588639285441",
+    "text": "curious where the freeze is enforced: port, a local hook, or the deploy system?\n\nthe 'agent pushes denied' badge is useful context. a clip of an attempted deploy getting rejected would make it easier to understand",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109192861308608911",
+    "recordedAtUtc": "2026-10-11T08:02:37Z",
+    "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink",
+    "engagementRecord": "engagement.json"
   }
 ]
