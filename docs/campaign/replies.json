@@ -166,5 +166,15 @@
     "recordedAtUtc": "2026-10-11T05:57:45Z",
     "verification": "Exact draft and question checked before one submit; exact prose and own permalink read back. X rendered the source URL as a card; clicked it natively and verified the exact FAQ section URL",
     "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "portable-frontend-design-guidance",
+    "parentUrl": "https://x.com/graphtheory/status/2109156244825030920",
+    "text": "the frontend-design instructions are public markdown\n\ni'd give this file to the agent you're already using with your project brief and ask it to follow the design/critique steps\n\nhttps://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109171595113910743",
+    "recordedAtUtc": "2026-10-11T06:38:31Z",
+    "verification": "Exact draft and parent checked before one submit; exact own-account prose/permalink read back. X rendered the source URL as a card; clicked it natively and verified the Anthropic file URL",
+    "engagementRecord": "engagement.json"
   }
 ]
