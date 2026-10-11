@@ -72,7 +72,7 @@
   {
     "id": "roastify-clarification",
     "parentUrl": "https://x.com/paoloecom/status/2108983510992076885",
-    "text": "Thanks for clarifying! The landing page's Privacy section still says 'one switch takes your store off it'\u2014that's where I got the opt-out idea. I'd update that line to match the anonymous global board. Glad quiet hours are on the list.",
+    "text": "Thanks for clarifying! The landing page's Privacy section still says 'one switch takes your store off it'—that's where I got the opt-out idea. I'd update that line to match the anonymous global board. Glad quiet hours are on the list.",
     "status": "published",
     "publishedUrl": "https://x.com/wpsygames/status/2108984569688895733",
     "verification": "Published text and status URL read back from X; complete draft and parent checked before sending.",
@@ -175,6 +175,26 @@
     "publishedUrl": "https://x.com/wpsygames/status/2109171595113910743",
     "recordedAtUtc": "2026-10-11T06:38:31Z",
     "verification": "Exact draft and parent checked before one submit; exact own-account prose/permalink read back. X rendered the source URL as a card; clicked it natively and verified the Anthropic file URL",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "fixroast-mcp-workflow-docs",
+    "parentUrl": "https://x.com/ShipWithMD/status/2109171843110228000",
+    "text": "read your mcp page after this. i'd add the full scan/fix/rescan example there, especially the calls to mark an issue done or snooze it\n\nright now the page lists citability checks and report retrieval",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109178027238133939",
+    "recordedAtUtc": "2026-10-11T07:03:59Z",
+    "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "tack-review-before-paste",
+    "parentUrl": "https://x.com/artifexdev/status/2109181778477093244",
+    "text": "the figure markers in the demo make this easy to follow\n\ncould you add an optional review step before paste? transcript + thumbnails, with a way to drop a mistaken capture, would help when dictating several fixes at once",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109183715939168573",
+    "recordedAtUtc": "2026-10-11T07:26:12Z",
+    "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink",
     "engagementRecord": "engagement.json"
   }
 ]

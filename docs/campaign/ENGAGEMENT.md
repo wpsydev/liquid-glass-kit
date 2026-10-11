@@ -89,3 +89,10 @@ At 06:15 UTC, reviewed mentions and the visible latest AI/Claude search results.
 ### Foreground round 7
 
 At 06:36 UTC, no new mentions needed an answer. Read a frontend-design alternatives question and the public Anthropic instructions. [Shared the Markdown guidance](https://x.com/wpsygames/status/2109171595113910743) as something the participant could give to their existing agent with a project brief. One question like, exact reply prose and source card destination verified. No installation or equivalent output quality claimed.
+
+### Foreground round 8
+
+At 06:59 UTC, no new mentions needed an answer. Reviewed FixRoast’s public landing and MCP onboarding after reading the full workflow post. [Published specific documentation feedback](https://x.com/wpsygames/status/2109178027238133939) asking for the complete scan/fix/rescan example and mark-done/snooze calls. One parent like and exact reply verified. Read visible community rules; no community membership, API setup or scan performed. No conversion results claimed.
+### Foreground round 9
+
+At 07:20 UTC, no new mentions needed an answer. Sampled Tack’s native embedded demo and read its public README. [Published interaction feedback](https://x.com/wpsygames/status/2109183715939168573) suggesting an optional transcript-and-thumbnail review before paste. One parent like and exact reply verified. No macOS installation, transcription benchmark or full video/audio review claimed. No new incoming response or adoption observed.
