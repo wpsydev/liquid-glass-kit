@@ -72,7 +72,7 @@
   {
     "id": "roastify-clarification",
     "parentUrl": "https://x.com/paoloecom/status/2108983510992076885",
-    "text": "Thanks for clarifying! The landing page's Privacy section still says 'one switch takes your store off it'—that's where I got the opt-out idea. I'd update that line to match the anonymous global board. Glad quiet hours are on the list.",
+    "text": "Thanks for clarifying! The landing page's Privacy section still says 'one switch takes your store off it'\u2014that's where I got the opt-out idea. I'd update that line to match the anonymous global board. Glad quiet hours are on the list.",
     "status": "published",
     "publishedUrl": "https://x.com/wpsygames/status/2108984569688895733",
     "verification": "Published text and status URL read back from X; complete draft and parent checked before sending.",
@@ -115,6 +115,16 @@
     "publishedUrl": "https://x.com/wpsygames/status/2109105721724064114",
     "recordedAtUtc": "2026-10-11T02:16:11Z",
     "verification": "Complete draft and parent checked; exact posted text and own account status URL read back from X",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "letter-developer-onboarding",
+    "parentUrl": "https://x.com/mathewpregasen/status/2109140716035490071",
+    "text": "the plan/apply example on your site makes this click\n\nsmall snag: docs and status both point back to the landing page\n\na runnable claude code example linked there would help devs get to a first result before booking a call",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109144375074984210",
+    "recordedAtUtc": "2026-10-11T04:49:55Z",
+    "verification": "Exact draft and parent checked before one submit; exact published text and own account status URL verified in thread and direct permalink",
     "engagementRecord": "engagement.json"
   }
 ]
