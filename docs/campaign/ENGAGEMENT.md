@@ -153,3 +153,8 @@ At 11:55 UTC, no new incoming response needed an answer. Read naaiyy’s glass a
 ### Foreground round 22
 
 At 12:10 UTC, refreshed incoming mentions; no new response needed an answer. Sampled the latest Claude/vibecoding feedback search results without identifying a clear original contribution to a concrete app question. Skipped outbound replies, likes and follows. Counts are unchanged; foreground timer rearmed after review.
+
+
+### Foreground round 23
+
+At 12:24 UTC, no new incoming response needed an answer. Read Pradeep’s WebGL/live DOM question and the [current WICG HTML-in-Canvas explainer](https://github.com/WICG/html-in-canvas), whose experimental API differs from the older Chrome article. [Shared the living proposal](https://x.com/wpsygames/status/2109259796209955069) with a DOM fallback and workload-specific profiling suggestion. One exact-question like, draft, prwpdp-only recipient, published thread/direct permalink and native source-card destination verified. No prototype implementation, rendering benchmark, general speedup or universal browser support claimed. The original thread author was removed from the automatic recipients to keep the response focused on the person who asked.
