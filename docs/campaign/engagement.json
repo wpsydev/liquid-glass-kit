@@ -699,6 +699,11 @@
         "publishedAtUtc": "2026-10-11T11:56:28.000Z",
         "recordedAtUtc": "2026-10-11T11:56:46Z",
         "verification": "Exact draft and parent checked before one submit; parent thread and direct permalink read back exact own prose and author"
+      },
+      "follow": {
+        "status": "verified",
+        "reason": "Relevant glass rendering developer whose actual public playground and docs were reviewed; one outbound follow, not an acquired follower",
+        "verification": "Native author profile Follow changed to Following @naaiyy_ with matching unfollow control"
       }
     }
   ],
@@ -1107,7 +1112,8 @@
       "replies": 1,
       "incomingReview": "No new incoming responses beyond already acknowledged conversations",
       "newObservedResponses": 0,
-      "continuation": "Foreground timer rearmed after verified receipt"
+      "continuation": "Foreground timer rearmed after verified receipt",
+      "relevantFollows": 1
     }
   ],
   "recurringRequest": {

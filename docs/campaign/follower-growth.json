@@ -29,12 +29,18 @@
       "reason": "iOS rendering author; public Liquid Glass technical discussion",
       "follow": "verified-unfollow-control",
       "reply": "https://x.com/wpsygames/status/2109236479218393273"
+    },
+    {
+      "account": "@naaiyy_",
+      "reason": "Web liquid-glass playground author; native menu keyboard behavior tried and public API documentation reviewed",
+      "follow": "verified-unfollow-control",
+      "reply": "https://x.com/wpsygames/status/2109251788196970657"
     }
   ],
   "latestObserved": {
-    "atUtc": "2026-10-11T11:57:30Z",
+    "atUtc": "2026-10-11T11:59:10Z",
     "followers": 1,
-    "following": 43,
+    "following": 44,
     "followerGainFromBaseline": 0,
     "attribution": "No gain observed; causality cannot be inferred from outbound activity"
   },
