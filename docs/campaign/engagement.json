@@ -304,5 +304,29 @@
       "newObservedResponses": 0,
       "continuation": "No unattended worker configured"
     }
-  ]
+  ],
+  "recurringRequest": {
+    "status": "not-running",
+    "requestedCadence": {
+      "meanMinutes": 30,
+      "intervalRangeMinutes": [
+        20,
+        40
+      ],
+      "selection": "new random interval after each completed check"
+    },
+    "account": "@wpsygames",
+    "reason": "No connected recurring agent scheduler with access to the authenticated T3 collaborative X preview; standalone Codex MCP configuration is empty. No cron, background worker or hosted task started.",
+    "runInstructions": [
+      "Read this ledger and review incoming responses first; continue useful existing conversations before finding new ones",
+      "Find AI and Claude developers sharing concrete apps, code, demos or requests for help; read the full post and visible thread",
+      "Inspect the relevant public screen, clip or source when needed for specific feedback; do not claim testing or installation that did not happen",
+      "Start lowercase, use natural concise language, no final period and no em dash; no copied templates or invented personal experience",
+      "At most one new conversation per check; skip when there is no useful original feedback. Do not repeat cold replies to the same person within seven days",
+      "Like a relevant original contribution when appropriate; avoid unsolicited promotional links",
+      "Verify exact draft and target before one submit; verify published text and URL, plus Unlike after a like. Inspect uncertain outcomes before retrying",
+      "Record receipts before the next check; do not count outbound activity as reach, responses or adoption",
+      "Use the product-native collaborative browser. Stop if authentication expires, publishing is restricted, or no supported browser is available"
+    ]
+  }
 }
