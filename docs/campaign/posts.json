@@ -20,12 +20,15 @@
     "scheduledAtUtc": "2026-10-11T16:20:00Z",
     "assetTheme": "playground-screenshot",
     "purpose": "Teach the smallest integration and show a native navigation surface.",
-    "status": "scheduled",
+    "status": "published",
     "assetPath": "docs/assets/playground.webp",
     "queueUrl": "https://x.com/compose/post/unsent/scheduled",
     "queueCaption": "Will send on Sun, Oct 11, 2026 at 7:20 PM",
     "schedulerTimeZone": "Europe/Kiev",
-    "verifiedAtUtc": "2026-10-10T15:12:20.583Z"
+    "verifiedAtUtc": "2026-10-11T18:23:05Z",
+    "publishedUrl": "https://x.com/wpsygames/status/2109318105507983471",
+    "publishedAtUtc": "2026-10-11T16:20:00Z",
+    "verification": "Exact text, own account permalink and native timestamp read back from signed-in profile"
   },
   {
     "id": "glass-vs-solid",

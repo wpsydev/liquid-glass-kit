@@ -1,0 +1,40 @@
+{
+  "account": "@wpsygames",
+  "observations": [
+    {
+      "atUtc": "2026-10-10T15:11:00Z",
+      "phase": "initial launch (approximate time)",
+      "followers": 0,
+      "following": null,
+      "stars": 0,
+      "forks": 0,
+      "source": "docs/campaign/CAMPAIGN.md; original launch observation"
+    },
+    {
+      "atUtc": "2026-10-11T10:46:10Z",
+      "phase": "targeted networking baseline",
+      "followers": 1,
+      "following": 42,
+      "stars": null,
+      "forks": null,
+      "source": "docs/campaign/follower-growth.json baseline"
+    },
+    {
+      "atUtc": "2026-10-11T18:23:05Z",
+      "phase": "current observation",
+      "followers": 1,
+      "following": 44,
+      "stars": 1,
+      "forks": 0,
+      "source": "Native X profile and public GitHub repository API"
+    }
+  ],
+  "missingAnalytics": {
+    "profileVisits": null,
+    "linkClicks": null,
+    "uniqueReach": null,
+    "installs": null,
+    "followsAttributedToPost": null
+  },
+  "note": "Sparse observations, not a continuous series. Followers and stars are not attributed to campaign activity."
+}

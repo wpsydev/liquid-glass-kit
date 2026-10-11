@@ -13,7 +13,7 @@
     "developersEngaged": 29,
     "newBuilderConversations": 28,
     "followupReplies": 3,
-    "newCampaignConversationsWithObservedResponse": 4
+    "newCampaignConversationsWithObservedResponse": 5
   },
   "interactions": [
     {
@@ -37,7 +37,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2108982151593226550",
         "recordedAtUtc": "2026-10-10T18:05:04.357Z",
         "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "heckle-agent-qa",
@@ -59,7 +60,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2108982860569055541",
         "recordedAtUtc": "2026-10-10T18:08:12.543Z",
         "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "pomodoro-readability",
@@ -80,7 +82,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2108983082921460004",
         "recordedAtUtc": "2026-10-10T18:08:50.497Z",
         "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "creative-review-versions",
@@ -102,7 +105,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2108983378070446481",
         "recordedAtUtc": "2026-10-10T18:09:56.634Z",
         "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "cavy-path-tap-recovery",
@@ -124,7 +128,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2108983457074336212",
         "recordedAtUtc": "2026-10-10T18:10:15.831Z",
         "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "shell-mindmap-layout",
@@ -146,11 +151,12 @@
         "publishedUrl": "https://x.com/wpsygames/status/2108983724306296904",
         "recordedAtUtc": "2026-10-10T18:11:19.049Z",
         "verification": "Exact published text and status URL read back from X; parent and draft checked before sending."
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "roastify-clarification",
-      "kind": "follow-up",
+      "kind": "followup",
       "conversationId": "roastify-onboarding",
       "author": "@paoloecom",
       "parentUrl": "https://x.com/paoloecom/status/2108983510992076885",
@@ -174,7 +180,7 @@
     },
     {
       "id": "refraction-source-followup",
-      "kind": "follow-up",
+      "kind": "followup",
       "conversationId": "refraction-help",
       "author": "@okandogubudak",
       "parentUrl": "https://x.com/okandogubudak/status/2108947960621146517",
@@ -215,7 +221,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109105094151287223",
         "recordedAtUtc": "2026-10-11T02:16:11Z",
         "verification": "Complete draft and parent checked; exact posted text and own account status URL read back from X"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "skulk-stale-approval",
@@ -238,7 +245,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109105255174848524",
         "recordedAtUtc": "2026-10-11T02:16:11Z",
         "verification": "Complete draft and parent checked; exact posted text and own account status URL read back from X"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "griffey-file-picker-help",
@@ -263,7 +271,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109105721724064114",
         "recordedAtUtc": "2026-10-11T02:16:11Z",
         "verification": "Complete draft and parent checked; exact posted text and own account status URL read back from X"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "letter-developer-onboarding",
@@ -287,7 +296,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109144375074984210",
         "recordedAtUtc": "2026-10-11T04:49:55Z",
         "verification": "Exact draft and parent checked before one submit; exact published text and own account status URL verified in thread and direct permalink"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "shared-vault-index-freshness",
@@ -309,7 +319,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109148348016107684",
         "recordedAtUtc": "2026-10-11T05:05:50Z",
         "verification": "Exact draft and target checked before one submit; exact own-account text and URL read back in thread and direct permalink"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "ai-ui-comparison-recovery",
@@ -331,7 +342,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109151279477895246",
         "recordedAtUtc": "2026-10-11T05:17:25Z",
         "verification": "Exact draft and target checked before one submit; exact own-account text and URL read back in thread and direct permalink"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "tracekit-approval-onboarding",
@@ -355,11 +367,12 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109156173479915785",
         "recordedAtUtc": "2026-10-11T05:36:55Z",
         "verification": "Exact draft and target checked before one submit; exact own-account text and URL read back in thread and direct permalink"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "tracekit-sidecar-latency-help",
-      "kind": "thread-help",
+      "kind": "new-conversation",
       "author": "@wangzailry",
       "parentUrl": "https://x.com/wangzailry/status/2109154293106483465",
       "parentPublishedAtUtc": "2026-10-11T05:29:04.000Z",
@@ -384,7 +397,7 @@
     },
     {
       "id": "portable-frontend-design-guidance",
-      "kind": "question-help",
+      "kind": "new-conversation",
       "author": "@graphtheory",
       "parentUrl": "https://x.com/graphtheory/status/2109156244825030920",
       "parentPublishedAtUtc": "2026-10-11T05:36:49.000Z",
@@ -429,7 +442,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109178027238133939",
         "recordedAtUtc": "2026-10-11T07:03:59Z",
         "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "tack-review-before-paste",
@@ -453,7 +467,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109183715939168573",
         "recordedAtUtc": "2026-10-11T07:26:12Z",
         "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "design-reference-app-state-trial",
@@ -477,7 +492,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109189225413517477",
         "recordedAtUtc": "2026-10-11T07:48:09Z",
         "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "port-mod-freeze-boundary",
@@ -501,7 +517,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109192861308608911",
         "recordedAtUtc": "2026-10-11T08:02:37Z",
         "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "swarmpane-race-review-demo",
@@ -525,11 +542,12 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109200873326780862",
         "recordedAtUtc": "2026-10-11T08:34:24Z",
         "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "tack-figure-renumber-followup",
-      "kind": "follow-up",
+      "kind": "followup",
       "conversationId": "tack-review-before-paste",
       "author": "@artifexdev",
       "parentUrl": "https://x.com/artifexdev/status/2109188718930112659",
@@ -573,7 +591,8 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109211372231799044",
         "recordedAtUtc": "2026-10-11T09:16:22Z",
         "verification": "Exact draft and parent checked before one submit; delayed thread render inspected without resubmission, then exact own-account text and URL read back in thread and direct permalink"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "notchgate-demo-task-context",
@@ -597,11 +616,12 @@
         "publishedUrl": "https://x.com/wpsygames/status/2109222755488920027",
         "recordedAtUtc": "2026-10-11T10:01:24Z",
         "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink"
-      }
+      },
+      "kind": "new-conversation"
     },
     {
       "id": "facetlab-colour-isolation-help",
-      "kind": "question-help",
+      "kind": "new-conversation",
       "author": "@VeritasArdentur",
       "parentUrl": "https://x.com/VeritasArdentur/status/2109218888126755303",
       "parentPublishedAtUtc": "2026-10-11T09:45:44.000Z",
@@ -627,7 +647,7 @@
     },
     {
       "id": "glass-shared-silhouette-question",
-      "kind": "technical-discussion",
+      "kind": "new-conversation",
       "author": "@jacobtechtavern",
       "parentUrl": "https://x.com/jacobtechtavern/status/2109213671922536871",
       "parentPublishedAtUtc": "2026-10-11T09:25:01.000Z",
@@ -652,7 +672,7 @@
     },
     {
       "id": "photo-route-itinerary-preview",
-      "kind": "design-feedback",
+      "kind": "new-conversation",
       "author": "@feltesdominik",
       "parentUrl": "https://x.com/feltesdominik/status/2109240503233384793",
       "parentPublishedAtUtc": "2026-10-11T11:11:38.000Z",
@@ -677,7 +697,7 @@
     },
     {
       "id": "glass-menu-collision-demo-feedback",
-      "kind": "design-feedback",
+      "kind": "new-conversation",
       "author": "@naaiyy_",
       "parentUrl": "https://x.com/naaiyy_/status/2108985671075484157",
       "parentPublishedAtUtc": "2026-10-10T18:19:01.000Z",
@@ -708,7 +728,7 @@
     },
     {
       "id": "live-dom-webgl-proposal-help",
-      "kind": "question-help",
+      "kind": "new-conversation",
       "author": "@prwpdp",
       "parentUrl": "https://x.com/prwpdp/status/2109180837749252327",
       "parentPublishedAtUtc": "2026-10-11T07:14:33.000Z",
@@ -738,7 +758,7 @@
     },
     {
       "id": "bot-rail-touch-target-feedback",
-      "kind": "source-review",
+      "kind": "new-conversation",
       "author": "@24moonbridge",
       "parentUrl": "https://x.com/24moonbridge/status/2109242716219675021",
       "parentPublishedAtUtc": "2026-10-11T11:20:26.000Z",
@@ -820,6 +840,14 @@
       "liked": true,
       "observedAtUtc": "2026-10-11T10:56:55Z",
       "verification": "Read full incoming response, native like, Unlike readback"
+    },
+    {
+      "author": "@FoxlightAI",
+      "url": "https://x.com/FoxlightAI/status/2109313895936446729",
+      "origin": "Response to skulk-stale-approval",
+      "finding": "Approval rechecks live instance identity and reviewed intent; stale proposals fail with a reason. Restarts recheck across teardown and replacement. Builder explanation read; cluster behavior not independently tested.",
+      "observedAtUtc": "2026-10-11T18:23:05Z",
+      "verification": "Read complete native X response; no outgoing action added"
     }
   ],
   "writingStyle": {

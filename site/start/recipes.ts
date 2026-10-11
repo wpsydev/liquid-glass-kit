@@ -1,0 +1,27 @@
+export type Recipe = 'toolbar' | 'composer' | 'dialog';
+export type Stack = 'html' | 'react' | 'vue';
+export const install = 'npm install https://github.com/wpsydev/liquid-glass-kit/releases/download/v0.15.0-preview.1/wpsydev-liquid-glass-0.15.0-preview.1.tgz';
+
+export function markup(recipe: Recipe, solid: boolean): string {
+  const attrs = `class="lg-glass ${recipe === 'toolbar' ? 'lg-toolbar' : 'lg-panel'}" data-lg-appearance="light" data-lg-corner="continuous"${solid ? ' data-lg-solid="true"' : ''}`;
+  if (recipe === 'toolbar') return `<nav ${attrs} aria-label="Workspace">\n  <a href="#overview" aria-current="page">Overview</a>\n  <a href="#notes">Notes</a>\n  <a href="#files">Files</a>\n</nav>`;
+  if (recipe === 'composer') return `<form ${attrs} aria-label="Ask your assistant">\n  <label for="question">What are you working on?</label>\n  <textarea id="question" name="question" rows="3" required\n    placeholder="Ask about your project..."></textarea>\n  <button type="submit">Ask assistant</button>\n  <p role="status" aria-live="polite"></p>\n</form>`;
+  return `<button type="button" data-open-dialog>Review change</button>\n<dialog ${attrs} aria-labelledby="review-heading">\n  <h2 id="review-heading">Ready to review?</h2>\n  <p>Keep the decision clear and the content readable.</p>\n  <form method="dialog">\n    <button value="cancel">Keep editing</button>\n    <button value="confirm">Confirm</button>\n  </form>\n</dialog>`;
+}
+
+export function snippet(recipe: Recipe, stack: Stack, solid: boolean): string {
+  const html = markup(recipe, solid);
+  if (stack === 'react') return `import '@wpsydev/liquid-glass/material.css';\n\n// Host app owns submission, dialog opening and state.\nexport function GlassSurface() {\n  return (\n    <>\n      ${html.replace(/class=/g, 'className=').replace(/for=/g, 'htmlFor=').split('\n').join('\n      ')}\n    </>\n  );\n}`;
+  if (stack === 'vue') return `<script setup>\nimport '@wpsydev/liquid-glass/material.css';\n// Host app owns submission, dialog opening and state.\n</script>\n\n<template>\n  ${html.split('\n').join('\n  ')}\n</template>`;
+  return `<!-- Import @wpsydev/liquid-glass/material.css once in your build. -->\n${html}\n\n<!-- Host app owns submission, dialog opening and state. -->`;
+}
+
+export const layoutCss = `*{box-sizing:border-box}body{margin:0;padding:32px 20px;min-height:100vh;background:#e4ebe5;color:#193b36;font:16px/1.55 system-ui,sans-serif;background-image:radial-gradient(ellipse at 80% 20%,#b8d0c5,transparent 55%),radial-gradient(ellipse at 0 100%,#f4dfc6,transparent 55%)}main{max-width:480px;margin:auto}h1{font-size:42px;line-height:1.05;letter-spacing:-2px;margin:20px 0}h2{font-size:24px;line-height:1.2}p{max-width:44ch}nav{margin:26px 0}a,button,input,textarea{font:inherit}a{color:inherit}nav a{display:inline-flex;align-items:center;min-height:44px;padding:8px 12px;border-radius:16px;text-decoration:none}nav a[aria-current]{background:#193b361a}button{min-height:44px;padding:10px 18px;border:1px solid #193b3650;border-radius:14px;color:#193b36;background:#fff;cursor:pointer}button:hover{background:#eef4ee}button:active{transform:translateY(1px)}label{display:block;margin-bottom:8px}textarea{width:100%;min-height:100px;border:1px solid #193b3640;border-radius:12px;padding:12px;color:#193b36;background:#ffffffcc;margin-bottom:12px;resize:vertical}dialog{max-width:min(440px,calc(100vw - 32px));margin:auto}dialog::backdrop{background:#193b3640}dialog form{display:flex;gap:8px;flex-wrap:wrap}section{scroll-margin-top:24px}section p{color:#3b554e}a:focus-visible,button:focus-visible,textarea:focus-visible{outline:3px solid #4379e8;outline-offset:4px}@media(prefers-reduced-motion:reduce){button:active{transform:none}}`;
+
+export function standalone(recipe: Recipe, solid: boolean, materialCss: string, license: string): string {
+  // Only controlled recipes enter markup; stylesheet terminators are escaped at the boundary.
+  const css = (materialCss + '\n' + layoutCss).replace(/<\/style/gi, '<\\/style');
+  const behavior = recipe === 'dialog' ? `document.querySelector('[data-open-dialog]').addEventListener('click',()=>document.querySelector('dialog').showModal())` : recipe === 'composer' ? `document.querySelector('form').addEventListener('submit',e=>{e.preventDefault();document.querySelector('[role="status"]').textContent='Sample only: connect this form to your own assistant endpoint'})` : '';
+  const content = recipe === 'toolbar' ? `<section id="overview"><h2>Overview</h2><p>A focused navigation surface. Your content stays on the page.</p></section><section id="notes"><h2>Notes</h2><p>Native links, keyboard focus and readable content.</p></section><section id="files"><h2>Files</h2><p>Use opaque mode when your backdrop needs stronger contrast.</p></section>` : '';
+  return `<!doctype html>\n<!--\n${license.replace(/--/g, '- -')}\n-->\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Your first glass surface</title><style>${css}</style></head><body><main><p>LIQUID GLASS KIT / CSS RECIPE</p><h1>A little light.<br>A useful control.</h1><p>Keep the interface familiar. Add glass where it helps.</p>${markup(recipe, solid)}${content}<p>CSS material from Liquid Glass Kit · MIT. No experimental refraction. <a href="https://github.com/wpsydev/liquid-glass-kit">Source and license</a></p></main>${behavior ? `<script>${behavior}</script>` : ''}</body></html>`;
+}

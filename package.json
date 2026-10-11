@@ -128,10 +128,12 @@
     "test": "vitest run",
     "dev": "vite --host 0.0.0.0",
     "build:site": "vite build",
-    "check": "npm run typecheck && npm test && npm run build && node scripts/verify-package.mjs && npm run build:site",
+    "check": "npm run typecheck && npm test && npm run build && node scripts/verify-package.mjs && npm run build:site && npm run campaign:check",
     "prepack": "npm run build",
     "prepare": "npm run build",
-    "icons": "node scripts/sync-gitlab-icons.mjs"
+    "icons": "node scripts/sync-gitlab-icons.mjs",
+    "campaign:report": "node scripts/campaign.mjs report",
+    "campaign:check": "node scripts/campaign.mjs check"
   },
   "peerDependencies": {
     "react": ">=18",

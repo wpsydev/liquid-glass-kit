@@ -21,7 +21,7 @@
     "Publish a tested useful feature with a short truthful film and approachable integration example",
     "Measure observed followers separately from likes, replies and developer contacts"
   ],
-  "followerGain": null,
+  "followerGain": 0,
   "notes": "No follower increase or library adoption established. No mass following, duplicated replies, paid engagement or reach guarantee.",
   "relevantConnections": [
     {
@@ -38,11 +38,13 @@
     }
   ],
   "latestObserved": {
-    "atUtc": "2026-10-11T13:25:23Z",
+    "atUtc": "2026-10-11T18:23:05Z",
     "followers": 1,
     "following": 44,
+    "profilePosts": 69,
     "followerGainFromBaseline": 0,
-    "attribution": "No gain observed; causality cannot be inferred from outbound activity"
+    "attribution": "No gain since the targeted-networking baseline; overall launch net +1 is unattributed",
+    "verification": "Fresh native signed-in X profile readback"
   },
   "showcase": {
     "version": "0.15.0-preview.1",
@@ -52,9 +54,9 @@
     "pin": "Verified pinned on own public profile; matching dock status is the first article"
   },
   "repositoryObserved": {
-    "atUtc": "2026-10-11T13:25:23Z",
+    "atUtc": "2026-10-11T18:23:05Z",
     "stars": 1,
     "forks": 0,
-    "verification": "Public GitHub repository API readback; no growth or attribution inferred from a single observation"
+    "verification": "Fresh public GitHub repository API readback"
   }
 }

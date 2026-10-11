@@ -1,0 +1,77 @@
+[
+  {
+    "id": "start-with-one-surface",
+    "status": "draft",
+    "kind": "recipe",
+    "text": "the demo shouldn't be the last step\n\nadded a starter page for liquid glass kit: pick a nav, composer or native dialog, copy html/react/vue, or download an html file that runs offline\n\ncss material first, your app keeps the behavior\n\ntry it:\nhttps://wpsydev.github.io/liquid-glass-kit/start/",
+    "problem": "Demos require extra work before the first integration",
+    "change": "Three native-control recipes, stack snippets and self-contained HTML downloads",
+    "limitation": "CSS material only; host application owns real submission, state and dialog triggers. Download includes sample scripts.",
+    "nextAction": "Try the starter page",
+    "evidence": [
+      {
+        "source": "site/start/recipes.ts",
+        "supports": "Three semantic recipes, HTML/React/Vue snippets, inline material and host sample behavior"
+      },
+      {
+        "source": "tests/starter.test.ts",
+        "supports": "No external runtime resources in downloads; JSX parsing, native form and dialog attributes"
+      }
+    ],
+    "publicationGate": "Require deployed /start/ readback, mobile layout, controls and download verification before posting",
+    "measurement": {
+      "24h": null,
+      "72h": null
+    }
+  },
+  {
+    "id": "dock-hit-area-engineering",
+    "status": "draft",
+    "kind": "engineering",
+    "text": "a magnifying dock shouldn't move your click target\n\nliquid glass kit scales a visual child while the button stays put\n\nkeyboard gets a focus cue, touch keeps stable controls, reduced motion skips the lift\n\ntry it:\nhttps://wpsydev.github.io/liquid-glass-kit/dock/",
+    "problem": "Proximity magnification can make targets difficult to acquire",
+    "change": "Transform a visual child rather than the semantic control",
+    "limitation": "No navigation or app state management; physical iPhone validation remains open",
+    "nextAction": "Try the dock interaction",
+    "evidence": [
+      {
+        "source": "src/dock.ts",
+        "supports": "Child transforms, stable native controls, focus cue and reduced-motion handling"
+      },
+      {
+        "source": "docs/DOCK.md",
+        "supports": "Public controller behavior and host-owned state"
+      }
+    ],
+    "publicationGate": "Use a fresh real pointer/focus recording; do not repeat the release announcement",
+    "measurement": {
+      "24h": null,
+      "72h": null
+    }
+  },
+  {
+    "id": "contrast-boundary-reproduction",
+    "status": "draft",
+    "kind": "reproduction",
+    "text": "glass has a contrast problem when the background changes\n\nliquid glass kit has an opaque option and preference fallbacks, but you still need to test your actual content\n\npick a recipe, switch it to solid, then compare both on your backdrop\nhttps://wpsydev.github.io/liquid-glass-kit/start/",
+    "problem": "Transparent fill cannot guarantee readable contrast across arbitrary backdrops",
+    "change": "Expose the opaque mode alongside a usable recipe",
+    "limitation": "Preference support varies; no automatic contrast guarantee",
+    "nextAction": "Compare glass and solid on your own content",
+    "evidence": [
+      {
+        "source": "src/material.css",
+        "supports": "Opaque attributes, reduced transparency, contrast and forced-colors fallbacks"
+      },
+      {
+        "source": "site/start/main.ts",
+        "supports": "Opaque option in generated recipes and previews"
+      }
+    ],
+    "publicationGate": "Record actual solid/glass comparison; retain the contrast limitation",
+    "measurement": {
+      "24h": null,
+      "72h": null
+    }
+  }
+]

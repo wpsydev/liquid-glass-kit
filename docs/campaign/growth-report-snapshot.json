@@ -1,0 +1,137 @@
+{
+  "surface": "report",
+  "title": "Conversations are growing; followers are not yet following",
+  "generatedAt": "2026-10-11T18:23:05Z",
+  "status": "reviewed",
+  "filters": [],
+  "queries": {
+    "growth_observations": {
+      "rows": [
+        {
+          "atUtc": "2026-10-10T15:11:00Z",
+          "phase": "initial launch (approximate time)",
+          "followers": 0,
+          "following": null,
+          "stars": 0,
+          "forks": 0,
+          "source": "docs/campaign/CAMPAIGN.md; original launch observation"
+        },
+        {
+          "atUtc": "2026-10-11T10:46:10Z",
+          "phase": "targeted networking baseline",
+          "followers": 1,
+          "following": 42,
+          "stars": null,
+          "forks": null,
+          "source": "docs/campaign/follower-growth.json baseline"
+        },
+        {
+          "atUtc": "2026-10-11T18:23:05Z",
+          "phase": "current observation",
+          "followers": 1,
+          "following": 44,
+          "stars": 1,
+          "forks": 0,
+          "source": "Native X profile and public GitHub repository API"
+        }
+      ],
+      "source": {
+        "label": "Public profile observations and GitHub counts",
+        "links": [
+          "https://x.com/wpsygames",
+          "https://github.com/wpsydev/liquid-glass-kit"
+        ],
+        "retrievedAt": "2026-10-11T18:23:05Z",
+        "tables": [],
+        "filters": [
+          "Public observations only; cumulative conversation ledger since launch"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Followers",
+            "definition": "Public account follower count at the recorded observation; no causal attribution"
+          },
+          {
+            "label": "Stars",
+            "definition": "Public repository star count; unavailable at networking baseline is null"
+          }
+        ]
+      }
+    },
+    "conversation_summary": {
+      "rows": [
+        {
+          "replies": 31,
+          "developers": 29,
+          "newConversations": 28,
+          "followups": 3,
+          "likes": 35,
+          "respondingNewConversations": 5,
+          "observedResponseShare": 0.17857142857142858
+        }
+      ],
+      "source": {
+        "label": "Verified campaign interaction ledger and native response readbacks",
+        "links": [
+          "https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/campaign/engagement.json",
+          "https://x.com/FoxlightAI/status/2109313895936446729"
+        ],
+        "retrievedAt": "2026-10-11T18:23:05Z",
+        "tables": [],
+        "filters": [
+          "Public observations only; cumulative conversation ledger since launch"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Observed response share",
+            "definition": "5 distinct responding builders among 28 new conversations. Incomplete response observation; not an X engagement rate or follower conversion rate"
+          }
+        ]
+      }
+    },
+    "missing_analytics": {
+      "rows": [
+        {
+          "metric": "profileVisits",
+          "value": null,
+          "status": "unavailable"
+        },
+        {
+          "metric": "linkClicks",
+          "value": null,
+          "status": "unavailable"
+        },
+        {
+          "metric": "uniqueReach",
+          "value": null,
+          "status": "unavailable"
+        },
+        {
+          "metric": "installs",
+          "value": null,
+          "status": "unavailable"
+        },
+        {
+          "metric": "followsAttributedToPost",
+          "value": null,
+          "status": "unavailable"
+        }
+      ],
+      "source": {
+        "label": "Analytics not observed in this workspace",
+        "links": [],
+        "retrievedAt": "2026-10-11T18:23:05Z",
+        "tables": [],
+        "filters": [
+          "Public observations only; cumulative conversation ledger since launch"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Unavailable",
+            "definition": "Unknown remains null; never zero"
+          }
+        ]
+      }
+    }
+  }
+}

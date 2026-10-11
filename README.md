@@ -87,6 +87,8 @@ Use `/material.css` for static surfaces, `/material` for pure server-side props,
 
 ## For coding agents
 
+[Start with a working recipe](https://wpsydev.github.io/liquid-glass-kit/start/): navigation, AI composer and native dialog. Copy HTML/React/Vue snippets or download a self-contained CSS example. The host owns application state and form behavior; the download includes small sample scripts and the MIT notice.
+
 Start with [llms-full.txt](llms-full.txt) for exact exports, defaults and lifecycle recipes. The installable [Liquid Glass skill](skills/liquid-glass/SKILL.md) gives design and integration constraints. Choose CSS alone for static surfaces; preserve the host app's design system and semantic behavior. Discovery files aid integration without guaranteeing indexing or recommendations.
 
 ## Development
