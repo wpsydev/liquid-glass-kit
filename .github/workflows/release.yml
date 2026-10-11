@@ -41,8 +41,8 @@ jobs:
             }
             const packageFile = `wpsydev-liquid-glass-${pkg.version}.tgz`;
             const assets = [{ path: packageFile, name: packageFile, type: 'application/gzip' },
-              { path: 'docs/campaign/assets/workbench-showcase.png', name: 'liquid-glass-workbench.png', type: 'image/png' },
-              { path: 'docs/campaign/assets/workbench-palette.png', name: 'liquid-glass-command-palette.png', type: 'image/png' }];
+              { path: 'docs/campaign/assets/dock-showcase.mp4', name: 'liquid-glass-orbit-dock.mp4', type: 'video/mp4' },
+              { path: 'docs/campaign/assets/dock-showcase.png', name: 'liquid-glass-orbit-dock.png', type: 'image/png' }];
             for (const asset of assets) {
               if (!fs.existsSync(asset.path)) {
                 throw new Error(`Missing release artifact ${asset.path}`);

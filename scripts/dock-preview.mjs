@@ -1,0 +1,10 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {build} from 'vite';
+import {resolve} from 'node:path';
+const result=await build({configFile:false,logLevel:'silent',build:{write:false,minify:true,target:'es2022',lib:{entry:resolve('site/dock/main.ts'),name:'DockShowcase',formats:['iife']}}});
+const output=(Array.isArray(result)?result[0]:result).output;
+const code=output.find(x=>x.type==='chunk').code;
+const css=output.filter(x=>x.type==='asset'&&x.fileName.endsWith('.css')).map(x=>x.source).join('\n');
+let html=await readFile('site/dock/index.html','utf8');
+html=html.replace('</head>',`<style>${css}</style></head>`).replace('<script type="module" src="./main.ts"></script>',`<script>${code.replaceAll('</script','<\\/script')}</script>`);
+await writeFile('/tmp/lg-dock-preview.html',html);console.log(JSON.stringify({path:'/tmp/lg-dock-preview.html',bytes:Buffer.byteLength(html)}));

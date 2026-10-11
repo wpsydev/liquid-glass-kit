@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.15.0-preview.1 — Orbit dock
+
+- Add optional dependency-free `/dock` and `/dock.css`: pointer proximity and keyboard-focus magnification for semantic native buttons/links, dedicated visual children and stable hit areas.
+- Reuse the shared analytic spring with cached geometry, explicit refresh/replacement updates, reduced-motion support and restoration on cleanup; no default CSS or root-import cost added.
+- Add the interactive Orbit creative workspace and an opt-in12-second guided showcase with original music. Browser evidence and payload measurements are recorded separately from unit tests.
+
+
 ## 0.14.0-preview.2
 
 - Emit disabled-state fallback tab selection changes, including all-disabled null; restore selected roving entry after manual focus leaves.

@@ -1,0 +1,41 @@
+{
+  "account": "@wpsygames",
+  "goal": "Reach developers who build web UI and AI apps through useful public conversations and working demos",
+  "baseline": {
+    "observedAtUtc": "2026-10-11T10:46:10Z",
+    "followers": 1,
+    "following": 42,
+    "verification": "Signed-in public profile showed 1 Follower and 42 Following; this is an observed starting count, not attributed campaign growth"
+  },
+  "profileUpdate": {
+    "status": "saved-and-read-back",
+    "previousBio": "I have an AI psychosis",
+    "bio": "building liquid glass kit, open source UI materials + small interactions for web apps\nsharing working demos, design experiments and what breaks",
+    "website": "https://github.com/wpsydev/liquid-glass-kit",
+    "verification": "Native edit profile inputs, Save, public profile readback matched bio and displayed github.com/wpsydev/liquid\u2026"
+  },
+  "approach": [
+    "Review incoming responses first",
+    "Prioritize designers and developers sharing real web UI, motion and AI app workflows",
+    "Offer specific useful feedback; link a working demo only when it directly helps the discussion",
+    "Publish a tested useful feature with a short truthful film and approachable integration example",
+    "Measure observed followers separately from likes, replies and developer contacts"
+  ],
+  "followerGain": null,
+  "notes": "No follower increase or library adoption established. No mass following, duplicated replies, paid engagement or reach guarantee.",
+  "relevantConnections": [
+    {
+      "account": "@jacobtechtavern",
+      "reason": "iOS rendering author; public Liquid Glass technical discussion",
+      "follow": "verified-unfollow-control",
+      "reply": "https://x.com/wpsygames/status/2109236479218393273"
+    }
+  ],
+  "latestObserved": {
+    "atUtc": "2026-10-11T10:56:55Z",
+    "followers": 1,
+    "following": 43,
+    "followerGainFromBaseline": 0,
+    "attribution": "No gain observed; causality cannot be inferred from outbound activity"
+  }
+}

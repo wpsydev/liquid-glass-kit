@@ -1,0 +1,12 @@
+{
+  "moduleBundle": {
+    "rawBytes": 6154,
+    "gzipBytes": 2603
+  },
+  "helperCss": {
+    "rawBytes": 348,
+    "gzipBytes": 225
+  },
+  "sourceSha256": "1546f00ce57a51a6d389f56069c2bc0afb191621831e495fae3d398e27682d37",
+  "scope": "Isolated optional controller, six semantic buttons. Submission cost excludes layout/paint/compositor and does not measure page FPS or an overall speedup."
+}

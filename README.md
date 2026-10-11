@@ -2,18 +2,18 @@
 
 **CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.14 workbench preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.15 magnetic dock preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
 ![Material workbench](docs/assets/studio.webp)
 
-[Code studio](https://wpsydev.github.io/liquid-glass-kit/workbench/) · [Light studies](https://wpsydev.github.io/liquid-glass-kit/caustics/) · [Playground](https://wpsydev.github.io/liquid-glass-kit/) · [Soft Matter](https://wpsydev.github.io/liquid-glass-kit/fusion/) · [Glass flow](https://wpsydev.github.io/liquid-glass-kit/flow/) · [API](docs/API.md) · [Integrations](docs/INTEGRATIONS.md) · [Agent guide](llms-full.txt)
+[Orbit dock](https://wpsydev.github.io/liquid-glass-kit/dock/) · [Code studio](https://wpsydev.github.io/liquid-glass-kit/workbench/) · [Light studies](https://wpsydev.github.io/liquid-glass-kit/caustics/) · [Playground](https://wpsydev.github.io/liquid-glass-kit/) · [Soft Matter](https://wpsydev.github.io/liquid-glass-kit/fusion/) · [Glass flow](https://wpsydev.github.io/liquid-glass-kit/flow/) · [API](docs/API.md) · [Integrations](docs/INTEGRATIONS.md) · [Agent guide](llms-full.txt)
 
 ## Start with CSS
 
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.14.0-preview.2
+npm install github:wpsydev/liquid-glass-kit#v0.15.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -62,6 +62,7 @@ surface.destroy();
 | Vue / Nuxt | `/vue`: `GlassSurface` |
 | Svelte / SvelteKit | `glass` action + SSR CSS class |
 | Other frameworks | `attachGlass` in the mount/unmount lifecycle |
+| Proximity magnification for a semantic launcher | Optional `/dock` + `/dock.css`; stable native controls |
 | Fast reveals or status feedback | Optional `attachGlassTransition` |
 | Elastic press or selection | Optional `attachGlassMotion` / `attachGlassIndicator` |
 | Anchored overlay / scroll boundary | Optional `attachGlassOverlay` / `attachGlassScrollEdge` |
@@ -107,3 +108,7 @@ Opt-in `caustics` projects refracted mesh light onto the owned scene. Six UI stu
 ## Code studio
 
 A glass coding workspace with a real CSS editor, focused live lint rules, two terminal histories, an in-memory branching command set, token preview and native command palette. Optional `/tabs` and `/workbench.css` add reusable developer-tool interactions while the core stays dependency-free. [Guide](docs/WORKBENCH.md) · [Try it](https://wpsydev.github.io/liquid-glass-kit/workbench/).
+
+## Orbit dock
+
+Optional `/dock` adds spring-driven proximity magnification to a row or column of native buttons and links. Visual children lift and scale while their hit areas stay stable; focus provides a keyboard cue, touch keeps stable controls, and reduced motion disables magnification. The controller does not implement navigation or app state. [Integration guide](docs/DOCK.md) · [Try Orbit](https://wpsydev.github.io/liquid-glass-kit/dock/).

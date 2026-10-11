@@ -25,6 +25,7 @@ export default defineConfig({
         loading: resolve('site/loading/index.html'),
         caustics: resolve('site/caustics/index.html'),
         workbench: resolve('site/workbench/index.html'),
+        dock: resolve('site/dock/index.html'),
       },
     },
   },

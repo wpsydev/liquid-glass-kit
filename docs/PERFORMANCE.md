@@ -76,3 +76,12 @@ Package builds now clean `dist` before compilation and omit source/declaration m
 ## Interpreting the result
 
 Fewer resources on default surfaces reduce avoidable setup and teardown work. Unchanged updates should produce fewer owned DOM writes. Timing improvements apply to these controller lifecycle batches on the recorded browser and device. For an application, measure its own surface count, interaction mix and real rendering workload before predicting a user-visible speedup. Retain the CSS fallback and reduced-motion/transparency behavior when profiling.
+
+
+## Optional dock controller (0.15)
+
+The minified standalone `/dock` consumer bundle (including its shared helpers) is6,154 raw /2,603 gzip bytes; `/dock.css` is348 raw /225 gzip bytes. These are separate optional payloads, not an increase in the material-only path. Reproduce with `node scripts/dock-benchmark.mjs`; [payload output](../benchmarks/dock-payload.json).
+
+A six-button isolated fixture in native T3 Chrome152 on macOS performed five warm batches of1,000 pointer events. Synchronous submission samples were4.2,7.2,3.5,5.4 and4.0ms (median4.2ms). Each batch scheduled one coalesced update before paint, with0 geometry reads during submission or spring motion; all settled to configured scale1.65, then0 pending or new idle frames. [Raw browser output](../benchmarks/dock-browser.json). The recording kept the native preview active; a preceding background-tab trial was unsuitable for settlement measurement and is excluded.
+
+This measures event dispatch/controller scheduling with six semantic buttons, not paint/compositor/glass blur, physical-phone performance, app FPS or a before/after speedup. Layout is measured on invalidation; the host still pays for its own art, blur and page work. Unit tests separately exercise cache invalidation, touch/focus, reduced motion, hidden-page suspension and teardown.

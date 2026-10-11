@@ -128,3 +128,8 @@ At 09:58 UTC, no new mentions needed an answer. Read NotchGate’s feedback requ
 ### Foreground round 17
 
 At 10:30 UTC, no new mentions needed an answer. Read FacetLab’s rendering difficulty post, opened the public app and inspected its Stone/Light controls. Read pbrt’s primary spectra reference. [Shared a diagnostic experiment](https://x.com/wpsygames/status/2109230870762525131) asking about spectral/RGB modelling and suggesting a fixed-light/exposure, absorption-off comparison. One parent like, reply prose and exact source destination verified. No shader audit, physical correctness, benchmark or verified diagnosis claimed. No new incoming response or adoption observed.
+
+
+### Live session round 18 — relevant glass audience
+
+At10:54 UTC, acknowledged Prajwal’s response confirming the demo prompt mismatch (a proposed fix, not verified deployment), then reviewed Jacob Bartlett’s public rim/backdrop explanation and asked about shared silhouettes. Two likes and one reply verified: [rendering question](https://x.com/wpsygames/status/2109236479218393273). Followed Jacob for relevant technical work; no reciprocal follow or new follower established. Profile now explains the open source library and links its repository. Follower baseline remains1; outbound conversations are recorded separately.

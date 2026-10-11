@@ -9,7 +9,7 @@ for (const file of await readdir('dist')) if (file.endsWith('.js')) {
   await writeFile(`dist/${file}`, result.code + '\n');
 }
 const material = await readFile('src/material.css', 'utf8');
-for (const name of ['material', 'scroll-edge', 'indicator', 'motion', 'workbench']) await copyFile(`src/${name}.css`, `dist/${name}.css`);
+for (const name of ['material', 'scroll-edge', 'indicator', 'motion', 'workbench', 'dock']) await copyFile(`src/${name}.css`, `dist/${name}.css`);
 // Preserve the previous aggregate stylesheet's exact rules and ordering.
 await writeFile('dist/styles.css', material + '\n' + await readFile('src/scroll-edge.css', 'utf8') + '\n' + await readFile('src/indicator.css', 'utf8') + '\n' + await readFile('src/motion.css', 'utf8'));
 await mkdir('site/public', { recursive: true });

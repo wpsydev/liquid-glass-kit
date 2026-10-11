@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.14.0-preview.2",
+  "version": "0.15.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -115,7 +115,12 @@
       "types": "./dist/tabs.d.ts",
       "import": "./dist/tabs.js"
     },
-    "./workbench.css": "./dist/workbench.css"
+    "./workbench.css": "./dist/workbench.css",
+    "./dock": {
+      "types": "./dist/dock.d.ts",
+      "import": "./dist/dock.js"
+    },
+    "./dock.css": "./dist/dock.css"
   },
   "scripts": {
     "build": "node scripts/clean.mjs && tsc -p tsconfig.build.json && node scripts/build.mjs",

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "version": "0.15.0-preview.1",
+  "status": "prepared",
+  "feature": "Optional magnetic glass dock",
+  "media": [
+    {
+      "path": "docs/campaign/assets/dock-showcase.mp4",
+      "bytes": 762530,
+      "sha256": "69952b69017909a5752a594fba7dd994e1a58d1a29985fb4b540b9ed09af8d3b"
+    },
+    {
+      "path": "docs/campaign/assets/dock-showcase.png",
+      "bytes": 683325,
+      "sha256": "10e7eb697fa343c500488d607b342b451bd1803fd43ac465aba6809212370f9a"
+    }
+  ],
+  "checks": {
+    "npmRunCheck": "172 tests in16 files;types;packaged SSR imports;16 site routes passed",
+    "npmPackDryRun": "92 files",
+    "native": "Fresh bundled source: six CSS viewport sizes320/390/768/844landscape/960/1440; fivepanels checked;44x48mobilecontrols;16pxfields;nativepalette/edit/Tab+Enter;controlledtouchsamebounds;explicitreducedneutral;pause;nativeSVGdownloadrequest inspected generatedblob",
+    "tour": "Native12-secondtourcompleted allsixchapters;workingpalette/speed/angle/panels;noautoexport",
+    "media": "Sixframesreviewed at.8/2.8/4.8/6.8/8.8/10.8;fullvideo/audiodecodepassed"
+  },
+  "publication": {
+    "release": null,
+    "demo": null,
+    "x": null,
+    "npm": "Registry publication remains pending;GitHub release archive/tag installation is intended"
+  },
+  "performance": "Scoped six-button fixture;5warm1000pointer-eventbatches;median4.2mssynchronoussubmission;onecoalescedRAF;0geometryreadsduringmotion;0idleframesaftersettled.NoappFPS/speedupclaim"
+}

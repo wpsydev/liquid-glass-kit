@@ -193,3 +193,16 @@ Raw native tabs benchmark: five1,000-selection runs over12 tabs,100 warm selecti
 Paired Node benchmark: AMD Ryzen5 6600H, Node24.21.0; five alternating synchronous calls per implementation on30,000-character repeated close-braces/newlines. Median1467.391288ms old vs83.315888ms patch; both return30 diagnostics. All runs, cold work, commits/input/source hashes and scope are in benchmarks/workbench-lint.json. Browser/editor/paint and general page performance are excluded.
 
 Publication: tag0.14.0-preview.2 at941638780fd7951821893d27c435533d5c4ca4a3; Verify38098748611, release38098748527 and Pages38098748595 all success. Public archive184024bytes SHA256ab63ed7629df64c37907c660a52dbbf8ee6db313de2565d64b059884510bc761 independently downloaded;87members,correct version,no runtime deps,14 SSR entrypoints imported. Actual hosted named workbench/editor/model chunks loaded; native lint Enter returned2 diagnostics and ArrowUp picked final palette action. Screenshots are real browser UI; the first preview's two images remain accurate for the visually unchanged patch.
+
+
+## 0.15 magnetic dock (2026-10-11)
+
+Automated: 172 tests in 16 files, core/workbench types, distributed SSR imports, 16 site routes and a 92-file pack dry run pass. Eleven new dock tests cover input coalescing, cached geometry, focus/touch, visual click bubbling, explicit/live motion reduction, hidden-page updates, resize/scroll/vertical orientation, membership validation, disconnection and exact owned-style restoration.
+
+Browser checks are separate. Native T3 Chrome 152 loaded a fresh bundled source preview at 320×720, 390×844, 768×1024, 844×390, 960×960 and 1440×900. Five panels were checked at each size, with no page horizontal overflow. A boundary read while an inspector scrollbar was being removed initially showed 11px local overflow at 1440; the settled color panel measured 237/237, with no overflowing child. Intentional vertical inspector scrolling keeps larger content reachable. Form fields are 16px; mobile dock controls are 44×48px.
+
+Native palette activation updated the artwork and its accessible label; typing updated the title; Tab then Enter activated Color. A controlled touch PointerEvent kept bounds stable and visuals neutral; explicit reducedMotion immediately neutralized scale and lift. Native Pause stopped CSS art. A native SVG export request produced an image/svg+xml blob containing the edited title; filesystem completion was not established.
+
+The native 12-second tour completed all six chapters, returned to Notes, reset speed/angle/palette and stopped its scheduling. The export chapter does not automatically download. Original music, inspected film frames and decoding evidence are recorded in campaign/DOCK_MEDIA.md. A separate active-preview controller benchmark is recorded in benchmarks/dock-browser.json and PERFORMANCE.md; export FPS does not establish app FPS.
+
+These are CSS viewport and controlled-input checks in desktop Chromium, not physical iPhone/Safari/Android, screen-reader or all-phone certification.

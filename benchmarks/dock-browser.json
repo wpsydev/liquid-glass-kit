@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "helperCss": {
+      "gzipBytes": 225,
+      "rawBytes": 348
+    },
+    "moduleBundle": {
+      "gzipBytes": 2603,
+      "rawBytes": 6154
+    },
+    "scope": "Isolated optional controller, six semantic buttons. Submission cost excludes layout/paint/compositor and does not measure page FPS or an overall speedup.",
+    "sourceSha256": "1546f00ce57a51a6d389f56069c2bc0afb191621831e495fae3d398e27682d37"
+  },
+  "observedAtUtc": "2026-10-11T10:55:20.089Z",
+  "samples": [
+    {
+      "idleFrameRequests": 0,
+      "readsDuringMotion": 0,
+      "readsDuringSubmission": 0,
+      "requestsBeforePaint": 1,
+      "run": 1,
+      "scaleAtLastTarget": 1.65,
+      "settledPending": 0,
+      "submissionMs": 4.200000047683716
+    },
+    {
+      "idleFrameRequests": 0,
+      "readsDuringMotion": 0,
+      "readsDuringSubmission": 0,
+      "requestsBeforePaint": 1,
+      "run": 2,
+      "scaleAtLastTarget": 1.65,
+      "settledPending": 0,
+      "submissionMs": 7.200000047683716
+    },
+    {
+      "idleFrameRequests": 0,
+      "readsDuringMotion": 0,
+      "readsDuringSubmission": 0,
+      "requestsBeforePaint": 1,
+      "run": 3,
+      "scaleAtLastTarget": 1.65,
+      "settledPending": 0,
+      "submissionMs": 3.5
+    },
+    {
+      "idleFrameRequests": 0,
+      "readsDuringMotion": 0,
+      "readsDuringSubmission": 0,
+      "requestsBeforePaint": 1,
+      "run": 4,
+      "scaleAtLastTarget": 1.65,
+      "settledPending": 0,
+      "submissionMs": 5.400000095367432
+    },
+    {
+      "idleFrameRequests": 0,
+      "readsDuringMotion": 0,
+      "readsDuringSubmission": 0,
+      "requestsBeforePaint": 1,
+      "run": 5,
+      "scaleAtLastTarget": 1.65,
+      "settledPending": 0,
+      "submissionMs": 4
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "viewport": {
+    "dpr": 2,
+    "height": 1050,
+    "width": 1440
+  }
+}

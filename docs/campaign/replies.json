@@ -72,7 +72,7 @@
   {
     "id": "roastify-clarification",
     "parentUrl": "https://x.com/paoloecom/status/2108983510992076885",
-    "text": "Thanks for clarifying! The landing page's Privacy section still says 'one switch takes your store off it'—that's where I got the opt-out idea. I'd update that line to match the anonymous global board. Glad quiet hours are on the list.",
+    "text": "Thanks for clarifying! The landing page's Privacy section still says 'one switch takes your store off it'\u2014that's where I got the opt-out idea. I'd update that line to match the anonymous global board. Glad quiet hours are on the list.",
     "status": "published",
     "publishedUrl": "https://x.com/wpsygames/status/2108984569688895733",
     "verification": "Published text and status URL read back from X; complete draft and parent checked before sending.",
@@ -265,6 +265,16 @@
     "publishedUrl": "https://x.com/wpsygames/status/2109230870762525131",
     "recordedAtUtc": "2026-10-11T10:33:56Z",
     "verification": "Exact draft and parent checked before one submit; exact own-account prose and permalink read back in thread and direct permalink. Clicked rendered source link natively and verified exact pbrt chapter URL",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "glass-shared-silhouette-question",
+    "parentUrl": "https://x.com/jacobtechtavern/status/2109213671922536871",
+    "text": "the rim/backdrop split is useful\n\nwhen two glass controls merge, does the distance field become one shared silhouette, or are separate fields combined later? i'm experimenting with shared silhouettes for a web implementation",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109236479218393273",
+    "recordedAtUtc": "2026-10-11T10:56:55Z",
+    "verification": "Exact parent/draft checked before one submit; own profile and direct permalink read back exact text and author",
     "engagementRecord": "engagement.json"
   }
 ]

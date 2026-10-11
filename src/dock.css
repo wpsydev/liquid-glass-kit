@@ -1,0 +1,10 @@
+/* Reserve this noninteractive child for dock presentation. Native targets stay put. */
+.lg-dock-visual {
+  display: inline-flex;
+  scale: var(--lg-dock-scale, 1);
+  translate: var(--lg-dock-x, 0px) var(--lg-dock-y, 0px);
+  transform-origin: center;
+}
+@media (prefers-reduced-motion: reduce) {
+  .lg-dock-visual { scale: none; translate: none; }
+}
