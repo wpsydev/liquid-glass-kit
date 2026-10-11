@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "version": "0.15.0-preview.1",
-  "status": "prepared",
+  "status": "published",
   "feature": "Optional magnetic glass dock",
   "media": [
     {
@@ -16,17 +16,35 @@
     }
   ],
   "checks": {
-    "npmRunCheck": "172 tests in16 files;types;packaged SSR imports;16 site routes passed",
+    "npmRunCheck": "172 tests in 16 files, types, packaged SSR imports and 16 site routes passed",
     "npmPackDryRun": "92 files",
-    "native": "Fresh bundled source: six CSS viewport sizes320/390/768/844landscape/960/1440; fivepanels checked;44x48mobilecontrols;16pxfields;nativepalette/edit/Tab+Enter;controlledtouchsamebounds;explicitreducedneutral;pause;nativeSVGdownloadrequest inspected generatedblob",
-    "tour": "Native12-secondtourcompleted allsixchapters;workingpalette/speed/angle/panels;noautoexport",
-    "media": "Sixframesreviewed at.8/2.8/4.8/6.8/8.8/10.8;fullvideo/audiodecodepassed"
+    "native": "Fresh bundled source: six CSS viewport sizes (320, 390, 768, 844 landscape, 960, 1440); five panels checked; 44x48 mobile controls; 16px fields; native palette/edit/Tab+Enter; controlled touch bounds stable; explicit reduced motion neutral; pause; native SVG download request with generated blob inspected",
+    "tour": "Native 12-second tour completed all six chapters with working palette, speed, angle and panels; no automatic export",
+    "media": "Six frames reviewed at 0.8/2.8/4.8/6.8/8.8/10.8 seconds; full video/audio decode passed"
   },
   "publication": {
-    "release": null,
-    "demo": null,
-    "x": null,
-    "npm": "Registry publication remains pending;GitHub release archive/tag installation is intended"
+    "release": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.15.0-preview.1",
+    "demo": "https://wpsydev.github.io/liquid-glass-kit/dock/",
+    "x": "https://x.com/wpsygames/status/2109239831796777156",
+    "npm": "Registry publication remains pending; GitHub release archive/tag installation is available",
+    "releaseCommit": "063f13c13364776b5240d7138c0e3b0feca18333",
+    "xVerification": "Own profile and direct permalink show exact prose, demo link and 12-second square video; upload 960x960, X rendered 720x720",
+    "archive": {
+      "bytes": 194588,
+      "sha256": "a906435e2fd0548bf37798ccd8034b0fb8d2847288ea8f26b04a24a562f63021",
+      "verification": "Independent public binary download; 92 files; matching 0.15 version; no runtime dependencies; 15 non-peer ESM entrypoints import without window/document/React/Vue"
+    },
+    "actions": {
+      "release": 38134309178,
+      "pages": 38134309169,
+      "verify": 38134309151,
+      "conclusions": "success"
+    },
+    "nativePublic": "Hosted dock-DNduL-MN module initialized; native Color/Moss clicks changed palette and accessible label; 390px viewport has no page horizontal overflow, 16px fields and 44x48 controls",
+    "methodReply": "https://x.com/wpsygames/status/2109241392358908283",
+    "threadVerification": "Exact draft and own parent verified before one submit; sent alert, parent thread and own profile show method reply and matching release card",
+    "pin": "Not verified: native pin menu action did not change the public profile; previous fusion showcase remains pinned",
+    "verifiedAtUtc": "2026-10-11T11:16:00Z"
   },
-  "performance": "Scoped six-button fixture;5warm1000pointer-eventbatches;median4.2mssynchronoussubmission;onecoalescedRAF;0geometryreadsduringmotion;0idleframesaftersettled.NoappFPS/speedupclaim"
+  "performance": "Scoped six-button fixture: five warm batches of 1000 pointer events; median 4.2ms synchronous submission; one coalesced RAF; zero geometry reads during motion; zero idle frames after settlement. No app FPS or overall speedup claim"
 }

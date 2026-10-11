@@ -32,10 +32,17 @@
     }
   ],
   "latestObserved": {
-    "atUtc": "2026-10-11T10:56:55Z",
+    "atUtc": "2026-10-11T11:16:00Z",
     "followers": 1,
     "following": 43,
     "followerGainFromBaseline": 0,
     "attribution": "No gain observed; causality cannot be inferred from outbound activity"
+  },
+  "showcase": {
+    "version": "0.15.0-preview.1",
+    "post": "https://x.com/wpsygames/status/2109239831796777156",
+    "methodReply": "https://x.com/wpsygames/status/2109241392358908283",
+    "demo": "https://wpsydev.github.io/liquid-glass-kit/dock/",
+    "pin": "Previous fusion showcase remains pinned; dock pin not verified"
   }
 }
