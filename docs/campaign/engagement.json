@@ -2,16 +2,16 @@
   "name": "Builder feedback campaign",
   "launchedOn": "2026-10-10",
   "account": "@wpsygames",
-  "audience": "Vibe coders and developers sharing actual app demos, launches or requests for feedback",
+  "audience": "Vibe coders, AI and Claude developers sharing actual apps, development workflows and requests for feedback",
   "approach": "Review a real demo, public page or README; give a specific observation and one useful suggestion or question. Use product links only when they directly answer the discussion.",
   "continuation": "Start each future session with responses to these conversations. Review a few fresh builder projects, then engage only when there is useful original feedback.",
   "automationStatus": "Launch round executed through the connected X browser with agent-assisted research. No unattended reply or like job configured.",
-  "verifiedAtUtc": "2026-10-10T18:15:51.620Z",
+  "verifiedAtUtc": "2026-10-11T02:16:11Z",
   "results": {
-    "postsLiked": 8,
-    "repliesPublished": 8,
-    "developersEngaged": 7,
-    "newBuilderConversations": 6,
+    "postsLiked": 11,
+    "repliesPublished": 11,
+    "developersEngaged": 10,
+    "newBuilderConversations": 9,
     "followupReplies": 2,
     "newCampaignConversationsWithObservedResponse": 1
   },
@@ -195,6 +195,75 @@
         "recordedAtUtc": "2026-10-10T18:14:59.983Z",
         "verification": "Published text and status URL read back from X; complete draft and parent checked before sending. X abbreviates the displayed source link."
       }
+    },
+    {
+      "id": "claude-knowledge-freshness",
+      "author": "@Havstock",
+      "parentUrl": "https://x.com/Havstock/status/2109103944257409151",
+      "parentPublishedAtUtc": "2026-10-11T02:09:00.000Z",
+      "reviewEvidence": [
+        "Read complete original Claude Project post and visible conversation; no project access or claimed installation",
+        "Suggested source links/update dates; asked about stale SOP answers"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent rendered Unlike after one like action"
+      },
+      "reply": {
+        "text": "how are you handling old answers when an sop changes? a source link plus a last-updated date next to each answer would make this easier for someone new to the team to trust",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2109105094151287223",
+        "recordedAtUtc": "2026-10-11T02:16:11Z",
+        "verification": "Complete draft and parent checked; exact posted text and own account status URL read back from X"
+      }
+    },
+    {
+      "id": "skulk-stale-approval",
+      "author": "@FoxlightAI",
+      "parentUrl": "https://x.com/FoxlightAI/status/2109098638626463997",
+      "parentPublishedAtUtc": "2026-10-11T01:47:55.000Z",
+      "reviewedApp": "https://github.com/Foxlight-Foundation/Skulk",
+      "reviewEvidence": [
+        "Read complete edited release post and public repository README",
+        "Asked about state changing while restart approval is open; suggested demonstrating the stale-proposal case",
+        "No installation, cluster run, security audit or implementation defect claimed"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent rendered Unlike after one like action"
+      },
+      "reply": {
+        "text": "the review step for restarts is the part i'd want to see in the demo\n\nwhat happens if a node's state changes while the approval is open? showing that stale-proposal case would make the workflow much easier to judge",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2109105255174848524",
+        "recordedAtUtc": "2026-10-11T02:16:11Z",
+        "verification": "Complete draft and parent checked; exact posted text and own account status URL read back from X"
+      }
+    },
+    {
+      "id": "griffey-file-picker-help",
+      "author": "@nicholasadeleon",
+      "parentUrl": "https://x.com/nicholasadeleon/status/2109093361210823131",
+      "parentPublishedAtUtc": "2026-10-11T01:26:57.000Z",
+      "reviewedApp": "https://griffey30.com/",
+      "reviewEvidence": [
+        "Read release thread and visible conversation; sampled attached video at10 and90 seconds",
+        "Visited public guest landing; read How does this work/Options; clicked Play Ball to inspect Bring your cartridge",
+        "Supported .sfc/.smc/.zip documented in collapsed help, absent from visible file-selection screen",
+        "Existing author response had already answered user's ROM-source question; no redundant reply sent to that user",
+        "No ROM selected, uploaded or acquired; gameplay/save behavior not tested"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent rendered Unlike after one like action"
+      },
+      "reply": {
+        "text": "checked the browser setup after seeing someone get stuck in this thread\n\nthe file types are explained under \"how does this work?\", but not on \"bring your cartridge\"\n\ni'd put .sfc / .smc / .zip beside \"choose file\" so the next step is obvious",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2109105721724064114",
+        "recordedAtUtc": "2026-10-11T02:16:11Z",
+        "verification": "Complete draft and parent checked; exact posted text and own account status URL read back from X"
+      }
     }
   ],
   "observedResponses": [
@@ -209,6 +278,31 @@
       "url": "https://x.com/okandogubudak/status/2108947960621146517",
       "origin": "Response to an earlier refraction conversation; answered during this round",
       "finding": "Analytical screen-space wallpaper with a sampled 16-tap edge normal. Shared relevant procedural-scene source and proposed drag/resize comparison."
+    }
+  ],
+  "writingStyle": {
+    "requestedOn": "2026-10-11",
+    "rules": [
+      "start with lowercase",
+      "no final period",
+      "no em dash",
+      "natural, specific development feedback"
+    ]
+  },
+  "sessions": [
+    {
+      "date": "2026-10-11",
+      "topic": "AI/Claude development feedback",
+      "interactions": [
+        "claude-knowledge-freshness",
+        "skulk-stale-approval",
+        "griffey-file-picker-help"
+      ],
+      "likes": 3,
+      "replies": 3,
+      "incomingReview": "Mentions showed only previously answered Paolo/Okan replies; did not repeat them",
+      "newObservedResponses": 0,
+      "continuation": "No unattended worker configured"
     }
   ]
 }

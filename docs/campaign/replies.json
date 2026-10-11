@@ -86,5 +86,35 @@
     "publishedUrl": "https://x.com/wpsygames/status/2108984651188773302",
     "verification": "Published text and status URL read back from X; complete draft and parent checked before sending. X abbreviates the displayed source link.",
     "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "claude-knowledge-freshness",
+    "parentUrl": "https://x.com/Havstock/status/2109103944257409151",
+    "text": "how are you handling old answers when an sop changes? a source link plus a last-updated date next to each answer would make this easier for someone new to the team to trust",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109105094151287223",
+    "recordedAtUtc": "2026-10-11T02:16:11Z",
+    "verification": "Complete draft and parent checked; exact posted text and own account status URL read back from X",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "skulk-stale-approval",
+    "parentUrl": "https://x.com/FoxlightAI/status/2109098638626463997",
+    "text": "the review step for restarts is the part i'd want to see in the demo\n\nwhat happens if a node's state changes while the approval is open? showing that stale-proposal case would make the workflow much easier to judge",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109105255174848524",
+    "recordedAtUtc": "2026-10-11T02:16:11Z",
+    "verification": "Complete draft and parent checked; exact posted text and own account status URL read back from X",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "griffey-file-picker-help",
+    "parentUrl": "https://x.com/nicholasadeleon/status/2109093361210823131",
+    "text": "checked the browser setup after seeing someone get stuck in this thread\n\nthe file types are explained under \"how does this work?\", but not on \"bring your cartridge\"\n\ni'd put .sfc / .smc / .zip beside \"choose file\" so the next step is obvious",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109105721724064114",
+    "recordedAtUtc": "2026-10-11T02:16:11Z",
+    "verification": "Complete draft and parent checked; exact posted text and own account status URL read back from X",
+    "engagementRecord": "engagement.json"
   }
 ]
