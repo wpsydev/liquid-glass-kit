@@ -1,5 +1,7 @@
 # Framework recipes
 
+Try https://wpsydev.github.io/liquid-glass-kit/start/ for copyable HTML/React/Vue material recipes and self-contained HTML downloads. The download uses portable CSS and small host scripts for sample form/dialog behavior; snippets leave application state, real submissions and dialog triggers to your app. The sample composer has no assistant backend.
+
 The existing examples work with the complete `@wpsydev/liquid-glass/styles.css`. In 0.12, choose `/material.css` for static surfaces and add only needed `/motion.css`, `/indicator.css` or `/scroll-edge.css`. Narrow JS entries reduce the raw import graph; see [LOADING.md](LOADING.md). Material options do not implement dialog/menu state. Use your existing semantic/headless components.
 
 ## React / Next.js / React Router

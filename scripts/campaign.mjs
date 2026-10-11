@@ -6,8 +6,8 @@ import { pathToFileURL } from 'node:url';
 export function summarizeCampaign(engagement, history) {
   const replies = engagement.interactions.filter(x => x.reply?.status === 'published');
   const first = replies.filter(x => x.kind === 'new-conversation');
-  const responded = new Set(engagement.observedResponses.map(x => x.author));
-  const responding = new Set(first.filter(x => responded.has(x.author)).map(x => x.author));
+  const responded = new Set(engagement.observedResponses.map(x => x.conversationId));
+  const responding = new Set(first.filter(x => responded.has(x.id)).map(x => x.id));
   const observations = history.observations;
   const current = observations.at(-1);
   const baseline = observations.find(x => x.phase === 'targeted networking baseline');
@@ -54,7 +54,8 @@ async function main() {
     let failed = false;
     for (const [index, post] of posts.entries()) {
       const errors = lintPost(post, [...previous, ...posts.slice(0, index)]);
-      console.log(`${post.id}: ${errors.length ? errors.join('; ') : 'brief passed; native destination and media still need review'}`);
+      const passed = post.status === 'published' ? 'published receipt metadata passed' : 'brief passed; native destination and media still need review';
+      console.log(`${post.id}: ${errors.length ? errors.join('; ') : passed}`);
       failed ||= errors.length > 0;
     }
     if (failed) process.exitCode = 1;

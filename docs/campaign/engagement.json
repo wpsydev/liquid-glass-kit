@@ -793,27 +793,31 @@
       "author": "@paoloecom",
       "url": "https://x.com/paoloecom/status/2108983510992076885",
       "origin": "New builder conversation launched in this round",
-      "finding": "Mandatory anonymous global leaderboard, existing mute/sale-sound controls, quiet-hours roadmap. Follow-up identified contradictory public Privacy copy."
+      "finding": "Mandatory anonymous global leaderboard, existing mute/sale-sound controls, quiet-hours roadmap. Follow-up identified contradictory public Privacy copy.",
+      "conversationId": "roastify-onboarding"
     },
     {
       "author": "@okandogubudak",
       "url": "https://x.com/okandogubudak/status/2108947960621146517",
       "origin": "Response to an earlier refraction conversation; answered during this round",
-      "finding": "Analytical screen-space wallpaper with a sampled 16-tap edge normal. Shared relevant procedural-scene source and proposed drag/resize comparison."
+      "finding": "Analytical screen-space wallpaper with a sampled 16-tap edge normal. Shared relevant procedural-scene source and proposed drag/resize comparison.",
+      "conversationId": "prior-refraction-conversation"
     },
     {
       "author": "@paoloecom",
       "url": "https://x.com/paoloecom/status/2108985963716436136",
       "origin": "Response to roastify-clarification",
       "finding": "Builder said the privacy wording is being fixed; actual change not verified",
-      "liked": true
+      "liked": true,
+      "conversationId": "roastify-onboarding"
     },
     {
       "author": "@okandogubudak",
       "url": "https://x.com/okandogubudak/status/2109023619707998526",
       "origin": "Response to refraction-source-followup",
       "finding": "Builder praised separated rim lighting and said they are taking a close look at the repo; no adoption or integration verified",
-      "liked": true
+      "liked": true,
+      "conversationId": "prior-refraction-conversation"
     },
     {
       "author": "@artifexdev",
@@ -821,7 +825,8 @@
       "origin": "Response to tack-review-before-paste",
       "finding": "Builder clarified Escape discards the entire take and said individual screenshot removal with renumbering is being added to their list; implementation not verified",
       "liked": true,
-      "observedAtUtc": "2026-10-11T08:53:23Z"
+      "observedAtUtc": "2026-10-11T08:53:23Z",
+      "conversationId": "tack-review-before-paste"
     },
     {
       "author": "@bravish_",
@@ -830,7 +835,8 @@
       "finding": "Builder described adapter-specific approval behavior and said a comparison table is being added beside one-line setup; published documentation change not verified",
       "liked": true,
       "observedAtUtc": "2026-10-11T09:44:59Z",
-      "verification": "Read complete response and original conversation; incoming response rendered Unlike after one native like action"
+      "verification": "Read complete response and original conversation; incoming response rendered Unlike after one native like action",
+      "conversationId": "tracekit-approval-onboarding"
     },
     {
       "author": "@Prajwal96343052",
@@ -839,7 +845,8 @@
       "finding": "Builder confirmed demo tasks reused the same permission prompt and said commands would be aligned; actual deployed fix not verified",
       "liked": true,
       "observedAtUtc": "2026-10-11T10:56:55Z",
-      "verification": "Read full incoming response, native like, Unlike readback"
+      "verification": "Read full incoming response, native like, Unlike readback",
+      "conversationId": "notchgate-demo-task-context"
     },
     {
       "author": "@FoxlightAI",
@@ -847,7 +854,8 @@
       "origin": "Response to skulk-stale-approval",
       "finding": "Approval rechecks live instance identity and reviewed intent; stale proposals fail with a reason. Restarts recheck across teardown and replacement. Builder explanation read; cluster behavior not independently tested.",
       "observedAtUtc": "2026-10-11T18:23:05Z",
-      "verification": "Read complete native X response; no outgoing action added"
+      "verification": "Read complete native X response; no outgoing action added",
+      "conversationId": "skulk-stale-approval"
     }
   ],
   "writingStyle": {

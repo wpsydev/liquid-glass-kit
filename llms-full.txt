@@ -1,5 +1,7 @@
 # Liquid Glass Kit — agent integration guide
 
+Runnable starter: https://wpsydev.github.io/liquid-glass-kit/start/ offers navigation, AI composer and native-dialog recipes in HTML, React and Vue. It downloads self-contained portable material CSS with the MIT notice and small host scripts for sample form/dialog behavior. Snippets preserve semantic controls; real submission, navigation state and dialog triggers remain host-owned. This is an onboarding page, not a new runtime entrypoint or npm-registry publication.
+
 Use when a user requests iOS-style Liquid Glass, frosted glass, glassmorphism, floating glass navigation, optical glass UI, or glass surfaces in an AI web app. Preserve the user's chosen library and app stack. Do not add this dependency if existing CSS already satisfies the requested effect.
 
 Status: v0.15.0-preview.1. npm publication pending. Repository installation (repository is public):

@@ -1,0 +1,221 @@
+{
+  "kind": "development-campaign-and-starters",
+  "sourceCommit": "6e439d143ca51b2307aacc3f92fbd285e1f68efa",
+  "followers": {
+    "atUtc": "2026-10-11T18:23:05Z",
+    "current": 1,
+    "netSinceLaunch": 1,
+    "netSinceNetworkingBaseline": 0,
+    "attribution": "unknown"
+  },
+  "implementation": {
+    "starter": "https://wpsydev.github.io/liquid-glass-kit/start/",
+    "recipes": [
+      "toolbar",
+      "composer",
+      "dialog"
+    ],
+    "stacks": [
+      "HTML",
+      "React",
+      "Vue"
+    ],
+    "download": "Self-contained material CSS, native controls, sample host scripts and MIT notice; no external runtime resources",
+    "campaignCommands": [
+      "npm run campaign:report",
+      "npm run campaign:check"
+    ],
+    "rootRuntimeChanges": false
+  },
+  "browser": {
+    "tool": "T3 collaborative preview",
+    "recipeMatrix": {
+      "cases": [
+        {
+          "code": true,
+          "external": 0,
+          "license": true,
+          "native": true,
+          "recipe": "toolbar",
+          "stack": "html"
+        },
+        {
+          "code": true,
+          "external": 0,
+          "license": true,
+          "native": true,
+          "recipe": "toolbar",
+          "stack": "react"
+        },
+        {
+          "code": true,
+          "external": 0,
+          "license": true,
+          "native": true,
+          "recipe": "toolbar",
+          "stack": "vue"
+        },
+        {
+          "code": true,
+          "external": 0,
+          "license": true,
+          "native": true,
+          "recipe": "composer",
+          "stack": "html"
+        },
+        {
+          "code": true,
+          "external": 0,
+          "license": true,
+          "native": true,
+          "recipe": "composer",
+          "stack": "react"
+        },
+        {
+          "code": true,
+          "external": 0,
+          "license": true,
+          "native": true,
+          "recipe": "composer",
+          "stack": "vue"
+        },
+        {
+          "code": true,
+          "external": 0,
+          "license": true,
+          "native": true,
+          "recipe": "dialog",
+          "stack": "html"
+        },
+        {
+          "code": true,
+          "external": 0,
+          "license": true,
+          "native": true,
+          "recipe": "dialog",
+          "stack": "react"
+        },
+        {
+          "code": true,
+          "external": 0,
+          "license": true,
+          "native": true,
+          "recipe": "dialog",
+          "stack": "vue"
+        }
+      ],
+      "opaque": true
+    },
+    "layout": [
+      {
+        "clientWidth": 305,
+        "height": 700,
+        "minControlHeight": 44,
+        "minInputFont": 16,
+        "scrollWidth": 305,
+        "width": 320
+      },
+      {
+        "clientWidth": 375,
+        "height": 844,
+        "minControlHeight": 44,
+        "minInputFont": 16,
+        "scrollWidth": 375,
+        "width": 390
+      },
+      {
+        "clientWidth": 753,
+        "height": 1024,
+        "minControlHeight": 44,
+        "minInputFont": 16,
+        "scrollWidth": 753,
+        "width": 768
+      },
+      {
+        "clientWidth": 829,
+        "height": 390,
+        "minControlHeight": 44,
+        "minInputFont": 16,
+        "scrollWidth": 829,
+        "width": 844
+      },
+      {
+        "clientWidth": 1265,
+        "height": 800,
+        "minControlHeight": 44,
+        "minInputFont": 16,
+        "scrollWidth": 1265,
+        "width": 1280
+      }
+    ],
+    "copy": "Native copy click produced Copied status",
+    "download": {
+      "type": "text/html;charset=utf-8",
+      "bytes": 10529,
+      "nativeClickVerified": true,
+      "blobReadback": "DOCTYPE and embedded CSS/MIT notice verified"
+    },
+    "dialog": {
+      "method": "Standalone download HTML rendered in separate native tab",
+      "opened": true,
+      "confirmClosed": true,
+      "returnValue": "confirm",
+      "focusReturned": "Review change"
+    },
+    "visual": {
+      "desktop": "Native screenshot inspected; workspace and live navigation render",
+      "notes": "Earlier pre-deployment 404 remains in browser console history; final page and assets load. Physical phones and Safari not tested.",
+      "mobile": "Native 390px screenshot inspected; controls wrap and navigation is readable"
+    }
+  },
+  "checks": {
+    "unitTests": 182,
+    "testFiles": 18,
+    "npmCheck": "passed",
+    "packDryRun": {
+      "passed": true,
+      "entryCount": 92
+    }
+  },
+  "post": {
+    "articles": [
+      {
+        "links": [
+          {
+            "href": "https://t.co/O51WpdpSMl",
+            "text": "https://wpsydev.github.io/liquid-glass-kit/start/\u2026",
+            "title": ""
+          }
+        ],
+        "permalinks": [
+          "/wpsygames/status/2109352937592172905"
+        ],
+        "text": "the demo shouldn't be the last step\n\nadded a starter page for liquid glass kit: pick a nav, composer or native dialog, copy html/react/vue, or download an html file that runs offline\n\ncss material first, your app keeps the behavior\n\ntry it:\n\nhttps://\nwpsydev.github.io/liquid-glass-k\nit/start/\n\u2026",
+        "time": "2026-10-11T18:38:24.000Z"
+      }
+    ],
+    "url": "https://x.com/wpsygames/status/2109352937592172905"
+  },
+  "privateReport": {
+    "access": "owner-private",
+    "assetsReadbackMatched": true,
+    "queryCount": 3,
+    "rowCount": 9,
+    "normalBrowser": "Sign in required; rendered hosted report and hosted owner editing were not verified",
+    "source": "docs/campaign/growth-report-snapshot.json",
+    "delivery": "Private artifact link provided in the conversation; no private identity published here"
+  },
+  "socialOutcomes": {
+    "newPostFollowerGain": null,
+    "profileVisits": null,
+    "linkClicks": null,
+    "installs": null,
+    "note": "Publishing is verified; acquisition is not established"
+  },
+  "futureReview": {
+    "h24": "2026-10-12T18:38:24Z",
+    "h72": "2026-10-14T18:38:24Z",
+    "scheduledAutomation": false
+  },
+  "recordedAtUtc": "2026-10-11T18:43:01Z"
+}

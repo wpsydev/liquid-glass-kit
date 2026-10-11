@@ -1,7 +1,7 @@
 [
   {
     "id": "start-with-one-surface",
-    "status": "draft",
+    "status": "published",
     "kind": "recipe",
     "text": "the demo shouldn't be the last step\n\nadded a starter page for liquid glass kit: pick a nav, composer or native dialog, copy html/react/vue, or download an html file that runs offline\n\ncss material first, your app keeps the behavior\n\ntry it:\nhttps://wpsydev.github.io/liquid-glass-kit/start/",
     "problem": "Demos require extra work before the first integration",
@@ -22,7 +22,16 @@
     "measurement": {
       "24h": null,
       "72h": null
-    }
+    },
+    "publishedUrl": "https://x.com/wpsygames/status/2109352937592172905",
+    "publishedAtUtc": "2026-10-11T18:38:24Z",
+    "verifiedAtUtc": "2026-10-11T18:43:01Z",
+    "verification": "Native composer exact-text guard; own profile after reload and direct permalink text/time readback",
+    "reviewDueAtUtc": {
+      "24h": "2026-10-12T18:38:24Z",
+      "72h": "2026-10-14T18:38:24Z"
+    },
+    "followersAtPublication": 1
   },
   {
     "id": "dock-hit-area-engineering",

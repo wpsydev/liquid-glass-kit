@@ -7,10 +7,10 @@ const brief = { text: 'glass without a runtime\nhttps://example.com/start/', kin
 describe('campaign evidence', () => {
   it('keeps activity, response observation and growth separate', () => {
     const result = summarizeCampaign({ interactions: [
-      { kind: 'new-conversation', author: '@a', reply: { status: 'published' } },
+      { id: 'first-thread', kind: 'new-conversation', author: '@a', reply: { status: 'published' } },
       { kind: 'followup', author: '@a', reply: { status: 'published' } },
       { kind: 'new-conversation', author: '@b', reply: { status: 'draft' } }
-    ], observedResponses: [{ author: '@a' }, { author: '@a' }] }, { observations: [
+    ], observedResponses: [{ author: '@a', conversationId: 'first-thread' }, { author: '@a', conversationId: 'first-thread' }, { author: '@b', conversationId: 'unpublished-thread' }] }, { observations: [
       { followers: 0 }, { phase: 'targeted networking baseline', followers: 1 }, { followers: 1, stars: 1, forks: 0 }
     ], missingAnalytics: { linkClicks: null } });
     expect(result).toMatchObject({ netSinceLaunch: 1, netSinceNetworkingBaseline: 0, replies: 2, newConversations: 1, followups: 1, respondingNewConversations: 1, analytics: { linkClicks: null } });

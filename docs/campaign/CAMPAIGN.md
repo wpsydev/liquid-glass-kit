@@ -1,3 +1,7 @@
+# Current follower and development review
+
+The [follower report](GROWTH_REPORT.md) records 1 follower, no gain since the targeted-networking baseline, and 5 observed responses among 28 new conversations. The [starter update](https://x.com/wpsygames/status/2109352937592172905) links three runnable recipes. [Evidence and browser checks](growth-update.json) separate implementation validation from social outcomes.
+
 # Liquid Glass Kit: X campaign
 
 The [0.8 microinteraction thread](https://x.com/wpsygames/status/2109015324276465803) is live with three connected posts: a twelve-second one-screen video, the researched task-based toolbox selection, and the API/installable preview. The [working studio](https://wpsydev.github.io/liquid-glass-kit/micro-motion/) uses four directional transitions and confirmation/error cues with local sample state and native buttons. [Receipts](micro-motion-update.json) and [media provenance](MICRO_MOTION_MEDIA.md) record actual publication, soundtrack and validation. All three public short links resolve to the intended demo, research and release destinations. No reach or adoption outcome is claimed.
@@ -6,7 +10,7 @@ The [0.7 anchored-popover update](https://x.com/wpsygames/status/210899826951085
 
 The [AI app design resource thread](https://x.com/wpsygames/status/2108990703527195029) is live with seven connected posts and a 12-second portrait video with original bass music. It links primary design skills, accessible component bases and real product interaction references. The [working studies](https://wpsydev.github.io/liquid-glass-kit/ai-design/) show evidence inspection, reversible writing assistance and recovery in a bounded agent simulation. The [agent-ready guide](../AI_APP_DESIGN.md), [publication receipts](ai-design-thread.json) and [media provenance](AI_DESIGN_MEDIA.md) document the sources, actual UI behavior and limits. No virality or adoption result is claimed.
 
-Account: **@wpsygames**, creator **wpsydev**. The [original launch post](https://x.com/wpsygames/status/2108936339475276157) is live and pinned. The [24-second showcase post](https://x.com/wpsygames/status/2108940573113532524) is published; its text and video playback were verified. All eight follow-ups for October 11–24, 2026 are **scheduled in X**, with their full text, media thumbnails and dates read back from the native queue. [posts.json](posts.json) stores verified status and receipts. Scheduled posts are not live yet.
+Account: **@wpsygames**, creator **wpsydev**. The [original launch post](https://x.com/wpsygames/status/2108936339475276157) is live; the [Orbit dock post](https://x.com/wpsygames/status/2109239831796777156) is currently pinned. The [24-second showcase post](https://x.com/wpsygames/status/2108940573113532524) is published; its text and video playback were verified. Eight follow-ups were scheduled in X with text, media and dates read back. The [October 11 CSS recipe](https://x.com/wpsygames/status/2109318105507983471) has now published; seven later follow-ups remain scheduled. [posts.json](posts.json) stores verified status and receipts. Later scheduled posts are not represented as live.
 
 A [source/install reply](https://x.com/wpsygames/status/2108941345477812295) accompanies the video. One [technical reply](https://x.com/wpsygames/status/2108939185662878135) answers an explicit refraction question. [replies.json](replies.json) records both. No paid campaign was started.
 
@@ -25,7 +29,7 @@ All times are UTC. These are initial timing experiments, not claimed optimal pos
 | ID | Time UTC | Asset | Useful reason to read |
 | --- | --- | --- | --- |
 | demo-now | Published, October 10 | 24s material studies video | Try the composer, solid preference and media scene |
-| css-recipe | October 11, 16:20 | Playground screenshot | Start with one CSS class and preserve native HTML |
+| css-recipe | Published October 11, 16:20 | Playground screenshot | Start with one CSS class and preserve native HTML |
 | glass-vs-solid | October 13, 09:40 | 10s solid toggle video | Test translucency and keep a readable fallback |
 | optics-explained | October 15, 17:10 | Optics teaching card | Understand blur versus experimental backdrop refraction |
 | ai-composer | October 17, 12:30 | Solid response screenshot | Put glass on tools while keeping answers readable |
