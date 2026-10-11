@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.16.0-preview.1 — Fieldnotes scroll reveal
+
+- Add optional `/scroll-reveal`: browser-owned entry timeline, timed viewport fallback and static reduced-motion presentation.
+- Preserve semantic controls, focus, author inline priorities and cleanup without scroll handlers or custom frame polling.
+- Add an original three-chapter editorial study, scoped lifecycle measurements and a12-second film with original160BPM drum-and-bass score.
+- Keep root imports and material CSS unchanged; native availability and fallback differences are explicit.
+
 ## 0.15.0-preview.1 — Orbit dock
 
 - Add optional dependency-free `/dock` and `/dock.css`: pointer proximity and keyboard-focus magnification for semantic native buttons/links, dedicated visual children and stable hit areas.

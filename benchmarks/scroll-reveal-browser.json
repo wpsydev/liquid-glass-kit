@@ -1,0 +1,111 @@
+{
+  "observedAtUtc": "2026-10-11T22:24:30.250Z",
+  "output": [
+    {
+      "nativeRequested": true,
+      "samples": [
+        {
+          "batch": 1,
+          "customRafRequests": 0,
+          "mountDestroyMs": 8.299999952316284,
+          "operations": 200,
+          "rectReads": 0,
+          "renderer": "native-view-timeline",
+          "scrollListeners": 0
+        },
+        {
+          "batch": 2,
+          "customRafRequests": 0,
+          "mountDestroyMs": 13.600000023841858,
+          "operations": 200,
+          "rectReads": 0,
+          "renderer": "native-view-timeline",
+          "scrollListeners": 0
+        },
+        {
+          "batch": 3,
+          "customRafRequests": 0,
+          "mountDestroyMs": 9.599999904632568,
+          "operations": 200,
+          "rectReads": 0,
+          "renderer": "native-view-timeline",
+          "scrollListeners": 0
+        },
+        {
+          "batch": 4,
+          "customRafRequests": 0,
+          "mountDestroyMs": 10.300000071525574,
+          "operations": 200,
+          "rectReads": 0,
+          "renderer": "native-view-timeline",
+          "scrollListeners": 0
+        },
+        {
+          "batch": 5,
+          "customRafRequests": 0,
+          "mountDestroyMs": 11.299999952316284,
+          "operations": 200,
+          "rectReads": 0,
+          "renderer": "native-view-timeline",
+          "scrollListeners": 0
+        }
+      ]
+    },
+    {
+      "nativeRequested": false,
+      "samples": [
+        {
+          "batch": 1,
+          "customRafRequests": 0,
+          "mountDestroyMs": 8.100000023841858,
+          "operations": 200,
+          "rectReads": 0,
+          "renderer": "intersection-reveal",
+          "scrollListeners": 0
+        },
+        {
+          "batch": 2,
+          "customRafRequests": 0,
+          "mountDestroyMs": 8.799999952316284,
+          "operations": 200,
+          "rectReads": 0,
+          "renderer": "intersection-reveal",
+          "scrollListeners": 0
+        },
+        {
+          "batch": 3,
+          "customRafRequests": 0,
+          "mountDestroyMs": 7.700000047683716,
+          "operations": 200,
+          "rectReads": 0,
+          "renderer": "intersection-reveal",
+          "scrollListeners": 0
+        },
+        {
+          "batch": 4,
+          "customRafRequests": 0,
+          "mountDestroyMs": 7.099999904632568,
+          "operations": 200,
+          "rectReads": 0,
+          "renderer": "intersection-reveal",
+          "scrollListeners": 0
+        },
+        {
+          "batch": 5,
+          "customRafRequests": 0,
+          "mountDestroyMs": 8.700000047683716,
+          "operations": 200,
+          "rectReads": 0,
+          "renderer": "intersection-reveal",
+          "scrollListeners": 0
+        }
+      ]
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "viewport": {
+    "dpr": 2,
+    "height": 800,
+    "width": 1280
+  }
+}

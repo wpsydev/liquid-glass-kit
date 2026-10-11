@@ -1,0 +1,462 @@
+{
+  "sourcePost": "https://x.com/himanshubuildss/status/2109130327277142377",
+  "createdAtUtc": "2026-10-11T22:15:31Z",
+  "scope": "One individually researched feature, version, performance record and video per listed resource. Independent implementation and attribution. Notchgate is a separate user-added feature.",
+  "resources": [
+    {
+      "order": 1,
+      "url": "https://scrolltide.co",
+      "status": "validated-awaiting-publication",
+      "feature": "Optional native scroll reveal",
+      "version": "0.16.0-preview.1",
+      "demo": null,
+      "video": "docs/campaign/assets/scroll-reveal-showcase.mp4",
+      "thread": null,
+      "performance": [
+        "benchmarks/scroll-reveal-payload.json",
+        "benchmarks/scroll-reveal-browser.json"
+      ]
+    },
+    {
+      "order": 2,
+      "url": "https://designmd.ai",
+      "status": "implemented-awaiting-validation",
+      "feature": "Design contract",
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 3,
+      "url": "https://vibeprompts.dev",
+      "status": "implemented-awaiting-validation",
+      "feature": "Command palette",
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 4,
+      "url": "https://minimal.gallery",
+      "status": "implemented-awaiting-validation",
+      "feature": "Composition",
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 5,
+      "url": "https://kage.design",
+      "status": "implemented-awaiting-validation",
+      "feature": "Integration brief",
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 6,
+      "url": "https://styles.refero.design",
+      "status": "implemented-awaiting-validation",
+      "feature": "Readability",
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 7,
+      "url": "https://component.gallery",
+      "status": "implementation-in-progress",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 8,
+      "url": "https://godly.website",
+      "status": "implementation-in-progress",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 9,
+      "url": "https://awwwards.com",
+      "status": "researching",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 10,
+      "url": "https://landing.love",
+      "status": "researching",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 11,
+      "url": "https://land-book.com",
+      "status": "researching",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 12,
+      "url": "https://mobbin.com",
+      "status": "researching",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 13,
+      "url": "https://hoverstat.es",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 14,
+      "url": "https://navbar.gallery",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 15,
+      "url": "https://footer.design",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 16,
+      "url": "https://cta.gallery",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 17,
+      "url": "https://supahero.io",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 18,
+      "url": "https://pricingpages.design",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 19,
+      "url": "https://21st.dev",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 20,
+      "url": "https://ui.shadcn.com",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 21,
+      "url": "https://ui.aceternity.com",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 22,
+      "url": "https://magicui.design",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 23,
+      "url": "https://motion-primitives.com",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 24,
+      "url": "https://uiverse.io",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 25,
+      "url": "https://smoothui.dev",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 26,
+      "url": "https://shadcnblocks.com",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 27,
+      "url": "https://kinetics.colorion.co",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 28,
+      "url": "https://microkit.co",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 29,
+      "url": "https://glass.samasante.com",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 30,
+      "url": "https://animejs.com",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 31,
+      "url": "https://threejs.org",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 32,
+      "url": "https://shadertoy.com",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 33,
+      "url": "https://thebookofshaders.com",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 34,
+      "url": "https://threejs-journey.com",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 35,
+      "url": "https://kitbitz.art",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 36,
+      "url": "https://3dicons.co",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 37,
+      "url": "https://claude.com/product/claude-code",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 38,
+      "url": "https://cursor.com",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 39,
+      "url": "https://v0.dev",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    },
+    {
+      "order": 40,
+      "url": "https://lovable.dev",
+      "status": "queued",
+      "feature": null,
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    }
+  ],
+  "additional": [
+    {
+      "url": "https://notchgate.netlify.app/",
+      "status": "implemented-awaiting-validation",
+      "feature": "Activity Island: sessions, review requests and prompts",
+      "version": null,
+      "demo": null,
+      "video": null,
+      "thread": null,
+      "performance": null
+    }
+  ]
+}

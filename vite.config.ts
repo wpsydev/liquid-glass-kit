@@ -27,6 +27,7 @@ export default defineConfig({
         workbench: resolve('site/workbench/index.html'),
         dock: resolve('site/dock/index.html'),
         start: resolve('site/start/index.html'),
+        scroll: resolve('site/scroll/index.html'),
       },
     },
   },

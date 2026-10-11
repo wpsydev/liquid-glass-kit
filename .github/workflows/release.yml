@@ -2,7 +2,7 @@ name: Publish preview release
 on:
   push:
     branches: [main]
-    paths: [.github/workflows/release.yml, package.json, docs/RELEASE.md]
+    paths: [.github/workflows/release.yml, package.json, docs/RELEASE.md, docs/RELEASE_ASSETS.json]
   workflow_dispatch:
 permissions:
   contents: write
@@ -40,9 +40,16 @@ jobs:
               })).data;
             }
             const packageFile = `wpsydev-liquid-glass-${pkg.version}.tgz`;
-            const assets = [{ path: packageFile, name: packageFile, type: 'application/gzip' },
-              { path: 'docs/campaign/assets/dock-showcase.mp4', name: 'liquid-glass-orbit-dock.mp4', type: 'video/mp4' },
-              { path: 'docs/campaign/assets/dock-showcase.png', name: 'liquid-glass-orbit-dock.png', type: 'image/png' }];
+            const media = JSON.parse(fs.readFileSync('docs/RELEASE_ASSETS.json', 'utf8'));
+            if (media.version !== pkg.version || !Array.isArray(media.assets)) throw new Error('Release media version mismatch');
+            for (const asset of media.assets) {
+              if (!/^docs\/campaign\/assets\/[a-z0-9][a-z0-9._-]*$/.test(asset.path) ||
+                  !/^[a-z0-9][a-z0-9._-]*$/.test(asset.name) ||
+                  !['video/mp4', 'image/png', 'image/webp', 'application/json'].includes(asset.type)) {
+                throw new Error('Invalid release media descriptor');
+              }
+            }
+            const assets = [{ path: packageFile, name: packageFile, type: 'application/gzip' }, ...media.assets];
             for (const asset of assets) {
               if (!fs.existsSync(asset.path)) {
                 throw new Error(`Missing release artifact ${asset.path}`);

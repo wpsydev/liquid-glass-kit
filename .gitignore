@@ -6,6 +6,7 @@ site/public/llms*.txt
 *.tgz
 .DS_Store
 coverage/
+.glass-build-*.json
 .env*
 site/public/CHANGELOG.md
 site/public/benchmarks/

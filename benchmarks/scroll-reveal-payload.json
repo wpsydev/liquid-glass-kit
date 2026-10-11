@@ -1,0 +1,6 @@
+{
+  "rawBytes": 3533,
+  "gzipBytes": 1716,
+  "sourceSha256": "1317bf1e14da64bd355a65873d5a3a957dc96ec801fb71723b0eadb3fe60444e",
+  "scope": "Five warm batches of 200 attach/destroy operations per renderer on connected plain presentation layers. Timings include synchronous style sampling/controller setup/cleanup, exclude browser animation progress, layout/paint/compositing, CSS glass blur and page FPS. No speedup comparison."
+}

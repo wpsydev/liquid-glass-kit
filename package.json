@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.15.0-preview.1",
+  "version": "0.16.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -120,10 +120,14 @@
       "types": "./dist/dock.d.ts",
       "import": "./dist/dock.js"
     },
-    "./dock.css": "./dist/dock.css"
+    "./dock.css": "./dist/dock.css",
+    "./scroll-reveal": {
+      "types": "./dist/scroll-reveal.d.ts",
+      "import": "./dist/scroll-reveal.js"
+    }
   },
   "scripts": {
-    "build": "node scripts/clean.mjs && tsc -p tsconfig.build.json && node scripts/build.mjs",
+    "build": "node scripts/clean.mjs && node scripts/compile-library.mjs && node scripts/build.mjs",
     "typecheck": "tsc --noEmit && tsc -p tsconfig.workbench.json --noEmit",
     "test": "vitest run",
     "dev": "vite --host 0.0.0.0",

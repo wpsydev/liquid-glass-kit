@@ -2,7 +2,7 @@
 
 **CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.15 magnetic dock preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.16 scroll-reveal preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
 ![Material workbench](docs/assets/studio.webp)
 
@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.15.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.16.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -114,3 +114,7 @@ A glass coding workspace with a real CSS editor, focused live lint rules, two te
 ## Orbit dock
 
 Optional `/dock` adds spring-driven proximity magnification to a row or column of native buttons and links. Visual children lift and scale while their hit areas stay stable; focus provides a keyboard cue, touch keeps stable controls, and reduced motion disables magnification. The controller does not implement navigation or app state. [Integration guide](docs/DOCK.md) · [Try Orbit](https://wpsydev.github.io/liquid-glass-kit/dock/).
+
+## Fieldnotes scroll reveal
+
+Optional `/scroll-reveal` uses a native ViewTimeline where available and a timed viewport fallback elsewhere. Focus exposes content immediately; reduced motion leaves author presentation visible. No custom scroll frame loop or root import cost. [Working study](https://wpsydev.github.io/liquid-glass-kit/scroll/) · [API and boundaries](docs/SCROLL_REVEAL.md).

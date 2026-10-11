@@ -206,3 +206,11 @@ Native palette activation updated the artwork and its accessible label; typing u
 The native 12-second tour completed all six chapters, returned to Notes, reset speed/angle/palette and stopped its scheduling. The export chapter does not automatically download. Original music, inspected film frames and decoding evidence are recorded in campaign/DOCK_MEDIA.md. A separate active-preview controller benchmark is recorded in benchmarks/dock-browser.json and PERFORMANCE.md; export FPS does not establish app FPS.
 
 These are CSS viewport and controlled-input checks in desktop Chromium, not physical iPhone/Safari/Android, screen-reader or all-phone certification.
+
+## 0.16 scroll reveal (2026-10-11)
+
+Local `npm run check` passed with the scroll controller and queued prototypes. The release scope adds 20 scroll tests to the prior 182 tests; queued optional features are not declared exports or included in this release. A 95-file `npm pack --dry-run` passed. The new compiler derives entrypoints from public exports, so unfinished modules are not emitted into the archive.
+
+Separate native T3 Chrome 152 source-preview checks verified a partial ViewTimeline entry (progress .4994, opacity .6746), full entry, focus exposing content, native dialog focus/close, explicit reduced motion yielding static content with zero active animations, and solid material switching. Decorative `overflow:hidden` originally selected the wrong scroller; `overflow:clip` corrected it. The forced IntersectionObserver path completed its entrance, reset to .35 after leaving, and re-entered to opacity 1. The 390px mobile rendering was visually inspected. Sizes 320×700, 390×844, 768×1024, 844×390 and 1440×900 had no horizontal overflow; controls were at least 44px tall and fields 16px. These are desktop Chromium viewport checks, not physical phones or Safari.
+
+The benchmark files record a 1,716-byte gzip standalone helper and five 200-element attach/destroy batches. Native median 10.3ms, viewport-path median 8.1ms; zero custom RAF requests, rectangle reads or scroll listeners in those batches. This measures synchronous setup and teardown, not compositing or FPS. Root index.js and material.css hashes are unchanged. Published-page verification will be recorded after deployment.
