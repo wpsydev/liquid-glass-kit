@@ -47,8 +47,23 @@
   },
   "patch": {
     "version": "0.14.0-preview.2",
-    "status": "validated-awaiting-publication",
+    "status": "published",
     "checks": "161 tests;87-file pack; native palette/token/tab/controlled persisted lifecycle checks; paired Node lint runs",
-    "sourceSha256": "a7b78ecd178a35b8321c84281e60d0094a3357705e0dbd48ed2605dfeb67b4d8"
+    "sourceSha256": "a7b78ecd178a35b8321c84281e60d0094a3357705e0dbd48ed2605dfeb67b4d8",
+    "release": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.14.0-preview.2",
+    "releaseCommit": "941638780fd7951821893d27c435533d5c4ca4a3",
+    "archive": {
+      "bytes": 184024,
+      "sha256": "ab63ed7629df64c37907c660a52dbbf8ee6db313de2565d64b059884510bc761",
+      "verified": "Independent public download:87 members,version0.14.0-preview.2,no runtime dependencies;14 JavaScript entrypoints import without browser globals or React/Vue."
+    },
+    "actions": {
+      "verify": 38098748611,
+      "release": 38098748527,
+      "pages": 38098748595,
+      "conclusions": "success"
+    },
+    "nativePublic": "Production workbench-BhJgj3ja/editor-ciV3s7g1/model-CRgzZSvw loaded. Native terminal lint returned2 real diagnostics; palette ArrowUp selected last action; actual guide link works. Final local compiled preview390px has no overflow,16px editor text and44px terminal controls.",
+    "xPatchReply": "https://x.com/wpsygames/status/2109079893707198974"
   }
 }
