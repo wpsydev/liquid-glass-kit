@@ -143,3 +143,8 @@ At11:08UTC refreshed incoming mentions; no new response needed a reply. Zero lik
 ### Foreground round 20
 
 At 11:29 UTC, no new incoming response needed an answer. Read Dominik Feltes’s complete Claude Code photo-route planner post and inspected the attached mockup. [Suggested an itinerary preview](https://x.com/wpsygames/status/2109245145124159962) showing waiting time and shifted stops before applying the golden-hour move. One parent like, exact draft and published thread/direct permalink verified. The author explicitly labels the design a mockup; no runnable app, routing, weather, light model or export tested. No new follower or adoption established.
+
+
+### Foreground round 21
+
+At 11:55 UTC, no new incoming response needed an answer. Read naaiyy’s glass animation showcase and public menu documentation, then tried Options, ArrowDown and Escape in its live playground. The first item received focus and Escape restored focus to the trigger after the exit settled. [Suggested a near-edge resize demo](https://x.com/wpsygames/status/2109251788196970657) to stress the trigger/menu morph across collision flips. One parent like and exact draft/thread/direct permalink verified. No shader audit, installed package, physical-device certification, performance measurement or discovered collision bug claimed. No new follower or adoption established.

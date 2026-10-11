@@ -6,12 +6,12 @@
   "approach": "Review a real demo, public page or README; give a specific observation and one useful suggestion or question. Use product links only when they directly answer the discussion.",
   "continuation": "Start each future session with responses to these conversations. Review a few fresh builder projects, then engage only when there is useful original feedback.",
   "automationStatus": "Foreground timer emits due events in the active session; agent reviews and executes through T3 preview. No independent browser worker or persistent schedule.",
-  "verifiedAtUtc": "2026-10-11T11:30:30Z",
+  "verifiedAtUtc": "2026-10-11T11:56:46Z",
   "results": {
-    "postsLiked": 32,
-    "repliesPublished": 28,
-    "developersEngaged": 26,
-    "newBuilderConversations": 25,
+    "postsLiked": 33,
+    "repliesPublished": 29,
+    "developersEngaged": 27,
+    "newBuilderConversations": 26,
     "followupReplies": 3,
     "newCampaignConversationsWithObservedResponse": 4
   },
@@ -674,6 +674,32 @@
         "verification": "Exact draft/parent checked before one submit; sent alert, parent thread and direct reply permalink read back exact own prose. Profile reply tab was briefly stale; no resubmit",
         "publishedAtUtc": "2026-10-11T11:30:05.000Z"
       }
+    },
+    {
+      "id": "glass-menu-collision-demo-feedback",
+      "kind": "design-feedback",
+      "author": "@naaiyy_",
+      "parentUrl": "https://x.com/naaiyy_/status/2108985671075484157",
+      "parentPublishedAtUtc": "2026-10-10T18:19:01.000Z",
+      "reviewedApp": "https://liquid-glass.glassapp.dev/",
+      "reviewEvidence": [
+        "Read full animation showcase post and visible reply discussion; no new incoming response needed an answer",
+        "Opened public playground; native Options click opened three items, ArrowDown focused Save to library, Escape settled closed with focus restored to Options and aria-expanded=false",
+        "Read menu API reference covering collision avoidance, logical placement, become/detach morph and system reduced motion",
+        "Suggested a near-edge live-resize demonstration as a stress case; no installed package, shader/source audit, mobile hardware test, full accessibility certification, speedup or discovered collision bug claimed"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent showed Unlike after one native action and in published direct reply conversation"
+      },
+      "reply": {
+        "text": "tried the menu: arrow down focused the first item and esc returned to options\n\none demo case i'd add: open near the viewport edge, then resize until collision avoidance flips it. a useful stress test for the trigger-to-menu morph",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2109251788196970657",
+        "publishedAtUtc": "2026-10-11T11:56:28.000Z",
+        "recordedAtUtc": "2026-10-11T11:56:46Z",
+        "verification": "Exact draft and parent checked before one submit; parent thread and direct permalink read back exact own prose and author"
+      }
     }
   ],
   "observedResponses": [
@@ -1066,6 +1092,20 @@
       "likes": 1,
       "replies": 1,
       "incomingReview": "No new incoming responses beyond already acknowledged threads",
+      "newObservedResponses": 0,
+      "continuation": "Foreground timer rearmed after verified receipt"
+    },
+    {
+      "date": "2026-10-11",
+      "topic": "Foreground networking loop round 21, glass menu developer feedback",
+      "dueAtUtc": "2026-10-11T11:55:25.209Z",
+      "completedAtUtc": "2026-10-11T11:57:23.545Z",
+      "interactions": [
+        "glass-menu-collision-demo-feedback"
+      ],
+      "likes": 1,
+      "replies": 1,
+      "incomingReview": "No new incoming responses beyond already acknowledged conversations",
       "newObservedResponses": 0,
       "continuation": "Foreground timer rearmed after verified receipt"
     }

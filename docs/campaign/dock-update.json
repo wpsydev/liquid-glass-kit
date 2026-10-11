@@ -45,7 +45,13 @@
     "threadVerification": "Exact draft and own parent verified before one submit; sent alert, parent thread and own profile show method reply and matching release card",
     "pin": "Verified: native Pin confirmation accepted, own public profile first article displays Pinned and the matching dock status permalink",
     "verifiedAtUtc": "2026-10-11T11:16:00Z",
-    "pinVerifiedAtUtc": "2026-10-11T11:32:37Z"
+    "pinVerifiedAtUtc": "2026-10-11T11:32:37Z",
+    "npmVerification": {
+      "atUtc": "2026-10-11T11:44:56Z",
+      "whoami": "Registry returned E401 Unauthorized",
+      "browser": "Fresh web login reached emailed one-time-password escalation for wpsydev; no connected inbox access, no code entered, registry publication not established",
+      "outcome": "Web login did not complete and CLI fell back to a username prompt; attempt cancelled, no registry publish performed"
+    }
   },
   "performance": "Scoped six-button fixture: five warm batches of 1000 pointer events; median 4.2ms synchronous submission; one coalesced RAF; zero geometry reads during motion; zero idle frames after settlement. No app FPS or overall speedup claim"
 }
