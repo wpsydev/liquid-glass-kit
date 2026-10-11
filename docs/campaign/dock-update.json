@@ -43,8 +43,9 @@
     "nativePublic": "Hosted dock-DNduL-MN module initialized; native Color/Moss clicks changed palette and accessible label; 390px viewport has no page horizontal overflow, 16px fields and 44x48 controls",
     "methodReply": "https://x.com/wpsygames/status/2109241392358908283",
     "threadVerification": "Exact draft and own parent verified before one submit; sent alert, parent thread and own profile show method reply and matching release card",
-    "pin": "Not verified: native pin menu action did not change the public profile; previous fusion showcase remains pinned",
-    "verifiedAtUtc": "2026-10-11T11:16:00Z"
+    "pin": "Verified: native Pin confirmation accepted, own public profile first article displays Pinned and the matching dock status permalink",
+    "verifiedAtUtc": "2026-10-11T11:16:00Z",
+    "pinVerifiedAtUtc": "2026-10-11T11:32:37Z"
   },
   "performance": "Scoped six-button fixture: five warm batches of 1000 pointer events; median 4.2ms synchronous submission; one coalesced RAF; zero geometry reads during motion; zero idle frames after settlement. No app FPS or overall speedup claim"
 }
