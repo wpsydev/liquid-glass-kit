@@ -178,3 +178,16 @@ Native browser evidence, separately from unit tests: T3 Chrome152 desktop, final
 A separate12-tab native fixture measured five warm1,000-selection runs; raw values and submission-only scope in benchmarks/workbench.json. It left exactly one visible panel; destroy restored owned attributes; instrumented RAF/bounding-rect calls zero. This is not presented FPS or general app speed.
 
 Final archive:87 files,14 nonpeer JS entrypoints imported from a fresh extracted consumer with no window/document/React/Vue. Native editor typing changed38px corner/20px padding. Final command prompts stay within the terminal pane after output grows. Fix uses the real transient confirmation animation. Controlled reduced-motion query skips timed tour; normal tour finishes after12 seconds with known fixes,38px corner,experiment branch and light theme, then returns to idle.
+
+Published validation:release commit5ebeffa3f4a7d9a46c21000928fc61ee78af1730,site correction8fe3ca46018a556b3cb43b53b4b8a848071af031;Verify/Pages/release Actions successful. Public /workbench loaded its actual dynamic editor/model chunks; native terminal lint and fix worked. Public guide URL resolved within /liquid-glass-kit/docs;390px viewport had no horizontal overflow,16px editor/terminal text and44px terminal inputs. Published87-file release archive downloaded independently; sha2569c9dcd12653025ad26f0843369af51719575eeeb4a1767323b049f39b6cdcd3a,package version0.14.0-preview.1. Public screenshot bytes match local media digests. Preview-fixture timing excludes network; published one-off startup timing is not promoted as a loading benchmark.
+
+
+## Workbench0.14.0-preview.2 audit patch
+
+Unit/build: `npm run check` passes161 tests in15 files, both core/workbench typechecks, packaged SSR export checks and15 production site routes. Packaging: `npm pack --dry-run` passes87 files. No runtime dependencies or root/default CSS additions.
+
+Native T3 Chrome152 validation is separate: manual tabs return entry indices [0,-1] after leaving; disabling selected A emits B/A, then all-disabled emits null/B. Palette ArrowUp from its filter focuses the last action. Controlled persisted pagehide/pageshow leaves editor and branch commands operational; this tests event handling, not actual BFCache eligibility. Parsed-token preview ignores quoted declarations and --padding; actual --corner18px/padding20px/--accent#abcdef set the live card.30,000 malformed characters returned30 diagnostics in one51.6ms native lint call; this single call is not a comparative benchmark.
+
+Raw native tabs benchmark: five1,000-selection runs over12 tabs,100 warm selections;6.9ms median; zero scheduled frames or bounding reads; one visible panel and attributes restored. Exact module3936raw/1549gzip bytes; widget CSS2010/865. See benchmarks/workbench.json. Preserve first-preview evidence separately in workbench-preview1.json.
+
+Paired Node benchmark: AMD Ryzen5 6600H, Node24.21.0; five alternating synchronous calls per implementation on30,000-character repeated close-braces/newlines. Median1467.391288ms old vs83.315888ms patch; both return30 diagnostics. All runs, cold work, commits/input/source hashes and scope are in benchmarks/workbench-lint.json. Browser/editor/paint and general page performance are excluded.

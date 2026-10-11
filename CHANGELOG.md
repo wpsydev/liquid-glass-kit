@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.14.0-preview.2
+
+- Emit disabled-state fallback tab selection changes, including all-disabled null; restore selected roving entry after manual focus leaves.
+- Fix palette ArrowUp entry, preserve controllers on persisted pagehide, and parse exact preview declarations instead of matching strings or similarly named properties.
+- Stop collecting diagnostics at30 before further line counting; record scoped paired malformed-CSS measurements. Preserve the first preview and its benchmark evidence.
+
 ## 0.14.0-preview.1
 
 - Add optional dependency-free, SSR-safe `/tabs`: automatic/manual activation, RTL/vertical arrows, disabled handling, roving focus, panel visibility, selection events and owned-attribute cleanup.

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "version": "0.14.0-preview.1",
-  "status": "prepared",
+  "status": "published",
   "sourceSha256": "ec792caf60aef251ce4c075884f1c9bafd981e650b2c92a169d3daf99a893ea3",
   "media": [
     {
@@ -22,5 +22,33 @@
     "extractedArchive": "87 files,0.14.0-preview.1,no runtime dependencies;14 optional/nonpeer JS entrypoints imported without window/document/React/Vue",
     "tour": "Native12-second tour completed:fixed rules,38px radius,experiment branch,light theme,Play12s button restored,no running animation. Controlled reduced-motion query skipped timing and applied known fixes."
   },
-  "publication": null
+  "publication": {
+    "release": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.14.0-preview.1",
+    "releaseCommit": "5ebeffa3f4a7d9a46c21000928fc61ee78af1730",
+    "siteCorrectionCommit": "8fe3ca46018a556b3cb43b53b4b8a848071af031",
+    "demo": "https://wpsydev.github.io/liquid-glass-kit/workbench/",
+    "x": "https://x.com/wpsygames/status/2109077010408427750",
+    "methodReply": "https://x.com/wpsygames/status/2109077499850469439",
+    "npm": "Registry publication pending;GitHub ready-built archive/tag installation available.",
+    "archive": {
+      "bytes": 182117,
+      "sha256": "9c9dcd12653025ad26f0843369af51719575eeeb4a1767323b049f39b6cdcd3a",
+      "verified": "Independent public binary download;87 members;version0.14.0-preview.1"
+    },
+    "actions": {
+      "release": 38098020655,
+      "releaseVerify": 38098020642,
+      "releasePages": 38098020626,
+      "siteVerify": 38098091363,
+      "sitePages": 38098091344,
+      "conclusions": "success"
+    },
+    "nativePublic": "Actual hosted dynamic editor/model initialized; native lint/fix works,guide path correct,390px no overflow/16px editor text/44px terminal fields. Two X images have descriptions; direct post receipt verified."
+  },
+  "patch": {
+    "version": "0.14.0-preview.2",
+    "status": "validated-awaiting-publication",
+    "checks": "161 tests;87-file pack; native palette/token/tab/controlled persisted lifecycle checks; paired Node lint runs",
+    "sourceSha256": "a7b78ecd178a35b8321c84281e60d0094a3357705e0dbd48ed2605dfeb67b4d8"
+  }
 }

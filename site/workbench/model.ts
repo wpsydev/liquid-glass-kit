@@ -7,6 +7,9 @@ export function inspect(source: string): Problem[] {
   if (source.length > 64000) return [{from:0,to:0,severity:'warning',message:'Demo lint is limited to 64,000 characters. Reduce this document to enable checks.',rule:'document-limit',line:1}];
   const problems: Problem[] = [];
   const add = (from: number, to: number, severity: Problem['severity'], message: string, rule: string) => {
+    // Bound collection before calculating line numbers, not only at return.
+    if (problems.length >= 30) return;
+    if (rule !== 'syntax' && tree.resolveInner(from, 1).name !== 'PropertyName') return;
     problems.push({ from, to: Math.max(from, to), severity, message, rule, line: source.slice(0, from).split('\n').length });
   };
   const tree = cssLanguage.parser.parse(source);
@@ -15,16 +18,7 @@ export function inspect(source: string): Problem[] {
   } });
   for (const match of source.matchAll(/\bborder-raduis\b/g)) add(match.index!, match.index! + match[0].length, 'error', 'Unknown property. Use border-radius.', 'property-typo');
   for (const match of source.matchAll(/\btransition\s*:\s*all\b/g)) add(match.index!, match.index! + match[0].length, 'warning', 'Name the animated properties to avoid accidental layout animation.', 'explicit-transition');
-  // Focused teaching rules, not a general CSS conformance engine. Ignore comments
-  // and quoted strings for rules; syntactic errors remain parser-derived.
-  return problems.filter(problem => {
-    if (problem.rule === 'syntax') return true;
-    let node = tree.resolveInner(problem.from, 1);
-    // A custom-property definition/reference or value is not this property.
-    if (node.name !== 'PropertyName') return false;
-    while (node.parent) { if (node.name === 'Comment' || node.name === 'StringLiteral') return false; node = node.parent; }
-    return true;
-  }).slice(0, 30);
+  return problems;
 }
 export function fixSurface(source: string) {
   // Only replace spans diagnosed by the linter, leaving comments/string text alone.
@@ -35,11 +29,18 @@ export function fixSurface(source: string) {
 }
 export function tokens(source: string) {
   // Restricted numeric/color tokens only. Never inject arbitrary CSS or run code.
-  const stripped = source.replace(/\/\*[\s\S]*?\*\//g, '');
-  const corners = [...stripped.matchAll(/--corner\s*:\s*(\d+(?:\.\d+)?)px\s*;/g)];
-  const accents = [...stripped.matchAll(/--accent\s*:\s*(#[a-f\d]{6})\s*;/gi)];
-  const pads = [...stripped.matchAll(/\bpadding\s*:\s*(\d+(?:\.\d+)?)px\s*;/g)];
-  return { corner: Math.min(48, Math.max(0, Number(corners.at(-1)?.[1] ?? 24))), accent: accents.at(-1)?.[1] ?? '#b8ecc9', padding: Math.min(36, Math.max(12, Number(pads.at(-1)?.[1] ?? 24))) };
+  const result = {corner:24,accent:'#b8ecc9',padding:24};
+  if (source.length > 64000) return result;
+  cssLanguage.parser.parse(source).iterate({enter(node) {
+    if (node.name !== 'Declaration') return;
+    const declaration = source.slice(node.from, node.to);
+    const size = /^(--corner|padding)\s*:\s*(\d+(?:\.\d+)?)px$/.exec(declaration);
+    const color = /^--accent\s*:\s*(#[a-f\d]{6})$/i.exec(declaration);
+    if (size?.[1] === '--corner') result.corner = Math.min(48, Math.max(0, Number(size[2])));
+    else if (size) result.padding = Math.min(36, Math.max(12, Number(size[2])));
+    if (color) result.accent = color[1];
+  }});
+  return result;
 }
 export function runCommand(workspace: Workspace, command: string): string {
   const [name, ...args] = command.trim().split(/\s+/);

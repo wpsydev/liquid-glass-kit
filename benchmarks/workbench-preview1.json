@@ -1,0 +1,345 @@
+{
+  "version": "0.14.0-preview.1",
+  "sourceSha256": "ec792caf60aef251ce4c075884f1c9bafd981e650b2c92a169d3daf99a893ea3",
+  "artifacts": [
+    {
+      "path": "dist/tabs.js",
+      "bytes": 3630,
+      "gzipBytes": 1467,
+      "sha256": "a632ec34c54e6149274c3c0e8f459c5f45b8489d0c26059fda57ebce3c71f4bd"
+    },
+    {
+      "path": "dist/workbench.css",
+      "bytes": 2010,
+      "gzipBytes": 865,
+      "sha256": "16c8719f215b8b5db15e3b006f730357249995f33f070c5be08a67f2342b7a67"
+    }
+  ],
+  "dependencyScope": "New entrypoints have no runtime dependencies; CodeMirror and Lezer are site-only dev dependencies.",
+  "browser": {
+    "attributesRestored": true,
+    "boundingRectReads": 0,
+    "dpr": 2,
+    "iterationsPerRun": 1000,
+    "medianMs": 8.100000023841858,
+    "runsMs": [
+      7.299999952316284,
+      18.700000047683716,
+      10.399999976158142,
+      7,
+      8.100000023841858
+    ],
+    "scheduledAnimationFrames": 0,
+    "scope": "Warm synchronous selection submissions; excludes paint, compositor and focus/editor work. Clock and device specific. No baseline speedup claim.",
+    "selection": "bench-tab-3",
+    "tabCount": 12,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+    "viewport": [
+      1280,
+      800
+    ],
+    "visiblePanels": 1
+  },
+  "layoutValidation": [
+    {
+      "horizontalOverflow": false,
+      "smallControls": [],
+      "viewport": [
+        320,
+        568
+      ],
+      "windows": [
+        {
+          "left": 14,
+          "name": "window editor-window lg-glass",
+          "right": 291
+        },
+        {
+          "left": 14,
+          "name": "window preview-window lg-glass",
+          "right": 291
+        },
+        {
+          "left": 14,
+          "name": "window terminal-window lg-glass",
+          "right": 291
+        },
+        {
+          "left": 14,
+          "name": "window problems-window lg-glass",
+          "right": 291
+        }
+      ]
+    },
+    {
+      "horizontalOverflow": false,
+      "smallControls": [],
+      "viewport": [
+        390,
+        844
+      ],
+      "windows": [
+        {
+          "left": 14,
+          "name": "window editor-window lg-glass",
+          "right": 361
+        },
+        {
+          "left": 14,
+          "name": "window preview-window lg-glass",
+          "right": 361
+        },
+        {
+          "left": 14,
+          "name": "window terminal-window lg-glass",
+          "right": 361
+        },
+        {
+          "left": 14,
+          "name": "window problems-window lg-glass",
+          "right": 361
+        }
+      ]
+    },
+    {
+      "horizontalOverflow": false,
+      "smallControls": [],
+      "viewport": [
+        568,
+        320
+      ],
+      "windows": [
+        {
+          "left": 14,
+          "name": "window editor-window lg-glass",
+          "right": 539
+        },
+        {
+          "left": 14,
+          "name": "window preview-window lg-glass",
+          "right": 539
+        },
+        {
+          "left": 14,
+          "name": "window terminal-window lg-glass",
+          "right": 539
+        },
+        {
+          "left": 14,
+          "name": "window problems-window lg-glass",
+          "right": 539
+        }
+      ]
+    },
+    {
+      "horizontalOverflow": false,
+      "smallControls": [
+        {
+          "height": 36,
+          "id": "palette-trigger",
+          "width": 36
+        },
+        {
+          "height": 32,
+          "id": "fix",
+          "width": 102.34375
+        },
+        {
+          "height": 36,
+          "id": "css-tab",
+          "width": 93.34375
+        },
+        {
+          "height": 36,
+          "id": "notes-tab",
+          "width": 98.484375
+        },
+        {
+          "height": 36,
+          "id": "theme",
+          "width": 36
+        },
+        {
+          "height": 35.5,
+          "id": "preview-action",
+          "width": 182.578125
+        },
+        {
+          "height": 36,
+          "id": "split",
+          "width": 36
+        },
+        {
+          "height": 28,
+          "id": "command-one",
+          "width": 117.0625
+        },
+        {
+          "height": 28,
+          "id": "Run session one command",
+          "width": 28
+        },
+        {
+          "height": 28,
+          "id": "command-two",
+          "width": 116.0703125
+        },
+        {
+          "height": 28,
+          "id": "Run session two command",
+          "width": 28
+        },
+        {
+          "height": 32,
+          "id": "tour",
+          "width": 91.1484375
+        },
+        {
+          "height": 32,
+          "id": "reset",
+          "width": 113.140625
+        }
+      ],
+      "viewport": [
+        768,
+        1024
+      ],
+      "windows": [
+        {
+          "left": 38,
+          "name": "window editor-window lg-glass",
+          "right": 422.4140625
+        },
+        {
+          "left": 440.4140625,
+          "name": "window preview-window lg-glass",
+          "right": 714.9921875
+        },
+        {
+          "left": 38,
+          "name": "window terminal-window lg-glass",
+          "right": 422.4140625
+        },
+        {
+          "left": 440.4140625,
+          "name": "window problems-window lg-glass",
+          "right": 714.9921875
+        }
+      ]
+    },
+    {
+      "horizontalOverflow": false,
+      "smallControls": [
+        {
+          "height": 36,
+          "id": "palette-trigger",
+          "width": 36
+        },
+        {
+          "height": 32,
+          "id": "fix",
+          "width": 102.34375
+        },
+        {
+          "height": 36,
+          "id": "css-tab",
+          "width": 93.34375
+        },
+        {
+          "height": 36,
+          "id": "notes-tab",
+          "width": 98.484375
+        },
+        {
+          "height": 36,
+          "id": "theme",
+          "width": 36
+        },
+        {
+          "height": 35.5,
+          "id": "preview-action",
+          "width": 178.4140625
+        },
+        {
+          "height": 36,
+          "id": "split",
+          "width": 36
+        },
+        {
+          "height": 28,
+          "id": "command-one",
+          "width": 178.3671875
+        },
+        {
+          "height": 28,
+          "id": "Run session one command",
+          "width": 28
+        },
+        {
+          "height": 28,
+          "id": "command-two",
+          "width": 177.3671875
+        },
+        {
+          "height": 28,
+          "id": "Run session two command",
+          "width": 28
+        },
+        {
+          "height": 32,
+          "id": "tour",
+          "width": 91.1484375
+        },
+        {
+          "height": 32,
+          "id": "reset",
+          "width": 113.140625
+        }
+      ],
+      "viewport": [
+        1280,
+        800
+      ],
+      "windows": [
+        {
+          "left": 38,
+          "name": "window editor-window lg-glass",
+          "right": 938.5859375
+        },
+        {
+          "left": 956.5859375,
+          "name": "window preview-window lg-glass",
+          "right": 1227
+        },
+        {
+          "left": 38,
+          "name": "window terminal-window lg-glass",
+          "right": 545.015625
+        },
+        {
+          "left": 563.015625,
+          "name": "window problems-window lg-glass",
+          "right": 938.5859375
+        }
+      ]
+    }
+  ],
+  "productionSite": [
+    {
+      "name": "editor-CNackiDE.js",
+      "bytes": 39672,
+      "gzipBytes": 13630
+    },
+    {
+      "name": "model-DDfhNz1j.js",
+      "bytes": 336526,
+      "gzipBytes": 110905
+    },
+    {
+      "name": "workbench-BP9I9m-Y.js",
+      "bytes": 10911,
+      "gzipBytes": 4581
+    }
+  ],
+  "productionSiteScope": "These three named chunks exclude shared imports, CSS and HTML. Editor/lint are site-only dynamic chunks, warmed after250ms; no measured load-time speedup."
+}

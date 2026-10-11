@@ -1,0 +1,61 @@
+{
+  "node": "v24.21.0",
+  "cpu": "AMD Ryzen 5 6600H with Radeon Graphics",
+  "input": {
+    "characters": 30000,
+    "shape": "15000 repeated close-braces/newlines",
+    "sha256": "f645e30f23de15c4aab8545752a674e5641bc8bc7b0a899181afabd0fba1eafd"
+  },
+  "baseline": {
+    "commit": "5ebeffa3f4a7d9a46c21000928fc61ee78af1730",
+    "sourceSha256": "9711db61eeeb5f7397435c75ff4aef223026f7a35935dc8d8217e127cf286152",
+    "runs": [
+      {
+        "ms": 1467.391288,
+        "diagnostics": 30
+      },
+      {
+        "ms": 1537.2990810000001,
+        "diagnostics": 30
+      },
+      {
+        "ms": 1470.0855340000003,
+        "diagnostics": 30
+      },
+      {
+        "ms": 1437.802971,
+        "diagnostics": 30
+      },
+      {
+        "ms": 1422.9389659999988,
+        "diagnostics": 30
+      }
+    ]
+  },
+  "current": {
+    "sourceSha256": "e189d9a64023432b757c98e2a017bf34020aa3d37a79f81620d92ee4a7346122",
+    "runs": [
+      {
+        "ms": 101.39036299999998,
+        "diagnostics": 30
+      },
+      {
+        "ms": 93.14966800000002,
+        "diagnostics": 30
+      },
+      {
+        "ms": 81.86518800000067,
+        "diagnostics": 30
+      },
+      {
+        "ms": 83.31588800000009,
+        "diagnostics": 30
+      },
+      {
+        "ms": 81.68863799999963,
+        "diagnostics": 30
+      }
+    ]
+  },
+  "scope": "Synthetic Node synchronous lint calls, five alternating runs per implementation. Includes parse/diagnostic collection; excludes browser/editor/UI/paint and general page speed. Retains30 returned diagnostics. First run includes cold work."
+}

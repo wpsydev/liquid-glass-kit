@@ -39,13 +39,17 @@ export function attachGlassTabs(list: HTMLElement, initial: GlassTabsOptions = {
       panel.hidden = tab !== selected;
     });
   };
+  const announceSelection = (previousId: string | null) => {
+    const id = selected?.id ?? null;
+    if (previousId !== id) list.dispatchEvent(new view.CustomEvent('lg-tab-change', { bubbles: true, detail: { id, previousId } }));
+  };
   const select = (id: string, focus = false) => {
     const tab = tabs.find(tab => tab.id === id);
     if (destroyed || !tab || !enabled(tab)) return false;
     const previousId = selected?.id ?? null;
     selected = roving = tab; paint();
     if (focus) tab.focus();
-    if (previousId !== id) list.dispatchEvent(new view.CustomEvent('lg-tab-change', { bubbles: true, detail: { id, previousId } }));
+    announceSelection(previousId);
     return true;
   };
   const target = (event: Event) => tabs.find(tab => tab === event.target);
@@ -54,6 +58,12 @@ export function attachGlassTabs(list: HTMLElement, initial: GlassTabsOptions = {
     const tab = target(event); if (!tab || !enabled(tab)) return;
     roving = tab;
     if (options.activation !== 'manual') select(tab.id); else paint();
+  };
+  const blur = (event: FocusEvent) => {
+    const next = event.relatedTarget as Node | null;
+    if (next?.nodeType && list.contains(next)) return;
+    // Return the single Tab stop to the active panel when manual navigation exits.
+    roving = selected; paint();
   };
   const key = (event: KeyboardEvent) => {
     const tab = target(event); if (!tab || !enabled(tab) || event.altKey || event.ctrlKey || event.metaKey) return;
@@ -74,17 +84,19 @@ export function attachGlassTabs(list: HTMLElement, initial: GlassTabsOptions = {
     }
     available[index].focus();
   };
-  const unlisten = listen([[list, 'click', click], [list, 'focusin', focus], [list, 'keydown', key as EventListener]]);
+  const unlisten = listen([[list, 'click', click], [list, 'focusin', focus], [list, 'focusout', blur as EventListener], [list, 'keydown', key as EventListener]]);
   paint();
   return {
     select,
     get selectedId() { return selected?.id ?? null; },
     update(next: GlassTabsOptions = {}) {
       if (destroyed) return;
+      const previousId = selected?.id ?? null;
       options = next;
       if (!selected || !enabled(selected)) selected = tabs.find(enabled);
       if (!roving || !enabled(roving)) roving = selected;
       paint();
+      announceSelection(previousId);
     },
     destroy() {
       if (destroyed) return;
