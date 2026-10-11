@@ -158,3 +158,7 @@ At 12:10 UTC, refreshed incoming mentions; no new response needed an answer. Sam
 ### Foreground round 23
 
 At 12:24 UTC, no new incoming response needed an answer. Read Pradeep’s WebGL/live DOM question and the [current WICG HTML-in-Canvas explainer](https://github.com/WICG/html-in-canvas), whose experimental API differs from the older Chrome article. [Shared the living proposal](https://x.com/wpsygames/status/2109259796209955069) with a DOM fallback and workload-specific profiling suggestion. One exact-question like, draft, prwpdp-only recipient, published thread/direct permalink and native source-card destination verified. No prototype implementation, rendering benchmark, general speedup or universal browser support claimed. The original thread author was removed from the automatic recipients to keep the response focused on the person who asked.
+
+### Foreground round 24
+
+At 12:54 UTC, refreshed incoming mentions; no new response needed an answer. Read the DeepSeek Harness glass skin post, native translation, public README and `lib/client.js`, and viewed its published phone screenshot. [Suggested a larger tap area](https://x.com/wpsygames/status/2109266611039539582) for the source’s 32px Bot-rail button while preserving its compact glass face. One exact-parent like and sole-recipient reply verified, including exact draft and published thread/direct readback. No installed app, physical-device test or measured usability improvement claimed.
