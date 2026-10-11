@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.16.0-preview.1",
+  "version": "0.17.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -124,7 +124,12 @@
     "./scroll-reveal": {
       "types": "./dist/scroll-reveal.d.ts",
       "import": "./dist/scroll-reveal.js"
-    }
+    },
+    "./activity-island": {
+      "types": "./dist/activity-island.d.ts",
+      "import": "./dist/activity-island.js"
+    },
+    "./activity-island.css": "./dist/activity-island.css"
   },
   "scripts": {
     "build": "node scripts/clean.mjs && node scripts/compile-library.mjs && node scripts/build.mjs",

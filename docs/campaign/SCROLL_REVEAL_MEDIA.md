@@ -8,3 +8,7 @@ The poster and desktop/mobile browser frames were visually inspected. Publicatio
 
 SHA256: `b955571082f365c456c4d1d03d2e03e4b47184cdcc3996c52aa0db9ea2d73a6e`
 Bytes: 1211719
+
+Published release assets match local video/poster sizes. Native X upload buffer SHA256 matched the local film. Main post: https://x.com/wpsygames/status/2109415222024782267; native playback duration 12.00009 seconds. Implementation reply: https://x.com/wpsygames/status/2109415548971008016.
+
+Performance-context reply verified: https://x.com/wpsygames/status/2109416095623131549; native post includes the matching release link card.

@@ -9,7 +9,11 @@ for (const file of await readdir('dist')) if (file.endsWith('.js')) {
   await writeFile(`dist/${file}`, result.code + '\n');
 }
 const material = await readFile('src/material.css', 'utf8');
-for (const name of ['material', 'scroll-edge', 'indicator', 'motion', 'workbench', 'dock']) await copyFile(`src/${name}.css`, `dist/${name}.css`);
+const pkg = JSON.parse(await readFile('package.json', 'utf8'));
+for (const value of Object.values(pkg.exports)) if (typeof value === 'string' && value.endsWith('.css')) {
+  const name = value.slice('./dist/'.length);
+  if (name !== 'styles.css') await copyFile(`src/${name}`, `dist/${name}`);
+}
 // Preserve the previous aggregate stylesheet's exact rules and ordering.
 await writeFile('dist/styles.css', material + '\n' + await readFile('src/scroll-edge.css', 'utf8') + '\n' + await readFile('src/indicator.css', 'utf8') + '\n' + await readFile('src/motion.css', 'utf8'));
 await mkdir('site/public', { recursive: true });

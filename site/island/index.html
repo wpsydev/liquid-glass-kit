@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#102930" />
+  <meta name="description" content="An interactive, local-only activity console built with Liquid Glass Kit. Review requests, compare a diff, and keep several sessions in view." />
+  <title>Relay — Liquid Glass Activity Island</title>
+</head>
+<body>
+  <main class="relay" id="relay">
+    <header class="masthead">
+      <a class="wordmark" href="../" aria-label="Liquid Glass Kit home"><span class="brand-symbol" aria-hidden="true">↗</span> LIQUID GLASS KIT</a>
+      <span class="edition">INTERFACE STUDY / 02</span>
+    </header>
+    <section class="introduction" aria-labelledby="page-title">
+      <div><p class="eyebrow">AN ACTIVITY ISLAND FOR THE WEB</p><h1 id="page-title">Keep the work<br /><em>in view.</em></h1></div>
+      <p class="intro-copy">A quiet place for decisions.<br />Permissions, previews, and prompts.<br /><span>One surface. Your host stays in control.</span></p>
+    </section>
+    <nav class="scenario-nav" aria-label="Demo scenarios">
+      <button type="button" data-scenario="permission" aria-pressed="true"><span>01</span> Permission</button>
+      <button type="button" data-scenario="diff" aria-pressed="false"><span>02</span> Diff</button>
+      <button type="button" data-scenario="question" aria-pressed="false"><span>03</span> Question</button>
+      <button type="button" data-scenario="plan" aria-pressed="false"><span>04</span> Plan</button>
+      <button type="button" data-scenario="completion" aria-pressed="false"><span>05</span> Complete</button>
+      <button type="button" data-scenario="multisession" aria-pressed="false"><span>06</span> Sessions</button>
+    </nav>
+    <section class="console" aria-label="Relay interactive console">
+      <div class="console-bar"><div><span class="signal-dot" aria-hidden="true"></span> RELAY <span class="bar-divider">/</span> <span id="scene-label">Permission review</span></div><span class="simulation">LOCAL SIMULATION</span></div>
+      <div class="workspace">
+        <section class="stage" aria-label="Interactive activity island">
+          <svg class="signal-map" viewBox="0 0 640 610" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><pattern id="relay-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#b8d2cf" stroke-opacity=".08" /></pattern><linearGradient id="relay-trace"><stop stop-color="#63d2bb" stop-opacity="0" /><stop offset=".5" stop-color="#63d2bb" stop-opacity=".6" /><stop offset="1" stop-color="#63d2bb" stop-opacity="0" /></linearGradient></defs>
+            <rect width="640" height="610" fill="url(#relay-grid)" />
+            <g fill="none" stroke="#bad6d0" stroke-opacity=".11"><circle cx="320" cy="310" r="245" /><circle cx="320" cy="310" r="190" /><circle cx="320" cy="310" r="120" /><path d="M0 310H640M320 0V610M80 75L560 545M80 545L560 75" /></g>
+            <g class="traces" fill="none" stroke="url(#relay-trace)" stroke-width="2"><path d="M25 510H105L170 445V350H320V195L405 110H620" /><path d="M40 110H125L190 175V310H385L450 375V505H605" /></g>
+            <g fill="#8ce3cb"><circle cx="105" cy="510" r="4" /><circle cx="450" cy="375" r="4" /><circle cx="405" cy="110" r="4" /></g>
+            <g fill="#b6cdc8" fill-opacity=".55" font-family="monospace" font-size="10" letter-spacing="2"><text x="24" y="40">HOST / LOCAL</text><text x="24" y="584">CHANNEL 01</text><text x="494" y="584">REVIEW → RETURN</text></g>
+          </svg>
+          <div class="stage-caption"><span id="scene-number">01 / 06</span><span id="scene-note">A decision, with context.</span></div>
+          <div class="island-host" id="island-host"></div>
+          <div class="stage-footer"><span class="stage-status" id="stage-status">Waiting for your decision</span><span aria-hidden="true">↗</span></div>
+        </section>
+        <aside class="ledger" aria-labelledby="ledger-title">
+          <div class="ledger-heading"><p class="eyebrow">HOST EVENT LEDGER</p><h2 id="ledger-title">The other side<br />of the glass.</h2><p>Every control calls this local demo host. Nothing runs or uploads.</p></div>
+          <ol id="event-log" class="event-log" aria-label="Recent local host events"></ol>
+          <div class="routing"><span class="routing-label">HOST-OWNED STATE</span><div><span>request</span><span aria-hidden="true">→</span><span>decision</span><span aria-hidden="true">→</span><span>update</span></div><p id="host-summary">1 session · 1 pending request</p></div>
+        </aside>
+      </div>
+      <div class="console-controls"><div class="preferences"><label><input type="checkbox" id="reduced-motion" /> Reduce motion</label><label><input type="checkbox" id="solid-surfaces" /> Solid surfaces</label></div><div class="tour-controls"><button type="button" id="tour">Play 12s tour <span aria-hidden="true">▷</span></button><button type="button" id="reset">Reset</button></div></div>
+    </section>
+    <footer class="page-footer"><span>REAL CONTROLS. SIMULATED WORK.</span><p>Permission · Diff · Question · Plan · Prompt · Multiple sessions</p><a href="https://github.com/wpsydev/liquid-glass-kit">Explore the kit <span aria-hidden="true">↗</span></a></footer>
+    <p id="demo-announcement" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+  <script type="module" src="./main.ts"></script>
+</body>
+</html>

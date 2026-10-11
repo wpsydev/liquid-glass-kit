@@ -1,0 +1,41 @@
+{
+  "batches": [
+    {
+      "customRafRequests": 0,
+      "mountUpdateDestroyMs": 15.300000071525574,
+      "operations": 100,
+      "rectangleReads": 0
+    },
+    {
+      "customRafRequests": 0,
+      "mountUpdateDestroyMs": 11.5,
+      "operations": 100,
+      "rectangleReads": 0
+    },
+    {
+      "customRafRequests": 0,
+      "mountUpdateDestroyMs": 11.799999952316284,
+      "operations": 100,
+      "rectangleReads": 0
+    },
+    {
+      "customRafRequests": 0,
+      "mountUpdateDestroyMs": 15.600000023841858,
+      "operations": 100,
+      "rectangleReads": 0
+    },
+    {
+      "customRafRequests": 0,
+      "mountUpdateDestroyMs": 17.399999976158142,
+      "operations": 100,
+      "rectangleReads": 0
+    }
+  ],
+  "observedAtUtc": "2026-10-11T22:47:12.431Z",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "viewport": {
+    "dpr": 2,
+    "height": 800,
+    "width": 1280
+  }
+}

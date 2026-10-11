@@ -6,12 +6,12 @@
     {
       "order": 1,
       "url": "https://scrolltide.co",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Optional native scroll reveal",
       "version": "0.16.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/scroll/",
       "video": "docs/campaign/assets/scroll-reveal-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109415222024782267",
       "performance": [
         "benchmarks/scroll-reveal-payload.json",
         "benchmarks/scroll-reveal-browser.json"
@@ -450,13 +450,16 @@
   "additional": [
     {
       "url": "https://notchgate.netlify.app/",
-      "status": "implemented-awaiting-validation",
+      "status": "validated-awaiting-publication",
       "feature": "Activity Island: sessions, review requests and prompts",
-      "version": null,
+      "version": "0.17.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/activity-island-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/activity-island-payload.json",
+        "benchmarks/activity-island-browser.json"
+      ]
     }
   ]
 }

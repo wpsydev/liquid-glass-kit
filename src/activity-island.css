@@ -1,0 +1,50 @@
+.lg-activity-island{--lg-activity-bg:rgba(24,28,34,.92);--lg-activity-fg:#f8fafc;--lg-activity-line:rgba(255,255,255,.14);color:var(--lg-activity-fg);font:500 14px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:relative;width:min(480px,100%);max-width:calc(100vw - 24px);isolation:isolate;color-scheme:dark}
+.lg-activity-island *{box-sizing:border-box}
+.lg-activity-island button,.lg-activity-island input,.lg-activity-island textarea,.lg-activity-island summary{font:inherit}
+.lg-activity-island button,.lg-activity-island summary,.lg-activity-choice{min-height:44px}
+.lg-activity-island button{padding:9px 14px;border:1px solid var(--lg-activity-line);border-radius:14px;background:rgba(255,255,255,.06);color:inherit;cursor:pointer;touch-action:manipulation;transition:background .16s ease,transform .16s ease}
+.lg-activity-island button:hover{background:rgba(255,255,255,.13)}
+.lg-activity-island button:active{transform:scale(.98)}
+.lg-activity-island button:disabled{opacity:.5;cursor:default;transform:none}
+.lg-activity-island :focus-visible{outline:2px solid #a5d8ff;outline-offset:3px}
+.lg-activity-toggle{display:flex;align-items:center;justify-content:center;gap:10px;max-width:100%;margin-inline:auto;box-shadow:0 8px 28px #0003!important;background:var(--lg-activity-bg)!important;border-radius:999px!important}
+.lg-activity-toggle>span:nth-child(2){overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:260px}
+.lg-activity-dot{width:8px;height:8px;flex:none;background:#70e5b2;border-radius:50%}
+.lg-activity-count{font-size:12px;color:#afbac9;min-width:16px}
+.lg-activity-panel{margin-top:8px;padding:18px;border:1px solid var(--lg-activity-line);border-radius:28px;background:var(--lg-activity-bg);box-shadow:0 18px 70px #0004;max-height:min(650px,calc(100dvh - 110px - env(safe-area-inset-top) - env(safe-area-inset-bottom)));overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;animation:lg-activity-reveal .2s ease-out}
+.lg-activity-panel[hidden]{display:none}
+.lg-activity-header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+.lg-activity-island h2,.lg-activity-island h3,.lg-activity-island h4,.lg-activity-island p{margin:0 0 10px;overflow-wrap:anywhere}
+.lg-activity-island h2{font-size:17px}.lg-activity-island h3{font-size:19px}.lg-activity-island h4{font-size:12px;color:#b3bfce}
+.lg-activity-sessions{display:flex;gap:8px;overflow-x:auto;padding:4px;margin:0 -4px 12px}
+.lg-activity-sessions button{flex:none;max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lg-activity-sessions [aria-pressed=true]{background:rgba(162,213,255,.16);border-color:#a5d8ff66}
+.lg-activity-meta{display:flex;flex-wrap:wrap;gap:6px 12px;color:#bac5d3;font-size:12px;margin-bottom:14px}
+.lg-activity-meta>span,.lg-activity-island li{min-width:0;overflow-wrap:anywhere}
+.lg-activity-kind{text-transform:uppercase;letter-spacing:.08em;font-size:10px;color:#98d9ff;display:block;margin-bottom:5px}
+.lg-activity-code{font:12px/1.6 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;padding:12px;border-radius:12px;background:#0003;overflow:auto;max-height:220px;white-space:pre;margin:10px 0}
+.lg-activity-island details{border:1px solid var(--lg-activity-line);border-radius:12px;margin-bottom:10px;padding-inline:10px}
+.lg-activity-island summary{cursor:pointer;padding-block:10px;overflow-wrap:anywhere}
+.lg-activity-diff{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
+.lg-activity-diff section{min-width:0}
+.lg-activity-diff section:first-child .lg-activity-code{background:#ef6d7210;border-inline-start:2px solid #ef919166}.lg-activity-diff section:last-child .lg-activity-code{background:#68dbb010;border-inline-start:2px solid #68dbb066}
+.lg-activity-actions{display:flex;gap:8px;justify-content:flex-end;margin:14px 0}
+.lg-activity-primary{background:rgba(138,211,255,.22)!important;border-color:#91d5ff66!important}
+.lg-activity-island fieldset{border:0;padding:0;margin:0 0 10px}.lg-activity-island legend{font-size:12px;color:#bac5d3;margin-bottom:6px}
+.lg-activity-island .lg-activity-choice{display:flex;align-items:center;gap:10px;padding:8px 10px;border:1px solid var(--lg-activity-line);border-radius:12px;margin-bottom:7px;cursor:pointer}
+.lg-activity-island label{display:block;margin-bottom:10px;overflow-wrap:anywhere}
+.lg-activity-island textarea{display:block;width:100%;resize:vertical;min-height:70px;border:1px solid var(--lg-activity-line);border-radius:12px;background:#0003;color:inherit;font-size:16px;padding:10px;margin-top:6px}
+.lg-activity-island input[type=file]{display:block;width:100%;font-size:16px;min-height:44px;margin-top:6px;overflow:hidden}
+.lg-activity-island input[type=file]::file-selector-button{min-height:44px;border:0;border-radius:10px;padding:8px;background:#ffffff18;color:inherit;margin-right:8px}
+.lg-activity-island input[type=radio]{width:18px;height:18px;accent-color:#a5d8ff;flex:none;margin:0}
+.lg-activity-composer{border-top:1px solid var(--lg-activity-line);margin-top:16px;padding-top:14px}
+.lg-activity-note{font-size:12px;color:#bac5d3;margin-top:10px!important}.lg-activity-error{font-size:12px;color:#ffb4b4;margin-top:10px!important}
+.lg-activity-live{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.lg-activity-meta progress{width:100%;height:6px;accent-color:#98d9ff}
+@supports(backdrop-filter:blur(1px)){.lg-activity-panel,.lg-activity-toggle{--lg-activity-bg:rgba(24,28,34,.8);backdrop-filter:blur(18px) saturate(1.2)}}
+@keyframes lg-activity-reveal{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:520px){.lg-activity-panel{padding:14px;border-radius:22px}.lg-activity-diff{grid-template-columns:minmax(0,1fr)}}
+@media(prefers-reduced-motion:reduce){.lg-activity-panel{animation:none}.lg-activity-island button{transition:none;transform:none!important}}
+.lg-activity-island[data-reduced-motion=true] .lg-activity-panel{animation:none}.lg-activity-island[data-reduced-motion=true] button{transition:none;transform:none!important}
+@media(prefers-reduced-transparency:reduce){.lg-activity-panel,.lg-activity-toggle{--lg-activity-bg:#181c22;backdrop-filter:none}}
+@media(forced-colors:active){.lg-activity-panel,.lg-activity-toggle{background:Canvas!important;color:CanvasText;border-color:CanvasText;backdrop-filter:none}.lg-activity-island button,.lg-activity-island textarea,.lg-activity-choice{border-color:ButtonText}.lg-activity-island :focus-visible{outline-color:Highlight}}

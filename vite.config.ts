@@ -28,6 +28,7 @@ export default defineConfig({
         dock: resolve('site/dock/index.html'),
         start: resolve('site/start/index.html'),
         scroll: resolve('site/scroll/index.html'),
+        island: resolve('site/island/index.html'),
       },
     },
   },

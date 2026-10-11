@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.17.0-preview.1
+
+- Add optional activity island for host-owned sessions, permission/diff/question/plan requests and prompts.
+- Preserve focused draft nodes during metadata updates; guard duplicate submissions and stale request revisions; expose retry for host failures.
+- Provide responsive 44px controls, 16px fields, Escape/focus restoration, motion/transparency fallbacks and explicit lifecycle cleanup.
+- Add original RELAY demonstration and scoped lifecycle/payload evidence. No runtime dependency or core/default CSS change.
+
+
 ## 0.16.0-preview.1 — Fieldnotes scroll reveal
 
 - Add optional `/scroll-reveal`: browser-owned entry timeline, timed viewport fallback and static reduced-motion presentation.

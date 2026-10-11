@@ -1,0 +1,15 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 608048,
+  "sha256": "7e740eaac31f5af469a4d0589911f40cef14bde8e028e3e2dbf559495f23d738",
+  "music": {
+    "style": "UK garage",
+    "bpm": 132,
+    "seed": 17,
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Actual T3 source-preview UI, adaptive capture, export FPS is not app FPS"
+}

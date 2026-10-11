@@ -11,7 +11,7 @@ const subtitlePath=resolve(`/tmp/lg-film-captions-${process.pid}.ass`);
 const header='[Script Info]\nScriptType: v4.00+\nPlayResX: 960\nPlayResY: 960\n\n[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\nStyle: Default,DejaVu Sans,24,&H00FFFFFF,&H00FFFFFF,&H00333B14,&H00333B14,0,0,0,0,100,100,0,0,1,0,0,2,24,24,39,1\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n';
 const at=s=>`0:00:${String(s).padStart(2,'0')}.00`;
 await writeFile(subtitlePath,header+captions.map((text,i)=>`Dialogue: 0,${at(i*4)},${at((i+1)*4)},Default,,0,0,0,,${text.replace(/[\r\n{}]/g,' ')}`).join('\n'));
-const filters=`scale=960:960:flags=lanczos,setsar=1,drawbox=x=24:y=882:w=912:h=56:color=0x143b33@0.94:t=fill,subtitles=${subtitlePath}`;
+const filters=`scale=960:960:flags=lanczos,setsar=1,fps=30,tpad=stop_mode=clone:stop_duration=12,drawbox=x=24:y=882:w=912:h=56:color=0x143b33@0.94:t=fill,subtitles=${subtitlePath}`;
 await mkdir(dirname(values.output),{recursive:true});
 const encoded=spawnSync(ffmpeg,['-y','-i',values.input,'-i',values.score,'-t','12','-vf',filters,'-af','loudnorm=I=-15:TP=-1.5:LRA=7','-r','30','-c:v','libx264','-preset','medium','-crf','19','-pix_fmt','yuv420p','-c:a','aac','-b:a','192k','-ar','48000','-ac','2','-movflags','+faststart',values.output],{encoding:'utf8',shell:false});
 if(encoded.status!==0)throw Error(encoded.stderr.slice(-4000));

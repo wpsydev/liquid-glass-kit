@@ -1,0 +1,12 @@
+{
+  "js": {
+    "rawBytes": 13331,
+    "gzipBytes": 4797,
+    "sourceSha256": "aadfba20470979ee3de493a25218c0fef0507e024cb5383e71ba2c8c59b1f5c1"
+  },
+  "css": {
+    "rawBytes": 6608,
+    "gzipBytes": 1995
+  },
+  "scope": "Five batches of 100 mount/update/destroy operations over three host-supplied sessions. Plain connected host; actual widget CSS present. Timings cover synchronous DOM/controller work, not browser layout/paint/compositing, network, execution or page FPS. No comparative speedup claim."
+}
