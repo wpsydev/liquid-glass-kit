@@ -1,0 +1,12 @@
+{
+  "js": {
+    "rawBytes": 7888,
+    "gzipBytes": 3076,
+    "sourceSha256": "ab3ec6fd163fd66fea5442ed8b4c1bd6cb931f464a1ac9eaad2a833dee4c9d7f"
+  },
+  "css": {
+    "rawBytes": 4446,
+    "gzipBytes": 1470
+  },
+  "scope": "Five 30-cycle mount/open/query/update/destroy batches with 1000 commands and maxResults20. Native modal/focus and any synchronous browser work forced by these APIs are included. Excludes frame progression/paint/compositing/FPS, network and host execution. No comparative speedup."
+}

@@ -7,3 +7,5 @@ The native T3 source-preview tour drives actual permission and diff buttons, the
 Payload and SHA256 are recorded in ACTIVITY_ISLAND_MEDIA.json. Published release assets and X playback readback will be recorded after posting.
 
 Published release media sizes match local files. Native upload buffer digest matched recorded SHA256. Main X post https://x.com/wpsygames/status/2109418794401562849 verified with actual12-second playback. Source-credit reply https://x.com/wpsygames/status/2109420053389046157 verified.
+
+Host identity/performance-scope reply verified: https://x.com/wpsygames/status/2109421220206903483.

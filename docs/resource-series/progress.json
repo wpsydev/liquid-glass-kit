@@ -20,12 +20,12 @@
     {
       "order": 2,
       "url": "https://designmd.ai",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Design contract",
       "version": "0.18.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/design-contract/",
       "video": "docs/campaign/assets/design-contract-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109422776532766940",
       "performance": [
         "benchmarks/design-contract.json"
       ]
@@ -33,13 +33,16 @@
     {
       "order": 3,
       "url": "https://vibeprompts.dev",
-      "status": "implemented-awaiting-validation",
-      "feature": "Command palette",
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Native command palette",
+      "version": "0.19.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/command-palette-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/command-palette-payload.json",
+        "benchmarks/command-palette-browser.json"
+      ]
     },
     {
       "order": 4,
@@ -99,7 +102,7 @@
     {
       "order": 9,
       "url": "https://awwwards.com",
-      "status": "researching",
+      "status": "implemented-awaiting-validation",
       "feature": null,
       "version": null,
       "demo": null,
@@ -110,7 +113,7 @@
     {
       "order": 10,
       "url": "https://landing.love",
-      "status": "researching",
+      "status": "implemented-awaiting-validation",
       "feature": null,
       "version": null,
       "demo": null,
@@ -121,7 +124,7 @@
     {
       "order": 11,
       "url": "https://land-book.com",
-      "status": "researching",
+      "status": "implemented-awaiting-validation",
       "feature": null,
       "version": null,
       "demo": null,
@@ -132,7 +135,7 @@
     {
       "order": 12,
       "url": "https://mobbin.com",
-      "status": "researching",
+      "status": "implemented-awaiting-validation",
       "feature": null,
       "version": null,
       "demo": null,
@@ -143,7 +146,7 @@
     {
       "order": 13,
       "url": "https://hoverstat.es",
-      "status": "queued",
+      "status": "implementation-in-progress",
       "feature": null,
       "version": null,
       "demo": null,
@@ -154,7 +157,7 @@
     {
       "order": 14,
       "url": "https://navbar.gallery",
-      "status": "queued",
+      "status": "researched",
       "feature": null,
       "version": null,
       "demo": null,
@@ -165,7 +168,7 @@
     {
       "order": 15,
       "url": "https://footer.design",
-      "status": "queued",
+      "status": "researched",
       "feature": null,
       "version": null,
       "demo": null,
@@ -176,7 +179,7 @@
     {
       "order": 16,
       "url": "https://cta.gallery",
-      "status": "queued",
+      "status": "researched",
       "feature": null,
       "version": null,
       "demo": null,
@@ -187,7 +190,7 @@
     {
       "order": 17,
       "url": "https://supahero.io",
-      "status": "queued",
+      "status": "researched",
       "feature": null,
       "version": null,
       "demo": null,
@@ -198,7 +201,7 @@
     {
       "order": 18,
       "url": "https://pricingpages.design",
-      "status": "queued",
+      "status": "researched",
       "feature": null,
       "version": null,
       "demo": null,
@@ -209,7 +212,7 @@
     {
       "order": 19,
       "url": "https://21st.dev",
-      "status": "queued",
+      "status": "researched",
       "feature": null,
       "version": null,
       "demo": null,
@@ -220,7 +223,7 @@
     {
       "order": 20,
       "url": "https://ui.shadcn.com",
-      "status": "queued",
+      "status": "researched",
       "feature": null,
       "version": null,
       "demo": null,
@@ -231,7 +234,7 @@
     {
       "order": 21,
       "url": "https://ui.aceternity.com",
-      "status": "queued",
+      "status": "researched",
       "feature": null,
       "version": null,
       "demo": null,
@@ -242,7 +245,7 @@
     {
       "order": 22,
       "url": "https://magicui.design",
-      "status": "queued",
+      "status": "researched",
       "feature": null,
       "version": null,
       "demo": null,
@@ -253,7 +256,7 @@
     {
       "order": 23,
       "url": "https://motion-primitives.com",
-      "status": "queued",
+      "status": "researched",
       "feature": null,
       "version": null,
       "demo": null,
@@ -264,7 +267,7 @@
     {
       "order": 24,
       "url": "https://uiverse.io",
-      "status": "queued",
+      "status": "researched",
       "feature": null,
       "version": null,
       "demo": null,
@@ -275,7 +278,7 @@
     {
       "order": 25,
       "url": "https://smoothui.dev",
-      "status": "queued",
+      "status": "researching",
       "feature": null,
       "version": null,
       "demo": null,
@@ -286,7 +289,7 @@
     {
       "order": 26,
       "url": "https://shadcnblocks.com",
-      "status": "queued",
+      "status": "researching",
       "feature": null,
       "version": null,
       "demo": null,
@@ -297,7 +300,7 @@
     {
       "order": 27,
       "url": "https://kinetics.colorion.co",
-      "status": "queued",
+      "status": "researching",
       "feature": null,
       "version": null,
       "demo": null,
@@ -308,7 +311,7 @@
     {
       "order": 28,
       "url": "https://microkit.co",
-      "status": "queued",
+      "status": "researching",
       "feature": null,
       "version": null,
       "demo": null,

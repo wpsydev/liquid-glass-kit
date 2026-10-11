@@ -1,0 +1,56 @@
+{
+  "batches": [
+    {
+      "commands": 1000,
+      "customRafRequests": 0,
+      "maxRenderedRows": 20,
+      "maxResults": 20,
+      "mountQueryUpdateDestroyMs": 162.5,
+      "operations": 30,
+      "rectangleReads": 0
+    },
+    {
+      "commands": 1000,
+      "customRafRequests": 0,
+      "maxRenderedRows": 20,
+      "maxResults": 20,
+      "mountQueryUpdateDestroyMs": 86,
+      "operations": 30,
+      "rectangleReads": 0
+    },
+    {
+      "commands": 1000,
+      "customRafRequests": 0,
+      "maxRenderedRows": 20,
+      "maxResults": 20,
+      "mountQueryUpdateDestroyMs": 77.89999997615814,
+      "operations": 30,
+      "rectangleReads": 0
+    },
+    {
+      "commands": 1000,
+      "customRafRequests": 0,
+      "maxRenderedRows": 20,
+      "maxResults": 20,
+      "mountQueryUpdateDestroyMs": 75.80000007152557,
+      "operations": 30,
+      "rectangleReads": 0
+    },
+    {
+      "commands": 1000,
+      "customRafRequests": 0,
+      "maxRenderedRows": 20,
+      "maxResults": 20,
+      "mountQueryUpdateDestroyMs": 71,
+      "operations": 30,
+      "rectangleReads": 0
+    }
+  ],
+  "observedAtUtc": "2026-10-11T23:39:18.097Z",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "viewport": {
+    "dpr": 2,
+    "height": 800,
+    "width": 1280
+  }
+}

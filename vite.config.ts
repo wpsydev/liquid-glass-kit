@@ -30,6 +30,7 @@ export default defineConfig({
         scroll: resolve('site/scroll/index.html'),
         island: resolve('site/island/index.html'),
         designContract: resolve('site/design-contract/index.html'),
+        commands: resolve('site/commands/index.html'),
       },
     },
   },

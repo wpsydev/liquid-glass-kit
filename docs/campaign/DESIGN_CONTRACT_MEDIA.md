@@ -5,3 +5,5 @@ Original 12-second 960×960 H.264/yuv420p film, 360 exported frames at 30fps, AA
 Native T3 source-preview capture shows Field Notes, Command Room and Mono Atelier, then actual generated DESIGN.md. A second framing iteration keeps the full editor/preview in view. Three representative frames and the poster are visually reviewed. Media decodes successfully; export frame rate is not an application FPS measurement. The renderer can hold the last still to maintain exactly 12 seconds.
 
 Digest/payload are in DESIGN_CONTRACT_MEDIA.json. Publication and native X playback readback are recorded after posting.
+
+Release video/poster sizes match local files. Native upload digest matched the recorded SHA256. X main film https://x.com/wpsygames/status/2109422776532766940 verified at12 seconds/readyState4. Reference/format reply https://x.com/wpsygames/status/2109424865799467435 and integration-scope reply https://x.com/wpsygames/status/2109428002358792549 verified.

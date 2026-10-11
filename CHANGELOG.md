@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.19.0-preview.1
+
+- Add optional native modal command palette with labeled combobox/listbox, cached accent-insensitive search and bounded visible results.
+- Preserve text editing, keyboard navigation, IME, native modal/focus return and an explicit opt-in shortcut. Keep only search/Close in the owned Tab cycle.
+- Guard duplicate async actions, stale catalog nodes and old completion UI; expose retry and leave execution/authorization/cancellation to the host.
+- Add original Cutroom workflow, native viewport/keyboard checks and scoped thousand-command lifecycle/payload evidence. Default CSS/root imports stay unchanged.
+
+
 ## 0.18.0-preview.1
 
 - Add optional, pure design-contract authoring utility with bounded typed configuration, canonical DESIGN.md token/prose output, matching scoped theme CSS and own version-1 JSON parser.

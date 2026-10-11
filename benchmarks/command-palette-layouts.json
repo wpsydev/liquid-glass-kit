@@ -1,0 +1,336 @@
+{
+  "observedAtUtc": "2026-10-11T23:40:26.092Z",
+  "scope": "Native Chrome source preview; six query/theme states at five CSS viewport sizes, not physical phones",
+  "layouts": [
+    {
+      "height": 700,
+      "states": [
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 305,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "",
+          "scroll": 305,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 305,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "sound",
+          "scroll": 305,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 305,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "no matching command",
+          "scroll": 305,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 305,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "",
+          "scroll": 305,
+          "theme": "dusk"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 305,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "sound",
+          "scroll": 305,
+          "theme": "dusk"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 305,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "no matching command",
+          "scroll": 305,
+          "theme": "dusk"
+        }
+      ],
+      "width": 320
+    },
+    {
+      "height": 844,
+      "states": [
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 375,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "",
+          "scroll": 375,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 375,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "sound",
+          "scroll": 375,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 375,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "no matching command",
+          "scroll": 375,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 375,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "",
+          "scroll": 375,
+          "theme": "dusk"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 375,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "sound",
+          "scroll": 375,
+          "theme": "dusk"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 375,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "no matching command",
+          "scroll": 375,
+          "theme": "dusk"
+        }
+      ],
+      "width": 390
+    },
+    {
+      "height": 1024,
+      "states": [
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 753,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "",
+          "scroll": 753,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 753,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "sound",
+          "scroll": 753,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 753,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "no matching command",
+          "scroll": 753,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 753,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "",
+          "scroll": 753,
+          "theme": "dusk"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 753,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "sound",
+          "scroll": 753,
+          "theme": "dusk"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 753,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "no matching command",
+          "scroll": 753,
+          "theme": "dusk"
+        }
+      ],
+      "width": 768
+    },
+    {
+      "height": 390,
+      "states": [
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 829,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "",
+          "scroll": 829,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 829,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "sound",
+          "scroll": 829,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 829,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "no matching command",
+          "scroll": 829,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 829,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "",
+          "scroll": 829,
+          "theme": "dusk"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 829,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "sound",
+          "scroll": 829,
+          "theme": "dusk"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 829,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "no matching command",
+          "scroll": 829,
+          "theme": "dusk"
+        }
+      ],
+      "width": 844
+    },
+    {
+      "height": 900,
+      "states": [
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 1425,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "",
+          "scroll": 1425,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 1425,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "sound",
+          "scroll": 1425,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(246, 248, 251, 0.88)",
+          "client": 1425,
+          "fieldFont": "16px",
+          "ink": "rgb(21, 36, 58)",
+          "minButton": 44,
+          "query": "no matching command",
+          "scroll": 1425,
+          "theme": "paper"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 1425,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "",
+          "scroll": 1425,
+          "theme": "dusk"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 1425,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "sound",
+          "scroll": 1425,
+          "theme": "dusk"
+        },
+        {
+          "background": "rgba(42, 62, 51, 0.91)",
+          "client": 1425,
+          "fieldFont": "16px",
+          "ink": "rgb(242, 240, 230)",
+          "minButton": 44,
+          "query": "no matching command",
+          "scroll": 1425,
+          "theme": "dusk"
+        }
+      ],
+      "width": 1440
+    }
+  ]
+}
