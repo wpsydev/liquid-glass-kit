@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.14.0-preview.1
+
+- Add optional dependency-free, SSR-safe `/tabs`: automatic/manual activation, RTL/vertical arrows, disabled handling, roving focus, panel visibility, selection events and owned-attribute cleanup.
+- Add optional `/workbench.css` for system typography, tags, native fields, focus and short popover reveals; root imports/default CSS unchanged.
+- Add interactive Glass Workbench: split terminal histories, bounded in-memory commands/branches, dynamically split CodeMirror CSS editing, Lezer syntax plus focused lint/fixes, token preview and native command palette. No shell/network execution or general linter claim.
+- Add responsive native browser validation, raw selection/size benchmark and a 12-second guided interaction tour.
+
+
 ## 0.13.0-preview.1 — Caustic light studies
 
 - Add optional WebGL2 `caustics`: single-interface refracted mesh projection onto an owned planar receiver, up to eight sources, shared static UV/index buffers and one extra instanced draw.

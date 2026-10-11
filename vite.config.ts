@@ -24,6 +24,7 @@ export default defineConfig({
         fusion: resolve('site/fusion/index.html'),
         loading: resolve('site/loading/index.html'),
         caustics: resolve('site/caustics/index.html'),
+        workbench: resolve('site/workbench/index.html'),
       },
     },
   },

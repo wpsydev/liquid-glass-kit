@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "rootDir": ".", "types": ["vite/client"], "noEmit": true },
+  "include": ["site/workbench"]
+}

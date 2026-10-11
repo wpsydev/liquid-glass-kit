@@ -2,18 +2,18 @@
 
 **CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.13 caustics preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.14 workbench preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
 ![Material workbench](docs/assets/studio.webp)
 
-[Light studies](https://wpsydev.github.io/liquid-glass-kit/caustics/) · [Playground](https://wpsydev.github.io/liquid-glass-kit/) · [Soft Matter](https://wpsydev.github.io/liquid-glass-kit/fusion/) · [Glass flow](https://wpsydev.github.io/liquid-glass-kit/flow/) · [API](docs/API.md) · [Integrations](docs/INTEGRATIONS.md) · [Agent guide](llms-full.txt)
+[Code studio](https://wpsydev.github.io/liquid-glass-kit/workbench/) · [Light studies](https://wpsydev.github.io/liquid-glass-kit/caustics/) · [Playground](https://wpsydev.github.io/liquid-glass-kit/) · [Soft Matter](https://wpsydev.github.io/liquid-glass-kit/fusion/) · [Glass flow](https://wpsydev.github.io/liquid-glass-kit/flow/) · [API](docs/API.md) · [Integrations](docs/INTEGRATIONS.md) · [Agent guide](llms-full.txt)
 
 ## Start with CSS
 
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.13.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.14.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -103,3 +103,7 @@ TypeScript, Vite, Vitest and browser-native CSS/SVG/Web Animations. ESM only. [C
 ## Light studies
 
 Opt-in `caustics` projects refracted mesh light onto the owned scene. Six UI studies explore search, player, dock, range, toast and action. Shared static buffers, one instanced pass and a filtered light receiver keep cost bounded. This is a single-interface planar approximation, not full light transport or DOM capture. [Guide and research](docs/CAUSTICS.md) · [Try the studies](https://wpsydev.github.io/liquid-glass-kit/caustics/).
+
+## Code studio
+
+A glass coding workspace with a real CSS editor, focused live lint rules, two terminal histories, an in-memory branching command set, token preview and native command palette. Optional `/tabs` and `/workbench.css` add reusable developer-tool interactions while the core stays dependency-free. [Guide](docs/WORKBENCH.md) · [Try it](https://wpsydev.github.io/liquid-glass-kit/workbench/).

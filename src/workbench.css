@@ -1,0 +1,14 @@
+/* Optional developer-tool primitives. Combine surfaces with material.css.
+   No font download, backdrop layer, layout framework or perpetual animation. */
+.lg-workbench { --lg-workbench-accent: #90e7c2; --lg-workbench-ink: #edf5f2; color: var(--lg-workbench-ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.lg-code { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-variant-ligatures: none; tab-size: 2; }
+.lg-tag { display: inline-flex; align-items: center; gap: .4em; padding: .25em .65em; border: 1px solid currentColor; border-radius: 6px; font-size: .75em; line-height: 1.5; white-space: nowrap; }
+.lg-field { color: inherit; background: rgb(0 0 0 / .12); border: 1px solid rgb(255 255 255 / .2); border-radius: 10px; padding: .7em .85em; min-width: 0; transition: border-color 140ms, box-shadow 140ms; }
+.lg-field:focus-visible { outline: 2px solid var(--lg-workbench-accent, Highlight); outline-offset: 3px; }
+.lg-workbench [role=tab] { transition: color 140ms, background-color 140ms; }
+.lg-workbench [role=tab][aria-selected=true] { color: var(--lg-workbench-accent); background-color: rgb(255 255 255 / .08); }
+.lg-workbench button:focus-visible, .lg-workbench a:focus-visible { outline: 2px solid var(--lg-workbench-accent); outline-offset: 3px; }
+.lg-workbench [popover]:popover-open { animation: lg-workbench-reveal 160ms ease-out; transform-origin: var(--lg-overlay-origin, center); }
+@keyframes lg-workbench-reveal { from { opacity: 0; transform: translateY(4px) scale(.98); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .lg-field, .lg-workbench [role=tab] { transition: none; } .lg-workbench [popover]:popover-open { animation: none; } }
+@media (forced-colors: active) { .lg-field { border-color: ButtonText; background: Canvas; } .lg-workbench { --lg-workbench-accent: Highlight; --lg-workbench-ink: CanvasText; } .lg-workbench [role=tab][aria-selected=true] { outline: 1px solid Highlight; } }

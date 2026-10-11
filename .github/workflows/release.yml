@@ -40,12 +40,14 @@ jobs:
               })).data;
             }
             const packageFile = `wpsydev-liquid-glass-${pkg.version}.tgz`;
-            const assets = [{ path: packageFile, name: packageFile }, { path: 'docs/campaign/assets/caustics-showcase.mp4', name: 'liquid-glass-caustics.mp4' }];
+            const assets = [{ path: packageFile, name: packageFile, type: 'application/gzip' },
+              { path: 'docs/campaign/assets/workbench-showcase.png', name: 'liquid-glass-workbench.png', type: 'image/png' },
+              { path: 'docs/campaign/assets/workbench-palette.png', name: 'liquid-glass-command-palette.png', type: 'image/png' }];
             for (const asset of assets) {
               if (!fs.existsSync(asset.path)) {
                 throw new Error(`Missing release artifact ${asset.path}`);
               }
               if (!release.assets.some(existing => existing.name === asset.name)) {
-                await github.rest.repos.uploadReleaseAsset({owner, repo, release_id: release.id, name: asset.name, data: fs.readFileSync(asset.path)});
+                await github.rest.repos.uploadReleaseAsset({owner, repo, release_id: release.id, name: asset.name, headers: { 'content-type': asset.type }, data: fs.readFileSync(asset.path)});
               }
             }

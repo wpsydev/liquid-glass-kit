@@ -1,0 +1,9 @@
+import {describe,expect,it} from 'vitest';
+import {inspect,fixSurface,tokens,runCommand} from '../site/workbench/model.js';
+import {createWorkspace,starter} from '../site/workbench/state.js';
+describe('browser workbench commands and lint',()=>{
+ it('diagnoses syntax and focused rules, and fixes only known spans',()=>{expect(inspect(starter).map(p=>p.rule)).toEqual(['property-typo','explicit-transition']);expect(inspect(fixSurface(starter))).toEqual([]);expect(inspect('.card { padding: ;')).not.toEqual([]);const commented='/* border-raduis: 1px; transition: all; */\n.card { content: "transition: all"; }';expect(inspect(commented)).toEqual([]);expect(fixSurface(commented)).toBe(commented);expect(inspect('.card{--border-raduis:24px;border-radius:var(--border-raduis);}')).toEqual([]);});
+ it('keeps independent branch edits and refuses arbitrary shell commands',()=>{const w=createWorkspace();runCommand(w,'branch alternate');w.source='.card { --corner: 40px; }';runCommand(w,'branch main');expect(w.source).toBe(starter);runCommand(w,'branch alternate');expect(w.source).toContain('40px');expect(runCommand(w,'npm install')).toContain('does not execute shell');expect(runCommand(w,'branch invalid name')).toContain('Use branch');expect(runCommand(w,'lint')).toContain('no diagnostics');});
+ it('bounds demo lint work without destructive fixes',()=>{const source='x'.repeat(64001);expect(inspect(source)[0].rule).toBe('document-limit');expect(fixSurface(source)).toBe(source);});
+ it('restricts preview tokens to bounded sizes and six-digit colors',()=>{expect(tokens('.card{--corner:99999px;--accent:url(https://example.com);padding:1px;}')).toEqual({corner:48,accent:'#b8ecc9',padding:12});expect(tokens('/* --corner:48px; */ .card{--corner:12px;--accent:#aabbcc; padding:30px;}')).toEqual({corner:12,accent:'#aabbcc',padding:30});});
+});

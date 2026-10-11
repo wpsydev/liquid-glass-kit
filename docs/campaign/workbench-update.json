@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "version": "0.14.0-preview.1",
+  "status": "prepared",
+  "sourceSha256": "ec792caf60aef251ce4c075884f1c9bafd981e650b2c92a169d3daf99a893ea3",
+  "media": [
+    {
+      "path": "docs/campaign/assets/workbench-showcase.png",
+      "bytes": 743485,
+      "sha256": "97e741914a8fd69ef905229d5384b80aece603513154a465184f7f876c4f5dc8"
+    },
+    {
+      "path": "docs/campaign/assets/workbench-palette.png",
+      "bytes": 789959,
+      "sha256": "48db87abf13bf8d737334b59b928da9a75101e0a264d75c365865516812114d2"
+    }
+  ],
+  "checks": {
+    "npmRunCheck": "158 tests in15 files, core/workbench typecheck, built SSR exports,15 site routes passed",
+    "npmPackDryRun": "87 files",
+    "native": "Editor native typing changed38px radius/20px padding. Native fixes cleared lint and ran transient success animation. Terminals native Enter/history, tabs arrows, palette focus/Escape.5 viewport layouts; mobile targets44px; final flex fix keeps both command prompts within pane.",
+    "extractedArchive": "87 files,0.14.0-preview.1,no runtime dependencies;14 optional/nonpeer JS entrypoints imported without window/document/React/Vue",
+    "tour": "Native12-second tour completed:fixed rules,38px radius,experiment branch,light theme,Play12s button restored,no running animation. Controlled reduced-motion query skipped timing and applied known fixes."
+  },
+  "publication": null
+}

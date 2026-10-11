@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "status": "prepared",
+  "status": "published",
   "version": "0.13.0-preview.1",
   "source": {
     "commit": "d4e4c47d54676395fd21a83e191e22115b7dea71",
@@ -1203,10 +1203,25 @@
     }
   },
   "publication": {
-    "release": null,
-    "demo": null,
-    "x": null,
-    "npm": "Registry pending publishing2FA; release archive/tag installation available after publication."
+    "release": "https://github.com/wpsydev/liquid-glass-kit/releases/tag/v0.13.0-preview.1",
+    "releaseCommit": "092f79dd14f391d709d32d59cd30cfaca28f4c7d",
+    "demo": "https://wpsydev.github.io/liquid-glass-kit/caustics/",
+    "x": "https://x.com/wpsygames/status/2109073094845379048",
+    "methodReply": "https://x.com/wpsygames/status/2109073795193479332",
+    "npm": "Registry publication pending; GitHub release archive/tag available.",
+    "actions": {
+      "verify": 38096827218,
+      "release": 38096827217,
+      "pages": 38096827206,
+      "conclusions": "success"
+    },
+    "archive": {
+      "size": 173833,
+      "sha256": "92af1488c1d43c8726daa219095cd08dc404f59ba581042bcf0b62255d448b9a",
+      "evidence": "GitHub release metadata digest; redirect host DNS failed for local binary download."
+    },
+    "video": "Public Pages bytes independently match sha256 8535be843959820576cd1970a443b1887f36b083baef04278ea867b83c1e7fe1. Native X playback:720x1280,ready4,decoded382frames/214610audio bytes,unmuted,12.010666s transcode.",
+    "browser": "Public Pages scene supports WebGL2:1caustic/8192triangles/4draws. Actual public asset caustics-CQQJ0wn8.js loaded."
   },
   "checks": {
     "check": "148 tests/13 files; types, package verification, library and14-route site build passed",
