@@ -126,5 +126,25 @@
     "recordedAtUtc": "2026-10-11T04:49:55Z",
     "verification": "Exact draft and parent checked before one submit; exact published text and own account status URL verified in thread and direct permalink",
     "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "shared-vault-index-freshness",
+    "parentUrl": "https://x.com/nerfsaksham/status/2109146072040042752",
+    "text": "that 120-night indexing failure is worth making visible in the daily brief\n\nlast successful run + a stale warning beside search results would catch it sooner than job logs\n\ncan the router return an index timestamp with each result?",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109148348016107684",
+    "recordedAtUtc": "2026-10-11T05:05:50Z",
+    "verification": "Exact draft and target checked before one submit; exact own-account text and URL read back in thread and direct permalink",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "ai-ui-comparison-recovery",
+    "parentUrl": "https://x.com/NotScoobySnackz/status/2109149044257792346",
+    "text": "the three tabs would be a good place to compare recovery, too\n\ni'd run the same task in each mock with long content, a failed action and a retry on mobile, then save why the winner handled it better in obsidian",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109151279477895246",
+    "recordedAtUtc": "2026-10-11T05:17:25Z",
+    "verification": "Exact draft and target checked before one submit; exact own-account text and URL read back in thread and direct permalink",
+    "engagementRecord": "engagement.json"
   }
 ]
