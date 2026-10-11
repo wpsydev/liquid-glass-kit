@@ -62,4 +62,4 @@ A native button exposes `aria-expanded` and a named region. Escape from the pane
 
 The stylesheet uses bounded 200ms opacity/translate entrance, system fonts, solid fallback, reduced-transparency/forced-colors rules and reduced-motion CSS. `reducedMotion:true` disables interaction transforms/entrances explicitly. The panel is not a modal; use a native dialog for a blocking task. Backdrop blur has a paint cost even without JavaScript frames. No Apple pixel match or universal phone certification is claimed.
 
-[Original browser study](https://notchgate.netlify.app/) · [Source investigation](resource-series/notchgate.md). No reference code, mascots, assets or recordings are reused.
+[Original browser study](https://notchgate.netlify.app/) · [Source investigation](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/notchgate.md). No reference code, mascots, assets or recordings are reused.

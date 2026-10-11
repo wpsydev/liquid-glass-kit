@@ -1,0 +1,131 @@
+{
+  "observedAt": "2026-10-11T22:55:21.112Z",
+  "tool": "@google/design.md",
+  "version": "0.4.0",
+  "provenance": "Official npm CLI installed in an isolated temporary development project; not a library runtime or repository dependency",
+  "specification": "https://github.com/google-labs-code/design.md/blob/main/docs/spec.md",
+  "command": "node scripts/validate-design-contract.mjs",
+  "limitations": [
+    "Checks exported document structure and tokens, not agent adherence or rendered translucent UI accessibility",
+    "Official DESIGN.md format and CLI remain evolving; this records the pinned version and exact reports"
+  ],
+  "results": [
+    {
+      "name": "Field Notes",
+      "markdownSHA256": "fb16022939383caefe1ae7be7e865e1a24af25a9d7e5c784719acdf507c3c4d9",
+      "markdownBytes": 3821,
+      "officialCLIExitCode": 0,
+      "officialReport": {
+        "findings": [
+          {
+            "severity": "warning",
+            "path": "colors.accent",
+            "message": "'accent' is defined but never referenced by any component.",
+            "rule": "orphaned-tokens"
+          },
+          {
+            "severity": "info",
+            "message": "Design system defines 4 colors, 2 typography scales, 1 rounding level, 5 spacing tokens, 2 components.",
+            "rule": "token-summary"
+          }
+        ],
+        "summary": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 1
+        }
+      },
+      "stderr": "",
+      "roundtrip": {
+        "json": true,
+        "markdown": true,
+        "css": true
+      },
+      "ownValidation": {
+        "valid": true,
+        "warnings": [],
+        "contrast": {
+          "foregroundOnBackground": 13.103
+        }
+      }
+    },
+    {
+      "name": "Command Room",
+      "markdownSHA256": "e9ee6830d08b1348b5a31d195e0c051fea5a56145628842d5858094733c68972",
+      "markdownBytes": 3887,
+      "officialCLIExitCode": 0,
+      "officialReport": {
+        "findings": [
+          {
+            "severity": "warning",
+            "path": "colors.accent",
+            "message": "'accent' is defined but never referenced by any component.",
+            "rule": "orphaned-tokens"
+          },
+          {
+            "severity": "info",
+            "message": "Design system defines 4 colors, 2 typography scales, 1 rounding level, 5 spacing tokens, 2 components.",
+            "rule": "token-summary"
+          }
+        ],
+        "summary": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 1
+        }
+      },
+      "stderr": "",
+      "roundtrip": {
+        "json": true,
+        "markdown": true,
+        "css": true
+      },
+      "ownValidation": {
+        "valid": true,
+        "warnings": [],
+        "contrast": {
+          "foregroundOnBackground": 15.019
+        }
+      }
+    },
+    {
+      "name": "Mono Atelier",
+      "markdownSHA256": "395cf5cd8ca9df3b6669578b53cdf188e094804e5ceb2c5e8e07b28a265869fd",
+      "markdownBytes": 3901,
+      "officialCLIExitCode": 0,
+      "officialReport": {
+        "findings": [
+          {
+            "severity": "warning",
+            "path": "colors.accent",
+            "message": "'accent' is defined but never referenced by any component.",
+            "rule": "orphaned-tokens"
+          },
+          {
+            "severity": "info",
+            "message": "Design system defines 4 colors, 2 typography scales, 1 rounding level, 5 spacing tokens, 2 components.",
+            "rule": "token-summary"
+          }
+        ],
+        "summary": {
+          "errors": 0,
+          "warnings": 1,
+          "infos": 1
+        }
+      },
+      "stderr": "",
+      "roundtrip": {
+        "json": true,
+        "markdown": true,
+        "css": true
+      },
+      "ownValidation": {
+        "valid": true,
+        "warnings": [],
+        "contrast": {
+          "foregroundOnBackground": 17.545
+        }
+      }
+    }
+  ]
+}

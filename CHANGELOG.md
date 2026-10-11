@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.18.0-preview.1
+
+- Add optional, pure design-contract authoring utility with bounded typed configuration, canonical DESIGN.md token/prose output, matching scoped theme CSS and own version-1 JSON parser.
+- Validate opaque foreground/background tokens without claiming translucent-pixel accessibility; preserve semantic/material host integration boundaries.
+- Add original three-direction Token Studio, pinned official format validation and scoped Node generation/payload evidence. No runtime dependency or default import/CSS change.
+
+
 ## 0.17.0-preview.1
 
 - Add optional activity island for host-owned sessions, permission/diff/question/plan requests and prompts.

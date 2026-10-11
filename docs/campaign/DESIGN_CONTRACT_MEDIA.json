@@ -1,0 +1,15 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 634026,
+  "sha256": "1092826819e55ca877c52a31e6469f1081d6c532908cf3ded527dcc3f7b35223",
+  "music": {
+    "style": "disco",
+    "bpm": 120,
+    "seed": 18,
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Actual T3 source-preview UI, adaptive capture, export FPS is not app FPS"
+}

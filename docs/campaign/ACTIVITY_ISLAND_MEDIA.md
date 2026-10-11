@@ -5,3 +5,5 @@ An original 12-second 960×960 H.264/yuv420p film, 360 exported frames at 30fps,
 The native T3 source-preview tour drives actual permission and diff buttons, then submits the actual composer to a simulated local host. Captions explicitly describe host ownership. Three frames at 1.5/5.4/9.4 seconds were visually reviewed; the poster uses the file-diff frame. Final media decoded successfully. Adaptive source capture and exported frame rate do not prove rendering FPS. The renderer pads the final still if needed to keep the requested 12-second export exact.
 
 Payload and SHA256 are recorded in ACTIVITY_ISLAND_MEDIA.json. Published release assets and X playback readback will be recorded after posting.
+
+Published release media sizes match local files. Native upload buffer digest matched recorded SHA256. Main X post https://x.com/wpsygames/status/2109418794401562849 verified with actual12-second playback. Source-credit reply https://x.com/wpsygames/status/2109420053389046157 verified.

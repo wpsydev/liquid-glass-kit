@@ -1,0 +1,63 @@
+{
+  "observedAtUtc": "2026-10-11T23:04:08.436Z",
+  "runtime": "v24.21.0",
+  "platform": "linux",
+  "arch": "x64",
+  "cpu": "AMD Ryzen 5 6600H with Radeon Graphics",
+  "config": {
+    "name": "Original studio",
+    "tokens": {
+      "colors": {
+        "background": "#f5f1e9",
+        "foreground": "#262922",
+        "primary": "#a34024"
+      },
+      "fontFamily": "Georgia, serif",
+      "radius": 14
+    },
+    "material": {
+      "blur": 16,
+      "appearance": "light"
+    }
+  },
+  "operation": "Create typed contract, export DESIGN.md/CSS/JSON, parse own JSON, compare Markdown/CSS roundtrip",
+  "warmupOperations": 100,
+  "rounds": 25,
+  "operationsPerRound": 500,
+  "msPerOperation": [
+    0.051639470000000014,
+    0.04327899600000001,
+    0.04233200400000004,
+    0.05297877400000004,
+    0.04323008400000004,
+    0.04197477800000002,
+    0.046409572000000024,
+    0.05716782000000001,
+    0.042750081999999905,
+    0.041363468000000014,
+    0.04110276799999997,
+    0.04204194799999993,
+    0.04014699600000006,
+    0.04106173000000001,
+    0.04296114799999998,
+    0.045169298000000024,
+    0.041253216000000065,
+    0.04294169000000011,
+    0.04262993400000005,
+    0.04212853199999995,
+    0.04249411400000008,
+    0.043342256000000134,
+    0.043195576000000076,
+    0.05043252000000007,
+    0.0418477539999999
+  ],
+  "medianMs": 0.042750081999999905,
+  "p95Ms": 0.05297877400000004,
+  "checksum": 70408800,
+  "payload": {
+    "rawBytes": 11257,
+    "gzipBytes": 4812,
+    "sourceSha256": "dc9b56fef5b2d532eb625d3559e1b402d8c47721e929403b04978c04284c01cc"
+  },
+  "scope": "Node authoring/generation only. Standalone optional bundle including shared material helpers. No rendering/FPS/network or comparison claim; generated artifacts can be produced before client load."
+}

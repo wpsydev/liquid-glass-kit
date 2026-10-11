@@ -20,13 +20,15 @@
     {
       "order": 2,
       "url": "https://designmd.ai",
-      "status": "implemented-awaiting-validation",
+      "status": "validated-awaiting-publication",
       "feature": "Design contract",
-      "version": null,
+      "version": "0.18.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/design-contract-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/design-contract.json"
+      ]
     },
     {
       "order": 3,
@@ -450,12 +452,12 @@
   "additional": [
     {
       "url": "https://notchgate.netlify.app/",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Activity Island: sessions, review requests and prompts",
       "version": "0.17.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/island/",
       "video": "docs/campaign/assets/activity-island-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109418794401562849",
       "performance": [
         "benchmarks/activity-island-payload.json",
         "benchmarks/activity-island-browser.json"
