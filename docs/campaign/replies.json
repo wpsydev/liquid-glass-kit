@@ -246,5 +246,25 @@
     "recordedAtUtc": "2026-10-11T09:16:22Z",
     "verification": "Exact draft and parent checked before one submit; delayed thread render inspected without resubmission, then exact own-account text and URL read back in thread and direct permalink",
     "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "notchgate-demo-task-context",
+    "parentUrl": "https://x.com/Prajwal96343052/status/2109221853281783845",
+    "text": "tried the browser demo with 'fix the flaky checkout test'. it reads tests/checkout.test.ts, then asks to run npm test -- payments\n\nis that intentional? keeping the sample task and command aligned would make the approval easier to judge",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109222755488920027",
+    "recordedAtUtc": "2026-10-11T10:01:24Z",
+    "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink",
+    "engagementRecord": "engagement.json"
+  },
+  {
+    "id": "facetlab-colour-isolation-help",
+    "parentUrl": "https://x.com/VeritasArdentur/status/2109218888126755303",
+    "text": "opened facetlab. is the colour model spectral or rgb?\n\none experiment i'd try: lock the light and exposure, then compare with absorption off. pbrt's spectra chapter is a useful reference:\n\nhttps://www.pbr-book.org/4ed/Radiometry,_Spectra,_and_Color/Representing_Spectral_Distributions",
+    "status": "published",
+    "publishedUrl": "https://x.com/wpsygames/status/2109230870762525131",
+    "recordedAtUtc": "2026-10-11T10:33:56Z",
+    "verification": "Exact draft and parent checked before one submit; exact own-account prose and permalink read back in thread and direct permalink. Clicked rendered source link natively and verified exact pbrt chapter URL",
+    "engagementRecord": "engagement.json"
   }
 ]

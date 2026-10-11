@@ -6,12 +6,12 @@
   "approach": "Review a real demo, public page or README; give a specific observation and one useful suggestion or question. Use product links only when they directly answer the discussion.",
   "continuation": "Start each future session with responses to these conversations. Review a few fresh builder projects, then engage only when there is useful original feedback.",
   "automationStatus": "Foreground timer emits due events in the active session; agent reviews and executes through T3 preview. No independent browser worker or persistent schedule.",
-  "verifiedAtUtc": "2026-10-11T09:44:59Z",
+  "verifiedAtUtc": "2026-10-11T10:33:56Z",
   "results": {
-    "postsLiked": 27,
-    "repliesPublished": 24,
-    "developersEngaged": 22,
-    "newBuilderConversations": 21,
+    "postsLiked": 29,
+    "repliesPublished": 26,
+    "developersEngaged": 24,
+    "newBuilderConversations": 23,
     "followupReplies": 3,
     "newCampaignConversationsWithObservedResponse": 3
   },
@@ -574,6 +574,56 @@
         "recordedAtUtc": "2026-10-11T09:16:22Z",
         "verification": "Exact draft and parent checked before one submit; delayed thread render inspected without resubmission, then exact own-account text and URL read back in thread and direct permalink"
       }
+    },
+    {
+      "id": "notchgate-demo-task-context",
+      "author": "@Prajwal96343052",
+      "parentUrl": "https://x.com/Prajwal96343052/status/2109221853281783845",
+      "parentPublishedAtUtc": "2026-10-11T09:57:31.000Z",
+      "reviewedApp": "https://notchgate.netlify.app/",
+      "reviewEvidence": [
+        "Read complete original feedback request and visible thread; reviewed mentions without repeating acknowledgements",
+        "Read public NotchGate landing and tried its explicitly pretend-tools browser demo through native preview",
+        "Chose Fix the flaky checkout test; demo read tests/checkout.test.ts then asked Run the payment tests with npm test -- payments; clicked Deny and observed Okay, I won't run the tests",
+        "Asked whether the sample command/task mismatch is intentional; no desktop installation, terminal command, persistent permission, actual Claude session or security behavior tested"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent rendered Unlike after one native like action"
+      },
+      "reply": {
+        "text": "tried the browser demo with 'fix the flaky checkout test'. it reads tests/checkout.test.ts, then asks to run npm test -- payments\n\nis that intentional? keeping the sample task and command aligned would make the approval easier to judge",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2109222755488920027",
+        "recordedAtUtc": "2026-10-11T10:01:24Z",
+        "verification": "Exact draft and parent checked before one submit; exact own-account text and URL read back in thread and direct permalink"
+      }
+    },
+    {
+      "id": "facetlab-colour-isolation-help",
+      "kind": "question-help",
+      "author": "@VeritasArdentur",
+      "parentUrl": "https://x.com/VeritasArdentur/status/2109218888126755303",
+      "parentPublishedAtUtc": "2026-10-11T09:45:44.000Z",
+      "reviewedApp": "https://facetlab.netlify.app/",
+      "reviewEvidence": [
+        "Read complete original mixed-language rendering difficulty post; no new mentions needed a response",
+        "Opened public FacetLab, dismissed onboarding and inspected Stone and Light panels with native controls; saw colour depth/tone/haze and lighting/brightness controls",
+        "Read pbrt fourth edition radiometry/spectra introduction and spectral distribution representations as a primary reference",
+        "Asked whether the colour model is spectral or RGB and proposed a fixed-light/exposure, absorption-off comparison as a diagnostic hypothesis",
+        "No shader source audit, material change, physical gemstone correctness, performance benchmark, fluorescence/birefringence diagnosis or verified fix claimed"
+      ],
+      "like": {
+        "status": "verified",
+        "verification": "Parent rendered Unlike after one native like action"
+      },
+      "reply": {
+        "text": "opened facetlab. is the colour model spectral or rgb?\n\none experiment i'd try: lock the light and exposure, then compare with absorption off. pbrt's spectra chapter is a useful reference:\n\nhttps://www.pbr-book.org/4ed/Radiometry,_Spectra,_and_Color/Representing_Spectral_Distributions",
+        "status": "published",
+        "publishedUrl": "https://x.com/wpsygames/status/2109230870762525131",
+        "recordedAtUtc": "2026-10-11T10:33:56Z",
+        "verification": "Exact draft and parent checked before one submit; exact own-account prose and permalink read back in thread and direct permalink. Clicked rendered source link natively and verified exact pbrt chapter URL"
+      }
     }
   ],
   "observedResponses": [
@@ -884,6 +934,34 @@
       "incomingReview": "New Tracekit builder response reviewed and acknowledged with one verified like; no question needed another reply",
       "newObservedResponses": 1,
       "continuation": "Foreground timer rearmed after verified acknowledgement; no new cold conversation"
+    },
+    {
+      "date": "2026-10-11",
+      "topic": "Foreground networking loop round 16",
+      "dueAtUtc": "2026-10-11T09:58:53.786Z",
+      "completedAtUtc": "2026-10-11T10:01:24Z",
+      "interactions": [
+        "notchgate-demo-task-context"
+      ],
+      "likes": 1,
+      "replies": 1,
+      "incomingReview": "No new mentions; tried NotchGate public pretend-tools approval demo after explicit feedback request",
+      "newObservedResponses": 0,
+      "continuation": "Foreground timer rearmed after verified receipts"
+    },
+    {
+      "date": "2026-10-11",
+      "topic": "Foreground networking loop round 17",
+      "dueAtUtc": "2026-10-11T10:30:32.042Z",
+      "completedAtUtc": "2026-10-11T10:33:56Z",
+      "interactions": [
+        "facetlab-colour-isolation-help"
+      ],
+      "likes": 1,
+      "replies": 1,
+      "incomingReview": "No new mentions; inspected FacetLab controls and shared a primary rendering reference with a diagnostic experiment",
+      "newObservedResponses": 0,
+      "continuation": "Foreground timer rearmed after verified receipts"
     }
   ],
   "recurringRequest": {

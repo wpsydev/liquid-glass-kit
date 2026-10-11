@@ -120,3 +120,11 @@ At 09:14 UTC, no new mentions needed an answer. Read the Orrery post, sampled it
 ### Foreground round 15
 
 At 09:44 UTC, observed a new Tracekit builder response to our approval-onboarding feedback. They described the adapter differences and said a comparison table is being added beside setup; the actual documentation change is not verified. Read the complete response and acknowledged it with one verified like. No additional reply or new cold conversation; no developer/adoption increase counted.
+
+### Foreground round 16
+
+At 09:58 UTC, no new mentions needed an answer. Read NotchGate’s feedback request and tried its public pretend-tools demo: the checkout-test task read tests/checkout.test.ts, then requested npm test -- payments. Denying the sample request displayed a refusal acknowledgement. [Published specific demo feedback](https://x.com/wpsygames/status/2109222755488920027) asking whether the task/command mismatch is intentional. One parent like and exact reply verified. No desktop installation, real agent/tool execution or security claim. No new incoming response or adoption observed.
+
+### Foreground round 17
+
+At 10:30 UTC, no new mentions needed an answer. Read FacetLab’s rendering difficulty post, opened the public app and inspected its Stone/Light controls. Read pbrt’s primary spectra reference. [Shared a diagnostic experiment](https://x.com/wpsygames/status/2109230870762525131) asking about spectral/RGB modelling and suggesting a fixed-light/exposure, absorption-off comparison. One parent like, reply prose and exact source destination verified. No shader audit, physical correctness, benchmark or verified diagnosis claimed. No new incoming response or adoption observed.
