@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "measuredAt": "2026-10-12T04:56:50.067Z",
+  "sourceSHA256": "4170461ac2a0c67fd97ecb6d36e31cbccdf281149144b0dc8fa6863dc34396e2",
+  "sceneSHA256": "0d51469d08939452b72752f2013f77d46983b238d59515a3a34ce770d8b0964a",
+  "shaderSHA256": "5c8fba783c02c0c2f0e1c1fee0712b3a814c06de68c2c58f598a748ed507e07d",
+  "bundleBytes": 43902,
+  "gzipBytes": 14470,
+  "bundleSHA256": "4f1b9ebb636a3bae5d6d0880fcf23f2cbfb4b3a0150207896da5b276c38b9654",
+  "scope": "Standalone optional entry includes existing scene renderer; payload only, not load-time or GPU speed evidence",
+  "runtimeDependencies": 0
+}

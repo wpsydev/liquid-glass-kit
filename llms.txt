@@ -125,3 +125,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Precision native number input](docs/NUMBER_INPUT.md): actual native drafts/validity/forms, optional dedicated scrub/tap controls and explicit supported-precision boundaries.
 - [Hinge](https://wpsydev.github.io/liquid-glass-kit/scrub/): real local material settings after valid Commit; native editing and disclosed synthetic scrub tour.
+
+- [Owned texture optics](docs/SCENE_TEXTURE.md): explicit experimental WebGL2 receiver for decoded host media, pixel budgets, static upload reuse and real error/context recovery.
+- [REAL / SOURCE](https://wpsydev.github.io/liquid-glass-kit/texture/): original Canvas2D sources, bounded lenses, static fallback and disclosed finite optics tour.

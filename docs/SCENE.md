@@ -42,6 +42,7 @@ Imports are safe during SSR. React/Vue/Svelte integrations can attach in their e
 | palette | neon | `neon`, `sunset` or `ocean` procedural scene and caustic light hue |
 | backdrop | ribbons | `ribbons`, `studio` or `mineral`; all are owned procedural backgrounds, not DOM samples |
 | paused | false | Freeze scene time and remove the continuous animation loop |
+| animate | true | Explicit false disables continuous scene-clock RAF while preserving manual/event draws; initial observer settling may draw still frames |
 | reducedMotion | false | App preference combined with the system setting |
 | reducedTransparency | false | App preference combined with supported accessibility queries |
 | maxDpr | 2 | Rendering density cap, bounded to 1–2 |
@@ -122,3 +123,5 @@ Validation distinguishes mocked lifecycle tests from actual browser rendering. R
 ## Caustic light projection (0.13)
 
 See [CAUSTICS.md](CAUSTICS.md) for the complete options, exact emitter coordinates, six examples, research, quality choices and measurements. Visible HTML surfaces emit automatically when caustics is enabled; up to eight total sources including explicit canvas-local emitters. Fusion/field are not automatically light emitters. The owned receiver is illuminated before all optical sampling; no arbitrary DOM capture, recursive glass layers or full light transport. Opaque accessibility modes skip caustic submissions. Reduced-motion explicit redraws use static time.
+
+Optional `/scene-texture` supplies a decoded host-owned media receiver with separate upload caps, static-by-default wrapper policy, explicit invalidation and host CORS/fallback/playback ownership. See [owned texture API](SCENE_TEXTURE.md). This opt-in seam adds no source texture work to ordinary scenes.

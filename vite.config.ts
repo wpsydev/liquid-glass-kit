@@ -53,6 +53,7 @@ export default defineConfig({
         table: resolve('site/table/index.html'),
         undo: resolve('site/undo/index.html'),
         scrub: resolve('site/scrub/index.html'),
+        texture: resolve('site/texture/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),
         transitions: resolve('site/transitions/index.html'),

@@ -2,7 +2,7 @@
 
 **CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.44 native-number preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.45 owned-texture preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
 ![Material workbench](docs/assets/studio.webp)
 
@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.44.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.45.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -196,3 +196,5 @@ Optional `/data-table` supplies a pure bounded local model, stable ties, cached 
 Optional `/reversible-action` models actual Apply/Undo/Commit acknowledgments with opaque receipts, persistent Undo by default and truthful stale outcomes. Host compensation, recovery, focus and data remain explicit. [API](docs/REVERSIBLE_ACTION.md) · [Kept](https://wpsydev.github.io/liquid-glass-kit/undo/).
 
 Optional `/number-input` enhances actual native number fields with optional named tap/scrub controls, deliberate Commit and preserved typed drafts/constraints. Only the separate handle owns drag behavior. [API](docs/NUMBER_INPUT.md) · [Hinge](https://wpsydev.github.io/liquid-glass-kit/scrub/).
+
+Optional experimental `/scene-texture` renders decoded host-owned image/video/canvas/bitmap content behind WebGL2 optics, with bounded source/output pixels, explicit invalidation and host fallback. Portable CSS remains default; semantic controls stay HTML. [API](docs/SCENE_TEXTURE.md) · [REAL / SOURCE](https://wpsydev.github.io/liquid-glass-kit/texture/).

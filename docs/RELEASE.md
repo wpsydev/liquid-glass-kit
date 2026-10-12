@@ -1,13 +1,13 @@
-Native drafts. Deliberate precision. **0.44.0-preview.1** adds optional `/number-input` and scoped CSS.
+Original media. Owned optics. **0.45.0-preview.1** adds optional experimental `/scene-texture`.
 
-Actual native type=number editing, labels, constraints, keyboard arrows and FormData stay intact. Named tap controls and one dedicated scrub handle are optional; typing provides a non-drag alternative. Commit explicitly snaps/clamps supported finite values, never blank/badInput. Helper precision backoff leaves native editing functional. The host owns valid settings, actual data and persistence.
+Decoded host image/video/canvas/bitmap sources render behind bounded WebGL2 optics. Static media reuse uploads; fit/crop/matte changes update uniforms. Source downscaling/output pixel caps are explicit resolution tradeoffs. Actual video callbacks are opt-in, not a polling loop; host decode/CORS/playback/fallback remain owned. PortableCSSdefault/nativeHTMLcontrols preserved, no arbitraryDOM capture orAppleparityclaim.
 
-[Hinge](https://wpsydev.github.io/liquid-glass-kit/scrub/) edits local glass radius/blur/spacing after validCommit. Its twelve-second original120BPM electric-keys disco film separates native typing/commit from explicitly synthetic scrub packets. Physical touch/capture delivery is unverified.
+NativeWebGL tests found and fixed two defects: receiver uniforms used the wrong active program, and origin-tainted staging blocked a clean same-size retry. Realpixelreadback/contextrestore/imagebitmap/captureStreamrVFC prove recovery.31focusedtexture plus35scene tests;30desktop320–1440viewport/statecases44/16/noflow/caps. Phones/Safari/ATunverified.
 
-27focused tests;80desktop viewport/statecases320–1440px44targets/18demo fields/nopageoverflow. ActualArrowUp20→22/typed12.25stepMismatch/badInput/invalidsubmit/12.5Commit/FormDatachecked. Syntheticreleaseonce/cancel/hostvalue/constraint/modifierprobes separate. Phones/Safari/ATunverified.
+[REAL / SOURCE](https://wpsydev.github.io/liquid-glass-kit/texture/) uses three originalCanvas2Dart studies with boundedlenses/fusion/caustics and functionalplainfallback. Its twelve-second original112BPM plucked-synthpop film changes actualsource/optics and endsstaticquiet at5uploads, includingexplicitreset.
 
-Optional4284gzip/CSS403gzip.100syntheticmoves→1inputRAF/write/2startstylereads/0rect;800connectedlifecycles25.6ms/160median0syncRAF/style/rect/5600balancedlisteners. Active total5617listeners/oneobserver balanced/250idle0RAF. No paint/GPU/FPS/comparative speedup or finance guarantee.
+Optionalentry43902minified/14470gzip includesexisting sceneengine. CPUuniformupdate/render submissions medianbelow~.1msresolution/p95~.1ms, notzero work; readPixelsstalls/decode/video/GPUelapsed/paintingoutside timing.250settledidle unchangedcounts. No FPS/uploadthroughput/comparativespeedup claim.
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/NUMBER_INPUT.md) · [Evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/number-input-native.json)
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/SCENE_TEXTURE.md) · [NativeGPU evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/scene-texture-browser.json)
 
-Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.44.0-preview.1`. npm registry pending. Independent Microkit-inspired behavior without copied widget.
+Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.45.0-preview.1`. npmregistrypending. Independent SamAsante-inspired optics without copiedrenderer/assets.

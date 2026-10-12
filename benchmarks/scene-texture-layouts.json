@@ -1,0 +1,4411 @@
+{
+  "schemaVersion": 1,
+  "caseCount": 30,
+  "viewports": [
+    {
+      "cases": [
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 253
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 119.5
+            }
+          ],
+          "name": "static-cover",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 535.015625,
+            "height": 370,
+            "left": 17,
+            "right": 288,
+            "top": 165.015625,
+            "width": 271,
+            "x": 17,
+            "y": 165.015625
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 225330,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 406
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 1829716,
+              "uploads": 7,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 253
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 119.5
+            }
+          ],
+          "name": "contain-matte",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 535.015625,
+            "height": 370,
+            "left": 17,
+            "right": 288,
+            "top": 165.015625,
+            "width": 271,
+            "x": 17,
+            "y": 165.015625
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "contain",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 225330,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 406
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 1829716,
+              "uploads": 7,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 253
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 119.5
+            }
+          ],
+          "name": "cover-crop-uniform-reuse",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 535.015625,
+            "height": 370,
+            "left": 17,
+            "right": 288,
+            "top": 165.015625,
+            "width": 271,
+            "x": 17,
+            "y": 165.015625
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 225330,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 406
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 1829716,
+              "uploads": 7,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 253
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 119.5
+            }
+          ],
+          "name": "source-budget-1048576",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 535.015625,
+            "height": 370,
+            "left": 17,
+            "right": 288,
+            "top": 165.015625,
+            "width": 271,
+            "x": 17,
+            "y": 165.015625
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 225330,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 406
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 2877371,
+              "uploads": 8,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 253
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 119.5
+            }
+          ],
+          "name": "plain-host-canvas-fallback",
+          "outputReady": "false",
+          "rect": {
+            "bottom": 535.015625,
+            "height": 370,
+            "left": 17,
+            "right": 288,
+            "top": 165.015625,
+            "width": 271,
+            "x": 17,
+            "y": 165.015625
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 225330,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 406
+            },
+            "revision": 0,
+            "solid": true,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 2877371,
+              "uploads": 8,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 81.6640625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 124
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 253
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 119.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 119.5
+            }
+          ],
+          "name": "quiet-on-demand-optics",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 535.015625,
+            "height": 370,
+            "left": 17,
+            "right": 288,
+            "top": 165.015625,
+            "width": 271,
+            "x": 17,
+            "y": 165.015625
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": true,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 225330,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 406
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 2877371,
+              "uploads": 8,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        }
+      ],
+      "measuredAt": "2026-10-12T04:59:02.555Z",
+      "schemaVersion": 1,
+      "scope": "Actual native CSS viewports in desktop Chromium. Native style/rect/control checks; physical phones, Safari and AT unverified. Solid/quiet preferences are explicit host controls, not synthetic OS changes.",
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "cases": [
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 323
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 154.5
+            }
+          ],
+          "name": "static-cover",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 607.109375,
+            "height": 370,
+            "left": 17,
+            "right": 358,
+            "top": 237.109375,
+            "width": 341,
+            "x": 17,
+            "y": 237.109375
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 283605,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 511
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 3138759,
+              "uploads": 9,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 323
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 154.5
+            }
+          ],
+          "name": "contain-matte",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 607.109375,
+            "height": 370,
+            "left": 17,
+            "right": 358,
+            "top": 237.109375,
+            "width": 341,
+            "x": 17,
+            "y": 237.109375
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "contain",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 283605,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 511
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 3138759,
+              "uploads": 9,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 323
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 154.5
+            }
+          ],
+          "name": "cover-crop-uniform-reuse",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 607.109375,
+            "height": 370,
+            "left": 17,
+            "right": 358,
+            "top": 237.109375,
+            "width": 341,
+            "x": 17,
+            "y": 237.109375
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 283605,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 511
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 3138759,
+              "uploads": 9,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 323
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 154.5
+            }
+          ],
+          "name": "source-budget-1048576",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 607.109375,
+            "height": 370,
+            "left": 17,
+            "right": 358,
+            "top": 237.109375,
+            "width": 341,
+            "x": 17,
+            "y": 237.109375
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 283605,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 511
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 4186414,
+              "uploads": 10,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 323
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 154.5
+            }
+          ],
+          "name": "plain-host-canvas-fallback",
+          "outputReady": "false",
+          "rect": {
+            "bottom": 607.109375,
+            "height": 370,
+            "left": 17,
+            "right": 358,
+            "top": 237.109375,
+            "width": 341,
+            "x": 17,
+            "y": 237.109375
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 283605,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 511
+            },
+            "revision": 0,
+            "solid": true,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 4186414,
+              "uploads": 10,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 144.78125
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 68.53125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 105
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 159
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 323
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 61.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "position",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 52,
+              "id": "refraction",
+              "width": 154.5
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 154.5
+            }
+          ],
+          "name": "quiet-on-demand-optics",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 607.109375,
+            "height": 370,
+            "left": 17,
+            "right": 358,
+            "top": 237.109375,
+            "width": 341,
+            "x": 17,
+            "y": 237.109375
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": true,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 3,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 555,
+              "pixels": 283605,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 511
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 4186414,
+              "uploads": 10,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        }
+      ],
+      "measuredAt": "2026-10-12T04:59:02.938Z",
+      "schemaVersion": 1,
+      "scope": "Actual native CSS viewports in desktop Chromium. Native style/rect/control checks; physical phones, Safari and AT unverified. Solid/quiet preferences are explicit host controls, not synthetic OS changes.",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "cases": [
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 139.765625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "position",
+              "width": 167.7265625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "refraction",
+              "width": 167.734375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 139.765625
+            }
+          ],
+          "name": "static-cover",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 678.4921875,
+            "height": 350,
+            "left": 29,
+            "right": 724,
+            "top": 328.4921875,
+            "width": 695,
+            "x": 29,
+            "y": 328.4921875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 525,
+              "pixels": 547050,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1042
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 4447802,
+              "uploads": 11,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 139.765625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "position",
+              "width": 167.7265625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "refraction",
+              "width": 167.734375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 139.765625
+            }
+          ],
+          "name": "contain-matte",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 678.4921875,
+            "height": 350,
+            "left": 29,
+            "right": 724,
+            "top": 328.4921875,
+            "width": 695,
+            "x": 29,
+            "y": 328.4921875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "contain",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 525,
+              "pixels": 547050,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1042
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 4447802,
+              "uploads": 11,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 139.765625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "position",
+              "width": 167.7265625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "refraction",
+              "width": 167.734375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 139.765625
+            }
+          ],
+          "name": "cover-crop-uniform-reuse",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 678.4921875,
+            "height": 350,
+            "left": 29,
+            "right": 724,
+            "top": 328.4921875,
+            "width": 695,
+            "x": 29,
+            "y": 328.4921875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 525,
+              "pixels": 547050,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1042
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 4447802,
+              "uploads": 11,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 139.765625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "position",
+              "width": 167.7265625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "refraction",
+              "width": 167.734375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 139.765625
+            }
+          ],
+          "name": "source-budget-1048576",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 678.4921875,
+            "height": 350,
+            "left": 29,
+            "right": 724,
+            "top": 328.4921875,
+            "width": 695,
+            "x": 29,
+            "y": 328.4921875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 525,
+              "pixels": 547050,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1042
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 5495457,
+              "uploads": 12,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 139.765625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "position",
+              "width": 167.7265625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "refraction",
+              "width": 167.734375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 139.765625
+            }
+          ],
+          "name": "plain-host-canvas-fallback",
+          "outputReady": "false",
+          "rect": {
+            "bottom": 678.4921875,
+            "height": 350,
+            "left": 29,
+            "right": 724,
+            "top": 328.4921875,
+            "width": 695,
+            "x": 29,
+            "y": 328.4921875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 525,
+              "pixels": 547050,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1042
+            },
+            "revision": 0,
+            "solid": true,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 5495457,
+              "uploads": 12,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 139.765625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "position",
+              "width": 167.7265625
+            },
+            {
+              "font": 16,
+              "height": 50,
+              "id": "refraction",
+              "width": 167.734375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 139.765625
+            }
+          ],
+          "name": "quiet-on-demand-optics",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 678.4921875,
+            "height": 350,
+            "left": 29,
+            "right": 724,
+            "top": 328.4921875,
+            "width": 695,
+            "x": 29,
+            "y": 328.4921875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": true,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 525,
+              "pixels": 547050,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1042
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 5495457,
+              "uploads": 12,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        }
+      ],
+      "measuredAt": "2026-10-12T04:59:03.342Z",
+      "schemaVersion": 1,
+      "scope": "Actual native CSS viewports in desktop Chromium. Native style/rect/control checks; physical phones, Safari and AT unverified. Solid/quiet preferences are explicit host controls, not synthetic OS changes.",
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "cases": [
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 124.7109375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 145.8125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 145.6328125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 110.9296875
+            }
+          ],
+          "name": "static-cover",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 344.796875,
+            "height": 300,
+            "left": 29,
+            "right": 800,
+            "top": 44.796875,
+            "width": 771,
+            "x": 29,
+            "y": 44.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 520200,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1156
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 5756845,
+              "uploads": 13,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 124.7109375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 145.8125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 145.6328125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 110.9296875
+            }
+          ],
+          "name": "contain-matte",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 344.796875,
+            "height": 300,
+            "left": 29,
+            "right": 800,
+            "top": 44.796875,
+            "width": 771,
+            "x": 29,
+            "y": 44.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "contain",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 520200,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1156
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 5756845,
+              "uploads": 13,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 124.7109375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 145.8125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 145.6328125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 110.9296875
+            }
+          ],
+          "name": "cover-crop-uniform-reuse",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 344.796875,
+            "height": 300,
+            "left": 29,
+            "right": 800,
+            "top": 44.796875,
+            "width": 771,
+            "x": 29,
+            "y": 44.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 520200,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1156
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 5756845,
+              "uploads": 13,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 124.7109375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 145.8125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 145.6328125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 110.9296875
+            }
+          ],
+          "name": "source-budget-1048576",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 344.796875,
+            "height": 300,
+            "left": 29,
+            "right": 800,
+            "top": 44.796875,
+            "width": 771,
+            "x": 29,
+            "y": 44.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 520200,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1156
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 6804500,
+              "uploads": 14,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 124.7109375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 145.8125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 145.6328125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 110.9296875
+            }
+          ],
+          "name": "plain-host-canvas-fallback",
+          "outputReady": "false",
+          "rect": {
+            "bottom": 344.796875,
+            "height": 300,
+            "left": 29,
+            "right": 800,
+            "top": 44.796875,
+            "width": 771,
+            "x": 29,
+            "y": 44.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 520200,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1156
+            },
+            "revision": 0,
+            "solid": true,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 6804500,
+              "uploads": 14,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 124.7109375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 145.8125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 145.6328125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 110.9296875
+            }
+          ],
+          "name": "quiet-on-demand-optics",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 344.796875,
+            "height": 300,
+            "left": 29,
+            "right": 800,
+            "top": 44.796875,
+            "width": 771,
+            "x": 29,
+            "y": 44.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": true,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 520200,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1156
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 6804500,
+              "uploads": 14,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        }
+      ],
+      "measuredAt": "2026-10-12T04:59:03.767Z",
+      "schemaVersion": 1,
+      "scope": "Actual native CSS viewports in desktop Chromium. Native style/rect/control checks; physical phones, Safari and AT unverified. Solid/quiet preferences are explicit host controls, not synthetic OS changes.",
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "cases": [
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 234.53125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 272.5625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 276.390625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 193.203125
+            }
+          ],
+          "name": "static-cover",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 494.796875,
+            "height": 300,
+            "left": 103,
+            "right": 1337,
+            "top": 194.796875,
+            "width": 1234,
+            "x": 103,
+            "y": 194.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 832950,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1851
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 7065888,
+              "uploads": 15,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 234.53125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 272.5625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 276.390625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 193.203125
+            }
+          ],
+          "name": "contain-matte",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 494.796875,
+            "height": 300,
+            "left": 103,
+            "right": 1337,
+            "top": 194.796875,
+            "width": 1234,
+            "x": 103,
+            "y": 194.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "contain",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 832950,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1851
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 7065888,
+              "uploads": 15,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 234.53125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 272.5625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 276.390625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 193.203125
+            }
+          ],
+          "name": "cover-crop-uniform-reuse",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 494.796875,
+            "height": 300,
+            "left": 103,
+            "right": 1337,
+            "top": 194.796875,
+            "width": 1234,
+            "x": 103,
+            "y": 194.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 832950,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1851
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 404,
+              "kind": "canvas",
+              "pixels": 261388,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 7065888,
+              "uploads": 15,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 647
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 234.53125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 272.5625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 276.390625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 193.203125
+            }
+          ],
+          "name": "source-budget-1048576",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 494.796875,
+            "height": 300,
+            "left": 103,
+            "right": 1337,
+            "top": 194.796875,
+            "width": 1234,
+            "x": 103,
+            "y": 194.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 832950,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1851
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 8113543,
+              "uploads": 16,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 234.53125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 272.5625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 276.390625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 193.203125
+            }
+          ],
+          "name": "plain-host-canvas-fallback",
+          "outputReady": "false",
+          "rect": {
+            "bottom": 494.796875,
+            "height": 300,
+            "left": 103,
+            "right": 1337,
+            "top": 194.796875,
+            "width": 1234,
+            "x": 103,
+            "y": 194.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": false,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 832950,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1851
+            },
+            "revision": 0,
+            "solid": true,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 8113543,
+              "uploads": 16,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        },
+        {
+          "assertions": {
+            "backingBounded": true,
+            "controls44": true,
+            "fields44and16": true,
+            "sourceBounded": true,
+            "viewportOverflow": 0
+          },
+          "controls": [
+            {
+              "height": 44,
+              "id": "REAL/SOURCE",
+              "width": 182.7734375
+            },
+            {
+              "height": 44,
+              "id": "Library source ↗",
+              "width": 83.7578125
+            },
+            {
+              "height": 44,
+              "id": "01Type field",
+              "width": 84.59375
+            },
+            {
+              "height": 44,
+              "id": "02Signal stripes",
+              "width": 101.8203125
+            },
+            {
+              "height": 44,
+              "id": "03Orbital print",
+              "width": 93.4765625
+            },
+            {
+              "height": 44,
+              "id": "redraw",
+              "width": 106.03125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 92.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset",
+              "width": 52.125
+            },
+            {
+              "height": 44,
+              "id": "Caustic receiver",
+              "width": 94.5234375
+            },
+            {
+              "height": 44,
+              "id": "Quiet optics",
+              "width": 77.5234375
+            },
+            {
+              "height": 44,
+              "id": "Plain canvas fallback",
+              "width": 114.046875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 67.03125
+            }
+          ],
+          "decorative": "true",
+          "fields": [
+            {
+              "font": 16,
+              "height": 44,
+              "id": "fit",
+              "width": 234.53125
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "position",
+              "width": 272.5625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "refraction",
+              "width": 276.390625
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "budget",
+              "width": 193.203125
+            }
+          ],
+          "name": "quiet-on-demand-optics",
+          "outputReady": "true",
+          "rect": {
+            "bottom": 494.796875,
+            "height": 300,
+            "left": 103,
+            "right": 1337,
+            "top": 194.796875,
+            "width": 1234,
+            "x": 103,
+            "y": 194.796875
+          },
+          "state": {
+            "artwork": "poster",
+            "fit": "cover",
+            "quiet": true,
+            "renderer": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1.5,
+              "drawCalls": 4,
+              "fieldCount": 0,
+              "fusionCount": 3,
+              "height": 450,
+              "pixels": 832950,
+              "renderer": "webgl2",
+              "wallpaperPasses": 1,
+              "width": 1851
+            },
+            "revision": 0,
+            "solid": false,
+            "source": {
+              "downscaled": true,
+              "height": 809,
+              "kind": "canvas",
+              "pixels": 1047655,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 8113543,
+              "uploads": 16,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 1295
+            },
+            "touring": false
+          }
+        }
+      ],
+      "measuredAt": "2026-10-12T04:59:04.160Z",
+      "schemaVersion": 1,
+      "scope": "Actual native CSS viewports in desktop Chromium. Native style/rect/control checks; physical phones, Safari and AT unverified. Solid/quiet preferences are explicit host controls, not synthetic OS changes.",
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    }
+  ]
+}

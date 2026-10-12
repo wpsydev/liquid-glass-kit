@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "programBefore": {
+    "error": 1282,
+    "mismatches": [
+      {
+        "args": [
+          2
+        ],
+        "method": "uniform1i",
+        "name": "uOwnedSource"
+      },
+      {
+        "args": [
+          5.684341886080802e-14,
+          -102.1875,
+          886.9999999999999,
+          554.375
+        ],
+        "method": "uniform4f",
+        "name": "uSourceMapping"
+      },
+      {
+        "args": [
+          0.045,
+          0.06,
+          0.09
+        ],
+        "method": "uniform3f",
+        "name": "uSourceMatte"
+      }
+    ],
+    "state": {
+      "artwork": "poster",
+      "fit": "cover",
+      "quiet": false,
+      "renderer": {
+        "causticCount": 0,
+        "causticPixels": 0,
+        "causticTriangles": 0,
+        "dpr": 0,
+        "drawCalls": 0,
+        "fieldCount": 0,
+        "fusionCount": 0,
+        "height": 0,
+        "pixels": 0,
+        "renderer": "webgl2",
+        "wallpaperPasses": 0,
+        "width": 0
+      },
+      "revision": 0,
+      "solid": false,
+      "source": {
+        "downscaled": false,
+        "height": 0,
+        "kind": "canvas",
+        "pixels": 0,
+        "reason": "webgl",
+        "status": "unsupported",
+        "uploadPixels": 261388,
+        "uploads": 1,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 0
+      },
+      "touring": false
+    }
+  },
+  "programFix": "Activate owned receiver program before its uniform-binding callback",
+  "sameSizeRetryBefore": {
+    "denied": {
+      "downscaled": false,
+      "height": 0,
+      "kind": "image",
+      "pixels": 0,
+      "reason": "source-access",
+      "status": "error",
+      "uploadPixels": 0,
+      "uploads": 0,
+      "videoFrameCallback": false,
+      "visible": true,
+      "width": 0
+    },
+    "error": 0,
+    "retry": {
+      "downscaled": false,
+      "height": 0,
+      "kind": "canvas",
+      "pixels": 0,
+      "reason": "source-access",
+      "status": "error",
+      "uploadPixels": 0,
+      "uploads": 0,
+      "videoFrameCallback": false,
+      "visible": true,
+      "width": 0
+    },
+    "sameBoundedStagingDimensions": true,
+    "sourceDimensions": [
+      960,
+      960
+    ]
+  },
+  "sameSizeRetryAfter": {
+    "denied": {
+      "downscaled": false,
+      "height": 0,
+      "kind": "image",
+      "pixels": 0,
+      "reason": "source-access",
+      "status": "error",
+      "uploadPixels": 0,
+      "uploads": 0,
+      "videoFrameCallback": false,
+      "visible": true,
+      "width": 0
+    },
+    "error": 0,
+    "pixel": [
+      0,
+      255,
+      255,
+      255
+    ],
+    "retry": {
+      "downscaled": true,
+      "height": 256,
+      "kind": "canvas",
+      "pixels": 65536,
+      "reason": "none",
+      "status": "ready",
+      "uploadPixels": 131072,
+      "uploads": 2,
+      "videoFrameCallback": false,
+      "visible": true,
+      "width": 256
+    },
+    "sameBoundedStagingDimensions": true,
+    "sourceDimensions": [
+      960,
+      960
+    ]
+  },
+  "recoveryFix": "Release only tainted owned staging canvas/context after source-access failure; explicit clean retry gets fresh bounded staging",
+  "scope": "Real native CURRENT_PROGRAM identity/getError and real origin taint/readPixels. No shader/mock substitution in browser proof"
+}

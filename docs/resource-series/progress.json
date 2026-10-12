@@ -405,12 +405,12 @@
     {
       "order": 28,
       "url": "https://microkit.co",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Native number drafts and optional dedicated precision scrubbing",
       "version": "0.44.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/scrub/",
       "video": "docs/campaign/assets/number-input-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109519679052263699",
       "performance": [
         "benchmarks/number-input-payload.json",
         "benchmarks/number-input-browser.json",
@@ -421,13 +421,18 @@
     {
       "order": 29,
       "url": "https://glass.samasante.com",
-      "status": "queued",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Experimental owned-media texture receiver with real source recovery",
+      "version": "0.45.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/scene-texture-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/scene-texture-payload.json",
+        "benchmarks/scene-texture-browser.json",
+        "benchmarks/scene-texture-layouts.json",
+        "benchmarks/scene-texture-native-regressions.json"
+      ]
     },
     {
       "order": 30,

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.45.0-preview.1
+
+- Add explicit experimental owned-media texture receiver with bounded downscaling, static upload reuse, crop/matte mapping, real video-frame opt-in and native fallback states.
+- Add scene animate flag while retaining ordinary scene default behavior. Fix actual receiver-program binding and tainted same-dimension staging recovery defects.
+- Add original REAL / SOURCE, native WebGL pixel/context/video proofs,30 viewport/state cases, scoped submission/payload evidence and twelve-second plucked-synthpop film.
+
 ## 0.44.0-preview.1
 
 - Add optional native number-input enhancement with dedicated scrub/tap controls and deliberate finite-value Commit.

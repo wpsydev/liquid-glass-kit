@@ -77,11 +77,26 @@ export interface GlassSceneOptions {
   backdrop?: 'ribbons' | 'studio' | 'mineral';
   palette?: 'neon' | 'sunset' | 'ocean';
   paused?: boolean;
+  /** Scene-clock RAF. Default true; explicit false keeps manual/event draws available. */
+  animate?: boolean;
   reducedMotion?: boolean;
   reducedTransparency?: boolean;
   maxDpr?: number;
   /** Optional explicit backing-pixel budget; trades resolution for speed. */
   maxPixels?: number;
+}
+
+/** Trusted experimental renderer extension, not a sandbox for untrusted shaders. */
+export interface GlassSceneBackdropDriver {
+  readonly fragmentSource: string;
+  readonly uniforms: readonly string[];
+  /** Optional actual visibility boundary. False skips draws and clock frames. */
+  canRender?(): boolean;
+  canAnimate?(options: Readonly<GlassSceneOptions>): boolean;
+  /** Bind the source texture/uniforms; false uses the unchanged procedural receiver. */
+  bind(context: WebGL2RenderingContext, locations: Readonly<Record<string, WebGLUniformLocation | null>>, frame: Readonly<{ width: number; height: number; cssWidth: number; cssHeight: number; solid: boolean }>): boolean;
+  release(context: WebGL2RenderingContext): void;
+  fail?(reason: 'shader'): void;
 }
 
 /** Submission counts and backing dimensions, not timing or a hardware speed guarantee. */
@@ -110,8 +125,11 @@ const emptyStats = (): MutableStats => ({ renderer: 'webgl2', fieldCount: 0, fus
  * Render an experimental owned wallpaper, optional lenses and decorative instances.
  * Keep the canvas behind semantic HTML. It samples its own scene, never DOM content.
  * One controller per canvas; destroy before attaching another.
+ * The optional third argument is a trusted experimental background driver. Its
+ * shader/callbacks run in this controller's context; it is not a private API or
+ * a security sandbox. Without it, procedural shader/resource paths stay intact.
  */
-export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneOptions = {}) {
+export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneOptions = {}, backdropDriver?: GlassSceneBackdropDriver) {
   const doc = canvas.ownerDocument;
   const view = doc?.defaultView;
   let destroyed = false;
@@ -132,6 +150,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   if (!gl) return noop;
   const context = gl;
   let background: Pipeline | null = null;
+  let ownedBackground: Pipeline | null = null, ownedBackgroundFailed = false;
   let composite: Pipeline | null = null;
   let field: Pipeline | null = null;
   let lenses: Pipeline | null = null;
@@ -167,9 +186,12 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
     lastTimestamp = null;
   };
   const canAnimate = () => !destroyed && supported && canvas.isConnected && !doc.hidden
-    && !options.paused && !options.reducedMotion && !reduced?.matches;
+    && !options.paused && options.animate !== false && !options.reducedMotion && !reduced?.matches
+    && (!backdropDriver || (backdropDriver.canRender?.() !== false && backdropDriver.canAnimate?.(options) !== false));
   const releaseGpu = () => {
-    for (const pipeline of [background, composite, fusion, lenses, field, caustics]) if (pipeline) context.deleteProgram(pipeline.program);
+    for (const pipeline of [background, ownedBackground, composite, fusion, lenses, field, caustics]) if (pipeline) context.deleteProgram(pipeline.program);
+    if (backdropDriver) { try { backdropDriver.release(context); } catch { /* trusted extension cleanup must not strand scene resources */ } }
+    ownedBackground = null; ownedBackgroundFailed = false;
     if (causticTexture) context.deleteTexture(causticTexture);
     if (causticFramebuffer) context.deleteFramebuffer(causticFramebuffer);
     causticTexture = null; causticFramebuffer = null; causticWidth = causticHeight = 0;
@@ -183,7 +205,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
     background = null; composite = null; lenses = null; fusion = null; field = null; vao = null; texture = null; framebuffer = null;
     textureWidth = textureHeight = 0;
   };
-  const createPipeline = (vertexSource: string, fragmentSource: string): Pipeline | null => {
+  const createPipeline = (vertexSource: string, fragmentSource: string, extraUniforms: readonly string[] = []): Pipeline | null => {
     const shaders: WebGLShader[] = [];
     let program: WebGLProgram | null = null;
     try {
@@ -201,6 +223,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
       if (!context.getProgramParameter(program, context.LINK_STATUS)) { context.deleteProgram(program); return null; }
       const locations: Pipeline['locations'] = {};
       for (const name of uniformNames) locations[name] = context.getUniformLocation(program, name);
+      for (const name of extraUniforms) locations[name] = context.getUniformLocation(program, name);
       return { program, locations };
     } catch { if (program) context.deleteProgram(program); return null; }
     finally { shaders.forEach(shader => context.deleteShader(shader)); }
@@ -259,6 +282,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   };
   const draw = (flush = false) => {
     if (destroyed || !supported || !background || !composite || !canvas.isConnected || doc.hidden) return;
+    if (backdropDriver?.canRender?.() === false) return;
     const bounds = canvas.getBoundingClientRect();
     if (!(bounds.width > 0 && bounds.height > 0)) return;
     let dpr = Math.min(bounded(view.devicePixelRatio, 1, 1, 4), bounded(options.maxDpr, 2, 1, 2));
@@ -420,9 +444,29 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
       context.bindFramebuffer(context.FRAMEBUFFER, framebuffer);
       context.viewport(0, 0, width, height);
       context.activeTexture(context.TEXTURE1); context.bindTexture(context.TEXTURE_2D, causticTexture);
-      use(background, bounds.width, bounds.height, scaleX, scaleY, palette, solid);
-      context.uniform1i(background.locations.uCausticMap ?? null, 1);
-      context.uniform1i(background.locations.uCausticActive ?? null, causticCount ? 1 : 0);
+      let receiver = background;
+      if (backdropDriver && !ownedBackgroundFailed) {
+        try {
+          ownedBackground ??= createPipeline(vertexSource, backdropDriver.fragmentSource, backdropDriver.uniforms);
+          if (!ownedBackground) {
+            ownedBackgroundFailed = true; backdropDriver.fail?.('shader');
+          } else {
+            // Source uniforms belong to this program, even when the preceding
+            // draw used the composite, caustic or another scene pipeline.
+            context.useProgram(ownedBackground.program);
+            if (backdropDriver.bind(context, ownedBackground.locations, { width, height, cssWidth: bounds.width, cssHeight: bounds.height, solid: Boolean(solid) })) receiver = ownedBackground;
+          }
+        } catch {
+          ownedBackgroundFailed = true;
+          try { backdropDriver.release(context); backdropDriver.fail?.('shader'); } catch { /* procedural fallback */ }
+        }
+      }
+      // The opt-in receiver writes the same owned wallpaper target. Existing
+      // lens/fusion/field sampling stays unchanged; no arbitrary DOM is captured.
+      if (backdropDriver) { context.activeTexture(context.TEXTURE1); context.bindTexture(context.TEXTURE_2D, causticTexture); }
+      use(receiver, bounds.width, bounds.height, scaleX, scaleY, palette, solid);
+      context.uniform1i(receiver.locations.uCausticMap ?? null, 1);
+      context.uniform1i(receiver.locations.uCausticActive ?? null, causticCount ? 1 : 0);
       context.drawArrays(context.TRIANGLES, 0, 3);
       context.bindFramebuffer(context.FRAMEBUFFER, null);
       context.activeTexture(context.TEXTURE0); context.bindTexture(context.TEXTURE_2D, texture);

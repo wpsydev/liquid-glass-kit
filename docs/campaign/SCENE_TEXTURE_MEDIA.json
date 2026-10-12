@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-12T05:05:23.875Z",
+  "published": false,
+  "source": "source29 / independently authored owned-media texture receiver",
+  "sourceSHA256": "4170461ac2a0c67fd97ecb6d36e31cbccdf281149144b0dc8fa6863dc34396e2",
+  "sceneSHA256": "0d51469d08939452b72752f2013f77d46983b238d59515a3a34ce770d8b0964a",
+  "shaderSHA256": "5c8fba783c02c0c2f0e1c1fee0712b3a814c06de68c2c58f598a748ed507e07d",
+  "media": {
+    "schemaVersion": 1,
+    "film": {
+      "path": "docs/campaign/assets/scene-texture-showcase.mp4",
+      "bytes": 1121677,
+      "sha256": "49e13a44c0db399bea9fa3f58ef98ce96c4352b95afeb5bea44da63b79f67735"
+    },
+    "poster": {
+      "path": "docs/campaign/assets/scene-texture-showcase.png",
+      "bytes": 638779,
+      "sha256": "77e3102ab82d4b2ff169e67f84185b50a1dd4918e4d772c855b906e950386bba"
+    },
+    "native": {
+      "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-43a71705-6717-497f-8d95-5a3644151d4f-mp4.mp4",
+      "bytes": 1981768,
+      "sha256": "fde586472b1b0e01e1f79411b9ab2384e588876e9bd5b9a71abc2499bc33516c"
+    },
+    "nativeDuration": "00:00:10.81",
+    "nativeVideo": "Stream #0:0[0x1](und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1920, 1465 kb/s, SAR 1:1 DAR 1:1, 6.66 fps, 20 tbr, 30k tbn (default)",
+    "exportVideo": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 960x960 [SAR 1:1 DAR 1:1], 534 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+    "exportAudio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 202 kb/s (default)",
+    "fullAudioVideoDecodeExitCode": 0,
+    "decodeErrors": "",
+    "decodedFrames": 360,
+    "uniqueFrameHashes": 324,
+    "frameHashFileSHA256": "d688e3000e64a65b2d81bdd464539dde12574fa6dc7eb94f1a97e987a58c3171",
+    "reviewedFramesSeconds": [
+      1.1,
+      3,
+      5.9,
+      9.8
+    ]
+  },
+  "score": {
+    "style": "synthpop",
+    "BPM": 112,
+    "seed": 45,
+    "patch": "bright plucked marimba synthesis",
+    "chordIntervals": [
+      0,
+      4,
+      7,
+      11
+    ],
+    "durationSeconds": 12,
+    "license": "MIT",
+    "externalSamples": false
+  },
+  "native": {
+    "tabId": "tab_4k",
+    "CSSViewport": [
+      960,
+      960
+    ],
+    "DPR": 2,
+    "rawPixels": [
+      1920,
+      1920
+    ],
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+    "WebGLVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "pixelVerification": "Real native readPixels over original Canvas2D/decoded own PNG/ImageBitmap source with expected colors and GL error0; isolated diagnostics outside timed submission",
+    "realVideo": {
+      "after": {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 647042,
+        "uploads": 15,
+        "videoFrameCallback": true,
+        "visible": true,
+        "width": 362
+      },
+      "afterReleasePlaying": true,
+      "api": "actual captureStream(0) + explicit host requestFrame + native rVFC; no network/video URL",
+      "before": {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 450476,
+        "uploads": 12,
+        "videoFrameCallback": true,
+        "visible": true,
+        "width": 362
+      },
+      "hostStillPlaying": true,
+      "uploadsIncreased": true
+    },
+    "contextRestored": true,
+    "exportFPSIsAppFPS": false,
+    "finalHoldSecondsApprox": 1.19,
+    "recordingStopped": true
+  },
+  "tour": {
+    "complete": true,
+    "finiteDurationMs": 10500,
+    "traceUploads": [
+      [
+        "static-owned-poster",
+        2
+      ],
+      [
+        "moved-optics-same-upload",
+        2
+      ],
+      [
+        "own-stripes-contain",
+        3
+      ],
+      [
+        "crop-uniforms-no-new-upload",
+        3
+      ],
+      [
+        "own-orbit-caustics",
+        4
+      ],
+      [
+        "explicit-source-redraw",
+        5
+      ],
+      [
+        "quiet-final",
+        5
+      ],
+      [
+        "finished",
+        5
+      ]
+    ],
+    "final": {
+      "artwork": "orbit",
+      "fit": "cover",
+      "quiet": true,
+      "renderer": {
+        "causticCount": 3,
+        "causticPixels": 90210,
+        "causticTriangles": 3456,
+        "dpr": 1.5,
+        "drawCalls": 5,
+        "fieldCount": 0,
+        "fusionCount": 3,
+        "height": 555,
+        "pixels": 738150,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 1330
+      },
+      "revision": 1,
+      "solid": false,
+      "source": {
+        "downscaled": true,
+        "height": 404,
+        "kind": "canvas",
+        "pixels": 261388,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 1306940,
+        "uploads": 5,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 647
+      },
+      "touring": false
+    },
+    "camera": "960 CSS px square. Recording-only compact title/control whitespace and 370px source frame; keeps native controls44 and fields16. Normal viewport evidence excludes this override.",
+    "sourceArtworkOriginal": true,
+    "arbitraryDOMCapture": false
+  },
+  "validation": {
+    "focusedTextureTests": 31,
+    "fullCheckTests": 502,
+    "fullCheckFiles": 31,
+    "strictDemoTypeScript": "passed",
+    "isolatedViteBuild": "passed",
+    "nativeViewportCases": 30,
+    "nativePixelFitCropSourceCases": 13,
+    "viewports": [
+      [
+        320,
+        700
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "allOrdinaryControl44Field16OverflowAndBudgetAssertions": true,
+    "limitations": [
+      "Desktop Chromium/Electron/ANGLE Metal only",
+      "Physical phones, iOS Safari and AT output unverified",
+      "No measured GPU elapsed, hardware throughput, FPS, paint latency or speedup claim",
+      "A host benchmark fixture loads our own public MIT poster without CORS opt-in solely to verify origin-taint; no remote media in the film",
+      "Browser-unavailable WebGL branch remains unit/simulated capability coverage; native failure proof is actual source-access/context-loss"
+    ]
+  },
+  "benchmark": {
+    "standaloneBundleBytes": 43902,
+    "gzipBytes": 14470,
+    "includesExistingScene": true,
+    "runtimeDependencies": 0,
+    "CPUOnlySubmission": {
+      "batches": [
+        {
+          "batch": 1,
+          "meanMs": 0.040000003576278684,
+          "samplesMs": [
+            0.10000002384185791,
+            0.10000002384185791,
+            0,
+            0.10000002384185791,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.09999990463256836,
+            0,
+            0,
+            0.10000002384185791,
+            0.10000002384185791,
+            0,
+            0.10000002384185791,
+            0,
+            0
+          ]
+        },
+        {
+          "batch": 2,
+          "meanMs": 0.0550000011920929,
+          "samplesMs": [
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0.09999990463256836,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0.2999999523162842,
+            0,
+            0.10000002384185791,
+            0,
+            0.10000002384185791,
+            0.20000004768371582
+          ]
+        },
+        {
+          "batch": 3,
+          "meanMs": 0.025,
+          "samplesMs": [
+            0,
+            0,
+            0,
+            0.09999990463256836,
+            0.10000002384185791,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0
+          ]
+        },
+        {
+          "batch": 4,
+          "meanMs": 0.019999998807907104,
+          "samplesMs": [
+            0,
+            0,
+            0,
+            0.09999990463256836,
+            0,
+            0,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0,
+            0,
+            0.20000004768371582,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "batch": 5,
+          "meanMs": 0.06999999880790711,
+          "samplesMs": [
+            0.10000002384185791,
+            0,
+            0.09999990463256836,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0.6000000238418579,
+            0,
+            0,
+            0,
+            0.20000004768371582,
+            0,
+            0.09999990463256836,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0.10000002384185791
+          ]
+        }
+      ],
+      "medianMsPerUpdateAndRender": 0,
+      "p95Ms": 0.10000002384185791,
+      "scope": "Synchronous uniform update + explicit render submission on connected native canvas. No readPixels inside timing. Does not measure GPU completion, paint, FPS, decode/upload throughput or comparative speedup."
+    },
+    "beforeIdle": {
+      "draws": 490,
+      "images": 10,
+      "subs": 6,
+      "uploads": 16
+    },
+    "afterIdle": {
+      "draws": 490,
+      "images": 10,
+      "subs": 6,
+      "uploads": 16
+    },
+    "idleMs": 250,
+    "timingCaveat": "~0.1ms native clock resolution. Median below resolution, not zero cost. ReadPixels intentionally excluded. No GPU completion or comparative speedup interpretation."
+  },
+  "requiredFixes": [
+    {
+      "path": "/tmp/liquid-glass-source29-native-program-fix.patch",
+      "bytes": 3645,
+      "sha256": "2f1cb747a4ba920dbbd278a8b7cba8366ea8fbaf69c676002bec15505d1545c3",
+      "after": "original source29 base patch",
+      "reason": "Activate owned receiver program before source uniform writes"
+    },
+    {
+      "path": "/tmp/liquid-glass-source29-native-recovery-fix.patch",
+      "bytes": 2886,
+      "sha256": "f831b645f524493941eaf3882527cd1b93a944282a21a0dfcc0498b6aa4e059c",
+      "after": "program fix patch",
+      "reason": "Release only tainted owned staging after source-access failure; native clean same-size retry recovers"
+    }
+  ]
+}

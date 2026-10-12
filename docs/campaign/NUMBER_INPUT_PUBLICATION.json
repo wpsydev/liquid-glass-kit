@@ -1,0 +1,226 @@
+{
+  "version": "0.44.0-preview.1",
+  "commit": "a78d7cec4a3e9822286557281ffa57004b2f0452",
+  "workflows": {
+    "verify": 38208804198,
+    "release": 38208803842,
+    "pages": 38208803844,
+    "conclusion": "success",
+    "tests": 963,
+    "testFiles": 47
+  },
+  "archive": {
+    "members": 193,
+    "bytes": 416463,
+    "sha256": "1ebf2b40358e44ad38655072b71d6e615014c837feed67e22051932a89eeb644"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/scrub/",
+    "native": {
+      "arrow": {
+        "focus": "radius",
+        "input": "22",
+        "state": {
+          "cancelNotifications": 0,
+          "commitNotifications": 1,
+          "draftNotifications": 1,
+          "fields": {
+            "blur": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "32",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12",
+              "scrubbing": false,
+              "step": "0.5",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12
+            },
+            "gap": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12",
+              "scrubbing": false,
+              "step": "0.25",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12
+            },
+            "radius": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "22",
+              "scrubbing": false,
+              "step": "2",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 22
+            }
+          },
+          "focus": "radius",
+          "gapRule": false,
+          "lastSource": "radius / commit / change",
+          "modifiers": false,
+          "normalize": false,
+          "object": {
+            "blur": 12,
+            "gap": 12,
+            "id": "surface-01",
+            "radius": 22
+          },
+          "pendingTourSteps": 0,
+          "quiet": false,
+          "revision": 1,
+          "snapshot": null,
+          "solid": false,
+          "tourStep": ""
+        },
+        "type": "number",
+        "valid": true
+      },
+      "commit": {
+        "cancelNotifications": 0,
+        "commitNotifications": 2,
+        "draftNotifications": 1,
+        "fields": {
+          "blur": {
+            "canScrub": true,
+            "canStep": true,
+            "empty": false,
+            "max": "32",
+            "min": "0",
+            "precisionSupported": true,
+            "raw": "12",
+            "scrubbing": false,
+            "step": "0.5",
+            "valid": true,
+            "validationMessage": "",
+            "validity": {
+              "badInput": false,
+              "customError": false,
+              "rangeOverflow": false,
+              "rangeUnderflow": false,
+              "stepMismatch": false,
+              "valueMissing": false
+            },
+            "value": 12
+          },
+          "gap": {
+            "canScrub": true,
+            "canStep": true,
+            "empty": false,
+            "max": "48",
+            "min": "0",
+            "precisionSupported": true,
+            "raw": "12",
+            "scrubbing": false,
+            "step": "0.25",
+            "valid": true,
+            "validationMessage": "",
+            "validity": {
+              "badInput": false,
+              "customError": false,
+              "rangeOverflow": false,
+              "rangeUnderflow": false,
+              "stepMismatch": false,
+              "valueMissing": false
+            },
+            "value": 12
+          },
+          "radius": {
+            "canScrub": true,
+            "canStep": true,
+            "empty": false,
+            "max": "48",
+            "min": "0",
+            "precisionSupported": true,
+            "raw": "22",
+            "scrubbing": false,
+            "step": "2",
+            "valid": true,
+            "validationMessage": "",
+            "validity": {
+              "badInput": false,
+              "customError": false,
+              "rangeOverflow": false,
+              "rangeUnderflow": false,
+              "stepMismatch": false,
+              "valueMissing": false
+            },
+            "value": 22
+          }
+        },
+        "focus": "radius-apply",
+        "gapRule": false,
+        "lastSource": "radius / commit / manual",
+        "modifiers": false,
+        "normalize": false,
+        "object": {
+          "blur": 12,
+          "gap": 12,
+          "id": "surface-01",
+          "radius": 22
+        },
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 1,
+        "snapshot": null,
+        "solid": false,
+        "tourStep": ""
+      }
+    },
+    "scope": "Trusted ArrowUp native radius20\u219222/change acknowledged, actual named Apply commits validcurrentvalue; hostrevision remains1"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109519679052263699",
+    "replies": [
+      "https://x.com/wpsygames/status/2109520502360592853",
+      "https://x.com/wpsygames/status/2109520698326786190"
+    ],
+    "upload": {
+      "bytes": 574935,
+      "sha256": "c0c3fce46d32e2067b6cd599aebe00bf6a587b6cb269315d073ca9febda3d023"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical pages confirmed intended text"
+  },
+  "npmRegistry": "pending"
+}

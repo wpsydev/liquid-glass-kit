@@ -540,3 +540,11 @@ Integrated npm run check passed1,145tests/53files including queued prototypes. n
 Optional4284gzip/CSS403.800connectedlifecycles25.6/160median0syncRAF/style/rect5600listenersbalance; live5617listeners/oneobserverbalanced;250idle/destroy0RAF. No paintGPUFPSspeedupfinanceclaim. Original574935-byte12s960square360frame electrickeysdisco120seed58 SHA256c0c3fce46d32e2067b6cd599aebe00bf6a587b6cb269315d073ca9febda3d023. Actualstate/cameradensity/syntheticdragdisclosed/controlsbottom871abovecaption882/full decode/threeframespass.
 
 Integrated npm run check passed1,145tests/53files including queued prototypes. npm pack --dry-run passed193members excluding future entries. Published-scope CI follows release.
+
+## 0.45 owned media textures (2026-10-12)
+
+31texture+35scenefocused tests. ActualGPUANGLEMetalAppleM1ProWebGL2: error1282wrongprogram beforefix/error0afteractivation, cleanrecoverycyan[0,255,255,255] aftertainted256stagingresetfailureboundary.13pixel/sourcecases originalquadrants/image/bitmap/containmatte/coverposition/texSubsame-size/uniformreuse/2048×1024→362×181cap65536/realoutputresize. Actualcontextloss/restorationevent/resource recovery; hostcaptureStream/rVFCuploads12→15/disposaldoesnotpausehostvideo.30desktop320–1440cases44/16/noflow/sourceoutputcaps. Phones/Safari/ATunverified.
+
+Optional43902raw/14470gzip includesexistingengine. CPUuniformupdate/render submissionmedianbelow~.1clockresolution/p95~.1ms; readPixelstallsnotintiming/GPUelapsednotmeasured/noFPSspeedup.250idle490draws/16uploadsunchanged. Original1121677-byte12s960square360frame pluckedsynthpop112seed45 SHA25649e13a44c0db399bea9fa3f58ef98ce96c4352b95afeb5bea44da63b79f67735; finite10.5tourendquiet/static/5uploads/cameraCSSdisclosed/324unique hashes/threeframe/fullaudio decodepassed.
+
+Integrated npm run check passed1,176tests/54files including queued prototypes. npm pack --dry-run passed198members with only declared public entries. Published-scope CI follows release.

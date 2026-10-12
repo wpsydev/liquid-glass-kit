@@ -1,0 +1,1535 @@
+{
+  "schemaVersion": 1,
+  "probe": {
+    "CPUOnlySubmission": {
+      "batches": [
+        {
+          "batch": 1,
+          "meanMs": 0.040000003576278684,
+          "samplesMs": [
+            0.10000002384185791,
+            0.10000002384185791,
+            0,
+            0.10000002384185791,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.09999990463256836,
+            0,
+            0,
+            0.10000002384185791,
+            0.10000002384185791,
+            0,
+            0.10000002384185791,
+            0,
+            0
+          ]
+        },
+        {
+          "batch": 2,
+          "meanMs": 0.0550000011920929,
+          "samplesMs": [
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0.09999990463256836,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0.2999999523162842,
+            0,
+            0.10000002384185791,
+            0,
+            0.10000002384185791,
+            0.20000004768371582
+          ]
+        },
+        {
+          "batch": 3,
+          "meanMs": 0.025,
+          "samplesMs": [
+            0,
+            0,
+            0,
+            0.09999990463256836,
+            0.10000002384185791,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0
+          ]
+        },
+        {
+          "batch": 4,
+          "meanMs": 0.019999998807907104,
+          "samplesMs": [
+            0,
+            0,
+            0,
+            0.09999990463256836,
+            0,
+            0,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0,
+            0,
+            0.20000004768371582,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "batch": 5,
+          "meanMs": 0.06999999880790711,
+          "samplesMs": [
+            0.10000002384185791,
+            0,
+            0.09999990463256836,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0,
+            0.6000000238418579,
+            0,
+            0,
+            0,
+            0.20000004768371582,
+            0,
+            0.09999990463256836,
+            0,
+            0,
+            0.10000002384185791,
+            0,
+            0.10000002384185791
+          ]
+        }
+      ],
+      "medianMsPerUpdateAndRender": 0,
+      "p95Ms": 0.10000002384185791,
+      "scope": "Synchronous uniform update + explicit render submission on connected native canvas. No readPixels inside timing. Does not measure GPU completion, paint, FPS, decode/upload throughput or comparative speedup."
+    },
+    "afterIdle": {
+      "draws": 490,
+      "images": 10,
+      "subs": 6,
+      "uploads": 16
+    },
+    "beforeIdle": {
+      "draws": 490,
+      "images": 10,
+      "subs": 6,
+      "uploads": 16
+    },
+    "cases": [
+      {
+        "error": 0,
+        "expectedQuadrants": true,
+        "name": "static-canvas-cover-aria-hidden",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 0,
+          "texSubImage2D": 0
+        },
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "samples": {
+          "bl": [
+            0,
+            0,
+            255,
+            255
+          ],
+          "br": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "center": [
+            128,
+            128,
+            128,
+            255
+          ],
+          "tl": [
+            255,
+            0,
+            0,
+            255
+          ],
+          "top": [
+            128,
+            128,
+            0,
+            255
+          ],
+          "tr": [
+            0,
+            255,
+            0,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": false,
+          "height": 64,
+          "kind": "canvas",
+          "pixels": 8192,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 8192,
+          "uploads": 1,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 128
+        },
+        "submittedDrawsAfterInitial": 2,
+        "supported": true
+      },
+      {
+        "error": 0,
+        "expectedMatte": true,
+        "name": "contain-opaque-matte",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 0,
+          "texSubImage2D": 0
+        },
+        "noUpload": true,
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "samples": {
+          "bl": [
+            0,
+            0,
+            255,
+            255
+          ],
+          "br": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "center": [
+            128,
+            128,
+            128,
+            255
+          ],
+          "tl": [
+            255,
+            0,
+            0,
+            255
+          ],
+          "top": [
+            26,
+            51,
+            77,
+            255
+          ],
+          "tr": [
+            0,
+            255,
+            0,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": false,
+          "height": 64,
+          "kind": "canvas",
+          "pixels": 8192,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 8192,
+          "uploads": 1,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 128
+        },
+        "submittedDrawsAfterInitial": 6,
+        "supported": true
+      },
+      {
+        "error": 0,
+        "name": "contain-alignment-uniform-only",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 0,
+          "texSubImage2D": 0
+        },
+        "noUpload": true,
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "samples": {
+          "bl": [
+            0,
+            0,
+            255,
+            255
+          ],
+          "br": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "center": [
+            128,
+            128,
+            0,
+            255
+          ],
+          "tl": [
+            51,
+            77,
+            102,
+            255
+          ],
+          "top": [
+            51,
+            77,
+            102,
+            255
+          ],
+          "tr": [
+            51,
+            77,
+            102,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": false,
+          "height": 64,
+          "kind": "canvas",
+          "pixels": 8192,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 8192,
+          "uploads": 1,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 128
+        },
+        "submittedDrawsAfterInitial": 10,
+        "supported": true
+      },
+      {
+        "error": 0,
+        "expectedBlack": true,
+        "name": "same-size-source-subimage",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 0,
+          "texSubImage2D": 1
+        },
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "samples": {
+          "bl": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "br": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "center": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "tl": [
+            51,
+            77,
+            102,
+            255
+          ],
+          "top": [
+            51,
+            77,
+            102,
+            255
+          ],
+          "tr": [
+            51,
+            77,
+            102,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": false,
+          "height": 64,
+          "kind": "canvas",
+          "pixels": 8192,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 16384,
+          "uploads": 2,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 128
+        },
+        "submittedDrawsAfterInitial": 12,
+        "supported": true,
+        "usedTexSubImage": true
+      },
+      {
+        "error": 0,
+        "expectedBlack": true,
+        "name": "decoded-own-image",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 1,
+          "texSubImage2D": 1
+        },
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "samples": {
+          "bl": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "br": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "center": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "tl": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "top": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "tr": [
+            0,
+            0,
+            0,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": false,
+          "height": 64,
+          "kind": "image",
+          "pixels": 8192,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 24576,
+          "uploads": 3,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 128
+        },
+        "submittedDrawsAfterInitial": 18,
+        "supported": true
+      },
+      {
+        "error": 0,
+        "expectedBlack": true,
+        "name": "owned-bitmap-normalized",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 2,
+          "texSubImage2D": 1
+        },
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "samples": {
+          "bl": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "br": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "center": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "tl": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "top": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "tr": [
+            0,
+            0,
+            0,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": false,
+          "height": 64,
+          "kind": "bitmap",
+          "pixels": 8192,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 32768,
+          "uploads": 4,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 128
+        },
+        "submittedDrawsAfterInitial": 22,
+        "supported": true
+      },
+      {
+        "error": 0,
+        "expectedRed": true,
+        "name": "cover-left-crop",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 4,
+          "texSubImage2D": 1
+        },
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "samples": {
+          "bl": [
+            255,
+            0,
+            0,
+            255
+          ],
+          "br": [
+            109,
+            146,
+            0,
+            255
+          ],
+          "center": [
+            255,
+            0,
+            0,
+            255
+          ],
+          "tl": [
+            255,
+            0,
+            0,
+            255
+          ],
+          "top": [
+            255,
+            0,
+            0,
+            255
+          ],
+          "tr": [
+            109,
+            146,
+            0,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": false,
+          "height": 64,
+          "kind": "canvas",
+          "pixels": 16384,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 57344,
+          "uploads": 6,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 256
+        },
+        "submittedDrawsAfterInitial": 28,
+        "supported": true
+      },
+      {
+        "error": 0,
+        "expectedYellow": true,
+        "name": "cover-right-crop-uniform-only",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 4,
+          "texSubImage2D": 1
+        },
+        "noUpload": true,
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "samples": {
+          "bl": [
+            109,
+            109,
+            146,
+            255
+          ],
+          "br": [
+            255,
+            255,
+            0,
+            255
+          ],
+          "center": [
+            255,
+            255,
+            0,
+            255
+          ],
+          "tl": [
+            109,
+            109,
+            146,
+            255
+          ],
+          "top": [
+            255,
+            255,
+            0,
+            255
+          ],
+          "tr": [
+            255,
+            255,
+            0,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": false,
+          "height": 64,
+          "kind": "canvas",
+          "pixels": 16384,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 57344,
+          "uploads": 6,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 256
+        },
+        "submittedDrawsAfterInitial": 32,
+        "supported": true
+      },
+      {
+        "bounded": true,
+        "error": 0,
+        "name": "real-source-downscale-cap",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 5,
+          "texSubImage2D": 2
+        },
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "samples": {
+          "bl": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "br": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "center": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "tl": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "top": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "tr": [
+            34,
+            187,
+            136,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": true,
+          "height": 181,
+          "kind": "canvas",
+          "pixels": 65522,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 188388,
+          "uploads": 8,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 362
+        },
+        "submittedDrawsAfterInitial": 36,
+        "supported": true
+      },
+      {
+        "bounded": true,
+        "error": 0,
+        "name": "native-resize-backed-output",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 5,
+          "texSubImage2D": 2
+        },
+        "rect": {
+          "bottom": 365.4375,
+          "height": 180,
+          "left": 24,
+          "right": 264,
+          "top": 185.4375,
+          "width": 240,
+          "x": 24,
+          "y": 185.4375
+        },
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 1,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 180,
+          "pixels": 43200,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 240
+        },
+        "samples": {
+          "bl": [
+            34,
+            186,
+            135,
+            255
+          ],
+          "br": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "center": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "tl": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "top": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "tr": [
+            34,
+            187,
+            136,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": true,
+          "height": 181,
+          "kind": "canvas",
+          "pixels": 65522,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 188388,
+          "uploads": 8,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 362
+        },
+        "submittedDrawsAfterInitial": 44,
+        "supported": true
+      },
+      {
+        "error": 0,
+        "expectedSourceAccess": true,
+        "name": "native-origin-tainted-host-image",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 6,
+          "texSubImage2D": 2
+        },
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "samples": {
+          "bl": [
+            13,
+            17,
+            17,
+            255
+          ],
+          "br": [
+            19,
+            54,
+            99,
+            255
+          ],
+          "center": [
+            83,
+            80,
+            53,
+            255
+          ],
+          "tl": [
+            8,
+            12,
+            17,
+            255
+          ],
+          "top": [
+            25,
+            14,
+            27,
+            255
+          ],
+          "tr": [
+            21,
+            36,
+            28,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": false,
+          "height": 0,
+          "kind": "image",
+          "pixels": 0,
+          "reason": "source-access",
+          "status": "error",
+          "uploadPixels": 188388,
+          "uploads": 8,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 0
+        },
+        "submittedDrawsAfterInitial": 52,
+        "supported": true
+      },
+      {
+        "error": 0,
+        "name": "explicit-clean-source-retry",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 7,
+          "texSubImage2D": 3
+        },
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "samples": {
+          "bl": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "br": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "center": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "tl": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "top": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "tr": [
+            34,
+            187,
+            136,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": true,
+          "height": 181,
+          "kind": "canvas",
+          "pixels": 65522,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 319432,
+          "uploads": 10,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 362
+        },
+        "submittedDrawsAfterInitial": 56,
+        "supported": true
+      },
+      {
+        "error": 0,
+        "name": "real-extension-context-restore",
+        "nativeUploadsAfterInitial": {
+          "texImage2D": 8,
+          "texSubImage2D": 3
+        },
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 0.9237604307034013,
+          "drawCalls": 2,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 221,
+          "pixels": 65195,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 295
+        },
+        "restored": true,
+        "samples": {
+          "bl": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "br": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "center": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "tl": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "top": [
+            34,
+            187,
+            136,
+            255
+          ],
+          "tr": [
+            34,
+            187,
+            136,
+            255
+          ]
+        },
+        "source": {
+          "downscaled": true,
+          "height": 181,
+          "kind": "canvas",
+          "pixels": 65522,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 384954,
+          "uploads": 11,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 362
+        },
+        "submittedDrawsAfterInitial": 64,
+        "supported": true
+      }
+    ],
+    "contextLost": {
+      "nativeRestoredEvent": true,
+      "state": {
+        "downscaled": false,
+        "height": 0,
+        "kind": "canvas",
+        "pixels": 0,
+        "reason": "context",
+        "status": "context-lost",
+        "uploadPixels": 319432,
+        "uploads": 10,
+        "videoFrameCallback": false,
+        "visible": false,
+        "width": 0
+      },
+      "supported": false
+    },
+    "events": [
+      {
+        "downscaled": false,
+        "height": 64,
+        "kind": "canvas",
+        "pixels": 8192,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 8192,
+        "uploads": 1,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 128
+      },
+      {
+        "downscaled": false,
+        "height": 64,
+        "kind": "canvas",
+        "pixels": 8192,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 16384,
+        "uploads": 2,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 128
+      },
+      {
+        "downscaled": false,
+        "height": 64,
+        "kind": "image",
+        "pixels": 8192,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 24576,
+        "uploads": 3,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 128
+      },
+      {
+        "downscaled": false,
+        "height": 64,
+        "kind": "bitmap",
+        "pixels": 8192,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 32768,
+        "uploads": 4,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 128
+      },
+      {
+        "downscaled": false,
+        "height": 64,
+        "kind": "canvas",
+        "pixels": 8192,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 40960,
+        "uploads": 5,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 128
+      },
+      {
+        "downscaled": false,
+        "height": 64,
+        "kind": "canvas",
+        "pixels": 16384,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 57344,
+        "uploads": 6,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 256
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "canvas",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 122866,
+        "uploads": 7,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "canvas",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 188388,
+        "uploads": 8,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": false,
+        "height": 0,
+        "kind": "image",
+        "pixels": 0,
+        "reason": "source-access",
+        "status": "error",
+        "uploadPixels": 188388,
+        "uploads": 8,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 0
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "canvas",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 253910,
+        "uploads": 9,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "canvas",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 319432,
+        "uploads": 10,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": false,
+        "height": 0,
+        "kind": "canvas",
+        "pixels": 0,
+        "reason": "webgl",
+        "status": "unsupported",
+        "uploadPixels": 319432,
+        "uploads": 10,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 0
+      },
+      {
+        "downscaled": false,
+        "height": 0,
+        "kind": "canvas",
+        "pixels": 0,
+        "reason": "context",
+        "status": "context-lost",
+        "uploadPixels": 319432,
+        "uploads": 10,
+        "videoFrameCallback": false,
+        "visible": false,
+        "width": 0
+      },
+      {
+        "downscaled": false,
+        "height": 0,
+        "kind": "canvas",
+        "pixels": 0,
+        "reason": "none",
+        "status": "loading",
+        "uploadPixels": 319432,
+        "uploads": 10,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 0
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "canvas",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 384954,
+        "uploads": 11,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 450476,
+        "uploads": 12,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 450476,
+        "uploads": 12,
+        "videoFrameCallback": true,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 515998,
+        "uploads": 13,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 515998,
+        "uploads": 13,
+        "videoFrameCallback": true,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 581520,
+        "uploads": 14,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 581520,
+        "uploads": 14,
+        "videoFrameCallback": true,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 647042,
+        "uploads": 15,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 647042,
+        "uploads": 15,
+        "videoFrameCallback": true,
+        "visible": true,
+        "width": 362
+      },
+      {
+        "downscaled": true,
+        "height": 181,
+        "kind": "canvas",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 712564,
+        "uploads": 16,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 362
+      }
+    ],
+    "idleMs": 250,
+    "measuredAt": "2026-10-12T04:57:46.589Z",
+    "realVideo": {
+      "after": {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 647042,
+        "uploads": 15,
+        "videoFrameCallback": true,
+        "visible": true,
+        "width": 362
+      },
+      "afterReleasePlaying": true,
+      "api": "actual captureStream(0) + explicit host requestFrame + native rVFC; no network/video URL",
+      "before": {
+        "downscaled": true,
+        "height": 181,
+        "kind": "video",
+        "pixels": 65522,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 450476,
+        "uploads": 12,
+        "videoFrameCallback": true,
+        "visible": true,
+        "width": 362
+      },
+      "hostStillPlaying": true,
+      "uploadsIncreased": true
+    },
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+    "schemaVersion": 1,
+    "supported": true,
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+  },
+  "recording": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-66142e3a-cf88-495f-beaa-fec608bd4160-mp4",
+    "tabId": "tab_4k",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-66142e3a-cf88-495f-beaa-fec608bd4160-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 63164,
+    "createdAt": "2026-10-12T04:57:46.721Z"
+  },
+  "timingCaveat": "Native diagnostic readPixels proves rendered colors but stalls GPU and is outside timed batches. Timer resolution~0.1ms; zero CPU samples mean below resolution. No GPU elapsed, paint, FPS or speedup claims."
+}

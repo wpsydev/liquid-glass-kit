@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "recording": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-43a71705-6717-497f-8d95-5a3644151d4f-mp4",
+    "tabId": "tab_4k",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-43a71705-6717-497f-8d95-5a3644151d4f-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 1981768,
+    "createdAt": "2026-10-12T05:01:44.962Z"
+  },
+  "result": {
+    "camera": "960 CSS px square. Recording-only compact title/control whitespace and 370px source frame; keeps native controls44 and fields16. Normal viewport evidence excludes this override.",
+    "complete": true,
+    "final": {
+      "artwork": "orbit",
+      "fit": "cover",
+      "quiet": true,
+      "renderer": {
+        "causticCount": 3,
+        "causticPixels": 90210,
+        "causticTriangles": 3456,
+        "dpr": 1.5,
+        "drawCalls": 5,
+        "fieldCount": 0,
+        "fusionCount": 3,
+        "height": 555,
+        "pixels": 738150,
+        "renderer": "webgl2",
+        "wallpaperPasses": 1,
+        "width": 1330
+      },
+      "revision": 1,
+      "solid": false,
+      "source": {
+        "downscaled": true,
+        "height": 404,
+        "kind": "canvas",
+        "pixels": 261388,
+        "reason": "none",
+        "status": "ready",
+        "uploadPixels": 1306940,
+        "uploads": 5,
+        "videoFrameCallback": false,
+        "visible": true,
+        "width": 647
+      },
+      "touring": false
+    },
+    "trace": [
+      {
+        "at": 908804.3000000715,
+        "name": "static-owned-poster",
+        "state": {
+          "artwork": "poster",
+          "fit": "cover",
+          "quiet": false,
+          "renderer": {
+            "causticCount": 0,
+            "causticPixels": 0,
+            "causticTriangles": 0,
+            "dpr": 1.5,
+            "drawCalls": 4,
+            "fieldCount": 0,
+            "fusionCount": 3,
+            "height": 555,
+            "pixels": 738150,
+            "renderer": "webgl2",
+            "wallpaperPasses": 1,
+            "width": 1330
+          },
+          "revision": 0,
+          "solid": false,
+          "source": {
+            "downscaled": true,
+            "height": 404,
+            "kind": "canvas",
+            "pixels": 261388,
+            "reason": "none",
+            "status": "ready",
+            "uploadPixels": 522776,
+            "uploads": 2,
+            "videoFrameCallback": false,
+            "visible": true,
+            "width": 647
+          },
+          "touring": true
+        }
+      },
+      {
+        "at": 910707.7000000477,
+        "name": "moved-optics-same-upload",
+        "state": {
+          "artwork": "poster",
+          "fit": "cover",
+          "quiet": false,
+          "renderer": {
+            "causticCount": 0,
+            "causticPixels": 0,
+            "causticTriangles": 0,
+            "dpr": 1.5,
+            "drawCalls": 4,
+            "fieldCount": 0,
+            "fusionCount": 3,
+            "height": 555,
+            "pixels": 738150,
+            "renderer": "webgl2",
+            "wallpaperPasses": 1,
+            "width": 1330
+          },
+          "revision": 0,
+          "solid": false,
+          "source": {
+            "downscaled": true,
+            "height": 404,
+            "kind": "canvas",
+            "pixels": 261388,
+            "reason": "none",
+            "status": "ready",
+            "uploadPixels": 522776,
+            "uploads": 2,
+            "videoFrameCallback": false,
+            "visible": true,
+            "width": 647
+          },
+          "touring": true
+        }
+      },
+      {
+        "at": 911407.2000000477,
+        "name": "own-stripes-contain",
+        "state": {
+          "artwork": "stripes",
+          "fit": "contain",
+          "quiet": false,
+          "renderer": {
+            "causticCount": 0,
+            "causticPixels": 0,
+            "causticTriangles": 0,
+            "dpr": 1.5,
+            "drawCalls": 4,
+            "fieldCount": 0,
+            "fusionCount": 3,
+            "height": 555,
+            "pixels": 738150,
+            "renderer": "webgl2",
+            "wallpaperPasses": 1,
+            "width": 1330
+          },
+          "revision": 0,
+          "solid": false,
+          "source": {
+            "downscaled": true,
+            "height": 404,
+            "kind": "canvas",
+            "pixels": 261388,
+            "reason": "none",
+            "status": "ready",
+            "uploadPixels": 784164,
+            "uploads": 3,
+            "videoFrameCallback": false,
+            "visible": true,
+            "width": 647
+          },
+          "touring": true
+        }
+      },
+      {
+        "at": 913007.1000000238,
+        "name": "crop-uniforms-no-new-upload",
+        "state": {
+          "artwork": "stripes",
+          "fit": "cover",
+          "quiet": false,
+          "renderer": {
+            "causticCount": 0,
+            "causticPixels": 0,
+            "causticTriangles": 0,
+            "dpr": 1.5,
+            "drawCalls": 4,
+            "fieldCount": 0,
+            "fusionCount": 3,
+            "height": 555,
+            "pixels": 738150,
+            "renderer": "webgl2",
+            "wallpaperPasses": 1,
+            "width": 1330
+          },
+          "revision": 0,
+          "solid": false,
+          "source": {
+            "downscaled": true,
+            "height": 404,
+            "kind": "canvas",
+            "pixels": 261388,
+            "reason": "none",
+            "status": "ready",
+            "uploadPixels": 784164,
+            "uploads": 3,
+            "videoFrameCallback": false,
+            "visible": true,
+            "width": 647
+          },
+          "touring": true
+        }
+      },
+      {
+        "at": 914006.3999999762,
+        "name": "own-orbit-caustics",
+        "state": {
+          "artwork": "orbit",
+          "fit": "cover",
+          "quiet": false,
+          "renderer": {
+            "causticCount": 3,
+            "causticPixels": 90210,
+            "causticTriangles": 3456,
+            "dpr": 1.5,
+            "drawCalls": 5,
+            "fieldCount": 0,
+            "fusionCount": 3,
+            "height": 555,
+            "pixels": 738150,
+            "renderer": "webgl2",
+            "wallpaperPasses": 1,
+            "width": 1330
+          },
+          "revision": 0,
+          "solid": false,
+          "source": {
+            "downscaled": true,
+            "height": 404,
+            "kind": "canvas",
+            "pixels": 261388,
+            "reason": "none",
+            "status": "ready",
+            "uploadPixels": 1045552,
+            "uploads": 4,
+            "videoFrameCallback": false,
+            "visible": true,
+            "width": 647
+          },
+          "touring": true
+        }
+      },
+      {
+        "at": 916806.3999999762,
+        "name": "explicit-source-redraw",
+        "state": {
+          "artwork": "orbit",
+          "fit": "cover",
+          "quiet": false,
+          "renderer": {
+            "causticCount": 3,
+            "causticPixels": 90210,
+            "causticTriangles": 3456,
+            "dpr": 1.5,
+            "drawCalls": 5,
+            "fieldCount": 0,
+            "fusionCount": 3,
+            "height": 555,
+            "pixels": 738150,
+            "renderer": "webgl2",
+            "wallpaperPasses": 1,
+            "width": 1330
+          },
+          "revision": 1,
+          "solid": false,
+          "source": {
+            "downscaled": true,
+            "height": 404,
+            "kind": "canvas",
+            "pixels": 261388,
+            "reason": "none",
+            "status": "ready",
+            "uploadPixels": 1306940,
+            "uploads": 5,
+            "videoFrameCallback": false,
+            "visible": true,
+            "width": 647
+          },
+          "touring": true
+        }
+      },
+      {
+        "at": 918204.7000000477,
+        "name": "quiet-final",
+        "state": {
+          "artwork": "orbit",
+          "fit": "cover",
+          "quiet": true,
+          "renderer": {
+            "causticCount": 3,
+            "causticPixels": 90210,
+            "causticTriangles": 3456,
+            "dpr": 1.5,
+            "drawCalls": 5,
+            "fieldCount": 0,
+            "fusionCount": 3,
+            "height": 555,
+            "pixels": 738150,
+            "renderer": "webgl2",
+            "wallpaperPasses": 1,
+            "width": 1330
+          },
+          "revision": 1,
+          "solid": false,
+          "source": {
+            "downscaled": true,
+            "height": 404,
+            "kind": "canvas",
+            "pixels": 261388,
+            "reason": "none",
+            "status": "ready",
+            "uploadPixels": 1306940,
+            "uploads": 5,
+            "videoFrameCallback": false,
+            "visible": true,
+            "width": 647
+          },
+          "touring": true
+        }
+      },
+      {
+        "at": 919507.3999999762,
+        "name": "finished",
+        "state": {
+          "artwork": "orbit",
+          "fit": "cover",
+          "quiet": true,
+          "renderer": {
+            "causticCount": 3,
+            "causticPixels": 90210,
+            "causticTriangles": 3456,
+            "dpr": 1.5,
+            "drawCalls": 5,
+            "fieldCount": 0,
+            "fusionCount": 3,
+            "height": 555,
+            "pixels": 738150,
+            "renderer": "webgl2",
+            "wallpaperPasses": 1,
+            "width": 1330
+          },
+          "revision": 1,
+          "solid": false,
+          "source": {
+            "downscaled": true,
+            "height": 404,
+            "kind": "canvas",
+            "pixels": 261388,
+            "reason": "none",
+            "status": "ready",
+            "uploadPixels": 1306940,
+            "uploads": 5,
+            "videoFrameCallback": false,
+            "visible": true,
+            "width": 647
+          },
+          "touring": false
+        }
+      }
+    ]
+  }
+}
