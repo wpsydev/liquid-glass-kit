@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.52.0-preview.1
+
+- Add optional native icon-action toolbar with remembered Tab entry, orientation/RTL arrow navigation, Home/End and explicit membership refresh.
+- Preserve authored hidden actions in CSS; host owns action execution and focus fallback after removal.
+- Add Margin with actual local poster edits, independent keyboard/layout evidence, scoped payloads and original twelve-second afrobeat/marimba film.
+
 ## 0.51.0-preview.1
 
 - Add optional pure layered illustration recipes with native image/picture props, explicit informative/decorative meaning and bounded static placement.

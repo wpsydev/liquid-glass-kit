@@ -1,0 +1,13 @@
+/* Layout/focus only. Add /material.css and lg-glass to the group for one glass shell. */
+.lg-icon-toolbar{display:flex;align-items:center;gap:4px;max-inline-size:100%;padding:5px;border-radius:var(--lg-radius,16px);color:inherit;flex-wrap:wrap}
+.lg-icon-toolbar[aria-orientation=vertical]{flex-direction:column;align-items:stretch;inline-size:max-content}
+.lg-icon-toolbar :where(button,a[href]){display:inline-flex;align-items:center;justify-content:center;gap:7px;min-inline-size:44px;min-block-size:44px;padding:0 11px;border:1px solid transparent;border-radius:10px;background:transparent;color:inherit;font:inherit;text-decoration:none;touch-action:manipulation;cursor:pointer}
+/* Keep authored hidden actions hidden despite the flex display above. The host
+ * reveals hidden/hidden-until-found actions, then refreshes keyboard membership. */
+.lg-icon-toolbar :where(button,a[href])[hidden]{display:none}
+.lg-icon-toolbar :where(button,a[href]):focus-visible{outline:3px solid currentColor;outline-offset:2px}
+.lg-icon-toolbar :where(button,a[href])[aria-pressed=true]{background:var(--lg-toolbar-selection,rgba(128,128,128,.16));border-color:var(--lg-toolbar-edge,rgba(128,128,128,.25))}
+.lg-icon-toolbar :where(button:disabled,[aria-disabled=true]){cursor:default;opacity:.5}
+.lg-icon-action-icon{display:block;flex:none;pointer-events:none}
+.lg-icon-action-label{font-size:12px;line-height:1.4}
+@media(forced-colors:active){.lg-icon-toolbar{border:1px solid CanvasText}.lg-icon-toolbar :where(button,a[href]){color:ButtonText}.lg-icon-toolbar :where(button,a[href])[aria-pressed=true]{border-color:Highlight}.lg-icon-action-icon{display:none}.lg-icon-action-label{display:inline}.lg-icon-toolbar :where(button:disabled,[aria-disabled=true]){opacity:1;color:GrayText}}

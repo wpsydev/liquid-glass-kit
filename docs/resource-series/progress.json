@@ -515,12 +515,12 @@
     {
       "order": 35,
       "url": "https://kitbitz.art",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Native layered illustration recipes with authored mobile picture sources",
       "version": "0.51.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/illustrations/",
       "video": "docs/campaign/assets/illustration-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109539535315206590",
       "performance": [
         "benchmarks/illustration-payload.json",
         "benchmarks/illustration-native.json",
@@ -530,13 +530,18 @@
     {
       "order": 36,
       "url": "https://3dicons.co",
-      "status": "queued",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Optional native icon-action toolbar and real local editing demo",
+      "version": "0.52.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/icon-toolbar-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/icon-toolbar-payload.json",
+        "benchmarks/icon-toolbar-native.json",
+        "benchmarks/icon-toolbar-keyboard.json",
+        "benchmarks/icon-toolbar-layouts.json"
+      ]
     },
     {
       "order": 37,

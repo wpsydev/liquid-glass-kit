@@ -1,0 +1,93 @@
+{
+  "decodeFrames": 360,
+  "meta": {
+    "ffmpeg_version": "7.0.2-static https://johnvansickle.com/ffmpeg/ built with gcc 8 (Debian 8.3.0-6)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 30.0,
+    "source_size": [
+      960,
+      960
+    ],
+    "size": [
+      960,
+      960
+    ],
+    "rotate": 0,
+    "duration": 12.0
+  },
+  "bytes": 618949,
+  "sha256": "98332a0fc228f79c04adcaac11374c60d5f28645629cbdfd07b529d4c723bd10",
+  "posterBytes": 238867,
+  "posterSha256": "1b3c2031449019bd1a37ac3c7715a4cd0020f2b85a2a66031d301b79156673ee",
+  "rawPath": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-0a0afaca-4fb9-4cf1-ae19-c99591be0097-mp4.mp4",
+  "capture": "Native T3 tab_4a, finite 10.5s host fixture tour",
+  "score": {
+    "provenance": "Original procedural MIT composition; no external recordings/samples",
+    "generator": "python3 scripts/render-series-score.py --style afro --seed 52 --output /tmp/icon-toolbar-score.wav",
+    "style": "afro",
+    "seed": 52,
+    "bpm": 124,
+    "voice": "marimba",
+    "durationSeconds": 12,
+    "wavSha256": "807c62596a78157104b3b7cd30f3e22b0d42512c7c66e5ee5c65cb6567d3ad59"
+  },
+  "captions": [
+    "small tools, real local edits",
+    "one tab stop: arrows, home/end, rtl",
+    "vertical, dynamic membership, a quiet finish"
+  ],
+  "frameReviewSeconds": [
+    0.8,
+    4.5,
+    9.2
+  ],
+  "sourceDemo": "site/toolbar/",
+  "cameraStyling": "Temporary preview-only density stylesheet; reduced intro/history/credits height, all actual action/field/policy controls retained",
+  "claims": [
+    "Actual local poster edits",
+    "One toolbar Tab entry and native keyboard navigation",
+    "Explicit RTL/orientation/membership choices",
+    "Quiet and solid host policies"
+  ],
+  "excludedClaims": [
+    "No GPU timing/FPS/speed claim",
+    "No physical iOS/Android/Safari/AT guarantee",
+    "No uploaded/generated/persistent poster or backend",
+    "Synthetic film choreography is separate from actual native key tests"
+  ],
+  "videoPath": "docs/campaign/assets/icon-toolbar-showcase.mp4",
+  "posterPath": "docs/campaign/assets/icon-toolbar-showcase.png",
+  "film": {
+    "path": "docs/campaign/assets/icon-toolbar-showcase.mp4",
+    "bytes": 618949,
+    "sha256": "98332a0fc228f79c04adcaac11374c60d5f28645629cbdfd07b529d4c723bd10"
+  },
+  "poster": {
+    "path": "docs/campaign/assets/icon-toolbar-showcase.png",
+    "bytes": 238867,
+    "sha256": "1b3c2031449019bd1a37ac3c7715a4cd0020f2b85a2a66031d301b79156673ee"
+  },
+  "preservation": {
+    "acceptedVideoAndAudioBytesUnchanged": true,
+    "acceptedPosterBytesUnchanged": true,
+    "originalDemoPatchSha256": "f26022c8e67c4a66802e18e95bcadfa9942872dbb5af625e09ef2dbac640a7a7",
+    "noNewBrowserCapture": true,
+    "noReencoding": true
+  },
+  "acceptedCore": {
+    "sourceSha256": "dc0ab111af55902bacb92f2f5983fad96a6a22532638aa6d8485dbd9a8c8bc39",
+    "cssSha256": "1b61704f088a6889fc7e9f0b63e017bd426aa11eac79a71102073ec995563fb3",
+    "focusedTests": 26,
+    "hostOwnsCaptureBeforeHideRemovalFocusRepair": true
+  },
+  "evidence": {
+    "nativeOriginal": "benchmarks/icon-toolbar-native.json",
+    "nativeLayouts": "benchmarks/icon-toolbar-layouts.json",
+    "nativeKeyboard": "benchmarks/icon-toolbar-keyboard.json",
+    "fixtureTour": "benchmarks/icon-toolbar-fixture-tour.json",
+    "filmValidation": "benchmarks/icon-toolbar-film-validation.json",
+    "payload": "benchmarks/icon-toolbar-payload.json"
+  }
+}

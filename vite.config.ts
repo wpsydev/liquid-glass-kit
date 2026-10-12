@@ -59,6 +59,7 @@ export default defineConfig({
         edges: resolve('site/edges/index.html'),
         quality: resolve('site/quality/index.html'),
         illustrations: resolve('site/illustrations/index.html'),
+        toolbar: resolve('site/toolbar/index.html'),
         shaders: resolve('site/shaders/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),

@@ -1,0 +1,738 @@
+{
+  "schema": 1,
+  "kind": "synthetic-fixture-film",
+  "scope": "Recorded real local UI with finite host clicks and synthetic keyboard choreography. Separate from native keyboard test evidence",
+  "artifact": "Margin original icon-toolbar study",
+  "tabId": "tab_4a",
+  "baseCommit": "cc929d3cb7a1a1935ba95cff40af5824a586fc86",
+  "environment": "Native T3 collaborative desktop Chromium; viewport emulation only",
+  "limits": [
+    "Viewport dimensions do not represent physical devices or mobile browser engines",
+    "No Safari, assistive technology, OS reduced-motion toggle or forced-colors certification",
+    "Film contains bounded host fixture clicks and synthetic keyboard choreography; actual native key validation is separate",
+    "Core focus repair is best effort; host captures owned focus before hide/removal and explicitly restores only that stranded ownership",
+    "Earlier native membership results deliberately retain observed pre-choreography blur findings; final host-owned keyboard results are separate",
+    "No measured GPU timing or rendering speed claim"
+  ],
+  "evidence": {
+    "raw": {
+      "id": "28105162-0472-4705-8632-6b21d2e581a1-0a0afaca-4fb9-4cf1-ae19-c99591be0097-mp4",
+      "tabId": "tab_4a",
+      "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-0a0afaca-4fb9-4cf1-ae19-c99591be0097-mp4.mp4",
+      "mimeType": "video/mp4;codecs=avc1",
+      "sizeBytes": 591626,
+      "createdAt": "2026-10-12T04:24:06.966Z"
+    },
+    "tour": {
+      "animations": 0,
+      "completed": true,
+      "final": {
+        "activeItem": "stamp-action",
+        "align": "center",
+        "bold": true,
+        "boundary": "Original local poster and scripted finite tour; no backend, external art or model service",
+        "caption": "A small space for a good next idea.",
+        "changes": [
+          {
+            "kind": "configuration",
+            "message": "Toolbar policy updated: vertical, wrap",
+            "revision": 8
+          },
+          {
+            "kind": "action",
+            "message": "Original local stamp added",
+            "revision": 7
+          },
+          {
+            "kind": "configuration",
+            "message": "Toolbar policy updated: vertical, wrap",
+            "revision": 6
+          },
+          {
+            "kind": "action",
+            "message": "Composition guides shown",
+            "revision": 5
+          },
+          {
+            "kind": "configuration",
+            "message": "Toolbar policy updated: RTL horizontal, wrap",
+            "revision": 4
+          },
+          {
+            "kind": "action",
+            "message": "Poster palette set to cool",
+            "revision": 3
+          }
+        ],
+        "dark": true,
+        "disableRestore": true,
+        "extraAction": true,
+        "focusRepairs": [],
+        "focused": "stamp-action",
+        "guides": true,
+        "hideGuides": true,
+        "items": [
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "align-left",
+            "label": "Left align",
+            "pressed": "false",
+            "tabIndex": -1,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "align-center",
+            "label": "Center align",
+            "pressed": "true",
+            "tabIndex": -1,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "bold",
+            "label": "Bold title",
+            "pressed": "true",
+            "tabIndex": -1,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": true,
+            "id": "guides",
+            "label": "Show guides",
+            "pressed": "true",
+            "tabIndex": -1,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "palette",
+            "label": "Warm palette",
+            "pressed": "false",
+            "tabIndex": -1,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": true,
+            "hidden": false,
+            "id": "restore",
+            "label": "Restore original poster",
+            "pressed": null,
+            "tabIndex": -1,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "stamp-action",
+            "label": "Add local stamp",
+            "pressed": "true",
+            "tabIndex": 0,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "details",
+            "label": "Read composition notes",
+            "pressed": null,
+            "tabIndex": -1,
+            "tag": "A"
+          }
+        ],
+        "motion": {
+          "cancelled": 0,
+          "documentAnimations": 0,
+          "requests": 5,
+          "settled": 5
+        },
+        "palette": "cool",
+        "phase": null,
+        "quiet": true,
+        "revision": 8,
+        "rtl": false,
+        "solid": true,
+        "stamp": true,
+        "systemReducedMotion": false,
+        "timers": 0,
+        "title": "room\nto make.",
+        "vertical": true,
+        "wrap": true
+      },
+      "readbackAtUtc": "2026-10-12T04:24:06.732Z",
+      "samples": [
+        {
+          "elapsedMs": 2903.9000000953674,
+          "footerBottom": 889.3515625,
+          "state": {
+            "activeItem": "align-left",
+            "align": "center",
+            "bold": true,
+            "boundary": "Original local poster and scripted finite tour; no backend, external art or model service",
+            "caption": "A small space for a good next idea.",
+            "changes": [
+              {
+                "kind": "action",
+                "message": "Poster palette set to cool",
+                "revision": 3
+              },
+              {
+                "kind": "action",
+                "message": "Title weight set to bold",
+                "revision": 2
+              },
+              {
+                "kind": "action",
+                "message": "Heading centered",
+                "revision": 1
+              }
+            ],
+            "dark": false,
+            "disableRestore": false,
+            "extraAction": false,
+            "focusRepairs": [],
+            "focused": "align-left",
+            "guides": false,
+            "hideGuides": false,
+            "items": [
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "align-left",
+                "label": "Left align",
+                "pressed": "false",
+                "tabIndex": 0,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "align-center",
+                "label": "Center align",
+                "pressed": "true",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "bold",
+                "label": "Bold title",
+                "pressed": "true",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "guides",
+                "label": "Show guides",
+                "pressed": "false",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "palette",
+                "label": "Warm palette",
+                "pressed": "false",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "restore",
+                "label": "Restore original poster",
+                "pressed": null,
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "details",
+                "label": "Read composition notes",
+                "pressed": null,
+                "tabIndex": -1,
+                "tag": "A"
+              }
+            ],
+            "motion": {
+              "cancelled": 0,
+              "documentAnimations": 0,
+              "requests": 3,
+              "settled": 3
+            },
+            "palette": "cool",
+            "phase": "local-actions",
+            "quiet": false,
+            "revision": 3,
+            "rtl": false,
+            "solid": false,
+            "stamp": false,
+            "systemReducedMotion": false,
+            "timers": 7,
+            "title": "room\nto make.",
+            "vertical": false,
+            "wrap": true
+          },
+          "visibleToolbar": {
+            "bottom": 277.8984375,
+            "height": 67,
+            "left": 25,
+            "right": 674,
+            "top": 210.8984375,
+            "width": 649,
+            "x": 25,
+            "y": 210.8984375
+          }
+        },
+        {
+          "elapsedMs": 4703.400000095367,
+          "footerBottom": 889.3515625,
+          "state": {
+            "activeItem": "align-left",
+            "align": "center",
+            "bold": true,
+            "boundary": "Original local poster and scripted finite tour; no backend, external art or model service",
+            "caption": "A small space for a good next idea.",
+            "changes": [
+              {
+                "kind": "configuration",
+                "message": "Toolbar policy updated: RTL horizontal, wrap",
+                "revision": 4
+              },
+              {
+                "kind": "action",
+                "message": "Poster palette set to cool",
+                "revision": 3
+              },
+              {
+                "kind": "action",
+                "message": "Title weight set to bold",
+                "revision": 2
+              },
+              {
+                "kind": "action",
+                "message": "Heading centered",
+                "revision": 1
+              }
+            ],
+            "dark": true,
+            "disableRestore": false,
+            "extraAction": false,
+            "focusRepairs": [],
+            "focused": "align-left",
+            "guides": false,
+            "hideGuides": false,
+            "items": [
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "align-left",
+                "label": "Left align",
+                "pressed": "false",
+                "tabIndex": 0,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "align-center",
+                "label": "Center align",
+                "pressed": "true",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "bold",
+                "label": "Bold title",
+                "pressed": "true",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "guides",
+                "label": "Show guides",
+                "pressed": "false",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "palette",
+                "label": "Warm palette",
+                "pressed": "false",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "restore",
+                "label": "Restore original poster",
+                "pressed": null,
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "details",
+                "label": "Read composition notes",
+                "pressed": null,
+                "tabIndex": -1,
+                "tag": "A"
+              }
+            ],
+            "motion": {
+              "cancelled": 0,
+              "documentAnimations": 0,
+              "requests": 3,
+              "settled": 3
+            },
+            "palette": "cool",
+            "phase": "rtl-keys",
+            "quiet": false,
+            "revision": 4,
+            "rtl": true,
+            "solid": false,
+            "stamp": false,
+            "systemReducedMotion": false,
+            "timers": 5,
+            "title": "room\nto make.",
+            "vertical": false,
+            "wrap": true
+          },
+          "visibleToolbar": {
+            "bottom": 277.8984375,
+            "height": 67,
+            "left": 25,
+            "right": 674,
+            "top": 210.8984375,
+            "width": 649,
+            "x": 25,
+            "y": 210.8984375
+          }
+        },
+        {
+          "elapsedMs": 7903.600000023842,
+          "footerBottom": 889.3515625,
+          "state": {
+            "activeItem": "stamp-action",
+            "align": "center",
+            "bold": true,
+            "boundary": "Original local poster and scripted finite tour; no backend, external art or model service",
+            "caption": "A small space for a good next idea.",
+            "changes": [
+              {
+                "kind": "action",
+                "message": "Original local stamp added",
+                "revision": 7
+              },
+              {
+                "kind": "configuration",
+                "message": "Toolbar policy updated: vertical, wrap",
+                "revision": 6
+              },
+              {
+                "kind": "action",
+                "message": "Composition guides shown",
+                "revision": 5
+              },
+              {
+                "kind": "configuration",
+                "message": "Toolbar policy updated: RTL horizontal, wrap",
+                "revision": 4
+              },
+              {
+                "kind": "action",
+                "message": "Poster palette set to cool",
+                "revision": 3
+              },
+              {
+                "kind": "action",
+                "message": "Title weight set to bold",
+                "revision": 2
+              }
+            ],
+            "dark": true,
+            "disableRestore": true,
+            "extraAction": true,
+            "focusRepairs": [],
+            "focused": "stamp-action",
+            "guides": true,
+            "hideGuides": true,
+            "items": [
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "align-left",
+                "label": "Left align",
+                "pressed": "false",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "align-center",
+                "label": "Center align",
+                "pressed": "true",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "bold",
+                "label": "Bold title",
+                "pressed": "true",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": true,
+                "id": "guides",
+                "label": "Show guides",
+                "pressed": "true",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "palette",
+                "label": "Warm palette",
+                "pressed": "false",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": true,
+                "hidden": false,
+                "id": "restore",
+                "label": "Restore original poster",
+                "pressed": null,
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "stamp-action",
+                "label": "Add local stamp",
+                "pressed": "true",
+                "tabIndex": 0,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "details",
+                "label": "Read composition notes",
+                "pressed": null,
+                "tabIndex": -1,
+                "tag": "A"
+              }
+            ],
+            "motion": {
+              "cancelled": 0,
+              "documentAnimations": 0,
+              "requests": 5,
+              "settled": 5
+            },
+            "palette": "cool",
+            "phase": "vertical-membership",
+            "quiet": false,
+            "revision": 7,
+            "rtl": false,
+            "solid": false,
+            "stamp": true,
+            "systemReducedMotion": false,
+            "timers": 2,
+            "title": "room\nto make.",
+            "vertical": true,
+            "wrap": true
+          },
+          "visibleToolbar": {
+            "bottom": 631.8984375,
+            "height": 421,
+            "left": 25,
+            "right": 91,
+            "top": 210.8984375,
+            "width": 66,
+            "x": 25,
+            "y": 210.8984375
+          }
+        },
+        {
+          "elapsedMs": 10903.5,
+          "footerBottom": 889.3515625,
+          "state": {
+            "activeItem": "stamp-action",
+            "align": "center",
+            "bold": true,
+            "boundary": "Original local poster and scripted finite tour; no backend, external art or model service",
+            "caption": "A small space for a good next idea.",
+            "changes": [
+              {
+                "kind": "configuration",
+                "message": "Toolbar policy updated: vertical, wrap",
+                "revision": 8
+              },
+              {
+                "kind": "action",
+                "message": "Original local stamp added",
+                "revision": 7
+              },
+              {
+                "kind": "configuration",
+                "message": "Toolbar policy updated: vertical, wrap",
+                "revision": 6
+              },
+              {
+                "kind": "action",
+                "message": "Composition guides shown",
+                "revision": 5
+              },
+              {
+                "kind": "configuration",
+                "message": "Toolbar policy updated: RTL horizontal, wrap",
+                "revision": 4
+              },
+              {
+                "kind": "action",
+                "message": "Poster palette set to cool",
+                "revision": 3
+              }
+            ],
+            "dark": true,
+            "disableRestore": true,
+            "extraAction": true,
+            "focusRepairs": [],
+            "focused": "stamp-action",
+            "guides": true,
+            "hideGuides": true,
+            "items": [
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "align-left",
+                "label": "Left align",
+                "pressed": "false",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "align-center",
+                "label": "Center align",
+                "pressed": "true",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "bold",
+                "label": "Bold title",
+                "pressed": "true",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": true,
+                "id": "guides",
+                "label": "Show guides",
+                "pressed": "true",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "palette",
+                "label": "Warm palette",
+                "pressed": "false",
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": true,
+                "hidden": false,
+                "id": "restore",
+                "label": "Restore original poster",
+                "pressed": null,
+                "tabIndex": -1,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "stamp-action",
+                "label": "Add local stamp",
+                "pressed": "true",
+                "tabIndex": 0,
+                "tag": "BUTTON"
+              },
+              {
+                "disabled": false,
+                "hidden": false,
+                "id": "details",
+                "label": "Read composition notes",
+                "pressed": null,
+                "tabIndex": -1,
+                "tag": "A"
+              }
+            ],
+            "motion": {
+              "cancelled": 0,
+              "documentAnimations": 0,
+              "requests": 5,
+              "settled": 5
+            },
+            "palette": "cool",
+            "phase": null,
+            "quiet": true,
+            "revision": 8,
+            "rtl": false,
+            "solid": true,
+            "stamp": true,
+            "systemReducedMotion": false,
+            "timers": 0,
+            "title": "room\nto make.",
+            "vertical": true,
+            "wrap": true
+          },
+          "visibleToolbar": {
+            "bottom": 631.8984375,
+            "height": 421,
+            "left": 25,
+            "right": 91,
+            "top": 210.8984375,
+            "width": 66,
+            "x": 25,
+            "y": 210.8984375
+          }
+        }
+      ]
+    },
+    "cameraOnlyCSS": ".intro{padding:14px 0}.intro h1{font-size:43px}.changes ol{max-height:70px;overflow:auto}.composition-notes{display:none}.study-footer{margin-top:13px;padding-top:10px;padding-bottom:8px}.keyboard-receipt{font-size:9px}"
+  }
+}

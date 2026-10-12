@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "observedAtUtc": "2026-10-12T06:48:31.016Z",
+  "environment": {
+    "node": "v24.21.0",
+    "vite": "8.3.4",
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "sourceSha256": "dc0ab111af55902bacb92f2f5983fad96a6a22532638aa6d8485dbd9a8c8bc39",
+  "cssSha256": "1b61704f088a6889fc7e9f0b63e017bd426aa11eac79a71102073ec995563fb3",
+  "jsRawBytes": 6444,
+  "jsGzipBytes": 2601,
+  "jsSha256": "c044ae497bf787258e8fa1fba39ba5950c53d95f75425349f9b53a65051037e4",
+  "cssRawBytes": 1777,
+  "cssGzipBytes": 752,
+  "acceptedHiddenActionFix": true,
+  "ssrRuntimeExports": [
+    "attachGlassIconToolbar",
+    "getGlassIconActionProps"
+  ],
+  "scope": "Standalone optional IIFE helper plus its actual unminified CSS after the hidden-action fix. JS includes shared lifecycle cleanup. Payload bytes exclude material/theme styles, icons, framework peers and site. No network/load-time/CPU/paint/GPU/FPS/speedup inference.",
+  "reproduce": "node scripts/icon-toolbar-benchmark.mjs after integrating accepted core/hidden-action CSS fix"
+}

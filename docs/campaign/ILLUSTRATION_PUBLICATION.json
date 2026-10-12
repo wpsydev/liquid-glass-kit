@@ -1,0 +1,231 @@
+{
+  "commit": "f6a47b4dd9afed42c573c49cd80269a4d3bc29e6",
+  "version": "0.51.0-preview.1",
+  "workflows": {
+    "runs": [
+      {
+        "id": 38215120678,
+        "name": "Verify",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38215120676,
+        "name": "Publish preview release",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38215120491,
+        "name": "Publish playground",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "tests": 1170,
+    "testFiles": 54
+  },
+  "archive": {
+    "members": 214,
+    "bytes": 468696,
+    "sha256": "40868e3aa2b59b45295e54d2288736e5594a07940a264c4a3cb1d5189bf9fe79"
+  },
+  "assets": [
+    {
+      "name": "liquid-glass-illustration-showcase.mp4",
+      "bytes": 550046,
+      "sha256": "sha256:acff6b410b24a8e62192aa245f347980d7941d14a9335e021f35b7e86e111742"
+    },
+    {
+      "name": "liquid-glass-illustration-showcase.png",
+      "bytes": 239160,
+      "sha256": "sha256:4342b1f5826b92fe1fe494b543f017d911b9f0f53c7caa56408507f76a946b43"
+    },
+    {
+      "name": "wpsydev-liquid-glass-0.51.0-preview.1.tgz",
+      "bytes": 468696,
+      "sha256": "sha256:40868e3aa2b59b45295e54d2288736e5594a07940a264c4a3cb1d5189bf9fe79"
+    }
+  ],
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/illustrations/",
+    "native": {
+      "decoded": true,
+      "focus": "position-x",
+      "imagesRetained": true,
+      "state": {
+        "edits": {
+          "house": {
+            "x": 60
+          }
+        },
+        "figure": {
+          "hidden": null,
+          "label": "A small red-roofed house in a pine grove, beneath a golden sun. A bird crosses the quiet landscape.",
+          "role": "img"
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 49.5,
+            "id": "land",
+            "rotation": 0,
+            "width": 99,
+            "x": 50,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 30,
+            "id": "sun",
+            "rotation": 0,
+            "width": 20,
+            "x": 72,
+            "y": 24
+          },
+          {
+            "anchor": "center",
+            "height": 59.8,
+            "id": "pine",
+            "rotation": 0,
+            "width": 23,
+            "x": 31,
+            "y": 47
+          },
+          {
+            "anchor": "center",
+            "height": 42.57,
+            "id": "house",
+            "rotation": 0,
+            "width": 33,
+            "x": 60,
+            "y": 60
+          },
+          {
+            "anchor": "center",
+            "height": 23.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 28,
+            "x": 80,
+            "y": 78
+          },
+          {
+            "anchor": "center",
+            "height": 9.75,
+            "id": "bird",
+            "rotation": -8,
+            "width": 13,
+            "x": 43,
+            "y": 24
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 278,
+            "id": "land",
+            "width": 835
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 169,
+            "id": "sun",
+            "width": 169
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 336,
+            "id": "pine",
+            "width": 194
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house",
+            "decoded": true,
+            "height": 239,
+            "id": "house",
+            "width": 278
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 131,
+            "id": "shrub",
+            "width": 236
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 55,
+            "id": "bird",
+            "width": 110
+          }
+        ],
+        "layout": "landscape",
+        "liveLayerCount": 6,
+        "mode": "auto",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "informative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "3 / 2",
+        "tourActive": false,
+        "updates": 2
+      },
+      "value": "60"
+    },
+    "scope": "Actual native ArrowRight changes house x59 to60, retains position-x focus and all6decoded image nodes; no phone/AT/rendering performance inference"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109539535315206590",
+    "replies": [
+      "https://x.com/wpsygames/status/2109540006515925472",
+      "https://x.com/wpsygames/status/2109540217275498851"
+    ],
+    "publicPlayback": {
+      "duration": 12,
+      "ready": 4
+    },
+    "replyReadback": true,
+    "upload": {
+      "bytes": 550046,
+      "sha256": "acff6b410b24a8e62192aa245f347980d7941d14a9335e021f35b7e86e111742"
+    }
+  },
+  "npmRegistry": "pending"
+}

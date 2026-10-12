@@ -596,3 +596,11 @@ Integrated npm run check passed1,195tests/55files including queued prototypes. n
 Original550046-byte12s960square360-frame104BPM funk/brass seed51 film SHA256acff6b410b24a8e62192aa245f347980d7941d14a9335e021f35b7e86e111742; finite10.5tour/owncomposition/editing/meaning/Quietstaticend; cameraCSS disclosed, full decode/threeframespass.
 
 Integrated npm run check passed1,195tests/55files including queued prototypes. npm pack --dry-run passed214members/468665bytes, declared exports and SSR passed. Published-scope CI follows release.
+
+## 0.52.0 native icon actions (2026-10-12)
+
+26focused tests includingactualhidden CSS regression.20native desktop states44/16/noflow; actualArrow/HomeEnd/RTL/vertical/wrap/skiphidden and finalhostcapturebeforemutationfocusrepair/externalcaret. Earlierbrowserblur boundary preserved; controller notpromisedautomatic rescue arbitraryremoval. Actualtrustednativekeyboard vs syntheticfilmchoreography separate. Phones/Safari/ATunverified. Finalhelper6444raw2601gzip andCSS1777raw752gzip excludingmaterial/art/frameworkpeers; SSR ESM exportsconfirmed. NoGPU/FPS/loadtime/speedupclaim.
+
+Original618949-byte12s960square360frame124BPM afrobeat/marimba52 film SHA25698332a0fc228f79c04adcaac11374c60d5f28645629cbdfd07b529d4c723bd10; unchangedmusic/video/311uniqueframes/full decode/threeframes/nativefiniteendsstatic/hostactionsreal.
+
+Integrated npm run check passed1,196tests/55files. npm pack --dry-run passed218members/475275bytes; declared exports/CSS and SSR checks passed. Published-scope CI follows release.
