@@ -45,6 +45,7 @@ export default defineConfig({
         pricing: resolve('site/pricing/index.html'),
         registry: resolve('site/registry/index.html'),
         fields: resolve('site/fields/index.html'),
+        tilt: resolve('site/tilt/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),
         transitions: resolve('site/transitions/index.html'),

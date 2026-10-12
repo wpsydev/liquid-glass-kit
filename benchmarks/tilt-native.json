@@ -1,0 +1,1400 @@
+{
+  "scope": "Native T3 desktop Chromium; synthetic pointer packets separate from trusted keyboard/checkbox actions. Five CSS viewports are not physical phones/Safari/AT. No sensor/gyroscope/native-hover delivery claim.",
+  "layouts": [
+    {
+      "preset": "neutral",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 143.90625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 340,
+          "id": "orbit",
+          "width": 277
+        },
+        {
+          "fieldFont": null,
+          "height": 262,
+          "id": "atlas",
+          "width": 277
+        },
+        {
+          "fieldFont": null,
+          "height": 262,
+          "id": "wave",
+          "width": 277
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 104.8828125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 49.671875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 71.3828125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 83.203125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 84.8984375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 78.0234375
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "preset": "dark",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 143.90625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 340,
+          "id": "orbit",
+          "width": 277
+        },
+        {
+          "fieldFont": null,
+          "height": 262,
+          "id": "atlas",
+          "width": 277
+        },
+        {
+          "fieldFont": null,
+          "height": 262,
+          "id": "wave",
+          "width": 277
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 104.8828125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 49.671875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 73.359375
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 83.203125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 84.8984375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 78.0234375
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "preset": "quiet",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 143.90625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 340,
+          "id": "orbit",
+          "width": 277
+        },
+        {
+          "fieldFont": null,
+          "height": 262,
+          "id": "atlas",
+          "width": 277
+        },
+        {
+          "fieldFont": null,
+          "height": 262,
+          "id": "wave",
+          "width": 277
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 104.8828125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 49.671875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 71.3828125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 83.203125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 84.8984375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 78.0234375
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "preset": "neutral",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 143.90625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 375,
+          "id": "orbit",
+          "width": 339
+        },
+        {
+          "fieldFont": null,
+          "height": 284,
+          "id": "atlas",
+          "width": 339
+        },
+        {
+          "fieldFont": null,
+          "height": 284,
+          "id": "wave",
+          "width": 339
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 115.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 56.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 79.421875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 83.203125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 84.8984375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 78.0234375
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "preset": "dark",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 143.90625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 375,
+          "id": "orbit",
+          "width": 339
+        },
+        {
+          "fieldFont": null,
+          "height": 284,
+          "id": "atlas",
+          "width": 339
+        },
+        {
+          "fieldFont": null,
+          "height": 284,
+          "id": "wave",
+          "width": 339
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 115.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 56.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 81.5078125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 83.203125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 84.8984375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 78.0234375
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "preset": "quiet",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 143.90625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 375,
+          "id": "orbit",
+          "width": 339
+        },
+        {
+          "fieldFont": null,
+          "height": 284,
+          "id": "atlas",
+          "width": 339
+        },
+        {
+          "fieldFont": null,
+          "height": 284,
+          "id": "wave",
+          "width": 339
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 115.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 56.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 79.421875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 83.203125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 84.8984375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 78.0234375
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "preset": "neutral",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 151.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 502,
+          "id": "orbit",
+          "width": 330.359375
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "atlas",
+          "width": 314.640625
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "wave",
+          "width": 314.640625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 117.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 58.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 81.421875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 79.046875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 80.53125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 70.3828125
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "preset": "dark",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 151.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 502,
+          "id": "orbit",
+          "width": 330.359375
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "atlas",
+          "width": 314.640625
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "wave",
+          "width": 314.640625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 117.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 58.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 83.5078125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 79.046875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 80.53125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 70.3828125
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "preset": "quiet",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 151.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 502,
+          "id": "orbit",
+          "width": 330.359375
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "atlas",
+          "width": 314.640625
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "wave",
+          "width": 314.640625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 117.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 58.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 81.421875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 79.046875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 80.53125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 70.3828125
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "preset": "neutral",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 151.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 502,
+          "id": "orbit",
+          "width": 369.2890625
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "atlas",
+          "width": 351.7109375
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "wave",
+          "width": 351.7109375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 117.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 58.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 81.421875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 79.046875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 80.53125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 70.3828125
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "preset": "dark",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 151.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 502,
+          "id": "orbit",
+          "width": 369.2890625
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "atlas",
+          "width": 351.7109375
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "wave",
+          "width": 351.7109375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 117.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 58.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 83.5078125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 79.046875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 80.53125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 70.3828125
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "preset": "quiet",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 151.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 502,
+          "id": "orbit",
+          "width": 369.2890625
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "atlas",
+          "width": 351.7109375
+        },
+        {
+          "fieldFont": null,
+          "height": 242,
+          "id": "wave",
+          "width": 351.7109375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 117.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 58.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 81.421875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 79.046875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 80.53125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 70.3828125
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "preset": "neutral",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 151.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 440,
+          "id": "orbit",
+          "width": 518.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 211,
+          "id": "atlas",
+          "width": 493.65625
+        },
+        {
+          "fieldFont": null,
+          "height": 211,
+          "id": "wave",
+          "width": 493.65625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 117.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 58.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 81.421875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 79.046875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 80.53125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 70.3828125
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "preset": "dark",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 151.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 440,
+          "id": "orbit",
+          "width": 518.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 211,
+          "id": "atlas",
+          "width": 493.65625
+        },
+        {
+          "fieldFont": null,
+          "height": 211,
+          "id": "wave",
+          "width": 493.65625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 117.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 58.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 83.5078125
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 79.046875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 80.53125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 70.3828125
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "preset": "quiet",
+      "controls": [
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "◒\nDepth Objects",
+          "width": 151.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Source ↗",
+          "width": 52.25
+        },
+        {
+          "fieldFont": null,
+          "height": 440,
+          "id": "orbit",
+          "width": 518.3359375
+        },
+        {
+          "fieldFont": null,
+          "height": 211,
+          "id": "atlas",
+          "width": 493.65625
+        },
+        {
+          "fieldFont": null,
+          "height": 211,
+          "id": "wave",
+          "width": 493.65625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "tour",
+          "width": 117.546875
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "reset",
+          "width": 58.015625
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "theme",
+          "width": 81.421875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "quiet",
+          "width": 79.046875
+        },
+        {
+          "fieldFont": 16,
+          "height": 44,
+          "id": "solid",
+          "width": 80.53125
+        },
+        {
+          "fieldFont": null,
+          "height": 44,
+          "id": "Liquid Glass Kit ↗",
+          "width": 70.3828125
+        }
+      ],
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "small": [],
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "projection": {
+    "burst": {
+      "packets": 101,
+      "rafScheduled": 1,
+      "rectReads": 1
+    },
+    "projected": {
+      "host": {
+        "bottom": 666.375,
+        "height": 440,
+        "left": 42,
+        "right": 478.3828125,
+        "top": 226.375,
+        "width": 436.3828125,
+        "x": 42,
+        "y": 226.375
+      },
+      "pointerEvents": "none",
+      "transform": "perspective(1000px) rotateX(7.6797deg) rotateY(8.3277deg) translateZ(23.9991px)"
+    },
+    "fine": true,
+    "scope": "101 synchronous synthetic mouse packets schedule1RAF and1entry rect read. Actual painted spring then approaches bounded target; event coalescing is not appFPS."
+  },
+  "nativeFocus": {
+    "events": [
+      {
+        "id": "wave",
+        "trusted": true
+      },
+      {
+        "id": "atlas",
+        "trusted": true
+      },
+      {
+        "id": "atlas",
+        "trusted": true
+      },
+      {
+        "id": "orbit",
+        "trusted": true
+      }
+    ],
+    "focus": "orbit",
+    "state": {
+      "camera": "simulated-mouse",
+      "fine": true,
+      "maxAngle": 12,
+      "maxDepth": 24,
+      "perspective": 1000,
+      "quiet": false,
+      "saved": false,
+      "selected": "orbit",
+      "solid": false,
+      "theme": "light",
+      "touring": false,
+      "transforms": [
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "nativeSave": {
+    "focus": "wave",
+    "pressed": "true",
+    "state": {
+      "camera": "none",
+      "fine": true,
+      "maxAngle": 12,
+      "maxDepth": 24,
+      "perspective": 1000,
+      "quiet": false,
+      "saved": true,
+      "selected": "wave",
+      "solid": false,
+      "theme": "light",
+      "touring": false,
+      "transforms": [
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "nativeQuiet": {
+    "checkbox": true,
+    "state": {
+      "camera": "none",
+      "fine": true,
+      "maxAngle": 12,
+      "maxDepth": 24,
+      "perspective": 1000,
+      "quiet": true,
+      "saved": false,
+      "selected": "orbit",
+      "solid": false,
+      "theme": "light",
+      "touring": false,
+      "transforms": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "visualPointerEvents": [
+      "auto",
+      "auto",
+      "auto"
+    ]
+  },
+  "syntheticTouch": {
+    "raf": 0,
+    "transform": "",
+    "scope": "From neutral state, synthetic touch enter/move do not start fine-hover projection"
+  },
+  "idle": {
+    "frames": 0,
+    "rects": 0,
+    "state": {
+      "camera": "none",
+      "fine": true,
+      "maxAngle": 12,
+      "maxDepth": 24,
+      "perspective": 1000,
+      "quiet": false,
+      "saved": false,
+      "selected": "wave",
+      "solid": false,
+      "theme": "light",
+      "touring": false,
+      "transforms": [
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "normalizationFix": {
+    "before": {
+      "base": "",
+      "burst": {
+        "packets": 101,
+        "rafScheduled": 1,
+        "rectReads": 1
+      },
+      "fine": true,
+      "focused": {
+        "focus": true,
+        "transform": "perspective(1000px) rotateX(0.8091deg) rotateY(0.85deg) translateZ(2.5302px)"
+      },
+      "projected": {
+        "host": {
+          "bottom": 666.375,
+          "height": 440,
+          "left": 42,
+          "right": 478.3828125,
+          "top": 226.375,
+          "width": 436.3828125,
+          "x": 42,
+          "y": 226.375
+        },
+        "pointerEvents": "auto",
+        "transform": "perspective(1000px) rotateX(0.8091deg) rotateY(0.85deg) translateZ(2.5302px)"
+      },
+      "quiet": {
+        "camera": "none",
+        "fine": true,
+        "maxAngle": 12,
+        "maxDepth": 24,
+        "perspective": 1000,
+        "quiet": true,
+        "saved": false,
+        "selected": "orbit",
+        "solid": false,
+        "theme": "light",
+        "touring": false,
+        "transforms": [
+          "perspective(1000px) rotateX(0.8091deg) rotateY(0.85deg) translateZ(2.5302px)",
+          "",
+          ""
+        ]
+      },
+      "touch": {
+        "transform": "perspective(1000px) rotateX(0.8091deg) rotateY(0.85deg) translateZ(2.5302px)"
+      }
+    },
+    "after": "Record actual CSSOM serialized property/priority after writes; native Shift+Tab and Quiet restore neutral values",
+    "focusedTests": 19
+  },
+  "tour": {
+    "animations": 0,
+    "state": {
+      "camera": "none",
+      "fine": true,
+      "maxAngle": 12,
+      "maxDepth": 24,
+      "perspective": 1000,
+      "quiet": false,
+      "saved": false,
+      "selected": "wave",
+      "solid": false,
+      "theme": "light",
+      "touring": false,
+      "transforms": [
+        "",
+        "",
+        ""
+      ]
+    }
+  }
+}

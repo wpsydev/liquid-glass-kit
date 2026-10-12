@@ -1,0 +1,7 @@
+{
+  "observedAtUtc": "2026-10-12T04:24:21.739Z",
+  "jsRawBytes": 5976,
+  "jsGzipBytes": 2736,
+  "sourceSha256": "71c4a3117af6f722c8ab0e29c6f704ef7c6eacef86561bdc8fda6d81b8ecaed1",
+  "scope": "Standalone optional IIFE includes the shared spring runner. No default core or CSS change. Delivery bytes are not render/FPS or comparative speedup."
+}

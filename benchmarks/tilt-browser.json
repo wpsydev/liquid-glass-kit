@@ -1,0 +1,20 @@
+{
+  "batchesMs": [
+    19.199999928474426,
+    11.399999976158142,
+    13.800000071525574,
+    12.100000023841858,
+    8.299999952316284
+  ],
+  "cleaned": true,
+  "customRaf": 0,
+  "cyclesPerBatch": 20,
+  "hosts": 32,
+  "idleRaf": 0,
+  "medianBatchMs": 12.100000023841858,
+  "observedAtUtc": "2026-10-12T04:26:21.725Z",
+  "rectReads": 3200,
+  "scope": "Connected attach/explicit refresh/destroy in reduced mode, 32 authored hosts and 5×20 cycles. Includes geometry reads and any synchronous style/layout work they induce. Setup, spring animation and asynchronous paint excluded. Unwarmed batches individually reported, no comparative speedup/FPS claim.",
+  "sequences": 3200,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36"
+}

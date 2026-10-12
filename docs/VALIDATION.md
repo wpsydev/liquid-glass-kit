@@ -462,3 +462,15 @@ Optionalpurefactory1364gzip/CSS1270gzip.400batches after50warmups: construction1
 Originalnative10stour exported12seconds360frames960square,124BPMafro/marimba seed36,927864bytes SHA256 `abc91967e44cbb477ca1817e659550bfbc4292e0e95d5c4a2c43fe6303035abf`. Actualfinalcancelled/twonotes/oneignoredlate result/0pending. LiteralcameraCSS+boundedscrolls recorded; nativefields stay16/44, nofakevalidation/modelchanges. Fourframes.9/3.6/5.7/8.5 reviewedbydelegate/full decodepassed. Export30fps notappFPS.
 
 Final integrated npm run check passed1,144tests/53files includingqueuedprototypes. npm pack --dry-run passed166files excludingfutureentries. This release adds42tests to715publishedtests; published-scope CI followspublication.
+
+## 0.37 fine-pointer visual tilt (2026-10-12)
+
+19 focused tests include actualCSSOMserialization modeled regression, nativebutton/anchor semantics, noninteractivevisualstructure, eventgate, sharedspring/cachedgeometry/ownership/reduction/teardown. Chromiumnativebeforefix trimmednumeric transformstrings, triggeringfalseexternal-owner abandonment/stuckplane; recordingactualstoredinlinevalue/priority fixesit. Native trustedShift+Tabwave→atlas→orbit actuallyneutralizesOrbit; EnterWave createsrealpagebookmark; actualQuiet clearsalltransforms/pointer suppression. ImmediateDOMfocus frominactivepreviewwasnotusedasfinalnativefocusproof. Synthetic101mousepackets1scheduledRAF/1entryrectread; actualpaintedtransformapproachesboundedtarget. Syntheticneutral touchenter/move0RAF/transformempty. Physicalpointerdelivery/phones/Safari/ATunverified.
+
+Fifteen desktopmode/viewport320–1440cases fitnoflow/44controls+labels/16fields. OptionalIIFE2736gzip(sharedspring included). Connected32host5×20attach/refresh/destroy batches19.2/11.4/13.8/12.1/8.3ms median12.1ms,3200sequences/3200rectreads/0customRAF/subsequent250msidleRAF. Includesnativegeometry andanysynchronousstyle/layout; excludesfixturecreation/active spring/asynchronouspaint. No comparative speedup/GPU/appFPS claim.
+
+Original12second360frame772281bytefunk104/brassseed37 native10scameratour SHA256 `2f0cdb51938750f1ac4a86d7246e567617febd3fc0755cc50b8c32469aacb5db`. Explicitlysimulatedmouse/actualfinegate/originalSVGs, nocameraCSS/fakedstate. Finalthreeemptytransforms/cameraoff/0documentanimations/following300ms0RAF/rectangles. Fourframes.8/4.1/7.2/10.8reviewed andfullaudio/videodecodepass; export30fpsnotappFPS.
+
+Final integrated npm run check passed1,144tests/53files includingqueuedprototypes. Final npm pack --dry-run passed169files excludingfutureentries. This release adds19tests to757publishedtests; published-scope CI followspublication.
+
+0.36 publication: commitc445ffb3256d4d61db0bfd101b8aac5ec1dcdb63 passedVerify38204555365 (757tests/39files),release38204555375 andPages38204555412. Downloaded166members/359612bytes archive SHA256 `ac31931d59b9fadf66fc59f3a9ed163fb6c7941892b2acdc0b4237b1acd6f9c4`. HostedblankRecordfirstinvalidfocusnote-title/0submissions andHelp44px verified. Xmain+twocanonicalreplies readback, freshpublicplayer12seconds/ready4; campaign/FIELD_PUBLICATION.json. npmregistry pending.

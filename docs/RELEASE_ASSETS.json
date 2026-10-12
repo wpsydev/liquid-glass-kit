@@ -1,14 +1,14 @@
 {
-  "version": "0.36.0-preview.1",
+  "version": "0.37.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/field-showcase.mp4",
-      "name": "liquid-glass-commonplace.mp4",
+      "path": "docs/campaign/assets/tilt-showcase.mp4",
+      "name": "liquid-glass-depth-objects.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/field-showcase.png",
-      "name": "liquid-glass-commonplace.png",
+      "path": "docs/campaign/assets/tilt-showcase.png",
+      "name": "liquid-glass-depth-objects.png",
       "type": "image/png"
     }
   ]

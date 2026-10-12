@@ -1,0 +1,11 @@
+import { build } from 'vite';
+import { resolve } from 'node:path';
+import { readFile, writeFile } from 'node:fs/promises';
+import { gzipSync } from 'node:zlib';
+import { createHash } from 'node:crypto';
+const result=await build({configFile:false,logLevel:'silent',build:{write:false,minify:true,target:'es2022',lib:{entry:resolve('src/tilt.ts'),name:'GlassTilt',formats:['iife']}}});
+const js=(Array.isArray(result)?result[0]:result).output.find(x=>x.type==='chunk').code;
+const data={observedAtUtc:new Date().toISOString(),jsRawBytes:Buffer.byteLength(js),jsGzipBytes:gzipSync(js).length,sourceSha256:createHash('sha256').update(await readFile('src/tilt.ts')).digest('hex'),scope:'Standalone optional IIFE includes the shared spring runner. No default core or CSS change. Delivery bytes are not render/FPS or comparative speedup.'};
+await writeFile('benchmarks/tilt-payload.json',JSON.stringify(data,null,2)+'\n');
+await writeFile('/tmp/lg-tilt-probe.html','<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Connected tilt lifecycle</title><style>body{font:16px Arial;margin:16px}button{width:120px;height:80px;padding:8px}span{display:block}</style><body><section id="fixture"></section><pre id="result"></pre><script>'+js.replaceAll('</script','<\\/script')+'</script></body></html>');
+console.log(JSON.stringify(data));

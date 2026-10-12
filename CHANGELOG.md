@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.37.0-preview.1
+
+- Add optional bounded fine-pointer perspective on one dedicated noninteractive visual plane, with a shared settling spring and stable native host semantics.
+- Keep touch/focus/presses/reductions neutral, cache move geometry and restore owned styles. Record actual CSSOM serialization to avoid abandoning a live visual after browser number normalization.
+- Add original Depth Objects, real local selection/bookmark controls, native keyboard/quiet evidence, scoped lifecycle/payload records and twelve-second funk/brass camera film with simulated mouse positions disclosed.
+
 ## 0.36.0-preview.1
 
 - Add optional pure field anatomy: visible native labels, current context/error references, explicit invalid/busy state and host-chosen announcement policy.

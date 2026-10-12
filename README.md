@@ -180,3 +180,5 @@ Optional `/pricing` preserves integer source charges, explicit monthly rounding 
 Optional `/registry` builds and validates bounded original authored-file recipes against explicit destination roots and declared export snapshots. It generates reviewable JSON and performs no installation, fetching or code execution. [API](docs/REGISTRY.md) · [Artifact Desk](https://wpsydev.github.io/liquid-glass-kit/registry/).
 
 Optional `/field` produces native labels, context/error references and invalid/busy anatomy as pure props. Import `/field.css` separately; the host keeps validation, form state and save behavior. [API](docs/FIELD.md) · [Commonplace](https://wpsydev.github.io/liquid-glass-kit/fields/).
+
+Optional `/tilt` projects one decorative visual plane under eligible fine-pointer hover while native controls stay stable. Touch, focus, presses and motion reduction neutralize it; no sensors or idle loop. [API](docs/TILT.md) · [Depth Objects](https://wpsydev.github.io/liquid-glass-kit/tilt/).

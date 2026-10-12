@@ -1,0 +1,83 @@
+{
+  "version": "0.36.0-preview.1",
+  "commit": "c445ffb3256d4d61db0bfd101b8aac5ec1dcdb63",
+  "workflows": {
+    "verify": 38204555365,
+    "release": 38204555375,
+    "pages": 38204555412,
+    "conclusion": "success",
+    "tests": 757,
+    "testFiles": 39
+  },
+  "archive": {
+    "members": 166,
+    "bytes": 359612,
+    "sha256": "ac31931d59b9fadf66fc59f3a9ed163fb6c7941892b2acdc0b4237b1acd6f9c4"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/fields/",
+    "chunk": "fields-CdMpf3nD.js",
+    "native": {
+      "focus": "note-title",
+      "helpWidth": 44,
+      "state": {
+        "errors": {
+          "note-author": "Please fill out this field.",
+          "note-summary": "Please fill out this field.",
+          "note-title": "Please fill out this field."
+        },
+        "focus": "note-title",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Check the highlighted native fields. The browser keeps its validation and first-invalid focus.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 0,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "error",
+        "submissions": 0,
+        "summaryCharacters": 0,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    }
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109506433003684328",
+    "replies": [
+      "https://x.com/wpsygames/status/2109507145926328814",
+      "https://x.com/wpsygames/status/2109507264247906710"
+    ],
+    "mainReadback": {
+      "text": true,
+      "upload": {
+        "bytes": 927864,
+        "sha256": "abc91967e44cbb477ca1817e659550bfbc4292e0e95d5c4a2c43fe6303035abf",
+        "duration": 12,
+        "readyState": 4
+      },
+      "publicPlayback": {
+        "duration": 12,
+        "readyState": 4
+      }
+    },
+    "replyReadback": "Both canonical pages read back intended text"
+  },
+  "npmRegistry": "pending"
+}

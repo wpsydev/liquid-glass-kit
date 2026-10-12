@@ -280,12 +280,12 @@
     {
       "order": 20,
       "url": "https://ui.shadcn.com",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Pure native field anatomy and logical input groups",
       "version": "0.36.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/fields/",
       "video": "docs/campaign/assets/field-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109506433003684328",
       "performance": [
         "benchmarks/field-payload.json",
         "benchmarks/field-lifecycle-native.json",
@@ -296,13 +296,17 @@
     {
       "order": 21,
       "url": "https://ui.aceternity.com",
-      "status": "researched",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Bounded fine-pointer visual projection",
+      "version": "0.37.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/tilt-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/tilt-payload.json",
+        "benchmarks/tilt-browser.json",
+        "benchmarks/tilt-native.json"
+      ]
     },
     {
       "order": 22,

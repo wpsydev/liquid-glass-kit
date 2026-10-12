@@ -1,0 +1,61 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 772281,
+  "sha256": "2f0cdb51938750f1ac4a86d7246e567617febd3fc0755cc50b8c32469aacb5db",
+  "music": {
+    "style": "funk",
+    "bpm": 104,
+    "seed": 37,
+    "patch": "brass",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Actual native T3 Depth Objects finite camera tour with explicitly simulated mouse positions through real fine-hover gate. No gyroscope/sensors/physical hover claim, camera CSS, fake state, source art or hit geometry.",
+  "nativeCapture": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-df3ab979-f6f3-445b-b49d-dc87328d0604-mp4",
+    "tabId": "tab_4d",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-df3ab979-f6f3-445b-b49d-dc87328d0604-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 3711214,
+    "createdAt": "2026-10-12T04:29:18.839Z"
+  },
+  "captions": [
+    "fine-pointer perspective · stable native controls",
+    "one visual plane · three original studies",
+    "respond, then settle · quiet and touch stay flat"
+  ],
+  "validation": {
+    "fullDecodeExitCode": 0,
+    "decodedFrames": 360,
+    "reviewedFrames": [
+      0.8,
+      4.1,
+      7.2,
+      10.8
+    ],
+    "review": "Original SVG concepts and native controls visible above captions. Tour ends three empty transforms/none camera/0runningdocumentanimations; following300ms0RAF/rect. Native keyboard/quiet and synthetic touch separately documented, not filmed as physical-device evidence.",
+    "tour": {
+      "animations": 0,
+      "state": {
+        "camera": "none",
+        "fine": true,
+        "maxAngle": 12,
+        "maxDepth": 24,
+        "perspective": 1000,
+        "quiet": false,
+        "saved": false,
+        "selected": "wave",
+        "solid": false,
+        "theme": "light",
+        "touring": false,
+        "transforms": [
+          "",
+          "",
+          ""
+        ]
+      }
+    }
+  }
+}
