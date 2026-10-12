@@ -1,0 +1,12 @@
+{
+  "observedAtUtc": "2026-10-12T03:12:16.861Z",
+  "target": "es2022",
+  "format": "standalone minified IIFE",
+  "jsRawBytes": 5612,
+  "jsGzipBytes": 2335,
+  "cssRawBytes": 3424,
+  "cssGzipBytes": 847,
+  "sourceSha256": "7e0374e3fa496328c79806fbcc458714654e3ce474235871a10dd3100907a89e",
+  "cssSha256": "ebd7bf3ef37355fa5c3e228f6beaf0bf3d94c162f6da94d0ce000f58cf1e9f3e",
+  "scope": "Optional preference controller including its environment helper; CSS excludes prerequisite material.css. Payload only, not a comparative speedup or rendering measurement."
+}

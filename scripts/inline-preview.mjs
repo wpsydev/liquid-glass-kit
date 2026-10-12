@@ -11,7 +11,7 @@ const js=assets.find(x=>x.type==='chunk').code;
 const css=assets.filter(x=>x.type==='asset'&&x.fileName.endsWith('.css')).map(x=>x.source).join('\n');
 let html=await readFile(`site/${values.study}/index.html`,'utf8');
 html=html.replace('<script type="module" src="./main.ts"></script>','')
-  .replace('</body>',`<script>${js.replaceAll('</script','<\\/script')}</script></body>`)
-  .replace('</head>',`<style>${css}</style></head>`).replace(/<link rel="icon"[^>]*>/g,'');
+  .replace('</body>',()=>`<script>${js.replaceAll('</script','<\\/script')}</script></body>`)
+  .replace('</head>',()=>`<style>${css}</style></head>`).replace(/<link rel="icon"[^>]*>/g,'');
 await writeFile(values.output,html);
 console.log(JSON.stringify({path:values.output,bytes:Buffer.byteLength(html)}));

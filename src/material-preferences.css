@@ -1,0 +1,17 @@
+/* Import after material.css. Tokens inherit from the nearest preference scope. */
+[data-lg-material-preferences]{color-scheme:light dark;--lg-pref-fill-rgb:245 247 252;--lg-pref-solid-fill:#f4f6fb;--lg-pref-ink:#172033;--lg-pref-edge:rgb(255 255 255 / .72);--lg-pref-background-alpha:0;--lg-pref-effects-display:block;--lg-pref-interaction-duration:.18s;--lg-pref-press-scale:.96}
+[data-lg-material-preferences][data-lg-pref-theme=light]{color-scheme:light;--lg-pref-fill-rgb:245 247 252;--lg-pref-solid-fill:#f4f6fb;--lg-pref-ink:#172033;--lg-pref-edge:rgb(255 255 255 / .72)}
+[data-lg-material-preferences][data-lg-pref-theme=dark]{color-scheme:dark;--lg-pref-fill-rgb:22 28 43;--lg-pref-solid-fill:#192133;--lg-pref-ink:#f4f7ff;--lg-pref-edge:rgb(255 255 255 / .28)}
+[data-lg-material-preferences][data-lg-pref-transparency=solid]{--lg-pref-background-alpha:1;--lg-pref-effects-display:none}
+[data-lg-material-preferences][data-lg-pref-motion=reduce]{--lg-pref-interaction-duration:0s;--lg-pref-press-scale:none}
+/* Explicit per-widget appearances/backdrops and clear variants keep their palette. */
+:is([data-lg-material-preferences] .lg-glass,.lg-glass[data-lg-material-preferences]):not([data-lg-appearance=light]):not([data-lg-appearance=dark]):not([data-lg-backdrop=light]):not([data-lg-backdrop=dark]):not([data-lg-variant=clear]){--lg-fill-rgb:var(--lg-pref-fill-rgb);--lg-solid-fill:var(--lg-pref-solid-fill);--lg-ink:var(--lg-pref-ink);--lg-edge:var(--lg-pref-edge)}
+:is([data-lg-material-preferences] .lg-glass,.lg-glass[data-lg-material-preferences])::before{display:var(--lg-pref-effects-display,block)}
+@supports((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){:is([data-lg-material-preferences] .lg-glass,.lg-glass[data-lg-material-preferences]){background:rgb(var(--lg-fill-rgb) / var(--lg-pref-background-alpha,0))}:is([data-lg-material-preferences] .lg-glass,.lg-glass[data-lg-material-preferences])[data-lg-solid=true]{background:var(--lg-solid-fill)}}
+/* Only known CSS press feedback. JS motion/renderers still need host onChange updates. */
+:is([data-lg-material-preferences] .lg-glass,.lg-glass[data-lg-material-preferences])[data-lg-interactive=true]{transition-duration:var(--lg-pref-interaction-duration,.18s)}
+:is([data-lg-material-preferences] .lg-button,.lg-button[data-lg-material-preferences])[data-lg-interactive=true]:active:not(:disabled),:is([data-lg-material-preferences] .lg-button,.lg-button[data-lg-material-preferences])[data-lg-interactive=true][data-lg-pressed=true]:not(:disabled){scale:var(--lg-pref-press-scale,.96)}
+@media(prefers-color-scheme:dark){[data-lg-material-preferences]:not([data-lg-pref-theme=light]):not([data-lg-pref-theme=dark]){--lg-pref-fill-rgb:22 28 43;--lg-pref-solid-fill:#192133;--lg-pref-ink:#f4f7ff;--lg-pref-edge:rgb(255 255 255 / .28)}}
+@media(prefers-reduced-motion:reduce){[data-lg-material-preferences]{--lg-pref-interaction-duration:0s;--lg-pref-press-scale:none}}
+@media(prefers-reduced-transparency:reduce),(prefers-contrast:more){[data-lg-material-preferences]{--lg-pref-background-alpha:1;--lg-pref-effects-display:none}}
+@media(forced-colors:active){:is([data-lg-material-preferences] .lg-glass,.lg-glass[data-lg-material-preferences]){background:Canvas;color:CanvasText;border-color:CanvasText;box-shadow:none}:is([data-lg-material-preferences] .lg-glass,.lg-glass[data-lg-material-preferences])::before{display:none}}

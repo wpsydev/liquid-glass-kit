@@ -386,3 +386,17 @@ Connected32-group attach/open-close-all/refresh/destroy5×20batches29/12.4/10.8/
 Original twelve-second/360frame nativefilm144BPM electro/metal seed30,621914bytes SHA256 `da2ca48396172e4b1df2b6a69dc7d7211ea3251dc7da2ab401b654aa05173db5`. Actual threegroups/hosthidefocusrescue; no cameraCSS/fakegeometry/viewport in film. Separate dialog/breakpoint tests not describedasfilmfootage. Finalrepresentativeframes reviewed andfull decode passed; export30fps not appFPS.
 
 Final integrated npm run check passed1094tests/51files including queued prototypes; this release adds24tests to526previously published. Final npm pack --dry-run passed145files; future modules absent. Browser/media validation stays separate from unit/SSR/package checks. Release-only CI counts follow publication.
+
+0.30 publication: commitd1f3e9c02d986adc609472d3b10dec6924f2bb55 passedVerify38197326198 (550tests/33files),release38197326209,Pages38197326197. Downloaded145members/313617bytes archive SHA256 `1c1478a6bbc7d1de79c1066b957cbb85464d8bc94c3368490153c91a41c027f9`. Hostednativekeyboard/focus andXmain+two replies/video12seconds readback; boundedcampaign/DISCLOSURE_NAV_PUBLICATION.json. npmregistry pending.
+
+## 0.31 scoped material preferences (2026-10-12)
+
+24focusedtests coverpureSSRpolicy/OS precedence, scopedattrs/palette, suppliedstoragevalidity/sync/errors/clear andteardown. OptionalJS2335gzip/CSS847gzip excludingmaterial.css. Core/defaultCSS/imports unchanged. Nativecontroller3,200sequentialscopes/cycles5×20×32 batches33.7/27.4/19.3/15.5/15.9ms median19.3ms,0customRAF/JavaScript rectangles/subsequent250msidleRAF,16,000change listeneradds=removes, authoredattrsrestored. Excludesmotionadapter/style/layout/paint/GPU; no comparativespeedup.
+
+Fifteen nativeT3desktopChromium light/dark/quiet ×320×700,390×844,768×1024,844×390,1440×900 fitnoflow/44targets/16fields. Nativeeditorfocus/text/caret84 survivedactualdark/reduce/solid policychange, savedrealnote andreturnedexacttext. Nesteddark andlocalpeachpalette stayedindependent; quietrootopaque/effectpseudo none. NativeT3color-schemeemulationlight→dark changedsystemroot+nestedreason=system afteractivepainting. OtherliveOSreduction/contrast/forcedcolors,physicalphones/Safari/ATunverified. Mapport success/samescope sync/key-onlyclear/read-write-remove denial separatefromactualaboutblankstoragedenial, notcrosstabproof.
+
+Original12second360framecinematic96pianoseed31 native9.6stour completestrue/3settled finiteheadingrequests/0finaldocumentanimations. Actualcontrols/policy receiptabove882pxcaption; camera-onlydensity exactCSSinmediaJSON, nofakestates/geometry/colors. Film657552bytes SHA256 `57ad467689c803b07c382abf27a01d313b420901867435d23bdbcea46d3e218a`; subagentreviewed .8/4.5/9.2frames/fullaudio-videodecode, browser/unit/packaging scopesseparate.
+
+Previewhelper now usescallbackreplacements forCSS/JavaScript insertion: $backtick/$apostrophe/$ampersand source remainsliteral. NativeRegistrypreview previouslyhadSyntaxError beforecontrollerassignment, fixedgeneratedscript passednode--check andactualcontrollerloaded. Toolingfixnotaruntimeglassspeedclaim.
+
+Final integrated npm run check passed 1,142 tests in 53 files, including queued prototypes; the release scope adds 24 tests to the previously published 550. npm pack --dry-run passed 149 files and excludes future optional modules. Publication CI will independently test only published sources.

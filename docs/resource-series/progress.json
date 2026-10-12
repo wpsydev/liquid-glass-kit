@@ -191,12 +191,12 @@
     {
       "order": 14,
       "url": "https://navbar.gallery",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Semantic native disclosure navigation",
       "version": "0.30.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/navigation/",
       "video": "docs/campaign/assets/disclosure-nav-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109477341512843360",
       "performance": [
         "benchmarks/disclosure-nav-payload.json",
         "benchmarks/disclosure-nav-browser.json"
@@ -205,13 +205,17 @@
     {
       "order": 15,
       "url": "https://footer.design",
-      "status": "researched",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Scoped material and motion preferences",
+      "version": "0.31.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/material-preferences-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/material-preferences-payload.json",
+        "benchmarks/material-preferences-browser.json",
+        "benchmarks/material-preferences-native.json"
+      ]
     },
     {
       "order": 16,

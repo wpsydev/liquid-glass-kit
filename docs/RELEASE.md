@@ -1,13 +1,17 @@
-Navigation should leave the next step to the person. **0.30.0-preview.1** adds optional `/disclosure-nav` and `/disclosure-nav.css`: one authored navigation tree with native disclosure buttons and ordinary links/forms.
+Comfort belongs to the person. **0.31.0-preview.1** adds optional `/material-preferences` and `/material-preferences.css`: scoped theme, motion and transparency policy.
 
-One group opens at a time. Tab/Enter/Space stay native. Escape returns focus; nested native dialogs keep their own Escape handling. Outside/focus-leave closure preserves the new destination, and an explicit host breakpoint/fallback provides focus rescue. No menu roles, router, copied content, focus trap, body lock or idle frame loop.
+System/light/dark, system/reduce and system/solid choices resolve with detected OS reductions. Nested scopes keep their own preferences; explicit local palettes stay local. Effective material/motion adapter options let the host update real JavaScript controllers. CSS alone cannot stop arbitrary video, animation or WebGL.
 
-[Long Way Library](https://wpsydev.github.io/liquid-glass-kit/navigation/) has original route artwork, grouped destinations, a native local planning form and an authored planning-notes dialog. Its finite 10.4s tour shows all three groups, then hides the host and returns focus to the opener. The attached original twelve-second electro/metal score is 144BPM.
+[Side B](https://wpsydev.github.io/liquid-glass-kit/preferences/) has original cover artwork, real session-note editing, an independent dark desk and peach palette. Native comfort utilities change actual material presentation and a finite heading transition. The attached twelve-second original cinematic/piano film is96BPM; the cover is an interface study, not a player.
 
-Fifteen native desktop Chromium viewport/group cases fit 320–1440px with 44px controls and 16px fields. Native links, form submit, Tab/Escape, nested dialog Escape and a1440→390 breakpoint focus rescue were tested. Physical phones, Safari, zoom and assistive technology remain unverified.
+Persistence defaults to memory. Supply both a key and storage object to opt in; bounded versioned records, same-object propagation and key-only clear retain usability under denial. No global localStorage access, consent/authentication service or remote save.
 
-Optional standalone JS2,727bytesgzip/CSS891bytesgzip. Five20-cycle32-group lifecycle batches had11.2ms median perbatch,6,400notifications and0customRAF/JavaScript rectangle reads/subsequentidleRAF. These measurements exclude menu animation/layout/paint and user navigation. Optional CSS uses a140ms reveal; no comparative speedup or FPS claim. Default core/CSS/imports remain unchanged.
+Fifteen native desktop Chromium cases fit320–1440px with44px targets/16px fields. Native edited text/caret84 survived dark/reduce/solid changes and saved in session. Native T3 light/dark media emulation updated system policy. Other live OS queries, physical phones, Safari and assistive technology remain unverified.
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/DISCLOSURE_NAV.md) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/disclosure-nav-browser.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/14-navbar.md)
+Standalone optional JS2,335bytesgzip/CSS847bytesgzip. 3,200 connected attach/set/refresh/reset/destroy sequences had19.3ms median per20-cycle32-scope batch,0customRAF/JavaScript rectangles/subsequentidleRAF and balanced16,000media listeners. This excludes actual motion, layout/paint and rendering; no comparative speedup. Default core/CSS/imports stay unchanged.
 
-The gallery inspired an independent navigation study. No external source, art, fonts or recordings copied. Use the attached ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.30.0-preview.1`. npm registry publication remains pending.
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/MATERIAL_PREFERENCES.md) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/material-preferences-native.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/15-footer.md)
+
+Footer Design informed an independent utility study; no reference assets, fonts, recordings or code copied. The preview helper also now preserves dollar-sign sequences when embedding generated code.
+
+Use the attached ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.31.0-preview.1`. npm registry publication remains pending.

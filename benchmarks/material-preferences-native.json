@@ -1,0 +1,5469 @@
+{
+  "observedAtUtc": "2026-10-12T03:12:35.383Z",
+  "browser": "Native T3 collaborative preview desktop Chromium",
+  "tabId": "tab_41",
+  "layoutCases": [
+    {
+      "atUtc": "2026-10-12T03:08:20.682Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 106.13,
+          "type": null,
+          "width": 106.13
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 47.16,
+          "type": null,
+          "width": 47.16
+        },
+        {
+          "fontSize": 11,
+          "height": 75,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 134.5,
+          "type": "button",
+          "width": 134.5
+        },
+        {
+          "fontSize": 11,
+          "height": 75,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 134.5,
+          "type": "button",
+          "width": 134.5
+        },
+        {
+          "fontSize": 11,
+          "height": 75,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 134.5,
+          "type": "button",
+          "width": 134.5
+        },
+        {
+          "fontSize": 16,
+          "height": 235,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 235,
+          "targetWidth": 227,
+          "type": "textarea",
+          "width": 227
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 65.98,
+          "type": "button",
+          "width": 65.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 97,
+          "type": "select-one",
+          "width": 97
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 97,
+          "type": "select-one",
+          "width": 97
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 86.05,
+          "type": null,
+          "width": 86.05
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 96.33,
+          "type": null,
+          "width": 96.33
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 78.48,
+          "type": null,
+          "width": 78.48
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 281,
+          "type": "select-one",
+          "width": 281
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 281,
+          "type": "select-one",
+          "width": 281
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 281,
+          "type": "select-one",
+          "width": 281
+        },
+        {
+          "fontSize": 12,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 270.84,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 97.06,
+          "type": "button",
+          "width": 97.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 150.99,
+          "type": "button",
+          "width": 150.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 79.49,
+          "type": "button",
+          "width": 79.49
+        }
+      ],
+      "documentWidth": 305,
+      "height": 700,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 47.16,
+      "state": {
+        "effective": {
+          "appearance": "light",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "light",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "light",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "system",
+          "theme": "light",
+          "transparency": "system"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(245, 247, 252, 0)",
+          "effectDisplay": "block",
+          "fill": "245 247 252",
+          "id": "note-card",
+          "ink": "#172033",
+          "solid": "#f4f6fb"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgba(248, 209, 172, 0)",
+          "effectDisplay": "block",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 320
+    },
+    {
+      "atUtc": "2026-10-12T03:08:32.995Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 106.13,
+          "type": null,
+          "width": 106.13
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 47.16,
+          "type": null,
+          "width": 47.16
+        },
+        {
+          "fontSize": 11,
+          "height": 75,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 134.5,
+          "type": "button",
+          "width": 134.5
+        },
+        {
+          "fontSize": 11,
+          "height": 75,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 134.5,
+          "type": "button",
+          "width": 134.5
+        },
+        {
+          "fontSize": 11,
+          "height": 75,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 134.5,
+          "type": "button",
+          "width": 134.5
+        },
+        {
+          "fontSize": 16,
+          "height": 235,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 235,
+          "targetWidth": 227,
+          "type": "textarea",
+          "width": 227
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 65.98,
+          "type": "button",
+          "width": 65.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 97,
+          "type": "select-one",
+          "width": 97
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 97,
+          "type": "select-one",
+          "width": 97
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 86.05,
+          "type": null,
+          "width": 86.05
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 96.33,
+          "type": null,
+          "width": 96.33
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 78.48,
+          "type": null,
+          "width": 78.48
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 281,
+          "type": "select-one",
+          "width": 281
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 281,
+          "type": "select-one",
+          "width": 281
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 281,
+          "type": "select-one",
+          "width": 281
+        },
+        {
+          "fontSize": 12,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 270.84,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 97.06,
+          "type": "button",
+          "width": 97.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 150.99,
+          "type": "button",
+          "width": 150.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 79.49,
+          "type": "button",
+          "width": 79.49
+        }
+      ],
+      "documentWidth": 305,
+      "height": 700,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 47.16,
+      "state": {
+        "effective": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "system",
+          "theme": "dark",
+          "transparency": "system"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "note-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgba(248, 209, 172, 0)",
+          "effectDisplay": "block",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 320
+    },
+    {
+      "atUtc": "2026-10-12T03:08:33.491Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 106.13,
+          "type": null,
+          "width": 106.13
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 47.16,
+          "type": null,
+          "width": 47.16
+        },
+        {
+          "fontSize": 11,
+          "height": 75,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 134.5,
+          "type": "button",
+          "width": 134.5
+        },
+        {
+          "fontSize": 11,
+          "height": 75,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 134.5,
+          "type": "button",
+          "width": 134.5
+        },
+        {
+          "fontSize": 11,
+          "height": 75,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 134.5,
+          "type": "button",
+          "width": 134.5
+        },
+        {
+          "fontSize": 16,
+          "height": 235,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 235,
+          "targetWidth": 227,
+          "type": "textarea",
+          "width": 227
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 65.98,
+          "type": "button",
+          "width": 65.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 97,
+          "type": "select-one",
+          "width": 97
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 97,
+          "type": "select-one",
+          "width": 97
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 86.05,
+          "type": null,
+          "width": 86.05
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 96.33,
+          "type": null,
+          "width": 96.33
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 78.48,
+          "type": null,
+          "width": 78.48
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 281,
+          "type": "select-one",
+          "width": 281
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 281,
+          "type": "select-one",
+          "width": 281
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 281,
+          "type": "select-one",
+          "width": 281
+        },
+        {
+          "fontSize": 12,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 270.84,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 97.06,
+          "type": "button",
+          "width": 97.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 150.99,
+          "type": "button",
+          "width": 150.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 79.49,
+          "type": "button",
+          "width": 79.49
+        }
+      ],
+      "documentWidth": 305,
+      "height": 700,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 47.16,
+      "state": {
+        "effective": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": true
+          },
+          "motion": {
+            "reducedMotion": true
+          },
+          "preferences": {
+            "motion": "reduce",
+            "theme": "dark",
+            "transparency": "solid"
+          },
+          "reducedMotion": true,
+          "reducedTransparency": true
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "reduce",
+          "theme": "dark",
+          "transparency": "solid"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgb(22, 28, 43)",
+          "effectDisplay": "none",
+          "fill": "22 28 43",
+          "id": "note-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgb(248, 209, 172)",
+          "effectDisplay": "none",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 320
+    },
+    {
+      "atUtc": "2026-10-12T03:08:33.968Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 106.13,
+          "type": null,
+          "width": 106.13
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 47.16,
+          "type": null,
+          "width": 47.16
+        },
+        {
+          "fontSize": 12,
+          "height": 75,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 166,
+          "type": "button",
+          "width": 166
+        },
+        {
+          "fontSize": 12,
+          "height": 75,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 166,
+          "type": "button",
+          "width": 166
+        },
+        {
+          "fontSize": 12,
+          "height": 75,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 166,
+          "type": "button",
+          "width": 166
+        },
+        {
+          "fontSize": 16,
+          "height": 235,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 235,
+          "targetWidth": 283,
+          "type": "textarea",
+          "width": 283
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 65.98,
+          "type": "button",
+          "width": 65.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 128.5,
+          "type": "select-one",
+          "width": 128.5
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 128.5,
+          "type": "select-one",
+          "width": 128.5
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 86.05,
+          "type": null,
+          "width": 86.05
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 96.33,
+          "type": null,
+          "width": 96.33
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 78.48,
+          "type": null,
+          "width": 78.48
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 347,
+          "type": "select-one",
+          "width": 347
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 347,
+          "type": "select-one",
+          "width": 347
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 347,
+          "type": "select-one",
+          "width": 347
+        },
+        {
+          "fontSize": 12,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 270.84,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 101.06,
+          "type": "button",
+          "width": 101.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 154.99,
+          "type": "button",
+          "width": 154.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 83.49,
+          "type": "button",
+          "width": 83.49
+        }
+      ],
+      "documentWidth": 375,
+      "height": 844,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 47.16,
+      "state": {
+        "effective": {
+          "appearance": "light",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "light",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "light",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "system",
+          "theme": "light",
+          "transparency": "system"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(245, 247, 252, 0)",
+          "effectDisplay": "block",
+          "fill": "245 247 252",
+          "id": "note-card",
+          "ink": "#172033",
+          "solid": "#f4f6fb"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgba(248, 209, 172, 0)",
+          "effectDisplay": "block",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 390
+    },
+    {
+      "atUtc": "2026-10-12T03:08:34.297Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 106.13,
+          "type": null,
+          "width": 106.13
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 47.16,
+          "type": null,
+          "width": 47.16
+        },
+        {
+          "fontSize": 12,
+          "height": 75,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 166,
+          "type": "button",
+          "width": 166
+        },
+        {
+          "fontSize": 12,
+          "height": 75,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 166,
+          "type": "button",
+          "width": 166
+        },
+        {
+          "fontSize": 12,
+          "height": 75,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 166,
+          "type": "button",
+          "width": 166
+        },
+        {
+          "fontSize": 16,
+          "height": 235,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 235,
+          "targetWidth": 283,
+          "type": "textarea",
+          "width": 283
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 65.98,
+          "type": "button",
+          "width": 65.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 128.5,
+          "type": "select-one",
+          "width": 128.5
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 128.5,
+          "type": "select-one",
+          "width": 128.5
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 86.05,
+          "type": null,
+          "width": 86.05
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 96.33,
+          "type": null,
+          "width": 96.33
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 78.48,
+          "type": null,
+          "width": 78.48
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 347,
+          "type": "select-one",
+          "width": 347
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 347,
+          "type": "select-one",
+          "width": 347
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 347,
+          "type": "select-one",
+          "width": 347
+        },
+        {
+          "fontSize": 12,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 270.84,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 101.06,
+          "type": "button",
+          "width": 101.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 154.99,
+          "type": "button",
+          "width": 154.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 83.49,
+          "type": "button",
+          "width": 83.49
+        }
+      ],
+      "documentWidth": 375,
+      "height": 844,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 47.16,
+      "state": {
+        "effective": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "system",
+          "theme": "dark",
+          "transparency": "system"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "note-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgba(248, 209, 172, 0)",
+          "effectDisplay": "block",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 390
+    },
+    {
+      "atUtc": "2026-10-12T03:08:34.587Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 106.13,
+          "type": null,
+          "width": 106.13
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 47.16,
+          "type": null,
+          "width": 47.16
+        },
+        {
+          "fontSize": 12,
+          "height": 75,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 166,
+          "type": "button",
+          "width": 166
+        },
+        {
+          "fontSize": 12,
+          "height": 75,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 166,
+          "type": "button",
+          "width": 166
+        },
+        {
+          "fontSize": 12,
+          "height": 75,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 75,
+          "targetWidth": 166,
+          "type": "button",
+          "width": 166
+        },
+        {
+          "fontSize": 16,
+          "height": 235,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 235,
+          "targetWidth": 283,
+          "type": "textarea",
+          "width": 283
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 65.98,
+          "type": "button",
+          "width": 65.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 128.5,
+          "type": "select-one",
+          "width": 128.5
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 128.5,
+          "type": "select-one",
+          "width": 128.5
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 86.05,
+          "type": null,
+          "width": 86.05
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 96.33,
+          "type": null,
+          "width": 96.33
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 78.48,
+          "type": null,
+          "width": 78.48
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 347,
+          "type": "select-one",
+          "width": 347
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 347,
+          "type": "select-one",
+          "width": 347
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 347,
+          "type": "select-one",
+          "width": 347
+        },
+        {
+          "fontSize": 12,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 270.84,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 101.06,
+          "type": "button",
+          "width": 101.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 154.99,
+          "type": "button",
+          "width": 154.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 83.49,
+          "type": "button",
+          "width": 83.49
+        }
+      ],
+      "documentWidth": 375,
+      "height": 844,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 47.16,
+      "state": {
+        "effective": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": true
+          },
+          "motion": {
+            "reducedMotion": true
+          },
+          "preferences": {
+            "motion": "reduce",
+            "theme": "dark",
+            "transparency": "solid"
+          },
+          "reducedMotion": true,
+          "reducedTransparency": true
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "reduce",
+          "theme": "dark",
+          "transparency": "solid"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgb(22, 28, 43)",
+          "effectDisplay": "none",
+          "fill": "22 28 43",
+          "id": "note-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgb(248, 209, 172)",
+          "effectDisplay": "none",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 390
+    },
+    {
+      "atUtc": "2026-10-12T03:08:35.040Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 111.82,
+          "type": null,
+          "width": 111.82
+        },
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 50.88,
+          "type": null,
+          "width": 50.88
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 16,
+          "height": 210,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 210,
+          "targetWidth": 390,
+          "type": "textarea",
+          "width": 390
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 75.98,
+          "type": "button",
+          "width": 75.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 121,
+          "type": "select-one",
+          "width": 121
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 121,
+          "type": "select-one",
+          "width": 121
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 79.17,
+          "type": null,
+          "width": 79.17
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 88.57,
+          "type": null,
+          "width": 88.57
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 72.11,
+          "type": null,
+          "width": 72.11
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 221.66,
+          "type": "select-one",
+          "width": 221.66
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 221.66,
+          "type": "select-one",
+          "width": 221.66
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 221.67,
+          "type": "select-one",
+          "width": 221.67
+        },
+        {
+          "fontSize": 11,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 254.12,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 103.06,
+          "type": "button",
+          "width": 103.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 156.99,
+          "type": "button",
+          "width": 156.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 85.49,
+          "type": "button",
+          "width": 85.49
+        }
+      ],
+      "documentWidth": 753,
+      "height": 1024,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 50.88,
+      "state": {
+        "effective": {
+          "appearance": "light",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "light",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "light",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "system",
+          "theme": "light",
+          "transparency": "system"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(245, 247, 252, 0)",
+          "effectDisplay": "block",
+          "fill": "245 247 252",
+          "id": "note-card",
+          "ink": "#172033",
+          "solid": "#f4f6fb"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgba(248, 209, 172, 0)",
+          "effectDisplay": "block",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 768
+    },
+    {
+      "atUtc": "2026-10-12T03:08:35.345Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 111.82,
+          "type": null,
+          "width": 111.82
+        },
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 50.88,
+          "type": null,
+          "width": 50.88
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 16,
+          "height": 210,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 210,
+          "targetWidth": 390,
+          "type": "textarea",
+          "width": 390
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 75.98,
+          "type": "button",
+          "width": 75.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 121,
+          "type": "select-one",
+          "width": 121
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 121,
+          "type": "select-one",
+          "width": 121
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 79.17,
+          "type": null,
+          "width": 79.17
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 88.57,
+          "type": null,
+          "width": 88.57
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 72.11,
+          "type": null,
+          "width": 72.11
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 221.66,
+          "type": "select-one",
+          "width": 221.66
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 221.66,
+          "type": "select-one",
+          "width": 221.66
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 221.67,
+          "type": "select-one",
+          "width": 221.67
+        },
+        {
+          "fontSize": 11,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 254.12,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 103.06,
+          "type": "button",
+          "width": 103.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 156.99,
+          "type": "button",
+          "width": 156.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 85.49,
+          "type": "button",
+          "width": 85.49
+        }
+      ],
+      "documentWidth": 753,
+      "height": 1024,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 50.88,
+      "state": {
+        "effective": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "system",
+          "theme": "dark",
+          "transparency": "system"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "note-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgba(248, 209, 172, 0)",
+          "effectDisplay": "block",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 768
+    },
+    {
+      "atUtc": "2026-10-12T03:08:35.629Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 111.82,
+          "type": null,
+          "width": 111.82
+        },
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 50.88,
+          "type": null,
+          "width": 50.88
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 16,
+          "height": 210,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 210,
+          "targetWidth": 390,
+          "type": "textarea",
+          "width": 390
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 75.98,
+          "type": "button",
+          "width": 75.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 121,
+          "type": "select-one",
+          "width": 121
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 121,
+          "type": "select-one",
+          "width": 121
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 79.17,
+          "type": null,
+          "width": 79.17
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 88.57,
+          "type": null,
+          "width": 88.57
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 72.11,
+          "type": null,
+          "width": 72.11
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 221.66,
+          "type": "select-one",
+          "width": 221.66
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 221.66,
+          "type": "select-one",
+          "width": 221.66
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 221.67,
+          "type": "select-one",
+          "width": 221.67
+        },
+        {
+          "fontSize": 11,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 254.12,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 103.06,
+          "type": "button",
+          "width": 103.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 156.99,
+          "type": "button",
+          "width": 156.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 85.49,
+          "type": "button",
+          "width": 85.49
+        }
+      ],
+      "documentWidth": 753,
+      "height": 1024,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 50.88,
+      "state": {
+        "effective": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": true
+          },
+          "motion": {
+            "reducedMotion": true
+          },
+          "preferences": {
+            "motion": "reduce",
+            "theme": "dark",
+            "transparency": "solid"
+          },
+          "reducedMotion": true,
+          "reducedTransparency": true
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "reduce",
+          "theme": "dark",
+          "transparency": "solid"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgb(22, 28, 43)",
+          "effectDisplay": "none",
+          "fill": "22 28 43",
+          "id": "note-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgb(248, 209, 172)",
+          "effectDisplay": "none",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 768
+    },
+    {
+      "atUtc": "2026-10-12T03:08:36.082Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 111.82,
+          "type": null,
+          "width": 111.82
+        },
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 50.88,
+          "type": null,
+          "width": 50.88
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 16,
+          "height": 210,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 210,
+          "targetWidth": 466,
+          "type": "textarea",
+          "width": 466
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 75.98,
+          "type": "button",
+          "width": 75.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 140,
+          "type": "select-one",
+          "width": 140
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 140,
+          "type": "select-one",
+          "width": 140
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 79.17,
+          "type": null,
+          "width": 79.17
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 88.57,
+          "type": null,
+          "width": 88.57
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 72.11,
+          "type": null,
+          "width": 72.11
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 247,
+          "type": "select-one",
+          "width": 247
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 247,
+          "type": "select-one",
+          "width": 247
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 247,
+          "type": "select-one",
+          "width": 247
+        },
+        {
+          "fontSize": 11,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 254.12,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 103.06,
+          "type": "button",
+          "width": 103.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 156.99,
+          "type": "button",
+          "width": 156.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 85.49,
+          "type": "button",
+          "width": 85.49
+        }
+      ],
+      "documentWidth": 829,
+      "height": 390,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 50.88,
+      "state": {
+        "effective": {
+          "appearance": "light",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "light",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "light",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "system",
+          "theme": "light",
+          "transparency": "system"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(245, 247, 252, 0)",
+          "effectDisplay": "block",
+          "fill": "245 247 252",
+          "id": "note-card",
+          "ink": "#172033",
+          "solid": "#f4f6fb"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgba(248, 209, 172, 0)",
+          "effectDisplay": "block",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 844
+    },
+    {
+      "atUtc": "2026-10-12T03:08:36.386Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 111.82,
+          "type": null,
+          "width": 111.82
+        },
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 50.88,
+          "type": null,
+          "width": 50.88
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 16,
+          "height": 210,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 210,
+          "targetWidth": 466,
+          "type": "textarea",
+          "width": 466
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 75.98,
+          "type": "button",
+          "width": 75.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 140,
+          "type": "select-one",
+          "width": 140
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 140,
+          "type": "select-one",
+          "width": 140
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 79.17,
+          "type": null,
+          "width": 79.17
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 88.57,
+          "type": null,
+          "width": 88.57
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 72.11,
+          "type": null,
+          "width": 72.11
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 247,
+          "type": "select-one",
+          "width": 247
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 247,
+          "type": "select-one",
+          "width": 247
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 247,
+          "type": "select-one",
+          "width": 247
+        },
+        {
+          "fontSize": 11,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 254.12,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 103.06,
+          "type": "button",
+          "width": 103.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 156.99,
+          "type": "button",
+          "width": 156.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 85.49,
+          "type": "button",
+          "width": 85.49
+        }
+      ],
+      "documentWidth": 829,
+      "height": 390,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 50.88,
+      "state": {
+        "effective": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "system",
+          "theme": "dark",
+          "transparency": "system"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "note-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgba(248, 209, 172, 0)",
+          "effectDisplay": "block",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 844
+    },
+    {
+      "atUtc": "2026-10-12T03:08:36.695Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 111.82,
+          "type": null,
+          "width": 111.82
+        },
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 50.88,
+          "type": null,
+          "width": 50.88
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 220,
+          "type": "button",
+          "width": 220
+        },
+        {
+          "fontSize": 16,
+          "height": 210,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 210,
+          "targetWidth": 466,
+          "type": "textarea",
+          "width": 466
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 75.98,
+          "type": "button",
+          "width": 75.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 140,
+          "type": "select-one",
+          "width": 140
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 140,
+          "type": "select-one",
+          "width": 140
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 79.17,
+          "type": null,
+          "width": 79.17
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 88.57,
+          "type": null,
+          "width": 88.57
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 72.11,
+          "type": null,
+          "width": 72.11
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 247,
+          "type": "select-one",
+          "width": 247
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 247,
+          "type": "select-one",
+          "width": 247
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 247,
+          "type": "select-one",
+          "width": 247
+        },
+        {
+          "fontSize": 11,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 254.12,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 103.06,
+          "type": "button",
+          "width": 103.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 156.99,
+          "type": "button",
+          "width": 156.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 85.49,
+          "type": "button",
+          "width": 85.49
+        }
+      ],
+      "documentWidth": 829,
+      "height": 390,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 50.88,
+      "state": {
+        "effective": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": true
+          },
+          "motion": {
+            "reducedMotion": true
+          },
+          "preferences": {
+            "motion": "reduce",
+            "theme": "dark",
+            "transparency": "solid"
+          },
+          "reducedMotion": true,
+          "reducedTransparency": true
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "reduce",
+          "theme": "dark",
+          "transparency": "solid"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgb(22, 28, 43)",
+          "effectDisplay": "none",
+          "fill": "22 28 43",
+          "id": "note-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgb(248, 209, 172)",
+          "effectDisplay": "none",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 844
+    },
+    {
+      "atUtc": "2026-10-12T03:08:37.164Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 111.82,
+          "type": null,
+          "width": 111.82
+        },
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 50.88,
+          "type": null,
+          "width": 50.88
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 240,
+          "type": "button",
+          "width": 240
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 240,
+          "type": "button",
+          "width": 240
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 240,
+          "type": "button",
+          "width": 240
+        },
+        {
+          "fontSize": 16,
+          "height": 210,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 210,
+          "targetWidth": 685,
+          "type": "textarea",
+          "width": 685
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 77.98,
+          "type": "button",
+          "width": 77.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 224,
+          "type": "select-one",
+          "width": 224
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 224,
+          "type": "select-one",
+          "width": 224
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 79.17,
+          "type": null,
+          "width": 79.17
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 88.57,
+          "type": null,
+          "width": 88.57
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 72.11,
+          "type": null,
+          "width": 72.11
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 438.33,
+          "type": "select-one",
+          "width": 438.33
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 438.34,
+          "type": "select-one",
+          "width": 438.34
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 438.34,
+          "type": "select-one",
+          "width": 438.34
+        },
+        {
+          "fontSize": 11,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 254.12,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 103.06,
+          "type": "button",
+          "width": 103.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 156.99,
+          "type": "button",
+          "width": 156.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 85.49,
+          "type": "button",
+          "width": 85.49
+        }
+      ],
+      "documentWidth": 1425,
+      "height": 900,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 50.88,
+      "state": {
+        "effective": {
+          "appearance": "light",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "light",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "light",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "system",
+          "theme": "light",
+          "transparency": "system"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(245, 247, 252, 0)",
+          "effectDisplay": "block",
+          "fill": "245 247 252",
+          "id": "note-card",
+          "ink": "#172033",
+          "solid": "#f4f6fb"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgba(248, 209, 172, 0)",
+          "effectDisplay": "block",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "atUtc": "2026-10-12T03:08:37.503Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 111.82,
+          "type": null,
+          "width": 111.82
+        },
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 50.88,
+          "type": null,
+          "width": 50.88
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 240,
+          "type": "button",
+          "width": 240
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 240,
+          "type": "button",
+          "width": 240
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 240,
+          "type": "button",
+          "width": 240
+        },
+        {
+          "fontSize": 16,
+          "height": 210,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 210,
+          "targetWidth": 685,
+          "type": "textarea",
+          "width": 685
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 77.98,
+          "type": "button",
+          "width": 77.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 224,
+          "type": "select-one",
+          "width": 224
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 224,
+          "type": "select-one",
+          "width": 224
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 79.17,
+          "type": null,
+          "width": 79.17
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 88.57,
+          "type": null,
+          "width": 88.57
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 72.11,
+          "type": null,
+          "width": 72.11
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 438.33,
+          "type": "select-one",
+          "width": 438.33
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 438.34,
+          "type": "select-one",
+          "width": 438.34
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 438.34,
+          "type": "select-one",
+          "width": 438.34
+        },
+        {
+          "fontSize": 11,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 254.12,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 103.06,
+          "type": "button",
+          "width": 103.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 156.99,
+          "type": "button",
+          "width": 156.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 85.49,
+          "type": "button",
+          "width": 85.49
+        }
+      ],
+      "documentWidth": 1425,
+      "height": 900,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 50.88,
+      "state": {
+        "effective": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "system",
+          "theme": "dark",
+          "transparency": "system"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "note-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgba(248, 209, 172, 0)",
+          "effectDisplay": "block",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "atUtc": "2026-10-12T03:08:37.834Z",
+      "controlCount": 20,
+      "controls": [
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "wordmark",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 111.82,
+          "type": null,
+          "width": 111.82
+        },
+        {
+          "fontSize": 12,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 50.88,
+          "type": null,
+          "width": 50.88
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "arrival",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 240,
+          "type": "button",
+          "width": 240
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "overlap",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 240,
+          "type": "button",
+          "width": 240
+        },
+        {
+          "fontSize": 12,
+          "height": 61,
+          "id": "afterimage",
+          "tag": "BUTTON",
+          "targetHeight": 61,
+          "targetWidth": 240,
+          "type": "button",
+          "width": 240
+        },
+        {
+          "fontSize": 16,
+          "height": 210,
+          "id": "note-editor",
+          "tag": "TEXTAREA",
+          "targetHeight": 210,
+          "targetWidth": 685,
+          "type": "textarea",
+          "width": 685
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "save-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 188.1,
+          "type": "button",
+          "width": 188.1
+        },
+        {
+          "fontSize": 11,
+          "height": 44,
+          "id": "next-note",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 77.98,
+          "type": "button",
+          "width": 77.98
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 224,
+          "type": "select-one",
+          "width": 224
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "nested-surface",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 224,
+          "type": "select-one",
+          "width": 224
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 79.17,
+          "type": null,
+          "width": 79.17
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 88.57,
+          "type": null,
+          "width": 88.57
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "A",
+          "tag": "A",
+          "targetHeight": 44,
+          "targetWidth": 72.11,
+          "type": null,
+          "width": 72.11
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "theme",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 438.33,
+          "type": "select-one",
+          "width": 438.33
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "motion",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 438.34,
+          "type": "select-one",
+          "width": 438.34
+        },
+        {
+          "fontSize": 16,
+          "height": 44,
+          "id": "transparency",
+          "tag": "SELECT",
+          "targetHeight": 44,
+          "targetWidth": 438.34,
+          "type": "select-one",
+          "width": 438.34
+        },
+        {
+          "fontSize": 11,
+          "height": 22,
+          "id": "remember",
+          "tag": "INPUT",
+          "targetHeight": 44,
+          "targetWidth": 254.12,
+          "type": "checkbox",
+          "width": 22
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "reset-system",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 103.06,
+          "type": "button",
+          "width": 103.06
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "clear-settings",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 156.99,
+          "type": "button",
+          "width": 156.99
+        },
+        {
+          "fontSize": 10,
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "targetHeight": 44,
+          "targetWidth": 85.49,
+          "type": "button",
+          "width": 85.49
+        }
+      ],
+      "documentWidth": 1425,
+      "height": 900,
+      "horizontalOverflow": false,
+      "minFieldFont": 16,
+      "minTargetHeight": 44,
+      "minTargetWidth": 50.88,
+      "state": {
+        "effective": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": true
+          },
+          "motion": {
+            "reducedMotion": true
+          },
+          "preferences": {
+            "motion": "reduce",
+            "theme": "dark",
+            "transparency": "solid"
+          },
+          "reducedMotion": true,
+          "reducedTransparency": true
+        },
+        "failures": [],
+        "lastReason": "user",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 0,
+          "settled": 0,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "reduce",
+          "theme": "dark",
+          "transparency": "solid"
+        },
+        "savedNotes": [],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      },
+      "surfaces": [
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgb(22, 28, 43)",
+          "effectDisplay": "none",
+          "fill": "22 28 43",
+          "id": "note-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "auto",
+          "backdropFilter": "none",
+          "background": "rgba(22, 28, 43, 0)",
+          "effectDisplay": "block",
+          "fill": "22 28 43",
+          "id": "nested-card",
+          "ink": "#f4f7ff",
+          "solid": "#192133"
+        },
+        {
+          "appearance": "light",
+          "backdropFilter": "none",
+          "background": "rgb(248, 209, 172)",
+          "effectDisplay": "none",
+          "fill": "248 209 172",
+          "id": "local-card",
+          "ink": "#583021",
+          "solid": "#f8d1ac"
+        }
+      ],
+      "width": 1440
+    }
+  ],
+  "editorCaret": {
+    "after": {
+      "active": "note-editor",
+      "end": 84,
+      "requested": {
+        "motion": "reduce",
+        "theme": "dark",
+        "transparency": "solid"
+      },
+      "start": 84,
+      "value": "Leave enough space for the first useful action, then let a small detail add character."
+    },
+    "before": {
+      "active": "note-editor",
+      "end": 84,
+      "requested": {
+        "motion": "system",
+        "theme": "light",
+        "transparency": "system"
+      },
+      "start": 84,
+      "value": "Leave enough space for the first useful action, then let a small detail add character."
+    },
+    "state": {
+      "effective": {
+        "appearance": "dark",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "dark",
+          "reducedTransparency": true
+        },
+        "motion": {
+          "reducedMotion": true
+        },
+        "preferences": {
+          "motion": "reduce",
+          "theme": "dark",
+          "transparency": "solid"
+        },
+        "reducedMotion": true,
+        "reducedTransparency": true
+      },
+      "failures": [],
+      "lastReason": "user",
+      "local": {
+        "appearance": "light",
+        "fill": "248 209 172",
+        "ink": "#583021",
+        "solidFill": "#f8d1ac"
+      },
+      "motion": {
+        "cancelled": 0,
+        "requests": 3,
+        "settled": 3,
+        "waapiAvailable": true
+      },
+      "nested": {
+        "appearance": "dark",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "dark",
+          "reducedTransparency": false
+        },
+        "motion": {
+          "reducedMotion": false
+        },
+        "preferences": {
+          "motion": "system",
+          "theme": "dark",
+          "transparency": "system"
+        },
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "noteId": "afterimage",
+      "remembering": false,
+      "requested": {
+        "motion": "reduce",
+        "theme": "dark",
+        "transparency": "solid"
+      },
+      "savedNotes": [],
+      "storageKey": "liquid-glass-kit.preferences-demo.v1",
+      "system": {
+        "contrastMore": false,
+        "dark": true,
+        "forcedColors": false,
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "tourStep": null
+    }
+  },
+  "noteSave": {
+    "active": "arrival",
+    "state": {
+      "effective": {
+        "appearance": "dark",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "dark",
+          "reducedTransparency": true
+        },
+        "motion": {
+          "reducedMotion": true
+        },
+        "preferences": {
+          "motion": "reduce",
+          "theme": "dark",
+          "transparency": "solid"
+        },
+        "reducedMotion": true,
+        "reducedTransparency": true
+      },
+      "failures": [],
+      "lastReason": "user",
+      "local": {
+        "appearance": "light",
+        "fill": "248 209 172",
+        "ink": "#583021",
+        "solidFill": "#f8d1ac"
+      },
+      "motion": {
+        "cancelled": 0,
+        "requests": 4,
+        "settled": 4,
+        "waapiAvailable": true
+      },
+      "nested": {
+        "appearance": "dark",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "dark",
+          "reducedTransparency": false
+        },
+        "motion": {
+          "reducedMotion": false
+        },
+        "preferences": {
+          "motion": "system",
+          "theme": "dark",
+          "transparency": "system"
+        },
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "noteId": "arrival",
+      "remembering": false,
+      "requested": {
+        "motion": "reduce",
+        "theme": "dark",
+        "transparency": "solid"
+      },
+      "savedNotes": [
+        "arrival"
+      ],
+      "storageKey": "liquid-glass-kit.preferences-demo.v1",
+      "system": {
+        "contrastMore": false,
+        "dark": true,
+        "forcedColors": false,
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "tourStep": null
+    },
+    "status": "This note is held in the page’s memory. Nothing is uploaded or persisted.",
+    "value": "Leave enough space for the first useful action, then let a small detail add character."
+  },
+  "liveEmulatedAppearance": {
+    "light": {
+      "nestedAttribute": "light",
+      "rootAttribute": "light",
+      "state": {
+        "effective": {
+          "appearance": "light",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "light",
+            "reducedTransparency": true
+          },
+          "motion": {
+            "reducedMotion": true
+          },
+          "preferences": {
+            "motion": "reduce",
+            "theme": "system",
+            "transparency": "solid"
+          },
+          "reducedMotion": true,
+          "reducedTransparency": true
+        },
+        "failures": [],
+        "lastReason": "system",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 4,
+          "settled": 4,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "light",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "light",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "system",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "reduce",
+          "theme": "system",
+          "transparency": "solid"
+        },
+        "savedNotes": [
+          "arrival"
+        ],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": false,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      }
+    },
+    "dark": {
+      "nestedAttribute": "dark",
+      "rootAttribute": "dark",
+      "state": {
+        "effective": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": true
+          },
+          "motion": {
+            "reducedMotion": true
+          },
+          "preferences": {
+            "motion": "reduce",
+            "theme": "system",
+            "transparency": "solid"
+          },
+          "reducedMotion": true,
+          "reducedTransparency": true
+        },
+        "failures": [],
+        "lastReason": "system",
+        "local": {
+          "appearance": "light",
+          "fill": "248 209 172",
+          "ink": "#583021",
+          "solidFill": "#f8d1ac"
+        },
+        "motion": {
+          "cancelled": 0,
+          "requests": 4,
+          "settled": 4,
+          "waapiAvailable": true
+        },
+        "nested": {
+          "appearance": "dark",
+          "contrastMore": false,
+          "forcedColors": false,
+          "material": {
+            "appearance": "dark",
+            "reducedTransparency": false
+          },
+          "motion": {
+            "reducedMotion": false
+          },
+          "preferences": {
+            "motion": "system",
+            "theme": "system",
+            "transparency": "system"
+          },
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "noteId": "arrival",
+        "remembering": false,
+        "requested": {
+          "motion": "reduce",
+          "theme": "system",
+          "transparency": "solid"
+        },
+        "savedNotes": [
+          "arrival"
+        ],
+        "storageKey": "liquid-glass-kit.preferences-demo.v1",
+        "system": {
+          "contrastMore": false,
+          "dark": true,
+          "forcedColors": false,
+          "reducedMotion": false,
+          "reducedTransparency": false
+        },
+        "tourStep": null
+      }
+    },
+    "contract": "T3 native prefers-color-scheme emulation while recording enabled browser event painting. Requested theme=system in both scopes; lastReason=system. Actual OS settings were not changed."
+  },
+  "suppliedStoragePort": {
+    "afterClear": [
+      [
+        "unrelated",
+        "keep-me"
+      ]
+    ],
+    "afterState": {
+      "effective": {
+        "appearance": "dark",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "dark",
+          "reducedTransparency": false
+        },
+        "motion": {
+          "reducedMotion": false
+        },
+        "preferences": {
+          "motion": "system",
+          "theme": "system",
+          "transparency": "system"
+        },
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "failures": [],
+      "lastReason": "clear",
+      "local": {
+        "appearance": "light",
+        "fill": "248 209 172",
+        "ink": "#583021",
+        "solidFill": "#f8d1ac"
+      },
+      "motion": {
+        "cancelled": 0,
+        "requests": 4,
+        "settled": 4,
+        "waapiAvailable": true
+      },
+      "nested": {
+        "appearance": "dark",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "dark",
+          "reducedTransparency": false
+        },
+        "motion": {
+          "reducedMotion": false
+        },
+        "preferences": {
+          "motion": "system",
+          "theme": "system",
+          "transparency": "system"
+        },
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "noteId": "arrival",
+      "remembering": true,
+      "requested": {
+        "motion": "system",
+        "theme": "system",
+        "transparency": "system"
+      },
+      "savedNotes": [
+        "arrival"
+      ],
+      "storageKey": "liquid-glass-kit.preferences-demo.v1",
+      "system": {
+        "contrastMore": false,
+        "dark": true,
+        "forcedColors": false,
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "tourStep": null
+    },
+    "boundary": "Explicit supplied Map storage port; not browser persistence or cross-tab",
+    "calls": [
+      [
+        "get",
+        "liquid-glass-kit.preferences-demo.v1"
+      ],
+      [
+        "get",
+        "liquid-glass-kit.preferences-demo.v1"
+      ],
+      [
+        "set",
+        "liquid-glass-kit.preferences-demo.v1",
+        "{\"version\":1,\"preferences\":{\"theme\":\"system\",\"motion\":\"reduce\",\"transparency\":\"solid\"}}"
+      ],
+      [
+        "set",
+        "liquid-glass-kit.preferences-demo.v1",
+        "{\"version\":1,\"preferences\":{\"theme\":\"light\",\"motion\":\"reduce\",\"transparency\":\"solid\"}}"
+      ],
+      [
+        "get",
+        "liquid-glass-kit.preferences-demo.v1"
+      ],
+      [
+        "get",
+        "liquid-glass-kit.preferences-demo.v1"
+      ],
+      [
+        "set",
+        "liquid-glass-kit.preferences-demo.v1",
+        "{\"version\":1,\"preferences\":{\"theme\":\"light\",\"motion\":\"reduce\",\"transparency\":\"solid\"}}"
+      ],
+      [
+        "remove",
+        "liquid-glass-kit.preferences-demo.v1"
+      ]
+    ],
+    "cleared": true,
+    "enabled": true,
+    "reloaded": {
+      "effective": {
+        "appearance": "light",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "light",
+          "reducedTransparency": true
+        },
+        "motion": {
+          "reducedMotion": true
+        },
+        "preferences": {
+          "motion": "reduce",
+          "theme": "light",
+          "transparency": "solid"
+        },
+        "reducedMotion": true,
+        "reducedTransparency": true
+      },
+      "failures": [],
+      "lastReason": "initial",
+      "local": {
+        "appearance": "light",
+        "fill": "248 209 172",
+        "ink": "#583021",
+        "solidFill": "#f8d1ac"
+      },
+      "motion": {
+        "cancelled": 0,
+        "requests": 4,
+        "settled": 4,
+        "waapiAvailable": true
+      },
+      "nested": {
+        "appearance": "dark",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "dark",
+          "reducedTransparency": false
+        },
+        "motion": {
+          "reducedMotion": false
+        },
+        "preferences": {
+          "motion": "system",
+          "theme": "system",
+          "transparency": "system"
+        },
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "noteId": "arrival",
+      "remembering": true,
+      "requested": {
+        "motion": "reduce",
+        "theme": "light",
+        "transparency": "solid"
+      },
+      "savedNotes": [
+        "arrival"
+      ],
+      "storageKey": "liquid-glass-kit.preferences-demo.v1",
+      "system": {
+        "contrastMore": false,
+        "dark": true,
+        "forcedColors": false,
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "tourStep": null
+    },
+    "restored": true,
+    "stored": [
+      [
+        "unrelated",
+        "keep-me"
+      ],
+      [
+        "liquid-glass-kit.preferences-demo.v1",
+        "{\"version\":1,\"preferences\":{\"theme\":\"light\",\"motion\":\"reduce\",\"transparency\":\"solid\"}}"
+      ]
+    ]
+  },
+  "suppliedDenial": {
+    "boundary": "Caller supplied denial fixture; not a browser vendor storage guarantee",
+    "enabled": false,
+    "failures": [
+      {
+        "at": 1210916.8999999762,
+        "phase": "read"
+      }
+    ],
+    "state": {
+      "effective": {
+        "appearance": "light",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "light",
+          "reducedTransparency": false
+        },
+        "motion": {
+          "reducedMotion": false
+        },
+        "preferences": {
+          "motion": "system",
+          "theme": "light",
+          "transparency": "system"
+        },
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "failures": [
+        {
+          "at": 1210916.8999999762,
+          "phase": "read"
+        }
+      ],
+      "lastReason": "user",
+      "local": {
+        "appearance": "light",
+        "fill": "248 209 172",
+        "ink": "#583021",
+        "solidFill": "#f8d1ac"
+      },
+      "motion": {
+        "cancelled": 0,
+        "requests": 4,
+        "settled": 4,
+        "waapiAvailable": true
+      },
+      "nested": {
+        "appearance": "dark",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "dark",
+          "reducedTransparency": false
+        },
+        "motion": {
+          "reducedMotion": false
+        },
+        "preferences": {
+          "motion": "system",
+          "theme": "system",
+          "transparency": "system"
+        },
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "noteId": "arrival",
+      "remembering": false,
+      "requested": {
+        "motion": "system",
+        "theme": "light",
+        "transparency": "system"
+      },
+      "savedNotes": [
+        "arrival"
+      ],
+      "storageKey": "liquid-glass-kit.preferences-demo.v1",
+      "system": {
+        "contrastMore": false,
+        "dark": true,
+        "forcedColors": false,
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "tourStep": null
+    }
+  },
+  "actualAboutBlankStorage": {
+    "enabled": false,
+    "failures": [
+      {
+        "at": 1211075.6000000238,
+        "phase": "read"
+      }
+    ],
+    "origin": "null",
+    "state": {
+      "effective": {
+        "appearance": "light",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "light",
+          "reducedTransparency": false
+        },
+        "motion": {
+          "reducedMotion": false
+        },
+        "preferences": {
+          "motion": "system",
+          "theme": "light",
+          "transparency": "system"
+        },
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "failures": [
+        {
+          "at": 1210916.8999999762,
+          "phase": "read"
+        },
+        {
+          "at": 1211075.6000000238,
+          "phase": "read"
+        }
+      ],
+      "lastReason": "initial",
+      "local": {
+        "appearance": "light",
+        "fill": "248 209 172",
+        "ink": "#583021",
+        "solidFill": "#f8d1ac"
+      },
+      "motion": {
+        "cancelled": 0,
+        "requests": 4,
+        "settled": 4,
+        "waapiAvailable": true
+      },
+      "nested": {
+        "appearance": "dark",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "dark",
+          "reducedTransparency": false
+        },
+        "motion": {
+          "reducedMotion": false
+        },
+        "preferences": {
+          "motion": "system",
+          "theme": "system",
+          "transparency": "system"
+        },
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "noteId": "arrival",
+      "remembering": false,
+      "requested": {
+        "motion": "system",
+        "theme": "light",
+        "transparency": "system"
+      },
+      "savedNotes": [
+        "arrival"
+      ],
+      "storageKey": "liquid-glass-kit.preferences-demo.v1",
+      "system": {
+        "contrastMore": false,
+        "dark": true,
+        "forcedColors": false,
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "tourStep": null
+    },
+    "url": "about:blank"
+  },
+  "limits": [
+    "CSS viewport sizes in desktop Chromium, not physical phones or Safari",
+    "Native edit, ArrowLeft caret, save/Enter and note navigation validated; native select keyboard control was not established reliably in this transport",
+    "No live reduced-motion/transparency/contrast/forced-colors emulation capability exposed; their MQL readback alone is not support proof",
+    "No real-origin persistence, physical reload or cross-tab test; Map port success and about:blank read denial recorded separately"
+  ]
+}

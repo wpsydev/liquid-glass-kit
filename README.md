@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.30.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.31.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -168,3 +168,5 @@ Optional `/bottom-sheet` adapts an authored native dialog into a mobile editor w
 Optional `/preview-intent` manages deliberate hover/focus/manual preview visibility, with cancelled intent and host-declared semantics. It does not consume link clicks, move focus, position panels or load content. [API](docs/PREVIEW_INTENT.md) · [Context Studio](https://wpsydev.github.io/liquid-glass-kit/preview/).
 
 Optional `/disclosure-nav` enhances one authored navigation tree with native disclosure buttons, ordinary links and safe focus rescue. Import `/disclosure-nav.css` separately; host CSS owns compact layout and routing remains native. [API](docs/DISCLOSURE_NAV.md) · [Long Way Library](https://wpsydev.github.io/liquid-glass-kit/navigation/).
+
+Optional `/material-preferences` coordinates scoped theme, motion and transparency choices with detected OS preferences. Import `/material-preferences.css` after the material stylesheet; forward effective policy to existing JavaScript controllers. Persistence needs an explicit host storage object/key. [API](docs/MATERIAL_PREFERENCES.md) · [Side B](https://wpsydev.github.io/liquid-glass-kit/preferences/).

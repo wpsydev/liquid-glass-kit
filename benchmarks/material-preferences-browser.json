@@ -1,0 +1,118 @@
+{
+  "denial": {
+    "clearResult": false,
+    "phases": [
+      "read",
+      "write",
+      "remove"
+    ],
+    "state": {
+      "appearance": "dark",
+      "contrastMore": false,
+      "forcedColors": false,
+      "material": {
+        "appearance": "dark",
+        "reducedTransparency": false
+      },
+      "motion": {
+        "reducedMotion": true
+      },
+      "preferences": {
+        "motion": "reduce",
+        "theme": "dark",
+        "transparency": "system"
+      },
+      "reducedMotion": true,
+      "reducedTransparency": false
+    }
+  },
+  "lifecycle": {
+    "attachSetRefreshResetDestroySequences": 3200,
+    "authoredAttributesRestored": true,
+    "batches": 5,
+    "batchesMs": [
+      33.700000047683716,
+      27.399999976158142,
+      19.299999952316284,
+      15.5,
+      15.900000095367432
+    ],
+    "customRaf": 0,
+    "cyclesPerBatch": 20,
+    "jsRectReads": 0,
+    "mediaChangeListenersAdded": 16000,
+    "mediaChangeListenersRemoved": 16000,
+    "medianBatchMs": 19.299999952316284,
+    "notifications": 12800,
+    "scopes": 32,
+    "subsequent250msIdleRaf": 0
+  },
+  "nativeBrowser": "T3 collaborative preview",
+  "observedAtUtc": "2026-10-12T03:12:44.290Z",
+  "scope": "Synchronous connected-scope controller work with real MQL listeners. Excludes demo motion adapter, CSS layout/paint, GPU rendering, storage-network cost and any before/after speedup claim.",
+  "suppliedPort": {
+    "boundary": "Explicit host Map storage object; same-object mounted scope propagation, not physical browser reload or cross-tab persistence",
+    "calls": [
+      [
+        "get",
+        "fixture.preferences"
+      ],
+      [
+        "get",
+        "fixture.preferences"
+      ],
+      [
+        "set",
+        "fixture.preferences"
+      ],
+      [
+        "remove",
+        "fixture.preferences"
+      ]
+    ],
+    "clearResult": true,
+    "remainingKeys": [
+      "unrelated"
+    ],
+    "samePortClearSync": {
+      "appearance": "dark",
+      "contrastMore": false,
+      "forcedColors": false,
+      "material": {
+        "appearance": "dark",
+        "reducedTransparency": false
+      },
+      "motion": {
+        "reducedMotion": false
+      },
+      "preferences": {
+        "motion": "system",
+        "theme": "system",
+        "transparency": "system"
+      },
+      "reducedMotion": false,
+      "reducedTransparency": false
+    },
+    "samePortSync": {
+      "appearance": "light",
+      "contrastMore": false,
+      "forcedColors": false,
+      "material": {
+        "appearance": "light",
+        "reducedTransparency": true
+      },
+      "motion": {
+        "reducedMotion": true
+      },
+      "preferences": {
+        "motion": "reduce",
+        "theme": "light",
+        "transparency": "solid"
+      },
+      "reducedMotion": true,
+      "reducedTransparency": true
+    }
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "visibility": "visible"
+}

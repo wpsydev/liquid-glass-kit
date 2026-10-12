@@ -1,0 +1,87 @@
+{
+  "version": "0.30.0-preview.1",
+  "commit": "d1f3e9c02d986adc609472d3b10dec6924f2bb55",
+  "workflows": {
+    "verify": 38197326198,
+    "release": 38197326209,
+    "pages": 38197326197,
+    "conclusion": "success",
+    "tests": 550,
+    "testFiles": 33
+  },
+  "archive": {
+    "members": 145,
+    "bytes": 313617,
+    "sha256": "1c1478a6bbc7d1de79c1066b957cbb85464d8bc94c3368490153c91a41c027f9"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/navigation/",
+    "chunk": "navigation-04paRmzE.js",
+    "nativeEscape": {
+      "compact": false,
+      "dialog": {
+        "nativeModal": false,
+        "open": false
+      },
+      "focus": "routes-trigger",
+      "groups": [
+        {
+          "expanded": "false",
+          "hidden": true,
+          "id": "routes",
+          "links": [
+            "#coast",
+            "#city",
+            "#slow"
+          ]
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "id": "guides",
+          "links": [
+            "#reading",
+            "../images/",
+            "../preview/"
+          ]
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "id": "planner",
+          "links": []
+        }
+      ],
+      "hash": "",
+      "history": [
+        {
+          "openId": null,
+          "reason": "escape"
+        },
+        {
+          "openId": "routes",
+          "reason": "trigger"
+        }
+      ],
+      "hostHidden": false,
+      "lastChange": {
+        "openId": null,
+        "reason": "escape"
+      },
+      "lastHostAction": "initial",
+      "localPlans": 0,
+      "openId": null,
+      "responsiveQuery": "(max-width: 760px)",
+      "solid": false,
+      "tourStep": null
+    }
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109477341512843360",
+    "reply1": "https://x.com/wpsygames/status/2109477654009413858",
+    "reply2": "https://x.com/wpsygames/status/2109478026207776926",
+    "duration": 12,
+    "readyState": 4
+  },
+  "npmRegistry": "pending"
+}

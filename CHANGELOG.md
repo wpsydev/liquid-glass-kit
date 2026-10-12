@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.31.0-preview.1
+
+- Add optional pure/scoped material preferences: system/light/dark theme, system/reduce motion and system/solid surfaces. Detected OS reductions remain authoritative.
+- Preserve nested/local palette choices; expose explicit material/motion adapters and opt-in supplied-key/storage persistence with bounded records and conditional cleanup.
+- Add original Side B native editor, responsive/system/storage evidence and twelve-second cinematic film. No default core/CSS change.
+- Fix preview HTML insertion so JavaScript dollar-sign sequences remain literal; generated registry preview now parses correctly.
+
 ## 0.30.0-preview.1
 
 - Add optional one-open navigation disclosures around authored native buttons and ordinary link/form panels. Preserve Tab/Enter/Space, native anchors and nested dialog Escape handling.

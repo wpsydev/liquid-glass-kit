@@ -1,0 +1,496 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 657552,
+  "sha256": "57ad467689c803b07c382abf27a01d313b420901867435d23bdbcea46d3e218a",
+  "music": {
+    "style": "cinematic",
+    "bpm": 96,
+    "seed": 31,
+    "patch": "piano",
+    "provenance": "Original procedural synthesis, MIT, no external samples",
+    "command": "python3 scripts/render-series-score.py --style cinematic --seed 31 --output /tmp/material-preferences-score.wav"
+  },
+  "capture": "Native T3 actual original Side B finite9.6s tour. Camera-only density CSS frames the unchanged demo's native controls and state above captions; no faked state, geometry, colors, motion or storage. Explicit host motion adapter quiet snap. Export FPS is not app FPS.",
+  "nativeCapture": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-7bb20916-1134-4413-b1ab-6525b93abaed-mp4",
+    "tabId": "tab_41",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-7bb20916-1134-4413-b1ab-6525b93abaed-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 543581,
+    "createdAt": "2026-10-12T03:15:17.785Z"
+  },
+  "nativeRecordingStarted": {
+    "tabId": "tab_41",
+    "recording": true,
+    "startedAt": "2026-10-12T03:15:05.897Z"
+  },
+  "captions": [
+    "light or dark, your workspace stays yours",
+    "independent scopes keep their own character",
+    "quiet mode: solid surfaces, finite motion"
+  ],
+  "poster": {
+    "path": "docs/campaign/assets/material-preferences-showcase.png",
+    "bytes": 335338,
+    "sha256": "6fbfa894ff3cf8450602746ffa177d41f2bcc5df737205495d1e3ab1e619beae"
+  },
+  "validation": {
+    "videoDecodeExitCode": 0,
+    "audioDecodeExitCode": 0,
+    "decodedFrames": 360,
+    "reviewedFrames": [
+      {
+        "second": 0.8,
+        "path": "/tmp/material-preferences-review-0.8.png",
+        "review": "Actual light/dark/quiet state, readable native controls and policy receipt, caption does not cover controls"
+      },
+      {
+        "second": 4.5,
+        "path": "/tmp/material-preferences-review-4.5.png",
+        "review": "Actual light/dark/quiet state, readable native controls and policy receipt, caption does not cover controls"
+      },
+      {
+        "second": 9.2,
+        "path": "/tmp/material-preferences-review-9.2.png",
+        "review": "Actual light/dark/quiet state, readable native controls and policy receipt, caption does not cover controls"
+      }
+    ],
+    "nativeEvidence": "benchmarks/material-preferences-native.json",
+    "controllerEvidence": "benchmarks/material-preferences-browser.json",
+    "payloadEvidence": "benchmarks/material-preferences-payload.json",
+    "focusedUnitTests": 24,
+    "unitBoundary": "Vitest functional unit tests; separate from native desktop Chromium evidence"
+  },
+  "tourEvidence": {
+    "allDocumentAnimations": 0,
+    "completed": true,
+    "finalState": {
+      "effective": {
+        "appearance": "dark",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "dark",
+          "reducedTransparency": true
+        },
+        "motion": {
+          "reducedMotion": true
+        },
+        "preferences": {
+          "motion": "reduce",
+          "theme": "dark",
+          "transparency": "solid"
+        },
+        "reducedMotion": true,
+        "reducedTransparency": true
+      },
+      "failures": [],
+      "lastReason": "user",
+      "local": {
+        "appearance": "light",
+        "fill": "248 209 172",
+        "ink": "#583021",
+        "solidFill": "#f8d1ac"
+      },
+      "motion": {
+        "cancelled": 0,
+        "requests": 3,
+        "settled": 3,
+        "waapiAvailable": true
+      },
+      "nested": {
+        "appearance": "dark",
+        "contrastMore": false,
+        "forcedColors": false,
+        "material": {
+          "appearance": "dark",
+          "reducedTransparency": false
+        },
+        "motion": {
+          "reducedMotion": false
+        },
+        "preferences": {
+          "motion": "system",
+          "theme": "dark",
+          "transparency": "system"
+        },
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "noteId": "afterimage",
+      "remembering": false,
+      "requested": {
+        "motion": "reduce",
+        "theme": "dark",
+        "transparency": "solid"
+      },
+      "savedNotes": [],
+      "storageKey": "liquid-glass-kit.preferences-demo.v1",
+      "system": {
+        "contrastMore": false,
+        "dark": true,
+        "forcedColors": false,
+        "reducedMotion": false,
+        "reducedTransparency": false
+      },
+      "tourStep": null
+    },
+    "height": 960,
+    "samples": [
+      {
+        "elapsedMs": 703.5,
+        "headingAnimations": 0,
+        "policy": "light / system motion / glass allowed",
+        "policyBottom": 872.546875,
+        "state": {
+          "effective": {
+            "appearance": "light",
+            "contrastMore": false,
+            "forcedColors": false,
+            "material": {
+              "appearance": "light",
+              "reducedTransparency": false
+            },
+            "motion": {
+              "reducedMotion": false
+            },
+            "preferences": {
+              "motion": "system",
+              "theme": "light",
+              "transparency": "system"
+            },
+            "reducedMotion": false,
+            "reducedTransparency": false
+          },
+          "failures": [],
+          "lastReason": "user",
+          "local": {
+            "appearance": "light",
+            "fill": "248 209 172",
+            "ink": "#583021",
+            "solidFill": "#f8d1ac"
+          },
+          "motion": {
+            "cancelled": 0,
+            "requests": 1,
+            "settled": 1,
+            "waapiAvailable": true
+          },
+          "nested": {
+            "appearance": "dark",
+            "contrastMore": false,
+            "forcedColors": false,
+            "material": {
+              "appearance": "dark",
+              "reducedTransparency": false
+            },
+            "motion": {
+              "reducedMotion": false
+            },
+            "preferences": {
+              "motion": "system",
+              "theme": "dark",
+              "transparency": "system"
+            },
+            "reducedMotion": false,
+            "reducedTransparency": false
+          },
+          "noteId": "arrival",
+          "remembering": false,
+          "requested": {
+            "motion": "system",
+            "theme": "light",
+            "transparency": "system"
+          },
+          "savedNotes": [],
+          "storageKey": "liquid-glass-kit.preferences-demo.v1",
+          "system": {
+            "contrastMore": false,
+            "dark": true,
+            "forcedColors": false,
+            "reducedMotion": false,
+            "reducedTransparency": false
+          },
+          "tourStep": "light"
+        },
+        "title": "Leave a little room."
+      },
+      {
+        "elapsedMs": 3903.8000000715256,
+        "headingAnimations": 0,
+        "policy": "dark / system motion / glass allowed",
+        "policyBottom": 872.546875,
+        "state": {
+          "effective": {
+            "appearance": "dark",
+            "contrastMore": false,
+            "forcedColors": false,
+            "material": {
+              "appearance": "dark",
+              "reducedTransparency": false
+            },
+            "motion": {
+              "reducedMotion": false
+            },
+            "preferences": {
+              "motion": "system",
+              "theme": "dark",
+              "transparency": "system"
+            },
+            "reducedMotion": false,
+            "reducedTransparency": false
+          },
+          "failures": [],
+          "lastReason": "user",
+          "local": {
+            "appearance": "light",
+            "fill": "248 209 172",
+            "ink": "#583021",
+            "solidFill": "#f8d1ac"
+          },
+          "motion": {
+            "cancelled": 0,
+            "requests": 2,
+            "settled": 2,
+            "waapiAvailable": true
+          },
+          "nested": {
+            "appearance": "dark",
+            "contrastMore": false,
+            "forcedColors": false,
+            "material": {
+              "appearance": "dark",
+              "reducedTransparency": false
+            },
+            "motion": {
+              "reducedMotion": false
+            },
+            "preferences": {
+              "motion": "system",
+              "theme": "dark",
+              "transparency": "system"
+            },
+            "reducedMotion": false,
+            "reducedTransparency": false
+          },
+          "noteId": "overlap",
+          "remembering": false,
+          "requested": {
+            "motion": "system",
+            "theme": "dark",
+            "transparency": "system"
+          },
+          "savedNotes": [],
+          "storageKey": "liquid-glass-kit.preferences-demo.v1",
+          "system": {
+            "contrastMore": false,
+            "dark": true,
+            "forcedColors": false,
+            "reducedMotion": false,
+            "reducedTransparency": false
+          },
+          "tourStep": "dark"
+        },
+        "title": "A little motion, with a point."
+      },
+      {
+        "elapsedMs": 7103.800000071526,
+        "headingAnimations": 0,
+        "policy": "dark / reduced motion / solid surfaces",
+        "policyBottom": 872.546875,
+        "state": {
+          "effective": {
+            "appearance": "dark",
+            "contrastMore": false,
+            "forcedColors": false,
+            "material": {
+              "appearance": "dark",
+              "reducedTransparency": true
+            },
+            "motion": {
+              "reducedMotion": true
+            },
+            "preferences": {
+              "motion": "reduce",
+              "theme": "dark",
+              "transparency": "solid"
+            },
+            "reducedMotion": true,
+            "reducedTransparency": true
+          },
+          "failures": [],
+          "lastReason": "user",
+          "local": {
+            "appearance": "light",
+            "fill": "248 209 172",
+            "ink": "#583021",
+            "solidFill": "#f8d1ac"
+          },
+          "motion": {
+            "cancelled": 0,
+            "requests": 3,
+            "settled": 3,
+            "waapiAvailable": true
+          },
+          "nested": {
+            "appearance": "dark",
+            "contrastMore": false,
+            "forcedColors": false,
+            "material": {
+              "appearance": "dark",
+              "reducedTransparency": false
+            },
+            "motion": {
+              "reducedMotion": false
+            },
+            "preferences": {
+              "motion": "system",
+              "theme": "dark",
+              "transparency": "system"
+            },
+            "reducedMotion": false,
+            "reducedTransparency": false
+          },
+          "noteId": "afterimage",
+          "remembering": false,
+          "requested": {
+            "motion": "reduce",
+            "theme": "dark",
+            "transparency": "solid"
+          },
+          "savedNotes": [],
+          "storageKey": "liquid-glass-kit.preferences-demo.v1",
+          "system": {
+            "contrastMore": false,
+            "dark": true,
+            "forcedColors": false,
+            "reducedMotion": false,
+            "reducedTransparency": false
+          },
+          "tourStep": "quiet"
+        },
+        "title": "Let the right thing remain."
+      },
+      {
+        "elapsedMs": 10103.900000095367,
+        "headingAnimations": 0,
+        "policy": "dark / reduced motion / solid surfaces",
+        "policyBottom": 872.546875,
+        "state": {
+          "effective": {
+            "appearance": "dark",
+            "contrastMore": false,
+            "forcedColors": false,
+            "material": {
+              "appearance": "dark",
+              "reducedTransparency": true
+            },
+            "motion": {
+              "reducedMotion": true
+            },
+            "preferences": {
+              "motion": "reduce",
+              "theme": "dark",
+              "transparency": "solid"
+            },
+            "reducedMotion": true,
+            "reducedTransparency": true
+          },
+          "failures": [],
+          "lastReason": "user",
+          "local": {
+            "appearance": "light",
+            "fill": "248 209 172",
+            "ink": "#583021",
+            "solidFill": "#f8d1ac"
+          },
+          "motion": {
+            "cancelled": 0,
+            "requests": 3,
+            "settled": 3,
+            "waapiAvailable": true
+          },
+          "nested": {
+            "appearance": "dark",
+            "contrastMore": false,
+            "forcedColors": false,
+            "material": {
+              "appearance": "dark",
+              "reducedTransparency": false
+            },
+            "motion": {
+              "reducedMotion": false
+            },
+            "preferences": {
+              "motion": "system",
+              "theme": "dark",
+              "transparency": "system"
+            },
+            "reducedMotion": false,
+            "reducedTransparency": false
+          },
+          "noteId": "afterimage",
+          "remembering": false,
+          "requested": {
+            "motion": "reduce",
+            "theme": "dark",
+            "transparency": "solid"
+          },
+          "savedNotes": [],
+          "storageKey": "liquid-glass-kit.preferences-demo.v1",
+          "system": {
+            "contrastMore": false,
+            "dark": true,
+            "forcedColors": false,
+            "reducedMotion": false,
+            "reducedTransparency": false
+          },
+          "tourStep": null
+        },
+        "title": "Let the right thing remain."
+      }
+    ],
+    "width": 960,
+    "readbackAtUtc": "2026-10-12T03:15:17.651Z"
+  },
+  "camera": {
+    "kind": "Temporary preview-only layout-density CSS",
+    "css": ".room-inner{padding:0 28px;max-width:960px}header{min-height:56px}.intro{padding:22px 0 22px;gap:25px}.intro h1{font-size:62px;line-height:.98}.intro .eyebrow{font-size:8px;margin-bottom:12px}.intro>p{font-size:11px}.workspace{grid-template-columns:188px minmax(0,1fr) 254px;gap:16px;align-items:start}.collection{display:block}.cover svg{height:194px;width:100%}.cover figcaption{padding:12px 14px}.cover figcaption strong{font-size:22px;margin-top:7px}.cover figcaption p{font-size:9px;margin-top:7px}.note-index{margin-top:12px}.note-index button{min-height:54px;font-size:11px;padding:9px 3px}.note-index small{font-size:9px}.composer-backdrop{padding:13px}.note-card{padding:19px 16px 15px}.note-top{padding-bottom:12px;font-size:8px}.note-heading{padding-top:19px}.note-heading h2{font-size:35px}.note-heading>p:first-child{margin-bottom:9px}.note-heading>p:last-child{font-size:11px;line-height:1.7;margin-top:12px}.editor-label{margin-top:18px;font-size:9px}.editor-label textarea{min-height:177px;height:177px;font-size:16px;line-height:1.6;padding:12px}.note-actions{display:flex;gap:4px;padding-top:11px}.note-actions button{font-size:10px;padding:7px 8px}.note-actions button:last-child{display:block;padding-left:0;margin-top:0}.note-status{font-size:9px;margin-top:8px;min-height:30px}.motion-receipt{font-size:8px;margin-top:11px;padding-top:9px;gap:3px}.scope-studies{grid-column:auto;grid-template-columns:1fr;gap:14px}.nested-scope{padding:12px}.scope-label{font-size:7px;margin-bottom:9px}.nested-card{padding:15px 12px}.nested-card h2{font-size:26px;margin:10px 0}.nested-card>p{font-size:10px;line-height:1.7}.nested-controls{grid-template-columns:1fr 1fr;gap:9px;margin-top:13px}.nested-controls label{font-size:8px}.nested-controls select{font-size:16px;padding:8px 5px;margin-top:5px}.nested-card .nested-result{font-size:7px;line-height:1.7;padding-top:10px;margin-top:12px}.local-card{padding:16px 18px}.local-card h2{font-size:26px;margin:11px 0 9px}.local-card>p{font-size:10px;line-height:1.7}.local-card>span{font-size:7px}.local-swatches{margin:12px 0 10px}.local-card .local-evidence{font-size:8px}.system-section{display:none}.preference-footer{padding:17px 0 18px;margin-top:18px}.footer-heading,.footer-links,.persistence-tools,.footer-notes,.footer-bottom,.storage-status,.preference-status{display:none}.preference-controls{gap:16px}.preference-controls label{font-size:9px}.preference-controls select{font-size:16px;margin-top:6px;min-height:44px;padding:9px 10px}.effective-policy{margin-top:12px;font-size:10px;gap:12px}.effective-policy>span{font-size:8px}\nheader{min-height:52px}.intro{padding:15px 0 18px}.intro h1{font-size:50px;line-height:.94}.intro .eyebrow{margin-bottom:8px}.preference-footer{margin-top:12px;padding-top:12px}.editor-label textarea{min-height:157px;height:157px}.note-heading h2{font-size:31px;min-height:66px}.note-heading>p:last-child{min-height:38px}.cover figcaption p{margin-top:5px}.note-index button{min-height:52px}\nheader{min-height:48px}.intro{padding:10px 0}.intro h1{font-size:46px}.preference-controls{gap:16px}",
+    "changedSourceFiles": false,
+    "hiddenForCamera": [
+      "Long system-query explanatory section",
+      "Footer title/links",
+      "Storage/reset/tour actions",
+      "Extended footer explanations"
+    ],
+    "preserved": [
+      "Actual authored native controls",
+      "All three original session notes",
+      "Actual scope/policy state",
+      "Native16px textarea/selects and \u226544px controls",
+      "Actual palette and shader-free material",
+      "Actual finite host motion adapter"
+    ],
+    "policyReceiptBottom": 872.546875,
+    "captionTop": 882
+  },
+  "benchmarkSummary": {
+    "minifiedStandaloneJsGzipBytes": 2335,
+    "optionalCssGzipBytes": 847,
+    "medianBatchMs": 19.299999952316284,
+    "sequences": 3200,
+    "customRaf": 0,
+    "jsRectReads": 0,
+    "idle250msRaf": 0,
+    "scope": "Synchronous connected-scope controller work with real MQL listeners. Excludes demo motion adapter, CSS layout/paint, GPU rendering, storage-network cost and any before/after speedup claim."
+  },
+  "boundaries": [
+    "Desktop Chromium CSS viewport validation only, not physical iPhone/Android/Safari",
+    "Color scheme change tested using native T3 media-query emulation; live OS reduction/contrast/forced-color changes untested",
+    "Supplied Map storage port success/denial is distinct from about:blank browser storage read denial and not a cross-tab test",
+    "No source version/public URL/X post is claimed by this preparation artifact"
+  ]
+}
