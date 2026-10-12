@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.21.0-preview.1
+
+- Add pure integration-brief authoring for six stacks and seven original widget recipes, with exact imports, host boundaries, states and validation.
+- Keep plain task context quoted/escaped, selections canonical and generated artifacts independent of network access or agent execution.
+- Add original Integration Desk, actual Markdown export/fallback and60 native viewport/view/preset checks. No runtime dependency, default CSS or root import change.
+
 ## 0.20.0-preview.1
 
 - Add optional pure intrinsic composition props and scoped CSS for split/stack/cluster/grid, asymmetric growth, spacing rhythm and bounded reading measure.

@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 658266,
+  "sha256": "3cfd4f4c1eb0d82d4bfc5424f7cfbed105c20d3bf8a16a66bb9ccd416432e0b4",
+  "music": {
+    "style": "funk",
+    "bpm": 104,
+    "seed": 21,
+    "patch": "brass",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Actual T3 source-preview generated plan/import/check/Markdown views; export FPS is not app FPS"
+}

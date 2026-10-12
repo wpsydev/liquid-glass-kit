@@ -1,0 +1,99 @@
+{
+  "observedAtUtc": "2026-10-11T23:56:43.132Z",
+  "runtime": "v24.21.0",
+  "cpu": "AMD Ryzen 5 6600H with Radeon Graphics",
+  "operation": "Generate brief Markdown and serialize exact imports",
+  "warmupPerCase": 100,
+  "roundsPerCase": 25,
+  "operationsPerRound": 500,
+  "results": [
+    {
+      "config": {
+        "task": "Build a focused reading workspace",
+        "stack": "html"
+      },
+      "msPerOperation": [
+        0.019046306000000016,
+        0.011276522,
+        0.011345354000000044,
+        0.009998694,
+        0.009878181999999982,
+        0.009876100000000007,
+        0.00994178400000004,
+        0.010035324000000003,
+        0.009823197999999991,
+        0.009826886000000002,
+        0.009789472000000046,
+        0.009786047999999938,
+        0.009819830000000024,
+        0.009841212000000042,
+        0.010364174000000049,
+        0.009786608,
+        0.009755028000000039,
+        0.00970902000000001,
+        0.009986089999999991,
+        0.009930964000000018,
+        0.010005967999999938,
+        0.01416701999999998,
+        0.011181339999999977,
+        0.010000415999999972,
+        0.009961082000000033
+      ],
+      "medianMs": 0.00994178400000004,
+      "p95BatchMeanMs": 0.01416701999999998
+    },
+    {
+      "config": {
+        "task": "Build a host-owned creative workspace with semantic native controls",
+        "stack": "nextjs",
+        "widgets": [
+          "surface",
+          "dock",
+          "overlay",
+          "scroll-reveal",
+          "activity-island",
+          "command-palette",
+          "composition"
+        ],
+        "motion": "subtle",
+        "optics": "experimental-scene"
+      },
+      "msPerOperation": [
+        0.048084594000000036,
+        0.04194335000000001,
+        0.041490402000000016,
+        0.04252458200000001,
+        0.050488939999999954,
+        0.04132354199999998,
+        0.041552360000000024,
+        0.041209081999999855,
+        0.041199303999999985,
+        0.041585104,
+        0.041550656000000116,
+        0.044369658000000076,
+        0.04426754200000005,
+        0.04127270399999998,
+        0.041052864,
+        0.04096363199999996,
+        0.04123002199999996,
+        0.04134580600000004,
+        0.04124709600000005,
+        0.04121986199999992,
+        0.04126761600000009,
+        0.041892111999999995,
+        0.041433412000000086,
+        0.045698943999999984,
+        0.043035102000000054
+      ],
+      "medianMs": 0.041490402000000016,
+      "p95BatchMeanMs": 0.048084594000000036
+    }
+  ],
+  "checksum": 187765200,
+  "payload": {
+    "rawBytes": 15666,
+    "gzipBytes": 6275,
+    "sourceSha256": "3796a88511e280aca79321121bb53d2c12f0cfc0a8511e07661b3c83ad8855e5"
+  },
+  "scope": "Node generation only, not agent implementation, indexing/discovery, renderer/FPS/network or comparative speedup. p95 is normalized batch mean; author briefs before client load."
+}

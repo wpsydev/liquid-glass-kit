@@ -134,3 +134,7 @@ Optional `/command-palette` and `/command-palette.css` provide a native modal co
 ## Intrinsic composition
 
 Optional `/composition` and `/composition.css` add split/stack/cluster/grid layouts, bounded reading measure and container-relative headings. Pure props can be generated before client load; source order and host fonts remain yours. [API](docs/COMPOSITION.md) · [Space / Form](https://wpsydev.github.io/liquid-glass-kit/composition/).
+
+## Integration brief
+
+Optional `/integration-brief` generates a local Markdown handoff with exact imports, stack lifecycle, host responsibilities and required checks. Seven original recipes support HTML, React, Vue, Svelte, Next.js and Astro. [API](docs/INTEGRATION_BRIEF.md) · [Integration Desk](https://wpsydev.github.io/liquid-glass-kit/brief/).

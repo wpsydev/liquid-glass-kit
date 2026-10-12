@@ -1,13 +1,13 @@
-Give content room to breathe. **0.20.0-preview.1** adds optional intrinsic composition: split/stack/cluster/grid, asymmetric growth, spacing rhythm, bounded reading measure and container-relative headings.
+A precise handoff helps an agent build a useful interface. **0.21.0-preview.1** adds optional `/integration-brief`: original local recipes produce Markdown with exact imports, stack lifecycle, host responsibilities, required states and browser checks.
 
-Pure props and scoped CSS preserve your fonts, source order and semantic elements. Generate props before client load to avoid helper client JavaScript. There is no resize observer or animation controller; normal CSS layout/paint still costs browser work.
+Six stacks: HTML, React, Vue, Svelte, Next.js and Astro. Seven canonical recipes: semantic surface, dock, overlay, scroll reveal, activity island, command palette and composition. Portable CSS and no optional motion are defaults. Task context is bounded, quoted and escaped; invalid inputs throw and duplicate selections become one canonical plan.
 
-[Space / Form](https://wpsydev.github.io/liquid-glass-kit/composition/) is an original architecture-journal study with real arrangement/ratio/density/measure controls, logical RTL flow, requested240/480/960px nested containers and local bookmark behavior. Thirty native Chromium viewport/arrangement cases fit320–1440px; enlarged root fonts were checked separately. These are desktop CSS viewports, not physical-phone or assistive-technology certification.
+[Integration Desk](https://wpsydev.github.io/liquid-glass-kit/brief/) shows three actual tasks with native controls and selectable Steps/Imports/Checks/Markdown. Copy reports actual success or a selectable-text fallback; Download requests an actual matching Markdown Blob. Sixty desktop Chromium preset/view/viewport cases fit320–1440px with44px controls and16px fields. Native source-preview export/invalid-context recovery checks are separate from unit tests and physical-device support.
 
-Standalone optional JS measures465bytes gzip; separate CSS954bytes gzip. Reproducible Node props generation+serialization and separate browser geometry evidence are attached in the repository. No comparative speedup, paint cost or FPS claim follows from those numbers. Root imports/material CSS remain unchanged.
+Standalone optional authoring payload:6,275bytes gzip. Reproducible Node benchmarks record default and all-seven-pattern generation/serialization; no renderer, agent-execution, indexing or comparative performance claim. Generate briefs before clientload to avoid authoring utility JavaScript on the client. Root/materialCSS unchanged, no runtime dependency.
 
-[API and host responsibilities](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/COMPOSITION.md) · [Research and rights](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/04-minimal-gallery.md) · [Measurements](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/composition.json)
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/INTEGRATION_BRIEF.md) · [Performance scope](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/integration-brief.json) · [Reference and rights](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/05-kage.md)
 
-Original12-second film with original124BPM marimba score. Minimal Gallery informed the composition direction; no featured source/artwork/screenshots/fonts or music were copied.
+Kage's explicit use-case/format handoff informed this independently authored pattern; no recipe/catalog source was copied. Original12-second film and104BPM funk score attached.
 
-Use the ready-built archive attached here, or `npm i github:wpsydev/liquid-glass-kit#v0.20.0-preview.1`. npm registry publication remains pending.
+Use the ready-built archive attached here, or `npm i github:wpsydev/liquid-glass-kit#v0.21.0-preview.1`. npm registry publication remains pending.

@@ -32,6 +32,7 @@ export default defineConfig({
         designContract: resolve('site/design-contract/index.html'),
         commands: resolve('site/commands/index.html'),
         composition: resolve('site/composition/index.html'),
+        brief: resolve('site/brief/index.html'),
       },
     },
   },

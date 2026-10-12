@@ -1,0 +1,7599 @@
+{
+  "browser": "T3 native desktop Chromium CSS viewports",
+  "matrix": [
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 50.0078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 60.125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 58.6953125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 74.078125
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 98.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 95.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        320,
+        700
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 299
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 144.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 299
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 56.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 65.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 82.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 103.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 100.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        390,
+        844
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        768,
+        1024
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 253
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 121.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 253
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        844,
+        390
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "reader",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/overlay",
+        "@wpsydev/liquid-glass/activity-island",
+        "@wpsydev/liquid-glass/activity-island.css",
+        "@wpsydev/liquid-glass/command-palette",
+        "@wpsydev/liquid-glass/command-palette.css"
+      ],
+      "overflow": false,
+      "preset": "workspace",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "overlay",
+        "activity-island",
+        "command-palette"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "plan",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "imports",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "checks",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    },
+    {
+      "controls": [
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "intent",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 160,
+          "id": "task",
+          "width": 285
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "stack",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "motion",
+          "width": 137.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "optics",
+          "width": 285
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 44
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 58.3828125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 69.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 67.7890625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "",
+          "width": 84.4296875
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "copy",
+          "width": 105.1484375
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "download",
+          "width": 102.4765625
+        }
+      ],
+      "imports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/dock",
+        "@wpsydev/liquid-glass/dock.css",
+        "@wpsydev/liquid-glass/scroll-reveal",
+        "@wpsydev/liquid-glass/composition",
+        "@wpsydev/liquid-glass/composition.css"
+      ],
+      "overflow": false,
+      "preset": "launch",
+      "valid": true,
+      "view": "markdown",
+      "viewport": [
+        1440,
+        900
+      ],
+      "widgets": [
+        "surface",
+        "dock",
+        "scroll-reveal",
+        "composition"
+      ]
+    }
+  ],
+  "scope": "Source preview, not physical-device/AT or renderer speed",
+  "export": {
+    "mime": "text/markdown;charset=utf-8",
+    "characters": 7294,
+    "matches": true,
+    "operation": "Blob request, not disk completion"
+  },
+  "invalidInput": {
+    "ariaInvalid": true,
+    "associatedError": true,
+    "exportsDisabled": true,
+    "clearsStaleStatus": true
+  },
+  "clipboard": "Native absent in source preview; selectable Markdown fallback verified"
+}

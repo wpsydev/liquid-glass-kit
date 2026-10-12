@@ -7,3 +7,5 @@ The native T3 source-preview recording searches for Sound notes, applies Dusk th
 Hashes/payload are in COMMAND_PALETTE_MEDIA.json. Release asset and native X playback receipts are recorded after publishing.
 
 Published v0.19 assets match722,866-byte film and its recorded digest. Main X post: https://x.com/wpsygames/status/2109430921627664774; native actual video duration12seconds/readyState4. Hosted Cutroom loaded its real chunks, native modal and theme callback worked, and Dusk surface/ink matched the corrected styles. Keyboard detail reply: https://x.com/wpsygames/status/2109431846811381835
+
+Performance scope reply https://x.com/wpsygames/status/2109432535348400333 verified in the main conversation

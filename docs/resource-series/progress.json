@@ -47,12 +47,12 @@
     {
       "order": 4,
       "url": "https://minimal.gallery",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Composition",
       "version": "0.20.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/composition/",
       "video": "docs/campaign/assets/composition-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109433036299182491",
       "performance": [
         "benchmarks/composition.json",
         "benchmarks/composition-browser.json"
@@ -61,13 +61,16 @@
     {
       "order": 5,
       "url": "https://kage.design",
-      "status": "implemented-awaiting-validation",
+      "status": "validated-awaiting-publication",
       "feature": "Integration brief",
-      "version": null,
+      "version": "0.21.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/integration-brief-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/integration-brief.json",
+        "benchmarks/integration-brief-browser.json"
+      ]
     },
     {
       "order": 6,

@@ -1,14 +1,14 @@
 {
-  "version": "0.20.0-preview.1",
+  "version": "0.21.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/composition-showcase.mp4",
-      "name": "liquid-glass-space-form.mp4",
+      "path": "docs/campaign/assets/integration-brief-showcase.mp4",
+      "name": "liquid-glass-integration-desk.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/composition-showcase.png",
-      "name": "liquid-glass-space-form.png",
+      "path": "docs/campaign/assets/integration-brief-showcase.png",
+      "name": "liquid-glass-integration-desk.png",
       "type": "image/png"
     }
   ]
