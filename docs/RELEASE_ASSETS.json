@@ -1,14 +1,14 @@
 {
-  "version": "0.54.0-preview.1",
+  "version": "0.55.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/agent-studio-showcase.mp4",
-      "name": "liquid-glass-agent-studio-showcase.mp4",
+      "path": "docs/campaign/assets/material-review-showcase.mp4",
+      "name": "liquid-glass-material-review-showcase.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/agent-studio-showcase.png",
-      "name": "liquid-glass-agent-studio-showcase.png",
+      "path": "docs/campaign/assets/material-review-showcase.png",
+      "name": "liquid-glass-material-review-showcase.png",
       "type": "image/png"
     }
   ]

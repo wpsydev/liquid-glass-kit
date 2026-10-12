@@ -620,3 +620,11 @@ Integrated npm run check passed1,208tests/56files includingactualdistributedCLI 
 Original626421-byte12s960square360-frame122BPM kalimba/wood afro71 film SHAd6fe7c90a7f9370d13e545c947050dda27afb5a9cb238faf99f22f15c71e3ef4; recapturedexplicitcatalog0.54/native10.39+1.61hold/281uniqueframes/full decode/threeframespass; no clientinstallation/AIexecution shown.
 
 Integrated npm run check passed1,241tests/57files incldistributedCLI. npm pack --dry-run passed224members/521302bytes/SSR/publicexports. Final0.54catalog rebuiltfromactual4declaredNodevalue/CSSexports, source hashes matchacceptedcore, modelbenchmarkfresh31500raw11032gzip withpure100-call medians3.586/6.007/6.046ms(cursor/both/conflict), noDOM/rendering/clientloadingcost. Published-scope CI followsrelease.
+
+## 0.55.0 material review (2026-10-12)
+
+57focused modeltests/SSRimport; native75desktopcases15states×5sizes44pxcontrols/16pxfields/noflow. Actualtyping/caret/Range/nativeBefore→PreparekeepspendingAfter/actualApplychangeshostblur18→33; prepare+applyconflicts retainintent/hoststate; consumedrequestsealed; quiet/solidpseudoCSSblur18→8 ornone. Localrevision notauthoritativeservertransaction; phones/Safari/ATunverified. Pure3917raw1756gzip, CSSseparate2033gzip. Originalpure20kcyclesmedian129.44ms/4000; connected400cycles15.6/80includesCSSDOMJSON, forcedlayout8.6/30separate;250idle0RAF/writes, noGPU/FPS/speedupclaim.
+
+Original650468-byte12s960square360-frame160BPM jungleairybellshanddrumssoftbassseed89 SHA25680d278864df1b11241eea45616009562690731596cb6e2a05ef53060c9d11862; finite10.5tour/1actualApply/1conflict/quietidle/full decode/fourframes/cameraCSSdisclosed.
+
+Integrated npm run check passed1,298tests/58files incldistributedCLI. npm pack --dry-run passed227members/527934bytes/SSR/publicexports. Published-scope CI followsrelease.

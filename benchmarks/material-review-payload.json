@@ -1,0 +1,25 @@
+{
+  "observedAtUtc": "2026-10-12T06:04:39.728Z",
+  "target": "es2022",
+  "format": "standalone minified IIFE",
+  "jsRawBytes": 3917,
+  "jsGzipBytes": 1756,
+  "materialCssRawBytes": 6916,
+  "materialCssGzipBytes": 2033,
+  "sourceSha256": "e990b3bfbbe49a14b8a568e52e4e8a3f9806a7f0b4d0c029c67968a622e1ffa4",
+  "pure": {
+    "batches": [
+      129.442227,
+      127.333369,
+      119.15437699999995,
+      140.12718899999993,
+      130.78641100000004
+    ],
+    "cyclesPerBatch": 4000,
+    "totalCycles": 20000,
+    "operationsPerCycle": "create + 2 patches + undo + redo + before preview + prepare",
+    "medianBatchMs": 129.442227,
+    "environment": "Node V8 vm plain data; no DOM/CSS/layout/GPU/network/storage"
+  },
+  "scope": "Optional pure staging model + canonical material resolver/numeric helper; payload not root-import size. CSS separately reported; DOM application and paint excluded from pure timing. No speedup comparison."
+}

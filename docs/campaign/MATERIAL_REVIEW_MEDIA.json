@@ -1,0 +1,98 @@
+{
+  "study": "Proof / material review",
+  "feature": "Pure local material staging with explicit host apply",
+  "video": {
+    "path": "docs/campaign/assets/material-review-showcase.mp4",
+    "bytes": 650468,
+    "sha256": "80d278864df1b11241eea45616009562690731596cb6e2a05ef53060c9d11862",
+    "durationSeconds": 12,
+    "width": 960,
+    "height": 960,
+    "fps": 30,
+    "codec": "H264 High yuv420p",
+    "audio": "AAC stereo 48000Hz",
+    "decodedFrames": 360,
+    "decodedAudio": true,
+    "visuallyReviewedSeconds": [
+      1.1,
+      3.9,
+      6.8,
+      9.7
+    ]
+  },
+  "poster": {
+    "path": "docs/campaign/assets/material-review-showcase.png",
+    "bytes": 291768,
+    "sha256": "3934f1ac02ba8b161e17efa028fa774018e9d41bb90aac7c583ceef299925937"
+  },
+  "score": {
+    "style": "jungle",
+    "bpm": 160,
+    "seed": 89,
+    "patch": "airy inharmonic bells, hand drums and soft bass",
+    "source": "scripts/render-material-review-score.py",
+    "durationSeconds": 12,
+    "provenance": "Original MIT procedural synthesis, fresh melody/rhythm, no samples or third-party recordings"
+  },
+  "captions": [
+    "edit, compare, undo and redo",
+    "prepare review data before applying",
+    "explicit local apply; conflicts preserve drafts"
+  ],
+  "rawRecording": {
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-cb63833e-9086-4274-b53b-50776b4c42d7-mp4.mp4",
+    "sizeBytes": 395038,
+    "tabId": "tab_4m",
+    "createdAt": "2026-10-12T06:10:35.700Z"
+  },
+  "native": {
+    "caseCount": 75,
+    "sizes": [
+      [
+        320,
+        700
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "targetMinPx": 44,
+    "fieldFontPx": 16,
+    "evidence": [
+      "benchmarks/material-review-native.json",
+      "benchmarks/material-review-actions.json",
+      "benchmarks/material-review-host.json",
+      "benchmarks/material-review-payload.json"
+    ]
+  },
+  "checks": {
+    "full": "607 tests / 34 files in isolated worktree; npm run check passed",
+    "feature": "57 core material draft tests",
+    "strictDemoTS": true
+  },
+  "corePreservation": {
+    "patchSha256": "34a17b470beeaa9ea6a813022ab684b36725a09587c9234b3fdff8f38478acc5",
+    "sourceSha256": "e990b3bfbbe49a14b8a568e52e4e8a3f9806a7f0b4d0c029c67968a622e1ffa4"
+  },
+  "limits": [
+    "Host revision and apply are synchronous local fixture actions, not server transactions, persistence, a model call or source writes",
+    "Prepare freezes review data; only explicit host action applies CSS",
+    "History/before/cancel do not roll back already applied host actions",
+    "No pixel-identical Apple, physical-device/AT, GPU time/FPS, speedup or cold-load claims",
+    "Finite10.5s host tour, static default with no idle animation; last frame padded to12 seconds",
+    "Camera-only density hides corner/note/conflict controls, review JSON and footer in the video, leaving visible native controls/status; shipped demo includes all of them"
+  ]
+}

@@ -1,0 +1,15 @@
+/** Native connected Proof host costs. All demo render/CSS writes included; paint excluded. */
+(async()=>{
+ const d=window.__materialReviewDemo;if(!d)throw Error('Load Proof first');d.reset();
+ const originals={raf:window.requestAnimationFrame,rect:Element.prototype.getBoundingClientRect,style:window.getComputedStyle,set:CSSStyleDeclaration.prototype.setProperty,attr:Element.prototype.setAttribute};
+ const counts={raf:0,rect:0,computedStyle:0,styleWrites:0,attributeWrites:0};
+ window.requestAnimationFrame=function(fn){counts.raf++;return originals.raf.call(this,fn);};Element.prototype.getBoundingClientRect=function(){counts.rect++;return originals.rect.call(this);};window.getComputedStyle=function(...args){counts.computedStyle++;return originals.style.apply(this,args);};CSSStyleDeclaration.prototype.setProperty=function(...args){counts.styleWrites++;return originals.set.apply(this,args);};Element.prototype.setAttribute=function(...args){counts.attributeWrites++;return originals.attr.apply(this,args);};
+ try{
+  const beforeIdle={...counts};await new Promise(r=>setTimeout(r,250));const idle=Object.fromEntries(Object.keys(counts).map(k=>[k,counts[k]-beforeIdle[k]]));
+  const batches=[];const before={...counts};for(let b=0;b<5;b++){const start=performance.now();for(let i=0;i<80;i++){d.reset();d.preset(i%2?'cobalt':'copper');document.getElementById('prepare').click();document.getElementById('apply').click();}batches.push(performance.now()-start);}
+  const work=Object.fromEntries(Object.keys(counts).map(k=>[k,counts[k]-before[k]]));
+  const forced=[];for(let b=0;b<5;b++){const start=performance.now();for(let i=0;i<30;i++){d.reset();d.preset(i%2?'cobalt':'copper');document.getElementById('preview-material').getBoundingClientRect();getComputedStyle(document.getElementById('preview-material')).backdropFilter;}forced.push(performance.now()-start);}
+  d.reset();const after={...counts};await new Promise(r=>setTimeout(r,250));const settledIdle=Object.fromEntries(Object.keys(counts).map(k=>[k,counts[k]-after[k]]));
+  return {observedAtUtc:new Date().toISOString(),idle250ms:idle,host:{batches,cyclesPerBatch:80,totalCycles:400,medianBatchMs:[...batches].sort((a,b)=>a-b)[2],operations:'reset + edit preset + prepare + explicit local apply, all demo render/JSON/fields/native CSS writes included',counts:work},forcedLayout:{batches:forced,cyclesPerBatch:30,totalCycles:150,medianBatchMs:[...forced].sort((a,b)=>a-b)[2],operations:'reset + preset + native rect + computed backdropFilter read; may force style/layout'},settledIdle250ms:settledIdle,scope:'One desktop Chromium connected host. Instrumented CSS/attribute calls counted; no paint/GPU timing/FPS/comparative speedup, cold-load or physical-device proof. Pure model measured separately.'};
+ }finally{window.requestAnimationFrame=originals.raf;Element.prototype.getBoundingClientRect=originals.rect;window.getComputedStyle=originals.style;CSSStyleDeclaration.prototype.setProperty=originals.set;Element.prototype.setAttribute=originals.attr;}
+})()

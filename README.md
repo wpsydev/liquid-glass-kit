@@ -2,7 +2,7 @@
 
 **CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.54.0 agent integration plans preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.55.0 material review preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
 ![Material workbench](docs/assets/studio.webp)
 
@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.54.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.55.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -216,3 +216,5 @@ Optional `/icon-toolbar` adds one remembered keyboard entry to explicit native a
 The optional `liquid-glass lint` command shares the workbench’s CSS checker, with bounded file/stdin diagnostics and an explicit-root advisory Claude hook. Material imports remain parser-free. [Guide](docs/CLI.md) · [Lint Room](https://wpsydev.github.io/liquid-glass-kit/lint-room/).
 
 Optional `/agent-pack` prepares create-only Cursor rules or portable skills using a caller-checked exact export catalog. Review selected imports, references and existing-file conflicts before creating files. [Guide](docs/AGENT_PACK.md) · [Dispatch](https://wpsydev.github.io/liquid-glass-kit/agent-studio/).
+
+Optional `/material-draft` stages material edits with bounded history, before/after and immutable review requests. Your app explicitly applies the reviewed result and guards its authoritative revision. [Guide](docs/MATERIAL_DRAFT.md) · [Proof](https://wpsydev.github.io/liquid-glass-kit/material-review/).

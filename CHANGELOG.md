@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.55.0-preview.1
+
+- Add pure material staging with bounded history, before/after intent and immutable prepared requests.
+- Separate review from explicit host apply; retain conflicts without claiming server transactions or automatic rollback.
+- Add Proof with real CSS previews, native editing, local prepare/apply conflicts, scoped benchmarks and original twelve-second jungle/bell film.
+
 ## 0.54.0-preview.1
 
 - Add pure selected-API guidance plans for Cursor project rules and portable agent skills using exact caller-checked catalogs.

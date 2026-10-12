@@ -1,0 +1,51 @@
+{
+  "forcedLayout": {
+    "batches": [
+      14.299999952316284,
+      6.5,
+      6.300000071525574,
+      9.199999928474426,
+      8.600000023841858
+    ],
+    "cyclesPerBatch": 30,
+    "medianBatchMs": 8.600000023841858,
+    "operations": "reset + preset + native rect + computed backdropFilter read; may force style/layout",
+    "totalCycles": 150
+  },
+  "host": {
+    "batches": [
+      26.90000009536743,
+      31.59999990463257,
+      15.600000023841858,
+      13.300000071525574,
+      13.299999952316284
+    ],
+    "counts": {
+      "attributeWrites": 22400,
+      "computedStyle": 0,
+      "raf": 0,
+      "rect": 0,
+      "styleWrites": 19200
+    },
+    "cyclesPerBatch": 80,
+    "medianBatchMs": 15.600000023841858,
+    "operations": "reset + edit preset + prepare + explicit local apply, all demo render/JSON/fields/native CSS writes included",
+    "totalCycles": 400
+  },
+  "idle250ms": {
+    "attributeWrites": 0,
+    "computedStyle": 0,
+    "raf": 0,
+    "rect": 0,
+    "styleWrites": 0
+  },
+  "observedAtUtc": "2026-10-12T06:08:09.884Z",
+  "scope": "One desktop Chromium connected host. Instrumented CSS/attribute calls counted; no paint/GPU timing/FPS/comparative speedup, cold-load or physical-device proof. Pure model measured separately.",
+  "settledIdle250ms": {
+    "attributeWrites": 0,
+    "computedStyle": 0,
+    "raf": 0,
+    "rect": 0,
+    "styleWrites": 0
+  }
+}

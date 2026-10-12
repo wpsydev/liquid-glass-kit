@@ -561,12 +561,12 @@
     {
       "order": 38,
       "url": "https://cursor.com",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Exact selected API guidance plans for Cursor and portable agent skills",
       "version": "0.54.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/agent-studio/",
       "video": "docs/campaign/assets/agent-studio-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109546431321124965",
       "performance": [
         "benchmarks/agent-studio-catalog.json",
         "benchmarks/agent-studio-model.json",
@@ -577,13 +577,17 @@
     {
       "order": 39,
       "url": "https://v0.dev",
-      "status": "queued",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Pure staged material intent with before/after and explicit host apply",
+      "version": "0.55.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/material-review-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/material-review-payload.json",
+        "benchmarks/material-review-host.json",
+        "benchmarks/material-review-native.json"
+      ]
     },
     {
       "order": 40,
