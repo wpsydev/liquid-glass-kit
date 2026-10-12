@@ -1,0 +1,1765 @@
+{
+  "observedAtUtc": "2026-10-12T01:20:40Z",
+  "initial": {
+    "active": {
+      "currentSrc": "blob:null/120509f6-e22c-490a-9d58-3bb911cd2e66",
+      "filename": "120509f6-e22c-490a-9d58-3bb911cd2e66",
+      "hints": {
+        "decoding": "auto",
+        "fetchPriority": "high",
+        "loading": "eager"
+      },
+      "natural": {
+        "height": 565,
+        "width": 848
+      },
+      "rendered": {
+        "height": 555,
+        "width": 833
+      },
+      "resource": null,
+      "status": "loaded",
+      "supplied": {
+        "bytes": 13682,
+        "height": 960,
+        "width": 1440
+      }
+    },
+    "direction": "hero",
+    "editorial": [
+      {
+        "hints": {
+          "decoding": "async",
+          "fetchPriority": "low",
+          "loading": "lazy"
+        },
+        "id": "paper",
+        "source": {
+          "bytes": 12782,
+          "height": 640,
+          "width": 960
+        },
+        "status": "loaded"
+      },
+      {
+        "hints": {
+          "decoding": "async",
+          "fetchPriority": "low",
+          "loading": "lazy"
+        },
+        "id": "orbit",
+        "source": {
+          "bytes": 8130,
+          "height": 640,
+          "width": 960
+        },
+        "status": "loaded"
+      },
+      {
+        "hints": {
+          "decoding": "async",
+          "fetchPriority": "low",
+          "loading": "lazy"
+        },
+        "id": "form",
+        "source": {
+          "bytes": 7316,
+          "height": 640,
+          "width": 960
+        },
+        "status": "loaded"
+      }
+    ],
+    "overflow": false
+  },
+  "cases": [
+    {
+      "active": {
+        "currentSrc": "blob:null/120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "filename": "120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "high",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 186,
+          "width": 280
+        },
+        "rendered": {
+          "height": 177,
+          "width": 265
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 13682,
+          "height": 960,
+          "width": 1440
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "hero",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/734663a2-b731-468f-ac39-3263ebf6e262",
+        "filename": "734663a2-b731-468f-ac39-3263ebf6e262",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "auto",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 350,
+          "width": 280
+        },
+        "rendered": {
+          "height": 331,
+          "width": 265
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 10986,
+          "height": 1200,
+          "width": 960
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "art",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/01182d36-3cfd-4fcf-a6bc-a42594b42574",
+        "filename": "01182d36-3cfd-4fcf-a6bc-a42594b42574",
+        "hints": {
+          "decoding": "async",
+          "fetchPriority": "low",
+          "loading": "lazy"
+        },
+        "natural": {
+          "height": 186,
+          "width": 280
+        },
+        "rendered": {
+          "height": 177,
+          "width": 265
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 12782,
+          "height": 640,
+          "width": 960
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "editorial",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "filename": "120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "high",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 233,
+          "width": 349
+        },
+        "rendered": {
+          "height": 223,
+          "width": 335
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 13682,
+          "height": 960,
+          "width": 1440
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "hero",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/734663a2-b731-468f-ac39-3263ebf6e262",
+        "filename": "734663a2-b731-468f-ac39-3263ebf6e262",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "auto",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 437,
+          "width": 349
+        },
+        "rendered": {
+          "height": 419,
+          "width": 335
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 10986,
+          "height": 1200,
+          "width": 960
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "art",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/01182d36-3cfd-4fcf-a6bc-a42594b42574",
+        "filename": "01182d36-3cfd-4fcf-a6bc-a42594b42574",
+        "hints": {
+          "decoding": "async",
+          "fetchPriority": "low",
+          "loading": "lazy"
+        },
+        "natural": {
+          "height": 233,
+          "width": 349
+        },
+        "rendered": {
+          "height": 223,
+          "width": 335
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 12782,
+          "height": 640,
+          "width": 960
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "editorial",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182363,
+            "value": 0.0004127883470721682
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "filename": "120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "high",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 485,
+          "width": 728
+        },
+        "rendered": {
+          "height": 475,
+          "width": 713
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 13682,
+          "height": 960,
+          "width": 1440
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "hero",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182363,
+            "value": 0.0004127883470721682
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182535,
+            "value": 0.44448977450569316
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182628.69999992847,
+            "value": 0.030248946679699153
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "filename": "120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "auto",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 485,
+          "width": 728
+        },
+        "rendered": {
+          "height": 475,
+          "width": 713
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 13682,
+          "height": 960,
+          "width": 1440
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "art",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182363,
+            "value": 0.0004127883470721682
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182535,
+            "value": 0.44448977450569316
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182628.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182769.59999990463,
+            "value": 0.0001480098502094527
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/01182d36-3cfd-4fcf-a6bc-a42594b42574",
+        "filename": "01182d36-3cfd-4fcf-a6bc-a42594b42574",
+        "hints": {
+          "decoding": "async",
+          "fetchPriority": "low",
+          "loading": "lazy"
+        },
+        "natural": {
+          "height": 485,
+          "width": 728
+        },
+        "rendered": {
+          "height": 475,
+          "width": 713
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 12782,
+          "height": 640,
+          "width": 960
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "editorial",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182363,
+            "value": 0.0004127883470721682
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182535,
+            "value": 0.44448977450569316
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182628.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182769.59999990463,
+            "value": 0.0001480098502094527
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182933.69999992847,
+            "value": 0.030248946679699153
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "filename": "120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "high",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 536,
+          "width": 804
+        },
+        "rendered": {
+          "height": 526,
+          "width": 789
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 13682,
+          "height": 960,
+          "width": 1440
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "hero",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182363,
+            "value": 0.0004127883470721682
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182535,
+            "value": 0.44448977450569316
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182628.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182769.59999990463,
+            "value": 0.0001480098502094527
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182933.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183074.19999992847,
+            "value": 0.007969999252678836
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "filename": "120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "auto",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 536,
+          "width": 804
+        },
+        "rendered": {
+          "height": 526,
+          "width": 789
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 13682,
+          "height": 960,
+          "width": 1440
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "art",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182363,
+            "value": 0.0004127883470721682
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182535,
+            "value": 0.44448977450569316
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182628.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182769.59999990463,
+            "value": 0.0001480098502094527
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182933.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183074.19999992847,
+            "value": 0.007969999252678836
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/01182d36-3cfd-4fcf-a6bc-a42594b42574",
+        "filename": "01182d36-3cfd-4fcf-a6bc-a42594b42574",
+        "hints": {
+          "decoding": "async",
+          "fetchPriority": "low",
+          "loading": "lazy"
+        },
+        "natural": {
+          "height": 536,
+          "width": 804
+        },
+        "rendered": {
+          "height": 526,
+          "width": 789
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 12782,
+          "height": 640,
+          "width": 960
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "editorial",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182363,
+            "value": 0.0004127883470721682
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182535,
+            "value": 0.44448977450569316
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182628.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182769.59999990463,
+            "value": 0.0001480098502094527
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182933.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183074.19999992847,
+            "value": 0.007969999252678836
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "filename": "120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "high",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 672,
+          "width": 1008
+        },
+        "rendered": {
+          "height": 662,
+          "width": 993
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 13682,
+          "height": 960,
+          "width": 1440
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "hero",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182363,
+            "value": 0.0004127883470721682
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182535,
+            "value": 0.44448977450569316
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182628.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182769.59999990463,
+            "value": 0.0001480098502094527
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182933.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183074.19999992847,
+            "value": 0.007969999252678836
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183628.79999995232,
+            "value": 0.9524715951916829
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183629,
+            "value": 0.0000023195983379501385
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183744.89999997616,
+            "value": 0.00026677521716083583
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "filename": "120509f6-e22c-490a-9d58-3bb911cd2e66",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "auto",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 672,
+          "width": 1008
+        },
+        "rendered": {
+          "height": 662,
+          "width": 993
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 13682,
+          "height": 960,
+          "width": 1440
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "art",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182363,
+            "value": 0.0004127883470721682
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182535,
+            "value": 0.44448977450569316
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182628.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182769.59999990463,
+            "value": 0.0001480098502094527
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182933.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183074.19999992847,
+            "value": 0.007969999252678836
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183628.79999995232,
+            "value": 0.9524715951916829
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183629,
+            "value": 0.0000023195983379501385
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183744.89999997616,
+            "value": 0.00026677521716083583
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183888.09999990463,
+            "value": 0.00006394598337950139
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "active": {
+        "currentSrc": "blob:null/01182d36-3cfd-4fcf-a6bc-a42594b42574",
+        "filename": "01182d36-3cfd-4fcf-a6bc-a42594b42574",
+        "hints": {
+          "decoding": "async",
+          "fetchPriority": "low",
+          "loading": "lazy"
+        },
+        "natural": {
+          "height": 672,
+          "width": 1007
+        },
+        "rendered": {
+          "height": 662,
+          "width": 993
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 12782,
+          "height": 640,
+          "width": 960
+        }
+      },
+      "fields": [
+        16,
+        16
+      ],
+      "labels": [],
+      "minButtonHeight": 44,
+      "mode": "editorial",
+      "overflow": false,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182363,
+            "value": 0.0004127883470721682
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182535,
+            "value": 0.44448977450569316
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182628.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182769.59999990463,
+            "value": 0.0001480098502094527
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182933.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183074.19999992847,
+            "value": 0.007969999252678836
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183628.79999995232,
+            "value": 0.9524715951916829
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183629,
+            "value": 0.0000023195983379501385
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183744.89999997616,
+            "value": 0.00026677521716083583
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183888.09999990463,
+            "value": 0.00006394598337950139
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 184018.79999995232,
+            "value": 0.00011432634827810268
+          }
+        ],
+        "supported": true
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "freshNarrow": {
+    "dpr": 2,
+    "state": {
+      "active": {
+        "currentSrc": "blob:null/8b8b4090-47d3-476f-89ff-616a220a108b",
+        "filename": "8b8b4090-47d3-476f-89ff-616a220a108b",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "high",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 233,
+          "width": 349
+        },
+        "rendered": {
+          "height": 223,
+          "width": 335
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 7316,
+          "height": 640,
+          "width": 960
+        }
+      },
+      "crop": "native",
+      "direction": "hero",
+      "dpr": 2,
+      "editorial": [
+        {
+          "currentSrc": "",
+          "filename": "not selected",
+          "hints": {
+            "decoding": "async",
+            "fetchPriority": "low",
+            "loading": "lazy"
+          },
+          "id": "paper",
+          "natural": {
+            "height": 0,
+            "width": 0
+          },
+          "rendered": {
+            "height": 223,
+            "width": 335
+          },
+          "resource": null,
+          "status": "loading",
+          "supplied": null
+        },
+        {
+          "currentSrc": "",
+          "filename": "not selected",
+          "hints": {
+            "decoding": "async",
+            "fetchPriority": "low",
+            "loading": "lazy"
+          },
+          "id": "orbit",
+          "natural": {
+            "height": 0,
+            "width": 0
+          },
+          "rendered": {
+            "height": 223,
+            "width": 335
+          },
+          "resource": null,
+          "status": "loading",
+          "supplied": null
+        },
+        {
+          "currentSrc": "blob:null/8b8b4090-47d3-476f-89ff-616a220a108b",
+          "filename": "8b8b4090-47d3-476f-89ff-616a220a108b",
+          "hints": {
+            "decoding": "async",
+            "fetchPriority": "low",
+            "loading": "lazy"
+          },
+          "id": "form",
+          "natural": {
+            "height": 233,
+            "width": 349
+          },
+          "rendered": {
+            "height": 223,
+            "width": 335
+          },
+          "resource": null,
+          "status": "loading",
+          "supplied": {
+            "bytes": 7316,
+            "height": 640,
+            "width": 960
+          }
+        }
+      ],
+      "focal": 65,
+      "forcePortrait": false,
+      "priority": "critical",
+      "revision": 1,
+      "shifts": {
+        "observedSum": 0,
+        "records": [
+          {
+            "hadRecentInput": true,
+            "startTime": 181154,
+            "value": 0.937400468384075
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181419.5,
+            "value": 0.035467404807209765
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 181971.39999997616,
+            "value": 0.10330276384084663
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182067.29999995232,
+            "value": 0.0747056155147758
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182234,
+            "value": 0.042636558932512184
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182363,
+            "value": 0.0004127883470721682
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182535,
+            "value": 0.44448977450569316
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182628.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182769.59999990463,
+            "value": 0.0001480098502094527
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 182933.69999992847,
+            "value": 0.030248946679699153
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183074.19999992847,
+            "value": 0.007969999252678836
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183628.79999995232,
+            "value": 0.9524715951916829
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183629,
+            "value": 0.0000023195983379501385
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183744.89999997616,
+            "value": 0.00026677521716083583
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 183888.09999990463,
+            "value": 0.00006394598337950139
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 184018.79999995232,
+            "value": 0.00011432634827810268
+          },
+          {
+            "hadRecentInput": true,
+            "startTime": 249140.39999997616,
+            "value": 0.949127962085308
+          }
+        ],
+        "supported": true
+      },
+      "tourStep": null,
+      "viewport": 390
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "freshPortrait": {
+    "active": {
+      "currentSrc": "blob:null/44cc9002-67d9-4a75-99cd-f2301924cacd",
+      "filename": "44cc9002-67d9-4a75-99cd-f2301924cacd",
+      "hints": {
+        "decoding": "auto",
+        "fetchPriority": "auto",
+        "loading": "eager"
+      },
+      "natural": {
+        "height": 437,
+        "width": 349
+      },
+      "rendered": {
+        "height": 419,
+        "width": 335
+      },
+      "resource": null,
+      "status": "loaded",
+      "supplied": {
+        "bytes": 10986,
+        "height": 1200,
+        "width": 960
+      }
+    },
+    "crop": "native",
+    "direction": "art",
+    "dpr": 2,
+    "editorial": [
+      {
+        "currentSrc": "",
+        "filename": "not selected",
+        "hints": {
+          "decoding": "async",
+          "fetchPriority": "low",
+          "loading": "lazy"
+        },
+        "id": "paper",
+        "natural": {
+          "height": 0,
+          "width": 0
+        },
+        "rendered": {
+          "height": 223,
+          "width": 335
+        },
+        "resource": null,
+        "status": "loading",
+        "supplied": null
+      },
+      {
+        "currentSrc": "",
+        "filename": "not selected",
+        "hints": {
+          "decoding": "async",
+          "fetchPriority": "low",
+          "loading": "lazy"
+        },
+        "id": "orbit",
+        "natural": {
+          "height": 0,
+          "width": 0
+        },
+        "rendered": {
+          "height": 223,
+          "width": 335
+        },
+        "resource": null,
+        "status": "loading",
+        "supplied": null
+      },
+      {
+        "currentSrc": "blob:null/8b8b4090-47d3-476f-89ff-616a220a108b",
+        "filename": "8b8b4090-47d3-476f-89ff-616a220a108b",
+        "hints": {
+          "decoding": "async",
+          "fetchPriority": "low",
+          "loading": "lazy"
+        },
+        "id": "form",
+        "natural": {
+          "height": 233,
+          "width": 349
+        },
+        "rendered": {
+          "height": 223,
+          "width": 335
+        },
+        "resource": null,
+        "status": "loaded",
+        "supplied": {
+          "bytes": 7316,
+          "height": 640,
+          "width": 960
+        }
+      }
+    ],
+    "focal": 65,
+    "forcePortrait": false,
+    "priority": "normal",
+    "revision": 2,
+    "shifts": {
+      "observedSum": 0.042636558932512184,
+      "records": [
+        {
+          "hadRecentInput": true,
+          "startTime": 181154,
+          "value": 0.937400468384075
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 181419.5,
+          "value": 0.035467404807209765
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 181971.39999997616,
+          "value": 0.10330276384084663
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 182067.29999995232,
+          "value": 0.0747056155147758
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 182234,
+          "value": 0.042636558932512184
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 182363,
+          "value": 0.0004127883470721682
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 182535,
+          "value": 0.44448977450569316
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 182628.69999992847,
+          "value": 0.030248946679699153
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 182769.59999990463,
+          "value": 0.0001480098502094527
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 182933.69999992847,
+          "value": 0.030248946679699153
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 183074.19999992847,
+          "value": 0.007969999252678836
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 183628.79999995232,
+          "value": 0.9524715951916829
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 183629,
+          "value": 0.0000023195983379501385
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 183744.89999997616,
+          "value": 0.00026677521716083583
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 183888.09999990463,
+          "value": 0.00006394598337950139
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 184018.79999995232,
+          "value": 0.00011432634827810268
+        },
+        {
+          "hadRecentInput": true,
+          "startTime": 249140.39999997616,
+          "value": 0.949127962085308
+        },
+        {
+          "hadRecentInput": false,
+          "startTime": 250464.09999990463,
+          "value": 0.042636558932512184
+        }
+      ],
+      "supported": true
+    },
+    "tourStep": null,
+    "viewport": 390
+  },
+  "scope": "Native T3 desktop Chromium, original WebPs transferred as blob URLs replacing only asset references; no network bytes/timings. Responsive cases were warm, fresh390px asset URLs produced960 hero/portrait selections. Buffered shift records from first repeated-document exploratory fixture include earlier pages and are not used as CLS; final demo starts its observation boundary at performance.now(). No physical-device or load-speedup claim."
+}

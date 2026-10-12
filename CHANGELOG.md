@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.27.0-preview.1
+
+- Add pure SSR-safe responsive-image/picture props, explicit intrinsic dimensions/candidates/sizes/loading priorities, focal framing and opt-in display crops.
+- Preserve selected native picture ratio hints without default fallback-only CSS ratios; no request/decoder/CDN/runtime dependency.
+- Add Image Office with nine original WebPs, real separate phone composition, native source/hint evidence and a finite synthpop-scored tour. Reset/session boundaries do not claim cold-cache or field CLS.
+
 ## 0.26.0-preview.1
 
 - Add optional ambient-media coordinator: deliberate manual default, opted-in shared visibility/hover policies, pending/playing slot budget and stale-play guards.

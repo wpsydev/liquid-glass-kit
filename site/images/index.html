@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Original image studies: native responsive sources, intentional mobile crops, critical hero hints and below-fold editorial frames with real browser evidence.">
+  <title>Image Office · Liquid Glass Kit</title>
+  <link rel="icon" href="../mark.svg">
+  <script type="module" src="./main.ts"></script>
+</head>
+<body>
+  <div class="office">
+    <header class="masthead">
+      <a href="../" class="wordmark"><span aria-hidden="true">◒</span> liquid glass kit</a>
+      <span class="edition">IMAGE OFFICE / STUDY 11</span>
+      <a href="https://github.com/wpsydev/liquid-glass-kit">the source ↗</a>
+    </header>
+    <main>
+      <section class="intro">
+        <div><p class="eyebrow">A SMALL STUDIO FOR BETTER IMAGE DECISIONS</p><h1>Right image.<br><em>Right moment.</em></h1></div>
+        <div class="intro-note"><span class="stamp">ORIGINAL<br>STILL LIFE</span><p>Put the hero first.<br>Give the phone its own composition.<br>Keep room for what comes next.</p></div>
+      </section>
+      <nav class="directions" aria-label="Image study">
+        <button type="button" data-direction="hero" aria-pressed="true"><span>01</span> Critical hero</button>
+        <button type="button" data-direction="art" aria-pressed="false"><span>02</span> Mobile art direction</button>
+        <button type="button" data-direction="editorial" aria-pressed="false"><span>03</span> Lazy editorial</button>
+        <div class="tour-actions"><button type="button" id="tour">Take a short tour ↗</button><button type="button" id="reset">Reset</button></div>
+      </nav>
+      <section class="workspace">
+        <div class="stage" id="stage">
+          <div class="stage-heading"><span id="study-label">01 / FIRST IMPRESSION</span><span id="source-mode">native responsive image</span></div>
+          <figure class="hero-frame lg-image-frame" id="hero-frame"><picture id="hero-picture"></picture><figcaption id="glass-caption"><span>STUDY IN FORM / 001</span><strong id="frame-title">A little space, a lot of shape.</strong><p id="frame-note">Original ceramic forms, framed for this page.</p></figcaption></figure>
+          <div id="stage-gallery" hidden></div>
+          <div class="stage-foot"><p id="direction-note">The leading image is eager with a high-priority hint. Real width candidates let the browser choose.</p><span class="original-tag">ours, from the first pixel</span></div>
+          <section class="framing" aria-label="Image framing">
+            <label>Display crop<select id="crop"><option value="native">Native source ratio</option><option value="wide">Wide · 2:1</option><option value="portrait">Portrait · 4:5</option></select></label>
+            <label>Load intent<select id="priority"><option value="critical">Critical · eager / high</option><option value="normal">Normal · eager / auto</option><option value="below-fold">Below fold · lazy / low</option></select></label>
+            <label class="focal-label">Focal point X <output id="focal-value" for="focal">65%</output><input id="focal" type="range" min="0" max="100" value="65"></label>
+            <label class="portrait-control"><input id="force-portrait" type="checkbox"><span>Force portrait source for inspection</span></label>
+          </section>
+          <p class="hint" id="framing-hint">A display crop changes framing. It does not download a different source or optimize its bytes.</p>
+        </div>
+        <aside class="receipt" aria-labelledby="receipt-title">
+          <div class="receipt-title"><span class="receipt-mark" aria-hidden="true">↳</span><div><p>FROM THIS BROWSER</p><h2 id="receipt-title">The image receipt.</h2></div><button type="button" id="refresh" aria-label="Refresh browser image evidence">↻</button></div>
+          <div class="source-state"><i id="load-dot" aria-hidden="true"></i><span id="load-state">waiting for a source</span></div>
+          <dl>
+            <div class="source-line"><dt>selected source / currentSrc</dt><dd id="selected-source">not selected</dd></div>
+            <div><dt>supplied file pixels</dt><dd id="source-dimensions">—</dd></div>
+            <div><dt>supplied file bytes</dt><dd id="file-bytes">—</dd></div>
+            <div><dt>browser natural size¹</dt><dd id="natural-size">—</dd></div>
+            <div><dt>rendered frame</dt><dd id="rendered-size">—</dd></div>
+            <div><dt>viewport / DPR</dt><dd id="viewport">—</dd></div>
+            <div><dt>native loading hints</dt><dd id="hints">—</dd></div>
+            <div><dt>resource transfer²</dt><dd id="transfer">not exposed</dd></div>
+            <div><dt>resource duration²</dt><dd id="duration">not exposed</dd></div>
+            <div><dt>observed shift sum³</dt><dd id="shift-total">not supported</dd></div>
+          </dl>
+          <button type="button" class="decode-button" id="decode">Measure decode() ↗</button>
+          <p id="decode-result" class="decode-result" role="status">A deliberate measurement of the current image, including warm-cache results.</p>
+          <details class="attribute-details"><summary>See the actual attributes</summary><pre><code id="attributes"></code></pre></details>
+          <p class="receipt-notes">¹ Width candidates can density-adjust natural size; file pixels come from our asset manifest.<br>² Browser Resource Timing, when exposed. Cache and network policy affect results.<br>³ Session sum excluding recent input, not field CLS or a zero-shift guarantee.</p>
+        </aside>
+      </section>
+      <section class="editorial-section" id="editorial-section">
+        <div class="editorial-lead"><p class="eyebrow">03 / A LITTLE FURTHER DOWN THE PAGE</p><h2>Worth making<br><em>room for.</em></h2><p>Three original studies, reserved frames and native lazy-loading hints. Inspect real requests: the browser may load a nearby lazy image before it becomes visible.</p></div>
+        <div id="editorial-slot"><div class="editorial-gallery" id="editorial-gallery"></div></div>
+      </section>
+      <section class="principles"><article><span>01 / THE RESOURCE</span><h2>Use real candidates.</h2><p>These WebP files have different pixel dimensions and measured file sizes. The helper supplies attributes; it does not produce images or transform URLs.</p></article><article><span>02 / THE COMPOSITION</span><h2>A crop can tell a better story.</h2><p>The phone source is a separate original portrait crop. The first matching picture source wins; a display crop is a separate decision.</p></article><article><span>03 / THE EVIDENCE</span><h2>Keep the receipts.</h2><p>Reload with an empty cache to compare selected resources at each viewport and DPR. This local studio is a fixture, not a field-performance benchmark.</p></article></section>
+    </main>
+    <footer><span>Original procedural artwork · MIT · native images, no image engine</span><a href="../media/">A study in motion ↗</a></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+/* Optional image framing. Native width/height hints reserve uncropped image ratios. */
+.lg-image-frame {
+  margin: 0;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  box-sizing: border-box;
+}
+.lg-image-frame > picture { display: block; min-inline-size: 0; max-inline-size: 100%; }
+.lg-image {
+  display: block;
+  inline-size: 100%;
+  max-inline-size: 100%;
+  min-inline-size: 0;
+  block-size: auto;
+  box-sizing: border-box;
+  object-fit: var(--lg-image-fit, contain);
+  object-position: var(--lg-image-position, 50% 50%);
+}
+/* Never replace native picture/source aspect-ratio hints with a fallback-only ratio. */
+.lg-image[data-lg-image-crop='true'] { aspect-ratio: var(--lg-image-ratio); }
+.lg-image-caption {
+  margin: 0;
+  padding-block-start: .75rem;
+  font: inherit;
+  line-height: 1.5;
+  max-inline-size: 100%;
+  overflow-wrap: anywhere;
+}

@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 584379,
+  "sha256": "2f0c809faf43d72fa6c15b20992fab35bda1b14b08d0a17e592b535ecf48a6c7",
+  "music": {
+    "style": "synthpop",
+    "bpm": 112,
+    "seed": 27,
+    "patch": "square",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Native T3 source-preview original WebPs asblobURLs, same byte content/candidates and native selection. Camera-only original filename mapping, denser receipt/editorial cards/hidden secondary fields/portrait310px framing +200px bottom spacer; actual native props/states preserved. No network/CLS claim; exportFPS not appFPS"
+}

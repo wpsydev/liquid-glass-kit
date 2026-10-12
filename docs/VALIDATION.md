@@ -328,3 +328,15 @@ Native gallery actual firstdock requestfulfilled/secondscrollrequestfalse atmax1
 Fifteen manual/visible/quiet ×320×700,390×844,768×1024,844×390,1440×900 casesnoflow,44pxbuttons/16pxselects. Finaladdedtourbutton fitsallfive sizes44px; nativefocusmodalclosebutton, associatedselectlabels. DesktopresponsiveChromiumnotphysicalphone/Safari/AT. StrictdemoTSwithvite/clientpasses. Originalfilm actualtourrequests/ownership, cameraonlydensecaptions and100pxspacer, fullplayermuted; reviewed .8/4.5/9seconds,decode360frames12seconds. Disco120keysseed26,video801332bytes SHA256 `641c4cbab826c0d850fb169174ed1f9e01bc8ed1932f246f491e59b0f274436f`.
 
 Final integrated `npm run check` passed884tests/44filesincludingqueuedprototypes; releasescope adds24tests to413priorpublished. Final `npm pack --dry-run` passed130files. Browser/media evidence is separate fromunit tests; no default import/CSS change.
+
+0.26 publication: commit2ef8392142b98cb411f0f69a3e797d2db5170b5b passedVerify38190983629 (437tests/29files/130filepack), release38190983612,Pages38190983621. Archive130members/280413bytes SHA256 `28bad22d9ba74a52de48dd0f841c8bb9e1177b8fe7258a7e1d93f7a8e97bfecc`, mediaexportspresent/queuedimageabsent; hostedactualinitialmanual0-owned anddockplayingverified. Xmain2109455104550257011 sentalert+canonicalreadback; malformedowneditingdraftneverposted, freshcomposerexactdraftguardused.
+
+## 0.27 native image props (2026-10-12)
+
+34 focusedtests include boundednativeattrs/srcsets/groups, aspect/focal, alt/URL/input errors, ReactSSR escaping/lazy hint behavior. PureSSRprops1805gzipJS/395gzipCSS, no fetch/preload/decoder/defaultimport/CSS/runtime dependency. Node25×1000 generation+JSON median.00638485msimage/.009654222picture, normalizedbatchesnotnetwork/renderperformance.
+
+Fifteen nativeT3Chromium responsivehero/art/editorial cases320×700,390×844,768×1024,844×390,1440×900 hadnooverflow,44pxbuttons/16pxselects. Original WebPs transferred unchanged asblobURLassetreferences, nativecurrentSrc/actualdimensionsread. Warm resizedherokeptcached1440resource; fresh390px/DPR2URLs selected960×640/7316bytehero,960×1200/10986byteportrait; phoneartdirectionaspectdistinctfromfallback. Nativefields/associatedportrait44label, no physicalphones/Safari/ATclaim. BlobURLsprove source/decode/layout, notnetwork.
+
+Firstreuseddocument observationbuffer includedearlierpreviewshifts: discarded asCLS/sessionevidence. Demo now initializes observationboundarywithperformance.now() beforehero authoring; sumexcludesrecentinput andisnotfield/windowedCLS. Nativeimagehintsnotzero-requestguarantees, lazybrowserthresholdmayloadnearbyframes. React19SSRmayindependentlypreloadeagerimages; helperdoesnot. Original12second360framefilm synthpop112squareseed27 reviewed; cameraonlydense fields/310portrait/filenameblobmap; video584379bytes SHA256 `2f0c809faf43d72fa6c15b20992fab35bda1b14b08d0a17e592b535ecf48a6c7`.
+
+Final integrated `npm run check` passed907tests/45filesincludingqueuedprototypes; releaseadds34tests to437previouslypublished. Final `npm pack --dry-run` passed134files. Coreprops/SSRandpackagingchecksseparatefromnativebrowserandoriginalmediaevidence.

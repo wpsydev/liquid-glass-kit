@@ -134,12 +134,12 @@
     {
       "order": 10,
       "url": "https://landing.love",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Deliberate ambient-media coordinator",
       "version": "0.26.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/media/",
       "video": "docs/campaign/assets/ambient-media-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109455104550257011",
       "performance": [
         "benchmarks/ambient-media-payload.json",
         "benchmarks/ambient-media-browser.json",
@@ -149,13 +149,16 @@
     {
       "order": 11,
       "url": "https://land-book.com",
-      "status": "implemented-awaiting-validation",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Native responsive image and picture props",
+      "version": "0.27.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/responsive-image-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/responsive-image.json",
+        "benchmarks/responsive-image-browser.json"
+      ]
     },
     {
       "order": 12,

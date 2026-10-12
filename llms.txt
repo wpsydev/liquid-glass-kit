@@ -72,3 +72,5 @@ v0.19.0-preview.1. Install from the matching GitHub release/tag; npm publication
 - [Native continuity](https://wpsydev.github.io/liquid-glass-kit/docs/VIEW_TRANSITION.md): optional same-document named snapshots, exactly-once host updates, direct fallbacks and host-owned routing/focus
 
 - [Ambient previews](https://wpsydev.github.io/liquid-glass-kit/docs/AMBIENT_MEDIA.md): opt-in video lifecycle with bounded shared previews and host-owned full players
+
+- [Native responsive images](https://wpsydev.github.io/liquid-glass-kit/docs/RESPONSIVE_IMAGE.md): actual dimension/candidate/picture props, explicit loading intent, no image delivery engine

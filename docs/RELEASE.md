@@ -1,13 +1,15 @@
-A cover until there is a reason to play. **0.26.0-preview.1** adds optional `/ambient-media`: a deliberate shared lifecycle for decorative video previews.
+Give an image the right dimensions and real choices. **0.27.0-preview.1** adds optional `/responsive-image` and `/responsive-image.css`: pure native image/picture props.
 
-Manual is the default. Visible/hover policies are explicit opt-ins; pending and playing previews share a1–4 slot budget. Live OS/app saving preferences stop only owned previews. Rejected/stale play outcomes preserve host fallback and ownership. Sources/posters/native full players stay with the host; release yields without pausing. No frame loop, geometry polling, runtime dependency or default import change.
+Actual intrinsic dimensions, supplied width candidates, authored sizes and explicit critical/normal/below-fold intent. Ordered picture sources support a separate phone composition. Focal points and explicit display crops change framing; they do not optimize files. The browser owns selection, caching and delivery. No source engine, request/decoder/controller/runtime dependency or default import change.
 
-[Motion Library](https://wpsydev.github.io/liquid-glass-kit/media/) uses six existing original MIT films. Its finite11.2-second tour shows one/two owned slots, declined requests, saving pause and a separately controlled full player. Fifteen native responsive Chromium policy cases plus final tour-button checks fit320–1440px with44px controls/16px selects; physical devices/Safari/assistive technology remain unverified.
+[Image Office](https://wpsydev.github.io/liquid-glass-kit/images/) has nine original WebP still-life files (69,118bytes total), critical hero, independently composed portrait and lazy editorial frames. A finite9.6-second tour inspects all three. Fifteen native responsive Chromium cases fit320–1440px with44px buttons/16px fields; physical phones/Safari/assistive technology unverified.
 
-Optional standalone JavaScript:3,152bytesgzip including helpers. Five batches of20 connected128-video manual attach/update/destroy cycles:7.5ms median,0 customRAF/rectangle reads/subsequent idleRAF. This excludes source/network/play/decoder work. Actual gallery playback/frame counters and supplied source sizes are separate; cross-origin timing zero byte fields are not zero transfer. No comparative FPS/load/battery claim.
+Fresh390px/DPR2 native blob fixture selected960×640/7316bytehero and960×1200/10986byteportrait. Warm resize retained cached1440hero: source choice and byte reductions are not guaranteed. Blob decoding establishes source/layout behavior, not network timing. Session shift sums are not field/windowedCLS, and React19SSR may independently preload eager images.
 
-[API and ownership](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/AMBIENT_MEDIA.md) · [Scoped evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/ambient-media-browser.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/10-landing-love.md)
+Standalone optional JS1805bytesgzip/CSS395bytesgzip. Separate Node25×1000 generation+JSON batches recorded image/picture medians.00638485/.009654222ms; this is not network/render/decoder/FPS/load-speedup evidence.
 
-Landing Love's thumbnail/full-recording distinction informed independent code; no external recordings or source copied. Original twelve-second cinema film with a120BPM disco score attached.
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/RESPONSIVE_IMAGE.md) · [Measured boundaries](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/responsive-image-browser.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/11-landbook.md)
 
-Use the ready-built archive attached here or `npm i github:wpsydev/liquid-glass-kit#v0.26.0-preview.1`. npm registry publication remains pending.
+LandBook's composition references informed independent artwork and native resource policy; no external art/fonts/source copied. Original twelve-second film with a112BPM synthpop score attached.
+
+Use the ready-built archive attached here or `npm i github:wpsydev/liquid-glass-kit#v0.27.0-preview.1`. npm registry publication remains pending.

@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.26.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.27.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -158,3 +158,7 @@ Optional `/view-transition` carries named objects between same-document views wi
 ## Deliberate media previews
 
 Optional `/ambient-media` coordinates manual/visible/hover decorative previews with a shared1–4 pending/playing budget, saving preferences and explicit ownership transfer. Native full players remain host-owned. [API](docs/AMBIENT_MEDIA.md) · [Motion Library](https://wpsydev.github.io/liquid-glass-kit/media/).
+
+## Responsive original images
+
+Optional `/responsive-image` authors native image/picture props with actual dimensions, supplied width candidates, loading intent and explicit crops. Import `/responsive-image.css` separately; the browser owns selection and the host owns file variants/delivery. [API](docs/RESPONSIVE_IMAGE.md) · [Image Office](https://wpsydev.github.io/liquid-glass-kit/images/).
