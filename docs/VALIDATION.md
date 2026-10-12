@@ -628,3 +628,15 @@ Integrated npm run check passed1,241tests/57files incldistributedCLI. npm pack -
 Original650468-byte12s960square360-frame160BPM jungleairybellshanddrumssoftbassseed89 SHA25680d278864df1b11241eea45616009562690731596cb6e2a05ef53060c9d11862; finite10.5tour/1actualApply/1conflict/quietidle/full decode/fourframes/cameraCSSdisclosed.
 
 Integrated npm run check passed1,298tests/58files incldistributedCLI. npm pack --dry-run passed227members/527934bytes/SSR/publicexports. Published-scope CI followsrelease.
+
+## 0.56.0 bounded layout audit (2026-10-12)
+
+57focused sampler tests/SSRimport safe/nativecallrequiresconnectedDOM. Five actualdesktop CSSviewport sizes320×700/390×844/768×1024/844×390/1440×900 withindependentlymeasuredscoped facts. Intentional32pxtarget/14pxfield/overflow4advisories thenHOSTCSS44/16/wrap +explicitreaudit0within4suppliedcontrols only; originalinput/draft/caret/focus/localnote retained. Hidden/clipped/offscreen/partial/shadow/unsupported/budget/truncated/unvisited6facts distinguishnotcleanpass. No physicalphones/Safari/AT/wholepageaccessibilitycert/hittest/zoomclaim.
+
+Optional9164raw3893gzip.32connectedfields100measuredcalls median~.10p95~.30ms/~.1clockresolution/106explicitreads33rect67styles6dimensions; synchronousstylelayout/reportallocation included, notpaint/GPU. Readonly0DOMmutations/RAF/250idle0additionalreads; notpolling/speedup.
+
+Original835945-byte12s960square360-frame144BPM electro/metalpatchseed56 SHA256f4d57da61a14eead7946b564caf82618c3409fa86baaeb71ae21ae641ecb3ec4; finite10.67capture+1.33hold/sixstates/292unique/full decode/threeframes reviewed; actualreports/hostrepair disclosed.
+
+Integrated final npm run check passed1,355tests/59files incldistributedCLI. npm pack --dry-run passed230members/537149bytes/SSR/publicexports/CSS. npm whoami stillE401 at2026-10-12T07:39Z; registry publication notclaimed. Published-scope CI followsrelease.
+
+At2026-10-12T07:45Z a fresh npmweblogin reachedthe already-signed-in account OTPescalation screen inT3preview. Registryauth remainspending2FA; no OTP/tokenwasguessed, readorposted. GitHubreleaseinstallation remainsavailable.

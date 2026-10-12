@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.56.0-preview.1
+
+- Add optional read-only layout sampling for explicitly supplied controls, fields and containers with bounded native reads.
+- Keep skipped, unknown and truncated results explicit; separate host CSS repairs from auditing and avoid whole-page accessibility claims.
+- Add FitCheck with actual small-target/font/overflow advisories, preserved native editing, scoped benchmarks and original twelve-second electro film.
+
 ## 0.55.0-preview.1
 
 - Add pure material staging with bounded history, before/after intent and immutable prepared requests.

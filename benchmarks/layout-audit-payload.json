@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "measuredAt": "2026-10-12T04:21:17.116Z",
+  "source": "src/layout-audit.ts",
+  "sourceSHA256": "bac6169bd87c614ac2f882e2189ed51dabe2172d04576afbce3660e278d44855",
+  "bundleBytes": 9164,
+  "bundleGzipBytes": 3893,
+  "bundleSHA256": "22d1d243a797b76c8839ee0a342e5f59fbdbdf2330b438ed2a0981c19273237a",
+  "format": "standalone minified IIFE; not published package aggregate",
+  "runtimeDependencies": 0,
+  "claims": [
+    "Payload only. Not a load-time, paint, frame-rate, GPU or speedup benchmark."
+  ]
+}

@@ -1,0 +1,3142 @@
+{
+  "schemaVersion": 1,
+  "measuredAt": "2026-10-12T04:20:55.976Z",
+  "environment": {
+    "dpr": 2,
+    "ready": true,
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36"
+  },
+  "scope": "Native desktop Chromium CSS viewport checks; no physical-phone, Safari or assistive-technology verification. Independent rect/style/dimension checks occur outside audit timing. Zero configured advisories is not accessibility certification.",
+  "viewports": [
+    {
+      "dpr": 2,
+      "edges": {
+        "counts": {
+          "advisories": 0,
+          "checked": 5,
+          "considered": 8,
+          "skipped": 3,
+          "supplied": 8,
+          "unvisited": 0
+        },
+        "incomplete": true,
+        "reads": {
+          "dimensions": 8,
+          "rects": 9,
+          "styles": 22,
+          "total": 39
+        },
+        "targets": [
+          {
+            "id": "review-note",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 197,
+              "x": 27,
+              "y": 979.2109375
+            },
+            "status": "measured"
+          },
+          {
+            "id": "add-review",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 44,
+              "x": 234,
+              "y": 979.2109375
+            },
+            "status": "measured"
+          },
+          {
+            "id": "checkbox-label",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 251,
+              "x": 27,
+              "y": 1077.5078125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "reference-shelf",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 135.5,
+              "width": 251,
+              "x": 27,
+              "y": 1271.5078125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "closed-panel",
+            "offscreen": null,
+            "partial": false,
+            "reason": "hidden",
+            "rect": null,
+            "status": "skipped"
+          },
+          {
+            "id": "clipped-action",
+            "offscreen": true,
+            "partial": false,
+            "reason": "clipped",
+            "rect": {
+              "height": 44,
+              "width": 44,
+              "x": 270,
+              "y": 1490.1015625
+            },
+            "status": "skipped"
+          },
+          {
+            "id": "below-viewport",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 106.03125,
+              "x": 34,
+              "y": 2432.6953125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "untyped-field",
+            "offscreen": true,
+            "partial": false,
+            "reason": "unsupported-field",
+            "rect": {
+              "height": 44,
+              "width": 119,
+              "x": 27,
+              "y": 1587.6953125
+            },
+            "status": "skipped"
+          }
+        ]
+      },
+      "limited": {
+        "counts": {
+          "advisories": 0,
+          "checked": 2,
+          "considered": 2,
+          "skipped": 0,
+          "supplied": 8,
+          "unvisited": 6
+        },
+        "incomplete": true,
+        "reads": {
+          "dimensions": 6,
+          "rects": 3,
+          "styles": 11,
+          "total": 20
+        },
+        "truncation": {
+          "advisories": false,
+          "ancestorLimit": false,
+          "readBudget": false,
+          "targetLimit": true
+        }
+      },
+      "modes": [
+        {
+          "actualRootOverflow": {
+            "clientWidth": 277,
+            "scrollWidth": 913
+          },
+          "actualViewportOverflow": {
+            "clientWidth": 305,
+            "scrollWidth": 305
+          },
+          "allOuterTargetsAtLeast44": true,
+          "controls": [
+            {
+              "font": 23,
+              "height": 44,
+              "id": "fitcheck40",
+              "type": "A",
+              "width": 118.53125
+            },
+            {
+              "font": 10,
+              "height": 44,
+              "id": "What gets measured ↘",
+              "type": "A",
+              "width": 111.03125
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "audit",
+              "type": "BUTTON",
+              "width": 251
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Host CSS fix",
+              "type": "LABEL",
+              "width": 88.3515625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Include edge fixtures",
+              "type": "LABEL",
+              "width": 127.515625
+            },
+            {
+              "font": 9,
+              "height": 44,
+              "id": "Target limit64 / normal2 / truncated",
+              "type": "LABEL",
+              "width": 251
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "limit",
+              "type": "SELECT",
+              "width": 156
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Quiet",
+              "type": "LABEL",
+              "width": 52.296875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "solid",
+              "type": "BUTTON",
+              "width": 94.7109375
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "01Cramped / real advisories",
+              "type": "BUTTON",
+              "width": 279
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "02Host-fixed / rerun",
+              "type": "BUTTON",
+              "width": 279
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "03Hidden, clipped & offscreen",
+              "type": "BUTTON",
+              "width": 279
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "04Explicitly truncated",
+              "type": "BUTTON",
+              "width": 279
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "05Quiet / solid controls",
+              "type": "BUTTON",
+              "width": 279
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "tour",
+              "type": "BUTTON",
+              "width": 153.359375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "reset",
+              "type": "BUTTON",
+              "width": 117.875
+            }
+          ],
+          "counts": {
+            "advisories": 4,
+            "checked": 4,
+            "considered": 4,
+            "skipped": 0,
+            "supplied": 4,
+            "unvisited": 0
+          },
+          "fields16": true,
+          "fontMatches": true,
+          "identity": {
+            "caret": true,
+            "focus": true,
+            "node": true,
+            "value": true
+          },
+          "incomplete": false,
+          "mode": "cramped",
+          "reads": {
+            "dimensions": 8,
+            "rects": 5,
+            "styles": 13,
+            "total": 26
+          },
+          "root": {
+            "overflow": {
+              "check": "advisory",
+              "clientWidth": 277,
+              "excess": 636,
+              "scrollWidth": 913
+            },
+            "reason": null,
+            "rect": {
+              "height": 598.59375,
+              "width": 279,
+              "x": 13,
+              "y": 771.4140625
+            }
+          },
+          "targets": [
+            {
+              "actual": {
+                "height": 40,
+                "width": 209,
+                "x": 27,
+                "y": 979.2109375
+              },
+              "font": 14,
+              "id": "review-note",
+              "matchesRect": true,
+              "measuredFont": 14,
+              "overflow": null,
+              "sizeCheck": "advisory"
+            },
+            {
+              "actual": {
+                "height": 32,
+                "width": 32,
+                "x": 246,
+                "y": 983.2109375
+              },
+              "font": null,
+              "id": "add-review",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "advisory"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 251,
+                "x": 27,
+                "y": 1073.5078125
+              },
+              "font": null,
+              "id": "checkbox-label",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 135.5,
+                "width": 251,
+                "x": 27,
+                "y": 1216.5078125
+              },
+              "font": null,
+              "id": "reference-shelf",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": {
+                "check": "exempt",
+                "clientWidth": 251,
+                "excess": 259,
+                "scrollWidth": 510
+              },
+              "sizeCheck": "not-requested"
+            }
+          ],
+          "truncated": false,
+          "viewport": {
+            "height": 700,
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 305,
+              "excess": 0,
+              "scrollWidth": 305
+            },
+            "width": 320
+          }
+        },
+        {
+          "actualRootOverflow": {
+            "clientWidth": 277,
+            "scrollWidth": 277
+          },
+          "actualViewportOverflow": {
+            "clientWidth": 305,
+            "scrollWidth": 305
+          },
+          "allOuterTargetsAtLeast44": true,
+          "controls": [
+            {
+              "font": 23,
+              "height": 44,
+              "id": "fitcheck40",
+              "type": "A",
+              "width": 118.53125
+            },
+            {
+              "font": 10,
+              "height": 44,
+              "id": "What gets measured ↘",
+              "type": "A",
+              "width": 111.03125
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "audit",
+              "type": "BUTTON",
+              "width": 251
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Host CSS fix",
+              "type": "LABEL",
+              "width": 88.3515625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Include edge fixtures",
+              "type": "LABEL",
+              "width": 127.515625
+            },
+            {
+              "font": 9,
+              "height": 44,
+              "id": "Target limit64 / normal2 / truncated",
+              "type": "LABEL",
+              "width": 251
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "limit",
+              "type": "SELECT",
+              "width": 156
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Quiet",
+              "type": "LABEL",
+              "width": 52.296875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "solid",
+              "type": "BUTTON",
+              "width": 94.7109375
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "01Cramped / real advisories",
+              "type": "BUTTON",
+              "width": 279
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "02Host-fixed / rerun",
+              "type": "BUTTON",
+              "width": 279
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "03Hidden, clipped & offscreen",
+              "type": "BUTTON",
+              "width": 279
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "04Explicitly truncated",
+              "type": "BUTTON",
+              "width": 279
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "05Quiet / solid controls",
+              "type": "BUTTON",
+              "width": 279
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "tour",
+              "type": "BUTTON",
+              "width": 153.359375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "reset",
+              "type": "BUTTON",
+              "width": 117.875
+            }
+          ],
+          "counts": {
+            "advisories": 0,
+            "checked": 4,
+            "considered": 4,
+            "skipped": 0,
+            "supplied": 4,
+            "unvisited": 0
+          },
+          "fields16": true,
+          "fontMatches": true,
+          "identity": {
+            "caret": true,
+            "focus": true,
+            "node": true,
+            "value": true
+          },
+          "incomplete": false,
+          "mode": "fixed",
+          "reads": {
+            "dimensions": 8,
+            "rects": 5,
+            "styles": 13,
+            "total": 26
+          },
+          "root": {
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 277,
+              "excess": 0,
+              "scrollWidth": 277
+            },
+            "reason": null,
+            "rect": {
+              "height": 653.59375,
+              "width": 279,
+              "x": 13,
+              "y": 771.4140625
+            }
+          },
+          "targets": [
+            {
+              "actual": {
+                "height": 44,
+                "width": 197,
+                "x": 27,
+                "y": 979.2109375
+              },
+              "font": 16,
+              "id": "review-note",
+              "matchesRect": true,
+              "measuredFont": 16,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 44,
+                "x": 234,
+                "y": 979.2109375
+              },
+              "font": null,
+              "id": "add-review",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 251,
+                "x": 27,
+                "y": 1077.5078125
+              },
+              "font": null,
+              "id": "checkbox-label",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 135.5,
+                "width": 251,
+                "x": 27,
+                "y": 1271.5078125
+              },
+              "font": null,
+              "id": "reference-shelf",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": {
+                "check": "exempt",
+                "clientWidth": 251,
+                "excess": 259,
+                "scrollWidth": 510
+              },
+              "sizeCheck": "not-requested"
+            }
+          ],
+          "truncated": false,
+          "viewport": {
+            "height": 700,
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 305,
+              "excess": 0,
+              "scrollWidth": 305
+            },
+            "width": 320
+          }
+        }
+      ],
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dpr": 2,
+      "edges": {
+        "counts": {
+          "advisories": 0,
+          "checked": 5,
+          "considered": 8,
+          "skipped": 3,
+          "supplied": 8,
+          "unvisited": 0
+        },
+        "incomplete": true,
+        "reads": {
+          "dimensions": 8,
+          "rects": 9,
+          "styles": 22,
+          "total": 39
+        },
+        "targets": [
+          {
+            "id": "review-note",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 253,
+              "x": 34,
+              "y": 947.7890625
+            },
+            "status": "measured"
+          },
+          {
+            "id": "add-review",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 44,
+              "x": 297,
+              "y": 947.7890625
+            },
+            "status": "measured"
+          },
+          {
+            "id": "checkbox-label",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 307,
+              "x": 34,
+              "y": 1046.0859375
+            },
+            "status": "measured"
+          },
+          {
+            "id": "reference-shelf",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 135.5,
+              "width": 307,
+              "x": 34,
+              "y": 1221.0859375
+            },
+            "status": "measured"
+          },
+          {
+            "id": "closed-panel",
+            "offscreen": null,
+            "partial": false,
+            "reason": "hidden",
+            "rect": null,
+            "status": "skipped"
+          },
+          {
+            "id": "clipped-action",
+            "offscreen": true,
+            "partial": false,
+            "reason": "clipped",
+            "rect": {
+              "height": 44,
+              "width": 44,
+              "x": 305,
+              "y": 1426.8828125
+            },
+            "status": "skipped"
+          },
+          {
+            "id": "below-viewport",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 106.03125,
+              "x": 39,
+              "y": 2500.6796875
+            },
+            "status": "measured"
+          },
+          {
+            "id": "untyped-field",
+            "offscreen": true,
+            "partial": false,
+            "reason": "unsupported-field",
+            "rect": {
+              "height": 44,
+              "width": 147,
+              "x": 34,
+              "y": 1511.6796875
+            },
+            "status": "skipped"
+          }
+        ]
+      },
+      "limited": {
+        "counts": {
+          "advisories": 0,
+          "checked": 2,
+          "considered": 2,
+          "skipped": 0,
+          "supplied": 8,
+          "unvisited": 6
+        },
+        "incomplete": true,
+        "reads": {
+          "dimensions": 6,
+          "rects": 3,
+          "styles": 11,
+          "total": 20
+        },
+        "truncation": {
+          "advisories": false,
+          "ancestorLimit": false,
+          "readBudget": false,
+          "targetLimit": true
+        }
+      },
+      "modes": [
+        {
+          "actualRootOverflow": {
+            "clientWidth": 337,
+            "scrollWidth": 915
+          },
+          "actualViewportOverflow": {
+            "clientWidth": 375,
+            "scrollWidth": 375
+          },
+          "allOuterTargetsAtLeast44": true,
+          "controls": [
+            {
+              "font": 23,
+              "height": 44,
+              "id": "fitcheck40",
+              "type": "A",
+              "width": 153.7734375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "What gets measured ↘",
+              "type": "A",
+              "width": 120.96875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "audit",
+              "type": "BUTTON",
+              "width": 311
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Host CSS fix",
+              "type": "LABEL",
+              "width": 88.3515625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Include edge fixtures",
+              "type": "LABEL",
+              "width": 127.515625
+            },
+            {
+              "font": 9,
+              "height": 44,
+              "id": "Target limit64 / normal2 / truncated",
+              "type": "LABEL",
+              "width": 311
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "limit",
+              "type": "SELECT",
+              "width": 156
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Quiet",
+              "type": "LABEL",
+              "width": 52.296875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "solid",
+              "type": "BUTTON",
+              "width": 94.7109375
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "01Cramped / real advisories",
+              "type": "BUTTON",
+              "width": 339
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "02Host-fixed / rerun",
+              "type": "BUTTON",
+              "width": 339
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "03Hidden, clipped & offscreen",
+              "type": "BUTTON",
+              "width": 339
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "04Explicitly truncated",
+              "type": "BUTTON",
+              "width": 339
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "05Quiet / solid controls",
+              "type": "BUTTON",
+              "width": 339
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "tour",
+              "type": "BUTTON",
+              "width": 153.359375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "reset",
+              "type": "BUTTON",
+              "width": 117.875
+            }
+          ],
+          "counts": {
+            "advisories": 4,
+            "checked": 4,
+            "considered": 4,
+            "skipped": 0,
+            "supplied": 4,
+            "unvisited": 0
+          },
+          "fields16": true,
+          "fontMatches": true,
+          "identity": {
+            "caret": true,
+            "focus": true,
+            "node": true,
+            "value": true
+          },
+          "incomplete": false,
+          "mode": "cramped",
+          "reads": {
+            "dimensions": 8,
+            "rects": 5,
+            "styles": 13,
+            "total": 26
+          },
+          "root": {
+            "overflow": {
+              "check": "advisory",
+              "clientWidth": 337,
+              "excess": 578,
+              "scrollWidth": 915
+            },
+            "reason": null,
+            "rect": {
+              "height": 596.59375,
+              "width": 339,
+              "x": 18,
+              "y": 739.9921875
+            }
+          },
+          "targets": [
+            {
+              "actual": {
+                "height": 40,
+                "width": 265,
+                "x": 34,
+                "y": 947.7890625
+              },
+              "font": 14,
+              "id": "review-note",
+              "matchesRect": true,
+              "measuredFont": 14,
+              "overflow": null,
+              "sizeCheck": "advisory"
+            },
+            {
+              "actual": {
+                "height": 32,
+                "width": 32,
+                "x": 309,
+                "y": 951.7890625
+              },
+              "font": null,
+              "id": "add-review",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "advisory"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 307,
+                "x": 34,
+                "y": 1042.0859375
+              },
+              "font": null,
+              "id": "checkbox-label",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 135.5,
+                "width": 307,
+                "x": 34,
+                "y": 1183.0859375
+              },
+              "font": null,
+              "id": "reference-shelf",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": {
+                "check": "exempt",
+                "clientWidth": 307,
+                "excess": 203,
+                "scrollWidth": 510
+              },
+              "sizeCheck": "not-requested"
+            }
+          ],
+          "truncated": false,
+          "viewport": {
+            "height": 844,
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 375,
+              "excess": 0,
+              "scrollWidth": 375
+            },
+            "width": 390
+          }
+        },
+        {
+          "actualRootOverflow": {
+            "clientWidth": 337,
+            "scrollWidth": 337
+          },
+          "actualViewportOverflow": {
+            "clientWidth": 375,
+            "scrollWidth": 375
+          },
+          "allOuterTargetsAtLeast44": true,
+          "controls": [
+            {
+              "font": 23,
+              "height": 44,
+              "id": "fitcheck40",
+              "type": "A",
+              "width": 153.7734375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "What gets measured ↘",
+              "type": "A",
+              "width": 120.96875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "audit",
+              "type": "BUTTON",
+              "width": 311
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Host CSS fix",
+              "type": "LABEL",
+              "width": 88.3515625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Include edge fixtures",
+              "type": "LABEL",
+              "width": 127.515625
+            },
+            {
+              "font": 9,
+              "height": 44,
+              "id": "Target limit64 / normal2 / truncated",
+              "type": "LABEL",
+              "width": 311
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "limit",
+              "type": "SELECT",
+              "width": 156
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Quiet",
+              "type": "LABEL",
+              "width": 52.296875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "solid",
+              "type": "BUTTON",
+              "width": 94.7109375
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "01Cramped / real advisories",
+              "type": "BUTTON",
+              "width": 339
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "02Host-fixed / rerun",
+              "type": "BUTTON",
+              "width": 339
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "03Hidden, clipped & offscreen",
+              "type": "BUTTON",
+              "width": 339
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "04Explicitly truncated",
+              "type": "BUTTON",
+              "width": 339
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "05Quiet / solid controls",
+              "type": "BUTTON",
+              "width": 339
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "tour",
+              "type": "BUTTON",
+              "width": 153.359375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "reset",
+              "type": "BUTTON",
+              "width": 117.875
+            }
+          ],
+          "counts": {
+            "advisories": 0,
+            "checked": 4,
+            "considered": 4,
+            "skipped": 0,
+            "supplied": 4,
+            "unvisited": 0
+          },
+          "fields16": true,
+          "fontMatches": true,
+          "identity": {
+            "caret": true,
+            "focus": true,
+            "node": true,
+            "value": true
+          },
+          "incomplete": false,
+          "mode": "fixed",
+          "reads": {
+            "dimensions": 8,
+            "rects": 5,
+            "styles": 13,
+            "total": 26
+          },
+          "root": {
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 337,
+              "excess": 0,
+              "scrollWidth": 337
+            },
+            "reason": null,
+            "rect": {
+              "height": 634.59375,
+              "width": 339,
+              "x": 18,
+              "y": 739.9921875
+            }
+          },
+          "targets": [
+            {
+              "actual": {
+                "height": 44,
+                "width": 253,
+                "x": 34,
+                "y": 947.7890625
+              },
+              "font": 16,
+              "id": "review-note",
+              "matchesRect": true,
+              "measuredFont": 16,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 44,
+                "x": 297,
+                "y": 947.7890625
+              },
+              "font": null,
+              "id": "add-review",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 307,
+                "x": 34,
+                "y": 1046.0859375
+              },
+              "font": null,
+              "id": "checkbox-label",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 135.5,
+                "width": 307,
+                "x": 34,
+                "y": 1221.0859375
+              },
+              "font": null,
+              "id": "reference-shelf",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": {
+                "check": "exempt",
+                "clientWidth": 307,
+                "excess": 203,
+                "scrollWidth": 510
+              },
+              "sizeCheck": "not-requested"
+            }
+          ],
+          "truncated": false,
+          "viewport": {
+            "height": 844,
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 375,
+              "excess": 0,
+              "scrollWidth": 375
+            },
+            "width": 390
+          }
+        }
+      ],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dpr": 2,
+      "edges": {
+        "counts": {
+          "advisories": 0,
+          "checked": 5,
+          "considered": 8,
+          "skipped": 3,
+          "supplied": 8,
+          "unvisited": 0
+        },
+        "incomplete": true,
+        "reads": {
+          "dimensions": 8,
+          "rects": 9,
+          "styles": 22,
+          "total": 39
+        },
+        "targets": [
+          {
+            "id": "review-note",
+            "offscreen": false,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 256.1875,
+              "x": 45,
+              "y": 757.2109375
+            },
+            "status": "measured"
+          },
+          {
+            "id": "add-review",
+            "offscreen": false,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 44,
+              "x": 311.1875,
+              "y": 757.2109375
+            },
+            "status": "measured"
+          },
+          {
+            "id": "checkbox-label",
+            "offscreen": false,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 310.1875,
+              "x": 45,
+              "y": 852.2109375
+            },
+            "status": "measured"
+          },
+          {
+            "id": "reference-shelf",
+            "offscreen": false,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 135.5,
+              "width": 310.1875,
+              "x": 45,
+              "y": 1022.1015625
+            },
+            "status": "measured"
+          },
+          {
+            "id": "closed-panel",
+            "offscreen": null,
+            "partial": false,
+            "reason": "hidden",
+            "rect": null,
+            "status": "skipped"
+          },
+          {
+            "id": "clipped-action",
+            "offscreen": true,
+            "partial": false,
+            "reason": "clipped",
+            "rect": {
+              "height": 44,
+              "width": 44,
+              "x": 317.59375,
+              "y": 1227.8984375
+            },
+            "status": "skipped"
+          },
+          {
+            "id": "below-viewport",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 106.03125,
+              "x": 49,
+              "y": 2480.6953125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "untyped-field",
+            "offscreen": true,
+            "partial": false,
+            "reason": "unsupported-field",
+            "rect": {
+              "height": 44,
+              "width": 148.59375,
+              "x": 45,
+              "y": 1312.6953125
+            },
+            "status": "skipped"
+          }
+        ]
+      },
+      "limited": {
+        "counts": {
+          "advisories": 0,
+          "checked": 2,
+          "considered": 2,
+          "skipped": 0,
+          "supplied": 8,
+          "unvisited": 6
+        },
+        "incomplete": true,
+        "reads": {
+          "dimensions": 6,
+          "rects": 3,
+          "styles": 11,
+          "total": 20
+        },
+        "truncation": {
+          "advisories": false,
+          "ancestorLimit": false,
+          "readBudget": false,
+          "targetLimit": true
+        }
+      },
+      "modes": [
+        {
+          "actualRootOverflow": {
+            "clientWidth": 342,
+            "scrollWidth": 916
+          },
+          "actualViewportOverflow": {
+            "clientWidth": 753,
+            "scrollWidth": 753
+          },
+          "allOuterTargetsAtLeast44": true,
+          "controls": [
+            {
+              "font": 24,
+              "height": 44,
+              "id": "fitcheck40",
+              "type": "A",
+              "width": 157.546875
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "What gets measured ↘",
+              "type": "A",
+              "width": 120.96875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "audit",
+              "type": "BUTTON",
+              "width": 161.4140625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Host CSS fix",
+              "type": "LABEL",
+              "width": 88.3515625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Include edge fixtures",
+              "type": "LABEL",
+              "width": 127.515625
+            },
+            {
+              "font": 9,
+              "height": 44,
+              "id": "Target limit64 / normal2 / truncated",
+              "type": "LABEL",
+              "width": 216.0234375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "limit",
+              "type": "SELECT",
+              "width": 142
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Quiet",
+              "type": "LABEL",
+              "width": 52.296875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "solid",
+              "type": "BUTTON",
+              "width": 94.7109375
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "01Cramped / real advisories",
+              "type": "BUTTON",
+              "width": 298.640625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "02Host-fixed / rerun",
+              "type": "BUTTON",
+              "width": 298.640625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "03Hidden, clipped & offscreen",
+              "type": "BUTTON",
+              "width": 298.640625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "04Explicitly truncated",
+              "type": "BUTTON",
+              "width": 298.640625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "05Quiet / solid controls",
+              "type": "BUTTON",
+              "width": 298.640625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "tour",
+              "type": "BUTTON",
+              "width": 153.359375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "reset",
+              "type": "BUTTON",
+              "width": 117.875
+            }
+          ],
+          "counts": {
+            "advisories": 4,
+            "checked": 4,
+            "considered": 4,
+            "skipped": 0,
+            "supplied": 4,
+            "unvisited": 0
+          },
+          "fields16": true,
+          "fontMatches": true,
+          "identity": {
+            "caret": true,
+            "focus": true,
+            "node": true,
+            "value": true
+          },
+          "incomplete": false,
+          "mode": "cramped",
+          "reads": {
+            "dimensions": 8,
+            "rects": 5,
+            "styles": 13,
+            "total": 26
+          },
+          "root": {
+            "overflow": {
+              "check": "advisory",
+              "clientWidth": 342,
+              "excess": 574,
+              "scrollWidth": 916
+            },
+            "reason": null,
+            "rect": {
+              "height": 596.6953125,
+              "width": 344.1875,
+              "x": 28,
+              "y": 517.5546875
+            }
+          },
+          "targets": [
+            {
+              "actual": {
+                "height": 40,
+                "width": 268.1875,
+                "x": 45,
+                "y": 731.453125
+              },
+              "font": 14,
+              "id": "review-note",
+              "matchesRect": true,
+              "measuredFont": 14,
+              "overflow": null,
+              "sizeCheck": "advisory"
+            },
+            {
+              "actual": {
+                "height": 32,
+                "width": 32,
+                "x": 323.1875,
+                "y": 735.453125
+              },
+              "font": null,
+              "id": "add-review",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "advisory"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 310.1875,
+                "x": 45,
+                "y": 822.453125
+              },
+              "font": null,
+              "id": "checkbox-label",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 135.5,
+                "width": 310.1875,
+                "x": 45,
+                "y": 961.75
+              },
+              "font": null,
+              "id": "reference-shelf",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": {
+                "check": "exempt",
+                "clientWidth": 310,
+                "excess": 188,
+                "scrollWidth": 498
+              },
+              "sizeCheck": "not-requested"
+            }
+          ],
+          "truncated": false,
+          "viewport": {
+            "height": 1024,
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 753,
+              "excess": 0,
+              "scrollWidth": 753
+            },
+            "width": 768
+          }
+        },
+        {
+          "actualRootOverflow": {
+            "clientWidth": 342,
+            "scrollWidth": 342
+          },
+          "actualViewportOverflow": {
+            "clientWidth": 753,
+            "scrollWidth": 753
+          },
+          "allOuterTargetsAtLeast44": true,
+          "controls": [
+            {
+              "font": 24,
+              "height": 44,
+              "id": "fitcheck40",
+              "type": "A",
+              "width": 157.546875
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "What gets measured ↘",
+              "type": "A",
+              "width": 120.96875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "audit",
+              "type": "BUTTON",
+              "width": 161.4140625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Host CSS fix",
+              "type": "LABEL",
+              "width": 88.3515625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Include edge fixtures",
+              "type": "LABEL",
+              "width": 127.515625
+            },
+            {
+              "font": 9,
+              "height": 44,
+              "id": "Target limit64 / normal2 / truncated",
+              "type": "LABEL",
+              "width": 216.0234375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "limit",
+              "type": "SELECT",
+              "width": 142
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Quiet",
+              "type": "LABEL",
+              "width": 52.296875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "solid",
+              "type": "BUTTON",
+              "width": 94.7109375
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "01Cramped / real advisories",
+              "type": "BUTTON",
+              "width": 298.640625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "02Host-fixed / rerun",
+              "type": "BUTTON",
+              "width": 298.640625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "03Hidden, clipped & offscreen",
+              "type": "BUTTON",
+              "width": 298.640625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "04Explicitly truncated",
+              "type": "BUTTON",
+              "width": 298.640625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "05Quiet / solid controls",
+              "type": "BUTTON",
+              "width": 298.640625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "tour",
+              "type": "BUTTON",
+              "width": 153.359375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "reset",
+              "type": "BUTTON",
+              "width": 117.875
+            }
+          ],
+          "counts": {
+            "advisories": 0,
+            "checked": 4,
+            "considered": 4,
+            "skipped": 0,
+            "supplied": 4,
+            "unvisited": 0
+          },
+          "fields16": true,
+          "fontMatches": true,
+          "identity": {
+            "caret": true,
+            "focus": true,
+            "node": true,
+            "value": true
+          },
+          "incomplete": false,
+          "mode": "fixed",
+          "reads": {
+            "dimensions": 8,
+            "rects": 5,
+            "styles": 13,
+            "total": 26
+          },
+          "root": {
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 342,
+              "excess": 0,
+              "scrollWidth": 342
+            },
+            "reason": null,
+            "rect": {
+              "height": 631.2890625,
+              "width": 344.1875,
+              "x": 28,
+              "y": 543.3125
+            }
+          },
+          "targets": [
+            {
+              "actual": {
+                "height": 44,
+                "width": 256.1875,
+                "x": 45,
+                "y": 757.2109375
+              },
+              "font": 16,
+              "id": "review-note",
+              "matchesRect": true,
+              "measuredFont": 16,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 44,
+                "x": 311.1875,
+                "y": 757.2109375
+              },
+              "font": null,
+              "id": "add-review",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 310.1875,
+                "x": 45,
+                "y": 852.2109375
+              },
+              "font": null,
+              "id": "checkbox-label",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 135.5,
+                "width": 310.1875,
+                "x": 45,
+                "y": 1022.1015625
+              },
+              "font": null,
+              "id": "reference-shelf",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": {
+                "check": "exempt",
+                "clientWidth": 310,
+                "excess": 188,
+                "scrollWidth": 498
+              },
+              "sizeCheck": "not-requested"
+            }
+          ],
+          "truncated": false,
+          "viewport": {
+            "height": 1024,
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 753,
+              "excess": 0,
+              "scrollWidth": 753
+            },
+            "width": 768
+          }
+        }
+      ],
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dpr": 2,
+      "edges": {
+        "counts": {
+          "advisories": 0,
+          "checked": 5,
+          "considered": 8,
+          "skipped": 3,
+          "supplied": 8,
+          "unvisited": 0
+        },
+        "incomplete": true,
+        "reads": {
+          "dimensions": 8,
+          "rects": 9,
+          "styles": 22,
+          "total": 39
+        },
+        "targets": [
+          {
+            "id": "review-note",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 295.1171875,
+              "x": 45,
+              "y": 673.328125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "add-review",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 44,
+              "x": 350.1171875,
+              "y": 673.328125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "checkbox-label",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 349.1171875,
+              "x": 45,
+              "y": 751.828125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "reference-shelf",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 135.5,
+              "width": 349.1171875,
+              "x": 45,
+              "y": 921.71875
+            },
+            "status": "measured"
+          },
+          {
+            "id": "closed-panel",
+            "offscreen": null,
+            "partial": false,
+            "reason": "hidden",
+            "rect": null,
+            "status": "skipped"
+          },
+          {
+            "id": "clipped-action",
+            "offscreen": true,
+            "partial": false,
+            "reason": "clipped",
+            "rect": {
+              "height": 44,
+              "width": 44,
+              "x": 337.0546875,
+              "y": 1127.515625
+            },
+            "status": "skipped"
+          },
+          {
+            "id": "below-viewport",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 106.03125,
+              "x": 49,
+              "y": 1746.3125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "untyped-field",
+            "offscreen": true,
+            "partial": false,
+            "reason": "unsupported-field",
+            "rect": {
+              "height": 44,
+              "width": 168.0546875,
+              "x": 45,
+              "y": 1212.3125
+            },
+            "status": "skipped"
+          }
+        ]
+      },
+      "limited": {
+        "counts": {
+          "advisories": 0,
+          "checked": 2,
+          "considered": 2,
+          "skipped": 0,
+          "supplied": 8,
+          "unvisited": 6
+        },
+        "incomplete": true,
+        "reads": {
+          "dimensions": 6,
+          "rects": 3,
+          "styles": 11,
+          "total": 20
+        },
+        "truncation": {
+          "advisories": false,
+          "ancestorLimit": false,
+          "readBudget": false,
+          "targetLimit": true
+        }
+      },
+      "modes": [
+        {
+          "actualRootOverflow": {
+            "clientWidth": 381,
+            "scrollWidth": 916
+          },
+          "actualViewportOverflow": {
+            "clientWidth": 829,
+            "scrollWidth": 829
+          },
+          "allOuterTargetsAtLeast44": true,
+          "controls": [
+            {
+              "font": 24,
+              "height": 44,
+              "id": "fitcheck40",
+              "type": "A",
+              "width": 157.546875
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "What gets measured ↘",
+              "type": "A",
+              "width": 120.96875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "audit",
+              "type": "BUTTON",
+              "width": 161.4140625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Host CSS fix",
+              "type": "LABEL",
+              "width": 88.3515625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Include edge fixtures",
+              "type": "LABEL",
+              "width": 127.515625
+            },
+            {
+              "font": 9,
+              "height": 44,
+              "id": "Target limit64 / normal2 / truncated",
+              "type": "LABEL",
+              "width": 216.0234375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "limit",
+              "type": "SELECT",
+              "width": 142
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Quiet",
+              "type": "LABEL",
+              "width": 52.296875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "solid",
+              "type": "BUTTON",
+              "width": 94.7109375
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "01Cramped / real advisories",
+              "type": "BUTTON",
+              "width": 333.1875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "02Host-fixed / rerun",
+              "type": "BUTTON",
+              "width": 333.1875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "03Hidden, clipped & offscreen",
+              "type": "BUTTON",
+              "width": 333.1875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "04Explicitly truncated",
+              "type": "BUTTON",
+              "width": 333.1875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "05Quiet / solid controls",
+              "type": "BUTTON",
+              "width": 333.1875
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "tour",
+              "type": "BUTTON",
+              "width": 153.359375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "reset",
+              "type": "BUTTON",
+              "width": 117.875
+            }
+          ],
+          "counts": {
+            "advisories": 4,
+            "checked": 4,
+            "considered": 4,
+            "skipped": 0,
+            "supplied": 4,
+            "unvisited": 0
+          },
+          "fields16": true,
+          "fontMatches": true,
+          "identity": {
+            "caret": true,
+            "focus": true,
+            "node": true,
+            "value": true
+          },
+          "incomplete": false,
+          "mode": "cramped",
+          "reads": {
+            "dimensions": 8,
+            "rects": 5,
+            "styles": 13,
+            "total": 26
+          },
+          "root": {
+            "overflow": {
+              "check": "advisory",
+              "clientWidth": 381,
+              "excess": 535,
+              "scrollWidth": 916
+            },
+            "reason": null,
+            "rect": {
+              "height": 547.1953125,
+              "width": 383.1171875,
+              "x": 28,
+              "y": 492.4296875
+            }
+          },
+          "targets": [
+            {
+              "actual": {
+                "height": 40,
+                "width": 307.1171875,
+                "x": 45,
+                "y": 673.328125
+              },
+              "font": 14,
+              "id": "review-note",
+              "matchesRect": true,
+              "measuredFont": 14,
+              "overflow": null,
+              "sizeCheck": "advisory"
+            },
+            {
+              "actual": {
+                "height": 32,
+                "width": 32,
+                "x": 362.1171875,
+                "y": 677.328125
+              },
+              "font": null,
+              "id": "add-review",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "advisory"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 349.1171875,
+                "x": 45,
+                "y": 747.828125
+              },
+              "font": null,
+              "id": "checkbox-label",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 135.5,
+                "width": 349.1171875,
+                "x": 45,
+                "y": 887.125
+              },
+              "font": null,
+              "id": "reference-shelf",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": {
+                "check": "exempt",
+                "clientWidth": 349,
+                "excess": 149,
+                "scrollWidth": 498
+              },
+              "sizeCheck": "not-requested"
+            }
+          ],
+          "truncated": false,
+          "viewport": {
+            "height": 390,
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 829,
+              "excess": 0,
+              "scrollWidth": 829
+            },
+            "width": 844
+          }
+        },
+        {
+          "actualRootOverflow": {
+            "clientWidth": 381,
+            "scrollWidth": 381
+          },
+          "actualViewportOverflow": {
+            "clientWidth": 829,
+            "scrollWidth": 829
+          },
+          "allOuterTargetsAtLeast44": true,
+          "controls": [
+            {
+              "font": 24,
+              "height": 44,
+              "id": "fitcheck40",
+              "type": "A",
+              "width": 157.546875
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "What gets measured ↘",
+              "type": "A",
+              "width": 120.96875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "audit",
+              "type": "BUTTON",
+              "width": 161.4140625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Host CSS fix",
+              "type": "LABEL",
+              "width": 88.3515625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Include edge fixtures",
+              "type": "LABEL",
+              "width": 127.515625
+            },
+            {
+              "font": 9,
+              "height": 44,
+              "id": "Target limit64 / normal2 / truncated",
+              "type": "LABEL",
+              "width": 216.0234375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "limit",
+              "type": "SELECT",
+              "width": 142
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Quiet",
+              "type": "LABEL",
+              "width": 52.296875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "solid",
+              "type": "BUTTON",
+              "width": 94.7109375
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "01Cramped / real advisories",
+              "type": "BUTTON",
+              "width": 333.1875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "02Host-fixed / rerun",
+              "type": "BUTTON",
+              "width": 333.1875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "03Hidden, clipped & offscreen",
+              "type": "BUTTON",
+              "width": 333.1875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "04Explicitly truncated",
+              "type": "BUTTON",
+              "width": 333.1875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "05Quiet / solid controls",
+              "type": "BUTTON",
+              "width": 333.1875
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "tour",
+              "type": "BUTTON",
+              "width": 153.359375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "reset",
+              "type": "BUTTON",
+              "width": 117.875
+            }
+          ],
+          "counts": {
+            "advisories": 0,
+            "checked": 4,
+            "considered": 4,
+            "skipped": 0,
+            "supplied": 4,
+            "unvisited": 0
+          },
+          "fields16": true,
+          "fontMatches": true,
+          "identity": {
+            "caret": true,
+            "focus": true,
+            "node": true,
+            "value": true
+          },
+          "incomplete": false,
+          "mode": "fixed",
+          "reads": {
+            "dimensions": 8,
+            "rects": 5,
+            "styles": 13,
+            "total": 26
+          },
+          "root": {
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 381,
+              "excess": 0,
+              "scrollWidth": 381
+            },
+            "reason": null,
+            "rect": {
+              "height": 581.7890625,
+              "width": 383.1171875,
+              "x": 28,
+              "y": 492.4296875
+            }
+          },
+          "targets": [
+            {
+              "actual": {
+                "height": 44,
+                "width": 295.1171875,
+                "x": 45,
+                "y": 673.328125
+              },
+              "font": 16,
+              "id": "review-note",
+              "matchesRect": true,
+              "measuredFont": 16,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 44,
+                "x": 350.1171875,
+                "y": 673.328125
+              },
+              "font": null,
+              "id": "add-review",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 349.1171875,
+                "x": 45,
+                "y": 751.828125
+              },
+              "font": null,
+              "id": "checkbox-label",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 135.5,
+                "width": 349.1171875,
+                "x": 45,
+                "y": 921.71875
+              },
+              "font": null,
+              "id": "reference-shelf",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": {
+                "check": "exempt",
+                "clientWidth": 349,
+                "excess": 149,
+                "scrollWidth": 498
+              },
+              "sizeCheck": "not-requested"
+            }
+          ],
+          "truncated": false,
+          "viewport": {
+            "height": 390,
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 829,
+              "excess": 0,
+              "scrollWidth": 829
+            },
+            "width": 844
+          }
+        }
+      ],
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dpr": 2,
+      "edges": {
+        "counts": {
+          "advisories": 0,
+          "checked": 5,
+          "considered": 8,
+          "skipped": 3,
+          "supplied": 8,
+          "unvisited": 0
+        },
+        "incomplete": true,
+        "reads": {
+          "dimensions": 8,
+          "rects": 9,
+          "styles": 22,
+          "total": 39
+        },
+        "targets": [
+          {
+            "id": "review-note",
+            "offscreen": false,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 588.53125,
+              "x": 73.5,
+              "y": 730.6953125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "add-review",
+            "offscreen": false,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 44,
+              "x": 672.03125,
+              "y": 730.6953125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "checkbox-label",
+            "offscreen": false,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 642.53125,
+              "x": 73.5,
+              "y": 809.1953125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "reference-shelf",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 124.5,
+              "width": 642.53125,
+              "x": 73.5,
+              "y": 952.7890625
+            },
+            "status": "measured"
+          },
+          {
+            "id": "closed-panel",
+            "offscreen": null,
+            "partial": false,
+            "reason": "hidden",
+            "rect": null,
+            "status": "skipped"
+          },
+          {
+            "id": "clipped-action",
+            "offscreen": true,
+            "partial": false,
+            "reason": "clipped",
+            "rect": {
+              "height": 44,
+              "width": 44,
+              "x": 512.265625,
+              "y": 1147.5859375
+            },
+            "status": "skipped"
+          },
+          {
+            "id": "below-viewport",
+            "offscreen": true,
+            "partial": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 106.03125,
+              "x": 73.5,
+              "y": 2278.3828125
+            },
+            "status": "measured"
+          },
+          {
+            "id": "untyped-field",
+            "offscreen": true,
+            "partial": false,
+            "reason": "unsupported-field",
+            "rect": {
+              "height": 44,
+              "width": 314.765625,
+              "x": 73.5,
+              "y": 1232.3828125
+            },
+            "status": "skipped"
+          }
+        ]
+      },
+      "limited": {
+        "counts": {
+          "advisories": 0,
+          "checked": 2,
+          "considered": 2,
+          "skipped": 0,
+          "supplied": 8,
+          "unvisited": 6
+        },
+        "incomplete": true,
+        "reads": {
+          "dimensions": 6,
+          "rects": 3,
+          "styles": 11,
+          "total": 20
+        },
+        "truncation": {
+          "advisories": false,
+          "ancestorLimit": false,
+          "readBudget": false,
+          "targetLimit": true
+        }
+      },
+      "modes": [
+        {
+          "actualRootOverflow": {
+            "clientWidth": 683,
+            "scrollWidth": 920
+          },
+          "actualViewportOverflow": {
+            "clientWidth": 1425,
+            "scrollWidth": 1425
+          },
+          "allOuterTargetsAtLeast44": true,
+          "controls": [
+            {
+              "font": 24,
+              "height": 44,
+              "id": "fitcheck40",
+              "type": "A",
+              "width": 157.546875
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "What gets measured ↘",
+              "type": "A",
+              "width": 120.96875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "audit",
+              "type": "BUTTON",
+              "width": 161.4140625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Host CSS fix",
+              "type": "LABEL",
+              "width": 88.3515625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Include edge fixtures",
+              "type": "LABEL",
+              "width": 127.515625
+            },
+            {
+              "font": 9,
+              "height": 44,
+              "id": "Target limit64 / normal2 / truncated",
+              "type": "LABEL",
+              "width": 216.0234375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "limit",
+              "type": "SELECT",
+              "width": 142
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Quiet",
+              "type": "LABEL",
+              "width": 52.296875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "solid",
+              "type": "BUTTON",
+              "width": 94.7109375
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "01Cramped / real advisories",
+              "type": "BUTTON",
+              "width": 565.90625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "02Host-fixed / rerun",
+              "type": "BUTTON",
+              "width": 565.90625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "03Hidden, clipped & offscreen",
+              "type": "BUTTON",
+              "width": 565.90625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "04Explicitly truncated",
+              "type": "BUTTON",
+              "width": 565.90625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "05Quiet / solid controls",
+              "type": "BUTTON",
+              "width": 565.90625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "tour",
+              "type": "BUTTON",
+              "width": 153.359375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "reset",
+              "type": "BUTTON",
+              "width": 117.875
+            }
+          ],
+          "counts": {
+            "advisories": 4,
+            "checked": 4,
+            "considered": 4,
+            "skipped": 0,
+            "supplied": 4,
+            "unvisited": 0
+          },
+          "fields16": true,
+          "fontMatches": true,
+          "identity": {
+            "caret": true,
+            "focus": true,
+            "node": true,
+            "value": true
+          },
+          "incomplete": false,
+          "mode": "cramped",
+          "reads": {
+            "dimensions": 8,
+            "rects": 5,
+            "styles": 13,
+            "total": 26
+          },
+          "root": {
+            "overflow": {
+              "check": "advisory",
+              "clientWidth": 683,
+              "excess": 237,
+              "scrollWidth": 920
+            },
+            "reason": null,
+            "rect": {
+              "height": 562.1953125,
+              "width": 684.53125,
+              "x": 52.5,
+              "y": 514.796875
+            }
+          },
+          "targets": [
+            {
+              "actual": {
+                "height": 40,
+                "width": 600.53125,
+                "x": 73.5,
+                "y": 730.6953125
+              },
+              "font": 14,
+              "id": "review-note",
+              "matchesRect": true,
+              "measuredFont": 14,
+              "overflow": null,
+              "sizeCheck": "advisory"
+            },
+            {
+              "actual": {
+                "height": 32,
+                "width": 32,
+                "x": 684.03125,
+                "y": 734.6953125
+              },
+              "font": null,
+              "id": "add-review",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "advisory"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 642.53125,
+                "x": 73.5,
+                "y": 805.1953125
+              },
+              "font": null,
+              "id": "checkbox-label",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 124.5,
+                "width": 642.53125,
+                "x": 73.5,
+                "y": 933.4921875
+              },
+              "font": null,
+              "id": "reference-shelf",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": {
+                "check": "exempt",
+                "clientWidth": 643,
+                "excess": 0,
+                "scrollWidth": 643
+              },
+              "sizeCheck": "not-requested"
+            }
+          ],
+          "truncated": false,
+          "viewport": {
+            "height": 900,
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 1425,
+              "excess": 0,
+              "scrollWidth": 1425
+            },
+            "width": 1440
+          }
+        },
+        {
+          "actualRootOverflow": {
+            "clientWidth": 683,
+            "scrollWidth": 683
+          },
+          "actualViewportOverflow": {
+            "clientWidth": 1425,
+            "scrollWidth": 1425
+          },
+          "allOuterTargetsAtLeast44": true,
+          "controls": [
+            {
+              "font": 24,
+              "height": 44,
+              "id": "fitcheck40",
+              "type": "A",
+              "width": 157.546875
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "What gets measured ↘",
+              "type": "A",
+              "width": 120.96875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "audit",
+              "type": "BUTTON",
+              "width": 161.4140625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Host CSS fix",
+              "type": "LABEL",
+              "width": 88.3515625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Include edge fixtures",
+              "type": "LABEL",
+              "width": 127.515625
+            },
+            {
+              "font": 9,
+              "height": 44,
+              "id": "Target limit64 / normal2 / truncated",
+              "type": "LABEL",
+              "width": 216.0234375
+            },
+            {
+              "font": 16,
+              "height": 44,
+              "id": "limit",
+              "type": "SELECT",
+              "width": 142
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "Quiet",
+              "type": "LABEL",
+              "width": 52.296875
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "solid",
+              "type": "BUTTON",
+              "width": 94.7109375
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "01Cramped / real advisories",
+              "type": "BUTTON",
+              "width": 565.90625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "02Host-fixed / rerun",
+              "type": "BUTTON",
+              "width": 565.90625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "03Hidden, clipped & offscreen",
+              "type": "BUTTON",
+              "width": 565.90625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "04Explicitly truncated",
+              "type": "BUTTON",
+              "width": 565.90625
+            },
+            {
+              "font": 12,
+              "height": 44,
+              "id": "05Quiet / solid controls",
+              "type": "BUTTON",
+              "width": 565.90625
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "tour",
+              "type": "BUTTON",
+              "width": 153.359375
+            },
+            {
+              "font": 11,
+              "height": 44,
+              "id": "reset",
+              "type": "BUTTON",
+              "width": 117.875
+            }
+          ],
+          "counts": {
+            "advisories": 0,
+            "checked": 4,
+            "considered": 4,
+            "skipped": 0,
+            "supplied": 4,
+            "unvisited": 0
+          },
+          "fields16": true,
+          "fontMatches": true,
+          "identity": {
+            "caret": true,
+            "focus": true,
+            "node": true,
+            "value": true
+          },
+          "incomplete": false,
+          "mode": "fixed",
+          "reads": {
+            "dimensions": 8,
+            "rects": 5,
+            "styles": 13,
+            "total": 26
+          },
+          "root": {
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 683,
+              "excess": 0,
+              "scrollWidth": 683
+            },
+            "reason": null,
+            "rect": {
+              "height": 581.4921875,
+              "width": 684.53125,
+              "x": 52.5,
+              "y": 514.796875
+            }
+          },
+          "targets": [
+            {
+              "actual": {
+                "height": 44,
+                "width": 588.53125,
+                "x": 73.5,
+                "y": 730.6953125
+              },
+              "font": 16,
+              "id": "review-note",
+              "matchesRect": true,
+              "measuredFont": 16,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 44,
+                "x": 672.03125,
+                "y": 730.6953125
+              },
+              "font": null,
+              "id": "add-review",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 44,
+                "width": 642.53125,
+                "x": 73.5,
+                "y": 809.1953125
+              },
+              "font": null,
+              "id": "checkbox-label",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": null,
+              "sizeCheck": "within-policy"
+            },
+            {
+              "actual": {
+                "height": 124.5,
+                "width": 642.53125,
+                "x": 73.5,
+                "y": 952.7890625
+              },
+              "font": null,
+              "id": "reference-shelf",
+              "matchesRect": true,
+              "measuredFont": null,
+              "overflow": {
+                "check": "exempt",
+                "clientWidth": 643,
+                "excess": 0,
+                "scrollWidth": 643
+              },
+              "sizeCheck": "not-requested"
+            }
+          ],
+          "truncated": false,
+          "viewport": {
+            "height": 900,
+            "overflow": {
+              "check": "within-policy",
+              "clientWidth": 1425,
+              "excess": 0,
+              "scrollWidth": 1425
+            },
+            "width": 1440
+          }
+        }
+      ],
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    }
+  ]
+}

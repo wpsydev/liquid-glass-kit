@@ -1,0 +1,329 @@
+{
+  "commit": "5bba21e0842a9b145ff3822d9a39f30a8dd54844",
+  "version": "0.55.0-preview.1",
+  "workflows": {
+    "runs": [
+      {
+        "id": 38218655020,
+        "name": "Verify",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38218655008,
+        "name": "Publish preview release",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38218655168,
+        "name": "Publish playground",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "tests": 1298,
+    "testFiles": 58
+  },
+  "archive": {
+    "members": 227,
+    "bytes": 527957,
+    "sha256": "70eabdda31dbeb746515ca814b11124667be4215c92f329f5d749f4e2cdc7e44"
+  },
+  "assets": [
+    {
+      "name": "liquid-glass-material-review-showcase.mp4",
+      "bytes": 650468,
+      "sha256": "sha256:80d278864df1b11241eea45616009562690731596cb6e2a05ef53060c9d11862"
+    },
+    {
+      "name": "liquid-glass-material-review-showcase.png",
+      "bytes": 291768,
+      "sha256": "sha256:3934f1ac02ba8b161e17efa028fa774018e9d41bb90aac7c583ceef299925937"
+    },
+    {
+      "name": "wpsydev-liquid-glass-0.55.0-preview.1.tgz",
+      "bytes": 527957,
+      "sha256": "sha256:70eabdda31dbeb746515ca814b11124667be4215c92f329f5d749f4e2cdc7e44"
+    }
+  ],
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/material-review/",
+    "native": {
+      "stage": {
+        "draft": 19,
+        "focus": "blur",
+        "host": 18
+      },
+      "prepared": {
+        "applyDisabled": false,
+        "state": {
+          "applied": 0,
+          "changes": [
+            "Staged blur edit. Nothing applied.",
+            "Showing the captured baseline, retaining the pending material.",
+            "Review prepared. Apply locally is still a separate action."
+          ],
+          "conflicts": 0,
+          "draft": {
+            "after": {
+              "appearance": "dark",
+              "backdrop": "dark",
+              "blur": 19,
+              "corner": "continuous",
+              "interactive": false,
+              "opacity": 1,
+              "radius": 24,
+              "reducedTransparency": false,
+              "refraction": 0,
+              "saturation": 1.35,
+              "tint": "#7598ff",
+              "tintOpacity": 0.12,
+              "variant": "regular"
+            },
+            "baseRevision": "local-r1",
+            "before": {
+              "appearance": "dark",
+              "backdrop": "dark",
+              "blur": 18,
+              "corner": "continuous",
+              "interactive": false,
+              "opacity": 1,
+              "radius": 24,
+              "reducedTransparency": false,
+              "refraction": 0,
+              "saturation": 1.35,
+              "tint": "#7598ff",
+              "tintOpacity": 0.12,
+              "variant": "regular"
+            },
+            "canRedo": false,
+            "canUndo": false,
+            "dirty": true,
+            "draftVersion": 3,
+            "historyIndex": 1,
+            "historyLength": 2,
+            "historyLimit": 24,
+            "previewMaterial": {
+              "appearance": "dark",
+              "backdrop": "dark",
+              "blur": 18,
+              "corner": "continuous",
+              "interactive": false,
+              "opacity": 1,
+              "radius": 24,
+              "reducedTransparency": false,
+              "refraction": 0,
+              "saturation": 1.35,
+              "tint": "#7598ff",
+              "tintOpacity": 0.12,
+              "variant": "regular"
+            },
+            "previewMode": "before",
+            "status": "prepared"
+          },
+          "hostMaterial": {
+            "appearance": "dark",
+            "backdrop": "dark",
+            "blur": 18,
+            "corner": "continuous",
+            "interactive": false,
+            "opacity": 1,
+            "radius": 24,
+            "reducedTransparency": false,
+            "refraction": 0,
+            "saturation": 1.35,
+            "tint": "#7598ff",
+            "tintOpacity": 0.12,
+            "variant": "regular"
+          },
+          "hostRevision": "local-r1",
+          "note": "More breathing room, quieter edges.",
+          "prepared": {
+            "baseRevision": "local-r1",
+            "before": {
+              "appearance": "dark",
+              "backdrop": "dark",
+              "blur": 18,
+              "corner": "continuous",
+              "interactive": false,
+              "opacity": 1,
+              "radius": 24,
+              "reducedTransparency": false,
+              "refraction": 0,
+              "saturation": 1.35,
+              "tint": "#7598ff",
+              "tintOpacity": 0.12,
+              "variant": "regular"
+            },
+            "dirty": true,
+            "draftVersion": 3,
+            "kind": "glass-material-draft",
+            "material": {
+              "appearance": "dark",
+              "backdrop": "dark",
+              "blur": 19,
+              "corner": "continuous",
+              "interactive": false,
+              "opacity": 1,
+              "radius": 24,
+              "reducedTransparency": false,
+              "refraction": 0,
+              "saturation": 1.35,
+              "tint": "#7598ff",
+              "tintOpacity": 0.12,
+              "variant": "regular"
+            }
+          },
+          "quiet": false,
+          "solid": false,
+          "touring": false
+        }
+      },
+      "applied": {
+        "applyDisabled": true,
+        "state": {
+          "applied": 1,
+          "changes": [
+            "Staged blur edit. Nothing applied.",
+            "Showing the captured baseline, retaining the pending material.",
+            "Review prepared. Apply locally is still a separate action.",
+            "Prepared material applied locally as local-r2. Nothing persisted to a server."
+          ],
+          "conflicts": 0,
+          "draft": {
+            "after": {
+              "appearance": "dark",
+              "backdrop": "dark",
+              "blur": 19,
+              "corner": "continuous",
+              "interactive": false,
+              "opacity": 1,
+              "radius": 24,
+              "reducedTransparency": false,
+              "refraction": 0,
+              "saturation": 1.35,
+              "tint": "#7598ff",
+              "tintOpacity": 0.12,
+              "variant": "regular"
+            },
+            "baseRevision": "local-r1",
+            "before": {
+              "appearance": "dark",
+              "backdrop": "dark",
+              "blur": 18,
+              "corner": "continuous",
+              "interactive": false,
+              "opacity": 1,
+              "radius": 24,
+              "reducedTransparency": false,
+              "refraction": 0,
+              "saturation": 1.35,
+              "tint": "#7598ff",
+              "tintOpacity": 0.12,
+              "variant": "regular"
+            },
+            "canRedo": false,
+            "canUndo": false,
+            "dirty": true,
+            "draftVersion": 3,
+            "historyIndex": 1,
+            "historyLength": 2,
+            "historyLimit": 24,
+            "previewMaterial": {
+              "appearance": "dark",
+              "backdrop": "dark",
+              "blur": 18,
+              "corner": "continuous",
+              "interactive": false,
+              "opacity": 1,
+              "radius": 24,
+              "reducedTransparency": false,
+              "refraction": 0,
+              "saturation": 1.35,
+              "tint": "#7598ff",
+              "tintOpacity": 0.12,
+              "variant": "regular"
+            },
+            "previewMode": "before",
+            "status": "prepared"
+          },
+          "hostMaterial": {
+            "appearance": "dark",
+            "backdrop": "dark",
+            "blur": 19,
+            "corner": "continuous",
+            "interactive": false,
+            "opacity": 1,
+            "radius": 24,
+            "reducedTransparency": false,
+            "refraction": 0,
+            "saturation": 1.35,
+            "tint": "#7598ff",
+            "tintOpacity": 0.12,
+            "variant": "regular"
+          },
+          "hostRevision": "local-r2",
+          "note": "More breathing room, quieter edges.",
+          "prepared": {
+            "baseRevision": "local-r1",
+            "before": {
+              "appearance": "dark",
+              "backdrop": "dark",
+              "blur": 18,
+              "corner": "continuous",
+              "interactive": false,
+              "opacity": 1,
+              "radius": 24,
+              "reducedTransparency": false,
+              "refraction": 0,
+              "saturation": 1.35,
+              "tint": "#7598ff",
+              "tintOpacity": 0.12,
+              "variant": "regular"
+            },
+            "dirty": true,
+            "draftVersion": 3,
+            "kind": "glass-material-draft",
+            "material": {
+              "appearance": "dark",
+              "backdrop": "dark",
+              "blur": 19,
+              "corner": "continuous",
+              "interactive": false,
+              "opacity": 1,
+              "radius": 24,
+              "reducedTransparency": false,
+              "refraction": 0,
+              "saturation": 1.35,
+              "tint": "#7598ff",
+              "tintOpacity": 0.12,
+              "variant": "regular"
+            }
+          },
+          "quiet": false,
+          "solid": false,
+          "touring": false
+        }
+      }
+    },
+    "scope": "Native blur18→19 keepsdraftfocus/host18; Before+Prepare retainsrequest19 whilepreview/host18; separateApply setsrealhost19/revisionr2/disablesconsumedApply. Localonly, no servertransaction"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109549485110202457",
+    "replies": [
+      "https://x.com/wpsygames/status/2109550434742399339",
+      "https://x.com/wpsygames/status/2109551114857410816"
+    ],
+    "publicPlayback": {
+      "duration": 12,
+      "ready": 4
+    },
+    "replyReadback": true,
+    "upload": {
+      "bytes": 650468,
+      "sha256": "80d278864df1b11241eea45616009562690731596cb6e2a05ef53060c9d11862"
+    }
+  },
+  "npmRegistry": "pending"
+}

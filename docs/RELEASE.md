@@ -1,11 +1,11 @@
-Review the change before it becomes real. **0.55.0-preview.1** adds optional `/material-draft`.
+Make it fit before it ships. **0.56.0-preview.1** adds optional `/layout-audit`.
 
-[Proof](https://wpsydev.github.io/liquid-glass-kit/material-review/) stages glass changes, walks Undo/Redo and compares Before/After. Preparing a request preserves the pending After result; a separate host action applies it. Native fields remain editable, and conflicts preserve the draft instead of silently replacing host material.
+[FitCheck](https://wpsydev.github.io/liquid-glass-kit/audit/) samples supplied control, field and container geometry. It flags small targets, small input text and overflow, then demonstrates a separate host CSS change and explicit recheck. Native editing and local content survive the change.
 
-The pure model reads no DOM and writes no files or network state. Revision tags are local caller data; an actual app owns authoritative server checks, permissions, persistence and idempotency. Canceling a draft does not roll back already applied work.
+The sampler is read-only, bounded and quiet until called. Skipped, unknown, unvisited and truncated facts stay visible. Zero advisories applies only to the supplied scope and current view; it is not a whole-page accessibility pass, hit-test proof or physical-phone certification.
 
-57 focused tests and75 native desktop viewport workflows passed. Helper1,756gzip bytes. Recorded pure4,000-cycle batches median129.44ms; connected CSS/DOM80-cycle batches15.6ms and forced-layout30-cycle batches8.6ms are separate scopes. No paint/GPU/FPS or speedup claim.
+57 focused tests and five native desktop viewport sizes passed. Optional helper3,893gzip bytes. In the recorded browser,32 connected fields used106 explicit operations per call, median~0.10ms/p95~0.30ms at~0.1ms clock resolution, including synchronous style/layout and report allocation. No paint/GPU/FPS or speedup claim.
 
-Original twelve-second160BPM airy-bell jungle video. [Guide](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/MATERIAL_DRAFT.md).
+Original twelve-second144BPM metal-patch electro film, fully decoded360frames. [Guide](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/LAYOUT_AUDIT.md).
 
-Use the archive or `npm i github:wpsydev/liquid-glass-kit#v0.55.0-preview.1`. npm publication pending. Independent v0-inspired review workflow, with no v0 service calls or source rewrite.
+Use the archive or `npm i github:wpsydev/liquid-glass-kit#v0.56.0-preview.1`. npm publication pending. Independent Lovable-inspired review, with no Lovable calls or automatic source repair.

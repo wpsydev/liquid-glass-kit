@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "measuredAt": "2026-10-12T04:20:55.983Z",
+  "scope": "Actual native text insertion, label click and native form submit. Demo host deliberately writes a page-session note; core itself performs no repair.",
+  "identity": {
+    "after": {
+      "calls": 2,
+      "edges": false,
+      "field": {
+        "focused": true,
+        "nodePreserved": true,
+        "selectionEnd": 17,
+        "selectionStart": 5,
+        "value": "Keep my native draft, caret and context"
+      },
+      "fixed": false,
+      "focus": "note-field",
+      "identity": {
+        "caret": true,
+        "focus": true,
+        "node": true,
+        "value": true
+      },
+      "lastSynchronousAuditMs": 0.5,
+      "limit": 64,
+      "notes": [],
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "report": {
+        "advisories": [
+          {
+            "code": "horizontal-overflow",
+            "id": null,
+            "scope": "root"
+          },
+          {
+            "code": "target-size",
+            "id": "review-note",
+            "scope": "target"
+          },
+          {
+            "code": "field-font",
+            "id": "review-note",
+            "scope": "target"
+          },
+          {
+            "code": "target-size",
+            "id": "add-review",
+            "scope": "target"
+          }
+        ],
+        "counts": {
+          "advisories": 4,
+          "checked": 4,
+          "considered": 4,
+          "skipped": 0,
+          "supplied": 4,
+          "unvisited": 0
+        },
+        "incomplete": false,
+        "limitations": [
+          "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+          "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+          "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+          "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+          "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+          "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+          "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+        ],
+        "policy": {
+          "advisoryLimit": 256,
+          "ancestorLimit": 16,
+          "kind": "configured-library-layout-policy",
+          "minInputFont": 16,
+          "minTarget": 44,
+          "overflowTolerance": 1,
+          "readLimit": 512,
+          "targetLimit": 64
+        },
+        "reads": {
+          "dimensions": 8,
+          "rects": 5,
+          "styles": 13,
+          "total": 26
+        },
+        "root": {
+          "overflow": {
+            "check": "advisory",
+            "clientWidth": 337,
+            "excess": 578,
+            "scrollWidth": 915
+          },
+          "reason": null,
+          "rect": {
+            "height": 596.59375,
+            "width": 339,
+            "x": 18,
+            "y": 739.9921875
+          }
+        },
+        "targets": [
+          {
+            "fontCheck": "advisory",
+            "fontSize": 14,
+            "id": "review-note",
+            "kind": "field",
+            "overflow": null,
+            "partialClipping": false,
+            "reason": null,
+            "rect": {
+              "height": 40,
+              "width": 265,
+              "x": 34,
+              "y": 947.7890625
+            },
+            "sizeCheck": "advisory",
+            "status": "measured",
+            "suppliedHitArea": false,
+            "viewportOffscreen": true
+          },
+          {
+            "fontCheck": "not-requested",
+            "fontSize": null,
+            "id": "add-review",
+            "kind": "control",
+            "overflow": null,
+            "partialClipping": false,
+            "reason": null,
+            "rect": {
+              "height": 32,
+              "width": 32,
+              "x": 309,
+              "y": 951.7890625
+            },
+            "sizeCheck": "advisory",
+            "status": "measured",
+            "suppliedHitArea": false,
+            "viewportOffscreen": true
+          },
+          {
+            "fontCheck": "not-requested",
+            "fontSize": null,
+            "id": "checkbox-label",
+            "kind": "control",
+            "overflow": null,
+            "partialClipping": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 307,
+              "x": 34,
+              "y": 1042.0859375
+            },
+            "sizeCheck": "within-policy",
+            "status": "measured",
+            "suppliedHitArea": true,
+            "viewportOffscreen": true
+          },
+          {
+            "fontCheck": "not-requested",
+            "fontSize": null,
+            "id": "reference-shelf",
+            "kind": "container",
+            "overflow": {
+              "check": "exempt",
+              "clientWidth": 307,
+              "excess": 203,
+              "scrollWidth": 510
+            },
+            "partialClipping": false,
+            "reason": null,
+            "rect": {
+              "height": 135.5,
+              "width": 307,
+              "x": 34,
+              "y": 1183.0859375
+            },
+            "sizeCheck": "not-requested",
+            "status": "measured",
+            "suppliedHitArea": false,
+            "viewportOffscreen": true
+          }
+        ],
+        "truncated": false,
+        "truncation": {
+          "advisories": false,
+          "ancestorLimit": false,
+          "readBudget": false,
+          "targetLimit": false
+        },
+        "viewport": {
+          "height": 844,
+          "overflow": {
+            "check": "within-policy",
+            "clientWidth": 375,
+            "excess": 0,
+            "scrollWidth": 375
+          },
+          "width": 390
+        }
+      },
+      "reportRevision": 3,
+      "revision": 3,
+      "solid": false,
+      "stale": false,
+      "systemReduced": false,
+      "tourStep": "",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "before": {
+      "calls": 0,
+      "edges": false,
+      "field": {
+        "focused": true,
+        "nodePreserved": true,
+        "selectionEnd": 17,
+        "selectionStart": 5,
+        "value": "Keep my native draft, caret and context"
+      },
+      "fixed": true,
+      "focus": "note-field",
+      "identity": null,
+      "lastSynchronousAuditMs": null,
+      "limit": 64,
+      "notes": [],
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "report": null,
+      "reportRevision": -1,
+      "revision": 2,
+      "solid": false,
+      "stale": false,
+      "systemReduced": false,
+      "tourStep": "",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    "changed": {
+      "calls": 1,
+      "edges": false,
+      "field": {
+        "focused": true,
+        "nodePreserved": true,
+        "selectionEnd": 17,
+        "selectionStart": 5,
+        "value": "Keep my native draft, caret and context"
+      },
+      "fixed": false,
+      "focus": "note-field",
+      "identity": {
+        "caret": true,
+        "focus": true,
+        "node": true,
+        "value": true
+      },
+      "lastSynchronousAuditMs": 0.3999999761581421,
+      "limit": 64,
+      "notes": [],
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "report": {
+        "advisories": [],
+        "counts": {
+          "advisories": 0,
+          "checked": 4,
+          "considered": 4,
+          "skipped": 0,
+          "supplied": 4,
+          "unvisited": 0
+        },
+        "incomplete": false,
+        "limitations": [
+          "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+          "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+          "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+          "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+          "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+          "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+          "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+        ],
+        "policy": {
+          "advisoryLimit": 256,
+          "ancestorLimit": 16,
+          "kind": "configured-library-layout-policy",
+          "minInputFont": 16,
+          "minTarget": 44,
+          "overflowTolerance": 1,
+          "readLimit": 512,
+          "targetLimit": 64
+        },
+        "reads": {
+          "dimensions": 8,
+          "rects": 5,
+          "styles": 13,
+          "total": 26
+        },
+        "root": {
+          "overflow": {
+            "check": "within-policy",
+            "clientWidth": 337,
+            "excess": 0,
+            "scrollWidth": 337
+          },
+          "reason": null,
+          "rect": {
+            "height": 634.59375,
+            "width": 339,
+            "x": 18,
+            "y": 739.9921875
+          }
+        },
+        "targets": [
+          {
+            "fontCheck": "within-policy",
+            "fontSize": 16,
+            "id": "review-note",
+            "kind": "field",
+            "overflow": null,
+            "partialClipping": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 253,
+              "x": 34,
+              "y": 947.7890625
+            },
+            "sizeCheck": "within-policy",
+            "status": "measured",
+            "suppliedHitArea": false,
+            "viewportOffscreen": true
+          },
+          {
+            "fontCheck": "not-requested",
+            "fontSize": null,
+            "id": "add-review",
+            "kind": "control",
+            "overflow": null,
+            "partialClipping": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 44,
+              "x": 297,
+              "y": 947.7890625
+            },
+            "sizeCheck": "within-policy",
+            "status": "measured",
+            "suppliedHitArea": false,
+            "viewportOffscreen": true
+          },
+          {
+            "fontCheck": "not-requested",
+            "fontSize": null,
+            "id": "checkbox-label",
+            "kind": "control",
+            "overflow": null,
+            "partialClipping": false,
+            "reason": null,
+            "rect": {
+              "height": 44,
+              "width": 307,
+              "x": 34,
+              "y": 1046.0859375
+            },
+            "sizeCheck": "within-policy",
+            "status": "measured",
+            "suppliedHitArea": true,
+            "viewportOffscreen": true
+          },
+          {
+            "fontCheck": "not-requested",
+            "fontSize": null,
+            "id": "reference-shelf",
+            "kind": "container",
+            "overflow": {
+              "check": "exempt",
+              "clientWidth": 307,
+              "excess": 203,
+              "scrollWidth": 510
+            },
+            "partialClipping": false,
+            "reason": null,
+            "rect": {
+              "height": 135.5,
+              "width": 307,
+              "x": 34,
+              "y": 1221.0859375
+            },
+            "sizeCheck": "not-requested",
+            "status": "measured",
+            "suppliedHitArea": false,
+            "viewportOffscreen": true
+          }
+        ],
+        "truncated": false,
+        "truncation": {
+          "advisories": false,
+          "ancestorLimit": false,
+          "readBudget": false,
+          "targetLimit": false
+        },
+        "viewport": {
+          "height": 844,
+          "overflow": {
+            "check": "within-policy",
+            "clientWidth": 375,
+            "excess": 0,
+            "scrollWidth": 375
+          },
+          "width": 390
+        }
+      },
+      "reportRevision": 2,
+      "revision": 3,
+      "solid": false,
+      "stale": true,
+      "systemReduced": false,
+      "tourStep": "",
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    }
+  },
+  "nativeForm": {
+    "checkbox": false,
+    "checkboxId": "review-checkbox",
+    "labelFor": "review-checkbox",
+    "notes": [
+      {
+        "includeContext": false,
+        "note": "Keep my native draft, caret and context"
+      }
+    ],
+    "stale": true
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-12T04:26:01.152Z",
+  "source": "source40 / Lovable-inspired independent bounded layout review",
+  "sourceSHA256": "bac6169bd87c614ac2f882e2189ed51dabe2172d04576afbce3660e278d44855",
+  "published": false,
+  "media": {
+    "film": {
+      "path": "docs/campaign/assets/layout-audit-showcase.mp4",
+      "bytes": 835945,
+      "sha256": "f4d57da61a14eead7946b564caf82618c3409fa86baaeb71ae21ae641ecb3ec4"
+    },
+    "poster": {
+      "path": "docs/campaign/assets/layout-audit-showcase.png",
+      "bytes": 335659,
+      "sha256": "7bd1b49f2929265ecca50d8686771736b48a9c84f65c3f970f7ea1314245de3e"
+    },
+    "native": {
+      "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-83d1f264-9460-4f88-b28d-20a389d09cca-mp4.mp4",
+      "bytes": 844119,
+      "sha256": "315195f4c680dc1a477f8b64a0e9cfcc16b76bae4d8a6f12ae4bb396553b9f51"
+    },
+    "exportVideo": "H264 yuv420p, 960×960, 30 fps, 12.00s; export frame rate is not application FPS",
+    "exportAudio": "AAC stereo, 48000Hz, 192kbit/s; original electro 144BPM metal patch seed56, procedural synthesis, MIT, no external samples",
+    "decodedVideoFrames": 360,
+    "uniqueDecodedFrameHashes": 292,
+    "fullAudioVideoDecodeExitCode": 0,
+    "fullAudioVideoDecodeErrors": "",
+    "frameHashFileSHA256": "c3a939ee3acfdc9fa5115300815c3e4a1350b3d2c764b67bdf6ee6d1b1d10acf"
+  },
+  "native": {
+    "tabId": "tab_4c",
+    "CSSViewport": {
+      "width": 960,
+      "height": 960
+    },
+    "DPR": 2,
+    "inputPixels": {
+      "width": 1920,
+      "height": 1920
+    },
+    "durationSeconds": 10.67,
+    "variableFrameIntervals": true,
+    "exportHoldSecondsApprox": 1.33,
+    "recordingStopped": true
+  },
+  "capture": {
+    "complete": true,
+    "finiteTourMs": 10500,
+    "pendingTourSteps": 0,
+    "preservedField": {
+      "focused": true,
+      "nodePreserved": true,
+      "selectionEnd": 15,
+      "selectionStart": 5,
+      "value": "Make the setup screen easier to read"
+    },
+    "identity": {
+      "caret": true,
+      "focus": true,
+      "node": true,
+      "value": true
+    },
+    "calls": 6,
+    "camera": "960 CSS px square, explicit capture-density CSS and two finite native scroll positions; normal five-size geometry evidence excludes this override",
+    "reviewedFramesSeconds": [
+      0.9,
+      4.9,
+      9.9
+    ]
+  },
+  "score": {
+    "style": "electro",
+    "BPM": 144,
+    "seed": 56,
+    "patch": "metal",
+    "license": "MIT",
+    "externalSamples": false
+  },
+  "validation": {
+    "unitTests": 631,
+    "unitTestFiles": 35,
+    "focusedLayoutAuditTests": 57,
+    "fullCheck": "passed in isolated worktree",
+    "demoStrictTypeScript": "passed",
+    "isolatedViteDemoBuild": "passed",
+    "browserEvidence": [
+      "../../benchmarks/layout-audit-layouts.json",
+      "../../benchmarks/layout-audit-functional.json",
+      "../../benchmarks/layout-audit-browser.json",
+      "../../benchmarks/layout-audit-tour.json"
+    ],
+    "unknown": [
+      "physical phones",
+      "iOS Safari",
+      "assistive technology",
+      "full keyboard task completion",
+      "real click hit testing"
+    ]
+  },
+  "claims": [
+    "Explicit read-only geometry review only",
+    "No automatic repair, source rewriting, persistence, network or mobile/accessibility certification",
+    "Configured-library policies are distinct from WCAG 24px target minimum with exceptions",
+    "Synchronous cost excludes paint, GPU, app FPS and speedup comparisons",
+    "Preview exports/publication are root-owned and not claimed here"
+  ]
+}

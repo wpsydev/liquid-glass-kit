@@ -63,6 +63,7 @@ export default defineConfig({
         lint_room: resolve('site/lint-room/index.html'),
         agent_studio: resolve('site/agent-studio/index.html'),
         material_review: resolve('site/material-review/index.html'),
+        audit: resolve('site/audit/index.html'),
         shaders: resolve('site/shaders/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),

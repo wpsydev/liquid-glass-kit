@@ -577,12 +577,12 @@
     {
       "order": 39,
       "url": "https://v0.dev",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Pure staged material intent with before/after and explicit host apply",
       "version": "0.55.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/material-review/",
       "video": "docs/campaign/assets/material-review-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109549485110202457",
       "performance": [
         "benchmarks/material-review-payload.json",
         "benchmarks/material-review-host.json",
@@ -592,13 +592,18 @@
     {
       "order": 40,
       "url": "https://lovable.dev",
-      "status": "queued",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Read-only explicit mobile layout sampling with honest incomplete results",
+      "version": "0.56.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/layout-audit-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/layout-audit-payload.json",
+        "benchmarks/layout-audit-browser.json",
+        "benchmarks/layout-audit-functional.json",
+        "benchmarks/layout-audit-layouts.json"
+      ]
     }
   ],
   "additional": [
