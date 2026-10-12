@@ -142,3 +142,7 @@ Optional `/integration-brief` generates a local Markdown handoff with exact impo
 ## Readability preflight
 
 Optional `/readability` evaluates host-supplied opaque colors, selects an ink and applies an opaque fallback when its simplified estimate fails. No pixel readback or animation controller; actual rendered contrast still needs checking. [Model and API](docs/READABILITY.md) · [Light Table](https://wpsydev.github.io/liquid-glass-kit/readability/).
+
+## Resource tree
+
+Optional `/resource-tree` and `/resource-tree.css` present a single-select hierarchy with native keyboard focus, separate expansion and host-owned data. Visible order is cached; ordinary rows share one material shell. [API](docs/RESOURCE_TREE.md) · [Resource Room](https://wpsydev.github.io/liquid-glass-kit/tree/).

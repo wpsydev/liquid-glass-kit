@@ -1,0 +1,65 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "cyclesPerRound": 10,
+  "dpr": 2,
+  "nodes": 500,
+  "observedAtUtc": "2026-10-12T00:10:48.303Z",
+  "operation": "Mount, collapse/expand, select, replace nodes, destroy (connected authored200px scroller)",
+  "rounds": 5,
+  "samples": [
+    {
+      "customRafRequests": 0,
+      "jsRectangleReads": 0,
+      "ms": 156.79999995231628
+    },
+    {
+      "customRafRequests": 0,
+      "jsRectangleReads": 0,
+      "ms": 144.19999992847443
+    },
+    {
+      "customRafRequests": 0,
+      "jsRectangleReads": 0,
+      "ms": 153.39999997615814
+    },
+    {
+      "customRafRequests": 0,
+      "jsRectangleReads": 0,
+      "ms": 154.09999990463257
+    },
+    {
+      "customRafRequests": 0,
+      "jsRectangleReads": 0,
+      "ms": 146.5
+    }
+  ],
+  "scope": "Synchronous DOM lifecycle only, excludes yielded paint/compositing; not FPS/network/virtualization/comparative speedup",
+  "viewport": [
+    1280,
+    800
+  ],
+  "medianMs": 153.39999997615814,
+  "longScroller": {
+    "rows": 100,
+    "height": 200,
+    "before": {
+      "focused": "row99",
+      "scrollTop": 0,
+      "itemBottom": 4468.328125,
+      "visible": false
+    },
+    "after": {
+      "focused": "row99",
+      "scrollTop": 4267.5,
+      "itemBottom": 200.828125,
+      "hostBottom": 202,
+      "pageScroll": 0,
+      "visible": true
+    }
+  },
+  "filterRescue": {
+    "empty": true,
+    "focus": "UL",
+    "insideTree": true
+  }
+}

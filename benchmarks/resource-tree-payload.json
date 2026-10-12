@@ -1,0 +1,14 @@
+{
+  "observedAtUtc": "2026-10-12T00:12:15.556Z",
+  "js": {
+    "rawBytes": 8346,
+    "gzipBytes": 3080,
+    "sha256": "96ca51838387b94ac1772a3189df8ab3a7e744733d4d2657c6d4d1e6f0fbb6df"
+  },
+  "css": {
+    "rawBytes": 3299,
+    "gzipBytes": 1051
+  },
+  "sourceSha256": "f3b2a4f6ecc72050a316926d974d14259322a78e80d27afa0e51741e193e8eb1",
+  "scope": "Standalone optional controller/style size only; not load time/rendering FPS. All bounded nodes are rendered; no virtualization claim."
+}

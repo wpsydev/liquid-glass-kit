@@ -75,12 +75,12 @@
     {
       "order": 6,
       "url": "https://styles.refero.design",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Readability",
       "version": "0.22.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/readability/",
       "video": "docs/campaign/assets/readability-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109436584370356622",
       "performance": [
         "benchmarks/readability.json",
         "benchmarks/readability-browser.json"
@@ -89,13 +89,17 @@
     {
       "order": 7,
       "url": "https://component.gallery",
-      "status": "implementation-in-progress",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Single-select resource tree",
+      "version": "0.23.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/resource-tree-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/resource-tree-payload.json",
+        "benchmarks/resource-tree-browser.json",
+        "benchmarks/resource-tree-layouts.json"
+      ]
     },
     {
       "order": 8,

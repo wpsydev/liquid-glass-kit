@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.23.0-preview.1
+
+- Add optional single-select resource hierarchy with separate focus/selection/expansion, visible-order keyboard navigation, type-ahead and host snapshot updates.
+- Keep keyboard destinations visible through native focus scrolling; rescue removed/collapsed focus and preserve host-owned data/permissions.
+- Add original Resource Room,20 native viewport/theme/project cases and scoped500-node lifecycle measurements. All bounded nodes render; no virtualization, filesystem access, runtime dependency or default import change.
+
 ## 0.22.0-preview.1
 
 - Add pure supplied-color readability preflight with bounded opaque samples/inks, unrounded contrast math and actual material/ink props.

@@ -7,3 +7,5 @@ Native T3 source-preview actual preset/view changes show reading workspace exact
 Three film frames reviewed and final media decoded to360frames/12seconds. Adaptive capture/export rate does not measure appFPS. Hash/provenance in INTEGRATION_BRIEF_MEDIA.json; public artifact/X receipts follow publication.
 
 v0.21 releasefilm658,266bytes/poster235,452bytes verified. Main X https://x.com/wpsygames/status/2109434514246132174 plays12seconds/readyState4. Hostedworkspace loadsactualchunks; clipboardAPI exists onHTTPS but writeattemptdenied andhonestselectableMarkdownfallbackworked.
+
+Host-boundary reply corrected and verified at https://x.com/wpsygames/status/2109436261693854010; accidental link-onlyreply wasremoved

@@ -1,15 +1,15 @@
-Glass should keep the words useful. **0.22.0-preview.1** adds optional `/readability`, a pure preflight over host-supplied opaque backdrop colors.
+Keep your place in a useful hierarchy. **0.23.0-preview.1** adds optional `/resource-tree` and `/resource-tree.css`: a single-select presentation tree with separate focus, selection and expansion.
 
-It chooses the ink with the strongest worst-sample estimate and returns actual material props. When supplied inks fail the threshold, transparency is reduced or tint/refraction exceeds the model, it applies an opaque recommendation with coherent fill/ink. Ratios use unrounded sRGB math; detailed sample objects are allocated only for the winning ink.
+Visible-order arrows, Home/End, type-ahead, native activation and44px caret/rows preserve host control. Snapshot replacement handles removed focus and collapsed selected-child context. Native focus scrolling now brings offscreen keyboard destinations into view, verified with100rows in a200px scrolling panel.
 
-[Light Table](https://wpsydev.github.io/liquid-glass-kit/readability/) shows three actual directions: quiet colors, a finite moving field with opaque fallback, and a stricter dark-tone target. Fifteen native Chromium preset/viewport cases fit320–1440px,44px controls/associated checkbox labels and16px fields. Returned props pin ink/material and fallback states disable actual backdrop filtering. These are separate from physical-device/assistive-technology checks.
+[Resource Room](https://wpsydev.github.io/liquid-glass-kit/tree/) shows two original twenty-node inventories, actual host filtering, copied selectable sample text and light/night presentation. Twenty native Chromium project/theme/viewport cases fit320–1440px with44px controls/rows and16px fields. Focus and selection were checked separately; empty filtering rescues focus to the empty tree. These are browser CSS viewports, not physical-device/assistive-technology certification.
 
-This models uniform source-over fill over supplied colors. Blur, gradients, highlights, saturation, shadows, style overrides and unseen pixels are excluded. It does not sample pixels or certify rendered contrast/WCAG conformance; inspect actual applications separately.
+All bounded nodes render (maximum2,000/depth32); this is not virtualization. The host owns files, routes, remote data and permissions. One material shell surrounds ordinary rows. No custom frame loop, JavaScript geometry reads during navigation or runtime dependency; native focus can still cause browser layout/scroll work.
 
-Optional standalone JS2,826bytes gzip; no runtime dependency, event listeners or animation controller. Generate advice before clientload if colors are known. Reproducible Node benchmarks cover4×2 and64×8 sample/candidate cases; no renderer/FPS or comparative speedup claim. Root/defaultCSS unchanged.
+Standalone optional JS3,080bytes gzip, separate CSS1,051bytes gzip. Five native batches of10 connected500-node mount/collapse/expand/select/replace/destroy cycles measured median153.4ms, zero customRAF requests orJavaScriptrectangle reads. SynchronousDOM lifecycle only, notpaint/FPS orcomparativespeedup. Root/defaultCSS unchanged.
 
-[Model/API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/READABILITY.md) · [Measurement](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/readability.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/06-refero-styles.md)
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/RESOURCE_TREE.md) · [Measured scope](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/resource-tree-browser.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/07-component-gallery.md)
 
-Original12-second film with144BPM electro score. Refero's style examples inspired the readability problem; no reference source/assets copied.
+Component Gallery and primary tree-pattern docs informed independentbehavior. Original12-second piano film attached; no thirdpartysource/artworkcopied.
 
-Use the ready-built archive attached here, or `npm i github:wpsydev/liquid-glass-kit#v0.22.0-preview.1`. npm registry publication remains pending.
+Use the ready-built archive attached here, or `npm i github:wpsydev/liquid-glass-kit#v0.23.0-preview.1`. npm registry publication remains pending.

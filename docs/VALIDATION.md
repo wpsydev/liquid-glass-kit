@@ -280,3 +280,13 @@ NativeT3Chromium measured15presets×viewportcases320×700,390×844,768×1024,844
 Node25×500 advisory-resolutionbatches after100warmups cover4samples×2inks and64samples×8inks: medians .012396/.097577ms, standalone2,826bytesgzip. Separateboundedmath/serializationmeasurements, notrenderer/FPS/network orcomparativespeedup.
 
 0.21 Verify job114609540648 confirms326publishedtests in24files. Final0.22 integrated check passed602tests/35files including queuedprototypes; releaseadds26readabilitytests to326prior tests. npm packdryrun116files. Candidate-order regression alreadytests genuineequal-worstcase distinctblack/whiteinks, so unchangedbehavior is verified beyondpresetvisuals.
+
+0.22 publication: commitbfa3bf4ad3e0cbce248e3ecdb70596095507de57 passed Verify38186818589, release38186818590 andPages38186818604. Downloaded116-member archive251,637bytes SHA256 `a660da92a59277aa899efd1a64d70d94f72392c92883a2b81fb4b321c820a4e0`; readabilityJS/types present, queued modules absent. HostedLightTable actualdynamicrecommendation solidtrue/19.4219 withfourcomputedfiltersnone, nooverflow. Xmain https://x.com/wpsygames/status/2109436584370356622 plays12seconds/readyState4.
+
+## 0.23 resource tree (2026-10-12)
+
+Eighteen focusedtests cover structure, snapshots, single-selection/expansion, keyboard/typeahead, disabled/hiddennodes, callbacks, replacement/cleanup. Native long-scroller fixture foundEndfocusoffscreen withpreventScroll:true:100rows/200px panel, row99bottom4468px/scrollTop0. Nativefocus scrollingfix broughtsame rowbottom200.83px withinhostbottom202px atscrollTop4267.5, pageScroll0. Browser geometryevidence is separatefromunitchecks.
+
+Twenty nativeT3Chromium viewport/project/theme cases (320×700,390×844,768×1024,844×390,1440×900; twoinventories/twothemes) nooverflow,44pxbuttons/carets/rows,16pxfields. ArrowUp changedfocuswhilekeepingselection; Enterupdated actualpreview. FilteringallnodesoutrescuedfocusedtreeitemtotheemptyULinsideownedhost; appalreadyexternalfocusnotstolen. Originalframes reviewed, nofilesystem/Gitaccess orphysical-device/ATcertification.
+
+Five native500-node connectedlifecyclebatches of10cycles median153.4ms, no customRAF requests orJavaScriptrectreads. Allboundednodesrendered, notvirtualized. Finalintegrated npmruncheck628tests/36filesincludingqueuedprototypes; releaseadds18tree tests to352prior publishedtests. npmpackdryrun119files. Optionalpayload3,080JSgzip/1,051CSSgzip, no comparativeFPS/paint/loadclaim.

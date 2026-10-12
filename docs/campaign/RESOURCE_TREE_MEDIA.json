@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 515436,
+  "sha256": "763f02cb9cd8bf407a972bb97dff7a402b6d89e1c21f9585baa8129460b56a2e",
+  "music": {
+    "style": "cinematic",
+    "bpm": 96,
+    "seed": 23,
+    "patch": "piano",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Actual T3 source-preview selection, expansion, theme and host filtering; export FPS is not app FPS"
+}

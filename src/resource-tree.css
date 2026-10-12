@@ -1,0 +1,25 @@
+.lg-resource-tree{--lg-resource-bg:rgba(246,248,251,.94);--lg-resource-ink:#17263a;--lg-resource-muted:#526277;--lg-resource-line:#20354b1c;box-sizing:border-box;max-inline-size:100%;padding:16px;border:1px solid var(--lg-resource-line);border-radius:24px;background:var(--lg-resource-bg);color:var(--lg-resource-ink);font:500 14px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;box-shadow:0 12px 40px #0000000d}
+.lg-resource-tree *{box-sizing:border-box}
+.lg-resource-heading{font-family:inherit;font-weight:600;font-size:13px;line-height:1.4;margin:0 0 12px;overflow-wrap:anywhere}
+.lg-resource-list,.lg-resource-group{list-style:none;padding:0;margin:0}
+.lg-resource-group{padding:0;margin:0}
+.lg-resource-group[hidden]{display:none}
+.lg-resource-list [role=treeitem]{outline:none;min-inline-size:0}
+.lg-resource-row{display:flex;align-items:center;min-block-size:44px;min-inline-size:0;padding-inline-start:var(--lg-resource-indent,0);border:1px solid transparent;border-radius:12px;cursor:pointer}
+.lg-resource-content{display:flex;align-items:center;flex-wrap:wrap;gap:4px 10px;min-inline-size:0;flex:1;padding:9px 8px 9px 0;overflow-wrap:anywhere}
+.lg-resource-name{min-inline-size:0;overflow-wrap:anywhere}.lg-resource-status,.lg-resource-context{font-size:10px;line-height:1.4;color:var(--lg-resource-muted);overflow-wrap:anywhere}
+.lg-resource-context{flex-basis:100%}.lg-resource-context[hidden]{display:none}
+.lg-resource-caret{flex:none;inline-size:44px;block-size:44px;padding:0;border:0;background:transparent;color:inherit;font:inherit;font-size:24px;cursor:pointer;touch-action:manipulation;border-radius:10px}
+.lg-resource-caret span{display:block;transform:rotate(0);transition:transform .14s ease}
+.lg-resource-caret[aria-expanded=true] span{transform:rotate(90deg)}
+.lg-resource-spacer{flex:none;inline-size:44px}
+.lg-resource-list [aria-selected=true]>.lg-resource-row{background:#2f80cb12;border-color:#2f80cb22}
+.lg-resource-list [role=treeitem]:focus-visible>.lg-resource-row,.lg-resource-caret:focus-visible{outline:2px solid #2c70bd;outline-offset:1px}
+.lg-resource-list [aria-disabled=true]>.lg-resource-row{opacity:.45;cursor:default}.lg-resource-caret:disabled{cursor:default}
+.lg-resource-list [data-lg-selected-inside=true]:not([aria-expanded=true])>.lg-resource-row{border-inline-start-color:#2f80cb88}
+.lg-resource-list:focus-visible{outline:2px solid #2c70bd;outline-offset:4px;border-radius:12px}
+.lg-resource-empty{font-size:12px;color:var(--lg-resource-muted);margin:8px 0}
+@supports(backdrop-filter:blur(1px)){.lg-resource-tree{--lg-resource-bg:rgba(246,248,251,.84);backdrop-filter:blur(16px) saturate(1.15)}}
+@media(prefers-reduced-motion:reduce){.lg-resource-caret span{transition:none}}
+@media(prefers-reduced-transparency:reduce){.lg-resource-tree{--lg-resource-bg:#f6f8fb;backdrop-filter:none}}
+@media(forced-colors:active){.lg-resource-tree{background:Canvas;color:CanvasText;border-color:CanvasText;backdrop-filter:none}.lg-resource-status,.lg-resource-context{color:CanvasText}.lg-resource-list [aria-selected=true]>.lg-resource-row{border-color:Highlight}.lg-resource-list [role=treeitem]:focus-visible>.lg-resource-row{outline-color:Highlight}}
