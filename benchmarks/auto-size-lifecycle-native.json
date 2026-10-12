@@ -1,0 +1,18 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "connectedAttachDestroyPerCycle": {
+    "maxMs": 2.339999997615814,
+    "medianMs": 0.015000003576278686,
+    "minMs": 0.004999995231628418,
+    "p95Ms": 0.034999996423721313,
+    "samples": 400
+  },
+  "cyclesPerBatch": 20,
+  "excludes": "Fixture authoring and initial preparation, DOM content updates, active native animation, retarget/focus/resize paths, async waits, asynchronous paint/compositor/network; not a comparative speed-up or FPS measurement",
+  "fixtures": 20,
+  "identityAndCleanup": true,
+  "includes": "Native layout preconditions, computed styles/rectangles and any synchronous style/layout processing they induce, observer/listener lifetime, WeakSet ownership, natural-size cache and teardown on existing connected nodes",
+  "recordedBatches": 400,
+  "timerCaveat": "Quantized performance.now batch averages; not individual action latency",
+  "warmupBatches": 50
+}

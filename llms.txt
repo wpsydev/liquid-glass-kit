@@ -107,3 +107,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Number continuity](docs/NUMBER_TRANSITION.md): actual semantic values immediately, finite replacement by default, opt-in nonfinancial interpolation and announcements.
 - [Calibre](https://wpsydev.github.io/liquid-glass-kit/numbers/): local record/undo with native inputs; staged values are not measured productivity.
+
+- [Natural size transitions](docs/AUTO_SIZE.md): dedicated flow-root frame, actual committed content, focus/width snaps and conditional authored sizing restoration.
+- [Session Notes](https://wpsydev.github.io/liquid-glass-kit/size/): real notes, native context and the same editable draft through responsive reflow.

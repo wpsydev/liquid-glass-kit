@@ -1,0 +1,419 @@
+{
+  "tabId": "tab_4f",
+  "scope": "Actual native T3 browser, no physical phone/Safari/AT claim",
+  "beforeLease": {
+    "before": 39.96875,
+    "destroyed": {
+      "block": "auto",
+      "height": "23.7218px",
+      "heightPriority": ""
+    },
+    "during": {
+      "active": "true",
+      "animations": 1,
+      "height": "23.7218px",
+      "heightPriority": ""
+    },
+    "result": {
+      "completed": false,
+      "reason": "external-owner"
+    },
+    "settled": {
+      "active": null,
+      "block": "auto",
+      "height": "23.7218px",
+      "heightPriority": "",
+      "rect": 100.484375
+    }
+  },
+  "afterLease": {
+    "destroyed": {
+      "block": "auto",
+      "blockPriority": "important",
+      "height": "auto",
+      "heightPriority": "important"
+    },
+    "firstResult": {
+      "completed": false,
+      "reason": "retargeted"
+    },
+    "secondResult": {
+      "completed": true,
+      "reason": "finished"
+    },
+    "settled": {
+      "active": false,
+      "block": "auto",
+      "blockPriority": "important",
+      "height": "auto",
+      "heightPriority": "important",
+      "rect": 153.6875
+    },
+    "start": {
+      "active": true,
+      "height": "23.7218px"
+    },
+    "thirdResult": {
+      "completed": false,
+      "reason": "destroyed"
+    }
+  },
+  "grow": {
+    "atRestAnimations": 0,
+    "first": {
+      "active": true,
+      "animations": 1,
+      "content": 324,
+      "height": 315.828125
+    },
+    "identity": true,
+    "second": {
+      "active": true,
+      "height": 323.1484375
+    },
+    "settled": {
+      "active": false,
+      "contextOpen": true,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 324,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 2,
+      "touring": false,
+      "updates": 1,
+      "visibleNotes": 2
+    }
+  },
+  "notes": {
+    "noteText": [
+      "Keep a little space between what you can read and what you can press.",
+      "Make the next action visible before adding another animation."
+    ],
+    "sameInput": true,
+    "state": {
+      "active": false,
+      "contextOpen": true,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 324,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 2,
+      "touring": false,
+      "updates": 3,
+      "visibleNotes": 2
+    }
+  },
+  "focus": {
+    "animations": 0,
+    "sameDraft": true,
+    "state": {
+      "active": false,
+      "contextOpen": false,
+      "draft": "Keep the draft steady",
+      "editorShown": true,
+      "filter": "all",
+      "focused": true,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 408,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": true,
+          "reason": "focus"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 3,
+      "touring": false,
+      "updates": 4,
+      "visibleNotes": 3
+    }
+  },
+  "reflow": {
+    "after": 390,
+    "animations": 0,
+    "before": 512.40625,
+    "sameDraft": true,
+    "state": {
+      "active": false,
+      "contextOpen": false,
+      "draft": "Keep the draft steady",
+      "editorShown": true,
+      "filter": "all",
+      "focused": true,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": true,
+      "naturalContentHeight": 462,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": true,
+          "reason": "focus"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 3,
+      "touring": false,
+      "updates": 4,
+      "visibleNotes": 3
+    }
+  },
+  "rapid": {
+    "animations": 0,
+    "state": {
+      "active": false,
+      "contextOpen": false,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 347,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": false,
+      "updates": 3,
+      "visibleNotes": 4
+    }
+  },
+  "constraints": [
+    {
+      "active": false,
+      "boxSizing": "content-box",
+      "grow": {
+        "completed": true,
+        "reason": "finished"
+      },
+      "initial": 92.359375,
+      "max": 223.109375,
+      "min": 92.359375,
+      "shrink": {
+        "completed": true,
+        "reason": "finished"
+      },
+      "styles": {
+        "block": "",
+        "border": "1.25px solid",
+        "height": "",
+        "maxHeight": "210.875px",
+        "minHeight": "80.125px",
+        "padding": "5.12346px 0px"
+      }
+    },
+    {
+      "active": false,
+      "boxSizing": "border-box",
+      "grow": {
+        "completed": true,
+        "reason": "finished"
+      },
+      "initial": 80.125,
+      "max": 210.875,
+      "min": 80.125,
+      "shrink": {
+        "completed": true,
+        "reason": "finished"
+      },
+      "styles": {
+        "block": "",
+        "border": "1.25px solid",
+        "height": "",
+        "maxHeight": "210.875px",
+        "minHeight": "80.125px",
+        "padding": "5.12346px 0px"
+      }
+    }
+  ],
+  "quiet": {
+    "animations": 0,
+    "state": {
+      "active": false,
+      "contextOpen": true,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 430,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "reduced-motion"
+        }
+      ],
+      "quiet": true,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": false,
+      "updates": 1,
+      "visibleNotes": 4
+    }
+  },
+  "details": {
+    "animations": 0,
+    "focusSummary": true,
+    "state": {
+      "active": false,
+      "contextOpen": true,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 324,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "unchanged"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 2,
+      "touring": false,
+      "updates": 2,
+      "visibleNotes": 2
+    }
+  },
+  "draft": {
+    "formIdentity": true,
+    "sameDraft": true,
+    "state": {
+      "active": false,
+      "contextOpen": false,
+      "draft": "Keep xraft steady",
+      "editorShown": true,
+      "filter": "all",
+      "focused": true,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 408,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "focus"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 6,
+      "selectionStart": 6,
+      "solid": false,
+      "totalNotes": 3,
+      "touring": false,
+      "updates": 3,
+      "visibleNotes": 3
+    }
+  },
+  "hide": {
+    "editorHidden": true,
+    "focus": "edit",
+    "sameDraft": true
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "version": "0.38.0-preview.1",
+  "commit": "b1110b4a7669579b9594b3780abcb63d3072aa84",
+  "workflows": {
+    "verify": 38206645753,
+    "release": 38206645755,
+    "pages": 38206645760,
+    "conclusion": "success",
+    "tests": 805,
+    "testFiles": 41
+  },
+  "archive": {
+    "members": 172,
+    "bytes": 373036,
+    "sha256": "87692c8ad605922cdc86eec753e7d2c84eeb700cfd59bcda2addbab1d4880a80"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/numbers/",
+    "native": {
+      "record": {
+        "cancelled": 0,
+        "completed": 0,
+        "focus": "log-session",
+        "formatted": {
+          "pattern": "12",
+          "reading": "21.5",
+          "session": "42"
+        },
+        "instruments": {
+          "pattern": {
+            "active": false,
+            "destroyed": false,
+            "displayValue": 12,
+            "semantic": "12",
+            "status": "",
+            "value": 12
+          },
+          "reading": {
+            "active": false,
+            "destroyed": false,
+            "displayValue": 21.5,
+            "semantic": "21.5",
+            "status": "",
+            "value": 21.5
+          },
+          "session": {
+            "active": true,
+            "destroyed": false,
+            "displayValue": 42,
+            "semantic": "42",
+            "status": "",
+            "value": 42
+          }
+        },
+        "pattern": 12,
+        "pendingTourSteps": 0,
+        "reading": 21.5,
+        "requested": 1,
+        "sessions": [
+          {
+            "id": 1,
+            "minutes": 42
+          }
+        ],
+        "settings": {
+          "announce": false,
+          "duration": 280,
+          "grouping": true,
+          "interpolate": false,
+          "locale": "en-US",
+          "precision": 1,
+          "quiet": false
+        },
+        "solid": false,
+        "systemReduced": false,
+        "totalMinutes": 42,
+        "tourStep": ""
+      },
+      "undo": {
+        "cancelled": 0,
+        "completed": 1,
+        "focus": "BODY",
+        "formatted": {
+          "pattern": "12",
+          "reading": "21.5",
+          "session": "0"
+        },
+        "instruments": {
+          "pattern": {
+            "active": false,
+            "destroyed": false,
+            "displayValue": 12,
+            "semantic": "12",
+            "status": "",
+            "value": 12
+          },
+          "reading": {
+            "active": false,
+            "destroyed": false,
+            "displayValue": 21.5,
+            "semantic": "21.5",
+            "status": "",
+            "value": 21.5
+          },
+          "session": {
+            "active": true,
+            "destroyed": false,
+            "displayValue": 0,
+            "semantic": "0",
+            "status": "",
+            "value": 0
+          }
+        },
+        "pattern": 12,
+        "pendingTourSteps": 0,
+        "reading": 21.5,
+        "requested": 2,
+        "sessions": [],
+        "settings": {
+          "announce": false,
+          "duration": 280,
+          "grouping": true,
+          "interpolate": false,
+          "locale": "en-US",
+          "precision": 1,
+          "quiet": false
+        },
+        "solid": false,
+        "systemReduced": false,
+        "totalMinutes": 0,
+        "tourStep": ""
+      },
+      "scope": "Fixture sets native input value42; actual trusted Record/Undo clicks preserve actual semantic value during active decoration"
+    }
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109511908017709165",
+    "replies": [
+      "https://x.com/wpsygames/status/2109512240898740290",
+      "https://x.com/wpsygames/status/2109512328781684767"
+    ],
+    "upload": {
+      "bytes": 606116,
+      "sha256": "700444cb01cb31f2e6ed1afa66a3365519d0978636bca647ec6a9edace9b99c4"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Canonical pages confirmed intended copy"
+  },
+  "npmRegistry": "pending"
+}

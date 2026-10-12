@@ -484,3 +484,13 @@ Eight connected controllers/4,000quiet sets, median/p95 approximately0.1ms/eight
 Original12s960square360-frame606116-byte electro144/bright-FM major-seven film SHA256700444cb01cb31f2e6ed1afa66a3365519d0978636bca647ec6a9edace9b99c4. Actual finite tour ends150localminutes,8requested/completed,0cancelled/active; camera density and above-control caption band disclosed. Full decode and four frame reviews passed independently. Export30fps is not appFPS.
 
 Integrated npm run check passed1,144tests/53files including unreleased prototypes. npm pack --dry-run passed172members with only declared public entries; the published-scope CI count is recorded after release.
+
+## 0.39 natural sizing (2026-10-12)
+
+24 focused tests include fractional nativeCSSOM ownership regression.20 native desktop viewport/state cases320–1440px:44px actions,16px drafts, no page overflow or settled clipping. Actual WAAPI height growth, retargeting, focus/caret/node preservation, native details keyboard, width reflow, authored min/max/box sizing and auto!important restoration separately checked. Phones/Safari/AT unverified.
+
+Optional2469gzip.20connected fixtures/400measuredbatches after50warmup: median.015/p95.035ms normalizedcycle; includes native computedstyles/rects and induced syncstyle/layout, lifetime/leases/teardown. Excludes setup/content changes/active animation/asyncpainting/network. No comparative speedup/FPS/GPU claim.
+
+Original666747-byte12s360frame960square cinematic96/piano seed39 film SHA256f0bc86bcce89c4bfac9e3fd2a18b000f1ff4b904af6eeab26a1ad75f840e046c. Actual10stour, no cameraCSS, final3notes/same focused draft/selection5–10/zeroactiveanimations/clearedsizes. Controls bottom869.4 above caption882. Full decode/threeframe review passed; export30fps is not appFPS.
+
+Integrated npm run check passed1,145tests/53files including queued prototypes. npm pack --dry-run passed175members and excluded future entries. Published-scope CI follows release.

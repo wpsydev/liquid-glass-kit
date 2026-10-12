@@ -1,0 +1,760 @@
+{
+  "scope": "Native T3 desktop browser; viewport layout only, no physical phone/Safari/AT claim",
+  "cases": [
+    {
+      "clipped": false,
+      "content": 330.5,
+      "fieldFont": "16px",
+      "frame": 332.5,
+      "overflow": false,
+      "preset": "compact",
+      "size": [
+        320,
+        700
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 330.5,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "unchanged"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 0,
+        "selectionStart": 0,
+        "solid": false,
+        "totalNotes": 2,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 2
+      }
+    },
+    {
+      "clipped": false,
+      "content": 643,
+      "fieldFont": "16px",
+      "frame": 645,
+      "overflow": false,
+      "preset": "expanded",
+      "size": [
+        320,
+        700
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": true,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 643,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "finished"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 0,
+        "selectionStart": 0,
+        "solid": false,
+        "totalNotes": 4,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 4
+      }
+    },
+    {
+      "clipped": false,
+      "content": 581,
+      "fieldFont": "16px",
+      "frame": 583,
+      "overflow": false,
+      "preset": "focused",
+      "size": [
+        320,
+        700
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": true,
+        "filter": "all",
+        "focused": true,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 581,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "focus"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 3,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 3
+      }
+    },
+    {
+      "clipped": false,
+      "content": 357,
+      "fieldFont": "16px",
+      "frame": 359,
+      "overflow": false,
+      "preset": "narrow",
+      "size": [
+        320,
+        700
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": true,
+        "naturalContentHeight": 357,
+        "outcomes": [],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 2,
+        "touring": false,
+        "updates": 0,
+        "visibleNotes": 2
+      }
+    },
+    {
+      "clipped": false,
+      "content": 311,
+      "fieldFont": "16px",
+      "frame": 313,
+      "overflow": false,
+      "preset": "compact",
+      "size": [
+        390,
+        844
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 311,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "unchanged"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 2,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 2
+      }
+    },
+    {
+      "clipped": false,
+      "content": 607,
+      "fieldFont": "16px",
+      "frame": 609,
+      "overflow": false,
+      "preset": "expanded",
+      "size": [
+        390,
+        844
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": true,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 607,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "finished"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 4,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 4
+      }
+    },
+    {
+      "clipped": false,
+      "content": 510.5,
+      "fieldFont": "16px",
+      "frame": 512.5,
+      "overflow": false,
+      "preset": "focused",
+      "size": [
+        390,
+        844
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": true,
+        "filter": "all",
+        "focused": true,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 510.5,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "focus"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 3,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 3
+      }
+    },
+    {
+      "clipped": false,
+      "content": 311,
+      "fieldFont": "16px",
+      "frame": 313,
+      "overflow": false,
+      "preset": "narrow",
+      "size": [
+        390,
+        844
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": true,
+        "naturalContentHeight": 311,
+        "outcomes": [],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 2,
+        "touring": false,
+        "updates": 0,
+        "visibleNotes": 2
+      }
+    },
+    {
+      "clipped": false,
+      "content": 309,
+      "fieldFont": "16px",
+      "frame": 311,
+      "overflow": false,
+      "preset": "compact",
+      "size": [
+        768,
+        1024
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 309,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "unchanged"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 2,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 2
+      }
+    },
+    {
+      "clipped": false,
+      "content": 566,
+      "fieldFont": "16px",
+      "frame": 568,
+      "overflow": false,
+      "preset": "expanded",
+      "size": [
+        768,
+        1024
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": true,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 566,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "finished"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 4,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 4
+      }
+    },
+    {
+      "clipped": false,
+      "content": 507,
+      "fieldFont": "16px",
+      "frame": 509,
+      "overflow": false,
+      "preset": "focused",
+      "size": [
+        768,
+        1024
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": true,
+        "filter": "all",
+        "focused": true,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 507,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "focus"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 3,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 3
+      }
+    },
+    {
+      "clipped": false,
+      "content": 309,
+      "fieldFont": "16px",
+      "frame": 311,
+      "overflow": false,
+      "preset": "narrow",
+      "size": [
+        768,
+        1024
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": true,
+        "naturalContentHeight": 309,
+        "outcomes": [],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 2,
+        "touring": false,
+        "updates": 0,
+        "visibleNotes": 2
+      }
+    },
+    {
+      "clipped": false,
+      "content": 309,
+      "fieldFont": "16px",
+      "frame": 311,
+      "overflow": false,
+      "preset": "compact",
+      "size": [
+        844,
+        390
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 309,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "unchanged"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 2,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 2
+      }
+    },
+    {
+      "clipped": false,
+      "content": 566,
+      "fieldFont": "16px",
+      "frame": 568,
+      "overflow": false,
+      "preset": "expanded",
+      "size": [
+        844,
+        390
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": true,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 566,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "finished"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 4,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 4
+      }
+    },
+    {
+      "clipped": false,
+      "content": 507,
+      "fieldFont": "16px",
+      "frame": 509,
+      "overflow": false,
+      "preset": "focused",
+      "size": [
+        844,
+        390
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": true,
+        "filter": "all",
+        "focused": true,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 507,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "focus"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 3,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 3
+      }
+    },
+    {
+      "clipped": false,
+      "content": 309,
+      "fieldFont": "16px",
+      "frame": 311,
+      "overflow": false,
+      "preset": "narrow",
+      "size": [
+        844,
+        390
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": true,
+        "naturalContentHeight": 309,
+        "outcomes": [],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 2,
+        "touring": false,
+        "updates": 0,
+        "visibleNotes": 2
+      }
+    },
+    {
+      "clipped": false,
+      "content": 241,
+      "fieldFont": "16px",
+      "frame": 243,
+      "overflow": false,
+      "preset": "compact",
+      "size": [
+        1440,
+        900
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 241,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "unchanged"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 2,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 2
+      }
+    },
+    {
+      "clipped": false,
+      "content": 415,
+      "fieldFont": "16px",
+      "frame": 417,
+      "overflow": false,
+      "preset": "expanded",
+      "size": [
+        1440,
+        900
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": true,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 415,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "finished"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 4,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 4
+      }
+    },
+    {
+      "clipped": false,
+      "content": 408,
+      "fieldFont": "16px",
+      "frame": 410,
+      "overflow": false,
+      "preset": "focused",
+      "size": [
+        1440,
+        900
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": true,
+        "filter": "all",
+        "focused": true,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 408,
+        "outcomes": [
+          {
+            "completed": true,
+            "reason": "focus"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 3,
+        "touring": false,
+        "updates": 1,
+        "visibleNotes": 3
+      }
+    },
+    {
+      "clipped": false,
+      "content": 277,
+      "fieldFont": "16px",
+      "frame": 279,
+      "overflow": false,
+      "preset": "narrow",
+      "size": [
+        1440,
+        900
+      ],
+      "smallTargets": [],
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": false,
+        "filter": "all",
+        "focused": false,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": true,
+        "naturalContentHeight": 277,
+        "outcomes": [],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 2,
+        "touring": false,
+        "updates": 0,
+        "visibleNotes": 2
+      }
+    }
+  ]
+}

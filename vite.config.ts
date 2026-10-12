@@ -47,6 +47,7 @@ export default defineConfig({
         fields: resolve('site/fields/index.html'),
         tilt: resolve('site/tilt/index.html'),
         numbers: resolve('site/numbers/index.html'),
+        size: resolve('site/size/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),
         transitions: resolve('site/transitions/index.html'),

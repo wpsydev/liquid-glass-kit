@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 12,
+  "size": "960x960",
+  "video": "H264 High yuv420p 30fps export; not application FPS",
+  "audio": "AAC LC stereo48000Hz",
+  "fullyDecodedFrames": 360,
+  "originalScore": {
+    "path": "/tmp/lg-auto-size-score.wav",
+    "durationSeconds": 12,
+    "bpm": 96,
+    "style": "cinematic",
+    "patch": "piano",
+    "seed": 39,
+    "rms": 0.12,
+    "provenance": "Original procedural synthesis; no external samples; MIT"
+  },
+  "captions": [
+    "Real content. Finite natural-height motion.",
+    "Rapid updates retarget. Narrow layouts reflow.",
+    "The same draft. Focus and caret stay put."
+  ],
+  "files": {
+    "/tmp/lg-auto-size-showcase.mp4": {
+      "bytes": 666747,
+      "sha256": "f0bc86bcce89c4bfac9e3fd2a18b000f1ff4b904af6eeab26a1ad75f840e046c"
+    },
+    "/tmp/lg-auto-size-showcase.png": {
+      "bytes": 276141,
+      "sha256": "2199506a363253b2b5d442402a9e59cf3c4159d44bb974000800b1c9f04f9fc2"
+    },
+    "/tmp/lg-auto-size-score.wav": {
+      "bytes": 2304044,
+      "sha256": "66aa3cead4834c1fedbf7ffaec0d24613d849f97d360f728319bbbb271948aa6"
+    }
+  },
+  "publishedAssets": {
+    "film": "docs/campaign/assets/auto-size-showcase.mp4",
+    "poster": "docs/campaign/assets/auto-size-showcase.png"
+  }
+}

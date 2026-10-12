@@ -1,0 +1,1061 @@
+{
+  "raw": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-39bfbcc3-6fdb-47e6-a39c-a3d74ecc65e2-mp4",
+    "tabId": "tab_4f",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-39bfbcc3-6fdb-47e6-a39c-a3d74ecc65e2-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 575704,
+    "createdAt": "2026-10-12T04:36:36.455Z"
+  },
+  "elapsed": 11402.600000023842,
+  "final": {
+    "active": false,
+    "contextOpen": false,
+    "draft": "Keep the draft steady",
+    "editorShown": true,
+    "filter": "all",
+    "focused": true,
+    "inlineBlockSize": "",
+    "inlineHeight": "",
+    "narrow": false,
+    "naturalContentHeight": 408,
+    "outcomes": [
+      {
+        "completed": true,
+        "reason": "unchanged"
+      },
+      {
+        "completed": true,
+        "reason": "finished"
+      },
+      {
+        "completed": false,
+        "reason": "retargeted"
+      },
+      {
+        "completed": false,
+        "reason": "retargeted"
+      },
+      {
+        "completed": true,
+        "reason": "finished"
+      },
+      {
+        "completed": true,
+        "reason": "focus"
+      }
+    ],
+    "quiet": false,
+    "selectionEnd": 10,
+    "selectionStart": 5,
+    "solid": false,
+    "totalNotes": 3,
+    "touring": false,
+    "updates": 6,
+    "visibleNotes": 3
+  },
+  "sameDraft": true,
+  "sameFrame": true,
+  "samples": [
+    {
+      "actionBottom": 613.375,
+      "active": false,
+      "animations": 0,
+      "at": 502.7000000476837,
+      "contentBottom": 559.375,
+      "contextOpen": false,
+      "controlsBottom": 751.1953125,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 560.375,
+      "frameHeight": 243,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 241,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 2,
+      "touring": true,
+      "updates": 1,
+      "visibleNotes": 2
+    },
+    {
+      "actionBottom": 613.375,
+      "active": false,
+      "animations": 0,
+      "at": 1002.6000000238419,
+      "contentBottom": 559.375,
+      "contextOpen": false,
+      "controlsBottom": 751.1953125,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 560.375,
+      "frameHeight": 243,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 241,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 2,
+      "touring": true,
+      "updates": 1,
+      "visibleNotes": 2
+    },
+    {
+      "actionBottom": 613.375,
+      "active": false,
+      "animations": 0,
+      "at": 1501.7000000476837,
+      "contentBottom": 559.375,
+      "contextOpen": false,
+      "controlsBottom": 751.1953125,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 560.375,
+      "frameHeight": 243,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 241,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 2,
+      "touring": true,
+      "updates": 1,
+      "visibleNotes": 2
+    },
+    {
+      "actionBottom": 797.640625,
+      "active": true,
+      "animations": 1,
+      "at": 2002.9000000953674,
+      "contentBottom": 748.375,
+      "contextOpen": true,
+      "controlsBottom": 864.640625,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 744.640625,
+      "frameHeight": 427.265625,
+      "inlineBlockSize": "auto",
+      "inlineHeight": "243px",
+      "narrow": false,
+      "naturalContentHeight": 430,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": true,
+      "updates": 2,
+      "visibleNotes": 4
+    },
+    {
+      "actionBottom": 802.375,
+      "active": false,
+      "animations": 0,
+      "at": 2502.7000000476837,
+      "contentBottom": 748.375,
+      "contextOpen": true,
+      "controlsBottom": 869.375,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 749.375,
+      "frameHeight": 432,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 430,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": true,
+      "updates": 2,
+      "visibleNotes": 4
+    },
+    {
+      "actionBottom": 802.375,
+      "active": false,
+      "animations": 0,
+      "at": 3002.5,
+      "contentBottom": 748.375,
+      "contextOpen": true,
+      "controlsBottom": 869.375,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 749.375,
+      "frameHeight": 432,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 430,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": true,
+      "updates": 2,
+      "visibleNotes": 4
+    },
+    {
+      "actionBottom": 802.375,
+      "active": false,
+      "animations": 0,
+      "at": 3502.5,
+      "contentBottom": 748.375,
+      "contextOpen": true,
+      "controlsBottom": 869.375,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 749.375,
+      "frameHeight": 432,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 430,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": true,
+      "updates": 2,
+      "visibleNotes": 4
+    },
+    {
+      "actionBottom": 654.59375,
+      "active": true,
+      "animations": 1,
+      "at": 4002.8000000715256,
+      "contentBottom": 612.375,
+      "contextOpen": false,
+      "controlsBottom": 751.1953125,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 601.59375,
+      "frameHeight": 284.21875,
+      "inlineBlockSize": "auto",
+      "inlineHeight": "284.219px",
+      "narrow": false,
+      "naturalContentHeight": 294,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 3,
+      "touring": true,
+      "updates": 4,
+      "visibleNotes": 3
+    },
+    {
+      "actionBottom": 719.375,
+      "active": false,
+      "animations": 0,
+      "at": 4501,
+      "contentBottom": 665.375,
+      "contextOpen": false,
+      "controlsBottom": 786.375,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 666.375,
+      "frameHeight": 349,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 347,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": true,
+      "updates": 5,
+      "visibleNotes": 4
+    },
+    {
+      "actionBottom": 719.375,
+      "active": false,
+      "animations": 0,
+      "at": 5001.100000023842,
+      "contentBottom": 665.375,
+      "contextOpen": false,
+      "controlsBottom": 786.375,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 666.375,
+      "frameHeight": 349,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 347,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": true,
+      "updates": 5,
+      "visibleNotes": 4
+    },
+    {
+      "actionBottom": 719.375,
+      "active": false,
+      "animations": 0,
+      "at": 5502.5,
+      "contentBottom": 665.375,
+      "contextOpen": false,
+      "controlsBottom": 786.375,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 666.375,
+      "frameHeight": 349,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 347,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": true,
+      "updates": 5,
+      "visibleNotes": 4
+    },
+    {
+      "actionBottom": 791.375,
+      "active": false,
+      "animations": 0,
+      "at": 6001.400000095367,
+      "contentBottom": 737.375,
+      "contextOpen": false,
+      "controlsBottom": 858.375,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 738.375,
+      "frameHeight": 421,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": true,
+      "naturalContentHeight": 419,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": true,
+      "updates": 5,
+      "visibleNotes": 4
+    },
+    {
+      "actionBottom": 791.375,
+      "active": false,
+      "animations": 0,
+      "at": 6502.800000071526,
+      "contentBottom": 737.375,
+      "contextOpen": false,
+      "controlsBottom": 858.375,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 738.375,
+      "frameHeight": 421,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": true,
+      "naturalContentHeight": 419,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": true,
+      "updates": 5,
+      "visibleNotes": 4
+    },
+    {
+      "actionBottom": 791.375,
+      "active": false,
+      "animations": 0,
+      "at": 7003.200000047684,
+      "contentBottom": 737.375,
+      "contextOpen": false,
+      "controlsBottom": 858.375,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 738.375,
+      "frameHeight": 421,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": true,
+      "naturalContentHeight": 419,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": true,
+      "updates": 5,
+      "visibleNotes": 4
+    },
+    {
+      "actionBottom": 791.375,
+      "active": false,
+      "animations": 0,
+      "at": 7502.400000095367,
+      "contentBottom": 737.375,
+      "contextOpen": false,
+      "controlsBottom": 858.375,
+      "draft": "Keep the draft steady",
+      "editorShown": false,
+      "filter": "all",
+      "focused": false,
+      "frameBottom": 738.375,
+      "frameHeight": 421,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": true,
+      "naturalContentHeight": 419,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 0,
+      "selectionStart": 0,
+      "solid": false,
+      "totalNotes": 4,
+      "touring": true,
+      "updates": 5,
+      "visibleNotes": 4
+    },
+    {
+      "actionBottom": 780.375,
+      "active": false,
+      "animations": 0,
+      "at": 8002.5,
+      "contentBottom": 726.375,
+      "contextOpen": false,
+      "controlsBottom": 847.375,
+      "draft": "Keep the draft steady",
+      "editorShown": true,
+      "filter": "all",
+      "focused": true,
+      "frameBottom": 727.375,
+      "frameHeight": 410,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 408,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": true,
+          "reason": "focus"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 3,
+      "touring": true,
+      "updates": 6,
+      "visibleNotes": 3
+    },
+    {
+      "actionBottom": 780.375,
+      "active": false,
+      "animations": 0,
+      "at": 8502.600000023842,
+      "contentBottom": 726.375,
+      "contextOpen": false,
+      "controlsBottom": 847.375,
+      "draft": "Keep the draft steady",
+      "editorShown": true,
+      "filter": "all",
+      "focused": true,
+      "frameBottom": 727.375,
+      "frameHeight": 410,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 408,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": true,
+          "reason": "focus"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 3,
+      "touring": true,
+      "updates": 6,
+      "visibleNotes": 3
+    },
+    {
+      "actionBottom": 780.375,
+      "active": false,
+      "animations": 0,
+      "at": 9002.800000071526,
+      "contentBottom": 726.375,
+      "contextOpen": false,
+      "controlsBottom": 847.375,
+      "draft": "Keep the draft steady",
+      "editorShown": true,
+      "filter": "all",
+      "focused": true,
+      "frameBottom": 727.375,
+      "frameHeight": 410,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 408,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": true,
+          "reason": "focus"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 3,
+      "touring": true,
+      "updates": 6,
+      "visibleNotes": 3
+    },
+    {
+      "actionBottom": 780.375,
+      "active": false,
+      "animations": 0,
+      "at": 9501.700000047684,
+      "contentBottom": 726.375,
+      "contextOpen": false,
+      "controlsBottom": 847.375,
+      "draft": "Keep the draft steady",
+      "editorShown": true,
+      "filter": "all",
+      "focused": true,
+      "frameBottom": 727.375,
+      "frameHeight": 410,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 408,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": true,
+          "reason": "focus"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 3,
+      "touring": true,
+      "updates": 6,
+      "visibleNotes": 3
+    },
+    {
+      "actionBottom": 780.375,
+      "active": false,
+      "animations": 0,
+      "at": 10002.400000095367,
+      "contentBottom": 726.375,
+      "contextOpen": false,
+      "controlsBottom": 847.375,
+      "draft": "Keep the draft steady",
+      "editorShown": true,
+      "filter": "all",
+      "focused": true,
+      "frameBottom": 727.375,
+      "frameHeight": 410,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 408,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": true,
+          "reason": "focus"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 3,
+      "touring": true,
+      "updates": 6,
+      "visibleNotes": 3
+    },
+    {
+      "actionBottom": 780.375,
+      "active": false,
+      "animations": 0,
+      "at": 10502.800000071526,
+      "contentBottom": 726.375,
+      "contextOpen": false,
+      "controlsBottom": 847.375,
+      "draft": "Keep the draft steady",
+      "editorShown": true,
+      "filter": "all",
+      "focused": true,
+      "frameBottom": 727.375,
+      "frameHeight": 410,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 408,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": true,
+          "reason": "focus"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 3,
+      "touring": false,
+      "updates": 6,
+      "visibleNotes": 3
+    },
+    {
+      "actionBottom": 780.375,
+      "active": false,
+      "animations": 0,
+      "at": 11002.5,
+      "contentBottom": 726.375,
+      "contextOpen": false,
+      "controlsBottom": 847.375,
+      "draft": "Keep the draft steady",
+      "editorShown": true,
+      "filter": "all",
+      "focused": true,
+      "frameBottom": 727.375,
+      "frameHeight": 410,
+      "inlineBlockSize": "",
+      "inlineHeight": "",
+      "narrow": false,
+      "naturalContentHeight": 408,
+      "outcomes": [
+        {
+          "completed": true,
+          "reason": "unchanged"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": false,
+          "reason": "retargeted"
+        },
+        {
+          "completed": true,
+          "reason": "finished"
+        },
+        {
+          "completed": true,
+          "reason": "focus"
+        }
+      ],
+      "quiet": false,
+      "selectionEnd": 10,
+      "selectionStart": 5,
+      "solid": false,
+      "totalNotes": 3,
+      "touring": false,
+      "updates": 6,
+      "visibleNotes": 3
+    }
+  ],
+  "cameraCSS": null,
+  "cameraStateSubstitutions": false
+}

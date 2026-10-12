@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.38.0-preview.1",
+  "version": "0.39.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -223,6 +223,10 @@
     "./number-transition": {
       "types": "./dist/number-transition.d.ts",
       "import": "./dist/number-transition.js"
+    },
+    "./auto-size": {
+      "types": "./dist/auto-size.d.ts",
+      "import": "./dist/auto-size.js"
     }
   },
   "scripts": {

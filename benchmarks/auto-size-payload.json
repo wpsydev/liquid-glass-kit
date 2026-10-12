@@ -1,0 +1,7 @@
+{
+  "scope": "Optional standalone controller including numeric/lifecycle helpers; no required CSS or default runtime growth",
+  "bytes": 5851,
+  "gzipBytes": 2469,
+  "sourceSHA256": "ac35b501b5fcb6fcbc83ae1a881bf528d2d523c4d9c30b8d67f9d41225c8495b",
+  "defaultRuntimeUntouched": true
+}

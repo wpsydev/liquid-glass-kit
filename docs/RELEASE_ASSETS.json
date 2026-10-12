@@ -1,14 +1,14 @@
 {
-  "version": "0.38.0-preview.1",
+  "version": "0.39.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/number-transition-showcase.mp4",
-      "name": "liquid-glass-calibre.mp4",
+      "path": "docs/campaign/assets/auto-size-showcase.mp4",
+      "name": "liquid-glass-session-notes.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/number-transition-showcase.png",
-      "name": "liquid-glass-calibre.png",
+      "path": "docs/campaign/assets/auto-size-showcase.png",
+      "name": "liquid-glass-session-notes.png",
       "type": "image/png"
     }
   ]

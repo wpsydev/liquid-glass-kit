@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.39.0-preview.1
+
+- Add optional finite natural-height motion around real committed content, with retargeting and immediate focus/width/reduction snaps.
+- Preserve native editing, authored min/max/border/box sizing and conditional cleanup. Fix CSSOM fractional-height normalization that could falsely abandon ownership and strand numeric sizing.
+- Add original Session Notes,20 native desktop viewport/state checks, scoped lifecycle benchmarks and twelve-second cinematic/piano showcase.
+
 ## 0.38.0-preview.1
 
 - Add optional finite number continuity with immediate actual semantic values, replacement by default, explicit nonfinancial interpolation and supported-locale formatting.
