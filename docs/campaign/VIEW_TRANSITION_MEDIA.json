@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 938874,
+  "sha256": "d64d72f132f0dca1bb22e7a2c5e9d960bc187fba2d0e99a18dc30161346ee270",
+  "music": {
+    "style": "garage",
+    "bpm": 132,
+    "seed": 25,
+    "patch": "bell",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Native T3 original SVG gallery/detail/list and real state updates; camera-only 400px bottom spacer; root crossfade removed after first film review; export FPS not app FPS"
+}

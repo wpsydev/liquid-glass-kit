@@ -1,14 +1,14 @@
 {
-  "version": "0.24.0-preview.1",
+  "version": "0.25.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/interaction-feedback-showcase.mp4",
-      "name": "liquid-glass-good-loop.mp4",
+      "path": "docs/campaign/assets/view-transition-showcase.mp4",
+      "name": "liquid-glass-form-state.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/interaction-feedback-showcase.png",
-      "name": "liquid-glass-good-loop.png",
+      "path": "docs/campaign/assets/view-transition-showcase.png",
+      "name": "liquid-glass-form-state.png",
       "type": "image/png"
     }
   ]

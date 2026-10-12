@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.25.0-preview.1
+
+- Add optional same-document native view-transition bridge, safe shared names, exactly-once host callbacks, skip/supersession and direct fallbacks.
+- Keep named-object continuity while switching ordinary root content directly; no custom RAF, geometry polling, router or runtime dependency.
+- Add original Form / State archive, twenty responsive cases, native callback/completion evidence, separate Node fallback/payload measurements and a garage-scored film.
+
 ## 0.24.0-preview.1
 
 - Add finite decorative pixels/sparks/ripple feedback on an owned pointer-transparent canvas, with pooled particles and explicit lifetime/DPR/pixel/burst budgets.

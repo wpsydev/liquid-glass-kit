@@ -104,12 +104,12 @@
     {
       "order": 8,
       "url": "https://godly.website",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Finite decorative interaction feedback",
       "version": "0.24.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/feedback/",
       "video": "docs/campaign/assets/interaction-feedback-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109445011989532806",
       "performance": [
         "benchmarks/interaction-feedback-payload.json",
         "benchmarks/interaction-feedback-browser.json",
@@ -119,13 +119,17 @@
     {
       "order": 9,
       "url": "https://awwwards.com",
-      "status": "implemented-awaiting-validation",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Native same-document view continuity",
+      "version": "0.25.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/view-transition-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/view-transition.json",
+        "benchmarks/view-transition-browser.json",
+        "benchmarks/view-transition-layouts.json"
+      ]
     },
     {
       "order": 10,

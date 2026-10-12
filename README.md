@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.19.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.25.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -150,3 +150,7 @@ Optional `/resource-tree` and `/resource-tree.css` present a single-select hiera
 ## Finite feedback
 
 Optional `/interaction-feedback` adds pixels, sparks or ripples after host-confirmed actions, with a bounded decorative canvas and no idle frame loop. Native controls and real state stay with the host. [API](docs/INTERACTION_FEEDBACK.md) · [Good Loop](https://wpsydev.github.io/liquid-glass-kit/feedback/).
+
+## Native view continuity
+
+Optional `/view-transition` carries named objects between same-document views with an exactly-once host update and direct reduced-motion/unsupported fallbacks. Import its stylesheet separately; the host owns routing, focus and revisions. [API](docs/VIEW_TRANSITION.md) · [Form / State](https://wpsydev.github.io/liquid-glass-kit/transitions/).

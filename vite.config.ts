@@ -36,6 +36,7 @@ export default defineConfig({
         readability: resolve('site/readability/index.html'),
         tree: resolve('site/tree/index.html'),
         feedback: resolve('site/feedback/index.html'),
+        transitions: resolve('site/transitions/index.html'),
       },
     },
   },

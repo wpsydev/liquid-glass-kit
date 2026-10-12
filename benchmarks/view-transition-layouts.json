@@ -1,0 +1,1327 @@
+{
+  "observedAtUtc": "2026-10-12T00:45:34Z",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "dpr": 2,
+  "cases": [
+    {
+      "buttons": [
+        {
+          "height": 110,
+          "id": "",
+          "width": 269
+        },
+        {
+          "height": 110,
+          "id": "",
+          "width": 269
+        },
+        {
+          "height": 110,
+          "id": "",
+          "width": 269
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 121
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "grid",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 4,
+        "nativeCalls": 0,
+        "openProfile": false,
+        "quiet": false,
+        "result": null,
+        "selected": null,
+        "touring": false,
+        "updates": 0
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "id": "back",
+          "width": 85.3671875
+        },
+        {
+          "height": 44,
+          "id": "",
+          "width": 127.71875
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 121
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "detail",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 2,
+        "nativeCalls": 1,
+        "openProfile": false,
+        "quiet": false,
+        "result": {
+          "animated": true,
+          "reason": "complete"
+        },
+        "selected": 0,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 107.5,
+          "id": "",
+          "width": 269
+        },
+        {
+          "height": 107.5,
+          "id": "",
+          "width": 269
+        },
+        {
+          "height": 107.5,
+          "id": "",
+          "width": 269
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 121
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "list",
+      "overflow": false,
+      "state": {
+        "layout": "list",
+        "namedSurfaces": 4,
+        "nativeCalls": 1,
+        "openProfile": false,
+        "quiet": false,
+        "result": {
+          "animated": true,
+          "reason": "complete"
+        },
+        "selected": null,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "id": "back",
+          "width": 85.3671875
+        },
+        {
+          "height": 44,
+          "id": "",
+          "width": 127.71875
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 121
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 121
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "quiet",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 2,
+        "nativeCalls": 0,
+        "openProfile": false,
+        "quiet": true,
+        "result": {
+          "animated": false,
+          "reason": "reduced-motion"
+        },
+        "selected": 2,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 110,
+          "id": "",
+          "width": 339
+        },
+        {
+          "height": 110,
+          "id": "",
+          "width": 339
+        },
+        {
+          "height": 110,
+          "id": "",
+          "width": 339
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 156
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "grid",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 4,
+        "nativeCalls": 0,
+        "openProfile": false,
+        "quiet": false,
+        "result": null,
+        "selected": null,
+        "touring": false,
+        "updates": 0
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "id": "back",
+          "width": 85.3671875
+        },
+        {
+          "height": 44,
+          "id": "",
+          "width": 127.71875
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 156
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "detail",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 2,
+        "nativeCalls": 1,
+        "openProfile": false,
+        "quiet": false,
+        "result": {
+          "animated": true,
+          "reason": "complete"
+        },
+        "selected": 0,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 90,
+          "id": "",
+          "width": 339
+        },
+        {
+          "height": 90,
+          "id": "",
+          "width": 339
+        },
+        {
+          "height": 90,
+          "id": "",
+          "width": 339
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 156
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "list",
+      "overflow": false,
+      "state": {
+        "layout": "list",
+        "namedSurfaces": 4,
+        "nativeCalls": 1,
+        "openProfile": false,
+        "quiet": false,
+        "result": {
+          "animated": true,
+          "reason": "complete"
+        },
+        "selected": null,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "id": "back",
+          "width": 85.3671875
+        },
+        {
+          "height": 44,
+          "id": "",
+          "width": 127.71875
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 156
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 156
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "quiet",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 2,
+        "nativeCalls": 0,
+        "openProfile": false,
+        "quiet": true,
+        "result": {
+          "animated": false,
+          "reason": "reduced-motion"
+        },
+        "selected": 2,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 315,
+          "id": "",
+          "width": 222.6640625
+        },
+        {
+          "height": 315,
+          "id": "",
+          "width": 222.6640625
+        },
+        {
+          "height": 315,
+          "id": "",
+          "width": 222.671875
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 106.546875
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "grid",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 4,
+        "nativeCalls": 0,
+        "openProfile": false,
+        "quiet": false,
+        "result": null,
+        "selected": null,
+        "touring": false,
+        "updates": 0
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "id": "back",
+          "width": 85.3671875
+        },
+        {
+          "height": 44,
+          "id": "",
+          "width": 127.71875
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 106.546875
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "detail",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 2,
+        "nativeCalls": 1,
+        "openProfile": false,
+        "quiet": false,
+        "result": {
+          "animated": true,
+          "reason": "complete"
+        },
+        "selected": 0,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 114,
+          "id": "",
+          "width": 708
+        },
+        {
+          "height": 114,
+          "id": "",
+          "width": 708
+        },
+        {
+          "height": 114,
+          "id": "",
+          "width": 708
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 110.2109375
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "list",
+      "overflow": false,
+      "state": {
+        "layout": "list",
+        "namedSurfaces": 4,
+        "nativeCalls": 1,
+        "openProfile": false,
+        "quiet": false,
+        "result": {
+          "animated": true,
+          "reason": "complete"
+        },
+        "selected": null,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "id": "back",
+          "width": 85.3671875
+        },
+        {
+          "height": 44,
+          "id": "",
+          "width": 127.71875
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 106.546875
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "quiet",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 2,
+        "nativeCalls": 0,
+        "openProfile": false,
+        "quiet": true,
+        "result": {
+          "animated": false,
+          "reason": "reduced-motion"
+        },
+        "selected": 2,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 315,
+          "id": "",
+          "width": 243
+        },
+        {
+          "height": 315,
+          "id": "",
+          "width": 243
+        },
+        {
+          "height": 315,
+          "id": "",
+          "width": 243
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 106.546875
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "grid",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 4,
+        "nativeCalls": 0,
+        "openProfile": false,
+        "quiet": false,
+        "result": null,
+        "selected": null,
+        "touring": false,
+        "updates": 0
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "id": "back",
+          "width": 85.3671875
+        },
+        {
+          "height": 44,
+          "id": "",
+          "width": 127.71875
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 106.546875
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "detail",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 2,
+        "nativeCalls": 1,
+        "openProfile": false,
+        "quiet": false,
+        "result": {
+          "animated": true,
+          "reason": "complete"
+        },
+        "selected": 0,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 114,
+          "id": "",
+          "width": 769
+        },
+        {
+          "height": 114,
+          "id": "",
+          "width": 769
+        },
+        {
+          "height": 114,
+          "id": "",
+          "width": 769
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 110.2109375
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "list",
+      "overflow": false,
+      "state": {
+        "layout": "list",
+        "namedSurfaces": 4,
+        "nativeCalls": 1,
+        "openProfile": false,
+        "quiet": false,
+        "result": {
+          "animated": true,
+          "reason": "complete"
+        },
+        "selected": null,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "id": "back",
+          "width": 85.3671875
+        },
+        {
+          "height": 44,
+          "id": "",
+          "width": 127.71875
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 106.546875
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "quiet",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 2,
+        "nativeCalls": 0,
+        "openProfile": false,
+        "quiet": true,
+        "result": {
+          "animated": false,
+          "reason": "reduced-motion"
+        },
+        "selected": 2,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 450.921875,
+          "id": "",
+          "width": 392
+        },
+        {
+          "height": 450.921875,
+          "id": "",
+          "width": 392
+        },
+        {
+          "height": 450.921875,
+          "id": "",
+          "width": 392
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 106.546875
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "grid",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 4,
+        "nativeCalls": 0,
+        "openProfile": false,
+        "quiet": false,
+        "result": null,
+        "selected": null,
+        "touring": false,
+        "updates": 0
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "id": "back",
+          "width": 85.3671875
+        },
+        {
+          "height": 44,
+          "id": "",
+          "width": 127.71875
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 106.546875
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "detail",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 2,
+        "nativeCalls": 1,
+        "openProfile": false,
+        "quiet": false,
+        "result": {
+          "animated": true,
+          "reason": "complete"
+        },
+        "selected": 0,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 122,
+          "id": "",
+          "width": 1216
+        },
+        {
+          "height": 122,
+          "id": "",
+          "width": 1216
+        },
+        {
+          "height": 122,
+          "id": "",
+          "width": 1216
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 110.2109375
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "list",
+      "overflow": false,
+      "state": {
+        "layout": "list",
+        "namedSurfaces": 4,
+        "nativeCalls": 1,
+        "openProfile": false,
+        "quiet": false,
+        "result": {
+          "animated": true,
+          "reason": "complete"
+        },
+        "selected": null,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "height": 44,
+          "id": "back",
+          "width": 85.3671875
+        },
+        {
+          "height": 44,
+          "id": "",
+          "width": 127.71875
+        },
+        {
+          "height": 44,
+          "id": "layout",
+          "width": 106.546875
+        },
+        {
+          "height": 44,
+          "id": "change-profile",
+          "width": 95.5546875
+        },
+        {
+          "height": 44,
+          "id": "play",
+          "width": 96.203125
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 52.7421875
+        }
+      ],
+      "labels": [
+        {
+          "height": 44,
+          "id": "quiet"
+        },
+        {
+          "height": 44,
+          "id": "solid"
+        }
+      ],
+      "mode": "quiet",
+      "overflow": false,
+      "state": {
+        "layout": "grid",
+        "namedSurfaces": 2,
+        "nativeCalls": 0,
+        "openProfile": false,
+        "quiet": true,
+        "result": {
+          "animated": false,
+          "reason": "reduced-motion"
+        },
+        "selected": 2,
+        "touring": false,
+        "updates": 1
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "focus": {
+    "actualCardClickFocusedDetailHeading": true,
+    "backFocusedOriginalCardIndex": 1
+  },
+  "scope": "Native desktop Chromium responsive cases, not physical phones/Safari/AT. Quiet path directly updates; focus host-owned. Background-tab transition may skip/fail while still updating once."
+}

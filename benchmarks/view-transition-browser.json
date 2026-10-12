@@ -1,0 +1,277 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "burstResults": [
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": false,
+      "error": {},
+      "reason": "superseded"
+    },
+    {
+      "animated": true,
+      "reason": "complete"
+    }
+  ],
+  "callbacks": 26,
+  "customRafRequests": 0,
+  "directResult": {
+    "animated": false,
+    "reason": "reduced-motion"
+  },
+  "dpr": 2,
+  "expectedCallbacks": 26,
+  "jsRectangleReads": 0,
+  "observedAtUtc": "2026-10-12T00:59:09.617Z",
+  "remainingAnimations": 0,
+  "runs": [
+    {
+      "animations": [
+        {
+          "name": "-ua-view-transition-group-anim-lg-view-fixture-probe",
+          "pseudo": "::view-transition-group(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-view-transition-fade-in",
+          "pseudo": "::view-transition-new(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-new(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-old(lg-view-fixture-probe)"
+        }
+      ],
+      "completionMs": 250.09999990463257,
+      "native": true,
+      "ready": true,
+      "result": {
+        "animated": true,
+        "reason": "complete"
+      }
+    },
+    {
+      "animations": [
+        {
+          "name": "-ua-view-transition-group-anim-lg-view-fixture-probe",
+          "pseudo": "::view-transition-group(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-view-transition-fade-in",
+          "pseudo": "::view-transition-new(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-new(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-old(lg-view-fixture-probe)"
+        }
+      ],
+      "completionMs": 267,
+      "native": true,
+      "ready": true,
+      "result": {
+        "animated": true,
+        "reason": "complete"
+      }
+    },
+    {
+      "animations": [
+        {
+          "name": "-ua-view-transition-group-anim-lg-view-fixture-probe",
+          "pseudo": "::view-transition-group(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-view-transition-fade-in",
+          "pseudo": "::view-transition-new(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-new(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-old(lg-view-fixture-probe)"
+        }
+      ],
+      "completionMs": 265.7000000476837,
+      "native": true,
+      "ready": true,
+      "result": {
+        "animated": true,
+        "reason": "complete"
+      }
+    },
+    {
+      "animations": [
+        {
+          "name": "-ua-view-transition-group-anim-lg-view-fixture-probe",
+          "pseudo": "::view-transition-group(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-view-transition-fade-in",
+          "pseudo": "::view-transition-new(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-new(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-old(lg-view-fixture-probe)"
+        }
+      ],
+      "completionMs": 267.39999997615814,
+      "native": true,
+      "ready": true,
+      "result": {
+        "animated": true,
+        "reason": "complete"
+      }
+    },
+    {
+      "animations": [
+        {
+          "name": "-ua-view-transition-group-anim-lg-view-fixture-probe",
+          "pseudo": "::view-transition-group(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-view-transition-fade-in",
+          "pseudo": "::view-transition-new(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-new(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-view-transition-fade-out",
+          "pseudo": "::view-transition-old(lg-view-fixture-probe)"
+        },
+        {
+          "name": "-ua-mix-blend-mode-plus-lighter",
+          "pseudo": "::view-transition-old(lg-view-fixture-probe)"
+        }
+      ],
+      "completionMs": 266.8000000715256,
+      "native": true,
+      "ready": true,
+      "result": {
+        "animated": true,
+        "reason": "complete"
+      }
+    }
+  ],
+  "scope": "Actual native readiness/completion/callback integrity. Completion includes explicit duration and native snapshots; not bridge CPU, FPS, GPU or comparative speedup.",
+  "viewport": [
+    1280,
+    800
+  ]
+}

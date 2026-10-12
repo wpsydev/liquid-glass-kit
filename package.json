@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.24.0-preview.1",
+  "version": "0.25.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -160,7 +160,12 @@
     "./interaction-feedback": {
       "types": "./dist/interaction-feedback.d.ts",
       "import": "./dist/interaction-feedback.js"
-    }
+    },
+    "./view-transition": {
+      "types": "./dist/view-transition.d.ts",
+      "import": "./dist/view-transition.js"
+    },
+    "./view-transition.css": "./dist/view-transition.css"
   },
   "scripts": {
     "build": "node scripts/clean.mjs && node scripts/compile-library.mjs && node scripts/build.mjs",

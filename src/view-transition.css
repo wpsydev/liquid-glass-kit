@@ -1,0 +1,7 @@
+/* Explicit per-call scope; importing this sheet does not animate navigation. */
+html[data-lg-view-transition=active]::view-transition-group(*){animation-duration:var(--lg-view-duration,220ms);animation-timing-function:cubic-bezier(.2,.8,.2,1)}
+html[data-lg-view-transition=active]::view-transition-old(*),html[data-lg-view-transition=active]::view-transition-new(*){animation-duration:var(--lg-view-duration,220ms);animation-timing-function:ease-out}
+/* Switch ordinary content directly; only named objects carry continuity. */
+html[data-lg-view-transition=active]::view-transition-group(root),html[data-lg-view-transition=active]::view-transition-new(root){animation:none;mix-blend-mode:normal}
+html[data-lg-view-transition=active]::view-transition-old(root){display:none}
+@media(prefers-reduced-motion:reduce){html[data-lg-view-transition=active]::view-transition-group(*),html[data-lg-view-transition=active]::view-transition-old(*),html[data-lg-view-transition=active]::view-transition-new(*){animation-duration:0s}}
