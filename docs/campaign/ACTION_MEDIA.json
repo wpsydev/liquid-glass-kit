@@ -48,7 +48,7 @@
     "scope": "T3 desktop Chromium, native connected controllers, actual local fixture. Not physical-phone, Safari, screen-reader, network-save, backend rollback, load/FPS or comparative speedup evidence."
   },
   "film": {
-    "path": "assets/action-showcase.mp4",
+    "path": "docs/campaign/assets/action-showcase.mp4",
     "durationSeconds": 12,
     "width": 960,
     "height": 960,
@@ -72,7 +72,7 @@
     ]
   },
   "poster": {
-    "path": "assets/action-showcase.png",
+    "path": "docs/campaign/assets/action-showcase.png",
     "timeSeconds": 6.5,
     "bytes": 271623,
     "sha256": "228875879f8ca9da8cf09173572a1745b0b307814d7574d3927d33d98e3ffc33"

@@ -2,12 +2,12 @@
   "version": "0.32.0-preview.1",
   "assets": [
     {
-      "path": "assets/action-showcase.mp4",
+      "path": "docs/campaign/assets/action-showcase.mp4",
       "name": "liquid-glass-review-room.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "assets/action-showcase.png",
+      "path": "docs/campaign/assets/action-showcase.png",
       "name": "liquid-glass-review-room.png",
       "type": "image/png"
     }
