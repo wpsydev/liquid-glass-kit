@@ -176,3 +176,5 @@ Optional `/action` coordinates an authored native button or form with single-fli
 Optional `/snap-deck` enhances native CSS scroll-snap with settled-view reporting, cached LTR/RTL targets and explicit motion policy. Authored cards and native buttons keep ordinary semantics and focus. [API](docs/SNAP_DECK.md) · [Offset](https://wpsydev.github.io/liquid-glass-kit/deck/).
 
 Optional `/pricing` preserves integer source charges, explicit monthly rounding and compatible recurring comparisons. Free, contact and usage states stay distinct; the host owns invoices and checkout. [API](docs/PRICING.md) · [RateCard](https://wpsydev.github.io/liquid-glass-kit/pricing/).
+
+Optional `/registry` builds and validates bounded original authored-file recipes against explicit destination roots and declared export snapshots. It generates reviewable JSON and performs no installation, fetching or code execution. [API](docs/REGISTRY.md) · [Artifact Desk](https://wpsydev.github.io/liquid-glass-kit/registry/).

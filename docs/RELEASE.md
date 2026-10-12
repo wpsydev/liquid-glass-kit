@@ -1,13 +1,15 @@
-A rounded headline is not an invoice. **0.34.0-preview.1** adds optional pure `/pricing` models.
+Make the source portable and keep its boundaries explicit. **0.35.0-preview.1** adds optional pure `/registry`.
 
-Keep exact integer charges, explicitly rounded monthly equivalents and matching-scope recurring comparisons. Free/contact/usage are distinct. Currency exponents and offer scope are supplied by the host; there is no conversion, checkout or payment engine.
+Author original files into deterministic JSON with explicit project roots, matching file types, exact dependency pins and a host-declared export snapshot. Traversal targets and undeclared imports reject. This bounded shadcn registry-item subset generates reviewable data; it does not install, fetch, execute source, audit code or publish a marketplace listing.
 
-[RateCard](https://wpsydev.github.io/liquid-glass-kit/pricing/) is an original working pricing study. Switch periods, inspect rounding, use independent fictional USD/JPY/BHD prices and remove incompatible savings. Its native twelve-second120BPM disco/keys film uses actual amounts, with no fabricated data or currency conversion.
+[Artifact Desk](https://wpsydev.github.io/liquid-glass-kit/registry/) has real source/metadata editing, JSON inspection, explicit path repair and a revalidated JSON Blob download. Its declared four-export snapshot is version0.25, not a live package query. Source references and licenses remain the host's responsibility.
 
-Sixty focused tests cover precision, bounds and comparison policy. Twenty-five native desktop Chromium cases fit320–1440px with44px controls/associated labels and16px fields; native quiet/solid controls preserve amounts. Physical phones/Safari/AT unverified.
+The native twelve-second112BPM synthpop/square film shows original recipes, exact JSON, rejected traversal and repair. Camera-only density keeps controls above the captions; no fake source, outcomes or installations. Native Download Blob bytes match displayed JSON plus newline and retain the MIT notice; disk save is unverified.
 
-Optional JS2,573bytesgzip. Node24 warmed model/comparison/JSON workload:100warmups +25×500operations, median normalized batch average0.0426ms/operation. No rendering/checkout/network timing, per-call tail latency or comparative speedup claim. Default core/CSS stay unchanged; SSR strings need aligned locale/ICU data.
+Twenty-three focused tests; fifteen native desktop Chromium cases320–1440px/44px targets/16px fields. Native validation preserves editor identity, value, focus and caret. Physical phones/Safari/AT unverified.
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/PRICING.md) · [Benchmark](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/pricing.json) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/pricing-browser.json)
+Standalone Vite ESM JS4,145bytesgzip. Node24 create/serialize/parse/validate workloads:100warmups+25×200operations each, median normalized batch average0.0859ms for1file and0.8586ms for32files. Excludes rendering, source review, filesystem, install and network; no comparative speedup or per-call tail claim. Default core/CSS stay unchanged.
 
-Use the attached ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.34.0-preview.1`. npm registry publication remains pending. Pricing Pages informed the layout study; reference assets/code were not copied.
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/REGISTRY.md) · [Benchmark](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/registry.json) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/registry-browser.json)
+
+Use the attached ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.35.0-preview.1`. npm registry publication remains pending. 21st.dev informed independently authored recipes; no marketplace source or assets were copied.

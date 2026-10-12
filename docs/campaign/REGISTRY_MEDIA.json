@@ -1,0 +1,42 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 625802,
+  "sha256": "86e499e0baf59f6b8054966328506657a95343194dba9476ca922529fc6ed359",
+  "music": {
+    "style": "synthpop",
+    "bpm": 112,
+    "seed": 35,
+    "patch": "square",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Native T3 actual original Artifact Desk finite10s tour, then actual Download button. Exact JSON, traversal rejection and explicit host repair; no source execution, install, marketplace publication or filesystem save claim. Camera-only density/illustration sizing hides duplicate decorative text and footer; no fake data or geometry receipts.",
+  "nativeCapture": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-d419100c-b28b-495e-b010-11f8ad6900a5-mp4",
+    "tabId": "tab_49",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-d419100c-b28b-495e-b010-11f8ad6900a5-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 587802,
+    "createdAt": "2026-10-12T04:07:07.325Z"
+  },
+  "cameraCSS": ".desk{padding:0 24px}.masthead{height:52px}.intro{padding:12px 0}.intro h1{font-size:48px}.intro-note{display:none}.presets button{min-height:56px;padding:8px 12px}.workspace{margin-top:10px}.author-panel{padding:12px}.metadata-fields,.path-fields{gap:8px}.field{margin-bottom:8px}.artifact-visual{height:154px}#source{height:164px;min-height:164px}.author-panel .panel-heading{margin-bottom:10px}.panel-heading{min-height:56px}.manifest{padding:12px}.validation{padding:12px}.export-actions{padding:10px 12px}.desk-controls{padding:10px 0}.policy{margin-top:10px}footer{display:none}.intro h1{font-size:44px;margin:8px 0 0}.presets button{min-height:52px;padding:6px 12px}pre{height:315px}pre{height:269px}.artifact-object{zoom:.82}.specimen-detail{display:none}",
+  "captions": [
+    "author an original portable recipe",
+    "inspect the exact JSON before sharing",
+    "scoped paths · validate before export"
+  ],
+  "validation": {
+    "fullDecodeExitCode": 0,
+    "decodedFrames": 360,
+    "reviewedFrames": [
+      0.8,
+      4.8,
+      6.7,
+      9.3
+    ],
+    "review": "Readable actual states; controls above caption y882. Initial tour returns valid repaired target, no running animations; native Download increments requested count. Final still held for remainder. Export FPS is not app FPS."
+  },
+  "iterations": "First capture had overlapping tiny specimen labels at the camera density. Second capture reduces illustration size and hides duplicate detail text; host source and validation behavior unchanged."
+}

@@ -1,14 +1,14 @@
 {
-  "version": "0.34.0-preview.1",
+  "version": "0.35.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/pricing-showcase.mp4",
-      "name": "liquid-glass-ratecard.mp4",
+      "path": "docs/campaign/assets/registry-showcase.mp4",
+      "name": "liquid-glass-artifact-desk.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/pricing-showcase.png",
-      "name": "liquid-glass-ratecard.png",
+      "path": "docs/campaign/assets/registry-showcase.png",
+      "name": "liquid-glass-artifact-desk.png",
       "type": "image/png"
     }
   ]

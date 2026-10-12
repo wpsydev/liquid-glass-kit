@@ -1,0 +1,637 @@
+{
+  "scope": "Native T3 desktop Chromium, authored source preview. Five CSS viewport sizes are not physical phones/Safari/AT. Blob bytes verified, no filesystem-transfer/installation/publication claim.",
+  "layouts": [
+    {
+      "id": "surface",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 1,
+        "issue": null,
+        "payloadBytes": 2559,
+        "preset": "surface",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/material.css",
+        "sourceBytes": 1392,
+        "target": "components/liquid-glass/surface.css",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": true,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "id": "continuity",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 1,
+        "issue": null,
+        "payloadBytes": 2694,
+        "preset": "continuity",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/view-transition",
+        "sourceBytes": 1514,
+        "target": "components/liquid-glass/continuity.ts",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": true,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "id": "boundary",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 0,
+        "issue": {
+          "message": "Use a relative ASCII path without hidden/traversal/encoded/reserved segments",
+          "path": "item.files[0].target"
+        },
+        "payloadBytes": 0,
+        "preset": "boundary",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/material.css",
+        "sourceBytes": 1392,
+        "target": "components/liquid-glass/../surface.css",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": false,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "id": "surface",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 1,
+        "issue": null,
+        "payloadBytes": 2559,
+        "preset": "surface",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/material.css",
+        "sourceBytes": 1392,
+        "target": "components/liquid-glass/surface.css",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": true,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "id": "continuity",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 1,
+        "issue": null,
+        "payloadBytes": 2694,
+        "preset": "continuity",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/view-transition",
+        "sourceBytes": 1514,
+        "target": "components/liquid-glass/continuity.ts",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": true,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "id": "boundary",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 0,
+        "issue": {
+          "message": "Use a relative ASCII path without hidden/traversal/encoded/reserved segments",
+          "path": "item.files[0].target"
+        },
+        "payloadBytes": 0,
+        "preset": "boundary",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/material.css",
+        "sourceBytes": 1392,
+        "target": "components/liquid-glass/../surface.css",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": false,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "id": "surface",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 1,
+        "issue": null,
+        "payloadBytes": 2559,
+        "preset": "surface",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/material.css",
+        "sourceBytes": 1392,
+        "target": "components/liquid-glass/surface.css",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": true,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "continuity",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 1,
+        "issue": null,
+        "payloadBytes": 2694,
+        "preset": "continuity",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/view-transition",
+        "sourceBytes": 1514,
+        "target": "components/liquid-glass/continuity.ts",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": true,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "boundary",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 0,
+        "issue": {
+          "message": "Use a relative ASCII path without hidden/traversal/encoded/reserved segments",
+          "path": "item.files[0].target"
+        },
+        "payloadBytes": 0,
+        "preset": "boundary",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/material.css",
+        "sourceBytes": 1392,
+        "target": "components/liquid-glass/../surface.css",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": false,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "surface",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 1,
+        "issue": null,
+        "payloadBytes": 2559,
+        "preset": "surface",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/material.css",
+        "sourceBytes": 1392,
+        "target": "components/liquid-glass/surface.css",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": true,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "id": "continuity",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 1,
+        "issue": null,
+        "payloadBytes": 2694,
+        "preset": "continuity",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/view-transition",
+        "sourceBytes": 1514,
+        "target": "components/liquid-glass/continuity.ts",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": true,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "id": "boundary",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 0,
+        "issue": {
+          "message": "Use a relative ASCII path without hidden/traversal/encoded/reserved segments",
+          "path": "item.files[0].target"
+        },
+        "payloadBytes": 0,
+        "preset": "boundary",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/material.css",
+        "sourceBytes": 1392,
+        "target": "components/liquid-glass/../surface.css",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": false,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "id": "surface",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 1,
+        "issue": null,
+        "payloadBytes": 2559,
+        "preset": "surface",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/material.css",
+        "sourceBytes": 1392,
+        "target": "components/liquid-glass/surface.css",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": true,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "id": "continuity",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 1,
+        "issue": null,
+        "payloadBytes": 2694,
+        "preset": "continuity",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/view-transition",
+        "sourceBytes": 1514,
+        "target": "components/liquid-glass/continuity.ts",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": true,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "id": "boundary",
+      "minFieldFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "state": {
+        "declaredExports": [
+          "@wpsydev/liquid-glass/material.css",
+          "@wpsydev/liquid-glass/material",
+          "@wpsydev/liquid-glass/view-transition",
+          "@wpsydev/liquid-glass/view-transition.css"
+        ],
+        "downloadsRequested": 0,
+        "files": 0,
+        "issue": {
+          "message": "Use a relative ASCII path without hidden/traversal/encoded/reserved segments",
+          "path": "item.files[0].target"
+        },
+        "payloadBytes": 0,
+        "preset": "boundary",
+        "quiet": false,
+        "referencedExport": "@wpsydev/liquid-glass/material.css",
+        "sourceBytes": 1392,
+        "target": "components/liquid-glass/../surface.css",
+        "targetRoot": "components/liquid-glass",
+        "touring": false,
+        "valid": false,
+        "versionDeclaration": "0.25.0-preview.1",
+        "view": "manifest"
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "repair": {
+    "declaredExports": [
+      "@wpsydev/liquid-glass/material.css",
+      "@wpsydev/liquid-glass/material",
+      "@wpsydev/liquid-glass/view-transition",
+      "@wpsydev/liquid-glass/view-transition.css"
+    ],
+    "downloadsRequested": 0,
+    "files": 1,
+    "issue": null,
+    "payloadBytes": 2566,
+    "preset": "boundary",
+    "quiet": false,
+    "referencedExport": "@wpsydev/liquid-glass/material.css",
+    "sourceBytes": 1392,
+    "target": "components/liquid-glass/surface.css",
+    "targetRoot": "components/liquid-glass",
+    "touring": false,
+    "valid": true,
+    "versionDeclaration": "0.25.0-preview.1",
+    "view": "manifest"
+  },
+  "json": {
+    "json": "{\n  \"$schema\": \"https://ui.shadcn.com/schema/registry-item.json\",\n  \"name\": \"artifact-boundary\",\n  \"type\": \"registry:style\",\n  \"files\": [\n    {\n      \"path\": \"registry/artifacts/surface.css\",\n      \"t",
+    "state": {
+      "declaredExports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/material",
+        "@wpsydev/liquid-glass/view-transition",
+        "@wpsydev/liquid-glass/view-transition.css"
+      ],
+      "downloadsRequested": 0,
+      "files": 1,
+      "issue": null,
+      "payloadBytes": 2566,
+      "preset": "boundary",
+      "quiet": false,
+      "referencedExport": "@wpsydev/liquid-glass/material.css",
+      "sourceBytes": 1392,
+      "target": "components/liquid-glass/surface.css",
+      "targetRoot": "components/liquid-glass",
+      "touring": false,
+      "valid": true,
+      "versionDeclaration": "0.25.0-preview.1",
+      "view": "json"
+    },
+    "valid": 1
+  },
+  "functional": {
+    "editor": {
+      "focus": true,
+      "identity": true,
+      "selection": 20,
+      "value": true
+    },
+    "missing": {
+      "declaredExports": [
+        "@wpsydev/liquid-glass/material",
+        "@wpsydev/liquid-glass/view-transition",
+        "@wpsydev/liquid-glass/view-transition.css"
+      ],
+      "downloadsRequested": 0,
+      "files": 0,
+      "issue": {
+        "message": "Imports must be unique members of the host-declared availableExports snapshot",
+        "path": "item.meta.glass.imports"
+      },
+      "payloadBytes": 0,
+      "preset": "surface",
+      "quiet": false,
+      "referencedExport": "@wpsydev/liquid-glass/material.css",
+      "sourceBytes": 1392,
+      "target": "components/liquid-glass/surface.css",
+      "targetRoot": "components/liquid-glass",
+      "touring": false,
+      "valid": false,
+      "versionDeclaration": "0.25.0-preview.1",
+      "view": "manifest"
+    },
+    "version": {
+      "declaredExports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/material",
+        "@wpsydev/liquid-glass/view-transition",
+        "@wpsydev/liquid-glass/view-transition.css"
+      ],
+      "downloadsRequested": 0,
+      "files": 0,
+      "issue": {
+        "message": "Use an exact semantic version, not a range/tag/URL",
+        "path": "item.meta.glass.version"
+      },
+      "payloadBytes": 0,
+      "preset": "surface",
+      "quiet": false,
+      "referencedExport": "@wpsydev/liquid-glass/material.css",
+      "sourceBytes": 1392,
+      "target": "components/liquid-glass/surface.css",
+      "targetRoot": "components/liquid-glass",
+      "touring": false,
+      "valid": false,
+      "versionDeclaration": "latest",
+      "view": "manifest"
+    }
+  },
+  "download": {
+    "bytes": 2559,
+    "exact": true,
+    "files": 1,
+    "hasLicense": true,
+    "schema": "https://ui.shadcn.com/schema/registry-item.json",
+    "state": {
+      "declaredExports": [
+        "@wpsydev/liquid-glass/material.css",
+        "@wpsydev/liquid-glass/material",
+        "@wpsydev/liquid-glass/view-transition",
+        "@wpsydev/liquid-glass/view-transition.css"
+      ],
+      "downloadsRequested": 1,
+      "files": 1,
+      "issue": null,
+      "payloadBytes": 2559,
+      "preset": "surface",
+      "quiet": false,
+      "referencedExport": "@wpsydev/liquid-glass/material.css",
+      "sourceBytes": 1392,
+      "target": "components/liquid-glass/surface.css",
+      "targetRoot": "components/liquid-glass",
+      "touring": false,
+      "valid": true,
+      "versionDeclaration": "0.25.0-preview.1",
+      "view": "manifest"
+    },
+    "type": "application/json;charset=utf-8",
+    "sha256": "7eb0a8d328e798038cdadbda804e88e0ec72760957fd39a3c1f594028da52d91",
+    "scope": "URL.createObjectURL observed Blob from native Download click. Text matches rendered JSON plus newline; filesystem save unverified."
+  }
+}

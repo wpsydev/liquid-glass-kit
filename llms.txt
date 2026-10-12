@@ -95,3 +95,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Pricing models](docs/PRICING.md): exact invoice source amounts, explicit monthly rounding and compatible-scope comparisons.
 - [RateCard](https://wpsydev.github.io/liquid-glass-kit/pricing/): original period/currency study with rounding detail and native comfort controls.
+
+- [Registry recipes](docs/REGISTRY.md): bounded original-file JSON, authorized destinations and explicit host export snapshots.
+- [Artifact Desk](https://wpsydev.github.io/liquid-glass-kit/registry/): original recipe editor, JSON inspection, path rejection and explicit repair.

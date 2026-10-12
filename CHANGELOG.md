@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.35.0-preview.1
+
+- Add optional pure registry-item authoring/validation for a bounded original-file subset, explicit target roots, exact dependency pins and host-declared export snapshots.
+- Reject traversal/secret/config targets, unsafe sizes and undeclared references; deterministic frozen JSON is reviewable data, not installation or source-code certification.
+- Add original Artifact Desk, real JSON Blob export, native editing/layout evidence, two scoped data benchmarks and twelve-second synthpop/square film.
+
 ## 0.34.0-preview.1
 
 - Add optional pure pricing models: exact minor-unit formatting, explicit rounded monthly equivalents and compatible invoice-total comparisons.

@@ -1,0 +1,41 @@
+{
+  "version": "0.34.0-preview.1",
+  "commit": "54057c40647406d08a4abf6ea6b7541e9de0e9e4",
+  "workflows": {
+    "verify": 38201825622,
+    "release": 38201825611,
+    "pages": 38201825623,
+    "conclusion": "success",
+    "tests": 692,
+    "testFiles": 37
+  },
+  "archive": {
+    "members": 159,
+    "bytes": 343528,
+    "sha256": "10109144c9e2c698470101d52d0aa8b25d6112c726ec4920fd0a065deb23337a"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/pricing/",
+    "chunk": "pricing-DoicCcSd.js",
+    "incomparable": {
+      "currency": "BHD",
+      "savings": null,
+      "billingMinor": 35999,
+      "monthlyMinor": 3000,
+      "rounded": true
+    }
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109494456567087251",
+    "replies": [
+      "https://x.com/wpsygames/status/2109494633789309416",
+      "https://x.com/wpsygames/status/2109494807911362804"
+    ],
+    "mainReadback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical pages read back intended text"
+  },
+  "npmRegistry": "pending"
+}
