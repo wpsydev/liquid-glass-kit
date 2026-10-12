@@ -1,0 +1,104 @@
+/* Optional native field anatomy. No reset, blur layer, font request or frame loop. */
+.lg-form-field {
+  display: grid;
+  gap: .5rem;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  color: inherit;
+}
+.lg-form-field > * { min-inline-size: 0; max-inline-size: 100%; box-sizing: border-box; }
+.lg-form-label { font-size: .875rem; font-weight: 600; line-height: 1.5; overflow-wrap: anywhere; }
+.lg-form-description, .lg-form-error {
+  margin: 0;
+  font-size: .875rem;
+  line-height: 1.5;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+.lg-form-description { color: var(--lg-field-muted, inherit); }
+.lg-form-error { color: var(--lg-field-error, #b42318); font-weight: 500; }
+/* Only text-like fields: choice groups retain their native fieldset/legend recipe. */
+:where(input:not([type='checkbox'], [type='radio'], [type='range'], [type='hidden'], [type='button'], [type='submit'], [type='reset'], [type='image']), textarea, select).lg-form-control {
+  box-sizing: border-box;
+  min-inline-size: 0;
+  min-block-size: 44px;
+  inline-size: 100%;
+  max-inline-size: 100%;
+  padding: .65rem .85rem;
+  border: 1px solid var(--lg-field-border, rgb(127 127 127 / .55));
+  border-radius: var(--lg-field-radius, 14px);
+  background: var(--lg-field-fill, rgb(127 127 127 / .08));
+  color: inherit;
+  font: inherit;
+  font-size: max(16px, 1em);
+  line-height: 1.5;
+  transition: border-color 140ms ease;
+}
+textarea.lg-form-control { min-block-size: 7rem; resize: vertical; }
+.lg-form-control:focus-visible { outline: 2px solid var(--lg-field-focus, Highlight); outline-offset: 3px; }
+.lg-form-control[aria-invalid='true'],
+.lg-form-field[data-lg-field-invalid='true'] > .lg-form-control { border-color: var(--lg-field-error, #b42318); }
+/* Keep input/textarea/select first in DOM, followed by authored noninteractive or
+   native-button addons. No order/tabindex manipulation or click-to-focus handler. */
+.lg-form-input-group {
+  display: grid;
+  grid-template-columns: minmax(0, max-content) minmax(0, 1fr) minmax(0, max-content);
+  grid-template-areas: 'block-start block-start block-start' 'inline-start control inline-end' 'block-end block-end block-end';
+  align-items: center;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--lg-field-border, rgb(127 127 127 / .55));
+  border-radius: var(--lg-field-radius, 14px);
+  color: inherit;
+}
+.lg-form-input-group:not(.lg-glass) { background: var(--lg-field-fill, rgb(127 127 127 / .08)); }
+.lg-form-input-group > .lg-form-control {
+  grid-area: control;
+  border: 0;
+  border-radius: inherit;
+  background: transparent;
+}
+.lg-form-input-group > [data-lg-field-addon] {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  box-sizing: border-box;
+  padding: .5rem;
+  overflow-wrap: anywhere;
+}
+.lg-form-input-group > [data-lg-field-addon='inline-start'] { grid-area: inline-start; }
+.lg-form-input-group > [data-lg-field-addon='inline-end'] { grid-area: inline-end; }
+.lg-form-input-group > [data-lg-field-addon='block-start'] { grid-area: block-start; }
+.lg-form-input-group > [data-lg-field-addon='block-end'] { grid-area: block-end; }
+.lg-form-input-group :where(button),
+.lg-form-input-group > button[data-lg-field-addon] {
+  min-inline-size: 44px;
+  min-block-size: 44px;
+  max-inline-size: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  font-size: max(16px, 1em);
+  overflow-wrap: anywhere;
+}
+.lg-form-input-group :where(button):focus-visible { outline: 2px solid var(--lg-field-focus, Highlight); outline-offset: 2px; }
+@supports selector(:focus-within) {
+  .lg-form-input-group:focus-within { outline: 2px solid var(--lg-field-focus, Highlight); outline-offset: 3px; }
+  .lg-form-input-group > .lg-form-control:focus-visible { outline: none; }
+}
+.lg-form-input-group[data-lg-field-invalid='true'],
+.lg-form-field[data-lg-field-invalid='true'] > .lg-form-input-group { border-color: var(--lg-field-error, #b42318); }
+@media (prefers-reduced-motion: reduce) { .lg-form-control { transition: none; } }
+@media (prefers-reduced-transparency: reduce) {
+  .lg-form-control, .lg-form-input-group:not(.lg-glass) { background: var(--lg-field-solid-fill, Canvas); }
+  .lg-form-input-group > .lg-form-control { background: transparent; }
+}
+@media (forced-colors: active) {
+  .lg-form-control, .lg-form-input-group { border-color: CanvasText; background: Canvas; color: CanvasText; }
+  .lg-form-input-group > .lg-form-control { border: 0; background: transparent; }
+  .lg-form-error { color: CanvasText; }
+  .lg-form-control[aria-invalid='true'], .lg-form-input-group[data-lg-field-invalid='true'],
+  .lg-form-field[data-lg-field-invalid='true'] > :where(.lg-form-control, .lg-form-input-group) { border-color: CanvasText; }
+}

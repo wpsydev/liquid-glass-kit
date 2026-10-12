@@ -1,0 +1,725 @@
+{
+  "browser": "T3 collaborative native desktop browser; not Safari/phone/AT coverage",
+  "tabId": "tab_4b",
+  "nativeInvalid": {
+    "errorLinkMin": 44,
+    "focus": "note-title",
+    "labels": [
+      {
+        "connected": true,
+        "id": "note-title",
+        "label": "Note title"
+      },
+      {
+        "connected": true,
+        "id": "note-author",
+        "label": "Your display name"
+      },
+      {
+        "connected": true,
+        "id": "note-collection",
+        "label": "Collection"
+      },
+      {
+        "connected": true,
+        "id": "note-source",
+        "label": "Source URL"
+      },
+      {
+        "connected": true,
+        "id": "note-summary",
+        "label": "The useful part"
+      }
+    ],
+    "state": {
+      "errors": {
+        "note-author": "Please fill out this field.",
+        "note-summary": "Please fill out this field.",
+        "note-title": "Please fill out this field."
+      },
+      "focus": "note-title",
+      "helpOpen": false,
+      "ignoredLateResults": 0,
+      "message": "Check the highlighted native fields. The browser keeps its validation and first-invalid focus.",
+      "notes": [
+        {
+          "author": "Commonplace",
+          "collection": "design",
+          "id": "N01",
+          "source": "",
+          "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+          "title": "A quiet first screen"
+        }
+      ],
+      "pendingDecisions": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "revision": 67,
+      "snapshot": null,
+      "solid": false,
+      "sourceDescriptions": "source-context note-source--description",
+      "sourceRequired": false,
+      "sourceValidity": true,
+      "status": "error",
+      "submissions": 0,
+      "summaryCharacters": 0,
+      "systemReduced": false,
+      "theme": "light",
+      "tourStep": ""
+    },
+    "titleMissing": true
+  },
+  "pending": {
+    "afterSecond": 1,
+    "ariaDisabled": "true",
+    "busyFields": [
+      {
+        "busy": "true",
+        "disabled": false,
+        "id": "note-title"
+      },
+      {
+        "busy": "true",
+        "disabled": false,
+        "id": "note-author"
+      },
+      {
+        "busy": "true",
+        "disabled": false,
+        "id": "note-collection"
+      },
+      {
+        "busy": "true",
+        "disabled": false,
+        "id": "note-source"
+      },
+      {
+        "busy": "true",
+        "disabled": false,
+        "id": "note-summary"
+      }
+    ],
+    "focus": "record",
+    "nativeDisabled": false,
+    "state": {
+      "errors": {},
+      "focus": "record",
+      "helpOpen": false,
+      "ignoredLateResults": 0,
+      "message": "Reviewing this exact local snapshot for 600 ms. You can edit or cancel.",
+      "notes": [
+        {
+          "author": "Commonplace",
+          "collection": "design",
+          "id": "N01",
+          "source": "",
+          "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+          "title": "A quiet first screen"
+        }
+      ],
+      "pendingDecisions": 1,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "revision": 72,
+      "snapshot": {
+        "revision": 72,
+        "submitter": "record",
+        "values": [
+          [
+            "title",
+            "A better way to show sources"
+          ],
+          [
+            "author",
+            "Alex Rivers"
+          ],
+          [
+            "collection",
+            "design"
+          ],
+          [
+            "source",
+            "https://example.test/notes/source"
+          ],
+          [
+            "summary",
+            "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+          ],
+          [
+            "intent",
+            "record"
+          ]
+        ]
+      },
+      "solid": false,
+      "sourceDescriptions": "source-context note-source--description",
+      "sourceRequired": false,
+      "sourceValidity": true,
+      "status": "pending",
+      "submissions": 1,
+      "summaryCharacters": 122,
+      "systemReduced": false,
+      "theme": "light",
+      "tourStep": ""
+    }
+  },
+  "recorded": {
+    "fields": [
+      {
+        "busy": null,
+        "id": "note-title",
+        "invalid": null
+      },
+      {
+        "busy": null,
+        "id": "note-author",
+        "invalid": null
+      },
+      {
+        "busy": null,
+        "id": "note-collection",
+        "invalid": null
+      },
+      {
+        "busy": null,
+        "id": "note-source",
+        "invalid": null
+      },
+      {
+        "busy": null,
+        "id": "note-summary",
+        "invalid": null
+      }
+    ],
+    "kept": true,
+    "state": {
+      "errors": {},
+      "focus": "record",
+      "helpOpen": false,
+      "ignoredLateResults": 0,
+      "message": "N02 recorded on this local desk. Your field values stay available for editing.",
+      "notes": [
+        {
+          "author": "Alex Rivers",
+          "collection": "design",
+          "id": "N02",
+          "source": "https://example.test/notes/source",
+          "summary": "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time.",
+          "title": "A better way to show sources"
+        },
+        {
+          "author": "Commonplace",
+          "collection": "design",
+          "id": "N01",
+          "source": "",
+          "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+          "title": "A quiet first screen"
+        }
+      ],
+      "pendingDecisions": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "revision": 72,
+      "snapshot": {
+        "revision": 72,
+        "submitter": "record",
+        "values": [
+          [
+            "title",
+            "A better way to show sources"
+          ],
+          [
+            "author",
+            "Alex Rivers"
+          ],
+          [
+            "collection",
+            "design"
+          ],
+          [
+            "source",
+            "https://example.test/notes/source"
+          ],
+          [
+            "summary",
+            "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+          ],
+          [
+            "intent",
+            "record"
+          ]
+        ]
+      },
+      "solid": false,
+      "sourceDescriptions": "source-context note-source--description",
+      "sourceRequired": false,
+      "sourceValidity": true,
+      "status": "recorded",
+      "submissions": 1,
+      "summaryCharacters": 122,
+      "systemReduced": false,
+      "theme": "light",
+      "tourStep": ""
+    }
+  },
+  "more": {
+    "caret": {
+      "focus": "note-title",
+      "kept": true,
+      "references": "source-context source-guide note-source--description",
+      "referencesResolve": true,
+      "selection": [
+        5,
+        9
+      ]
+    },
+    "required": {
+      "label": "Source URL (required)",
+      "nativeType": "url",
+      "ruleSource": "native select DOM input fixture",
+      "sourceRequired": true,
+      "valueMissing": true
+    },
+    "requiredSubmit": {
+      "focus": "note-source",
+      "state": {
+        "errors": {
+          "note-source": "Please fill out this field."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Check the highlighted native fields. The browser keeps its validation and first-invalid focus.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 77,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description note-source--error",
+        "sourceRequired": true,
+        "sourceValidity": false,
+        "status": "error",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    "localError": {
+      "errorNode": true,
+      "liveErrors": 0,
+      "references": "note-title--description note-title--error",
+      "state": {
+        "errors": {
+          "note-title": "That title is already on this local desk. Give this thought a distinct title."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "The local review needs one correction. That title is already on this local desk. Give this thought a distinct title.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 81,
+        "snapshot": {
+          "revision": 81,
+          "submitter": "record",
+          "values": [
+            [
+              "title",
+              "A quiet first screen"
+            ],
+            [
+              "author",
+              "Alex Rivers"
+            ],
+            [
+              "collection",
+              "design"
+            ],
+            [
+              "source",
+              "https://example.test/notes/source"
+            ],
+            [
+              "summary",
+              "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+            ],
+            [
+              "intent",
+              "record"
+            ]
+          ]
+        },
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "error",
+        "submissions": 1,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    "correction": {
+      "errorNode": false,
+      "focus": "note-title",
+      "identity": true,
+      "invalid": null,
+      "references": "note-title--description",
+      "selection": 1,
+      "state": {
+        "errors": {},
+        "focus": "note-title",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Correction kept. Explicitly submit when the note is ready.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 82,
+        "snapshot": {
+          "revision": 81,
+          "submitter": "record",
+          "values": [
+            [
+              "title",
+              "A quiet first screen"
+            ],
+            [
+              "author",
+              "Alex Rivers"
+            ],
+            [
+              "collection",
+              "design"
+            ],
+            [
+              "source",
+              "https://example.test/notes/source"
+            ],
+            [
+              "summary",
+              "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+            ],
+            [
+              "intent",
+              "record"
+            ]
+          ]
+        },
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "changed",
+        "submissions": 1,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    "editPending": {
+      "current": "A different current draft",
+      "identity": true,
+      "original": "A better way to show sources",
+      "state": {
+        "errors": {},
+        "focus": "note-title",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "The note changed. Its earlier local review was cancelled; submit the current version when ready.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 87,
+        "snapshot": {
+          "revision": 86,
+          "submitter": "record",
+          "values": [
+            [
+              "title",
+              "A better way to show sources"
+            ],
+            [
+              "author",
+              "Alex Rivers"
+            ],
+            [
+              "collection",
+              "design"
+            ],
+            [
+              "source",
+              "https://example.test/notes/source"
+            ],
+            [
+              "summary",
+              "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+            ],
+            [
+              "intent",
+              "record"
+            ]
+          ]
+        },
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "changed",
+        "submissions": 1,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    }
+  },
+  "late": {
+    "after": {
+      "errors": {},
+      "focus": "late-result",
+      "helpOpen": false,
+      "ignoredLateResults": 1,
+      "message": "Review cancelled. Your fields are intact. A late result cannot add the old note.",
+      "notes": [
+        {
+          "author": "Commonplace",
+          "collection": "design",
+          "id": "N01",
+          "source": "",
+          "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+          "title": "A quiet first screen"
+        }
+      ],
+      "pendingDecisions": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "revision": 92,
+      "snapshot": {
+        "revision": 91,
+        "submitter": "record",
+        "values": [
+          [
+            "title",
+            "A better way to show sources"
+          ],
+          [
+            "author",
+            "Alex Rivers"
+          ],
+          [
+            "collection",
+            "design"
+          ],
+          [
+            "source",
+            "https://example.test/notes/source"
+          ],
+          [
+            "summary",
+            "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+          ],
+          [
+            "intent",
+            "record"
+          ]
+        ]
+      },
+      "solid": false,
+      "sourceDescriptions": "source-context note-source--description",
+      "sourceRequired": false,
+      "sourceValidity": true,
+      "status": "cancelled",
+      "submissions": 1,
+      "summaryCharacters": 122,
+      "systemReduced": false,
+      "theme": "light",
+      "tourStep": ""
+    },
+    "before": {
+      "errors": {},
+      "focus": "late-result",
+      "helpOpen": false,
+      "ignoredLateResults": 0,
+      "message": "Review cancelled. Your fields are intact. A late result cannot add the old note.",
+      "notes": [
+        {
+          "author": "Commonplace",
+          "collection": "design",
+          "id": "N01",
+          "source": "",
+          "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+          "title": "A quiet first screen"
+        }
+      ],
+      "pendingDecisions": 1,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "revision": 92,
+      "snapshot": {
+        "revision": 91,
+        "submitter": "record",
+        "values": [
+          [
+            "title",
+            "A better way to show sources"
+          ],
+          [
+            "author",
+            "Alex Rivers"
+          ],
+          [
+            "collection",
+            "design"
+          ],
+          [
+            "source",
+            "https://example.test/notes/source"
+          ],
+          [
+            "summary",
+            "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+          ],
+          [
+            "intent",
+            "record"
+          ]
+        ]
+      },
+      "solid": false,
+      "sourceDescriptions": "source-context note-source--description",
+      "sourceRequired": false,
+      "sourceValidity": true,
+      "status": "cancelled",
+      "submissions": 1,
+      "summaryCharacters": 122,
+      "systemReduced": false,
+      "theme": "light",
+      "tourStep": ""
+    },
+    "checked": true
+  },
+  "motion": {
+    "finishedAnimation": "none",
+    "first": "matrix(0.955449, 0.295155, -0.295155, 0.955449, 0, 0)",
+    "moved": true,
+    "quietAnimation": "none",
+    "second": "matrix(0.0743064, 0.997235, -0.997235, 0.0743064, 0, 0)",
+    "state": {
+      "errors": {},
+      "focus": "BODY",
+      "helpOpen": false,
+      "ignoredLateResults": 0,
+      "message": "N02 recorded on this local desk. Your field values stay available for editing.",
+      "notes": [
+        {
+          "author": "Alex Rivers",
+          "collection": "design",
+          "id": "N02",
+          "source": "https://example.test/notes/source",
+          "summary": "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time.",
+          "title": "A better way to show sources"
+        },
+        {
+          "author": "Commonplace",
+          "collection": "design",
+          "id": "N01",
+          "source": "",
+          "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+          "title": "A quiet first screen"
+        }
+      ],
+      "pendingDecisions": 0,
+      "pendingTourSteps": 0,
+      "quiet": true,
+      "revision": 99,
+      "snapshot": {
+        "revision": 99,
+        "submitter": "record",
+        "values": [
+          [
+            "title",
+            "A better way to show sources"
+          ],
+          [
+            "author",
+            "Alex Rivers"
+          ],
+          [
+            "collection",
+            "design"
+          ],
+          [
+            "source",
+            "https://example.test/notes/source"
+          ],
+          [
+            "summary",
+            "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+          ],
+          [
+            "intent",
+            "record"
+          ]
+        ]
+      },
+      "solid": false,
+      "sourceDescriptions": "source-context note-source--description",
+      "sourceRequired": false,
+      "sourceValidity": true,
+      "status": "recorded",
+      "submissions": 1,
+      "summaryCharacters": 122,
+      "systemReduced": false,
+      "theme": "light",
+      "tourStep": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "Optional standalone field factory, not the full demo or default material runtime",
+  "helper": {
+    "bytes": 3075,
+    "gzipBytes": 1364,
+    "sourceSHA256": "95c3bbe28376b63d7ff6943a5ffe4fff0233b06909cbc25036966df77ea4d9d6"
+  },
+  "css": {
+    "bytes": 4768,
+    "gzipBytes": 1270,
+    "sourceSHA256": "bb09326785621193c60f1811b5c8e714833e261dea99d656cc49654cb0e5fb66"
+  },
+  "includes": "Pure validation, frozen props and text relationships; no DOM, network, renderer, runtime dependencies or controller"
+}

@@ -266,12 +266,12 @@
     {
       "order": 19,
       "url": "https://21st.dev",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Original authored-file registry item builder and validator",
       "version": "0.35.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/registry/",
       "video": "docs/campaign/assets/registry-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109497953865920930",
       "performance": [
         "benchmarks/registry.json",
         "benchmarks/registry-browser.json"
@@ -280,13 +280,18 @@
     {
       "order": 20,
       "url": "https://ui.shadcn.com",
-      "status": "researched",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Pure native field anatomy and logical input groups",
+      "version": "0.36.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/field-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/field-payload.json",
+        "benchmarks/field-lifecycle-native.json",
+        "benchmarks/field-native.json",
+        "benchmarks/field-responsive.json"
+      ]
     },
     {
       "order": 21,

@@ -98,3 +98,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Registry recipes](docs/REGISTRY.md): bounded original-file JSON, authorized destinations and explicit host export snapshots.
 - [Artifact Desk](https://wpsydev.github.io/liquid-glass-kit/registry/): original recipe editor, JSON inspection, path rejection and explicit repair.
+
+- [Native field anatomy](docs/FIELD.md): visible labels, current context/errors, host validation and controlled removal of stale references.
+- [Commonplace](https://wpsydev.github.io/liquid-glass-kit/fields/): local note editor, native constraints, editable review snapshots and late-result guards.

@@ -450,3 +450,15 @@ Fifteen nativeT3desktopChromium3presets×5viewport320–1440cases fitnoflow/44ta
 Two nativecamera iterations; final12second360framefilm112BPMsynthpop/squareseed35,625802bytes SHA256 `86e499e0baf59f6b8054966328506657a95343194dba9476ca922529fc6ed359`. Actual10stour/JSON/rejection/repair,0finalrunninganimations/nativeDownloadrequest1. Camera-onlydensity/art-sizing/duplicate-decorative-text removal recordedverbatim; no fakedoutcomes/source/geometry. Fourfinalframes.8/4.8/6.7/9.3reviewed andfullaudiovisualdecodepass; export30fps notappFPS. Toolpreview callback insertion fix fromv0.31 preservesRegExp-dollar source.
 
 Final integrated npm run check passed1,142tests/53files includingqueuedprototypes. npm pack --dry-run passed162files and excludes future optional entries. This release adds23tests to692publishedtests; published-scope CI follows publication.
+
+0.35 publication: commit316f24819414649bef7431ad5bfcf6127028af06 passedVerify38202791180 (715tests/38files),release38202791332 andPages38202791131. Downloaded162members/352374bytes archive SHA256 `5b6e73d1dd60042df83b5663919be0038b0d7f7c120c19907782cb8162e89266`. Hostedtraversalrejection/actualrepair reproduce; Xmain/two canonicalreplies/video12seconds readback. campaign/REGISTRY_PUBLICATION.json. npmregistry pending.
+
+## 0.36 native fields (2026-10-12)
+
+42 focused tests coverpurefieldanatomy/bounds/labels/contextrefs/error/busy/announcements/SSR, plusconnectedCSSaddon regression. ActualnativeHelp42.2px beforecascadefix/44pxafter. Hostshorterror-summary links29.59px before/44pxafter. TwentyfinalnativeT3desktopChromium4states×5viewport320–1440cases fitnoflow/44targets+associatedlabels/16fields. ActualnativeRecordrequired/URLfocus/0callbacks, realFormDatasubmitter/singleflight/editablebusy controls, preservedcaret5–9/nativeidentity, duplicatecurrenterror clearsafterphysicalinput, cancelledsnapshot/noncooperativelate resultguard andquietspinner verified. Native select mode changes separatelyfixture-driven; no physicalpopupkeyboard/phones/Safari/AT claim.
+
+Optionalpurefactory1364gzip/CSS1270gzip.400batches after50warmups: construction100calls/batch median normalized.001ms/call; connectedhostadapterapply/clear20cycles/batch .005ms/cycle; combinedtwoconstructions+apply/clear .010ms/cycle. Fields/constraints/labels/valuesretainidentityafterloops. Setup/nativevalidation/forcedlayout/paint/600msasync/networkexcluded, quantizedbatchaverages notper-eventtails/comparativespeedup. There isnoattach/destroyfieldcontroller.
+
+Originalnative10stour exported12seconds360frames960square,124BPMafro/marimba seed36,927864bytes SHA256 `abc91967e44cbb477ca1817e659550bfbc4292e0e95d5c4a2c43fe6303035abf`. Actualfinalcancelled/twonotes/oneignoredlate result/0pending. LiteralcameraCSS+boundedscrolls recorded; nativefields stay16/44, nofakevalidation/modelchanges. Fourframes.9/3.6/5.7/8.5 reviewedbydelegate/full decodepassed. Export30fps notappFPS.
+
+Final integrated npm run check passed1,144tests/53files includingqueuedprototypes. npm pack --dry-run passed166files excludingfutureentries. This release adds42tests to715publishedtests; published-scope CI followspublication.

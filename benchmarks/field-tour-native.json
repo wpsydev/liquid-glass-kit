@@ -1,0 +1,410 @@
+{
+  "raw": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-0664390e-1795-4a9f-ac2a-1fa66c6b6bb4-mp4",
+    "tabId": "tab_4b",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-0664390e-1795-4a9f-ac2a-1fa66c6b6bb4-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 1696235,
+    "createdAt": "2026-10-12T04:20:22.564Z"
+  },
+  "cameraCSS": "@media(min-width:721px){header{min-block-size:52px}.intro{padding-block:18px 16px;gap:35px}.intro h1{font-size:45px;margin-top:6px}.intro>div:last-child>p{font-size:11px;line-height:1.4}.preferences{margin-top:8px;gap:6px 10px}.workspace{grid-template-columns:minmax(0,1.85fr) minmax(0,1fr);gap:22px}.form-paper{padding:16px 18px}.paper-heading h2{font-size:25px}.form-introduction{font-size:10px;line-height:1.4;margin-block:6px 12px}.field-row{grid-template-columns:1.2fr 1fr;gap:12px;margin-bottom:10px}.secondary-row{grid-template-columns:.75fr 1.5fr;margin-bottom:6px}.lg-form-field{gap:4px}.lg-form-label{font-size:11px}.lg-form-description,.lg-form-error{font-size:10px;line-height:1.4}.field-text{min-block-size:0;gap:4px}.source-context{padding-bottom:9px;font-size:9px;line-height:1.4}.source-guide{padding:9px 11px;margin-bottom:10px}.source-guide h3{font-size:11px}.source-guide p{font-size:10px;line-height:1.4;margin-top:4px}.native-group>#note-summary{min-block-size:88px;block-size:88px}.summary-footer{padding:6px 9px!important}.response-fixture{margin:7px 0 9px}.response-fixture legend{font-size:8px}.response-fixture p{font-size:9px;line-height:1.4}.form-actions{padding-top:11px;gap:9px}.form-status{min-block-size:30px;font-size:10px;line-height:1.4;margin-top:8px}.error-summary{padding:9px 11px;margin-block:10px}.error-summary h3,.error-summary li{font-size:10px}.error-summary li{padding-block:0}.error-summary ul{margin-top:3px}.desk-poster{padding:16px}.desk-poster svg{max-block-size:160px}.desk-poster>p{font-size:28px}.poster-foot{font-size:8px;margin-top:10px}.notes-heading{margin-block:16px 10px}.notes-heading h2{font-size:23px}.note-card{padding-block:10px}.note-card h3{font-size:20px}.note-card>p{font-size:10px;line-height:1.5}.note-author{margin-top:8px}.snapshot{padding:11px}.snapshot p{font-size:9px}.snapshot pre{font-size:9px;max-block-size:190px}.field-anatomy{margin-top:20px;padding-block:20px}footer{padding-block:16px}}@media(min-width:721px){.intro{padding-block:12px}.intro h1{font-size:34px}.intro>div:last-child>p{font-size:10px;line-height:1.35}.preferences{margin-top:6px}.intro .eyebrow{font-size:8px}}",
+  "cameraScrollSteps": [
+    {
+      "atMs": 1600,
+      "position": "authored form top"
+    },
+    {
+      "atMs": 3300,
+      "position": "authored form top"
+    },
+    {
+      "atMs": 6800,
+      "position": "page top"
+    }
+  ],
+  "complete": true,
+  "elapsed": 11460,
+  "final": {
+    "errors": {},
+    "focus": "BODY",
+    "helpOpen": false,
+    "ignoredLateResults": 1,
+    "message": "Review cancelled. Your fields are intact. A late result cannot add the old note.",
+    "notes": [
+      {
+        "author": "Alex Rivers",
+        "collection": "research",
+        "id": "N02",
+        "source": "https://example.test/notes/source",
+        "summary": "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time.",
+        "title": "A better way to show sources"
+      },
+      {
+        "author": "Commonplace",
+        "collection": "design",
+        "id": "N01",
+        "source": "",
+        "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+        "title": "A quiet first screen"
+      }
+    ],
+    "pendingDecisions": 0,
+    "pendingTourSteps": 0,
+    "quiet": true,
+    "revision": 115,
+    "snapshot": {
+      "revision": 114,
+      "submitter": "record",
+      "values": [
+        [
+          "title",
+          "Keep useful errors close"
+        ],
+        [
+          "author",
+          "Alex Rivers"
+        ],
+        [
+          "collection",
+          "research"
+        ],
+        [
+          "source",
+          "https://example.test/notes/source"
+        ],
+        [
+          "summary",
+          "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+        ],
+        [
+          "intent",
+          "record"
+        ]
+      ]
+    },
+    "solid": false,
+    "sourceDescriptions": "source-context note-source--description",
+    "sourceRequired": true,
+    "sourceValidity": true,
+    "status": "cancelled",
+    "submissions": 3,
+    "summaryCharacters": 122,
+    "systemReduced": false,
+    "theme": "light",
+    "tourStep": ""
+  },
+  "samples": [
+    {
+      "at": 503.10000002384186,
+      "errors": {},
+      "ignored": 0,
+      "notes": 1,
+      "pending": 1,
+      "quiet": false,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": false,
+      "status": "pending",
+      "theme": "light",
+      "tourStep": "clear labels / local title check"
+    },
+    {
+      "at": 1002.5,
+      "errors": {
+        "note-title": "That title is already on this local desk. Give this thought a distinct title."
+      },
+      "ignored": 0,
+      "notes": 1,
+      "pending": 0,
+      "quiet": false,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": false,
+      "status": "error",
+      "theme": "light",
+      "tourStep": "clear labels / local title check"
+    },
+    {
+      "at": 1503.6000000238419,
+      "errors": {
+        "note-title": "That title is already on this local desk. Give this thought a distinct title."
+      },
+      "ignored": 0,
+      "notes": 1,
+      "pending": 0,
+      "quiet": false,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": false,
+      "status": "error",
+      "theme": "light",
+      "tourStep": "clear labels / local title check"
+    },
+    {
+      "at": 2002.3999999761581,
+      "errors": {},
+      "ignored": 0,
+      "notes": 1,
+      "pending": 0,
+      "quiet": false,
+      "scrollY": 163.5,
+      "solid": false,
+      "sourceRequired": false,
+      "status": "changed",
+      "theme": "light",
+      "tourStep": "recover / useful source help"
+    },
+    {
+      "at": 2502.600000023842,
+      "errors": {},
+      "ignored": 0,
+      "notes": 1,
+      "pending": 0,
+      "quiet": false,
+      "scrollY": 163.5,
+      "solid": false,
+      "sourceRequired": false,
+      "status": "changed",
+      "theme": "light",
+      "tourStep": "recover / useful source help"
+    },
+    {
+      "at": 3003.2000000476837,
+      "errors": {},
+      "ignored": 0,
+      "notes": 1,
+      "pending": 0,
+      "quiet": false,
+      "scrollY": 163.5,
+      "solid": false,
+      "sourceRequired": false,
+      "status": "changed",
+      "theme": "light",
+      "tourStep": "recover / useful source help"
+    },
+    {
+      "at": 3501.2000000476837,
+      "errors": {},
+      "ignored": 0,
+      "notes": 1,
+      "pending": 1,
+      "quiet": false,
+      "scrollY": 163.5,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "pending",
+      "theme": "light",
+      "tourStep": "native required / real snapshot"
+    },
+    {
+      "at": 4003.100000023842,
+      "errors": {},
+      "ignored": 0,
+      "notes": 2,
+      "pending": 0,
+      "quiet": false,
+      "scrollY": 163.5,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "recorded",
+      "theme": "light",
+      "tourStep": "native required / real snapshot"
+    },
+    {
+      "at": 4501.799999952316,
+      "errors": {},
+      "ignored": 0,
+      "notes": 2,
+      "pending": 0,
+      "quiet": false,
+      "scrollY": 163.5,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "recorded",
+      "theme": "light",
+      "tourStep": "native required / real snapshot"
+    },
+    {
+      "at": 5002.700000047684,
+      "errors": {},
+      "ignored": 0,
+      "notes": 2,
+      "pending": 0,
+      "quiet": false,
+      "scrollY": 163.5,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "recorded",
+      "theme": "light",
+      "tourStep": "native required / real snapshot"
+    },
+    {
+      "at": 5501.600000023842,
+      "errors": {},
+      "ignored": 0,
+      "notes": 2,
+      "pending": 1,
+      "quiet": false,
+      "scrollY": 163.5,
+      "solid": true,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "dark",
+      "tourStep": "cancel / stale-result guard"
+    },
+    {
+      "at": 6003.299999952316,
+      "errors": {},
+      "ignored": 1,
+      "notes": 2,
+      "pending": 0,
+      "quiet": false,
+      "scrollY": 163.5,
+      "solid": true,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "dark",
+      "tourStep": "cancel / stale-result guard"
+    },
+    {
+      "at": 6503.600000023842,
+      "errors": {},
+      "ignored": 1,
+      "notes": 2,
+      "pending": 0,
+      "quiet": false,
+      "scrollY": 163.5,
+      "solid": true,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "dark",
+      "tourStep": "cancel / stale-result guard"
+    },
+    {
+      "at": 7003.5,
+      "errors": {},
+      "ignored": 1,
+      "notes": 2,
+      "pending": 0,
+      "quiet": true,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "light",
+      "tourStep": "late result ignored / quiet"
+    },
+    {
+      "at": 7502,
+      "errors": {},
+      "ignored": 1,
+      "notes": 2,
+      "pending": 0,
+      "quiet": true,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "light",
+      "tourStep": "late result ignored / quiet"
+    },
+    {
+      "at": 8003.399999976158,
+      "errors": {},
+      "ignored": 1,
+      "notes": 2,
+      "pending": 0,
+      "quiet": true,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "light",
+      "tourStep": "late result ignored / quiet"
+    },
+    {
+      "at": 8502.600000023842,
+      "errors": {},
+      "ignored": 1,
+      "notes": 2,
+      "pending": 0,
+      "quiet": true,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "light",
+      "tourStep": "late result ignored / quiet"
+    },
+    {
+      "at": 9001,
+      "errors": {},
+      "ignored": 1,
+      "notes": 2,
+      "pending": 0,
+      "quiet": true,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "light",
+      "tourStep": "late result ignored / quiet"
+    },
+    {
+      "at": 9503.200000047684,
+      "errors": {},
+      "ignored": 1,
+      "notes": 2,
+      "pending": 0,
+      "quiet": true,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "light",
+      "tourStep": "late result ignored / quiet"
+    },
+    {
+      "at": 10004.799999952316,
+      "errors": {},
+      "ignored": 1,
+      "notes": 2,
+      "pending": 0,
+      "quiet": true,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "light",
+      "tourStep": "late result ignored / quiet"
+    },
+    {
+      "at": 10504.600000023842,
+      "errors": {},
+      "ignored": 1,
+      "notes": 2,
+      "pending": 0,
+      "quiet": true,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "light",
+      "tourStep": ""
+    },
+    {
+      "at": 11003.899999976158,
+      "errors": {},
+      "ignored": 1,
+      "notes": 2,
+      "pending": 0,
+      "quiet": true,
+      "scrollY": 0,
+      "solid": false,
+      "sourceRequired": true,
+      "status": "cancelled",
+      "theme": "light",
+      "tourStep": ""
+    }
+  ]
+}

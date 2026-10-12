@@ -1,0 +1,1070 @@
+{
+  "scope": "Native T3 desktop browser, layout viewport emulation; no physical phones/Safari/AT claim",
+  "cases": [
+    {
+      "errorLinks": [],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "ready",
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {},
+        "focus": "BODY",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "A considered example is ready. Submit to record this actual local snapshot.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 3,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "idle",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [
+        44
+      ],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "native-error",
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {
+          "note-source": "Please enter a URL."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Check the highlighted native fields. The browser keeps its validation and first-invalid focus.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 6,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description note-source--error",
+        "sourceRequired": false,
+        "sourceValidity": false,
+        "status": "error",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [
+        64.78125
+      ],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "local-error",
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {
+          "note-title": "That title is already on this local desk. Give this thought a distinct title."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "The local review needs one correction. That title is already on this local desk. Give this thought a distinct title.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 10,
+        "snapshot": {
+          "revision": 10,
+          "submitter": "record",
+          "values": [
+            [
+              "title",
+              "A quiet first screen"
+            ],
+            [
+              "author",
+              "Alex Rivers"
+            ],
+            [
+              "collection",
+              "design"
+            ],
+            [
+              "source",
+              "https://example.test/notes/source"
+            ],
+            [
+              "summary",
+              "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+            ],
+            [
+              "intent",
+              "record"
+            ]
+          ]
+        },
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "error",
+        "submissions": 1,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "research",
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {},
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Research now makes the actual native URL control required. Add an HTTPS source before recording.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 13,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": true,
+        "sourceValidity": false,
+        "status": "idle",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "ready",
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {},
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "A considered example is ready. Submit to record this actual local snapshot.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 16,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "idle",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [
+        44
+      ],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "native-error",
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {
+          "note-source": "Please enter a URL."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Check the highlighted native fields. The browser keeps its validation and first-invalid focus.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 19,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description note-source--error",
+        "sourceRequired": false,
+        "sourceValidity": false,
+        "status": "error",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [
+        47.1875
+      ],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "local-error",
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {
+          "note-title": "That title is already on this local desk. Give this thought a distinct title."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "The local review needs one correction. That title is already on this local desk. Give this thought a distinct title.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 23,
+        "snapshot": {
+          "revision": 23,
+          "submitter": "record",
+          "values": [
+            [
+              "title",
+              "A quiet first screen"
+            ],
+            [
+              "author",
+              "Alex Rivers"
+            ],
+            [
+              "collection",
+              "design"
+            ],
+            [
+              "source",
+              "https://example.test/notes/source"
+            ],
+            [
+              "summary",
+              "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+            ],
+            [
+              "intent",
+              "record"
+            ]
+          ]
+        },
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "error",
+        "submissions": 1,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "research",
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {},
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Research now makes the actual native URL control required. Add an HTTPS source before recording.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 26,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": true,
+        "sourceValidity": false,
+        "status": "idle",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "ready",
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {},
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "A considered example is ready. Submit to record this actual local snapshot.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 29,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "idle",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [
+        44
+      ],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "native-error",
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {
+          "note-source": "Please enter a URL."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Check the highlighted native fields. The browser keeps its validation and first-invalid focus.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 32,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description note-source--error",
+        "sourceRequired": false,
+        "sourceValidity": false,
+        "status": "error",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [
+        47.1875
+      ],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "local-error",
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {
+          "note-title": "That title is already on this local desk. Give this thought a distinct title."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "The local review needs one correction. That title is already on this local desk. Give this thought a distinct title.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 36,
+        "snapshot": {
+          "revision": 36,
+          "submitter": "record",
+          "values": [
+            [
+              "title",
+              "A quiet first screen"
+            ],
+            [
+              "author",
+              "Alex Rivers"
+            ],
+            [
+              "collection",
+              "design"
+            ],
+            [
+              "source",
+              "https://example.test/notes/source"
+            ],
+            [
+              "summary",
+              "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+            ],
+            [
+              "intent",
+              "record"
+            ]
+          ]
+        },
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "error",
+        "submissions": 1,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "research",
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {},
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Research now makes the actual native URL control required. Add an HTTPS source before recording.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 39,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": true,
+        "sourceValidity": false,
+        "status": "idle",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "ready",
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {},
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "A considered example is ready. Submit to record this actual local snapshot.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 42,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "idle",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [
+        44
+      ],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "native-error",
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {
+          "note-source": "Please enter a URL."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Check the highlighted native fields. The browser keeps its validation and first-invalid focus.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 45,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description note-source--error",
+        "sourceRequired": false,
+        "sourceValidity": false,
+        "status": "error",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [
+        47.1875
+      ],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "local-error",
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {
+          "note-title": "That title is already on this local desk. Give this thought a distinct title."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "The local review needs one correction. That title is already on this local desk. Give this thought a distinct title.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 49,
+        "snapshot": {
+          "revision": 49,
+          "submitter": "record",
+          "values": [
+            [
+              "title",
+              "A quiet first screen"
+            ],
+            [
+              "author",
+              "Alex Rivers"
+            ],
+            [
+              "collection",
+              "design"
+            ],
+            [
+              "source",
+              "https://example.test/notes/source"
+            ],
+            [
+              "summary",
+              "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+            ],
+            [
+              "intent",
+              "record"
+            ]
+          ]
+        },
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "error",
+        "submissions": 1,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "research",
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {},
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Research now makes the actual native URL control required. Add an HTTPS source before recording.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 52,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": true,
+        "sourceValidity": false,
+        "status": "idle",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "ready",
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {},
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "A considered example is ready. Submit to record this actual local snapshot.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 55,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "idle",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [
+        44
+      ],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "native-error",
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {
+          "note-source": "Please enter a URL."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Check the highlighted native fields. The browser keeps its validation and first-invalid focus.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 58,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description note-source--error",
+        "sourceRequired": false,
+        "sourceValidity": false,
+        "status": "error",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [
+        44
+      ],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "local-error",
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {
+          "note-title": "That title is already on this local desk. Give this thought a distinct title."
+        },
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "The local review needs one correction. That title is already on this local desk. Give this thought a distinct title.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 62,
+        "snapshot": {
+          "revision": 62,
+          "submitter": "record",
+          "values": [
+            [
+              "title",
+              "A quiet first screen"
+            ],
+            [
+              "author",
+              "Alex Rivers"
+            ],
+            [
+              "collection",
+              "design"
+            ],
+            [
+              "source",
+              "https://example.test/notes/source"
+            ],
+            [
+              "summary",
+              "Keep the original source beside the summary so readers can decide what to trust and inspect the details in their own time."
+            ],
+            [
+              "intent",
+              "record"
+            ]
+          ]
+        },
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": false,
+        "sourceValidity": true,
+        "status": "error",
+        "submissions": 1,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    },
+    {
+      "errorLinks": [],
+      "helpWidth": 44,
+      "overflow": false,
+      "preset": "research",
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "errors": {},
+        "focus": "note-source",
+        "helpOpen": false,
+        "ignoredLateResults": 0,
+        "message": "Research now makes the actual native URL control required. Add an HTTPS source before recording.",
+        "notes": [
+          {
+            "author": "Commonplace",
+            "collection": "design",
+            "id": "N01",
+            "source": "",
+            "summary": "Make the first action obvious. Let secondary choices wait until someone actually needs them.",
+            "title": "A quiet first screen"
+          }
+        ],
+        "pendingDecisions": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "revision": 65,
+        "snapshot": null,
+        "solid": false,
+        "sourceDescriptions": "source-context note-source--description",
+        "sourceRequired": true,
+        "sourceValidity": false,
+        "status": "idle",
+        "submissions": 0,
+        "summaryCharacters": 122,
+        "systemReduced": false,
+        "theme": "light",
+        "tourStep": ""
+      }
+    }
+  ]
+}

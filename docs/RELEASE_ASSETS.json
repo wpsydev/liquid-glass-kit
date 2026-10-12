@@ -1,14 +1,14 @@
 {
-  "version": "0.35.0-preview.1",
+  "version": "0.36.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/registry-showcase.mp4",
-      "name": "liquid-glass-artifact-desk.mp4",
+      "path": "docs/campaign/assets/field-showcase.mp4",
+      "name": "liquid-glass-commonplace.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/registry-showcase.png",
-      "name": "liquid-glass-artifact-desk.png",
+      "path": "docs/campaign/assets/field-showcase.png",
+      "name": "liquid-glass-commonplace.png",
       "type": "image/png"
     }
   ]

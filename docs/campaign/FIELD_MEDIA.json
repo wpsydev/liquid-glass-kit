@@ -1,0 +1,40 @@
+{
+  "durationSeconds": 12,
+  "size": "960x960",
+  "video": "H264 High yuv420p 30fps export; not application FPS",
+  "audio": "AAC LC stereo48000Hz",
+  "fullyDecodedFrames": 360,
+  "originalScore": {
+    "path": "/tmp/lg-field-score.wav",
+    "durationSeconds": 12,
+    "bpm": 124,
+    "style": "afro",
+    "patch": "marimba",
+    "seed": 36,
+    "rms": 0.1477,
+    "provenance": "Original procedural synthesis; no external samples; MIT"
+  },
+  "captions": [
+    "Native labels. Useful context. Recoverable errors.",
+    "Real form snapshots. Explicit local review.",
+    "Late reviews guarded. Quiet and solid choices."
+  ],
+  "files": {
+    "/tmp/lg-field-showcase.mp4": {
+      "bytes": 927864,
+      "sha256": "abc91967e44cbb477ca1817e659550bfbc4292e0e95d5c4a2c43fe6303035abf"
+    },
+    "/tmp/lg-field-showcase.png": {
+      "bytes": 300859,
+      "sha256": "a72832c7ede29b897ce801a19246010337646d5c87b0529f3eb02a27c90df882"
+    },
+    "/tmp/lg-field-score.wav": {
+      "bytes": 2304044,
+      "sha256": "e22fef0d02aeebc5e85f916471d93b6c846b107aa465c540485792ef712a8a05"
+    }
+  },
+  "publishedArtifactPaths": {
+    "video": "docs/campaign/assets/field-showcase.mp4",
+    "poster": "docs/campaign/assets/field-showcase.png"
+  }
+}

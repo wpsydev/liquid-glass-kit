@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f0eef1"><meta name="description" content="An original local writing desk with labeled native fields, useful help, recoverable errors, and deliberate async state."><title>Commonplace / a native field desk</title></head>
+<body data-theme="light" data-quiet="false">
+  <div class="desk">
+    <header><a href="#main" class="wordmark"><span aria-hidden="true">c.</span>commonplace</a><p>A small desk for considered notes</p><a href="#field-anatomy">Field anatomy <span aria-hidden="true">↗</span></a></header>
+    <main id="main">
+      <section class="intro" aria-labelledby="intro-heading"><div><p class="eyebrow">The writing room / No. 07</p><h1 id="intro-heading">Notes need<br><em>room to think.</em></h1></div><div><p>Clear labels. A little context. An error you know how to fix. A good form should help you get back to your own work.</p><div class="preferences"><label>Theme <select id="theme"><option value="light">Light</option><option value="dark">Dark</option></select></label><button type="button" id="solid" aria-pressed="false">Solid material</button><label class="check"><input type="checkbox" id="quiet">Quiet motion</label></div></div></section>
+      <div class="workspace">
+        <section class="form-paper" aria-labelledby="form-heading">
+          <div class="paper-heading"><div><p class="eyebrow">01 / Capture</p><h2 id="form-heading">Keep a useful thought.</h2></div><span class="paper-mark" aria-hidden="true">↗</span></div>
+          <p class="form-introduction">Record a note in this page session. There is no account, upload, or publishing service.</p>
+          <form id="note-form">
+            <div class="field-row">
+              <div class="field-shell" data-field="note-title"><label></label><input id="note-title" name="title" type="text" required minlength="5" maxlength="80" autocomplete="off"><div class="field-text"></div></div>
+              <div class="field-shell" data-field="note-author"><label></label><input id="note-author" name="author" type="text" required minlength="2" maxlength="60" autocomplete="nickname"><div class="field-text"></div></div>
+            </div>
+            <div class="field-row secondary-row">
+              <div class="field-shell" data-field="note-collection"><label></label><select id="note-collection" name="collection"><option value="reading">Reading</option><option value="design">Design</option><option value="research">Research</option></select><div class="field-text"></div></div>
+              <div class="field-shell" data-field="note-source"><label></label><div class="native-group"><input id="note-source" name="source" type="url" maxlength="2048" autocomplete="url" inputmode="url" placeholder="https://example.test/note"><span data-lg-field-addon="inline-start" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m10 14 4-4m-6 6-2 2a4 4 0 0 1-6-6l5-5a4 4 0 0 1 6 0m2 2 2-2a4 4 0 0 1 6 6l-5 5a4 4 0 0 1-6 0" transform="translate(2 0) scale(.85)" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span><button type="button" id="source-help" data-lg-field-addon="inline-end" aria-controls="source-guide" aria-expanded="false">Help</button></div><div class="field-text"></div></div>
+            </div>
+            <p class="source-context" id="source-context">Source addresses are stored as text. This demo never requests their contents.</p>
+            <section class="source-guide" id="source-guide" aria-labelledby="source-guide-heading" hidden><h3 id="source-guide-heading">A source someone can revisit.</h3><p>Use the original article or project URL, rather than a search result. Research notes require an HTTPS source. Other collections can leave this field empty.</p><p>There is no availability, ownership, or security check here.</p></section>
+            <div class="field-shell" data-field="note-summary"><label></label><div class="native-group"><textarea id="note-summary" name="summary" required minlength="20" maxlength="600" rows="4"></textarea><div class="summary-footer" data-lg-field-addon="block-end"><span>Keep the part you would reuse.</span><output id="summary-count" for="note-summary">0 / 600</output></div></div><div class="field-text"></div></div>
+            <fieldset class="response-fixture"><legend>Local response fixture</legend><label class="check"><input id="late-result" type="checkbox">Let one result arrive after cancellation</label><p>Useful for checking stale-result guards. The delayed local review has no external side effects.</p></fieldset>
+            <div class="error-summary" id="error-summary" tabindex="-1" aria-labelledby="error-heading" hidden><h3 id="error-heading">A small correction is needed.</h3><ul id="error-links"></ul></div>
+            <div class="form-actions"><button type="submit" id="record" name="intent" value="record"><span class="submit-icon" aria-hidden="true">↗</span><span>Record local note</span></button><button type="button" id="cancel" disabled>Cancel review</button><span id="state-pill" data-state="idle">idle</span></div>
+            <p class="form-status" id="form-status" role="status" aria-live="polite" aria-atomic="true">Your note stays in this page. Nothing is sent.</p>
+          </form>
+        </section>
+        <aside class="reading-desk" aria-labelledby="desk-heading">
+          <div class="desk-poster" aria-hidden="true"><div class="poster-top"><span>Commonplace</span><span>Vol. 07</span></div><svg viewBox="0 0 360 240"><path d="M87 32h148l38 38v139H87z" fill="#e9e2f1" stroke="#1e1730" stroke-width="2"/><path d="M235 32v38h38" fill="#b1a0ca" stroke="#1e1730" stroke-width="2"/><path d="M68 53h20v139H68z" fill="#1e1730"/><path d="M112 153h134M112 170h106M112 187h121" stroke="#78668c" stroke-width="3"/><text x="109" y="133" font-family="Georgia,serif" font-size="83" fill="#3d2854">n.</text><path d="M288 91v77m-8-77h16m-16 77h16" stroke="#e9e2f1" stroke-width="1.5"/></svg><p>Good notes<br>have a point of view.</p><span class="poster-foot">Original study / useful little details</span></div>
+          <div class="notes-heading"><div><p class="eyebrow">02 / Keep</p><h2 id="desk-heading">The local notebook.</h2></div><span id="note-count">1 note</span></div>
+          <div id="notes"></div>
+          <section class="snapshot" aria-labelledby="snapshot-heading"><h3 id="snapshot-heading">Actual submission snapshot</h3><p>The native form and submitter supply these values. They are sampled at submission, not invented afterward.</p><pre id="snapshot-values">No new submission yet.</pre></section>
+        </aside>
+      </div>
+      <section class="field-anatomy" id="field-anatomy" aria-labelledby="anatomy-heading"><div><p class="eyebrow">Under the surface</p><h2 id="anatomy-heading">A field, not a guessing game.</h2><p>The optional field helper supplies native label, description, and error relationships. The host still owns input types, validation rules, submission, and deliberate focus timing.</p><p>URL and textarea controls come first in their addon groups. Help remains a real button. Errors clear their obsolete description references; edits preserve the input nodes and native selection.</p></div><dl><div><dt>Native source constraint</dt><dd id="readback-required">Optional</dd></div><div><dt>Review in progress</dt><dd id="readback-pending">0 local decisions</dd></div><div><dt>Ignored late results</dt><dd id="readback-stale">0</dd></div><div><dt>Source descriptions</dt><dd id="readback-description">—</dd></div><div><dt>Motion policy</dt><dd id="readback-motion">—</dd></div></dl></section>
+    </main>
+    <footer><p>Commonplace / original artwork &amp; copy · Liquid Glass Kit</p><div><button type="button" id="example">Load a good example</button><button type="button" id="tour">Play the 10-second tour</button><button type="button" id="reset">Reset desk</button></div><p id="tour-status" role="status">No automatic changes</p></footer>
+  </div>
+  <script type="module" src="./main.ts"></script>
+</body>
+</html>

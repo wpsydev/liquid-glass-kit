@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.36.0-preview.1
+
+- Add optional pure field anatomy: visible native labels, current context/error references, explicit invalid/busy state and host-chosen announcement policy.
+- Add optional input-group CSS with logical addons, readable native fields and preference fallbacks. Correct the cascade so button addons retain44px targets; host error-summary links receive44px targets too.
+- Add original Commonplace, real native validation/local-review snapshots, preserved drafts and guarded late results, scoped helper/host-adapter benchmarks and twelve-second afro/marimba film.
+
 ## 0.35.0-preview.1
 
 - Add optional pure registry-item authoring/validation for a bounded original-file subset, explicit target roots, exact dependency pins and host-declared export snapshots.

@@ -1,0 +1,38 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "combinedPropsAndConnectedHostApplyAndClearPerCycle": {
+    "maxMs": 0.03999999761581421,
+    "medianMs": 0.009999996423721314,
+    "minMs": 0,
+    "p95Ms": 0.01499999761581421,
+    "samples": 400
+  },
+  "connectedHostApplyAndClearPerCycle": {
+    "maxMs": 0.010000002384185792,
+    "medianMs": 0.005000001192092896,
+    "minMs": 0,
+    "p95Ms": 0.010000002384185792,
+    "samples": 400
+  },
+  "constructionPerCall": {
+    "maxMs": 0.012000000476837159,
+    "medianMs": 0.0010000002384185792,
+    "minMs": 0,
+    "p95Ms": 0.0020000004768371583,
+    "samples": 400
+  },
+  "controllerExists": false,
+  "excludes": "Fixture/options preparation, native constraint validation, async600ms fixture, forced layout, paint, compositor, network and comparative optimization claim",
+  "fixtures": 20,
+  "identityAndSemantics": true,
+  "includes": {
+    "combined": "Two prop calls plus host adapter apply/clear on existing connected native nodes",
+    "connected": "Precomputed props applied then cleared on existing connected native nodes",
+    "construction": "Pure validation, allocation and freezing only"
+  },
+  "operationsPerApplyClearBatch": 20,
+  "operationsPerConstructionBatch": 100,
+  "recordedBatches": 400,
+  "timerCaveat": "Batch-average durations from performance.now; quantization and shared-machine noise limit interpretation; not per-event latency or FPS",
+  "warmupBatches": 50
+}

@@ -1,0 +1,40 @@
+{
+  "version": "0.35.0-preview.1",
+  "commit": "316f24819414649bef7431ad5bfcf6127028af06",
+  "workflows": {
+    "verify": 38202791180,
+    "release": 38202791332,
+    "pages": 38202791131,
+    "conclusion": "success",
+    "tests": 715,
+    "testFiles": 38
+  },
+  "archive": {
+    "members": 162,
+    "bytes": 352374,
+    "sha256": "5b6e73d1dd60042df83b5663919be0038b0d7f7c120c19907782cb8162e89266"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/registry/",
+    "chunk": "registry-D8Q0pgjA.js",
+    "traversalRejected": true,
+    "repair": {
+      "target": "components/liquid-glass/surface.css",
+      "valid": true,
+      "files": 1
+    }
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109497953865920930",
+    "replies": [
+      "https://x.com/wpsygames/status/2109498126742573113",
+      "https://x.com/wpsygames/status/2109498213325513034"
+    ],
+    "mainReadback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical reply pages read back intended text"
+  },
+  "npmRegistry": "pending"
+}

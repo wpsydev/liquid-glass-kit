@@ -1,15 +1,13 @@
-Make the source portable and keep its boundaries explicit. **0.35.0-preview.1** adds optional pure `/registry`.
+Useful context belongs next to the field. **0.36.0-preview.1** adds optional `/field` and `/field.css`.
 
-Author original files into deterministic JSON with explicit project roots, matching file types, exact dependency pins and a host-declared export snapshot. Traversal targets and undeclared imports reject. This bounded shadcn registry-item subset generates reviewable data; it does not install, fetch, execute source, audit code or publish a marketplace listing.
+Visible native labels, current description/error references, invalid/busy state and explicitly chosen announcements are pure props. Your host keeps native constraints, validation, form state, focus and save behavior. Controlled rendering removes stale errors and references.
 
-[Artifact Desk](https://wpsydev.github.io/liquid-glass-kit/registry/) has real source/metadata editing, JSON inspection, explicit path repair and a revalidated JSON Blob download. Its declared four-export snapshot is version0.25, not a live package query. Source references and licenses remain the host's responsibility.
+[Commonplace](https://wpsydev.github.io/liquid-glass-kit/fields/) is an original real local notes editor. Native requirements, actual FormData snapshots,600ms local-review pacing, editable pending drafts and ignored late results are visible in its twelve-second124BPM afro/marimba film. No remote save is connected.
 
-The native twelve-second112BPM synthpop/square film shows original recipes, exact JSON, rejected traversal and repair. Camera-only density keeps controls above the captions; no fake source, outcomes or installations. Native Download Blob bytes match displayed JSON plus newline and retain the MIT notice; disk save is unverified.
+Native testing found a CSS cascade bug shrinking Help to42.2px; the fix restores44px and has a connected regression. Host error-summary links also receive44px targets. Forty-two focused tests; twenty final native desktop Chromium cases320–1440px fit with44px targets/16px fields. Actual submit/invalid focus/caret/labels/quiet/late-result behavior checked separately. Physical phones/Safari/AT unverified.
 
-Twenty-three focused tests; fifteen native desktop Chromium cases320–1440px/44px targets/16px fields. Native validation preserves editor identity, value, focus and caret. Physical phones/Safari/AT unverified.
+Optional factory1,364bytesgzip/CSS1,270bytesgzip.400native measured batches after50warmups separate pure construction (~0.001ms normalizedbatch/call), connected host adapter apply/clear (~0.005ms/cycle), combined (~0.010ms/cycle). The helper has no attach/destroy controller. Excludes fixture creation, validation, layout/paint, asyncreview and network; no speedup or individual-event tail claim.
 
-Standalone Vite ESM JS4,145bytesgzip. Node24 create/serialize/parse/validate workloads:100warmups+25×200operations each, median normalized batch average0.0859ms for1file and0.8586ms for32files. Excludes rendering, source review, filesystem, install and network; no comparative speedup or per-call tail claim. Default core/CSS stay unchanged.
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/FIELD.md) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/field-native.json) · [Workloads](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/field-lifecycle-native.json)
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/REGISTRY.md) · [Benchmark](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/registry.json) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/registry-browser.json)
-
-Use the attached ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.35.0-preview.1`. npm registry publication remains pending. 21st.dev informed independently authored recipes; no marketplace source or assets were copied.
+Use the attached ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.36.0-preview.1`. npm registry publication remains pending. Default core/CSS/runtime dependencies stay unchanged; original field anatomy does not require a React/Tailwind/Radix stack.
