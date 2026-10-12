@@ -1,0 +1,41 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "caveat": "Batch averages and shared-machine timer quantization, not an app interaction, async backend duration or before/after speed-up; pure model has no DOM or connected-controller lifecycle",
+  "excludes": "Async Promise/microtask completion (verified after timing), demo 220/180ms waits, DOM rendering/focus, style/layout/paint, network, demo card/art authoring",
+  "includes": "Controller validation/allocation, AbortController and frozen snapshots, local fixture arrays and authored synchronous callbacks, phase Promise creation, observable snapshots, destroy/abort cleanup; callbacks actually mutate host membership",
+  "persistent": true,
+  "records": {
+    "applyCommit": {
+      "callsPerBatch": 50,
+      "maxMs": 0.016000001430511473,
+      "medianMs": 0.004000000953674317,
+      "minMs": 0.0019999980926513673,
+      "p95Ms": 0.006000001430511475,
+      "samples": 100,
+      "warmupBatches": 20
+    },
+    "applyUndo": {
+      "callsPerBatch": 50,
+      "maxMs": 0.14,
+      "medianMs": 0.007999999523162842,
+      "minMs": 0.0019999980926513673,
+      "p95Ms": 0.01,
+      "samples": 100,
+      "warmupBatches": 20
+    },
+    "constructDestroy": {
+      "callsPerBatch": 50,
+      "maxMs": 0.014000000953674317,
+      "medianMs": 0.0020000004768371583,
+      "minMs": 0,
+      "p95Ms": 0.007999999523162842,
+      "samples": 100,
+      "warmupBatches": 20
+    }
+  },
+  "totalHostCalls": {
+    "apply": 12000,
+    "commit": 6000,
+    "undo": 6000
+  }
+}

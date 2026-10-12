@@ -1,13 +1,13 @@
-A place for every detail. **0.42.0-preview.1** adds optional `/data-table` and scoped native-table CSS.
+Leave a way back. **0.43.0-preview.1** adds optional `/reversible-action`.
 
-Pure local models cache searchable strings, preserve stable ties/null-last default sorting, and return truthful counts/bounded pages. Actual caption/th scopes/currentaria-sort remain native semantics. The host owns rendering, editing, focus and networking; no grid engine, runtime dependency or virtualization claim.
+Actual host Apply/Undo/Commit callbacks acknowledge real work with an opaque receipt. Persistent Undo is default. Single-flight phases, composed pauses and explicit preview deadlines preserve truthful pending/error/stale outcomes. Abort intent never claims rollback; the host owns compensation and persistent recovery.
 
-[Index](https://wpsydev.github.io/liquid-glass-kit/table/) edits18 original local studio records through real sort/filter/page/edit/empty recovery. Its twelve-second original120BPM disco/keys film records those actual local changes, with disclosed camera framing.
+[Kept](https://wpsydev.github.io/liquid-glass-kit/undo/) archives six original local shelf items, returns the same object/node with Undo and offers separate history Restore after Commit or late work. Its twelve-second original116BPM acoustic-pop nylon/handclap/woodblock score uses a fresh melody/progression/rhythm. No copied animation or invented callback outcome.
 
-23 focused tests;20 native desktop cases320–1440px retain44px targets/16px fields/nopageoverflow. Native ArrowRight scrolls the table only; real typing/caret, stableties, caption/scope, singlearia-sort andlocaledit/recovery checked. Phones/Safari/ATunverified.
+22 focused tests;25 desktop viewport/state cases320–1440px44/16/noflow. Native Archive/EnterUndo/Commit/EnterRestore/focus rescue, receipt/node identity, failedUndo, ignored-abort staleApply, actualdeadlineCommit and composedpause verified. Physicalphones/Safari/AT/livebackgroundOSunverified.
 
-Optional2600gzip/CSS777gzip. Separate5000-row model benchmarks: construction11.70msmedian/filter.14ms/numericsort1.55ms; connected200rowhostauthor/replace1.10msmedian includes inducedsyncstyle/layout. No asynchronouspaint/GPU/FPS/comparativespeedup/whole-applatency claim. Page size bounds rendering, not full-dataset processing.
+Optional2250gzip. Pure50-callbatchmedians: construct/destroy.002ms, sync-hostApplyUndo.008, ApplyCommit.004. ExcludesDOM/demo waits/asyncservices/painting; no connectedrender/FPS/comparative speedup claim.
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/DATA_TABLE.md) · [Benchmark](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/data-table-benchmark-native.json)
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/REVERSIBLE_ACTION.md) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/reversible-action-native.json)
 
-Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.42.0-preview.1`. npm registry pending. Independent Shadcnblocks-inspired behavior without copied premiumblocks or required TanStack/React runtime.
+Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.43.0-preview.1`. npm registry pending. Independent Kinetics-inspired recovery interaction.

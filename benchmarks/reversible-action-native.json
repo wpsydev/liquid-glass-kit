@@ -1,0 +1,1250 @@
+{
+  "applied": {
+    "cardConnected": false,
+    "state": {
+      "archived": [
+        {
+          "cause": null,
+          "id": "K01",
+          "operation": "archive:K01:1",
+          "sameOriginalObject": true,
+          "state": "provisional",
+          "title": "A quieter first screen"
+        }
+      ],
+      "audit": [
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K01:1",
+        "pauseReasons": [],
+        "paused": false,
+        "phase": "apply",
+        "receipt": {
+          "itemId": "K01",
+          "operation": "archive:K01:1",
+          "position": 0
+        },
+        "remainingMs": null,
+        "status": "available"
+      },
+      "fixture": "none",
+      "focus": "undo",
+      "hostSettled": true,
+      "nextMode": "persistent",
+      "operationCount": 1,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    },
+    "undoSame": true
+  },
+  "restored": {
+    "buttonSame": true,
+    "cardSame": true,
+    "state": {
+      "archived": [],
+      "audit": [
+        "archive:K01:1 / same original object restored by Undo",
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K01:1",
+        "pauseReasons": [],
+        "paused": false,
+        "phase": "undo",
+        "receipt": {
+          "itemId": "K01",
+          "operation": "archive:K01:1",
+          "position": 0
+        },
+        "remainingMs": null,
+        "status": "undone"
+      },
+      "fixture": "none",
+      "focus": "archive-K01",
+      "hostSettled": true,
+      "nextMode": "persistent",
+      "operationCount": 1,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K01",
+          "sameOriginalObject": true,
+          "title": "A quieter first screen"
+        },
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    }
+  },
+  "earlyApply": {
+    "archiveAria": "true",
+    "state": {
+      "archived": [],
+      "audit": [],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": false,
+        "key": "archive:K01:1",
+        "pauseReasons": [],
+        "paused": false,
+        "phase": "apply",
+        "receipt": null,
+        "remainingMs": null,
+        "status": "applying"
+      },
+      "fixture": "none",
+      "focus": "archive-K01",
+      "hostSettled": false,
+      "nextMode": "persistent",
+      "operationCount": 1,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 1,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K01",
+          "sameOriginalObject": true,
+          "title": "A quieter first screen"
+        },
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    },
+    "undoDisabled": true
+  },
+  "committed": {
+    "restoreEnabled": true,
+    "state": {
+      "archived": [
+        {
+          "cause": "explicit",
+          "id": "K02",
+          "operation": "archive:K02:2",
+          "sameOriginalObject": true,
+          "state": "committed",
+          "title": "Keep the original source"
+        }
+      ],
+      "audit": [
+        "archive:K02:2 / actual Commit / explicit",
+        "archive:K02:2 / actual Apply",
+        "archive:K01:1 / same original object restored by Undo",
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K02:2",
+        "pauseReasons": [],
+        "paused": false,
+        "phase": "commit",
+        "receipt": {
+          "itemId": "K02",
+          "operation": "archive:K02:2",
+          "position": 1
+        },
+        "remainingMs": null,
+        "status": "committed"
+      },
+      "fixture": "none",
+      "focus": "restore-K02",
+      "hostSettled": true,
+      "nextMode": "persistent",
+      "operationCount": 2,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K01",
+          "sameOriginalObject": true,
+          "title": "A quieter first screen"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    }
+  },
+  "historyRestored": {
+    "restoreGone": true,
+    "savedK02": true,
+    "state": {
+      "archived": [],
+      "audit": [
+        "archive:K02:2 / persistent history Restore / same object K02",
+        "archive:K02:2 / actual Commit / explicit",
+        "archive:K02:2 / actual Apply",
+        "archive:K01:1 / same original object restored by Undo",
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K02:2",
+        "pauseReasons": [],
+        "paused": false,
+        "phase": "commit",
+        "receipt": {
+          "itemId": "K02",
+          "operation": "archive:K02:2",
+          "position": 1
+        },
+        "remainingMs": null,
+        "status": "committed"
+      },
+      "fixture": "none",
+      "focus": "archive-K02",
+      "hostSettled": true,
+      "nextMode": "persistent",
+      "operationCount": 2,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K01",
+          "sameOriginalObject": true,
+          "title": "A quieter first screen"
+        },
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    }
+  },
+  "errorRecovered": {
+    "archived": [],
+    "audit": [
+      "archive:K01:1 / persistent history Restore / same object K01",
+      "archive:K01:1 / Undo fixture rejected before restoration",
+      "archive:K01:1 / actual Apply"
+    ],
+    "controller": {
+      "deadlineMs": null,
+      "error": "Explicit local Undo rejection fixture",
+      "generation": 1,
+      "hasReceipt": true,
+      "key": "archive:K01:1",
+      "pauseReasons": [],
+      "paused": false,
+      "phase": "undo",
+      "receipt": {
+        "itemId": "K01",
+        "operation": "archive:K01:1",
+        "position": 0
+      },
+      "remainingMs": null,
+      "status": "error"
+    },
+    "fixture": "undo-error",
+    "focus": "archive-K01",
+    "hostSettled": true,
+    "nextMode": "persistent",
+    "operationCount": 1,
+    "pendingFixtureActions": 0,
+    "pendingHostCallbacks": 0,
+    "pendingTourSteps": 0,
+    "quiet": false,
+    "saved": [
+      {
+        "id": "K01",
+        "sameOriginalObject": true,
+        "title": "A quieter first screen"
+      },
+      {
+        "id": "K02",
+        "sameOriginalObject": true,
+        "title": "Keep the original source"
+      },
+      {
+        "id": "K03",
+        "sameOriginalObject": true,
+        "title": "Useful little shortcuts"
+      },
+      {
+        "id": "K04",
+        "sameOriginalObject": true,
+        "title": "An error you can recover from"
+      },
+      {
+        "id": "K05",
+        "sameOriginalObject": true,
+        "title": "A note worth keeping"
+      },
+      {
+        "id": "K06",
+        "sameOriginalObject": true,
+        "title": "Room for a longer thought"
+      }
+    ],
+    "solid": false,
+    "staleOutcomes": 0,
+    "tourStep": ""
+  },
+  "stale": {
+    "archived": [
+      {
+        "cause": null,
+        "id": "K01",
+        "operation": "archive:K01:1",
+        "sameOriginalObject": true,
+        "state": "needs recovery",
+        "title": "A quieter first screen"
+      }
+    ],
+    "audit": [
+      "archive:K01:1 / stale apply receipt observed / actual host state retained",
+      "archive:K01:1 / actual Apply",
+      "archive:K01:1 / controller disposed / no silent compensation"
+    ],
+    "controller": {
+      "deadlineMs": null,
+      "error": null,
+      "generation": 2,
+      "hasReceipt": false,
+      "key": "archive:K01:1",
+      "pauseReasons": [],
+      "paused": false,
+      "phase": "apply",
+      "receipt": null,
+      "remainingMs": null,
+      "status": "destroyed"
+    },
+    "fixture": "late-apply",
+    "focus": "BODY",
+    "hostSettled": true,
+    "nextMode": "persistent",
+    "operationCount": 1,
+    "pendingFixtureActions": 0,
+    "pendingHostCallbacks": 0,
+    "pendingTourSteps": 0,
+    "quiet": false,
+    "saved": [
+      {
+        "id": "K02",
+        "sameOriginalObject": true,
+        "title": "Keep the original source"
+      },
+      {
+        "id": "K03",
+        "sameOriginalObject": true,
+        "title": "Useful little shortcuts"
+      },
+      {
+        "id": "K04",
+        "sameOriginalObject": true,
+        "title": "An error you can recover from"
+      },
+      {
+        "id": "K05",
+        "sameOriginalObject": true,
+        "title": "A note worth keeping"
+      },
+      {
+        "id": "K06",
+        "sameOriginalObject": true,
+        "title": "Room for a longer thought"
+      }
+    ],
+    "solid": false,
+    "staleOutcomes": 1,
+    "tourStep": ""
+  },
+  "staleRestored": {
+    "archived": [],
+    "audit": [
+      "archive:K01:1 / persistent history Restore / same object K01",
+      "archive:K01:1 / stale apply receipt observed / actual host state retained",
+      "archive:K01:1 / actual Apply",
+      "archive:K01:1 / controller disposed / no silent compensation"
+    ],
+    "controller": {
+      "deadlineMs": null,
+      "error": null,
+      "generation": 2,
+      "hasReceipt": false,
+      "key": "archive:K01:1",
+      "pauseReasons": [],
+      "paused": false,
+      "phase": "apply",
+      "receipt": null,
+      "remainingMs": null,
+      "status": "destroyed"
+    },
+    "fixture": "late-apply",
+    "focus": "archive-K01",
+    "hostSettled": true,
+    "nextMode": "persistent",
+    "operationCount": 1,
+    "pendingFixtureActions": 0,
+    "pendingHostCallbacks": 0,
+    "pendingTourSteps": 0,
+    "quiet": false,
+    "saved": [
+      {
+        "id": "K01",
+        "sameOriginalObject": true,
+        "title": "A quieter first screen"
+      },
+      {
+        "id": "K02",
+        "sameOriginalObject": true,
+        "title": "Keep the original source"
+      },
+      {
+        "id": "K03",
+        "sameOriginalObject": true,
+        "title": "Useful little shortcuts"
+      },
+      {
+        "id": "K04",
+        "sameOriginalObject": true,
+        "title": "An error you can recover from"
+      },
+      {
+        "id": "K05",
+        "sameOriginalObject": true,
+        "title": "A note worth keeping"
+      },
+      {
+        "id": "K06",
+        "sameOriginalObject": true,
+        "title": "Room for a longer thought"
+      }
+    ],
+    "solid": false,
+    "staleOutcomes": 1,
+    "tourStep": ""
+  },
+  "singleflightRace": {
+    "calls": {
+      "apply": 1,
+      "commit": 0,
+      "undo": 1
+    },
+    "competingApply": "Reversible apply already owns this operation",
+    "competingChoice": "Reversible undo already owns this operation",
+    "history": 0,
+    "sameApplyPromise": true,
+    "sameReceipt": true,
+    "sameUndoPromise": true,
+    "savedSame": true,
+    "status": "undone"
+  },
+  "timedNativeUndo": {
+    "archived": [],
+    "audit": [
+      "archive:K01:1 / same original object restored by Undo",
+      "archive:K01:1 / actual Apply"
+    ],
+    "controller": {
+      "deadlineMs": null,
+      "error": null,
+      "generation": 1,
+      "hasReceipt": true,
+      "key": "archive:K01:1",
+      "pauseReasons": [],
+      "paused": false,
+      "phase": "undo",
+      "receipt": {
+        "itemId": "K01",
+        "operation": "archive:K01:1",
+        "position": 0
+      },
+      "remainingMs": null,
+      "status": "undone"
+    },
+    "fixture": "none",
+    "focus": "archive-K01",
+    "hostSettled": true,
+    "nextMode": "timed",
+    "operationCount": 1,
+    "pendingFixtureActions": 0,
+    "pendingHostCallbacks": 0,
+    "pendingTourSteps": 0,
+    "quiet": false,
+    "saved": [
+      {
+        "id": "K01",
+        "sameOriginalObject": true,
+        "title": "A quieter first screen"
+      },
+      {
+        "id": "K02",
+        "sameOriginalObject": true,
+        "title": "Keep the original source"
+      },
+      {
+        "id": "K03",
+        "sameOriginalObject": true,
+        "title": "Useful little shortcuts"
+      },
+      {
+        "id": "K04",
+        "sameOriginalObject": true,
+        "title": "An error you can recover from"
+      },
+      {
+        "id": "K05",
+        "sameOriginalObject": true,
+        "title": "A note worth keeping"
+      },
+      {
+        "id": "K06",
+        "sameOriginalObject": true,
+        "title": "Room for a longer thought"
+      }
+    ],
+    "solid": false,
+    "staleOutcomes": 0,
+    "tourStep": ""
+  },
+  "pauseComposition": {
+    "after": {
+      "archived": [
+        {
+          "cause": null,
+          "id": "K01",
+          "operation": "archive:K01:1",
+          "sameOriginalObject": true,
+          "state": "provisional",
+          "title": "A quieter first screen"
+        }
+      ],
+      "audit": [
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K01:1",
+        "pauseReasons": [
+          "pointer",
+          "focus",
+          "manual"
+        ],
+        "paused": true,
+        "phase": "apply",
+        "receipt": {
+          "itemId": "K01",
+          "operation": "archive:K01:1",
+          "position": 0
+        },
+        "remainingMs": 3000,
+        "status": "available"
+      },
+      "fixture": "none",
+      "focus": "undo",
+      "hostSettled": true,
+      "nextMode": "timed",
+      "operationCount": 1,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    },
+    "before": {
+      "archived": [
+        {
+          "cause": null,
+          "id": "K01",
+          "operation": "archive:K01:1",
+          "sameOriginalObject": true,
+          "state": "provisional",
+          "title": "A quieter first screen"
+        }
+      ],
+      "audit": [
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K01:1",
+        "pauseReasons": [
+          "pointer",
+          "focus",
+          "manual"
+        ],
+        "paused": true,
+        "phase": "apply",
+        "receipt": {
+          "itemId": "K01",
+          "operation": "archive:K01:1",
+          "position": 0
+        },
+        "remainingMs": 3000,
+        "status": "available"
+      },
+      "fixture": "none",
+      "focus": "undo",
+      "hostSettled": true,
+      "nextMode": "timed",
+      "operationCount": 1,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    },
+    "composed": {
+      "archived": [
+        {
+          "cause": null,
+          "id": "K01",
+          "operation": "archive:K01:1",
+          "sameOriginalObject": true,
+          "state": "provisional",
+          "title": "A quieter first screen"
+        }
+      ],
+      "audit": [
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K01:1",
+        "pauseReasons": [
+          "pointer",
+          "focus"
+        ],
+        "paused": true,
+        "phase": "apply",
+        "receipt": {
+          "itemId": "K01",
+          "operation": "archive:K01:1",
+          "position": 0
+        },
+        "remainingMs": 3000,
+        "status": "available"
+      },
+      "fixture": "none",
+      "focus": "undo",
+      "hostSettled": true,
+      "nextMode": "timed",
+      "operationCount": 1,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    },
+    "released": {
+      "archived": [
+        {
+          "cause": null,
+          "id": "K01",
+          "operation": "archive:K01:1",
+          "sameOriginalObject": true,
+          "state": "provisional",
+          "title": "A quieter first screen"
+        }
+      ],
+      "audit": [
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K01:1",
+        "pauseReasons": [
+          "pointer"
+        ],
+        "paused": true,
+        "phase": "apply",
+        "receipt": {
+          "itemId": "K01",
+          "operation": "archive:K01:1",
+          "position": 0
+        },
+        "remainingMs": 3000,
+        "status": "available"
+      },
+      "fixture": "none",
+      "focus": "mode",
+      "hostSettled": true,
+      "nextMode": "timed",
+      "operationCount": 1,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    }
+  },
+  "deadline": {
+    "available": {
+      "archived": [
+        {
+          "cause": null,
+          "id": "K01",
+          "operation": "archive:K01:1",
+          "sameOriginalObject": true,
+          "state": "provisional",
+          "title": "A quieter first screen"
+        }
+      ],
+      "audit": [
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": 190807.70000004768,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K01:1",
+        "pauseReasons": [],
+        "paused": false,
+        "phase": "apply",
+        "receipt": {
+          "itemId": "K01",
+          "operation": "archive:K01:1",
+          "position": 0
+        },
+        "remainingMs": 2999.600000023842,
+        "status": "available"
+      },
+      "fixture": "none",
+      "focus": "BODY",
+      "hostSettled": true,
+      "nextMode": "timed",
+      "operationCount": 1,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    },
+    "final": {
+      "archived": [
+        {
+          "cause": "deadline",
+          "id": "K01",
+          "operation": "archive:K01:1",
+          "sameOriginalObject": true,
+          "state": "committed",
+          "title": "A quieter first screen"
+        }
+      ],
+      "audit": [
+        "archive:K01:1 / actual Commit / deadline",
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K01:1",
+        "pauseReasons": [],
+        "paused": false,
+        "phase": "commit",
+        "receipt": {
+          "itemId": "K01",
+          "operation": "archive:K01:1",
+          "position": 0
+        },
+        "remainingMs": null,
+        "status": "committed"
+      },
+      "fixture": "none",
+      "focus": "BODY",
+      "hostSettled": true,
+      "nextMode": "timed",
+      "operationCount": 1,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    },
+    "historyRestorable": true
+  },
+  "quiet": {
+    "state": {
+      "archived": [
+        {
+          "cause": "deadline",
+          "id": "K01",
+          "operation": "archive:K01:1",
+          "sameOriginalObject": true,
+          "state": "committed",
+          "title": "A quieter first screen"
+        }
+      ],
+      "audit": [
+        "archive:K01:1 / actual Commit / deadline",
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K01:1",
+        "pauseReasons": [],
+        "paused": false,
+        "phase": "commit",
+        "receipt": {
+          "itemId": "K01",
+          "operation": "archive:K01:1",
+          "position": 0
+        },
+        "remainingMs": null,
+        "status": "committed"
+      },
+      "fixture": "none",
+      "focus": "quiet",
+      "hostSettled": true,
+      "nextMode": "timed",
+      "operationCount": 1,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": true,
+      "saved": [
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    },
+    "transition": "0s"
+  },
+  "solid": {
+    "blur": "none",
+    "pressed": "true",
+    "state": {
+      "archived": [
+        {
+          "cause": "deadline",
+          "id": "K01",
+          "operation": "archive:K01:1",
+          "sameOriginalObject": true,
+          "state": "committed",
+          "title": "A quieter first screen"
+        }
+      ],
+      "audit": [
+        "archive:K01:1 / actual Commit / deadline",
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K01:1",
+        "pauseReasons": [],
+        "paused": false,
+        "phase": "commit",
+        "receipt": {
+          "itemId": "K01",
+          "operation": "archive:K01:1",
+          "position": 0
+        },
+        "remainingMs": null,
+        "status": "committed"
+      },
+      "fixture": "none",
+      "focus": "solid",
+      "hostSettled": true,
+      "nextMode": "timed",
+      "operationCount": 1,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": true,
+      "saved": [
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": true,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    }
+  },
+  "scope": "T3 native Chrome/Electron desktop layout and real clicks/Enter. No physical iOS/Safari/AT/transaction rollback claim. Error/stale/timed setups use explicit original local host fixtures. Focus/pointer/manual pauses native; actual hidden-tab lifecycle not verified."
+}

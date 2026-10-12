@@ -1,0 +1,4315 @@
+{
+  "files": {
+    "showcase.mp4": {
+      "path": "/tmp/lg-reversible-showcase.mp4",
+      "bytes": 791717,
+      "sha256": "5fab2932c8af339251900581c98668b7a31b5241a2758f1128ba368b8d2d060d"
+    },
+    "showcase.png": {
+      "path": "/tmp/lg-reversible-showcase.png",
+      "bytes": 322961,
+      "sha256": "43eb427de282026970d90623516edc6bde9713517bff16cdc65b64a989c7af15"
+    },
+    "score.wav": {
+      "path": "/tmp/lg-reversible-score.wav",
+      "bytes": 2304044,
+      "sha256": "66604121c109f568ebe95f2d0b61c2ed536c122aef8c41968fca8a97e5e0314f"
+    }
+  },
+  "decodedFrames": 360,
+  "video": {
+    "durationSeconds": 12,
+    "width": 960,
+    "height": 960,
+    "fps": 30,
+    "codec": "H264",
+    "pixelFormat": "yuv420p"
+  },
+  "audio": {
+    "codec": "AAC",
+    "rate": 48000,
+    "channels": 2,
+    "style": "acoustic-pop",
+    "bpm": 116,
+    "patch": "nylon pluck / brushed handclaps / woodblock",
+    "seed": 43,
+    "rmsOriginal": 0.1185,
+    "provenance": "Original synthesis, melody/voicings/rhythm; no external samples; MIT"
+  },
+  "decodeLog": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers\n  built with gcc 8 (Debian 8.3.0-6)\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg\n  libavutil      59.  8.100 / 59.  8.100\n  libavcodec     61.  3.100 / 61.  3.100\n  libavformat    61.  1.100 / 61.  1.100\n  libavdevice    61.  1.100 / 61.  1.100\n  libavfilter    10.  1.100 / 10.  1.100\n  libswscale      8.  1.100 /  8.  1.100\n  libswresample   5.  1.100 /  5.  1.100\n  libpostproc    58.  1.100 / 58.  1.100\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/lg-reversible-showcase.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Duration: 00:00:12.00, start: 0.000000, bitrate: 527 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 960x960 [SAR 1:1 DAR 1:1], 309 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 207 kb/s (default)\n      Metadata:\n        handler_name    : SoundHandler\n        vendor_id       : [0][0][0][0]\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> rawvideo (native))\nPress [q] to stop, [?] for help\nOutput #0, framemd5, to '/tmp/lg-reversible-frames.md5':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Stream #0:0(und): Video: rawvideo (I420 / 0x30323449), yuv420p(tv, bt709, progressive), 960x960 [SAR 1:1 DAR 1:1], q=2-31, 331776 kb/s, 30 fps, 30 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 rawvideo\nframe=  247 fps=0.0 q=-0.0 size=      19KiB time=00:00:08.50 bitrate=  18.7kbits/s speed=  17x    \n[out#0/framemd5 @ 0x9e12680] video:486000KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  360 fps=0.0 q=-0.0 Lsize=      28KiB time=00:00:12.00 bitrate=  19.3kbits/s speed=16.9x    \n",
+  "captions": [
+    "archive for now. undo with the same receipt",
+    "persistent restore after host-confirmed commit",
+    "timed windows pause. undo stays a native button"
+  ],
+  "nativeTour": {
+    "camera": ".page{padding-inline:24px}header{min-height:56px}.intro{padding-block:14px 12px;gap:30px;grid-template-columns:1.4fr 1fr}.intro h1{font-size:43px;margin-top:5px;letter-spacing:-1.4px}.intro>p{font-size:11px;line-height:1.5}.preferences{padding-block:9px;gap:11px}.preferences>div{flex-basis:115px;max-inline-size:140px}.preferences>div p{font-size:9px;margin-top:3px}.preferences>label{gap:4px}.fixture-note{font-size:9px;margin-block:7px 12px}.workspace{gap:24px;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr)}.section-heading{margin-bottom:7px}.section-heading h2{font-size:25px;margin-top:4px}.shelf-introduction{font-size:10px;line-height:1.5;margin-bottom:8px}.saved-card{grid-template-columns:50px minmax(0,1fr) auto;gap:11px;padding-block:10px}.item-art{inline-size:50px;block-size:62px;grid-row:auto}.art-paper{inline-size:27px;block-size:36px;inset-inline-start:9px;inset-block-start:9px}.art-paper:before{inset:8px 5px auto;height:2px;box-shadow:0 6px 0 #6f604f,0 12px 0 #6f604f}.art-mark{inline-size:13px;block-size:13px;inset-inline-end:4px;inset-block-end:9px}.item-body h3{font-size:19px;letter-spacing:-.3px}.item-body>p:last-child{font-size:10px;line-height:1.4;margin-top:4px}.item-body .eyebrow{font-size:7px;letter-spacing:.6px}.saved-card .archive-button{grid-column:auto;font-size:10px;padding-inline:9px}.notice{padding:14px 16px}.notice h2{font-size:27px;letter-spacing:-.6px;margin-top:9px}.notice h2 br{display:none}.notice #notice-item{font-size:9px;line-height:1.5;margin-top:10px;padding-bottom:8px}#operation-status{font-size:11px;line-height:1.5;min-height:49px;margin-top:9px}.notice-actions{margin-top:10px;gap:8px}.notice-actions button{font-size:10px;padding-inline:8px}.window-policy{font-size:9px;line-height:1.6;margin-top:8px}.host-details{margin-top:9px;padding-top:0}.history{margin-top:14px}.history .section-heading h2{font-size:25px}.history-introduction{font-size:10px;line-height:1.5;margin-bottom:8px}.history-card{padding-block:10px;gap:12px}.history-card h3{font-size:19px}.history-state{font-size:9px;margin-top:5px}.sampled-window{margin-top:9px;padding-block:8px}.window-actions{margin-top:6px}.sampled-window>p{margin-top:6px}.mechanics{margin-top:20px}.saved-card .archive-button{min-height:44px}.intro{grid-template-columns:1.9fr 1fr;gap:25px}.intro h1{font-size:35px;letter-spacing:-1px;white-space:nowrap}.intro h1 br{display:none}.intro h1 em{margin-left:8px}.saved-card{padding-block:7px}.history{margin-top:10px}.history .section-heading>div{display:flex;align-items:baseline;gap:9px}.history .section-heading h2{font-size:22px;margin-top:0}.history .section-heading .eyebrow{font-size:7px;letter-spacing:.7px}.history-introduction{font-size:9px;line-height:1.4;margin-bottom:6px}.history-card{padding-block:6px}.history-card h3{font-size:18px;margin-top:3px}.history-state{font-size:8px;line-height:1.4;margin-top:3px}",
+    "final": {
+      "archived": [],
+      "audit": [
+        "archive:K03:3 / same original object restored by Undo",
+        "archive:K03:3 / actual Apply",
+        "archive:K02:2 / persistent history Restore / same object K02",
+        "archive:K02:2 / actual Commit / explicit",
+        "archive:K02:2 / actual Apply",
+        "archive:K01:1 / same original object restored by Undo",
+        "archive:K01:1 / actual Apply"
+      ],
+      "controller": {
+        "deadlineMs": null,
+        "error": null,
+        "generation": 1,
+        "hasReceipt": true,
+        "key": "archive:K03:3",
+        "pauseReasons": [],
+        "paused": false,
+        "phase": "undo",
+        "receipt": {
+          "itemId": "K03",
+          "operation": "archive:K03:3",
+          "position": 2
+        },
+        "remainingMs": null,
+        "status": "undone"
+      },
+      "fixture": "none",
+      "focus": "solid",
+      "hostSettled": true,
+      "nextMode": "timed",
+      "operationCount": 3,
+      "pendingFixtureActions": 0,
+      "pendingHostCallbacks": 0,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "saved": [
+        {
+          "id": "K01",
+          "sameOriginalObject": true,
+          "title": "A quieter first screen"
+        },
+        {
+          "id": "K02",
+          "sameOriginalObject": true,
+          "title": "Keep the original source"
+        },
+        {
+          "id": "K03",
+          "sameOriginalObject": true,
+          "title": "Useful little shortcuts"
+        },
+        {
+          "id": "K04",
+          "sameOriginalObject": true,
+          "title": "An error you can recover from"
+        },
+        {
+          "id": "K05",
+          "sameOriginalObject": true,
+          "title": "A note worth keeping"
+        },
+        {
+          "id": "K06",
+          "sameOriginalObject": true,
+          "title": "Room for a longer thought"
+        }
+      ],
+      "solid": false,
+      "staleOutcomes": 0,
+      "tourStep": ""
+    },
+    "samples": [
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 688.6171875,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 644.6171875,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 769.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 725.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 738.3359375,
+            "disabled": true,
+            "font": "11px",
+            "height": 44,
+            "id": "restore-K01",
+            "top": 694.3359375,
+            "width": 64.5234375
+          }
+        ],
+        "elapsed": 0.5,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [
+            {
+              "cause": null,
+              "id": "K01",
+              "operation": "archive:K01:1",
+              "sameOriginalObject": true,
+              "state": "provisional",
+              "title": "A quieter first screen"
+            }
+          ],
+          "audit": [
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K01:1",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "apply",
+            "receipt": {
+              "itemId": "K01",
+              "operation": "archive:K01:1",
+              "position": 0
+            },
+            "remainingMs": null,
+            "status": "available"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 1,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 8,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "persistent / actual Apply receipt"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 688.6171875,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 644.6171875,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 769.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 725.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 738.3359375,
+            "disabled": true,
+            "font": "11px",
+            "height": 44,
+            "id": "restore-K01",
+            "top": 694.3359375,
+            "width": 64.5234375
+          }
+        ],
+        "elapsed": 1,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [
+            {
+              "cause": null,
+              "id": "K01",
+              "operation": "archive:K01:1",
+              "sameOriginalObject": true,
+              "state": "provisional",
+              "title": "A quieter first screen"
+            }
+          ],
+          "audit": [
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K01:1",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "apply",
+            "receipt": {
+              "itemId": "K01",
+              "operation": "archive:K01:1",
+              "position": 0
+            },
+            "remainingMs": null,
+            "status": "available"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 1,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 8,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "persistent / actual Apply receipt"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 688.6171875,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 644.6171875,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 769.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 725.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 738.3359375,
+            "disabled": true,
+            "font": "11px",
+            "height": 44,
+            "id": "restore-K01",
+            "top": 694.3359375,
+            "width": 64.5234375
+          }
+        ],
+        "elapsed": 1.5,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [
+            {
+              "cause": null,
+              "id": "K01",
+              "operation": "archive:K01:1",
+              "sameOriginalObject": true,
+              "state": "provisional",
+              "title": "A quieter first screen"
+            }
+          ],
+          "audit": [
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K01:1",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "apply",
+            "receipt": {
+              "itemId": "K01",
+              "operation": "archive:K01:1",
+              "position": 0
+            },
+            "remainingMs": null,
+            "status": "available"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 1,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 8,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "persistent / actual Apply receipt"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 692.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 648.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 772.7109375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 728.7109375,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 853.2578125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 809.2578125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          }
+        ],
+        "elapsed": 2,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K01:1",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "undo",
+            "receipt": {
+              "itemId": "K01",
+              "operation": "archive:K01:1",
+              "position": 0
+            },
+            "remainingMs": null,
+            "status": "undone"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 1,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 7,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "Undo / same original object"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 692.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 648.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 772.7109375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 728.7109375,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 853.2578125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 809.2578125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          }
+        ],
+        "elapsed": 2.5,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K01:1",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "undo",
+            "receipt": {
+              "itemId": "K01",
+              "operation": "archive:K01:1",
+              "position": 0
+            },
+            "remainingMs": null,
+            "status": "undone"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 1,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 7,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "Undo / same original object"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 692.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 648.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 772.7109375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 728.7109375,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 853.2578125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 809.2578125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          }
+        ],
+        "elapsed": 3,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K01:1",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "undo",
+            "receipt": {
+              "itemId": "K01",
+              "operation": "archive:K01:1",
+              "position": 0
+            },
+            "remainingMs": null,
+            "status": "undone"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 1,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 7,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "Undo / same original object"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 688.6171875,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 644.6171875,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 769.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 725.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 738.3359375,
+            "disabled": true,
+            "font": "11px",
+            "height": 44,
+            "id": "restore-K02",
+            "top": 694.3359375,
+            "width": 64.5234375
+          }
+        ],
+        "elapsed": 3.5,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [
+            {
+              "cause": null,
+              "id": "K02",
+              "operation": "archive:K02:2",
+              "sameOriginalObject": true,
+              "state": "provisional",
+              "title": "Keep the original source"
+            }
+          ],
+          "audit": [
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K02:2",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "apply",
+            "receipt": {
+              "itemId": "K02",
+              "operation": "archive:K02:2",
+              "position": 1
+            },
+            "remainingMs": null,
+            "status": "available"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 2,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 6,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "fresh controller / actual archive"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 688.6171875,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 644.6171875,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 769.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 725.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 738.3359375,
+            "disabled": true,
+            "font": "11px",
+            "height": 44,
+            "id": "restore-K02",
+            "top": 694.3359375,
+            "width": 64.5234375
+          }
+        ],
+        "elapsed": 4,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [
+            {
+              "cause": null,
+              "id": "K02",
+              "operation": "archive:K02:2",
+              "sameOriginalObject": true,
+              "state": "provisional",
+              "title": "Keep the original source"
+            }
+          ],
+          "audit": [
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K02:2",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "apply",
+            "receipt": {
+              "itemId": "K02",
+              "operation": "archive:K02:2",
+              "position": 1
+            },
+            "remainingMs": null,
+            "status": "available"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 2,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 6,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "fresh controller / actual archive"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 688.6171875,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 644.6171875,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 769.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 725.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 738.3359375,
+            "disabled": true,
+            "font": "11px",
+            "height": 44,
+            "id": "restore-K02",
+            "top": 694.3359375,
+            "width": 64.5234375
+          }
+        ],
+        "elapsed": 4.5,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [
+            {
+              "cause": null,
+              "id": "K02",
+              "operation": "archive:K02:2",
+              "sameOriginalObject": true,
+              "state": "provisional",
+              "title": "Keep the original source"
+            }
+          ],
+          "audit": [
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K02:2",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "apply",
+            "receipt": {
+              "itemId": "K02",
+              "operation": "archive:K02:2",
+              "position": 1
+            },
+            "remainingMs": null,
+            "status": "available"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 2,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 6,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "fresh controller / actual archive"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 688.6171875,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 644.6171875,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 769.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 725.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 738.3359375,
+            "disabled": true,
+            "font": "11px",
+            "height": 44,
+            "id": "restore-K02",
+            "top": 694.3359375,
+            "width": 64.5234375
+          }
+        ],
+        "elapsed": 5,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [
+            {
+              "cause": null,
+              "id": "K02",
+              "operation": "archive:K02:2",
+              "sameOriginalObject": true,
+              "state": "provisional",
+              "title": "Keep the original source"
+            }
+          ],
+          "audit": [
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K02:2",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "commit",
+            "receipt": {
+              "itemId": "K02",
+              "operation": "archive:K02:2",
+              "position": 1
+            },
+            "remainingMs": null,
+            "status": "committing"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": false,
+          "nextMode": "persistent",
+          "operationCount": 2,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 1,
+          "pendingTourSteps": 5,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "host-confirmed Commit"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 688.6171875,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 644.6171875,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 769.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 725.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 738.3359375,
+            "disabled": false,
+            "font": "11px",
+            "height": 44,
+            "id": "restore-K02",
+            "top": 694.3359375,
+            "width": 64.5234375
+          }
+        ],
+        "elapsed": 5.5,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [
+            {
+              "cause": "explicit",
+              "id": "K02",
+              "operation": "archive:K02:2",
+              "sameOriginalObject": true,
+              "state": "committed",
+              "title": "Keep the original source"
+            }
+          ],
+          "audit": [
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K02:2",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "commit",
+            "receipt": {
+              "itemId": "K02",
+              "operation": "archive:K02:2",
+              "position": 1
+            },
+            "remainingMs": null,
+            "status": "committed"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 2,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 5,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "host-confirmed Commit"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 688.6171875,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 644.6171875,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 769.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 725.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 738.3359375,
+            "disabled": false,
+            "font": "11px",
+            "height": 44,
+            "id": "restore-K02",
+            "top": 694.3359375,
+            "width": 64.5234375
+          }
+        ],
+        "elapsed": 6,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [
+            {
+              "cause": "explicit",
+              "id": "K02",
+              "operation": "archive:K02:2",
+              "sameOriginalObject": true,
+              "state": "committed",
+              "title": "Keep the original source"
+            }
+          ],
+          "audit": [
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K02:2",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "commit",
+            "receipt": {
+              "itemId": "K02",
+              "operation": "archive:K02:2",
+              "position": 1
+            },
+            "remainingMs": null,
+            "status": "committed"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 2,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 5,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "host-confirmed Commit"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 692.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 648.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 772.7109375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 728.7109375,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 853.2578125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 809.2578125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          }
+        ],
+        "elapsed": 6.5,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K02:2 / persistent history Restore / same object K02",
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K02:2",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "commit",
+            "receipt": {
+              "itemId": "K02",
+              "operation": "archive:K02:2",
+              "position": 1
+            },
+            "remainingMs": null,
+            "status": "committed"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 2,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 4,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "persistent history Restore"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 692.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 648.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 772.7109375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 728.7109375,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 853.2578125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 809.2578125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          }
+        ],
+        "elapsed": 7,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K02:2 / persistent history Restore / same object K02",
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K02:2",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "commit",
+            "receipt": {
+              "itemId": "K02",
+              "operation": "archive:K02:2",
+              "position": 1
+            },
+            "remainingMs": null,
+            "status": "committed"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 2,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 4,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "persistent history Restore"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 692.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 648.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 772.7109375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 728.7109375,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 853.2578125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 809.2578125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          }
+        ],
+        "elapsed": 7.5,
+        "notice": {
+          "bottom": 609.6875,
+          "font": "16px",
+          "height": 328.5,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K02:2 / persistent history Restore / same object K02",
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K02:2",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "commit",
+            "receipt": {
+              "itemId": "K02",
+              "operation": "archive:K02:2",
+              "position": 1
+            },
+            "remainingMs": null,
+            "status": "committed"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 2,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 4,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "persistent history Restore"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 692.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 648.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 772.7109375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 728.7109375,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 853.2578125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 809.2578125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "pause",
+            "top": 615.0859375,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "sample",
+            "top": 615.0859375,
+            "width": 153.6015625
+          }
+        ],
+        "elapsed": 8,
+        "notice": {
+          "bottom": 737.0859375,
+          "font": "16px",
+          "height": 455.8984375,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K02:2 / persistent history Restore / same object K02",
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": false,
+            "key": "archive:K03:3",
+            "pauseReasons": [
+              "pointer"
+            ],
+            "paused": true,
+            "phase": "apply",
+            "receipt": null,
+            "remainingMs": null,
+            "status": "applying"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": false,
+          "nextMode": "timed",
+          "operationCount": 3,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 1,
+          "pendingTourSteps": 3,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "explicit timed alternative"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 688.6171875,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 644.6171875,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 769.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 725.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "pause",
+            "top": 615.0859375,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "sample",
+            "top": 615.0859375,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 865.734375,
+            "disabled": true,
+            "font": "11px",
+            "height": 44,
+            "id": "restore-K03",
+            "top": 821.734375,
+            "width": 64.5234375
+          }
+        ],
+        "elapsed": 8.5,
+        "notice": {
+          "bottom": 737.0859375,
+          "font": "16px",
+          "height": 455.8984375,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [
+            {
+              "cause": null,
+              "id": "K03",
+              "operation": "archive:K03:3",
+              "sameOriginalObject": true,
+              "state": "provisional",
+              "title": "Useful little shortcuts"
+            }
+          ],
+          "audit": [
+            "archive:K03:3 / actual Apply",
+            "archive:K02:2 / persistent history Restore / same object K02",
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K03:3",
+            "pauseReasons": [
+              "pointer",
+              "manual"
+            ],
+            "paused": true,
+            "phase": "apply",
+            "receipt": {
+              "itemId": "K03",
+              "operation": "archive:K03:3",
+              "position": 2
+            },
+            "remainingMs": 3000,
+            "status": "available"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "timed",
+          "operationCount": 3,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 2,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "pause composes / no polling"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 688.6171875,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 644.6171875,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 769.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 725.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "pause",
+            "top": 615.0859375,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "sample",
+            "top": 615.0859375,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 865.734375,
+            "disabled": true,
+            "font": "11px",
+            "height": 44,
+            "id": "restore-K03",
+            "top": 821.734375,
+            "width": 64.5234375
+          }
+        ],
+        "elapsed": 9,
+        "notice": {
+          "bottom": 737.0859375,
+          "font": "16px",
+          "height": 455.8984375,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [
+            {
+              "cause": null,
+              "id": "K03",
+              "operation": "archive:K03:3",
+              "sameOriginalObject": true,
+              "state": "provisional",
+              "title": "Useful little shortcuts"
+            }
+          ],
+          "audit": [
+            "archive:K03:3 / actual Apply",
+            "archive:K02:2 / persistent history Restore / same object K02",
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K03:3",
+            "pauseReasons": [
+              "pointer",
+              "manual"
+            ],
+            "paused": true,
+            "phase": "undo",
+            "receipt": {
+              "itemId": "K03",
+              "operation": "archive:K03:3",
+              "position": 2
+            },
+            "remainingMs": null,
+            "status": "undoing"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": false,
+          "nextMode": "timed",
+          "operationCount": 3,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 1,
+          "pendingTourSteps": 1,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "native Undo while paused"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 692.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 648.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 772.7109375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 728.7109375,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 853.2578125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 809.2578125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "pause",
+            "top": 615.0859375,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "sample",
+            "top": 615.0859375,
+            "width": 153.6015625
+          }
+        ],
+        "elapsed": 9.5,
+        "notice": {
+          "bottom": 737.0859375,
+          "font": "16px",
+          "height": 455.8984375,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K03:3 / same original object restored by Undo",
+            "archive:K03:3 / actual Apply",
+            "archive:K02:2 / persistent history Restore / same object K02",
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K03:3",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "undo",
+            "receipt": {
+              "itemId": "K03",
+              "operation": "archive:K03:3",
+              "position": 2
+            },
+            "remainingMs": null,
+            "status": "undone"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "timed",
+          "operationCount": 3,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 1,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": "native Undo while paused"
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 692.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 648.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 772.7109375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 728.7109375,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 853.2578125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 809.2578125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "pause",
+            "top": 615.0859375,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "sample",
+            "top": 615.0859375,
+            "width": 153.6015625
+          }
+        ],
+        "elapsed": 10,
+        "notice": {
+          "bottom": 737.0859375,
+          "font": "16px",
+          "height": 455.8984375,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K03:3 / same original object restored by Undo",
+            "archive:K03:3 / actual Apply",
+            "archive:K02:2 / persistent history Restore / same object K02",
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K03:3",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "undo",
+            "receipt": {
+              "itemId": "K03",
+              "operation": "archive:K03:3",
+              "position": 2
+            },
+            "remainingMs": null,
+            "status": "undone"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "timed",
+          "operationCount": 3,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 0,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": ""
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 692.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 648.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 772.7109375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 728.7109375,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 853.2578125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 809.2578125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "pause",
+            "top": 615.0859375,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "sample",
+            "top": 615.0859375,
+            "width": 153.6015625
+          }
+        ],
+        "elapsed": 10.5,
+        "notice": {
+          "bottom": 737.0859375,
+          "font": "16px",
+          "height": 455.8984375,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K03:3 / same original object restored by Undo",
+            "archive:K03:3 / actual Apply",
+            "archive:K02:2 / persistent history Restore / same object K02",
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K03:3",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "undo",
+            "receipt": {
+              "itemId": "K03",
+              "operation": "archive:K03:3",
+              "position": 2
+            },
+            "remainingMs": null,
+            "status": "undone"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "timed",
+          "operationCount": 3,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 0,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": ""
+        }
+      },
+      {
+        "controls": [
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "mode",
+            "top": 178.5,
+            "width": 223.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "16px",
+            "height": 44,
+            "id": "fixture",
+            "top": 178.5,
+            "width": 231.5
+          },
+          {
+            "bottom": 222.5,
+            "disabled": false,
+            "font": "12px",
+            "height": 44,
+            "id": "solid",
+            "top": 178.5,
+            "width": 98.703125
+          },
+          {
+            "bottom": 439.8828125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K01",
+            "top": 395.8828125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 523.9765625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K02",
+            "top": 479.9765625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 608.0703125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K03",
+            "top": 564.0703125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 692.1640625,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K04",
+            "top": 648.1640625,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 772.7109375,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K05",
+            "top": 728.7109375,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 853.2578125,
+            "disabled": false,
+            "font": "10px",
+            "height": 44,
+            "id": "archive-K06",
+            "top": 809.2578125,
+            "width": 53.3515625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "undo",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 503.890625,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "commit",
+            "top": 459.890625,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "pause",
+            "top": 615.0859375,
+            "width": 153.6015625
+          },
+          {
+            "bottom": 659.0859375,
+            "disabled": true,
+            "font": "10px",
+            "height": 44,
+            "id": "sample",
+            "top": 615.0859375,
+            "width": 153.6015625
+          }
+        ],
+        "elapsed": 11,
+        "notice": {
+          "bottom": 737.0859375,
+          "font": "16px",
+          "height": 455.8984375,
+          "id": "notice",
+          "top": 281.1875,
+          "width": 349.203125
+        },
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K03:3 / same original object restored by Undo",
+            "archive:K03:3 / actual Apply",
+            "archive:K02:2 / persistent history Restore / same object K02",
+            "archive:K02:2 / actual Commit / explicit",
+            "archive:K02:2 / actual Apply",
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K03:3",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "undo",
+            "receipt": {
+              "itemId": "K03",
+              "operation": "archive:K03:3",
+              "position": 2
+            },
+            "remainingMs": null,
+            "status": "undone"
+          },
+          "fixture": "none",
+          "focus": "solid",
+          "hostSettled": true,
+          "nextMode": "timed",
+          "operationCount": 3,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 0,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": ""
+        }
+      }
+    ],
+    "tourResolved": true
+  },
+  "raw": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-05eeffa2-7c4e-4a43-8076-b18de360a540-mp4",
+    "tabId": "tab_4n",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-05eeffa2-7c4e-4a43-8076-b18de360a540-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 743270,
+    "createdAt": "2026-10-12T05:13:07.781Z"
+  },
+  "publishedAssets": {
+    "film": "docs/campaign/assets/reversible-action-showcase.mp4",
+    "poster": "docs/campaign/assets/reversible-action-showcase.png"
+  }
+}

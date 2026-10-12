@@ -119,3 +119,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Native data tables](docs/DATA_TABLE.md): pure local models, stable sort, full local filtering, explicit pagination and native semantic table props.
 - [Index ledger](https://wpsydev.github.io/liquid-glass-kit/table/):18 original local rows, real editing/empty recovery and keyboard table scrolling.
+
+- [Reversible actions](docs/REVERSIBLE_ACTION.md): actual host acknowledgments/opaque receipts, persistent Undo default, composed deadline pauses and truthful stale outcomes.
+- [Kept](https://wpsydev.github.io/liquid-glass-kit/undo/): real local archive/Undo, same original item and independent history Restore.

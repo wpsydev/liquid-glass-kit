@@ -1,0 +1,64 @@
+{
+  "version": "0.42.0-preview.1",
+  "commit": "db90ee7f20b9847af3ae8d7f8f075b8921fdd88c",
+  "workflows": {
+    "verify": 38208031660,
+    "release": 38208031514,
+    "pages": 38208031490,
+    "conclusion": "success",
+    "tests": 914,
+    "testFiles": 45
+  },
+  "archive": {
+    "members": 186,
+    "bytes": 399691,
+    "sha256": "ea0e92fab69a3f78994b45d269777d517a4e401e7b7272a6f43daca247520762"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/table/",
+    "native": {
+      "sort": {
+        "headers": [
+          {
+            "scope": "col",
+            "sort": "ascending"
+          }
+        ],
+        "sort": {
+          "columnId": "stock",
+          "direction": "ascending"
+        },
+        "ties": [
+          "ST-001",
+          "ST-002",
+          "ST-003"
+        ]
+      },
+      "filter": {
+        "caret": 5,
+        "filtered": 9,
+        "focus": "query",
+        "query": "Print",
+        "total": 18
+      }
+    },
+    "scope": "Actual Sort click yields stable3ties/singlearia-sort; native Print typing yields9/18/focusquery/caret5"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109516983897391158",
+    "replies": [
+      "https://x.com/wpsygames/status/2109517168161546615",
+      "https://x.com/wpsygames/status/2109517257273479427"
+    ],
+    "upload": {
+      "bytes": 651714,
+      "sha256": "27df29f759d37296e7d0e64eb03a14f5645b8315f74bec787d395cf16cff61ce"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical pages confirmed intended text"
+  },
+  "npmRegistry": "pending"
+}

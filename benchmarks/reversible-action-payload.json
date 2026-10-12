@@ -1,0 +1,6 @@
+{
+  "scope": "Optional pure model only; no DOM/controller CSS/default runtime growth",
+  "bytes": 5693,
+  "gzipBytes": 2250,
+  "sourceSHA256": "709b4309ff49aec02b2d9efff5c03e5d111fabc39b00a0660e4647c852f56328"
+}

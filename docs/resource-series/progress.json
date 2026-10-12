@@ -373,12 +373,12 @@
     {
       "order": 26,
       "url": "https://shadcnblocks.com",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Pure local data models and native semantic tables",
       "version": "0.42.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/table/",
       "video": "docs/campaign/assets/data-table-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109516983897391158",
       "performance": [
         "benchmarks/data-table-payload.json",
         "benchmarks/data-table-benchmark-native.json",
@@ -389,13 +389,18 @@
     {
       "order": 27,
       "url": "https://kinetics.colorion.co",
-      "status": "researching",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Acknowledged reversible actions and truthful stale recovery",
+      "version": "0.43.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/reversible-action-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/reversible-action-payload.json",
+        "benchmarks/reversible-action-benchmark-native.json",
+        "benchmarks/reversible-action-native.json",
+        "benchmarks/reversible-action-responsive.json"
+      ]
     },
     {
       "order": 28,

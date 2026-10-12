@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.43.0-preview.1
+
+- Add optional acknowledged Apply/Undo/Commit model, opaque host receipts, single-flight phases and truthful stale/error outcomes.
+- Keep Undo persistent by default; explicit preview deadlines compose host pause reasons and never synthesize success or rollback.
+- Add original Kept shelf with same-node Undo and independent history Restore,25 native viewport/state cases, scoped pure benchmarks and twelve-second original acoustic-pop showcase.
+
 ## 0.42.0-preview.1
 
 - Add optional pure local data-table models with stable sorting, cached filtering, truthful pagination and native semantic props.

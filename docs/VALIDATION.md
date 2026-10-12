@@ -524,3 +524,11 @@ Optional2600gzip/CSS777gzip. Separatepure5000rowconstruction11.70msmedian/cached
 Original651714-byte12s960square360frame disco120keys seed42 SHA25627df29f759d37296e7d0e64eb03a14f5645b8315f74bec787d395cf16cff61ce. Actual10stour18rows/1localchange/notouring,4reviewframes/full decodepassed/cameradensitydisclosed/editor770/control853abovecaption882.
 
 Integrated npm run check passed1,145tests/53files including unreleased prototypes. npm pack --dry-run passed186members excluding future entries. Published-scope CI follows release.
+
+## 0.43 reversible action (2026-10-12)
+
+22focused/25native desktop320–1440cases44/16/noflow. ActualArchiveafter220msack/focusUndo/EnterUndo180mscompensation returnsoriginalobject/article/button/order/focus. ActualCommitthenindependentEnterRestore. RejectedUndo retainsreceipt/member/error; ignored-AbortApplyafterdestroy changesrealhost/staleoutcome/Restore recovers. Samephasepromisesidentical/competingreject/callbackcounts1Apply1Undo0Commit. Explicit3sdeadlineCommitonlyafterhostack/persistentRestore. Composefocus/pointer/manualpause; no liveOS/backgroundclaim. NativeQuiettransition0s/Solidcomputednone. Phones/Safari/ATunverified.
+
+Optional2250gzip. Purebatchaverageconstructdestroy.002/synhostApplyUndo.008/ApplyCommit.004msmedian, excludesDOM/waits/asyncservice/painting, noFPS/speedup. Original791717-byte12s360frame acousticpop116nylon/handclaps/woodblockseed43 SHA2565fab2932c8af339251900581c98668b7a31b5241a2758f1128ba368b8d2d060d. Actualfiniteactions/finalnohostwaits/toursteps; newmelody/rhythm/progression, cameradensitydisclosed, controls≤865.73abovecaption882/full decode/fourframespass.
+
+Integrated npm run check passed1,145tests/53files including queued prototypes. npm pack --dry-run passed189members excluding future entries. Published-scope CI follows release.

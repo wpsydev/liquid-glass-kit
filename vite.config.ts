@@ -51,6 +51,7 @@ export default defineConfig({
         progress: resolve('site/progress/index.html'),
         follow: resolve('site/follow/index.html'),
         table: resolve('site/table/index.html'),
+        undo: resolve('site/undo/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),
         transitions: resolve('site/transitions/index.html'),
