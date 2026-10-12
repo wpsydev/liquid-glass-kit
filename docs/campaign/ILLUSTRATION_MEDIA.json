@@ -1,0 +1,90 @@
+{
+  "durationSeconds": 12,
+  "size": "960x960",
+  "fps": 30,
+  "fullyDecodedFrames": 360,
+  "video": "H264 High, yuv420p",
+  "audio": "AAC LC stereo, 48000Hz",
+  "originalScore": {
+    "path": "/tmp/lg-illustration-score.wav",
+    "durationSeconds": 12,
+    "bpm": 104,
+    "style": "funk",
+    "patch": "brass",
+    "seed": 51,
+    "rms": 0.1467,
+    "provenance": "Original procedural synthesis; no external samples; MIT"
+  },
+  "captions": [
+    "6 original layers. One composed story.",
+    "Wide or tall. Authored native picture sources.",
+    "Meaningful or decorative. Static at rest."
+  ],
+  "files": {
+    "docs/campaign/assets/illustration-showcase.mp4": {
+      "bytes": 550046,
+      "sha256": "acff6b410b24a8e62192aa245f347980d7941d14a9335e021f35b7e86e111742"
+    },
+    "docs/campaign/assets/illustration-showcase.png": {
+      "bytes": 239160,
+      "sha256": "4342b1f5826b92fe1fe494b543f017d911b9f0f53c7caa56408507f76a946b43"
+    }
+  },
+  "originalFiles": {
+    "/tmp/lg-illustration-showcase.mp4": {
+      "bytes": 550046,
+      "sha256": "acff6b410b24a8e62192aa245f347980d7941d14a9335e021f35b7e86e111742"
+    },
+    "/tmp/lg-illustration-showcase.png": {
+      "bytes": 239160,
+      "sha256": "4342b1f5826b92fe1fe494b543f017d911b9f0f53c7caa56408507f76a946b43"
+    },
+    "/tmp/lg-illustration-score.wav": {
+      "bytes": 2304044,
+      "sha256": "158664b35518779550713032611000169e3b88c3f408eea82f5e88b37fc8164c"
+    }
+  },
+  "nativeEvidence": [
+    "benchmarks/illustration-native.json",
+    "benchmarks/illustration-responsive.json"
+  ],
+  "payloadEvidence": {
+    "helperOnly": "benchmarks/illustration-payload.json",
+    "originalDemoWithArt": "benchmarks/illustration-demo-payload.json"
+  },
+  "decodeEvidence": [
+    "benchmarks/illustration-frames.md5",
+    "benchmarks/illustration-decode.log"
+  ],
+  "nativeCapture": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-945c0801-4fe8-49cc-9516-652ba2c37b17-mp4",
+    "tabId": "tab_48",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-945c0801-4fe8-49cc-9516-652ba2c37b17-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 295785,
+    "createdAt": "2026-10-12T03:56:42.323Z"
+  },
+  "reviewedFrames": [
+    {
+      "seconds": 0.8,
+      "originalPath": "/tmp/lg-illustration-frame-wide.png"
+    },
+    {
+      "seconds": 4.4,
+      "originalPath": "/tmp/lg-illustration-frame-tall.png"
+    },
+    {
+      "seconds": 9.5,
+      "originalPath": "/tmp/lg-illustration-frame-meaning.png"
+    }
+  ],
+  "boundaries": {
+    "exportFpsIsNotAppFps": true,
+    "physicalPhonesSafariATVerified": false,
+    "originalNativeFixture": "/tmp/liquid-glass-source35 based on556b5d5; source helper hash unchanged",
+    "menuCase": "Semantic native select DOM change fixture; physical OS menu keyboard delivery not claimed",
+    "scoreWavNotBundled": true,
+    "rootPublicationVerifiedByThisAgent": false
+  },
+  "cameraCSS": "@media(min-width:721px){.masthead{padding-top:14px;padding-bottom:14px}.intro{padding-top:24px;padding-bottom:20px}.intro .eyebrow{margin-bottom:10px}.intro h1{font-size:60px;letter-spacing:-3px}.intro h1 em{letter-spacing:-3px}.intro-copy{font-size:13px}.edition{top:24px}.proof-strip{margin-top:16px;margin-bottom:8px;padding-top:12px;padding-bottom:12px}footer{margin-bottom:0;min-height:48px;gap:4px}#announcement{min-height:12px;font-size:9px}}@media(min-width:721px){.intro{padding-top:18px;padding-bottom:16px}.masthead{padding-top:12px;padding-bottom:12px}.proof-strip{margin-top:12px}.art-heading{padding-top:12px;padding-bottom:12px}.inspector{padding-top:14px;padding-bottom:14px}}"
+}

@@ -1,14 +1,14 @@
 {
-  "version": "0.50.0-preview.1",
+  "version": "0.51.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/quality-governor-showcase.mp4",
-      "name": "liquid-glass-quality-governor-showcase.mp4",
+      "path": "docs/campaign/assets/illustration-showcase.mp4",
+      "name": "liquid-glass-illustration-showcase.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/quality-governor-showcase.png",
-      "name": "liquid-glass-quality-governor-showcase.png",
+      "path": "docs/campaign/assets/illustration-showcase.png",
+      "name": "liquid-glass-illustration-showcase.png",
       "type": "image/png"
     }
   ]

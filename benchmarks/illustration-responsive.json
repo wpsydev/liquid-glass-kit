@@ -1,0 +1,2407 @@
+{
+  "browser": "T3 native desktop browser; layout viewport emulation only",
+  "tabId": "tab_48",
+  "physicalPhoneSafariATVerified": false,
+  "cases": [
+    {
+      "horizontalOverflow": false,
+      "preset": "landscape",
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": null,
+          "label": "A small red-roofed house in a pine grove, beneath a golden sun. A bird crosses the quiet landscape.",
+          "role": "img"
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 49.5,
+            "id": "land",
+            "rotation": 0,
+            "width": 99,
+            "x": 50,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 30,
+            "id": "sun",
+            "rotation": 0,
+            "width": 20,
+            "x": 72,
+            "y": 24
+          },
+          {
+            "anchor": "center",
+            "height": 59.8,
+            "id": "pine",
+            "rotation": 0,
+            "width": 23,
+            "x": 31,
+            "y": 47
+          },
+          {
+            "anchor": "center",
+            "height": 42.57,
+            "id": "house",
+            "rotation": 0,
+            "width": 33,
+            "x": 59,
+            "y": 60
+          },
+          {
+            "anchor": "center",
+            "height": 23.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 28,
+            "x": 80,
+            "y": 78
+          },
+          {
+            "anchor": "center",
+            "height": 9.75,
+            "id": "bird",
+            "rotation": -8,
+            "width": 13,
+            "x": 43,
+            "y": 24
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 82,
+            "id": "land",
+            "width": 245
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 49,
+            "id": "sun",
+            "width": 49
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 98,
+            "id": "pine",
+            "width": 57
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house-portrait",
+            "decoded": true,
+            "height": 70,
+            "id": "house",
+            "width": 82
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 38,
+            "id": "shrub",
+            "width": 69
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 16,
+            "id": "bird",
+            "width": 32
+          }
+        ],
+        "layout": "landscape",
+        "liveLayerCount": 6,
+        "mode": "landscape",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "informative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "3 / 2",
+        "tourActive": false,
+        "updates": 3
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "portrait",
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": null,
+          "label": "A small red-roofed house in a pine grove, beneath a golden sun. A bird crosses the quiet landscape.",
+          "role": "img"
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 26.666666666666668,
+            "id": "land",
+            "rotation": 0,
+            "width": 100,
+            "x": 50,
+            "y": 86
+          },
+          {
+            "anchor": "center",
+            "height": 24,
+            "id": "sun",
+            "rotation": 0,
+            "width": 30,
+            "x": 78,
+            "y": 17
+          },
+          {
+            "anchor": "center",
+            "height": 52.693333333333335,
+            "id": "pine",
+            "rotation": 0,
+            "width": 38,
+            "x": 27,
+            "y": 51
+          },
+          {
+            "anchor": "center",
+            "height": 36.464,
+            "id": "house",
+            "rotation": 0,
+            "width": 53,
+            "x": 58,
+            "y": 70
+          },
+          {
+            "anchor": "center",
+            "height": 17.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 39,
+            "x": 78,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 8.4,
+            "id": "bird",
+            "rotation": -8,
+            "width": 21,
+            "x": 37,
+            "y": 20
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 82,
+            "id": "land",
+            "width": 247
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 74,
+            "id": "sun",
+            "width": 74
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 163,
+            "id": "pine",
+            "width": 94
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house-portrait",
+            "decoded": true,
+            "height": 113,
+            "id": "house",
+            "width": 131
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 54,
+            "id": "shrub",
+            "width": 96
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 26,
+            "id": "bird",
+            "width": 52
+          }
+        ],
+        "layout": "portrait",
+        "liveLayerCount": 6,
+        "mode": "portrait",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "informative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "4 / 5",
+        "tourActive": false,
+        "updates": 4
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "decorative",
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": "true",
+          "label": null,
+          "role": null
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 49.5,
+            "id": "land",
+            "rotation": 0,
+            "width": 99,
+            "x": 50,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 30,
+            "id": "sun",
+            "rotation": 0,
+            "width": 20,
+            "x": 72,
+            "y": 24
+          },
+          {
+            "anchor": "center",
+            "height": 59.8,
+            "id": "pine",
+            "rotation": 0,
+            "width": 23,
+            "x": 31,
+            "y": 47
+          },
+          {
+            "anchor": "center",
+            "height": 42.57,
+            "id": "house",
+            "rotation": 0,
+            "width": 33,
+            "x": 59,
+            "y": 60
+          },
+          {
+            "anchor": "center",
+            "height": 23.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 28,
+            "x": 80,
+            "y": 78
+          },
+          {
+            "anchor": "center",
+            "height": 9.75,
+            "id": "bird",
+            "rotation": -8,
+            "width": 13,
+            "x": 43,
+            "y": 24
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 82,
+            "id": "land",
+            "width": 245
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 49,
+            "id": "sun",
+            "width": 49
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 98,
+            "id": "pine",
+            "width": 57
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house-portrait",
+            "decoded": true,
+            "height": 70,
+            "id": "house",
+            "width": 82
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 38,
+            "id": "shrub",
+            "width": 69
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 16,
+            "id": "bird",
+            "width": 32
+          }
+        ],
+        "layout": "landscape",
+        "liveLayerCount": 6,
+        "mode": "landscape",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "decorative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "3 / 2",
+        "tourActive": false,
+        "updates": 5
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "landscape",
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": null,
+          "label": "A small red-roofed house in a pine grove, beneath a golden sun. A bird crosses the quiet landscape.",
+          "role": "img"
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 49.5,
+            "id": "land",
+            "rotation": 0,
+            "width": 99,
+            "x": 50,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 30,
+            "id": "sun",
+            "rotation": 0,
+            "width": 20,
+            "x": 72,
+            "y": 24
+          },
+          {
+            "anchor": "center",
+            "height": 59.8,
+            "id": "pine",
+            "rotation": 0,
+            "width": 23,
+            "x": 31,
+            "y": 47
+          },
+          {
+            "anchor": "center",
+            "height": 42.57,
+            "id": "house",
+            "rotation": 0,
+            "width": 33,
+            "x": 59,
+            "y": 60
+          },
+          {
+            "anchor": "center",
+            "height": 23.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 28,
+            "x": 80,
+            "y": 78
+          },
+          {
+            "anchor": "center",
+            "height": 9.75,
+            "id": "bird",
+            "rotation": -8,
+            "width": 13,
+            "x": 43,
+            "y": 24
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 99,
+            "id": "land",
+            "width": 298
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 60,
+            "id": "sun",
+            "width": 60
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 120,
+            "id": "pine",
+            "width": 69
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house-portrait",
+            "decoded": true,
+            "height": 85,
+            "id": "house",
+            "width": 99
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 47,
+            "id": "shrub",
+            "width": 84
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 20,
+            "id": "bird",
+            "width": 39
+          }
+        ],
+        "layout": "landscape",
+        "liveLayerCount": 6,
+        "mode": "landscape",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "informative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "3 / 2",
+        "tourActive": false,
+        "updates": 6
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "portrait",
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": null,
+          "label": "A small red-roofed house in a pine grove, beneath a golden sun. A bird crosses the quiet landscape.",
+          "role": "img"
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 26.666666666666668,
+            "id": "land",
+            "rotation": 0,
+            "width": 100,
+            "x": 50,
+            "y": 86
+          },
+          {
+            "anchor": "center",
+            "height": 24,
+            "id": "sun",
+            "rotation": 0,
+            "width": 30,
+            "x": 78,
+            "y": 17
+          },
+          {
+            "anchor": "center",
+            "height": 52.693333333333335,
+            "id": "pine",
+            "rotation": 0,
+            "width": 38,
+            "x": 27,
+            "y": 51
+          },
+          {
+            "anchor": "center",
+            "height": 36.464,
+            "id": "house",
+            "rotation": 0,
+            "width": 53,
+            "x": 58,
+            "y": 70
+          },
+          {
+            "anchor": "center",
+            "height": 17.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 39,
+            "x": 78,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 8.4,
+            "id": "bird",
+            "rotation": -8,
+            "width": 21,
+            "x": 37,
+            "y": 20
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 100,
+            "id": "land",
+            "width": 301
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 90,
+            "id": "sun",
+            "width": 90
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 198,
+            "id": "pine",
+            "width": 114
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house-portrait",
+            "decoded": true,
+            "height": 137,
+            "id": "house",
+            "width": 160
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 65,
+            "id": "shrub",
+            "width": 117
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 32,
+            "id": "bird",
+            "width": 63
+          }
+        ],
+        "layout": "portrait",
+        "liveLayerCount": 6,
+        "mode": "portrait",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "informative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "4 / 5",
+        "tourActive": false,
+        "updates": 7
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "decorative",
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": "true",
+          "label": null,
+          "role": null
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 49.5,
+            "id": "land",
+            "rotation": 0,
+            "width": 99,
+            "x": 50,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 30,
+            "id": "sun",
+            "rotation": 0,
+            "width": 20,
+            "x": 72,
+            "y": 24
+          },
+          {
+            "anchor": "center",
+            "height": 59.8,
+            "id": "pine",
+            "rotation": 0,
+            "width": 23,
+            "x": 31,
+            "y": 47
+          },
+          {
+            "anchor": "center",
+            "height": 42.57,
+            "id": "house",
+            "rotation": 0,
+            "width": 33,
+            "x": 59,
+            "y": 60
+          },
+          {
+            "anchor": "center",
+            "height": 23.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 28,
+            "x": 80,
+            "y": 78
+          },
+          {
+            "anchor": "center",
+            "height": 9.75,
+            "id": "bird",
+            "rotation": -8,
+            "width": 13,
+            "x": 43,
+            "y": 24
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 99,
+            "id": "land",
+            "width": 298
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 60,
+            "id": "sun",
+            "width": 60
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 120,
+            "id": "pine",
+            "width": 69
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house-portrait",
+            "decoded": true,
+            "height": 85,
+            "id": "house",
+            "width": 99
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 47,
+            "id": "shrub",
+            "width": 84
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 20,
+            "id": "bird",
+            "width": 39
+          }
+        ],
+        "layout": "landscape",
+        "liveLayerCount": 6,
+        "mode": "landscape",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "decorative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "3 / 2",
+        "tourActive": false,
+        "updates": 8
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "landscape",
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": null,
+          "label": "A small red-roofed house in a pine grove, beneath a golden sun. A bird crosses the quiet landscape.",
+          "role": "img"
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 49.5,
+            "id": "land",
+            "rotation": 0,
+            "width": 99,
+            "x": 50,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 30,
+            "id": "sun",
+            "rotation": 0,
+            "width": 20,
+            "x": 72,
+            "y": 24
+          },
+          {
+            "anchor": "center",
+            "height": 59.8,
+            "id": "pine",
+            "rotation": 0,
+            "width": 23,
+            "x": 31,
+            "y": 47
+          },
+          {
+            "anchor": "center",
+            "height": 42.57,
+            "id": "house",
+            "rotation": 0,
+            "width": 33,
+            "x": 59,
+            "y": 60
+          },
+          {
+            "anchor": "center",
+            "height": 23.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 28,
+            "x": 80,
+            "y": 78
+          },
+          {
+            "anchor": "center",
+            "height": 9.75,
+            "id": "bird",
+            "rotation": -8,
+            "width": 13,
+            "x": 43,
+            "y": 24
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 121,
+            "id": "land",
+            "width": 363
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 73,
+            "id": "sun",
+            "width": 73
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 146,
+            "id": "pine",
+            "width": 84
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house",
+            "decoded": true,
+            "height": 104,
+            "id": "house",
+            "width": 121
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 57,
+            "id": "shrub",
+            "width": 103
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 24,
+            "id": "bird",
+            "width": 48
+          }
+        ],
+        "layout": "landscape",
+        "liveLayerCount": 6,
+        "mode": "landscape",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "informative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "3 / 2",
+        "tourActive": false,
+        "updates": 9
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "portrait",
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": null,
+          "label": "A small red-roofed house in a pine grove, beneath a golden sun. A bird crosses the quiet landscape.",
+          "role": "img"
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 26.666666666666668,
+            "id": "land",
+            "rotation": 0,
+            "width": 100,
+            "x": 50,
+            "y": 86
+          },
+          {
+            "anchor": "center",
+            "height": 24,
+            "id": "sun",
+            "rotation": 0,
+            "width": 30,
+            "x": 78,
+            "y": 17
+          },
+          {
+            "anchor": "center",
+            "height": 52.693333333333335,
+            "id": "pine",
+            "rotation": 0,
+            "width": 38,
+            "x": 27,
+            "y": 51
+          },
+          {
+            "anchor": "center",
+            "height": 36.464,
+            "id": "house",
+            "rotation": 0,
+            "width": 53,
+            "x": 58,
+            "y": 70
+          },
+          {
+            "anchor": "center",
+            "height": 17.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 39,
+            "x": 78,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 8.4,
+            "id": "bird",
+            "rotation": -8,
+            "width": 21,
+            "x": 37,
+            "y": 20
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 110,
+            "id": "land",
+            "width": 330
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 99,
+            "id": "sun",
+            "width": 99
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 217,
+            "id": "pine",
+            "width": 125
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house",
+            "decoded": true,
+            "height": 150,
+            "id": "house",
+            "width": 175
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 71,
+            "id": "shrub",
+            "width": 129
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 35,
+            "id": "bird",
+            "width": 69
+          }
+        ],
+        "layout": "portrait",
+        "liveLayerCount": 6,
+        "mode": "portrait",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "informative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "4 / 5",
+        "tourActive": false,
+        "updates": 10
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "decorative",
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": "true",
+          "label": null,
+          "role": null
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 49.5,
+            "id": "land",
+            "rotation": 0,
+            "width": 99,
+            "x": 50,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 30,
+            "id": "sun",
+            "rotation": 0,
+            "width": 20,
+            "x": 72,
+            "y": 24
+          },
+          {
+            "anchor": "center",
+            "height": 59.8,
+            "id": "pine",
+            "rotation": 0,
+            "width": 23,
+            "x": 31,
+            "y": 47
+          },
+          {
+            "anchor": "center",
+            "height": 42.57,
+            "id": "house",
+            "rotation": 0,
+            "width": 33,
+            "x": 59,
+            "y": 60
+          },
+          {
+            "anchor": "center",
+            "height": 23.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 28,
+            "x": 80,
+            "y": 78
+          },
+          {
+            "anchor": "center",
+            "height": 9.75,
+            "id": "bird",
+            "rotation": -8,
+            "width": 13,
+            "x": 43,
+            "y": 24
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 121,
+            "id": "land",
+            "width": 363
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 73,
+            "id": "sun",
+            "width": 73
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 146,
+            "id": "pine",
+            "width": 84
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house",
+            "decoded": true,
+            "height": 104,
+            "id": "house",
+            "width": 121
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 57,
+            "id": "shrub",
+            "width": 103
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 24,
+            "id": "bird",
+            "width": 48
+          }
+        ],
+        "layout": "landscape",
+        "liveLayerCount": 6,
+        "mode": "landscape",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "decorative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "3 / 2",
+        "tourActive": false,
+        "updates": 11
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "landscape",
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": null,
+          "label": "A small red-roofed house in a pine grove, beneath a golden sun. A bird crosses the quiet landscape.",
+          "role": "img"
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 49.5,
+            "id": "land",
+            "rotation": 0,
+            "width": 99,
+            "x": 50,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 30,
+            "id": "sun",
+            "rotation": 0,
+            "width": 20,
+            "x": 72,
+            "y": 24
+          },
+          {
+            "anchor": "center",
+            "height": 59.8,
+            "id": "pine",
+            "rotation": 0,
+            "width": 23,
+            "x": 31,
+            "y": 47
+          },
+          {
+            "anchor": "center",
+            "height": 42.57,
+            "id": "house",
+            "rotation": 0,
+            "width": 33,
+            "x": 59,
+            "y": 60
+          },
+          {
+            "anchor": "center",
+            "height": 23.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 28,
+            "x": 80,
+            "y": 78
+          },
+          {
+            "anchor": "center",
+            "height": 9.75,
+            "id": "bird",
+            "rotation": -8,
+            "width": 13,
+            "x": 43,
+            "y": 24
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 146,
+            "id": "land",
+            "width": 439
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 89,
+            "id": "sun",
+            "width": 89
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 177,
+            "id": "pine",
+            "width": 102
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house",
+            "decoded": true,
+            "height": 126,
+            "id": "house",
+            "width": 146
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 69,
+            "id": "shrub",
+            "width": 124
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 29,
+            "id": "bird",
+            "width": 58
+          }
+        ],
+        "layout": "landscape",
+        "liveLayerCount": 6,
+        "mode": "landscape",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "informative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "3 / 2",
+        "tourActive": false,
+        "updates": 12
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "portrait",
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": null,
+          "label": "A small red-roofed house in a pine grove, beneath a golden sun. A bird crosses the quiet landscape.",
+          "role": "img"
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 26.666666666666668,
+            "id": "land",
+            "rotation": 0,
+            "width": 100,
+            "x": 50,
+            "y": 86
+          },
+          {
+            "anchor": "center",
+            "height": 24,
+            "id": "sun",
+            "rotation": 0,
+            "width": 30,
+            "x": 78,
+            "y": 17
+          },
+          {
+            "anchor": "center",
+            "height": 52.693333333333335,
+            "id": "pine",
+            "rotation": 0,
+            "width": 38,
+            "x": 27,
+            "y": 51
+          },
+          {
+            "anchor": "center",
+            "height": 36.464,
+            "id": "house",
+            "rotation": 0,
+            "width": 53,
+            "x": 58,
+            "y": 70
+          },
+          {
+            "anchor": "center",
+            "height": 17.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 39,
+            "x": 78,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 8.4,
+            "id": "bird",
+            "rotation": -8,
+            "width": 21,
+            "x": 37,
+            "y": 20
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 110,
+            "id": "land",
+            "width": 330
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 99,
+            "id": "sun",
+            "width": 99
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 217,
+            "id": "pine",
+            "width": 125
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house",
+            "decoded": true,
+            "height": 150,
+            "id": "house",
+            "width": 175
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 71,
+            "id": "shrub",
+            "width": 129
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 35,
+            "id": "bird",
+            "width": 69
+          }
+        ],
+        "layout": "portrait",
+        "liveLayerCount": 6,
+        "mode": "portrait",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "informative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "4 / 5",
+        "tourActive": false,
+        "updates": 13
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "decorative",
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": "true",
+          "label": null,
+          "role": null
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 49.5,
+            "id": "land",
+            "rotation": 0,
+            "width": 99,
+            "x": 50,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 30,
+            "id": "sun",
+            "rotation": 0,
+            "width": 20,
+            "x": 72,
+            "y": 24
+          },
+          {
+            "anchor": "center",
+            "height": 59.8,
+            "id": "pine",
+            "rotation": 0,
+            "width": 23,
+            "x": 31,
+            "y": 47
+          },
+          {
+            "anchor": "center",
+            "height": 42.57,
+            "id": "house",
+            "rotation": 0,
+            "width": 33,
+            "x": 59,
+            "y": 60
+          },
+          {
+            "anchor": "center",
+            "height": 23.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 28,
+            "x": 80,
+            "y": 78
+          },
+          {
+            "anchor": "center",
+            "height": 9.75,
+            "id": "bird",
+            "rotation": -8,
+            "width": 13,
+            "x": 43,
+            "y": 24
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 146,
+            "id": "land",
+            "width": 439
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 89,
+            "id": "sun",
+            "width": 89
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 177,
+            "id": "pine",
+            "width": 102
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house",
+            "decoded": true,
+            "height": 126,
+            "id": "house",
+            "width": 146
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 69,
+            "id": "shrub",
+            "width": 124
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 29,
+            "id": "bird",
+            "width": 58
+          }
+        ],
+        "layout": "landscape",
+        "liveLayerCount": 6,
+        "mode": "landscape",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "decorative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "3 / 2",
+        "tourActive": false,
+        "updates": 14
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "landscape",
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": null,
+          "label": "A small red-roofed house in a pine grove, beneath a golden sun. A bird crosses the quiet landscape.",
+          "role": "img"
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 49.5,
+            "id": "land",
+            "rotation": 0,
+            "width": 99,
+            "x": 50,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 30,
+            "id": "sun",
+            "rotation": 0,
+            "width": 20,
+            "x": 72,
+            "y": 24
+          },
+          {
+            "anchor": "center",
+            "height": 59.8,
+            "id": "pine",
+            "rotation": 0,
+            "width": 23,
+            "x": 31,
+            "y": 47
+          },
+          {
+            "anchor": "center",
+            "height": 42.57,
+            "id": "house",
+            "rotation": 0,
+            "width": 33,
+            "x": 59,
+            "y": 60
+          },
+          {
+            "anchor": "center",
+            "height": 23.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 28,
+            "x": 80,
+            "y": 78
+          },
+          {
+            "anchor": "center",
+            "height": 9.75,
+            "id": "bird",
+            "rotation": -8,
+            "width": 13,
+            "x": 43,
+            "y": 24
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 297,
+            "id": "land",
+            "width": 891
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 180,
+            "id": "sun",
+            "width": 180
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 359,
+            "id": "pine",
+            "width": 207
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house",
+            "decoded": true,
+            "height": 255,
+            "id": "house",
+            "width": 297
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 140,
+            "id": "shrub",
+            "width": 252
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 59,
+            "id": "bird",
+            "width": 117
+          }
+        ],
+        "layout": "landscape",
+        "liveLayerCount": 6,
+        "mode": "landscape",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "informative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "3 / 2",
+        "tourActive": false,
+        "updates": 15
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "portrait",
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": null,
+          "label": "A small red-roofed house in a pine grove, beneath a golden sun. A bird crosses the quiet landscape.",
+          "role": "img"
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 26.666666666666668,
+            "id": "land",
+            "rotation": 0,
+            "width": 100,
+            "x": 50,
+            "y": 86
+          },
+          {
+            "anchor": "center",
+            "height": 24,
+            "id": "sun",
+            "rotation": 0,
+            "width": 30,
+            "x": 78,
+            "y": 17
+          },
+          {
+            "anchor": "center",
+            "height": 52.693333333333335,
+            "id": "pine",
+            "rotation": 0,
+            "width": 38,
+            "x": 27,
+            "y": 51
+          },
+          {
+            "anchor": "center",
+            "height": 36.464,
+            "id": "house",
+            "rotation": 0,
+            "width": 53,
+            "x": 58,
+            "y": 70
+          },
+          {
+            "anchor": "center",
+            "height": 17.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 39,
+            "x": 78,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 8.4,
+            "id": "bird",
+            "rotation": -8,
+            "width": 21,
+            "x": 37,
+            "y": 20
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 110,
+            "id": "land",
+            "width": 330
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 99,
+            "id": "sun",
+            "width": 99
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 217,
+            "id": "pine",
+            "width": 125
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house",
+            "decoded": true,
+            "height": 150,
+            "id": "house",
+            "width": 175
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 71,
+            "id": "shrub",
+            "width": 129
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 35,
+            "id": "bird",
+            "width": 69
+          }
+        ],
+        "layout": "portrait",
+        "liveLayerCount": 6,
+        "mode": "portrait",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "informative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "4 / 5",
+        "tourActive": false,
+        "updates": 16
+      }
+    },
+    {
+      "horizontalOverflow": false,
+      "preset": "decorative",
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "edits": {},
+        "figure": {
+          "hidden": "true",
+          "label": null,
+          "role": null
+        },
+        "geometry": [
+          {
+            "anchor": "center",
+            "height": 49.5,
+            "id": "land",
+            "rotation": 0,
+            "width": 99,
+            "x": 50,
+            "y": 85
+          },
+          {
+            "anchor": "center",
+            "height": 30,
+            "id": "sun",
+            "rotation": 0,
+            "width": 20,
+            "x": 72,
+            "y": 24
+          },
+          {
+            "anchor": "center",
+            "height": 59.8,
+            "id": "pine",
+            "rotation": 0,
+            "width": 23,
+            "x": 31,
+            "y": 47
+          },
+          {
+            "anchor": "center",
+            "height": 42.57,
+            "id": "house",
+            "rotation": 0,
+            "width": 33,
+            "x": 59,
+            "y": 60
+          },
+          {
+            "anchor": "center",
+            "height": 23.333333333333332,
+            "id": "shrub",
+            "rotation": 0,
+            "width": 28,
+            "x": 80,
+            "y": 78
+          },
+          {
+            "anchor": "center",
+            "height": 9.75,
+            "id": "bird",
+            "rotation": -8,
+            "width": 13,
+            "x": 43,
+            "y": 24
+          }
+        ],
+        "images": [
+          {
+            "alt": "",
+            "complete": true,
+            "current": "land",
+            "decoded": true,
+            "height": 297,
+            "id": "land",
+            "width": 891
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "sun",
+            "decoded": true,
+            "height": 180,
+            "id": "sun",
+            "width": 180
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "pine",
+            "decoded": true,
+            "height": 359,
+            "id": "pine",
+            "width": 207
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "house",
+            "decoded": true,
+            "height": 255,
+            "id": "house",
+            "width": 297
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "shrub",
+            "decoded": true,
+            "height": 140,
+            "id": "shrub",
+            "width": 252
+          },
+          {
+            "alt": "",
+            "complete": true,
+            "current": "bird",
+            "decoded": true,
+            "height": 59,
+            "id": "bird",
+            "width": 117
+          }
+        ],
+        "layout": "landscape",
+        "liveLayerCount": 6,
+        "mode": "landscape",
+        "nativeActionsOutsideFigure": true,
+        "order": [
+          "land",
+          "sun",
+          "pine",
+          "house",
+          "shrub",
+          "bird"
+        ],
+        "originalAssets": [
+          "land",
+          "pine",
+          "house",
+          "house-portrait",
+          "sun",
+          "shrub",
+          "bird"
+        ],
+        "pendingTimers": 0,
+        "quiet": false,
+        "selected": "house",
+        "semantic": "decorative",
+        "solid": false,
+        "sources": 1,
+        "stageRatio": "3 / 2",
+        "tourActive": false,
+        "updates": 17
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2eee6"><title>Fieldnotes · original illustration studio</title></head>
+<body>
+<header class="masthead"><a class="wordmark" href="../">FIELDNOTES<span>illustration study / 035</span></a><div class="comfort"><label><input id="quiet" type="checkbox">Quiet</label><label><input id="solid" type="checkbox">Solid</label></div></header>
+<main>
+<section class="intro"><p class="eyebrow">A LITTLE PLACE OF YOUR OWN</p><h1>Make room<br>for a <em>story.</em></h1><p class="intro-copy">A handful of original layers.<br>One scene, composed with intention.</p><span class="edition">FIELD STUDY<br>No. 035</span></section>
+<section class="workspace" aria-label="Illustration composition studio">
+<div class="art-panel"><div class="art-heading"><span id="composition-label">01 / Landscape</span><span class="status-dot">HOST-COMPOSED</span></div><div class="paper" id="paper"><div id="scene-mount"></div><span class="registration top" aria-hidden="true">+</span><span class="registration bottom" aria-hidden="true">+</span></div><div class="art-foot"><p id="scene-description">A small red-roofed house in a pine grove, beneath a golden sun.</p><span id="stage-ratio">3 : 2</span></div></div>
+<aside class="inspector" aria-label="Scene controls">
+<div class="inspector-heading"><h2>Compose</h2><span>LIVE RECIPE</span></div>
+<fieldset class="view-picker"><legend>Stage</legend><button type="button" data-mode="auto" aria-pressed="true">Auto</button><button type="button" data-mode="landscape" aria-pressed="false">Wide</button><button type="button" data-mode="portrait" aria-pressed="false">Tall</button></fieldset>
+<div class="field"><label for="semantics">Image meaning</label><select id="semantics"><option value="informative">Informative scene</option><option value="decorative">Decorative scene</option></select><p id="meaning-hint">One named image; empty layer alt text.</p></div>
+<div class="layer-heading"><h3>Layers</h3><span id="layer-count">6 / 8</span></div><div class="layer-list" id="layer-list" aria-label="Select a layer to edit"></div>
+<div class="edit-fields"><label for="position-x">Horizontal <output id="x-output">50%</output></label><input id="position-x" type="range" min="0" max="100" step="1"><label for="rotation">Rotation <output id="rotation-output">0°</output></label><input id="rotation" type="range" min="-25" max="25" step="1"></div>
+<div class="edit-actions"><button id="front" type="button">Bring to front <span aria-hidden="true">↗</span></button><button id="reset" type="button">Reset scene</button></div>
+</aside>
+</section>
+<section class="proof-strip" aria-label="Recipe details"><div><span class="proof-index">01</span><strong>Real picture sources</strong><p id="source-detail">Native art direction. Original SVGs.</p></div><div><span class="proof-index">02</span><strong>One accessible story</strong><p id="semantics-detail">role=img + authored description</p></div><div><span class="proof-index">03</span><strong>Static by default</strong><p>Reserved ratio · no idle render loop</p></div></section>
+<footer><span>Original artwork by wpsydev · MIT</span><button type="button" id="tour">Play 10-second study <span aria-hidden="true">↗</span></button><p id="announcement" role="status" aria-live="polite"></p></footer>
+</main><script type="module" src="./main.ts"></script></body></html>

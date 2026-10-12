@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.50.0-preview.1",
+  "version": "0.51.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -270,6 +270,10 @@
     "./quality-governor": {
       "types": "./dist/quality-governor.d.ts",
       "import": "./dist/quality-governor.js"
+    },
+    "./illustration": {
+      "types": "./dist/illustration.d.ts",
+      "import": "./dist/illustration.js"
     }
   },
   "scripts": {

@@ -1,0 +1,67 @@
+{
+  "scope": "Standalone optional pure illustration helper including native picture validation. Excludes demo, SVG bytes, CSS, image fetching/decoding/layout/painting. No comparative performance claim.",
+  "configuration": {
+    "target": "es2022",
+    "minify": true,
+    "format": "iife",
+    "globalName": "IllustrationPayload",
+    "vite": "8.3.4",
+    "node": "v24.21.0"
+  },
+  "core": {
+    "entry": "src/illustration.ts",
+    "bytes": 9299,
+    "gzipBytes": 3716,
+    "bundleSHA256": "4416bf280a0814fa0fccbadd9030c0edfc132632d74980ffafa190cf0963a64f",
+    "sourceSHA256": "b30e10c2a88694de03bb584648172fe5674cd7903b415f03845fdb02f08785e0",
+    "responsiveImageSourceSHA256": "116127f6c55df6db4e29a0610a339cfe1f981fe1414a9cb2494f92037aeb5232"
+  },
+  "ssr": {
+    "window": "undefined",
+    "document": "undefined",
+    "helper": "function"
+  },
+  "authoredDemoAssets": {
+    "count": 7,
+    "totalBytes": 3443,
+    "files": [
+      {
+        "path": "site/illustrations/art/bird.svg",
+        "bytes": 253,
+        "sha256": "adac194b7732694cd551d60985d0a1d6efda6c8d3506356d0f0ee57a8cebc9bd"
+      },
+      {
+        "path": "site/illustrations/art/house-portrait.svg",
+        "bytes": 649,
+        "sha256": "e2688ced05e38577720acc9fd31ae68af903be77e4ffc7487c34acfe8d325109"
+      },
+      {
+        "path": "site/illustrations/art/house.svg",
+        "bytes": 793,
+        "sha256": "c53362d3b76b7a0da00af112ef5e7f04f78c7f12c0c289185e84ae126c7533b4"
+      },
+      {
+        "path": "site/illustrations/art/land.svg",
+        "bytes": 495,
+        "sha256": "fc49ce75c5916aa8cab7fde9b6ec161192bb573b4ed5d25fd8e7c8ef8ef726b7"
+      },
+      {
+        "path": "site/illustrations/art/pine.svg",
+        "bytes": 503,
+        "sha256": "ff90c35c5784714fd2cf491d759bc9501823cb82683f27985de6d6aab05560fd"
+      },
+      {
+        "path": "site/illustrations/art/shrub.svg",
+        "bytes": 393,
+        "sha256": "bef28cdddb3403508af7757516d195f3596d16e349d7bf1895b493d9e5d10ae7"
+      },
+      {
+        "path": "site/illustrations/art/sun.svg",
+        "bytes": 357,
+        "sha256": "bb2afc84d72230866f8f8b00ccf351a987e6b44be68963646eaa93f2605bcec6"
+      }
+    ],
+    "excludedFromCore": true
+  },
+  "boundary": "Frozen recipe construction is not image-rendering time. The helper installs no DOM/listeners/timers; host composition, native decoding and finite demo transitions have separate costs."
+}

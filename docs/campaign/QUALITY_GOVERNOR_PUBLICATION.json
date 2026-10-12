@@ -1,0 +1,264 @@
+{
+  "commit": "4f524a068433e2af1b8d3b03e038ae7843db63af",
+  "version": "0.50.0-preview.1",
+  "workflows": {
+    "runs": [
+      {
+        "id": 38214547794,
+        "name": "Verify",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38214547727,
+        "name": "Publish preview release",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38214547807,
+        "name": "Publish playground",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "tests": 1151,
+    "testFiles": 53
+  },
+  "archive": {
+    "members": 211,
+    "bytes": 462390,
+    "sha256": "5e0c8d861643b58d6b0e0019cb048287698bfcee9346b559f18fd1511474eb21"
+  },
+  "assets": [
+    {
+      "name": "liquid-glass-quality-governor-showcase.mp4",
+      "bytes": 649625,
+      "sha256": "sha256:073a3611aead9956f01104d9cc10734dbc79ba8ea93e40cab8c4686cd7910978"
+    },
+    {
+      "name": "liquid-glass-quality-governor-showcase.png",
+      "bytes": 402663,
+      "sha256": "sha256:0d1732993af1635fba89cc60a7c7bd82779adae0d4351dcd40d5f71bd011e405"
+    },
+    {
+      "name": "wpsydev-liquid-glass-0.50.0-preview.1.tgz",
+      "bytes": 462390,
+      "sha256": "sha256:5e0c8d861643b58d6b0e0019cb048287698bfcee9346b559f18fd1511474eb21"
+    }
+  ],
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/quality/",
+    "native": {
+      "config": {
+        "cooldownMs": 120,
+        "downgradeWindows": 2,
+        "initialLevel": "full",
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 250,
+        "recoveryWindows": 6,
+        "targetMs": 16.67,
+        "windowSize": 4
+      },
+      "decision": {
+        "accepted": true,
+        "action": "downgrade",
+        "cooldownRemainingMs": 120,
+        "evidence": {
+          "classification": "pressure",
+          "count": 4,
+          "endTime": 280,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 28,
+          "meanMs": 28,
+          "minMs": 28,
+          "pressureSamples": 4,
+          "startTime": 160
+        },
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "downgrade",
+          "evidence": {
+            "classification": "pressure",
+            "count": 4,
+            "endTime": 280,
+            "headroomSamples": 0,
+            "kind": "frame-cadence",
+            "maxMs": 28,
+            "meanMs": 28,
+            "minMs": 28,
+            "pressureSamples": 4,
+            "startTime": 160
+          },
+          "level": "balanced",
+          "previousLevel": "full",
+          "reason": "sustained-pressure",
+          "time": 280
+        },
+        "lastTime": 280,
+        "level": "balanced",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "previousLevel": "full",
+        "reason": "sustained-pressure",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 0
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 40
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 80
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "sustained-pressure",
+          "time": 120
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 160
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 200
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 240
+        },
+        {
+          "accepted": true,
+          "action": "downgrade",
+          "milliseconds": 28,
+          "reason": "sustained-pressure",
+          "time": 280
+        }
+      ],
+      "focus": "BUTTON",
+      "governor": {
+        "cooldownRemainingMs": 120,
+        "evidence": {
+          "classification": "pressure",
+          "count": 4,
+          "endTime": 280,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 28,
+          "meanMs": 28,
+          "minMs": 28,
+          "pressureSamples": 4,
+          "startTime": 160
+        },
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "downgrade",
+          "evidence": {
+            "classification": "pressure",
+            "count": 4,
+            "endTime": 280,
+            "headroomSamples": 0,
+            "kind": "frame-cadence",
+            "maxMs": 28,
+            "meanMs": 28,
+            "minMs": 28,
+            "pressureSamples": 4,
+            "startTime": 160
+          },
+          "level": "balanced",
+          "previousLevel": "full",
+          "reason": "sustained-pressure",
+          "time": 280
+        },
+        "lastTime": 280,
+        "level": "balanced",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 1,
+        "applied": "balanced",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.25,
+          "maxPixels": 360000,
+          "segments": 72,
+          "strands": 12
+        },
+        "canvasAvailable": true,
+        "cssHeight": 420,
+        "cssWidth": 636.328125,
+        "draws": 3,
+        "height": 487,
+        "pixels": 359406,
+        "width": 738
+      },
+      "live": false,
+      "liveElapsed": 0,
+      "observed": 8,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "overload",
+      "solid": false,
+      "source": "deterministic synthetic fixture",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "scope": "Actual native Sustained load button runs labeled synthetic samples, requests/applies balanced once, retains button focus and leaves no frame/timer; not GPU or cadence benchmark"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109537656434548759",
+    "replies": [
+      "https://x.com/wpsygames/status/2109538140440711556",
+      "https://x.com/wpsygames/status/2109538486462148643"
+    ],
+    "publicPlayback": {
+      "duration": 12,
+      "ready": 4
+    },
+    "replyReadback": true,
+    "upload": {
+      "bytes": 649625,
+      "sha256": "073a3611aead9956f01104d9cc10734dbc79ba8ea93e40cab8c4686cd7910978"
+    }
+  },
+  "npmRegistry": "pending"
+}

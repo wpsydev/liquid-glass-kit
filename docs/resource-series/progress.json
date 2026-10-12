@@ -500,12 +500,12 @@
     {
       "order": 34,
       "url": "https://threejs-journey.com",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Pure measured quality policy with hysteresis, cooldown and manual holds",
       "version": "0.50.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/quality/",
       "video": "docs/campaign/assets/quality-governor-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109537656434548759",
       "performance": [
         "benchmarks/quality-governor-payload.json",
         "benchmarks/quality-governor-browser.json",
@@ -515,13 +515,17 @@
     {
       "order": 35,
       "url": "https://kitbitz.art",
-      "status": "queued",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Native layered illustration recipes with authored mobile picture sources",
+      "version": "0.51.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/illustration-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/illustration-payload.json",
+        "benchmarks/illustration-native.json",
+        "benchmarks/illustration-responsive.json"
+      ]
     },
     {
       "order": 36,

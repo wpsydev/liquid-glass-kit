@@ -588,3 +588,11 @@ Integrated npm run check passed1,195tests/55files including queued prototypes; f
 Original649625-byte12s960square360frame104BPM clavinet/brushed jazz-funk61 SHA256073a3611aead9956f01104d9cc10734dbc79ba8ea93e40cab8c4686cd7910978; finite10.85nativecapture+1.15hold/323uniqueframes/three-reviewed/full decodepassed. Film illustrates labeledsyntheticpolicy ratherthanGPUbenchmark.
 
 Integrated npm run check passed1,195tests/55files including queued prototypes. npm pack --dry-run passed211members/462348bytes, public export and SSR checks passed. Published-scope CI follows release.
+
+## 0.51.0 illustration recipes (2026-10-12)
+
+19focused helpertests/strict standalone demoTS/SSRimport.15native activepaint desktop states5sizes44pxcontrols/16pxfields/noflow/nativeArrowRightX72→73samefocus/image/controlidentity/reorderoriginalnodes/QuietSolid/idle. Native-select meaning change DOMfixture distinguished OS-menu delivery; physicalphones/Safari/ATunverified. Standalone9299raw3716gzip includespicturevalidation, art/demoCSSexcluded; separatedemo20604raw8251gzip JS +2594gzipCSS includesoriginalart.7originalSVG3443B. NoGPU/FPS/decoding/loadtimespeedupclaim.
+
+Original550046-byte12s960square360-frame104BPM funk/brass seed51 film SHA256acff6b410b24a8e62192aa245f347980d7941d14a9335e021f35b7e86e111742; finite10.5tour/owncomposition/editing/meaning/Quietstaticend; cameraCSS disclosed, full decode/threeframespass.
+
+Integrated npm run check passed1,195tests/55files including queued prototypes. npm pack --dry-run passed214members/468665bytes, declared exports and SSR passed. Published-scope CI follows release.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.51.0-preview.1
+
+- Add optional pure layered illustration recipes with native image/picture props, explicit informative/decorative meaning and bounded static placement.
+- Keep artwork, image decoding, mobile arrangements and optional motion host-owned.
+- Add Field Notes with six original layers, editable authored arrangements, native evidence, separate helper/demo payloads and original twelve-second funk film.
+
 ## 0.50.0-preview.1
 
 - Add a pure optional quality governor with bounded evidence windows, sustained-pressure downgrade, slower recovery, cooldown and manual holds.

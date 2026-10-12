@@ -1,11 +1,11 @@
-Enough detail. A little headroom. **0.50.0-preview.1** adds optional `/quality-governor`.
+Give an interface a composed story. **0.51.0-preview.1** adds optional `/illustration`.
 
-Sustained pressure requests a lower tier, patient recovery permits a higher one, and cooldown avoids constant switching. Manual holds remain in control. The pure controller collects no timing data and changes no renderer; your app supplies valid monotonic samples and applies its own settings.
+[Field Notes](https://wpsydev.github.io/liquid-glass-kit/illustrations/) combines six original landscape layers, native picture sources and authored wide/tall arrangements. Native controls edit and reorder layers while preserving image and control identity. The helper supplies bounded geometry and informative/decorative image semantics; your app owns art, breakpoints, decoding and optional motion.
 
-[Current](https://wpsydev.github.io/liquid-glass-kit/quality/) labels its synthetic policy fixtures and keeps an explicitly started six-second native frame-cadence study separate. It reports requested and actually applied Canvas2D budgets. Resizing the artwork resets stale live evidence while preserving manual holds.
+19 focused tests and15 native desktop viewport cases passed. Actual keyboard input, layer reordering, Quiet/Solid and idle behavior were checked. Native-select semantic changes used a DOM fixture; physical phones, Safari and assistive technology remain unverified.
 
-70 focused tests and35 native desktop viewport cases passed. Optional standalone controller:2,275gzip bytes. Pure2,000sample batches:1.723ms median/2.363p95 in the recorded run, excluding rendering. Frame cadence is not GPU elapsed time; no FPS or speedup claim.
+Standalone helper3,716gzip bytes, including picture validation and excluding art/demo/CSS. Seven original SVG resources total3,443bytes. No load-time, decoding or rendering speedup is inferred.
 
-An original twelve-second104BPM clavinet jazz-funk film shows the finite demo. [API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/QUALITY_GOVERNOR.md).
+Original twelve-second104BPM funk/brass video, fully decoded360frames. [Guide](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/ILLUSTRATION.md).
 
-Use the archive or `npm i github:wpsydev/liquid-glass-kit#v0.50.0-preview.1`. npm publication pending. No course code or artwork copied.
+Use the release archive or `npm i github:wpsydev/liquid-glass-kit#v0.51.0-preview.1`. npm publication pending. No Kitbitz catalog, art or implementation copied.

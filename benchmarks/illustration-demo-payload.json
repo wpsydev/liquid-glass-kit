@@ -1,0 +1,15 @@
+{
+  "scope": "Optional demo with original assets and helper; not default runtime",
+  "files": [
+    {
+      "file": "liquid-glass.iife.js",
+      "bytes": 20604,
+      "gzip": 8251
+    },
+    {
+      "file": "liquid-glass.css",
+      "bytes": 9070,
+      "gzip": 2594
+    }
+  ]
+}
