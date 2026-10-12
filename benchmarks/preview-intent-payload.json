@@ -1,0 +1,7 @@
+{
+  "observedAtUtc": "2026-10-12T02:24:35.468Z",
+  "jsRawBytes": 8207,
+  "jsGzipBytes": 3299,
+  "sourceSha256": "af098fb131836b28a3baaef7af5e439f450947399d0351e094788316aab541c7",
+  "scope": "Optional standalone preview-intent helper; no CSS, default import or runtime dependency. Payload only, not network/rendering."
+}

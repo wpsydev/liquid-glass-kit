@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.28.0-preview.1",
+  "version": "0.29.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -179,7 +179,11 @@
       "types": "./dist/bottom-sheet.d.ts",
       "import": "./dist/bottom-sheet.js"
     },
-    "./bottom-sheet.css": "./dist/bottom-sheet.css"
+    "./bottom-sheet.css": "./dist/bottom-sheet.css",
+    "./preview-intent": {
+      "types": "./dist/preview-intent.d.ts",
+      "import": "./dist/preview-intent.js"
+    }
   },
   "scripts": {
     "build": "node scripts/clean.mjs && node scripts/compile-library.mjs && node scripts/build.mjs",

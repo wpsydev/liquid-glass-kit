@@ -356,3 +356,19 @@ Original film actual native local editor tour/unsaved choices,12seconds360frames
 Final integrated npm run check passed978tests/48files including queued independent prototypes; this release adds21tests to471previously published. Final npm pack --dry-run passed138files; queued feature modules are absent. Release-only CI counts follow publication.
 
 0.26 two canonical replies read back: https://x.com/wpsygames/status/2109455675436970395 and https://x.com/wpsygames/status/2109457717647855920; main plus two replies complete.
+
+0.28 publication: commit0850dbb89aa8e58dd3a4fd167ef18887e28f8b8f passed Verify38195344085 (492tests/31files), release38195344124 and Pages38195344178. Archive138members/297516bytes SHA256 `02c13e7ba5940275e63de85a746b8e64356751e51a4192501ef323b33534fdf1`. Actual hosted focus restoration and Xmain/two replies read back. Bounded receipt campaign/BOTTOM_SHEET_PUBLICATION.json; npm registry pending.
+
+## 0.29 deliberate contextual previews (2026-10-12)
+
+34 focused tests cover delay/crossing, focus/Escape, manual/native visibility, declaration validation, stale async generations, nested modal Escape, teardown and SSR. Optional standalone JS3299bytesgzip; no CSS/default import/runtime dependency change. Geometry and finite160ms demo reveal are separately host-owned.
+
+Fifteen native T3 desktop Chromium sizes/content cases320×700,390×844,768×1024,844×390,1440×900 fit page/panels,44px controls/16px fields. Actual native tooltip focus opened; Escape retained focus/suppressed unchanged-focus reopening. Actual native disclosure selection changed the local direction and explicit host Close restored trigger focus. Native manual popover tier present for all three. Physical phones/Safari/AT unverified.
+
+Synthetic fine-pointer quick entry/exit produced0opens; deliberate entry opened, trigger-to-panel crossing kept it open, final leave closed, touch entry did not hover. This is handler evidence, not physical mouse/touch certification. Actual local350ms fixture close aborted before content commit; next current request completed with0stale writes. Signal/generation checks belong to the host, not a network rollback guarantee.
+
+Connected native manual description lifecycle5×20cycles×64controllers had batches266.6/52.3/34/30.2/42.6ms, median42.6ms perbatch;6400opens/6400closes,0customRAF/JavaScript rectangles/following250msidleRAF. Excludes placement, content fetch, animation, rendering and paint. Repro fixture generator/browser probe committed; no comparative speedup.
+
+Original12second360framefilm104BPMfunk/brass seed29,651141bytes SHA256 `a34d1f2a336e7e5afe26f91897af2497d93f2f883def25a8b21444443c37f3cd`; actual tour+finite reveals, camera density separately documented. Full decode and representative image review passed. Export30fps not appFPS.
+
+Final integrated npm run check passed1022tests/50files including queued independent prototypes; release scope adds34tests to492previously published. Final npm pack --dry-run passed141files, queued modules absent. Release-only CI receipts follow publication.

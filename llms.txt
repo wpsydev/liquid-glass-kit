@@ -20,7 +20,7 @@
 - [Compatibility](https://wpsydev.github.io/liquid-glass-kit/docs/COMPATIBILITY.md): Portable CSS versus experimental refraction.
 - [Repository](https://github.com/wpsydev/liquid-glass-kit): Source, issues, license, and installable skill.
 
-v0.28.0-preview.1. Install from the matching GitHub release/tag; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
+v0.29.0-preview.1. Install from the matching GitHub release/tag; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
 
 - [Experimental scene optics](docs/SCENE.md): optional WebGL2 subpath for an owned procedural background; no arbitrary DOM sampling.
 - [Optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/): interactive refractive lenses and original neon scene.
@@ -77,3 +77,6 @@ v0.28.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Native bottom sheets](docs/BOTTOM_SHEET.md): optional native-dialog detents, keyboard resize, guarded closing and host-owned forms.
 - [Field / Notes](https://wpsydev.github.io/liquid-glass-kit/sheet/): real page-session editor, unsaved decisions and finite three-height tour.
+
+- [Deliberate preview intent](docs/PREVIEW_INTENT.md): delayed fine-pointer entry, immediate keyboard focus, manual touch access, semantics and cancellable host loading.
+- [Context Studio](https://wpsydev.github.io/liquid-glass-kit/preview/): original contextual panels and separate native selection action.

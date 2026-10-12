@@ -1,0 +1,1298 @@
+{
+  "observedAtUtc": "2026-10-12T02:26:58Z",
+  "scope": "Native T3 desktop Chromium; responsive layouts separate from synthetic events and lifecycle. Physical phones/Safari/AT unverified.",
+  "layouts": [
+    {
+      "id": "tooltip",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 591.484375,
+        "clientHeight": 170,
+        "height": 171.984375,
+        "left": 12,
+        "right": 293,
+        "scrollHeight": 170,
+        "top": 419.5,
+        "width": 281
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "tooltip / open from manual",
+          "tooltip / closed from escape",
+          "tooltip / open from focus",
+          "disclosure / closed from manual",
+          "host / folded direction explicitly selected"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 0,
+          "generation": 6,
+          "ready": 0,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": true,
+            "pending": false,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "false"
+          },
+          {
+            "id": "lazy",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "id": "disclosure",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 496.3828125,
+        "clientHeight": 400,
+        "height": 401.9921875,
+        "left": 12,
+        "right": 293,
+        "scrollHeight": 400,
+        "top": 94.390625,
+        "width": 281
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "disclosure / open from manual",
+          "tooltip / closed from manual",
+          "tooltip / open from manual",
+          "tooltip / closed from escape",
+          "tooltip / open from focus"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 0,
+          "generation": 6,
+          "ready": 0,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": true,
+            "pending": false,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "true"
+          },
+          {
+            "id": "lazy",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "id": "lazy",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 367.0078125,
+        "clientHeight": 273,
+        "height": 274.796875,
+        "left": 12,
+        "right": 293,
+        "scrollHeight": 273,
+        "top": 92.2109375,
+        "width": 281
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "lazy / deliberate intent → local 350 ms fixture",
+          "lazy / open from manual",
+          "disclosure / closed from manual",
+          "disclosure / open from manual",
+          "tooltip / closed from manual"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 0,
+          "generation": 7,
+          "ready": 0,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "false"
+          },
+          {
+            "id": "lazy",
+            "open": true,
+            "pending": true,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "id": "tooltip",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 680.15625,
+        "clientHeight": 156,
+        "height": 158.390625,
+        "left": 61,
+        "right": 363,
+        "scrollHeight": 156,
+        "top": 521.765625,
+        "width": 302
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "tooltip / open from manual",
+          "lazy / closed from manual",
+          "lazy / local fixture cancelled before commit",
+          "lazy / deliberate intent → local 350 ms fixture",
+          "lazy / open from manual"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 1,
+          "generation": 7,
+          "ready": 0,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": true,
+            "pending": false,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "false"
+          },
+          {
+            "id": "lazy",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "id": "disclosure",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 577.5,
+        "clientHeight": 373,
+        "height": 374.9921875,
+        "left": 16,
+        "right": 346,
+        "scrollHeight": 373,
+        "top": 202.5078125,
+        "width": 330
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "disclosure / open from manual",
+          "tooltip / closed from manual",
+          "tooltip / open from manual",
+          "lazy / closed from manual",
+          "lazy / local fixture cancelled before commit"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 1,
+          "generation": 7,
+          "ready": 0,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": true,
+            "pending": false,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "true"
+          },
+          {
+            "id": "lazy",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "id": "lazy",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 778.9765625,
+        "clientHeight": 246,
+        "height": 247.796875,
+        "left": 16,
+        "right": 346,
+        "scrollHeight": 246,
+        "top": 531.1796875,
+        "width": 330
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "lazy / deliberate intent → local 350 ms fixture",
+          "lazy / open from manual",
+          "disclosure / closed from manual",
+          "disclosure / open from manual",
+          "tooltip / closed from manual"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 1,
+          "generation": 8,
+          "ready": 0,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "false"
+          },
+          {
+            "id": "lazy",
+            "open": true,
+            "pending": true,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "id": "tooltip",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 660.375,
+        "clientHeight": 160,
+        "height": 162.390625,
+        "left": 439,
+        "right": 741,
+        "scrollHeight": 160,
+        "top": 497.984375,
+        "width": 302
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "tooltip / open from manual",
+          "lazy / closed from manual",
+          "lazy / local fixture cancelled before commit",
+          "lazy / deliberate intent → local 350 ms fixture",
+          "lazy / open from manual"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 2,
+          "generation": 8,
+          "ready": 0,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": true,
+            "pending": false,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "false"
+          },
+          {
+            "id": "lazy",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "disclosure",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 569.8203125,
+        "clientHeight": 380,
+        "height": 382.0703125,
+        "left": 387,
+        "right": 717,
+        "scrollHeight": 380,
+        "top": 187.75,
+        "width": 330
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "disclosure / open from manual",
+          "tooltip / closed from manual",
+          "tooltip / open from manual",
+          "lazy / closed from manual",
+          "lazy / local fixture cancelled before commit"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 2,
+          "generation": 8,
+          "ready": 0,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": true,
+            "pending": false,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "true"
+          },
+          {
+            "id": "lazy",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "lazy",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 767.5390625,
+        "clientHeight": 253,
+        "height": 254.875,
+        "left": 387,
+        "right": 717,
+        "scrollHeight": 253,
+        "top": 512.6640625,
+        "width": 330
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "lazy / deliberate intent → local 350 ms fixture",
+          "lazy / open from manual",
+          "disclosure / closed from manual",
+          "disclosure / open from manual",
+          "tooltip / closed from manual"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 2,
+          "generation": 9,
+          "ready": 0,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "false"
+          },
+          {
+            "id": "lazy",
+            "open": true,
+            "pending": true,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "tooltip",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 181.5234375,
+        "clientHeight": 147,
+        "height": 149.140625,
+        "left": 229,
+        "right": 531,
+        "scrollHeight": 147,
+        "top": 32.3828125,
+        "width": 302
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "tooltip / open from manual",
+          "lazy / closed from manual",
+          "lazy / current local details committed",
+          "lazy / deliberate intent → local 350 ms fixture",
+          "lazy / open from manual"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 2,
+          "generation": 9,
+          "ready": 1,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": true,
+            "pending": false,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "false"
+          },
+          {
+            "id": "lazy",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "id": "disclosure",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 326.515625,
+        "clientHeight": 312,
+        "height": 314.2578125,
+        "left": 290,
+        "right": 620,
+        "scrollHeight": 348,
+        "top": 12.2578125,
+        "width": 330
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "disclosure / open from manual",
+          "tooltip / closed from manual",
+          "tooltip / open from manual",
+          "lazy / closed from manual",
+          "lazy / current local details committed"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 2,
+          "generation": 9,
+          "ready": 1,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": true,
+            "pending": false,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "true"
+          },
+          {
+            "id": "lazy",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "id": "lazy",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 200.015625,
+        "clientHeight": 186,
+        "height": 188.0078125,
+        "left": 487,
+        "right": 817,
+        "scrollHeight": 238,
+        "top": 12.0078125,
+        "width": 330
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "lazy / deliberate intent → local 350 ms fixture",
+          "lazy / open from manual",
+          "disclosure / closed from manual",
+          "disclosure / open from manual",
+          "tooltip / closed from manual"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 2,
+          "generation": 10,
+          "ready": 1,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "false"
+          },
+          {
+            "id": "lazy",
+            "open": true,
+            "pending": true,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "id": "tooltip",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 729.8828125,
+        "clientHeight": 160,
+        "height": 162.390625,
+        "left": 427.6640625,
+        "right": 729.6640625,
+        "scrollHeight": 160,
+        "top": 567.4921875,
+        "width": 302
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "tooltip / open from manual",
+          "lazy / closed from manual",
+          "lazy / local fixture cancelled before commit",
+          "lazy / deliberate intent → local 350 ms fixture",
+          "lazy / open from manual"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 3,
+          "generation": 10,
+          "ready": 1,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": true,
+            "pending": false,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "false"
+          },
+          {
+            "id": "lazy",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "id": "disclosure",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 637.015625,
+        "clientHeight": 380,
+        "height": 382.0703125,
+        "left": 494.6640625,
+        "right": 824.6640625,
+        "scrollHeight": 380,
+        "top": 254.9453125,
+        "width": 330
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "disclosure / open from manual",
+          "tooltip / closed from manual",
+          "tooltip / open from manual",
+          "lazy / closed from manual",
+          "lazy / local fixture cancelled before commit"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 3,
+          "generation": 10,
+          "ready": 1,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": true,
+            "pending": false,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "true"
+          },
+          {
+            "id": "lazy",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "id": "lazy",
+      "minButton": 44,
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 839.421875,
+        "clientHeight": 253,
+        "height": 254.875,
+        "left": 953.328125,
+        "right": 1283.328125,
+        "scrollHeight": 253,
+        "top": 584.546875,
+        "width": 330
+      },
+      "state": {
+        "delay": 120,
+        "detail": "shape",
+        "events": [
+          "lazy / deliberate intent → local 350 ms fixture",
+          "lazy / open from manual",
+          "disclosure / closed from manual",
+          "disclosure / open from manual",
+          "tooltip / closed from manual"
+        ],
+        "focus": "tooltip-trigger",
+        "local": {
+          "cancelled": 3,
+          "generation": 11,
+          "ready": 1,
+          "staleWritesPrevented": 0
+        },
+        "previews": [
+          {
+            "id": "tooltip",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": "tooltip-panel",
+            "triggerExpanded": null
+          },
+          {
+            "id": "disclosure",
+            "open": false,
+            "pending": false,
+            "positioned": false,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": "false"
+          },
+          {
+            "id": "lazy",
+            "open": true,
+            "pending": true,
+            "positioned": true,
+            "renderer": "native-popover",
+            "triggerDescription": null,
+            "triggerExpanded": null
+          }
+        ],
+        "quiet": false,
+        "selected": true,
+        "solid": false,
+        "tier": "native",
+        "tourStep": null
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "nativeActions": {
+    "tooltipFocusOpened": true,
+    "escapeClosedRetainedFocus": "tooltip-trigger",
+    "unchangedFocusEventStayedClosed": true,
+    "nativePopoverTiers": [
+      "tooltip",
+      "disclosure",
+      "lazy"
+    ],
+    "nativeUseDirectionSelected": true,
+    "explicitUseReturnedFocus": "disclosure-trigger"
+  },
+  "async": {
+    "cancelled": {
+      "delay": 120,
+      "detail": "shape",
+      "events": [
+        "lazy / closed from manual",
+        "lazy / local fixture cancelled before commit",
+        "lazy / deliberate intent → local 350 ms fixture",
+        "lazy / open from manual"
+      ],
+      "focus": "tooltip-trigger",
+      "local": {
+        "cancelled": 1,
+        "generation": 14,
+        "ready": 0,
+        "staleWritesPrevented": 0
+      },
+      "previews": [
+        {
+          "id": "tooltip",
+          "open": false,
+          "pending": false,
+          "positioned": false,
+          "renderer": "hidden",
+          "triggerDescription": "tooltip-panel",
+          "triggerExpanded": null
+        },
+        {
+          "id": "disclosure",
+          "open": false,
+          "pending": false,
+          "positioned": false,
+          "renderer": "hidden",
+          "triggerDescription": null,
+          "triggerExpanded": "false"
+        },
+        {
+          "id": "lazy",
+          "open": false,
+          "pending": false,
+          "positioned": false,
+          "renderer": "hidden",
+          "triggerDescription": null,
+          "triggerExpanded": null
+        }
+      ],
+      "quiet": false,
+      "selected": false,
+      "solid": false,
+      "tier": "hidden",
+      "tourStep": null
+    },
+    "content": "A compact, legible symbol uses one dark silhouette and a single bright counterpoint. The background grid supplies scale without competing for attention.\n\nSource\nOriginal inline SVG\nDetail\nShape rationale\nResolution\nLocally authored metadata\nHost checked the AbortSignal and request generation before writing this content.",
+    "pending": {
+      "delay": 120,
+      "detail": "shape",
+      "events": [
+        "lazy / deliberate intent → local 350 ms fixture",
+        "lazy / open from manual"
+      ],
+      "focus": "tooltip-trigger",
+      "local": {
+        "cancelled": 0,
+        "generation": 14,
+        "ready": 0,
+        "staleWritesPrevented": 0
+      },
+      "previews": [
+        {
+          "id": "tooltip",
+          "open": false,
+          "pending": false,
+          "positioned": false,
+          "renderer": "hidden",
+          "triggerDescription": "tooltip-panel",
+          "triggerExpanded": null
+        },
+        {
+          "id": "disclosure",
+          "open": false,
+          "pending": false,
+          "positioned": false,
+          "renderer": "hidden",
+          "triggerDescription": null,
+          "triggerExpanded": "false"
+        },
+        {
+          "id": "lazy",
+          "open": true,
+          "pending": true,
+          "positioned": true,
+          "renderer": "hidden",
+          "triggerDescription": null,
+          "triggerExpanded": null
+        }
+      ],
+      "quiet": false,
+      "selected": false,
+      "solid": false,
+      "tier": "hidden",
+      "tourStep": null
+    },
+    "ready": {
+      "delay": 120,
+      "detail": "shape",
+      "events": [
+        "lazy / current local details committed",
+        "lazy / deliberate intent → local 350 ms fixture",
+        "lazy / open from manual",
+        "lazy / closed from manual",
+        "lazy / local fixture cancelled before commit"
+      ],
+      "focus": "tooltip-trigger",
+      "local": {
+        "cancelled": 1,
+        "generation": 15,
+        "ready": 1,
+        "staleWritesPrevented": 0
+      },
+      "previews": [
+        {
+          "id": "tooltip",
+          "open": false,
+          "pending": false,
+          "positioned": false,
+          "renderer": "hidden",
+          "triggerDescription": "tooltip-panel",
+          "triggerExpanded": null
+        },
+        {
+          "id": "disclosure",
+          "open": false,
+          "pending": false,
+          "positioned": false,
+          "renderer": "hidden",
+          "triggerDescription": null,
+          "triggerExpanded": "false"
+        },
+        {
+          "id": "lazy",
+          "open": true,
+          "pending": false,
+          "positioned": true,
+          "renderer": "hidden",
+          "triggerDescription": null,
+          "triggerExpanded": null
+        }
+      ],
+      "quiet": false,
+      "selected": false,
+      "solid": false,
+      "tier": "hidden",
+      "tourStep": null
+    }
+  },
+  "syntheticIntent": {
+    "crossing": {
+      "closes": 0,
+      "open": true,
+      "opens": 1
+    },
+    "deliberate": {
+      "open": true,
+      "opens": 1
+    },
+    "fine": true,
+    "left": {
+      "closes": 1,
+      "open": false
+    },
+    "quick": {
+      "open": false,
+      "opens": 0
+    },
+    "scope": "Synthetic mouse/touch handler events; not physical-pointer/device interaction",
+    "touch": {
+      "open": false,
+      "opens": 1
+    }
+  },
+  "lifecycle": {
+    "batchesMs": [
+      266.60000002384186,
+      52.299999952316284,
+      34,
+      30.200000047683716,
+      42.60000002384186
+    ],
+    "closed": 6400,
+    "controllersPerCycle": 64,
+    "customRaf": 0,
+    "cyclesPerBatch": 20,
+    "jsRectReads": 0,
+    "medianBatchMs": 42.60000002384186,
+    "observedAtUtc": "2026-10-12T02:25:13.042Z",
+    "opened": 6400,
+    "scope": "Connected DOM manual description attach/show/hide/update/destroy; excludes positioning, content fetch, animation, rendering and paint",
+    "subsequent250msIdleRaf": 0,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36"
+  }
+}

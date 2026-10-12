@@ -163,12 +163,12 @@
     {
       "order": 12,
       "url": "https://mobbin.com",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Native bottom-sheet editor with guarded dismissal",
       "version": "0.28.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/sheet/",
       "video": "docs/campaign/assets/bottom-sheet-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109469503570473187",
       "performance": [
         "benchmarks/bottom-sheet-payload.json",
         "benchmarks/bottom-sheet-browser.json"
@@ -177,13 +177,16 @@
     {
       "order": 13,
       "url": "https://hoverstat.es",
-      "status": "implementation-in-progress",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Deliberate contextual preview intent",
+      "version": "0.29.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/preview-intent-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/preview-intent-payload.json",
+        "benchmarks/preview-intent-browser.json"
+      ]
     },
     {
       "order": 14,

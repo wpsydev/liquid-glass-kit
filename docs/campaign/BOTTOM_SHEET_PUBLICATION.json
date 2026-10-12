@@ -1,0 +1,30 @@
+{
+  "version": "0.28.0-preview.1",
+  "commit": "0850dbb89aa8e58dd3a4fd167ef18887e28f8b8f",
+  "workflows": {
+    "verify": 38195344085,
+    "release": 38195344124,
+    "pages": 38195344178,
+    "conclusion": "success",
+    "tests": 492,
+    "testFiles": 31
+  },
+  "archive": {
+    "members": 138,
+    "bytes": 297516,
+    "sha256": "02c13e7ba5940275e63de85a746b8e64356751e51a4192501ef323b33534fdf1"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/sheet/",
+    "chunk": "sheet-8r3lQ2Wi.js",
+    "nativeOpenClosedReturnedFocusToOriginalNote1": true
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109469503570473187",
+    "reply1": "https://x.com/wpsygames/status/2109469726715904237",
+    "reply2": "https://x.com/wpsygames/status/2109469934438981864",
+    "duration": 12,
+    "readyState": 4
+  },
+  "npmRegistry": "pending"
+}

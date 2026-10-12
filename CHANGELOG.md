@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.29.0-preview.1
+
+- Add optional preview intent: delayed fine-pointer entry, immediate focus access, panel crossing grace, Escape suppression and explicit manual pinning.
+- Support host-declared noninteractive descriptions or native-button disclosures, portable hidden panels and explicitly authored manual popovers. Abort intent on close/update/teardown; content writes remain host-owned.
+- Add original Context Studio with finite host-authored reveals, native action selection, cancelable local details, responsive evidence and a twelve-second funk/brass film. No default CSS/import change or idle frame loop.
+
 ## 0.28.0-preview.1
 
 - Add optional native-dialog bottom sheets with bounded detents, keyboard resizing, coalesced grabber dragging, focus restoration and guarded dismissal.

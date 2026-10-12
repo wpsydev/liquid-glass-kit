@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 651141,
+  "sha256": "a34d1f2a336e7e5afe26f91897af2497d93f2f883def25a8b21444443c37f3cd",
+  "music": {
+    "style": "funk",
+    "bpm": 104,
+    "seed": 29,
+    "patch": "brass",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Native T3 actual manual description/disclosure/local detail tour; host-authored160ms finite reveals. Camera-only header/tool density and hidden lower exposition, no substituted controller/positioning/content states. Export FPS not app FPS."
+}
