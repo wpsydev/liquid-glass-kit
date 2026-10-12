@@ -20,7 +20,7 @@
       "bytes": 844119,
       "sha256": "315195f4c680dc1a477f8b64a0e9cfcc16b76bae4d8a6f12ae4bb396553b9f51"
     },
-    "exportVideo": "H264 yuv420p, 960×960, 30 fps, 12.00s; export frame rate is not application FPS",
+    "exportVideo": "H264 yuv420p, 960\u00d7960, 30 fps, 12.00s; export frame rate is not application FPS",
     "exportAudio": "AAC stereo, 48000Hz, 192kbit/s; original electro 144BPM metal patch seed56, procedural synthesis, MIT, no external samples",
     "decodedVideoFrames": 360,
     "uniqueDecodedFrameHashes": 292,
@@ -104,5 +104,7 @@
     "Configured-library policies are distinct from WCAG 24px target minimum with exceptions",
     "Synchronous cost excludes paint, GPU, app FPS and speedup comparisons",
     "Preview exports/publication are root-owned and not claimed here"
-  ]
+  ],
+  "patchPreview": "0.56.0-preview.2 captures native control values before cancellation redraw",
+  "filmReuse": "Original capture predates the event-binding fix; its direct configure/preset finite tour and renderer output are unchanged. Film does not demonstrate the binding regression fix."
 }

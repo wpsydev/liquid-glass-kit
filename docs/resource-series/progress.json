@@ -594,7 +594,7 @@
       "url": "https://lovable.dev",
       "status": "validated-awaiting-publication",
       "feature": "Read-only explicit mobile layout sampling with honest incomplete results",
-      "version": "0.56.0-preview.1",
+      "version": "0.56.0-preview.2",
       "demo": null,
       "video": "docs/campaign/assets/layout-audit-showcase.mp4",
       "thread": null,

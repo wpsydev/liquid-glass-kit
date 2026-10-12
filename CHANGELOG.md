@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.56.0-preview.2
+
+- Fix FitCheck native checkbox/select values snapping back during tour cancellation by capturing the chosen value before redrawing controls.
+- Keep the read-only library sampler and finite visual tour unchanged; retain the original film with its capture provenance.
+
 ## 0.56.0-preview.1
 
 - Add optional read-only layout sampling for explicitly supplied controls, fields and containers with bounded native reads.

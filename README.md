@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.56.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.56.0-preview.2
 ```
 
 Import the stylesheet once at your app root:

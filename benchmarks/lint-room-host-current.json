@@ -1,0 +1,8 @@
+{
+  "capNote": "Display cap reached: further findings may be omitted.",
+  "characters": 63954,
+  "checkAndRenderSynchronousMs": 34.39999997615814,
+  "diagnostics": 30,
+  "scope": "native shared checker plus diagnostic DOM creation, excludes paint/client/process start",
+  "version": "0.53.0-preview.1"
+}

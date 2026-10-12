@@ -156,10 +156,10 @@ function tour(): Promise<boolean> {
 }
 material(); render();
 query('#audit').addEventListener('click', () => { cancelTour(); audit(); });
-fixedField.addEventListener('change', () => { cancelTour(); configure({ fixed: fixedField.checked }); });
-edgesField.addEventListener('change', () => { cancelTour(); configure({ edges: edgesField.checked }); });
-limitField.addEventListener('change', () => { cancelTour(); configure({ limit: Number(limitField.value) }); });
-quietField.addEventListener('change', () => { cancelTour(); configure({ quiet: quietField.checked }); });
+fixedField.addEventListener('change', () => { const value = fixedField.checked; cancelTour(); configure({ fixed: value }); });
+edgesField.addEventListener('change', () => { const value = edgesField.checked; cancelTour(); configure({ edges: value }); });
+limitField.addEventListener('change', () => { const value = Number(limitField.value); cancelTour(); configure({ limit: value }); });
+quietField.addEventListener('change', () => { const value = quietField.checked; cancelTour(); configure({ quiet: value }); });
 query('#solid').addEventListener('click', () => { cancelTour(); configure({ solid: !solid }); });
 for (const button of document.querySelectorAll<HTMLButtonElement>('[data-preset]')) button.addEventListener('click', () => { preset(button.dataset.preset as Preset); });
 query('#reset').addEventListener('click', reset); query('#tour').addEventListener('click', () => { void tour(); });

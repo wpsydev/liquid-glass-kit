@@ -607,7 +607,7 @@ Integrated npm run check passed1,196tests/55files. npm pack --dry-run passed218m
 
 ## 0.53.0 developer CLI (2026-10-12)
 
-Sharedchecker extracted fromexistingworkbench preservinggrammar/vectors/threeconfiguredrules; 12CLItests plusworkbench suite.25actual distributed NodeCLIprocess cases includingUTF8/path/root/symlink/byteunitcaps/exitcodes/advisoryhook/helpversion; no clientdeliveryorWindowsFSsandboxclaim.30native desktop cases44px/16px/noflow; actualediting/caret/CtrlEnter/diagnosticselection/stalesnapshot/file/Blob/race/quiet/finitecancel. Near63954UTF16browsercheck21.5msincludingDOMexcludepaint. Node78919-byte command includes4MITnotices4535B, no browsermaterialparser/runtime deps. Process/native/puretimings separatelyscoped, noGPU/FPS/speedupclaim.
+Sharedchecker extracted fromexistingworkbench preservinggrammar/vectors/threeconfiguredrules; 12CLItests plusworkbench suite.25actual distributed NodeCLIprocess cases includingUTF8/path/root/symlink/byteunitcaps/exitcodes/advisoryhook/helpversion; no clientdeliveryorWindowsFSsandboxclaim.30native desktop cases44px/16px/noflow; actualediting/caret/CtrlEnter/diagnosticselection/stalesnapshot/file/Blob/race/quiet/finitecancel. Historical63954UTF16browsercheck21.5ms; fresh0.53nativecheck34.4msincludinghostdiagnosticDOMcreation/excludingpaint, with30notescap. No speedupcomparison. Node78919-byte command includes4MITnotices4535B, no browsermaterialparser/runtime deps. Process/native/puretimings separatelyscoped, noGPU/FPS/speedupclaim.
 
 Original608419-byte12s960square360-frame130BPM flute-FM breakbeatseed67 film SHA256cea830af765441a883c992cc2f77fab72d2856bab2a75f29b6608d8c06ca2365; recapturedactualCLI0.53/313uniqueframes/threeframes/full decode/native10.43+1.57hold; CLIpanel labeled savedreceipts, notlivebrowserterminal. Originalscorepreserved.
 
@@ -640,3 +640,9 @@ Original835945-byte12s960square360-frame144BPM electro/metalpatchseed56 SHA256f4
 Integrated final npm run check passed1,355tests/59files incldistributedCLI. npm pack --dry-run passed230members/537149bytes/SSR/publicexports/CSS. npm whoami stillE401 at2026-10-12T07:39Z; registry publication notclaimed. Published-scope CI followsrelease.
 
 At2026-10-12T07:45Z a fresh npmweblogin reachedthe already-signed-in account OTPescalation screen inT3preview. Registryauth remainspending2FA; no OTP/tokenwasguessed, readorposted. GitHubreleaseinstallation remainsavailable.
+
+## 0.56.0-preview.2 native control correction (2026-10-12)
+
+Hosted native check reproduced change handlers losing chosen checkbox/select values because cancelTour rerenders oldstate first. All4 handlers nowcapturechoicebeforecancel. Core sampler/finite tour/media unchanged; originalfilm doesnotdemonstratebindingfix. Native regression readbacks follow correcteddeployment.
+
+Correction npm run check passed1,355tests/59files incldistributedCLI; npm pack --dry-run passed230members/537691bytes. Read-only handleraudit confirmedonly4DOMvalue reads wereoverwritten byrender. Correcteddeployment nativechecks remainpending beforethreadcompletion.

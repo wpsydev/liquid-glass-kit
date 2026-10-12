@@ -1,0 +1,8 @@
+{
+  "calls": 30,
+  "finalPending": 0,
+  "medianMs": 0.10000002384185791,
+  "p95Ms": 0.3999999761581421,
+  "scope": "connected pure planner plus host file/content DOM updates, excludes layout/paint/client/download",
+  "version": "0.54.0-preview.1"
+}
