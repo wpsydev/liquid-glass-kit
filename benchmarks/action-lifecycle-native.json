@@ -1,0 +1,24 @@
+{
+  "batchSize": 20,
+  "button": {
+    "maxMs": 0.075,
+    "medianMs": 0.005000001192092896,
+    "minMs": 0,
+    "p95Ms": 0.010000002384185792,
+    "samples": 400
+  },
+  "fieldIdentity": true,
+  "fieldValuePreserved": true,
+  "form": {
+    "maxMs": 0.13999999761581422,
+    "medianMs": 0.005000001192092896,
+    "minMs": 0,
+    "p95Ms": 0.010000002384185792,
+    "samples": 400
+  },
+  "measuredCyclesPerVariant": 8000,
+  "observedAtUtc": "2026-10-12T03:11:06.610Z",
+  "precisionNote": "Values are per-cycle averages of20 connected mount/destroy cycles; batch percentiles do not characterize individual callback latency.",
+  "scope": "Connected native helper attach+destroy with authored text/status ownership, 50 warmup cycles per variant and20 cycles per timed batch. Fixture/options creation, action invocation/async fixture, network, style/paint and comparative speedup excluded.",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36"
+}

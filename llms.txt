@@ -86,3 +86,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Scoped material preferences](docs/MATERIAL_PREFERENCES.md): pure requested/effective policy, OS reductions, nested themes and explicit host storage/adapters.
 - [Side B](https://wpsydev.github.io/liquid-glass-kit/preferences/): original session notes, independent desk palette and native comfort utilities.
+
+- [Native actions](docs/ACTION.md): real validation and submitter data, single-flight intent, explicit host confirmation and honest cancellation.
+- [Review Room](https://wpsydev.github.io/liquid-glass-kit/actions/): local brief queue, review outcomes and cancellation that may outlive the client.

@@ -1,0 +1,120 @@
+{
+  "observedAtUtc": "2026-10-12T03:19:49.489Z",
+  "study": "Review Room / optional native actions",
+  "publication": "Pending parent release and X publication; no registry availability inferred",
+  "nativeBrowser": {
+    "tabId": "tab_45",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+    "cssViewport": {
+      "width": 960,
+      "height": 960
+    },
+    "rawCapture": {
+      "id": "28105162-0472-4705-8632-6b21d2e581a1-5b54da72-8779-40b8-9ac6-6ce873e517b4-mp4",
+      "tabId": "tab_45",
+      "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-5b54da72-8779-40b8-9ac6-6ce873e517b4-mp4.mp4",
+      "mimeType": "video/mp4;codecs=avc1",
+      "sizeBytes": 818162,
+      "createdAt": "2026-10-12T03:14:57.708Z"
+    },
+    "tourResult": {
+      "client": "cancelled",
+      "complete": true,
+      "hostPending": 0,
+      "intents": 1,
+      "lateCommits": 1,
+      "queue": 5,
+      "reviewer": "success",
+      "viewport": {
+        "height": 960,
+        "width": 960
+      }
+    },
+    "paintCheck": {
+      "animationName": "pending-turn",
+      "busy": "true",
+      "changed": true,
+      "client": "success",
+      "finishedAnimation": "none",
+      "first": "matrix(0.961973, 0.273145, -0.273145, 0.961973, 0, 0)",
+      "hostPending": 0,
+      "quietPendingAnimation": "none",
+      "second": "matrix(0.021579, 0.999767, -0.999767, 0.021579, 0, 0)"
+    },
+    "nativeBehaviorRecord": "benchmarks/action-native.json",
+    "responsiveRecord": "benchmarks/action-responsive.json",
+    "lifecycleRecord": "benchmarks/action-lifecycle-native.json",
+    "payloadRecord": "benchmarks/action-payload.json",
+    "scope": "T3 desktop Chromium, native connected controllers, actual local fixture. Not physical-phone, Safari, screen-reader, network-save, backend rollback, load/FPS or comparative speedup evidence."
+  },
+  "film": {
+    "path": "assets/action-showcase.mp4",
+    "durationSeconds": 12,
+    "width": 960,
+    "height": 960,
+    "decodedFrames": 360,
+    "exportFps": 30,
+    "video": "H264 High/yuv420p",
+    "audio": "AAC LC/stereo/48000Hz",
+    "bytes": 662705,
+    "sha256": "e233994717bd1d4cfbff642969a243a46ff42dcf1eb595b74073928ea6f4bbbc",
+    "fullDecode": "pass; /tmp/lg-action-decode.log",
+    "frameMD5": "/tmp/lg-action-frames.md5",
+    "reviewedFramesSeconds": [
+      0.8,
+      3.5,
+      8.6
+    ],
+    "captions": [
+      "native validation · one pending action",
+      "explicit retry · submitted is not success",
+      "cancel intent · host work may still finish"
+    ]
+  },
+  "poster": {
+    "path": "assets/action-showcase.png",
+    "timeSeconds": 6.5,
+    "bytes": 271623,
+    "sha256": "228875879f8ca9da8cf09173572a1745b0b307814d7574d3927d33d98e3ffc33"
+  },
+  "score": {
+    "style": "dnb",
+    "bpm": 160,
+    "seed": 32,
+    "patch": "fm",
+    "rms": 0.149,
+    "path": "/tmp/lg-action-score.wav",
+    "bytes": 2304044,
+    "sha256": "51aed5de3eb7d814d3e345784d92c4fc18af67daf23c7ef6931010f28732c0b0",
+    "provenance": "Original procedural stereo synthesis by scripts/render-series-score.py; no external samples, MIT"
+  },
+  "camera": {
+    "density": "Temporary capture-only stylesheet, no repository UI/library changes",
+    "css": ".review-room{max-width:960px;padding:0 26px}header{min-height:56px;font-size:10px}.intro{padding:16px 0 14px;gap:28px}.intro h1{font-size:42px}.intro .eyebrow{font-size:8px;margin-bottom:10px}.intro-art{width:175px}.fixture-bar{padding:2px 0;gap:10px;font-size:8px}.fixture-bar>span:nth-child(2){font-size:9px}.fixture-bar button{font-size:9px}.workspace{padding-top:16px;gap:18px;grid-template-columns:minmax(0,1.06fr) minmax(0,1fr)}.brief-surface{padding:16px}.card-heading{padding-bottom:10px;gap:10px}.card-heading h2{font-size:27px;margin-top:8px}#brief-form{padding-top:12px;gap:10px}#brief-form label{font-size:8px}.field-pair{grid-template-columns:.85fr 1.15fr;gap:10px}#brief-form input:not([type=checkbox]),#brief-form select,#brief-form textarea{margin-top:6px;padding:8px 9px;font-size:16px}#brief-form textarea{min-height:86px;height:86px;line-height:1.5}.business-rule{font-size:9px;line-height:1.5}.late-choice{margin-top:0}.late-choice>span{font-size:9px}.submit-actions{display:flex;justify-content:flex-start;gap:10px}.submit-actions #queue-submit{width:auto;min-width:185px;min-height:44px;font-size:10px;padding:8px 10px}.submit-actions #intent-submit{margin-top:0;min-height:44px;font-size:9px;padding:8px 0}.action-status{font-size:10px;line-height:1.6;margin-top:10px;min-height:16px}.lifecycle-controls{margin-top:6px;gap:10px}.lifecycle-controls button{font-size:9px}.control-note{font-size:8px;line-height:1.5;margin-top:8px}.rule-notice{font-size:10px;line-height:1.6;margin-top:7px}.receipt{padding:12px;margin-top:12px}.receipt>div:first-child{display:flex;font-size:7px}.receipt strong{margin:0}.receipt dl{display:grid;grid-template-columns:1fr 1fr;gap:0 14px;margin:9px 0 0}.receipt dl>div{font-size:8px;padding:6px 0;gap:8px}.receipt summary{font-size:8px}.queue-heading{padding:0 0 12px}.queue-heading h2{font-size:28px;margin-top:8px}.queue{padding-top:11px;gap:10px;max-height:305px;overflow:auto}.brief-entry{padding:12px}.brief-entry h3{font-size:22px;margin:9px 0 7px}.brief-entry>p{font-size:9px;line-height:1.6}.entry-meta{font-size:7px;line-height:1.5;margin-top:8px;padding-top:7px;gap:10px}.entry-top{font-size:7px}.review-action{padding:12px 0;margin-top:13px}.review-action h3{font-size:25px}.review-action>button{margin-top:10px;font-size:10px}.review-note{font-size:8px;line-height:1.6;margin-top:8px}.intents-section{padding-top:13px}.intents{margin-top:8px}.empty-state{font-size:9px;line-height:1.6}.intent-entry{font-size:10px;line-height:1.6}.workflow-note,.demo-controls,footer{display:none}.review-room{padding-bottom:160px}",
+    "readOnlyQueueScrollSeconds": [
+      1.2,
+      4.5,
+      6.25,
+      8.4,
+      9.8
+    ],
+    "purpose": "Compact original header/form/receipt/cards;305px scrollable queue follows actual appended entries. Hide lower explanatory sections/footer, retain native controls and true outcomes."
+  },
+  "reproduction": {
+    "inline": "node scripts/inline-preview.mjs --study actions --output /tmp/lg-action-inline.html",
+    "payload": "node scripts/action-benchmark.mjs",
+    "probe": "Inject scripts/action-browser-probe.js into native T3 source preview; call behavior/layout. Inject /tmp/lg-action-lifecycle.html for lifecycle(400).",
+    "score": "python3 scripts/render-series-score.py --style dnb --seed 32 --output /tmp/lg-action-score.wav",
+    "encoding": "scripts/render-series-film.mjs with recorded native input, score and three caption strings"
+  },
+  "validation": {
+    "unitTests": 28,
+    "typecheck": "pass",
+    "responsiveStates": 15,
+    "smallControls": 0,
+    "smallFields": 0,
+    "horizontalOverflowCases": 0,
+    "librarySourceEdited": false,
+    "publicPostingBySubagent": false
+  }
+}

@@ -400,3 +400,17 @@ Original12second360framecinematic96pianoseed31 native9.6stour completestrue/3set
 Previewhelper now usescallbackreplacements forCSS/JavaScript insertion: $backtick/$apostrophe/$ampersand source remainsliteral. NativeRegistrypreview previouslyhadSyntaxError beforecontrollerassignment, fixedgeneratedscript passednode--check andactualcontrollerloaded. Toolingfixnotaruntimeglassspeedclaim.
 
 Final integrated npm run check passed 1,142 tests in 53 files, including queued prototypes; the release scope adds 24 tests to the previously published 550. npm pack --dry-run passed 149 files and excludes future optional modules. Publication CI will independently test only published sources.
+
+0.31 publication: commit556b5d5e97e66697a1db78665838da2edc6e5808 passed Verify38200613556 (574tests/34files), release38200613536 and Pages38200613545. Downloaded149members/321950bytes archive SHA256 `0010d486f6a78a3ed945b171c9fc373be955b1aaab25423de099a0c7ef1ef273`. Hosted theme/reduce/solid policy and independent palettes reproduced; X main video read back at12seconds. Main and two replies have sent receipts in campaign/MATERIAL_PREFERENCES_PUBLICATION.json. npm registry pending.
+
+## 0.32 native actions (2026-10-12)
+
+28 focused tests cover native buttons/forms, validation and submitter FormData, single-flight promises, explicit outcomes, host-confirmed retry, cooperative abort intent, stale UI suppression and conditional ownership/SSR. Optional standalone JS2,402bytesgzip. Native17case record includes actual Enter submission, invalid field0callbacks, live FormData, preserved dirtydraft/control identity and focus, submitted versus success, retry, cooperative cancellation and noncooperative late host commit. Pending CSS actually changes while painted, ends at completion and remains absent in quiet mode. Fifteen native desktop Chromium state/viewport cases fit320–1440px with44px targets and16px fields; physical phones/Safari/AT unverified.
+
+Two lifecycle variants each ran50warmups then400×20connected attach/destroy batches (8,000cycles each). Median normalized batch average~0.005ms/cycle andp95~0.010ms; fixture/options creation, action invocation/asyncwork/network/style/paint excluded. Batch averages are not individualcallback percentiles. No comparative speedup/load/FPS claim.
+
+Original12second360frame960square native Review Room film uses160BPM drum-and-bass/FM seed32. Actual11stour ends clientcancelled, one submittedintent, one latehostcommit, fivebriefs, reviewerSuccess and0pendinghosttasks. Camera-only density/readonlyqueueviewport recorded exactly; no fabricated outcomes. Bytes662705 SHA256 `e233994717bd1d4cfbff642969a243a46ff42dcf1eb595b74073928ea6f4bbbc`; full audiovisual decode and frames.8/3.5/8.6reviewed. Export30fps is not appFPS.
+
+Final integrated npm run check passed1,142tests/53files including queued prototypes; this release adds28tests to574published tests. Packaging/browser checks recorded separately; release-only CI counts follow publication.
+
+Final npm pack --dry-run passed152files and excludes future optional modules. No action stylesheet is required. The published-scope verification will independently check602tests/35files if the expected additions hold.

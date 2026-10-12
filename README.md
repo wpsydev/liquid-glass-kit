@@ -170,3 +170,5 @@ Optional `/preview-intent` manages deliberate hover/focus/manual preview visibil
 Optional `/disclosure-nav` enhances one authored navigation tree with native disclosure buttons, ordinary links and safe focus rescue. Import `/disclosure-nav.css` separately; host CSS owns compact layout and routing remains native. [API](docs/DISCLOSURE_NAV.md) · [Long Way Library](https://wpsydev.github.io/liquid-glass-kit/navigation/).
 
 Optional `/material-preferences` coordinates scoped theme, motion and transparency choices with detected OS preferences. Import `/material-preferences.css` after the material stylesheet; forward effective policy to existing JavaScript controllers. Persistence needs an explicit host storage object/key. [API](docs/MATERIAL_PREFERENCES.md) · [Side B](https://wpsydev.github.io/liquid-glass-kit/preferences/).
+
+Optional `/action` coordinates an authored native button or form with single-flight work, explicit host outcomes and cancellation intent. Native validation, successful-control FormData, child identity and editable drafts remain intact. [API](docs/ACTION.md) · [Review Room](https://wpsydev.github.io/liquid-glass-kit/actions/).

@@ -1,0 +1,7 @@
+{
+  "observedAtUtc": "2026-10-12T03:11:06.357Z",
+  "jsRawBytes": 5948,
+  "jsGzipBytes": 2402,
+  "sourceSha256": "3a376c6fceb75295bcd4bb70c2eeeb256bb4959d8a8c78a991d8c5a36f59694d",
+  "scope": "Standalone optional native action helper; no required core growth. Payload only, not loading/FPS or comparative speedup."
+}

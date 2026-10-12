@@ -1,0 +1,2341 @@
+{
+  "observedAtUtc": "2026-10-12T03:09:09.669Z",
+  "scope": "T3 desktop Chromium CSS viewports, three real states in five sizes. Not physical phone, soft-keyboard, Safari, or assistive technology evidence.",
+  "layouts": [
+    {
+      "requested": {
+        "width": 320,
+        "height": 700
+      },
+      "states": [
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 249,
+              "x": 28,
+              "y": 1045.7265625
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 105.1328125,
+              "x": 12,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 47.1640625,
+              "x": 245.8359375,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 126.78125,
+              "x": 166.21875,
+              "y": 257.25
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 249,
+              "x": 28,
+              "y": 1110.7265625
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 117.484375,
+              "x": 28,
+              "y": 1162.7265625
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 115.6875,
+              "x": 28,
+              "y": 1256.7265625
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 100.6875,
+              "x": 153.6875,
+              "y": 1256.7265625
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 54.703125,
+              "x": 28,
+              "y": 1310.7265625
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 194.4453125,
+              "x": 12,
+              "y": 2552.109375
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 118.1953125,
+              "x": 12,
+              "y": 3378.25
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 81.4921875,
+              "x": 136.1953125,
+              "y": 3378.25
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 79.1328125,
+              "x": 12,
+              "y": 3428.25
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 12,
+              "y": 3540.84375
+            }
+          ],
+          "document": {
+            "height": 3606,
+            "width": 305
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 249,
+              "x": 28,
+              "y": 523.640625
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 249,
+              "x": 28,
+              "y": 606.640625
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 249,
+              "x": 28,
+              "y": 690.640625
+            },
+            {
+              "fontSize": "16px",
+              "height": 186,
+              "id": "brief-summary",
+              "width": 249,
+              "x": 28,
+              "y": 773.640625
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "idle",
+          "requestedState": "idle",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 700,
+            "clientWidth": 305,
+            "height": 700,
+            "width": 320
+          }
+        },
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 249,
+              "x": 28,
+              "y": 1045.7265625
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 105.1328125,
+              "x": 12,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 47.1640625,
+              "x": 245.8359375,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 126.78125,
+              "x": 166.21875,
+              "y": 257.25
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 249,
+              "x": 28,
+              "y": 1110.7265625
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 117.484375,
+              "x": 28,
+              "y": 1162.7265625
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 115.6875,
+              "x": 28,
+              "y": 1327.7109375
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 100.6875,
+              "x": 153.6875,
+              "y": 1327.7109375
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 54.703125,
+              "x": 28,
+              "y": 1381.7109375
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 194.4453125,
+              "x": 12,
+              "y": 2623.09375
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 118.1953125,
+              "x": 12,
+              "y": 3449.234375
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 81.4921875,
+              "x": 136.1953125,
+              "y": 3449.234375
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 79.1328125,
+              "x": 12,
+              "y": 3499.234375
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 12,
+              "y": 3611.828125
+            }
+          ],
+          "document": {
+            "height": 3677,
+            "width": 305
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 249,
+              "x": 28,
+              "y": 523.640625
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 249,
+              "x": 28,
+              "y": 606.640625
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 249,
+              "x": 28,
+              "y": 690.640625
+            },
+            {
+              "fontSize": "16px",
+              "height": 186,
+              "id": "brief-summary",
+              "width": 249,
+              "x": 28,
+              "y": 773.640625
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "local-rule-error",
+          "requestedState": "error",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 700,
+            "clientWidth": 305,
+            "height": 700,
+            "width": 320
+          }
+        },
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 249,
+              "x": 28,
+              "y": 1045.7265625
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 105.1328125,
+              "x": 12,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 47.1640625,
+              "x": 245.8359375,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 126.78125,
+              "x": 166.21875,
+              "y": 257.25
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 249,
+              "x": 28,
+              "y": 1110.7265625
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 117.484375,
+              "x": 28,
+              "y": 1162.7265625
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 115.6875,
+              "x": 28,
+              "y": 1279.9140625
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 100.6875,
+              "x": 153.6875,
+              "y": 1279.9140625
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 54.703125,
+              "x": 28,
+              "y": 1333.9140625
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 194.4453125,
+              "x": 12,
+              "y": 2892.296875
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 118.1953125,
+              "x": 12,
+              "y": 3718.4375
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 81.4921875,
+              "x": 136.1953125,
+              "y": 3718.4375
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 79.1328125,
+              "x": 12,
+              "y": 3768.4375
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 12,
+              "y": 3881.03125
+            }
+          ],
+          "document": {
+            "height": 3946,
+            "width": 305
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 249,
+              "x": 28,
+              "y": 523.640625
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 249,
+              "x": 28,
+              "y": 606.640625
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 249,
+              "x": 28,
+              "y": 690.640625
+            },
+            {
+              "fontSize": "16px",
+              "height": 186,
+              "id": "brief-summary",
+              "width": 249,
+              "x": 28,
+              "y": 773.640625
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "cancelled-with-late-host-commit",
+          "requestedState": "cancelled",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 700,
+            "clientWidth": 305,
+            "height": 700,
+            "width": 320
+          }
+        }
+      ]
+    },
+    {
+      "requested": {
+        "width": 390,
+        "height": 844
+      },
+      "states": [
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 309,
+              "x": 33,
+              "y": 1027.734375
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 105.1328125,
+              "x": 14,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 47.1640625,
+              "x": 313.8359375,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 142.625,
+              "x": 218.375,
+              "y": 252.546875
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 309,
+              "x": 33,
+              "y": 1092.734375
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 117.484375,
+              "x": 33,
+              "y": 1144.734375
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 126.6953125,
+              "x": 33,
+              "y": 1238.734375
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 110.4375,
+              "x": 170.6953125,
+              "y": 1238.734375
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 59.9609375,
+              "x": 33,
+              "y": 1293.734375
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 194.4453125,
+              "x": 14,
+              "y": 2448.46875
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 130.5234375,
+              "x": 14,
+              "y": 3225.5390625
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 90.6640625,
+              "x": 150.5234375,
+              "y": 3225.5390625
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 88.203125,
+              "x": 247.1875,
+              "y": 3225.5390625
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 14,
+              "y": 3338.1328125
+            }
+          ],
+          "document": {
+            "height": 3403,
+            "width": 375
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 309,
+              "x": 33,
+              "y": 524.34375
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 309,
+              "x": 33,
+              "y": 607.34375
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 309,
+              "x": 33,
+              "y": 691.34375
+            },
+            {
+              "fontSize": "16px",
+              "height": 186,
+              "id": "brief-summary",
+              "width": 309,
+              "x": 33,
+              "y": 774.34375
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "idle",
+          "requestedState": "idle",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 844,
+            "clientWidth": 375,
+            "height": 844,
+            "width": 390
+          }
+        },
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 309,
+              "x": 33,
+              "y": 1027.734375
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 105.1328125,
+              "x": 14,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 47.1640625,
+              "x": 313.8359375,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 142.625,
+              "x": 218.375,
+              "y": 252.546875
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 309,
+              "x": 33,
+              "y": 1092.734375
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 117.484375,
+              "x": 33,
+              "y": 1144.734375
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 126.6953125,
+              "x": 33,
+              "y": 1289.921875
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 110.4375,
+              "x": 170.6953125,
+              "y": 1289.921875
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 59.9609375,
+              "x": 33,
+              "y": 1344.921875
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 194.4453125,
+              "x": 14,
+              "y": 2499.65625
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 130.5234375,
+              "x": 14,
+              "y": 3276.7265625
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 90.6640625,
+              "x": 150.5234375,
+              "y": 3276.7265625
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 88.203125,
+              "x": 247.1875,
+              "y": 3276.7265625
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 14,
+              "y": 3389.3203125
+            }
+          ],
+          "document": {
+            "height": 3454,
+            "width": 375
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 309,
+              "x": 33,
+              "y": 524.34375
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 309,
+              "x": 33,
+              "y": 607.34375
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 309,
+              "x": 33,
+              "y": 691.34375
+            },
+            {
+              "fontSize": "16px",
+              "height": 186,
+              "id": "brief-summary",
+              "width": 309,
+              "x": 33,
+              "y": 774.34375
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "local-rule-error",
+          "requestedState": "error",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 844,
+            "clientWidth": 375,
+            "height": 844,
+            "width": 390
+          }
+        },
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 309,
+              "x": 33,
+              "y": 1027.734375
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 105.1328125,
+              "x": 14,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 47.1640625,
+              "x": 313.8359375,
+              "y": 10
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 142.625,
+              "x": 218.375,
+              "y": 252.546875
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 309,
+              "x": 33,
+              "y": 1092.734375
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 117.484375,
+              "x": 33,
+              "y": 1144.734375
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 126.6953125,
+              "x": 33,
+              "y": 1240.328125
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 110.4375,
+              "x": 170.6953125,
+              "y": 1240.328125
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 59.9609375,
+              "x": 33,
+              "y": 1295.328125
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 194.4453125,
+              "x": 14,
+              "y": 2686.109375
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 130.5234375,
+              "x": 14,
+              "y": 3463.1796875
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 90.6640625,
+              "x": 150.5234375,
+              "y": 3463.1796875
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 88.203125,
+              "x": 247.1875,
+              "y": 3463.1796875
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 14,
+              "y": 3575.7734375
+            }
+          ],
+          "document": {
+            "height": 3641,
+            "width": 375
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 309,
+              "x": 33,
+              "y": 524.34375
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 309,
+              "x": 33,
+              "y": 607.34375
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 309,
+              "x": 33,
+              "y": 691.34375
+            },
+            {
+              "fontSize": "16px",
+              "height": 186,
+              "id": "brief-summary",
+              "width": 309,
+              "x": 33,
+              "y": 774.34375
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "cancelled-with-late-host-commit",
+          "requestedState": "cancelled",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 844,
+            "clientWidth": 375,
+            "height": 844,
+            "width": 390
+          }
+        }
+      ]
+    },
+    {
+      "requested": {
+        "width": 768,
+        "height": 1024
+      },
+      "states": [
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 298,
+              "x": 46,
+              "y": 1028.25
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 110.8203125,
+              "x": 25,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 50.8828125,
+              "x": 677.1171875,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 160.4765625,
+              "x": 567.5234375,
+              "y": 304.453125
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 298,
+              "x": 46,
+              "y": 1093.25
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 109.1484375,
+              "x": 46,
+              "y": 1145.25
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 115.6875,
+              "x": 46,
+              "y": 1239.25
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 100.6875,
+              "x": 173.6875,
+              "y": 1239.25
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 54.703125,
+              "x": 286.375,
+              "y": 1239.25
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 184.375,
+              "x": 388,
+              "y": 986.2734375
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 120.1953125,
+              "x": 429.1796875,
+              "y": 1936.8046875
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 83.4921875,
+              "x": 556.375,
+              "y": 1936.8046875
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 81.1328125,
+              "x": 646.8671875,
+              "y": 1936.8046875
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 584.1796875,
+              "y": 2020.3046875
+            }
+          ],
+          "document": {
+            "height": 2085,
+            "width": 753
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 298,
+              "x": 46,
+              "y": 558.75
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 298,
+              "x": 46,
+              "y": 640.25
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 298,
+              "x": 46,
+              "y": 722.75
+            },
+            {
+              "fontSize": "16px",
+              "height": 160,
+              "id": "brief-summary",
+              "width": 298,
+              "x": 46,
+              "y": 804.25
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "idle",
+          "requestedState": "idle",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 1024,
+            "clientWidth": 753,
+            "height": 1024,
+            "width": 768
+          }
+        },
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 298,
+              "x": 46,
+              "y": 1028.25
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 110.8203125,
+              "x": 25,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 50.8828125,
+              "x": 677.1171875,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 160.4765625,
+              "x": 567.5234375,
+              "y": 304.453125
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 298,
+              "x": 46,
+              "y": 1093.25
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 109.1484375,
+              "x": 46,
+              "y": 1145.25
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 115.6875,
+              "x": 46,
+              "y": 1288.84375
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 100.6875,
+              "x": 173.6875,
+              "y": 1288.84375
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 54.703125,
+              "x": 286.375,
+              "y": 1288.84375
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 184.375,
+              "x": 388,
+              "y": 986.2734375
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 120.1953125,
+              "x": 429.1796875,
+              "y": 1986.3984375
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 83.4921875,
+              "x": 556.375,
+              "y": 1986.3984375
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 81.1328125,
+              "x": 646.8671875,
+              "y": 1986.3984375
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 584.1796875,
+              "y": 2069.8984375
+            }
+          ],
+          "document": {
+            "height": 2135,
+            "width": 753
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 298,
+              "x": 46,
+              "y": 558.75
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 298,
+              "x": 46,
+              "y": 640.25
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 298,
+              "x": 46,
+              "y": 722.75
+            },
+            {
+              "fontSize": "16px",
+              "height": 160,
+              "id": "brief-summary",
+              "width": 298,
+              "x": 46,
+              "y": 804.25
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "local-rule-error",
+          "requestedState": "error",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 1024,
+            "clientWidth": 753,
+            "height": 1024,
+            "width": 768
+          }
+        },
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 298,
+              "x": 46,
+              "y": 1028.25
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 110.8203125,
+              "x": 25,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 50.8828125,
+              "x": 677.1171875,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 160.4765625,
+              "x": 567.5234375,
+              "y": 304.453125
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 298,
+              "x": 46,
+              "y": 1093.25
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 109.1484375,
+              "x": 46,
+              "y": 1145.25
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 115.6875,
+              "x": 46,
+              "y": 1239.25
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 100.6875,
+              "x": 173.6875,
+              "y": 1239.25
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 54.703125,
+              "x": 286.375,
+              "y": 1239.25
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 184.375,
+              "x": 388,
+              "y": 1203.8359375
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 120.1953125,
+              "x": 429.1796875,
+              "y": 1936.8046875
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 83.4921875,
+              "x": 556.375,
+              "y": 1936.8046875
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 81.1328125,
+              "x": 646.8671875,
+              "y": 1936.8046875
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 584.1796875,
+              "y": 2020.3046875
+            }
+          ],
+          "document": {
+            "height": 2085,
+            "width": 753
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 298,
+              "x": 46,
+              "y": 558.75
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 298,
+              "x": 46,
+              "y": 640.25
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 298,
+              "x": 46,
+              "y": 722.75
+            },
+            {
+              "fontSize": "16px",
+              "height": 160,
+              "id": "brief-summary",
+              "width": 298,
+              "x": 46,
+              "y": 804.25
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "cancelled-with-late-host-commit",
+          "requestedState": "cancelled",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 1024,
+            "clientWidth": 753,
+            "height": 1024,
+            "width": 768
+          }
+        }
+      ]
+    },
+    {
+      "requested": {
+        "width": 844,
+        "height": 390
+      },
+      "states": [
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 336,
+              "x": 46,
+              "y": 996.3515625
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 110.8203125,
+              "x": 25,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 50.8828125,
+              "x": 753.1171875,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 160.4765625,
+              "x": 643.5234375,
+              "y": 304.453125
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 336,
+              "x": 46,
+              "y": 1061.3515625
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 109.1484375,
+              "x": 46,
+              "y": 1113.3515625
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 115.6875,
+              "x": 46,
+              "y": 1207.3515625
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 100.6875,
+              "x": 173.6875,
+              "y": 1207.3515625
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 54.703125,
+              "x": 286.375,
+              "y": 1207.3515625
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 184.375,
+              "x": 426,
+              "y": 986.2734375
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 120.1953125,
+              "x": 505.1796875,
+              "y": 1884.0078125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 83.4921875,
+              "x": 632.375,
+              "y": 1884.0078125
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 81.1328125,
+              "x": 722.8671875,
+              "y": 1884.0078125
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 660.1796875,
+              "y": 1967.5078125
+            }
+          ],
+          "document": {
+            "height": 2032,
+            "width": 829
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 336,
+              "x": 46,
+              "y": 526.8515625
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 336,
+              "x": 46,
+              "y": 608.3515625
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 336,
+              "x": 46,
+              "y": 690.8515625
+            },
+            {
+              "fontSize": "16px",
+              "height": 160,
+              "id": "brief-summary",
+              "width": 336,
+              "x": 46,
+              "y": 772.3515625
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "idle",
+          "requestedState": "idle",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 390,
+            "clientWidth": 829,
+            "height": 390,
+            "width": 844
+          }
+        },
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 336,
+              "x": 46,
+              "y": 996.3515625
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 110.8203125,
+              "x": 25,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 50.8828125,
+              "x": 753.1171875,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 160.4765625,
+              "x": 643.5234375,
+              "y": 304.453125
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 336,
+              "x": 46,
+              "y": 1061.3515625
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 109.1484375,
+              "x": 46,
+              "y": 1113.3515625
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 115.6875,
+              "x": 46,
+              "y": 1256.9453125
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 100.6875,
+              "x": 173.6875,
+              "y": 1256.9453125
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 54.703125,
+              "x": 286.375,
+              "y": 1256.9453125
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 184.375,
+              "x": 426,
+              "y": 986.2734375
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 120.1953125,
+              "x": 505.1796875,
+              "y": 1933.6015625
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 83.4921875,
+              "x": 632.375,
+              "y": 1933.6015625
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 81.1328125,
+              "x": 722.8671875,
+              "y": 1933.6015625
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 660.1796875,
+              "y": 2017.1015625
+            }
+          ],
+          "document": {
+            "height": 2082,
+            "width": 829
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 336,
+              "x": 46,
+              "y": 526.8515625
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 336,
+              "x": 46,
+              "y": 608.3515625
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 336,
+              "x": 46,
+              "y": 690.8515625
+            },
+            {
+              "fontSize": "16px",
+              "height": 160,
+              "id": "brief-summary",
+              "width": 336,
+              "x": 46,
+              "y": 772.3515625
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "local-rule-error",
+          "requestedState": "error",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 390,
+            "clientWidth": 829,
+            "height": 390,
+            "width": 844
+          }
+        },
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 336,
+              "x": 46,
+              "y": 996.3515625
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 110.8203125,
+              "x": 25,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 50.8828125,
+              "x": 753.1171875,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 160.4765625,
+              "x": 643.5234375,
+              "y": 304.453125
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 336,
+              "x": 46,
+              "y": 1061.3515625
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 109.1484375,
+              "x": 46,
+              "y": 1113.3515625
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 115.6875,
+              "x": 46,
+              "y": 1207.3515625
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 100.6875,
+              "x": 173.6875,
+              "y": 1207.3515625
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 54.703125,
+              "x": 286.375,
+              "y": 1207.3515625
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 184.375,
+              "x": 426,
+              "y": 1203.8359375
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 120.1953125,
+              "x": 505.1796875,
+              "y": 1884.0078125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 83.4921875,
+              "x": 632.375,
+              "y": 1884.0078125
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 81.1328125,
+              "x": 722.8671875,
+              "y": 1884.0078125
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 660.1796875,
+              "y": 1967.5078125
+            }
+          ],
+          "document": {
+            "height": 2032,
+            "width": 829
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 336,
+              "x": 46,
+              "y": 526.8515625
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 336,
+              "x": 46,
+              "y": 608.3515625
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 336,
+              "x": 46,
+              "y": 690.8515625
+            },
+            {
+              "fontSize": "16px",
+              "height": 160,
+              "id": "brief-summary",
+              "width": 336,
+              "x": 46,
+              "y": 772.3515625
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "cancelled-with-late-host-commit",
+          "requestedState": "cancelled",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 390,
+            "clientWidth": 829,
+            "height": 390,
+            "width": 844
+          }
+        }
+      ]
+    },
+    {
+      "requested": {
+        "width": 1440,
+        "height": 900
+      },
+      "states": [
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 648.5234375,
+              "x": 61,
+              "y": 930.4296875
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 110.8203125,
+              "x": 35,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 50.8828125,
+              "x": 1339.1171875,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 160.4765625,
+              "x": 1229.5234375,
+              "y": 332.734375
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 221,
+              "x": 61,
+              "y": 995.4296875
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 109.1484375,
+              "x": 600.375,
+              "y": 995.4296875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 126.6953125,
+              "x": 61,
+              "y": 1089.4296875
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 110.4375,
+              "x": 197.6953125,
+              "y": 1089.4296875
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 59.9609375,
+              "x": 318.1328125,
+              "y": 1089.4296875
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 241,
+              "x": 764.5234375,
+              "y": 985.6171875
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 120.1953125,
+              "x": 1091.1796875,
+              "y": 1705.3984375
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 83.4921875,
+              "x": 1218.375,
+              "y": 1705.3984375
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 81.1328125,
+              "x": 1308.8671875,
+              "y": 1705.3984375
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 1246.1796875,
+              "y": 1788.8984375
+            }
+          ],
+          "document": {
+            "height": 1854,
+            "width": 1425
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 648.5234375,
+              "x": 61,
+              "y": 559.4296875
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 237.1953125,
+              "x": 61,
+              "y": 640.9296875
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 395.328125,
+              "x": 314.1953125,
+              "y": 640.9296875
+            },
+            {
+              "fontSize": "16px",
+              "height": 160,
+              "id": "brief-summary",
+              "width": 648.5234375,
+              "x": 61,
+              "y": 723.4296875
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "idle",
+          "requestedState": "idle",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 900,
+            "clientWidth": 1425,
+            "height": 900,
+            "width": 1440
+          }
+        },
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 648.5234375,
+              "x": 61,
+              "y": 930.4296875
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 110.8203125,
+              "x": 35,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 50.8828125,
+              "x": 1339.1171875,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 160.4765625,
+              "x": 1229.5234375,
+              "y": 332.734375
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 221,
+              "x": 61,
+              "y": 995.4296875
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 109.1484375,
+              "x": 600.375,
+              "y": 995.4296875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 126.6953125,
+              "x": 61,
+              "y": 1119.2265625
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 110.4375,
+              "x": 197.6953125,
+              "y": 1119.2265625
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 59.9609375,
+              "x": 318.1328125,
+              "y": 1119.2265625
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 241,
+              "x": 764.5234375,
+              "y": 985.6171875
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 120.1953125,
+              "x": 1091.1796875,
+              "y": 1735.1953125
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 83.4921875,
+              "x": 1218.375,
+              "y": 1735.1953125
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 81.1328125,
+              "x": 1308.8671875,
+              "y": 1735.1953125
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 1246.1796875,
+              "y": 1818.6953125
+            }
+          ],
+          "document": {
+            "height": 1883,
+            "width": 1425
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 648.5234375,
+              "x": 61,
+              "y": 559.4296875
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 237.1953125,
+              "x": 61,
+              "y": 640.9296875
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 395.328125,
+              "x": 314.1953125,
+              "y": 640.9296875
+            },
+            {
+              "fontSize": "16px",
+              "height": 160,
+              "id": "brief-summary",
+              "width": 648.5234375,
+              "x": 61,
+              "y": 723.4296875
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "local-rule-error",
+          "requestedState": "error",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 900,
+            "clientWidth": 1425,
+            "height": 900,
+            "width": 1440
+          }
+        },
+        {
+          "checkboxes": [
+            {
+              "height": 44,
+              "id": "late-work",
+              "width": 648.5234375,
+              "x": 61,
+              "y": 930.4296875
+            }
+          ],
+          "controls": [
+            {
+              "height": 44,
+              "id": "◒ liquid glass kit",
+              "width": 110.8203125,
+              "x": 35,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "source ↗",
+              "width": 50.8828125,
+              "x": 1339.1171875,
+              "y": 17.5
+            },
+            {
+              "height": 44,
+              "id": "quiet",
+              "width": 160.4765625,
+              "x": 1229.5234375,
+              "y": 332.734375
+            },
+            {
+              "height": 48,
+              "id": "queue-submit",
+              "width": 221,
+              "x": 61,
+              "y": 995.4296875
+            },
+            {
+              "height": 48,
+              "id": "intent-submit",
+              "width": 109.1484375,
+              "x": 600.375,
+              "y": 995.4296875
+            },
+            {
+              "height": 44,
+              "id": "retry",
+              "width": 126.6953125,
+              "x": 61,
+              "y": 1089.4296875
+            },
+            {
+              "height": 44,
+              "id": "cancel",
+              "width": 110.4375,
+              "x": 197.6953125,
+              "y": 1089.4296875
+            },
+            {
+              "height": 44,
+              "id": "reset-action",
+              "width": 59.9609375,
+              "x": 318.1328125,
+              "y": 1089.4296875
+            },
+            {
+              "height": 44,
+              "id": "review-next",
+              "width": 241,
+              "x": 764.5234375,
+              "y": 1160.2109375
+            },
+            {
+              "height": 44,
+              "id": "load-duplicate",
+              "width": 120.1953125,
+              "x": 1091.1796875,
+              "y": 1705.3984375
+            },
+            {
+              "height": 44,
+              "id": "tour",
+              "width": 83.4921875,
+              "x": 1218.375,
+              "y": 1705.3984375
+            },
+            {
+              "height": 44,
+              "id": "reset-demo",
+              "width": 81.1328125,
+              "x": 1308.8671875,
+              "y": 1705.3984375
+            },
+            {
+              "height": 44,
+              "id": "Make the material comfortable ↗",
+              "width": 143.8203125,
+              "x": 1246.1796875,
+              "y": 1788.8984375
+            }
+          ],
+          "document": {
+            "height": 1854,
+            "width": 1425
+          },
+          "fields": [
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-title",
+              "width": 648.5234375,
+              "x": 61,
+              "y": 559.4296875
+            },
+            {
+              "fontSize": "16px",
+              "height": 45,
+              "id": "brief-lane",
+              "width": 237.1953125,
+              "x": 61,
+              "y": 640.9296875
+            },
+            {
+              "fontSize": "16px",
+              "height": 44,
+              "id": "brief-source",
+              "width": 395.328125,
+              "x": 314.1953125,
+              "y": 640.9296875
+            },
+            {
+              "fontSize": "16px",
+              "height": 160,
+              "id": "brief-summary",
+              "width": 648.5234375,
+              "x": 61,
+              "y": 723.4296875
+            }
+          ],
+          "horizontalOverflow": false,
+          "name": "cancelled-with-late-host-commit",
+          "requestedState": "cancelled",
+          "smallActions": [],
+          "smallFields": [],
+          "viewport": {
+            "clientHeight": 900,
+            "clientWidth": 1425,
+            "height": 900,
+            "width": 1440
+          }
+        }
+      ]
+    }
+  ]
+}

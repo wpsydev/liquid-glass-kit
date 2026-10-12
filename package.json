@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.31.0-preview.1",
+  "version": "0.32.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -193,7 +193,11 @@
       "types": "./dist/material-preferences.d.ts",
       "import": "./dist/material-preferences.js"
     },
-    "./material-preferences.css": "./dist/material-preferences.css"
+    "./material-preferences.css": "./dist/material-preferences.css",
+    "./action": {
+      "types": "./dist/action.d.ts",
+      "import": "./dist/action.js"
+    }
   },
   "scripts": {
     "build": "node scripts/clean.mjs && node scripts/compile-library.mjs && node scripts/build.mjs",

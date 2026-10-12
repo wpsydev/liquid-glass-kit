@@ -1,0 +1,35 @@
+{
+  "version": "0.31.0-preview.1",
+  "commit": "556b5d5e97e66697a1db78665838da2edc6e5808",
+  "workflows": {
+    "verify": 38200613556,
+    "release": 38200613536,
+    "pages": 38200613545,
+    "conclusion": "success",
+    "tests": 574,
+    "testFiles": 34
+  },
+  "archive": {
+    "members": 149,
+    "bytes": 321950,
+    "sha256": "0010d486f6a78a3ed945b171c9fc373be955b1aaab25423de099a0c7ef1ef273"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/preferences/",
+    "chunk": "preferences-B4HxfL4Z.js",
+    "nativeState": "light/reduce/solid set through native select change; nested dark and local peach remain independent"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109489616986194116",
+    "replies": [
+      "https://x.com/wpsygames/status/2109489995723493733",
+      "https://x.com/wpsygames/status/2109490476877304156"
+    ],
+    "mainReadback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical pages read back the intended text"
+  },
+  "npmRegistry": "pending"
+}

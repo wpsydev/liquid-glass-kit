@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.32.0-preview.1
+
+- Add optional native button/form actions: validation, submitter FormData, single-flight work, explicit outcomes, host-confirmed retry and cancellation intent.
+- Preserve authored children and drafts, pending focus and conditional cleanup. A void host result means submitted, never confirmed success; cancellation cannot promise backend rollback.
+- Add original Review Room, real local queue/intent/reviewer fixtures, native behavior/responsive/payload evidence and twelve-second drum-and-bass film.
+
 ## 0.31.0-preview.1
 
 - Add optional pure/scoped material preferences: system/light/dark theme, system/reduce motion and system/solid surfaces. Detected OS reductions remain authoritative.

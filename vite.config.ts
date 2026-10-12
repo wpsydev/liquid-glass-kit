@@ -40,6 +40,7 @@ export default defineConfig({
         preview: resolve('site/preview/index.html'),
         navigation: resolve('site/navigation/index.html'),
         preferences: resolve('site/preferences/index.html'),
+        actions: resolve('site/actions/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),
         transitions: resolve('site/transitions/index.html'),

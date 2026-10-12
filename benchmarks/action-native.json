@@ -1,0 +1,608 @@
+{
+  "cases": {
+    "confirmed": {
+      "afterCancel": [],
+      "busy": null,
+      "callbacks": 1,
+      "client": "success",
+      "error": null,
+      "errorMessage": null,
+      "fieldValue": "A dirty next draft, still mine",
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 0,
+      "queue": 3,
+      "retryable": false,
+      "reviewer": "idle",
+      "serializedTitle": "A real connected browser brief",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "A real connected browser brief"
+          ],
+          [
+            "lane",
+            "interface"
+          ],
+          [
+            "source",
+            ""
+          ],
+          [
+            "summary",
+            "Keep the first action clear, remove competing decoration and make the useful detail easy to find."
+          ],
+          [
+            "intent",
+            "queue"
+          ]
+        ],
+        "generation": 33,
+        "submitter": "queue-submit"
+      }
+    },
+    "cooperativeCancel": {
+      "afterCancel": [],
+      "callbacks": 1,
+      "cancelled": true,
+      "client": "cancelled",
+      "error": null,
+      "errorMessage": null,
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "Make the first step calmer"
+          ],
+          [
+            "lane",
+            "interface"
+          ],
+          [
+            "source",
+            ""
+          ],
+          [
+            "summary",
+            "Keep the first action clear, remove competing decoration and make the useful detail easy to find."
+          ],
+          [
+            "intent",
+            "queue"
+          ]
+        ],
+        "generation": 45,
+        "submitter": "queue-submit"
+      }
+    },
+    "cooperativeSettled": {
+      "afterCancel": [],
+      "callbacks": 1,
+      "client": "cancelled",
+      "error": null,
+      "errorMessage": null,
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "Make the first step calmer"
+          ],
+          [
+            "lane",
+            "interface"
+          ],
+          [
+            "source",
+            ""
+          ],
+          [
+            "summary",
+            "Keep the first action clear, remove competing decoration and make the useful detail easy to find."
+          ],
+          [
+            "intent",
+            "queue"
+          ]
+        ],
+        "generation": 45,
+        "submitter": "queue-submit"
+      }
+    },
+    "identity": {
+      "buttons": true,
+      "fields": true,
+      "icon": true
+    },
+    "localRule": {
+      "afterCancel": [],
+      "callbacks": 1,
+      "client": "error",
+      "error": "U",
+      "errorMessage": "Local source rule",
+      "focus": "queue-submit",
+      "formValid": true,
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": true,
+      "reviewer": "idle",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "Make the first step calmer"
+          ],
+          [
+            "lane",
+            "prototype"
+          ],
+          [
+            "source",
+            ""
+          ],
+          [
+            "summary",
+            "Keep the first action clear, remove competing decoration and make the useful detail easy to find."
+          ],
+          [
+            "intent",
+            "queue"
+          ]
+        ],
+        "generation": 43,
+        "submitter": "queue-submit"
+      }
+    },
+    "nativeInvalid": {
+      "afterCancel": [],
+      "callbacks": 0,
+      "client": "idle",
+      "error": null,
+      "errorMessage": null,
+      "focus": "brief-title",
+      "formValid": false,
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": null,
+      "valueMissing": true
+    },
+    "nativeURL": {
+      "afterCancel": [],
+      "callbacks": 0,
+      "client": "idle",
+      "error": null,
+      "errorMessage": null,
+      "focus": "brief-source",
+      "formValid": false,
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": null,
+      "typeMismatch": true
+    },
+    "noncooperativeCancel": {
+      "afterCancel": [],
+      "callbacks": 1,
+      "client": "cancelled",
+      "error": null,
+      "errorMessage": null,
+      "focus": "queue-submit",
+      "hostPending": 1,
+      "intents": 0,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "An honest cancellation"
+          ],
+          [
+            "lane",
+            "prototype"
+          ],
+          [
+            "source",
+            "https://example.com/original-context"
+          ],
+          [
+            "summary",
+            "Keep the first action clear, remove competing decoration and make the useful detail easy to find."
+          ],
+          [
+            "late",
+            "continue"
+          ],
+          [
+            "intent",
+            "queue"
+          ]
+        ],
+        "generation": 49,
+        "submitter": "queue-submit"
+      }
+    },
+    "noncooperativeLate": {
+      "afterCancel": [
+        "B03"
+      ],
+      "callbacks": 1,
+      "client": "cancelled",
+      "error": null,
+      "errorMessage": null,
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 1,
+      "queue": 3,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "An honest cancellation"
+          ],
+          [
+            "lane",
+            "prototype"
+          ],
+          [
+            "source",
+            "https://example.com/original-context"
+          ],
+          [
+            "summary",
+            "Keep the first action clear, remove competing decoration and make the useful detail easy to find."
+          ],
+          [
+            "late",
+            "continue"
+          ],
+          [
+            "intent",
+            "queue"
+          ]
+        ],
+        "generation": 49,
+        "submitter": "queue-submit"
+      }
+    },
+    "pending": {
+      "afterCancel": [],
+      "busy": "true",
+      "buttonAriaDisabled": "true",
+      "buttonNativeDisabled": false,
+      "callbacks": 0,
+      "client": "pending",
+      "error": null,
+      "errorMessage": null,
+      "fieldEnabled": true,
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": null
+    },
+    "rejected": {
+      "afterCancel": [],
+      "callbacks": 1,
+      "client": "error",
+      "error": "H",
+      "errorMessage": "Local duplicate rule",
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": true,
+      "reviewer": "idle",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "Keep the source visible"
+          ],
+          [
+            "lane",
+            "interface"
+          ],
+          [
+            "source",
+            ""
+          ],
+          [
+            "summary",
+            "Keep the first action clear, remove competing decoration and make the useful detail easy to find."
+          ],
+          [
+            "intent",
+            "queue"
+          ]
+        ],
+        "generation": 36,
+        "submitter": "queue-submit"
+      }
+    },
+    "resetKeepsIntent": {
+      "afterCancel": [],
+      "callbacks": 1,
+      "client": "idle",
+      "error": null,
+      "errorMessage": null,
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 1,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "A small review intent"
+          ],
+          [
+            "lane",
+            "writing"
+          ],
+          [
+            "source",
+            ""
+          ],
+          [
+            "summary",
+            "Record this local intake without claiming that a queue entry or remote review has been confirmed."
+          ],
+          [
+            "intent",
+            "record"
+          ]
+        ],
+        "generation": 40,
+        "submitter": "intent-submit"
+      },
+      "title": "A small review intent"
+    },
+    "retry": {
+      "afterCancel": [],
+      "callbacks": 2,
+      "client": "success",
+      "error": null,
+      "errorMessage": null,
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 0,
+      "queue": 3,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "Live fields for the explicit retry"
+          ],
+          [
+            "lane",
+            "interface"
+          ],
+          [
+            "source",
+            ""
+          ],
+          [
+            "summary",
+            "This changed draft is checked again when the user deliberately retries the local host decision."
+          ],
+          [
+            "intent",
+            "queue"
+          ]
+        ],
+        "generation": 37,
+        "submitter": "queue-submit"
+      }
+    },
+    "reviewCommitted": {
+      "afterCancel": [],
+      "callbacks": 0,
+      "client": "idle",
+      "error": null,
+      "errorMessage": null,
+      "firstQueueStatus": "reviewed",
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": false,
+      "reviewer": "success",
+      "submission": null
+    },
+    "staleHost": {
+      "afterCancel": [
+        "B03"
+      ],
+      "callbacks": 1,
+      "client": "idle",
+      "error": null,
+      "errorMessage": null,
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 0,
+      "lateCommits": 1,
+      "queue": 3,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "An honest cancellation"
+          ],
+          [
+            "lane",
+            "prototype"
+          ],
+          [
+            "source",
+            "https://example.com/original-context"
+          ],
+          [
+            "summary",
+            "Keep the first action clear, remove competing decoration and make the useful detail easy to find."
+          ],
+          [
+            "late",
+            "continue"
+          ],
+          [
+            "intent",
+            "queue"
+          ]
+        ],
+        "generation": 53,
+        "submitter": "queue-submit"
+      }
+    },
+    "submitted": {
+      "afterCancel": [],
+      "callbacks": 1,
+      "client": "submitted",
+      "error": null,
+      "errorMessage": null,
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 1,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "A small review intent"
+          ],
+          [
+            "lane",
+            "writing"
+          ],
+          [
+            "source",
+            ""
+          ],
+          [
+            "summary",
+            "Record this local intake without claiming that a queue entry or remote review has been confirmed."
+          ],
+          [
+            "intent",
+            "record"
+          ]
+        ],
+        "generation": 40,
+        "submitter": "intent-submit"
+      }
+    },
+    "submittedBlocked": {
+      "afterCancel": [],
+      "callbacks": 1,
+      "client": "submitted",
+      "error": null,
+      "errorMessage": null,
+      "focus": "queue-submit",
+      "hostPending": 0,
+      "intents": 1,
+      "lateCommits": 0,
+      "queue": 2,
+      "retryable": false,
+      "reviewer": "idle",
+      "submission": {
+        "controls": [
+          [
+            "title",
+            "A small review intent"
+          ],
+          [
+            "lane",
+            "writing"
+          ],
+          [
+            "source",
+            ""
+          ],
+          [
+            "summary",
+            "Record this local intake without claiming that a queue entry or remote review has been confirmed."
+          ],
+          [
+            "intent",
+            "record"
+          ]
+        ],
+        "generation": 40,
+        "submitter": "intent-submit"
+      }
+    }
+  },
+  "observedAtUtc": "2026-10-12T03:08:59.068Z",
+  "scope": "Actual T3 native browser APIs and connected demo controllers. Programmatic native click/invoke plus separately recorded T3 pointer/keyboard checks; not unit DOM or physical-phone/AT/Safari evidence.",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "keyboard": {
+    "callbacks": 1,
+    "focus": "brief-title",
+    "queue": 3,
+    "status": "success",
+    "submitter": "queue-submit"
+  },
+  "paint": {
+    "animationName": "pending-turn",
+    "busy": "true",
+    "changed": true,
+    "client": "success",
+    "finishedAnimation": "none",
+    "first": "matrix(0.961973, 0.273145, -0.273145, 0.961973, 0, 0)",
+    "hostPending": 0,
+    "quietPendingAnimation": "none",
+    "second": "matrix(0.021579, 0.999767, -0.999767, 0.021579, 0, 0)"
+  },
+  "pointer": {
+    "method": "T3 preview_click #queue-submit on invalid title",
+    "callbacks": 0,
+    "focus": "brief-title",
+    "state": "idle",
+    "recordingPath": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-6c80bcbf-5da8-4f86-b0e8-fe5135ee7b97-mp4.mp4"
+  }
+}

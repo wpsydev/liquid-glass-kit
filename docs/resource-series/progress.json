@@ -205,12 +205,12 @@
     {
       "order": 15,
       "url": "https://footer.design",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Scoped material and motion preferences",
       "version": "0.31.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/preferences/",
       "video": "docs/campaign/assets/material-preferences-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109489616986194116",
       "performance": [
         "benchmarks/material-preferences-payload.json",
         "benchmarks/material-preferences-browser.json",
@@ -220,13 +220,18 @@
     {
       "order": 16,
       "url": "https://cta.gallery",
-      "status": "researched",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Native single-flight actions with honest host outcomes",
+      "version": "0.32.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "assets/action-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/action-payload.json",
+        "benchmarks/action-lifecycle-native.json",
+        "benchmarks/action-native.json",
+        "benchmarks/action-responsive.json"
+      ]
     },
     {
       "order": 17,
