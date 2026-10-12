@@ -119,12 +119,12 @@
     {
       "order": 9,
       "url": "https://awwwards.com",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Native same-document view continuity",
       "version": "0.25.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/transitions/",
       "video": "docs/campaign/assets/view-transition-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109449557944008767",
       "performance": [
         "benchmarks/view-transition.json",
         "benchmarks/view-transition-browser.json",
@@ -134,13 +134,17 @@
     {
       "order": 10,
       "url": "https://landing.love",
-      "status": "implemented-awaiting-validation",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Deliberate ambient-media coordinator",
+      "version": "0.26.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/ambient-media-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/ambient-media-payload.json",
+        "benchmarks/ambient-media-browser.json",
+        "benchmarks/ambient-media-layouts.json"
+      ]
     },
     {
       "order": 11,

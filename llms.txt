@@ -70,3 +70,5 @@ v0.19.0-preview.1. Install from the matching GitHub release/tag; npm publication
 - [Finite feedback](https://wpsydev.github.io/liquid-glass-kit/docs/INTERACTION_FEEDBACK.md): bounded decorative pixels/sparks/ripples after host-confirmed actions; native controls remain separate, quiet when idle
 
 - [Native continuity](https://wpsydev.github.io/liquid-glass-kit/docs/VIEW_TRANSITION.md): optional same-document named snapshots, exactly-once host updates, direct fallbacks and host-owned routing/focus
+
+- [Ambient previews](https://wpsydev.github.io/liquid-glass-kit/docs/AMBIENT_MEDIA.md): opt-in video lifecycle with bounded shared previews and host-owned full players

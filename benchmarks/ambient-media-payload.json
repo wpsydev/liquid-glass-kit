@@ -1,0 +1,7 @@
+{
+  "observedAtUtc": "2026-10-12T01:06:26.464Z",
+  "jsRawBytes": 8579,
+  "jsGzipBytes": 3152,
+  "sourceSha256": "d65d23b3611d0ebc2c83b3bcef25024476b81b3bb47b9138f9b73e7944ac0301",
+  "scope": "Standalone optional payload including numeric helper, not network/FPS/decoder memory or speedup"
+}

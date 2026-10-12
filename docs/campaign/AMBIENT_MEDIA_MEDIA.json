@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 801332,
+  "sha256": "641c4cbab826c0d850fb169174ed1f9e01bc8ed1932f246f491e59b0f274436f",
+  "music": {
+    "style": "disco",
+    "bpm": 120,
+    "seed": 26,
+    "patch": "keys",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Native T3 actual preview/full-player requests and saving budget; existing original MIT films reused as subjects. Camera-only caption density/hiding secondary text and100px bottom spacer; full player muted for capture; export FPS not app FPS"
+}

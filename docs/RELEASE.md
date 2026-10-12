@@ -1,13 +1,13 @@
-Select a study, keep its shape as the view changes. **0.25.0-preview.1** adds optional `/view-transition` and `/view-transition.css`: same-document native continuity.
+A cover until there is a reason to play. **0.26.0-preview.1** adds optional `/ambient-media`: a deliberate shared lifecycle for decorative video previews.
 
-The host callback executes exactly once across direct fallbacks, skip, native visual failure and supersession. Named snapshots last 180–300ms; reduced motion, hidden documents and unavailable APIs update directly. Host applications retain routing, revisions, authorization and focus. Ordinary root content switches directly to avoid duplicated text.
+Manual is the default. Visible/hover policies are explicit opt-ins; pending and playing previews share a1–4 slot budget. Live OS/app saving preferences stop only owned previews. Rejected/stale play outcomes preserve host fallback and ownership. Sources/posters/native full players stay with the host; release yields without pausing. No frame loop, geometry polling, runtime dependency or default import change.
 
-[Form / State](https://wpsydev.github.io/liquid-glass-kit/transitions/) presents three original SVG forms, actual gallery/detail/list state and local bookmarks. Twenty native responsive Chromium cases fit 320–1440px with 44px controls. Actual card/Back actions restore focus. This is not physical-device or assistive-technology certification.
+[Motion Library](https://wpsydev.github.io/liquid-glass-kit/media/) uses six existing original MIT films. Its finite11.2-second tour shows one/two owned slots, declined requests, saving pause and a separately controlled full player. Fifteen native responsive Chromium policy cases plus final tour-button checks fit320–1440px with44px controls/16px selects; physical devices/Safari/assistive technology remain unverified.
 
-Standalone optional payload: 1,557 bytes gzip JavaScript and 338 bytes gzip CSS, no runtime dependency or default import change. Five native 220ms transitions became ready and completed; one quiet call and twenty superseding calls preserved all 26 host callbacks. Zero custom RAF/JavaScript rectangle reads and zero remaining animations. Native completion includes duration/capture; no FPS/GPU/load speedup claim. Node direct fallback is recorded separately.
+Optional standalone JavaScript:3,152bytesgzip including helpers. Five batches of20 connected128-video manual attach/update/destroy cycles:7.5ms median,0 customRAF/rectangle reads/subsequent idleRAF. This excludes source/network/play/decoder work. Actual gallery playback/frame counters and supplied source sizes are separate; cross-origin timing zero byte fields are not zero transfer. No comparative FPS/load/battery claim.
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/VIEW_TRANSITION.md) · [Browser evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/view-transition-browser.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/09-awwwards.md)
+[API and ownership](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/AMBIENT_MEDIA.md) · [Scoped evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/ambient-media-browser.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/10-landing-love.md)
 
-Awwwards continuity references informed an independent implementation; no third-party code/media copied. Original twelve-second film with a 132BPM garage score attached.
+Landing Love's thumbnail/full-recording distinction informed independent code; no external recordings or source copied. Original twelve-second cinema film with a120BPM disco score attached.
 
-Use the ready-built archive attached here or `npm i github:wpsydev/liquid-glass-kit#v0.25.0-preview.1`. npm registry publication remains pending.
+Use the ready-built archive attached here or `npm i github:wpsydev/liquid-glass-kit#v0.26.0-preview.1`. npm registry publication remains pending.

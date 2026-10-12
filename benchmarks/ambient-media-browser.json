@@ -1,0 +1,467 @@
+{
+  "lifecycle": {
+    "batchesMs": [
+      34.299999952316284,
+      8.300000071525574,
+      7.199999928474426,
+      6.300000071525574,
+      7.5
+    ],
+    "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+    "cyclesPerBatch": 20,
+    "dpr": 2,
+    "medianBatchMs": 7.5,
+    "observedAtUtc": "2026-10-12T01:07:01.607Z",
+    "rafRequests": 0,
+    "rectangleReads": 0,
+    "scope": "Connected 128-video manual attach/update/destroy lifecycle, no sources/play/decoder work. Not FPS, memory, network or comparative speedup.",
+    "subsequentIdleRaf": 0,
+    "videos": 128,
+    "viewport": [
+      1280,
+      800
+    ]
+  },
+  "gallery": {
+    "initial": {
+      "covers": [
+        {
+          "complete": false,
+          "width": 0
+        },
+        {
+          "complete": false,
+          "width": 0
+        },
+        {
+          "complete": false,
+          "width": 0
+        },
+        {
+          "complete": false,
+          "width": 0
+        },
+        {
+          "complete": false,
+          "width": 1280
+        },
+        {
+          "complete": false,
+          "width": 0
+        }
+      ],
+      "mp4Resources": [],
+      "overflow": false,
+      "state": {
+        "cards": [
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/dock-showcase.mp4",
+            "id": "dock",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/scroll-reveal-showcase.mp4",
+            "id": "scroll",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/design-contract-showcase.mp4",
+            "id": "contract",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/activity-island-showcase.mp4",
+            "id": "activity",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/caustics-showcase.mp4",
+            "id": "caustics",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/micro-motion-showcase.mp4",
+            "id": "micro",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          }
+        ],
+        "fullPlayer": {
+          "controls": true,
+          "open": false,
+          "paused": true
+        },
+        "policy": "manual",
+        "quiet": false,
+        "saving": false,
+        "stats": {
+          "attached": 6,
+          "maxActive": 1,
+          "ownedActive": 0,
+          "pending": 0,
+          "playing": 0,
+          "saveDataSupported": true,
+          "visibilitySupported": false
+        }
+      }
+    },
+    "manualBudget": {
+      "first": true,
+      "resources": [],
+      "second": false,
+      "state": {
+        "cards": [
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/dock-showcase.mp4",
+            "id": "dock",
+            "paused": false,
+            "quality": "4 total / 0 dropped frames",
+            "reason": "Ambient play promise fulfilled",
+            "state": "playing"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/scroll-reveal-showcase.mp4",
+            "id": "scroll",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "Waiting for an ambient player slot",
+            "state": "eligible"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/design-contract-showcase.mp4",
+            "id": "contract",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/activity-island-showcase.mp4",
+            "id": "activity",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/caustics-showcase.mp4",
+            "id": "caustics",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/micro-motion-showcase.mp4",
+            "id": "micro",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          }
+        ],
+        "fullPlayer": {
+          "controls": true,
+          "open": false,
+          "paused": true
+        },
+        "policy": "manual",
+        "quiet": false,
+        "saving": false,
+        "stats": {
+          "attached": 6,
+          "maxActive": 1,
+          "ownedActive": 1,
+          "pending": 0,
+          "playing": 1,
+          "saveDataSupported": true,
+          "visibilitySupported": false
+        }
+      }
+    },
+    "fullOwnership": {
+      "after": {
+        "cards": [
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/dock-showcase.mp4",
+            "id": "dock",
+            "paused": true,
+            "quality": "875 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/scroll-reveal-showcase.mp4",
+            "id": "scroll",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/design-contract-showcase.mp4",
+            "id": "contract",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "Host released playback ownership",
+            "state": "user-owned"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/activity-island-showcase.mp4",
+            "id": "activity",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/caustics-showcase.mp4",
+            "id": "caustics",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/micro-motion-showcase.mp4",
+            "id": "micro",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          }
+        ],
+        "fullPlayer": {
+          "controls": true,
+          "open": true,
+          "paused": false
+        },
+        "policy": "manual",
+        "quiet": true,
+        "saving": false,
+        "stats": {
+          "attached": 6,
+          "maxActive": 1,
+          "ownedActive": 0,
+          "pending": 0,
+          "playing": 0,
+          "saveDataSupported": true,
+          "visibilitySupported": false
+        }
+      },
+      "before": {
+        "cards": [
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/dock-showcase.mp4",
+            "id": "dock",
+            "paused": true,
+            "quality": "875 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/scroll-reveal-showcase.mp4",
+            "id": "scroll",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/design-contract-showcase.mp4",
+            "id": "contract",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "Host released playback ownership",
+            "state": "user-owned"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/activity-island-showcase.mp4",
+            "id": "activity",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/caustics-showcase.mp4",
+            "id": "caustics",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/micro-motion-showcase.mp4",
+            "id": "micro",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          }
+        ],
+        "fullPlayer": {
+          "controls": true,
+          "open": true,
+          "paused": false
+        },
+        "policy": "manual",
+        "quiet": false,
+        "saving": false,
+        "stats": {
+          "attached": 6,
+          "maxActive": 1,
+          "ownedActive": 0,
+          "pending": 0,
+          "playing": 0,
+          "saveDataSupported": true,
+          "visibilitySupported": false
+        }
+      },
+      "dialogActive": "close-player",
+      "fullTime": 0
+    },
+    "playbackReadback": {
+      "covers": [
+        {
+          "complete": true,
+          "width": 1280
+        },
+        {
+          "complete": true,
+          "width": 960
+        },
+        {
+          "complete": true,
+          "width": 960
+        },
+        {
+          "complete": true,
+          "width": 960
+        },
+        {
+          "complete": true,
+          "width": 1280
+        },
+        {
+          "complete": true,
+          "width": 1280
+        }
+      ],
+      "full": {
+        "frames": 360,
+        "ready": 4,
+        "time": 12
+      },
+      "resources": [
+        {
+          "duration": 1083.2000000476837,
+          "encodedBodySize": 0,
+          "transferSize": 0,
+          "url": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/dock-showcase.mp4"
+        },
+        {
+          "duration": 1179.8999999761581,
+          "encodedBodySize": 0,
+          "transferSize": 0,
+          "url": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/design-contract-showcase.mp4"
+        }
+      ],
+      "state": {
+        "cards": [
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/dock-showcase.mp4",
+            "id": "dock",
+            "paused": true,
+            "quality": "875 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/scroll-reveal-showcase.mp4",
+            "id": "scroll",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/design-contract-showcase.mp4",
+            "id": "contract",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "Host released playback ownership",
+            "state": "user-owned"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/activity-island-showcase.mp4",
+            "id": "activity",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/caustics-showcase.mp4",
+            "id": "caustics",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/docs/campaign/assets/micro-motion-showcase.mp4",
+            "id": "micro",
+            "paused": true,
+            "quality": "0 total / 0 dropped frames",
+            "reason": "",
+            "state": "idle"
+          }
+        ],
+        "fullPlayer": {
+          "controls": true,
+          "open": true,
+          "paused": true
+        },
+        "policy": "manual",
+        "quiet": true,
+        "saving": false,
+        "stats": {
+          "attached": 6,
+          "maxActive": 1,
+          "ownedActive": 0,
+          "pending": 0,
+          "playing": 0,
+          "saveDataSupported": true,
+          "visibilitySupported": false
+        }
+      }
+    },
+    "sourceFileBytes": {
+      "dock-showcase.mp4": 762530,
+      "scroll-reveal-showcase.mp4": 1211719,
+      "design-contract-showcase.mp4": 634026,
+      "activity-island-showcase.mp4": 608048,
+      "caustics-showcase.mp4": 821899,
+      "micro-motion-showcase.mp4": 518869
+    },
+    "scope": "Original supplied file bytes, not transferred bytes. Source-preview uses published same-original files cross-origin from about:blank; timing size fields zero without Timing-Allow-Origin, not zero bytes. Early no completed timing entries cannot prove no fetch. No cold/warm comparative network or FPS/decoder-memory claim."
+  }
+}

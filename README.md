@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.25.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.26.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -154,3 +154,7 @@ Optional `/interaction-feedback` adds pixels, sparks or ripples after host-confi
 ## Native view continuity
 
 Optional `/view-transition` carries named objects between same-document views with an exactly-once host update and direct reduced-motion/unsupported fallbacks. Import its stylesheet separately; the host owns routing, focus and revisions. [API](docs/VIEW_TRANSITION.md) · [Form / State](https://wpsydev.github.io/liquid-glass-kit/transitions/).
+
+## Deliberate media previews
+
+Optional `/ambient-media` coordinates manual/visible/hover decorative previews with a shared1–4 pending/playing budget, saving preferences and explicit ownership transfer. Native full players remain host-owned. [API](docs/AMBIENT_MEDIA.md) · [Motion Library](https://wpsydev.github.io/liquid-glass-kit/media/).

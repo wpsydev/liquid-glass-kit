@@ -314,3 +314,17 @@ Twenty native T3 Chromium viewport/mode cases (320×700,390×844,768×1024,844×
 Final active reproducible fixture has one named surface. Five actual native220ms transitions had ready snapshots and completed (250.1–267.4ms including duration/capture); one quiet +20 superseding calls preserved26/26 callbacks (19 superseded/one complete), zero custom RAF/JSrect reads, zero remaining running animations. No helper-CPU/FPS/GPU comparison. First film exposed duplicated root text; optional CSS now switches root directly, named surfaces retain continuity. Final original film/frames reviewed,12seconds360frames/garage132seed25.
 
 Final integrated `npm run check` passed 884tests/44files including queued prototypes; this release adds21tests to392prior published tests. Final `npm pack --dry-run` passed127files. Full media decode passed360frames/12seconds; video938874bytes SHA256 `d64d72f132f0dca1bb22e7a2c5e9d960bc187fba2d0e99a18dc30161346ee270`. CI release-only counts and archive verification follow publication.
+
+0.25 publication: commit12ceb0589809a6ef26d31a3a5ef906374c729a6e passed Verify38190224095 (413tests/28files/127filepack),release38190224166,Pages38190224462. Downloaded archive127members/272187bytes SHA256 `aca8948cdbf255ca8fb41f078bac52edcc68677b6f8b8089692043ba939d4361`; queued modules absent. Hosted actual native API/demo chunk verified. Xmain2109449557944008767/reply12109450587641463009 readback withactual12.053333second/readyState4video. npm registry pending.
+
+0.25 secondthreadreply https://x.com/wpsygames/status/2109451156028346612 readbackverifiedunderfirstreply; main +two useful replies complete.
+
+## 0.26 deliberate ambient media (2026-10-12)
+
+Twenty-four focused lifecycle tests cover pendingbudget, rejection, stale outcomes, hostcontrolled/releasedownership, reducedmotion/savedata, hidden/detach/restoration andSSR. Optional payload3152bytesgzip, root/defaultCSS unchanged. Native connected128manualvideo lifecycle:5×20cycles, batches34.3/8.3/7.2/6.3/7.5ms, median7.5ms,0customRAF/JSrectreads/subsequent250msidleRAF; excludes source/play/decoder work.
+
+Native gallery actual firstdock requestfulfilled/secondscrollrequestfalse atmax1; film raisedmax2 andconfirmedbothplaying, savingpausedboth. Separate fullnativeplayer remainedplayingafterprogrammatichostquietpreference, eventuallydecoded360frames/reached12seconds. Sixoriginalcovers loaded. InitialpausedcurrentSrc alreadyselected; cross-origin timing transfer/encoded fields0 dueTAO boundary, notzeronetwork. Actualsourcefilesizesseparate, no cold/warm speedup/FPS/memoryclaim.
+
+Fifteen manual/visible/quiet ×320×700,390×844,768×1024,844×390,1440×900 casesnoflow,44pxbuttons/16pxselects. Finaladdedtourbutton fitsallfive sizes44px; nativefocusmodalclosebutton, associatedselectlabels. DesktopresponsiveChromiumnotphysicalphone/Safari/AT. StrictdemoTSwithvite/clientpasses. Originalfilm actualtourrequests/ownership, cameraonlydensecaptions and100pxspacer, fullplayermuted; reviewed .8/4.5/9seconds,decode360frames12seconds. Disco120keysseed26,video801332bytes SHA256 `641c4cbab826c0d850fb169174ed1f9e01bc8ed1932f246f491e59b0f274436f`.
+
+Final integrated `npm run check` passed884tests/44filesincludingqueuedprototypes; releasescope adds24tests to413priorpublished. Final `npm pack --dry-run` passed130files. Browser/media evidence is separate fromunit tests; no default import/CSS change.

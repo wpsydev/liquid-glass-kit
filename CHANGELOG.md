@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.26.0-preview.1
+
+- Add optional ambient-media coordinator: deliberate manual default, opted-in shared visibility/hover policies, pending/playing slot budget and stale-play guards.
+- Respect OS/app saving preferences and released/native controlled players; preserve host sources and posters with conditional property cleanup.
+- Add original Motion Library, finite real playback tour, fifteen responsive policy cases and separate128-video manual lifecycle/payload evidence. No runtime dependency/default import change.
+
 ## 0.25.0-preview.1
 
 - Add optional same-document native view-transition bridge, safe shared names, exactly-once host callbacks, skip/supersession and direct fallbacks.

@@ -1,0 +1,409 @@
+{
+  "observedAtUtc": "2026-10-12T01:09:00Z",
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "cases": [
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "manual",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "visible",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 1,
+        "pending": 0,
+        "playing": 1,
+        "saveDataSupported": true,
+        "visibilitySupported": true
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "quiet",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": true
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "manual",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "visible",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": true
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "quiet",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": true
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "manual",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "visible",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 1,
+        "pending": 0,
+        "playing": 1,
+        "saveDataSupported": true,
+        "visibilitySupported": true
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "quiet",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": true
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "manual",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "visible",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": true
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "quiet",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": true
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "manual",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "visible",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 1,
+        "pending": 0,
+        "playing": 1,
+        "saveDataSupported": true,
+        "visibilitySupported": true
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "fields": [
+        16,
+        16
+      ],
+      "minHeight": 44,
+      "minWidth": 57.671875,
+      "mode": "quiet",
+      "overflow": false,
+      "stats": {
+        "attached": 6,
+        "maxActive": 1,
+        "ownedActive": 0,
+        "pending": 0,
+        "playing": 0,
+        "saveDataSupported": true,
+        "visibilitySupported": true
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "finalTourButtonCases": {
+    "320x700": {
+      "overflow": false,
+      "tourButton": [
+        93.609375,
+        44
+      ],
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    "390x844": {
+      "overflow": false,
+      "tourButton": [
+        93.609375,
+        44
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "768x1024": {
+      "overflow": false,
+      "tourButton": [
+        93.609375,
+        44
+      ],
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    "844x390": {
+      "overflow": false,
+      "tourButton": [
+        93.609375,
+        44
+      ],
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    "1440x900": {
+      "overflow": false,
+      "tourButton": [
+        93.609375,
+        44
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  },
+  "scope": "Native desktop responsive Chromium, not physical phones/Safari/AT."
+}
