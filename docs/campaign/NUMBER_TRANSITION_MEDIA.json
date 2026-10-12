@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-12T04:43:40.721Z",
+  "source": "source22 / independently implemented finite number presentation",
+  "baseCommit": "316f24819414649bef7431ad5bfcf6127028af06",
+  "sourceSHA256": "6d871e63fd8eb21efbca5a4c6785458928f87261c73fd12ddb2a5ed1fba08e10",
+  "published": false,
+  "media": {
+    "schemaVersion": 1,
+    "film": {
+      "path": "docs/campaign/assets/number-transition-showcase.mp4",
+      "bytes": 606116,
+      "sha256": "700444cb01cb31f2e6ed1afa66a3365519d0978636bca647ec6a9edace9b99c4"
+    },
+    "poster": {
+      "path": "docs/campaign/assets/number-transition-showcase.png",
+      "bytes": 301472,
+      "sha256": "cc5223b677d5ae993a6d7338a43612da788b1a33765d88441b1ec8d36bada8ac"
+    },
+    "native": {
+      "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-aedc9fdb-1d0a-4608-b67f-dabe5fa675c4-mp4.mp4",
+      "bytes": 468054,
+      "sha256": "87ad98868dac3dce384919208e4a676751347da1025b32c571addfa52fd6bc8d"
+    },
+    "fullAudioVideoDecodeExitCode": 0,
+    "fullAudioVideoDecodeErrors": "",
+    "decodedVideoFrames": 360,
+    "uniqueDecodedFrameHashes": 270,
+    "frameHashFileSHA256": "06d03dd1141f175c3be6487025f70f8ee86e3344f1d155e3e02f5f70e5b412bf",
+    "nativeDuration": "00:00:10.06",
+    "nativeVideoStream": "Stream #0:0[0x1](und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1920, 370 kb/s, SAR 1:1 DAR 1:1, 5.96 fps, 30k tbr, 30k tbn (default)",
+    "exportVideoStream": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 960x960 [SAR 1:1 DAR 1:1], 190 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+    "exportAudioStream": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 203 kb/s (default)",
+    "reviewedFramesSeconds": [
+      0.9,
+      3.15,
+      6.9,
+      9.7
+    ]
+  },
+  "score": {
+    "style": "electro",
+    "BPM": 144,
+    "seed": 38,
+    "patch": "bright FM",
+    "chordIntervals": [
+      0,
+      4,
+      7,
+      11
+    ],
+    "durationSeconds": 12,
+    "license": "MIT",
+    "externalSamples": false
+  },
+  "nativeCapture": {
+    "tabId": "tab_4g",
+    "CSSViewport": {
+      "width": 960,
+      "height": 960
+    },
+    "DPR": 2,
+    "rawPixels": {
+      "width": 1920,
+      "height": 1920
+    },
+    "finiteTourMs": 10000,
+    "exportDurationSeconds": 12,
+    "exportFPS": 30,
+    "exportFPSIsAppFPS": false,
+    "approxFinalHoldSeconds": 1.94,
+    "complete": true,
+    "pendingTourSteps": 0,
+    "finalActiveControllers": 0,
+    "finalActualValues": {
+      "pattern": "8",
+      "reading": "22,25",
+      "session": "150"
+    },
+    "requested": 8,
+    "completed": 8,
+    "cancelled": 0,
+    "recordingStopped": true,
+    "camera": "960 CSS px square. Recording-only density reduces artwork and whitespace, keeps all native inputs/buttons at16px/44px, and reserves a 56px caption band above the instrument board and below settings. A finite host observer synchronizes the native legend with actual semantic values, then disconnects. Normal 100-case matrix excludes this CSS.",
+    "nativeLegend": "Finite host MutationObserver follows only three semantic-value nodes; fixed bottom legend shows current host values and disconnects at end",
+    "captions": {
+      "y": 344,
+      "height": 56,
+      "width": 889,
+      "aboveControls": true,
+      "strings": [
+        "actual first, motion second",
+        "blend the studies, replace the real log",
+        "locales and quiet mode, native inputs intact"
+      ]
+    }
+  },
+  "validation": {
+    "nativeCases": 100,
+    "statesPerViewport": 20,
+    "viewports": [
+      [
+        320,
+        700
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "allAsserted": true,
+    "focusedUnitTests": 29,
+    "fullCheckTests": 744,
+    "fullCheckFiles": 39,
+    "strictTypeScript": "passed",
+    "isolatedViteDemoBuild": "passed",
+    "standaloneNodeSSR": "passed without browser globals",
+    "CSSOMOwnership": "Native style normalization exercised; no ownership bug reproduced; no source fix",
+    "nativeForm": "Native type42 and submit creates local session42; real Undo click removes entry",
+    "knownLimits": [
+      "Desktop Chromium/Electron CSS viewport validation only",
+      "Physical phones, iOS Safari and AT output unverified",
+      "Native background-page visibility and live OS preference toggle not claimed; those policies covered by unit tests",
+      "Element hidden cancellation uses real native IntersectionObserver",
+      "Finite staged host session records and editable values, not sensor/financial/service analytics"
+    ]
+  },
+  "benchmark": {
+    "payload": {
+      "bytes": 8112,
+      "gzipBytes": 3444,
+      "runtimeDependencies": 0,
+      "scope": "Standalone minified IIFE, not final package or load speed"
+    },
+    "synchronous": {
+      "controllers": 8,
+      "setCalls": 4000,
+      "medianMsPerEightSets": 0.09999990463256836,
+      "p95MsPerEightSets": 0.10000002384185791,
+      "RAFRequests": 0,
+      "rectReads": 0
+    },
+    "active": {
+      "RAFRequests": 65,
+      "elapsedMs": 417.59999990463257,
+      "latestStatusWrites": 1
+    },
+    "idle": {
+      "milliseconds": 250,
+      "before": {
+        "rafRequests": 65,
+        "rectReads": 0
+      },
+      "after": {
+        "rafRequests": 65,
+        "rectReads": 0
+      }
+    },
+    "cleanup": {
+      "allDestroyed": true,
+      "authorSemanticRestored": true,
+      "authorStatusRestored": true,
+      "authorVisualRestored": true
+    },
+    "scope": "Synchronous quiet set invocation/formatting/native text/style writes and Promise allocation over eight connected controllers. Async animation elapsed wall time and semantic/status callbacks reported separately. No paint, GPU, frame rate, exact finance arithmetic or speedup claim; timer resolution and instrumentation apply.",
+    "timingCaveat": "~0.1ms timer resolution and instrumentation overhead. Zero samples mean below resolution, not zero cost. No paint/GPU/app-FPS/speedup claims."
+  }
+}

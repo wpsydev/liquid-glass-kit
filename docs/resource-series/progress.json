@@ -296,12 +296,12 @@
     {
       "order": 21,
       "url": "https://ui.aceternity.com",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Bounded fine-pointer visual projection",
       "version": "0.37.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/tilt/",
       "video": "docs/campaign/assets/tilt-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109510200520560656",
       "performance": [
         "benchmarks/tilt-payload.json",
         "benchmarks/tilt-browser.json",
@@ -311,13 +311,18 @@
     {
       "order": 22,
       "url": "https://magicui.design",
-      "status": "researched",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Immediate semantic values with finite decorative number continuity",
+      "version": "0.38.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/number-transition-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/number-transition-payload.json",
+        "benchmarks/number-transition-browser.json",
+        "benchmarks/number-transition-layouts.json",
+        "benchmarks/number-transition-native-form.json"
+      ]
     },
     {
       "order": 23,

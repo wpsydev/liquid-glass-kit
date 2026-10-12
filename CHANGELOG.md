@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.38.0-preview.1
+
+- Add optional finite number continuity with immediate actual semantic values, replacement by default, explicit nonfinancial interpolation and supported-locale formatting.
+- Preserve native editing, latest-result promises, deliberate announcements, quiet/hidden cancellation and conditional authored cleanup; no idle loop or runtime dependency.
+- Add original Calibre session log, native record/undo,100 desktop viewport/state checks, scoped benchmarks and twelve-second electro/FM major-seven showcase.
+- Correct tilt probe scope wording: any synchronous style/layout induced by geometry reads is included.
+
 ## 0.37.0-preview.1
 
 - Add optional bounded fine-pointer perspective on one dedicated noninteractive visual plane, with a shared settling spring and stable native host semantics.

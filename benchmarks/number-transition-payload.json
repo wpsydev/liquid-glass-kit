@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "source": "src/number-transition.ts",
+  "sourceSHA256": "6d871e63fd8eb21efbca5a4c6785458928f87261c73fd12ddb2a5ed1fba08e10",
+  "measuredAt": "2026-10-12T04:33:11.370Z",
+  "bytes": 8112,
+  "gzipBytes": 3444,
+  "bundleSHA256": "d172feb5825525822ba67e93dd6a64cf9b86c3419c13ad04e32aaa69d254fde1",
+  "format": "Standalone optional-entry minified IIFE. Not final package aggregate, load-time, paint or speedup evidence.",
+  "runtimeDependencies": 0
+}

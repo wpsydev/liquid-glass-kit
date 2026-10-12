@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "submit": {
+    "cancelled": 0,
+    "completed": 0,
+    "focus": "log-session",
+    "formatted": {
+      "pattern": "12",
+      "reading": "21.5",
+      "session": "42"
+    },
+    "instruments": {
+      "pattern": {
+        "active": false,
+        "destroyed": false,
+        "displayValue": 12,
+        "semantic": "12",
+        "status": "",
+        "value": 12
+      },
+      "reading": {
+        "active": false,
+        "destroyed": false,
+        "displayValue": 21.5,
+        "semantic": "21.5",
+        "status": "",
+        "value": 21.5
+      },
+      "session": {
+        "active": true,
+        "destroyed": false,
+        "displayValue": 42,
+        "semantic": "42",
+        "status": "",
+        "value": 42
+      }
+    },
+    "pattern": 12,
+    "pendingTourSteps": 0,
+    "reading": 21.5,
+    "requested": 1,
+    "sessions": [
+      {
+        "id": 1,
+        "minutes": 42
+      }
+    ],
+    "settings": {
+      "announce": false,
+      "duration": 280,
+      "grouping": true,
+      "interpolate": false,
+      "locale": "en-US",
+      "precision": 1,
+      "quiet": false
+    },
+    "solid": false,
+    "systemReduced": false,
+    "totalMinutes": 42,
+    "tourStep": ""
+  },
+  "undo": {
+    "cancelled": 1,
+    "completed": 0,
+    "focus": "BODY",
+    "formatted": {
+      "pattern": "12",
+      "reading": "21.5",
+      "session": "0"
+    },
+    "instruments": {
+      "pattern": {
+        "active": false,
+        "destroyed": false,
+        "displayValue": 12,
+        "semantic": "12",
+        "status": "",
+        "value": 12
+      },
+      "reading": {
+        "active": false,
+        "destroyed": false,
+        "displayValue": 21.5,
+        "semantic": "21.5",
+        "status": "",
+        "value": 21.5
+      },
+      "session": {
+        "active": true,
+        "destroyed": false,
+        "displayValue": 0,
+        "semantic": "0",
+        "status": "",
+        "value": 0
+      }
+    },
+    "pattern": 12,
+    "pendingTourSteps": 0,
+    "reading": 21.5,
+    "requested": 2,
+    "sessions": [],
+    "settings": {
+      "announce": false,
+      "duration": 280,
+      "grouping": true,
+      "interpolate": false,
+      "locale": "en-US",
+      "precision": 1,
+      "quiet": false
+    },
+    "solid": false,
+    "systemReduced": false,
+    "totalMinutes": 0,
+    "tourStep": ""
+  },
+  "scope": "Real native typing, form submit and Undo click; page-session records, not service analytics"
+}

@@ -1,0 +1,56 @@
+{
+  "version": "0.37.0-preview.1",
+  "commit": "c74f6a21a96dbc54293bdbd1c2e49442a657b99e",
+  "workflows": {
+    "verify": 38205629601,
+    "release": 38205629645,
+    "pages": 38205629591,
+    "conclusion": "success",
+    "tests": 776,
+    "testFiles": 40
+  },
+  "archive": {
+    "files": 169,
+    "size": 365927,
+    "sha256": "8375c3ae673009d1616506ef382802f12f0bdc07af5b33046a7b10af4decc2a3"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/tilt/",
+    "native": {
+      "trustedEnterWaveSaved": true,
+      "shiftTabFocus": "atlas",
+      "quiet": {
+        "focus": "quiet",
+        "quiet": true,
+        "visuals": [
+          {
+            "pointer": "",
+            "transform": ""
+          },
+          {
+            "pointer": "",
+            "transform": ""
+          },
+          {
+            "pointer": "",
+            "transform": ""
+          }
+        ]
+      },
+      "physicalHover": "unverified"
+    }
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109510200520560656",
+    "replies": [
+      "https://x.com/wpsygames/status/2109510366497526084",
+      "https://x.com/wpsygames/status/2109510907684438098"
+    ],
+    "publicPlayback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "canonical pages confirmed intended text"
+  },
+  "npmRegistry": "pending"
+}

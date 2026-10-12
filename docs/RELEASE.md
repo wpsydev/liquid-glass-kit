@@ -1,13 +1,13 @@
-A little perspective. Controls that stay in place. **0.37.0-preview.1** adds optional `/tilt`.
+Readable now. Finite movement. **0.38.0-preview.1** adds optional `/number-transition`.
 
-One dedicated decorative plane follows eligible fine-pointer hover through a shared settling spring. Entry bounds are cached for moves. Touch, focus, presses and motion reductions keep native controls neutral. No sensors, gyroscope, capture, custom key model or idle animation loop.
+A separate readable semantic node gets the actual value immediately. Decoration replaces two real formatted strings by default; interpolation is opt-in for nonfinancial studies. Latest-result promises, quiet/hidden cancellation, optional announcements and conditional cleanup preserve host ownership. No runtime dependencies, stylesheet, geometry reads or idle animation loop.
 
-[Depth Objects](https://wpsydev.github.io/liquid-glass-kit/tilt/) has three original SVG concepts, real local selection/bookmark controls and an ordinary anchor. Its twelve-second104BPM funk/brass camera explicitly simulates mouse positions through the actual fine-hover gate and ends at rest. No camera CSS or invented state.
+[Calibre](https://wpsydev.github.io/liquid-glass-kit/numbers/) records and undoes actual local sessions, with editable nonfinancial instrument studies. Its twelve-second144BPM electro video uses an original bright-FM major-seven score and disclosed camera framing. Staged sessions are not productivity or sensor measurements.
 
-Native Chromium testing caught an ownership bug: CSSOM normalizes numeric transform strings. Tracking the actual stored value/priority prevents false external-owner detection and stranded projection. Nineteen focused tests; native Shift+Tab and Quiet now restore neutral styles. Fifteen desktop viewport cases320–1440px fit with44px controls/associated labels/16px fields. Physical phones, physical pointer delivery, Safari and AT remain unverified.
+29 focused tests and100 native desktop Chromium cases across five320–1440px viewports preserve immediate semantic values,44px controls,16px fields and editing. Actual42-minute native submit/Undo, overlapping results and real element-hidden cancellation were checked. Physical phones, Safari and assistive technology remain unverified.
 
-Optional IIFE2,736bytesgzip includes the shared spring.32-host attach/refresh/destroy probe:3,200sequences,12.1ms median per20-cycle batch/3,200rectangles,0custom/idleRAF. Includes synchronous style/layout induced by reads; setup, active spring and asynchronous paint excluded. Separately101syntheticmouse packets schedule1RAF/1entryrectangle; following300msidle0RAF/rectangles. No comparative speedup, GPU-cost or appFPS claim.
+Optional IIFE3,444bytesgzip. Eight connected controllers/4,000quiet sets: median/p95 approximately0.1ms per eight-call batch at approximately0.1ms timer resolution,0RAF/rectangles. Active animation, status writes and250ms idle checks are separate. No baseline, speedup, GPU or appFPS claim.
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/TILT.md) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/tilt-native.json) · [Lifecycle](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/tilt-browser.json)
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/NUMBER_TRANSITION.md) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/number-transition-browser.json)
 
-Use the attached ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.37.0-preview.1`. npm registry publication remains pending. Default core/CSS stay unchanged. Aceternity informed an independent bounded interaction, without copied premium widgets/code/assets.
+Use the ready-built release archive or `npm i github:wpsydev/liquid-glass-kit#v0.38.0-preview.1`. npm registry publication remains pending. Independent implementation inspired by Magic UI, with no copied component or mandatory React/Motion dependency.

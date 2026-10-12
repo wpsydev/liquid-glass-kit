@@ -474,3 +474,13 @@ Original12second360frame772281bytefunk104/brassseed37 native10scameratour SHA256
 Final integrated npm run check passed1,144tests/53files includingqueuedprototypes. Final npm pack --dry-run passed169files excludingfutureentries. This release adds19tests to757publishedtests; published-scope CI followspublication.
 
 0.36 publication: commitc445ffb3256d4d61db0bfd101b8aac5ec1dcdb63 passedVerify38204555365 (757tests/39files),release38204555375 andPages38204555412. Downloaded166members/359612bytes archive SHA256 `ac31931d59b9fadf66fc59f3a9ed163fb6c7941892b2acdc0b4237b1acd6f9c4`. HostedblankRecordfirstinvalidfocusnote-title/0submissions andHelp44px verified. Xmain+twocanonicalreplies readback, freshpublicplayer12seconds/ready4; campaign/FIELD_PUBLICATION.json. npmregistry pending.
+
+## 0.38 number continuity (2026-10-12)
+
+29 focused tests;100 native desktop Chromium cases20states×5viewports320–1440px. Immediate readable actual values, aria-hidden decoration,44px targets,16px fields and no page overflow. Actual42-minute record/Undo, focus/caret identity, overlap latest completion, real element-hidden cancellation/no replay, conditional cleanup and deliberate announcements checked separately. Physical phones/Safari/AT unverified.
+
+Eight connected controllers/4,000quiet sets, median/p95 approximately0.1ms/eight-call batch at approximately0.1ms clock resolution; zeros are below resolution.0RAF/rectangles; active65RAF/417.6ms elapsed separate from synchronous scope; subsequent250ms no follow-on requests. No painting/GPU/FPS/baseline speedup claim. OptionalIIFE3444gzip.
+
+Original12s960square360-frame606116-byte electro144/bright-FM major-seven film SHA256700444cb01cb31f2e6ed1afa66a3365519d0978636bca647ec6a9edace9b99c4. Actual finite tour ends150localminutes,8requested/completed,0cancelled/active; camera density and above-control caption band disclosed. Full decode and four frame reviews passed independently. Export30fps is not appFPS.
+
+Integrated npm run check passed1,144tests/53files including unreleased prototypes. npm pack --dry-run passed172members with only declared public entries; the published-scope CI count is recorded after release.

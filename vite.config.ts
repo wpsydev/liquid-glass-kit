@@ -46,6 +46,7 @@ export default defineConfig({
         registry: resolve('site/registry/index.html'),
         fields: resolve('site/fields/index.html'),
         tilt: resolve('site/tilt/index.html'),
+        numbers: resolve('site/numbers/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),
         transitions: resolve('site/transitions/index.html'),

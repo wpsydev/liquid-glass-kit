@@ -1,0 +1,24 @@
+/** Recording-only density and genuine, finite host-state legend. No normal-layout override. */
+(() => {
+  const demo = window.__numberDemo; if (!demo) throw new Error('Calibre demo unavailable');
+  const style = document.createElement('style'); style.id = 'capture-density'; style.textContent = "header{min-block-size:50px}.intro{padding-block:18px 16px;gap:45px}.intro h1{font-size:44px;letter-spacing:-1.5px;margin-top:8px}.intro>p{font-size:12px;line-height:1.65;max-inline-size:42ch}.settings{padding-block:10px;gap:9px 13px}.settings>div{min-block-size:52px;padding-inline-end:0}.settings select{min-inline-size:119px}.settings .check{font-size:10px}.policy{font-size:10px;line-height:1.6;margin-block:8px 7px;max-inline-size:100%}#capture-caption-space{block-size:56px;margin-block:0 12px}.instrument{padding:18px 18px 14px}.instrument-top{margin-bottom:12px}.instrument h2{font-size:17px;margin-bottom:10px}.number-row{min-block-size:90px}.number-visual{font-size:76px;letter-spacing:-.07em}.reading-instrument .number-visual{font-size:53px}.actual{font-size:11px;padding-top:9px}.session-strip,.reading-ruler,.pattern-sample{block-size:56px;margin-block:13px 12px}.instrument-description{font-size:11px;line-height:1.6;min-block-size:60px}.instrument form{margin-top:13px}.context-controls{margin-top:9px}.instrument form>label{font-size:11px;margin-bottom:7px}.study-rule{font-size:10px;min-block-size:39px;margin-top:7px}#session-history{min-block-size:39px;max-block-size:60px;margin-top:7px}.settled-announcement{min-block-size:18px;margin-top:8px;padding-top:6px}.mechanics{margin-top:16px;padding-block:22px}.mechanics h2{font-size:29px}.mechanics p:not(.eyebrow){font-size:11px}.mechanics dl>div{padding-block:8px}.settings>div{display:none}header{min-block-size:44px}.intro h1{font-size:39px}.intro{padding-block:14px 12px}.instrument-top{margin-bottom:8px}.instrument h2{margin-bottom:6px}.number-row{min-block-size:82px}.session-strip,.reading-ruler,.pattern-sample{block-size:48px;margin-block:10px}.instrument-description{font-size:10.5px;line-height:1.45;min-block-size:48px}.instrument form{margin-top:9px}.context-controls{margin-top:7px}.study-rule{min-block-size:35px}#session-history{min-block-size:35px}.settled-announcement{margin-top:6px}.instrument-description{max-inline-size:none}.number-row{min-block-size:76px}.instrument{padding-block:15px 12px}.session-strip,.reading-ruler,.pattern-sample{margin-block:8px;block-size:44px}#capture-legend{position:fixed;inset-inline:28px;bottom:10px;z-index:3;margin:0!important;background:#ebeae4;border:1px solid #c3c8bb;border-radius:4px;padding:7px 12px!important;font:11px/1.6 ui-monospace,monospace;border-block:1px solid #c3c8bb;padding:10px 0;margin-top:12px;overflow-wrap:anywhere}"; document.head.append(style);
+  const gap = document.createElement('div'); gap.id = 'capture-caption-space'; gap.setAttribute('aria-hidden', 'true'); document.getElementById('policy').after(gap);
+  const legend = document.createElement('p'); legend.id = 'capture-legend'; document.querySelector('.instrument-board').after(legend);
+  window.__numberCapture = () => {
+    window.scrollTo(0, 0); const trace = [], timers = [];
+    const writeLegend = s => { legend.textContent = 'actual ' + Object.values(s.instruments).map(i => i.semantic).join(' / ') + ' · log replaces · studies ' + (s.settings.interpolate ? 'blend decoration' : 'replace') + ' · ' + (s.settings.quiet ? 'quiet' : 'finite') + ' · local values only'; };
+    const snapshot = name => { const s = demo.state(); trace.push({ name, at: performance.now(), state: s }); writeLegend(s); };
+    const at = (ms, action) => timers.push(setTimeout(action, ms));
+    const tour = demo.tour(); snapshot('first-local-record');
+    const observer = new MutationObserver(() => writeLegend(demo.state()));
+    for (const id of ['session-current', 'reading-current', 'pattern-current']) observer.observe(document.getElementById(id), { childList: true, characterData: true, subtree: true });
+    at(1800, () => snapshot('two-local-entries'));
+    at(3200, () => snapshot('explicit-nonfinancial-blend'));
+    at(4900, () => snapshot('negative-reading-open-pattern'));
+    at(6700, () => snapshot('german-locale-real-log'));
+    at(8400, () => snapshot('quiet-immediate-authoritative-values'));
+    window.__numberCapturePromise = tour.then(complete => { for (const t of timers) clearTimeout(t); observer.disconnect(); snapshot('finished'); const state = demo.state(); return { complete, trace, final: state, camera: '960 CSS px square. Recording-only density reduces artwork and whitespace, keeps all native inputs/buttons at16px/44px, and reserves a 56px caption band above the instrument board and below settings. A finite host observer synchronizes the native legend with actual semantic values, then disconnects. Normal 100-case matrix excludes this CSS.' }; });
+    return true;
+  };
+  return true;
+})();

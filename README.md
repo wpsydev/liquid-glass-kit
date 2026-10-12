@@ -2,7 +2,7 @@
 
 **CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.19 command-palette preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.38 number-continuity preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
 ![Material workbench](docs/assets/studio.webp)
 
@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.31.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.38.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -182,3 +182,5 @@ Optional `/registry` builds and validates bounded original authored-file recipes
 Optional `/field` produces native labels, context/error references and invalid/busy anatomy as pure props. Import `/field.css` separately; the host keeps validation, form state and save behavior. [API](docs/FIELD.md) · [Commonplace](https://wpsydev.github.io/liquid-glass-kit/fields/).
 
 Optional `/tilt` projects one decorative visual plane under eligible fine-pointer hover while native controls stay stable. Touch, focus, presses and motion reduction neutralize it; no sensors or idle loop. [API](docs/TILT.md) · [Depth Objects](https://wpsydev.github.io/liquid-glass-kit/tilt/).
+
+Optional `/number-transition` keeps a separate readable actual value current while decorative numbers move finitely. Replacement is the default; interpolation is explicitly for nonfinancial studies. Native editing, optional announcements and quiet cancellation remain deliberate. [API](docs/NUMBER_TRANSITION.md) · [Calibre](https://wpsydev.github.io/liquid-glass-kit/numbers/).

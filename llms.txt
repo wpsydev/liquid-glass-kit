@@ -104,3 +104,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Fine-pointer tilt](docs/TILT.md): one visual plane, cached move geometry, actual CSSOM ownership and native neutral controls.
 - [Depth Objects](https://wpsydev.github.io/liquid-glass-kit/tilt/): three original SVG concepts, explicit simulated camera and real local selection/bookmark behavior.
+
+- [Number continuity](docs/NUMBER_TRANSITION.md): actual semantic values immediately, finite replacement by default, opt-in nonfinancial interpolation and announcements.
+- [Calibre](https://wpsydev.github.io/liquid-glass-kit/numbers/): local record/undo with native inputs; staged values are not measured productivity.

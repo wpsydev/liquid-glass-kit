@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "recording": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-aedc9fdb-1d0a-4608-b67f-dabe5fa675c4-mp4",
+    "tabId": "tab_4g",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-aedc9fdb-1d0a-4608-b67f-dabe5fa675c4-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 468054,
+    "createdAt": "2026-10-12T04:41:03.764Z"
+  },
+  "result": {
+    "camera": "960 CSS px square. Recording-only density reduces artwork and whitespace, keeps all native inputs/buttons at16px/44px, and reserves a 56px caption band above the instrument board and below settings. A finite host observer synchronizes the native legend with actual semantic values, then disconnects. Normal 100-case matrix excludes this CSS.",
+    "complete": true,
+    "final": {
+      "cancelled": 0,
+      "completed": 8,
+      "focus": "BODY",
+      "formatted": {
+        "pattern": "8",
+        "reading": "22,25",
+        "session": "150"
+      },
+      "instruments": {
+        "pattern": {
+          "active": false,
+          "destroyed": false,
+          "displayValue": 8,
+          "semantic": "8",
+          "status": "",
+          "value": 8
+        },
+        "reading": {
+          "active": false,
+          "destroyed": false,
+          "displayValue": 22.25,
+          "semantic": "22,25",
+          "status": "",
+          "value": 22.25
+        },
+        "session": {
+          "active": false,
+          "destroyed": false,
+          "displayValue": 150,
+          "semantic": "150",
+          "status": "",
+          "value": 150
+        }
+      },
+      "pattern": 8,
+      "pendingTourSteps": 0,
+      "reading": 22.25,
+      "requested": 8,
+      "sessions": [
+        {
+          "id": 1,
+          "minutes": 25
+        },
+        {
+          "id": 2,
+          "minutes": 35
+        },
+        {
+          "id": 3,
+          "minutes": 90
+        }
+      ],
+      "settings": {
+        "announce": false,
+        "duration": 280,
+        "grouping": true,
+        "interpolate": true,
+        "locale": "de-DE",
+        "precision": 2,
+        "quiet": true
+      },
+      "solid": false,
+      "systemReduced": false,
+      "totalMinutes": 150,
+      "tourStep": ""
+    },
+    "trace": [
+      {
+        "at": 755875.5,
+        "name": "first-local-record",
+        "state": {
+          "cancelled": 0,
+          "completed": 0,
+          "focus": "BODY",
+          "formatted": {
+            "pattern": "12",
+            "reading": "21.5",
+            "session": "25"
+          },
+          "instruments": {
+            "pattern": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 12,
+              "semantic": "12",
+              "status": "",
+              "value": 12
+            },
+            "reading": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 21.5,
+              "semantic": "21.5",
+              "status": "",
+              "value": 21.5
+            },
+            "session": {
+              "active": true,
+              "destroyed": false,
+              "displayValue": 25,
+              "semantic": "25",
+              "status": "",
+              "value": 25
+            }
+          },
+          "pattern": 12,
+          "pendingTourSteps": 6,
+          "reading": 21.5,
+          "requested": 1,
+          "sessions": [
+            {
+              "id": 1,
+              "minutes": 25
+            }
+          ],
+          "settings": {
+            "announce": false,
+            "duration": 280,
+            "grouping": true,
+            "interpolate": false,
+            "locale": "en-US",
+            "precision": 1,
+            "quiet": false
+          },
+          "solid": false,
+          "systemReduced": false,
+          "totalMinutes": 25,
+          "tourStep": "01 / record a completed session"
+        }
+      },
+      {
+        "at": 757676.3999999762,
+        "name": "two-local-entries",
+        "state": {
+          "cancelled": 0,
+          "completed": 2,
+          "focus": "BODY",
+          "formatted": {
+            "pattern": "12",
+            "reading": "21.5",
+            "session": "60"
+          },
+          "instruments": {
+            "pattern": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 12,
+              "semantic": "12",
+              "status": "",
+              "value": 12
+            },
+            "reading": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 21.5,
+              "semantic": "21.5",
+              "status": "",
+              "value": 21.5
+            },
+            "session": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 60,
+              "semantic": "60",
+              "status": "",
+              "value": 60
+            }
+          },
+          "pattern": 12,
+          "pendingTourSteps": 5,
+          "reading": 21.5,
+          "requested": 2,
+          "sessions": [
+            {
+              "id": 1,
+              "minutes": 25
+            },
+            {
+              "id": 2,
+              "minutes": 35
+            }
+          ],
+          "settings": {
+            "announce": false,
+            "duration": 280,
+            "grouping": true,
+            "interpolate": false,
+            "locale": "en-US",
+            "precision": 1,
+            "quiet": false
+          },
+          "solid": false,
+          "systemReduced": false,
+          "totalMinutes": 60,
+          "tourStep": "actual session total / two real entries"
+        }
+      },
+      {
+        "at": 759076.8000000715,
+        "name": "explicit-nonfinancial-blend",
+        "state": {
+          "cancelled": 0,
+          "completed": 2,
+          "focus": "BODY",
+          "formatted": {
+            "pattern": "12",
+            "reading": "37.125",
+            "session": "60"
+          },
+          "instruments": {
+            "pattern": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 12,
+              "semantic": "12",
+              "status": "",
+              "value": 12
+            },
+            "reading": {
+              "active": true,
+              "destroyed": false,
+              "displayValue": 36.71801330709245,
+              "semantic": "37.125",
+              "status": "",
+              "value": 37.125
+            },
+            "session": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 60,
+              "semantic": "60",
+              "status": "",
+              "value": 60
+            }
+          },
+          "pattern": 12,
+          "pendingTourSteps": 4,
+          "reading": 37.125,
+          "requested": 3,
+          "sessions": [
+            {
+              "id": 1,
+              "minutes": 25
+            },
+            {
+              "id": 2,
+              "minutes": 35
+            }
+          ],
+          "settings": {
+            "announce": false,
+            "duration": 280,
+            "grouping": true,
+            "interpolate": true,
+            "locale": "en-US",
+            "precision": 3,
+            "quiet": false
+          },
+          "solid": false,
+          "systemReduced": false,
+          "totalMinutes": 60,
+          "tourStep": "explicit study blend / immediate actual value"
+        }
+      },
+      {
+        "at": 760777.8000000715,
+        "name": "negative-reading-open-pattern",
+        "state": {
+          "cancelled": 0,
+          "completed": 3,
+          "focus": "BODY",
+          "formatted": {
+            "pattern": "24",
+            "reading": "-8.500",
+            "session": "60"
+          },
+          "instruments": {
+            "pattern": {
+              "active": true,
+              "destroyed": false,
+              "displayValue": 23.69081125120188,
+              "semantic": "24",
+              "status": "",
+              "value": 24
+            },
+            "reading": {
+              "active": true,
+              "destroyed": false,
+              "displayValue": -7.345632111827101,
+              "semantic": "-8.500",
+              "status": "",
+              "value": -8.5
+            },
+            "session": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 60,
+              "semantic": "60",
+              "status": "",
+              "value": 60
+            }
+          },
+          "pattern": 24,
+          "pendingTourSteps": 3,
+          "reading": -8.5,
+          "requested": 5,
+          "sessions": [
+            {
+              "id": 1,
+              "minutes": 25
+            },
+            {
+              "id": 2,
+              "minutes": 35
+            }
+          ],
+          "settings": {
+            "announce": false,
+            "duration": 280,
+            "grouping": true,
+            "interpolate": true,
+            "locale": "en-US",
+            "precision": 3,
+            "quiet": false
+          },
+          "solid": false,
+          "systemReduced": false,
+          "totalMinutes": 60,
+          "tourStep": "negative reading / open grid"
+        }
+      },
+      {
+        "at": 762577.6000000238,
+        "name": "german-locale-real-log",
+        "state": {
+          "cancelled": 0,
+          "completed": 6,
+          "focus": "BODY",
+          "formatted": {
+            "pattern": "24",
+            "reading": "-8,50",
+            "session": "150"
+          },
+          "instruments": {
+            "pattern": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 24,
+              "semantic": "24",
+              "status": "",
+              "value": 24
+            },
+            "reading": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": -8.5,
+              "semantic": "-8,50",
+              "status": "",
+              "value": -8.5
+            },
+            "session": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 150,
+              "semantic": "150",
+              "status": "",
+              "value": 150
+            }
+          },
+          "pattern": 24,
+          "pendingTourSteps": 2,
+          "reading": -8.5,
+          "requested": 6,
+          "sessions": [
+            {
+              "id": 1,
+              "minutes": 25
+            },
+            {
+              "id": 2,
+              "minutes": 35
+            },
+            {
+              "id": 3,
+              "minutes": 90
+            }
+          ],
+          "settings": {
+            "announce": false,
+            "duration": 280,
+            "grouping": true,
+            "interpolate": true,
+            "locale": "de-DE",
+            "precision": 2,
+            "quiet": false
+          },
+          "solid": false,
+          "systemReduced": false,
+          "totalMinutes": 150,
+          "tourStep": "locale punctuation / replace-only log"
+        }
+      },
+      {
+        "at": 764278,
+        "name": "quiet-immediate-authoritative-values",
+        "state": {
+          "cancelled": 0,
+          "completed": 8,
+          "focus": "BODY",
+          "formatted": {
+            "pattern": "8",
+            "reading": "22,25",
+            "session": "150"
+          },
+          "instruments": {
+            "pattern": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 8,
+              "semantic": "8",
+              "status": "",
+              "value": 8
+            },
+            "reading": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 22.25,
+              "semantic": "22,25",
+              "status": "",
+              "value": 22.25
+            },
+            "session": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 150,
+              "semantic": "150",
+              "status": "",
+              "value": 150
+            }
+          },
+          "pattern": 8,
+          "pendingTourSteps": 1,
+          "reading": 22.25,
+          "requested": 8,
+          "sessions": [
+            {
+              "id": 1,
+              "minutes": 25
+            },
+            {
+              "id": 2,
+              "minutes": 35
+            },
+            {
+              "id": 3,
+              "minutes": 90
+            }
+          ],
+          "settings": {
+            "announce": false,
+            "duration": 280,
+            "grouping": true,
+            "interpolate": true,
+            "locale": "de-DE",
+            "precision": 2,
+            "quiet": true
+          },
+          "solid": false,
+          "systemReduced": false,
+          "totalMinutes": 150,
+          "tourStep": "quiet / exact settings"
+        }
+      },
+      {
+        "at": 765877.6000000238,
+        "name": "finished",
+        "state": {
+          "cancelled": 0,
+          "completed": 8,
+          "focus": "BODY",
+          "formatted": {
+            "pattern": "8",
+            "reading": "22,25",
+            "session": "150"
+          },
+          "instruments": {
+            "pattern": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 8,
+              "semantic": "8",
+              "status": "",
+              "value": 8
+            },
+            "reading": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 22.25,
+              "semantic": "22,25",
+              "status": "",
+              "value": 22.25
+            },
+            "session": {
+              "active": false,
+              "destroyed": false,
+              "displayValue": 150,
+              "semantic": "150",
+              "status": "",
+              "value": 150
+            }
+          },
+          "pattern": 8,
+          "pendingTourSteps": 0,
+          "reading": 22.25,
+          "requested": 8,
+          "sessions": [
+            {
+              "id": 1,
+              "minutes": 25
+            },
+            {
+              "id": 2,
+              "minutes": 35
+            },
+            {
+              "id": 3,
+              "minutes": 90
+            }
+          ],
+          "settings": {
+            "announce": false,
+            "duration": 280,
+            "grouping": true,
+            "interpolate": true,
+            "locale": "de-DE",
+            "precision": 2,
+            "quiet": true
+          },
+          "solid": false,
+          "systemReduced": false,
+          "totalMinutes": 150,
+          "tourStep": ""
+        }
+      }
+    ]
+  },
+  "geometry": {
+    "caption": {
+      "bottom": 399.0078125,
+      "height": 56,
+      "left": 28,
+      "right": 917,
+      "top": 343.0078125,
+      "width": 889,
+      "x": 28,
+      "y": 343.0078125
+    },
+    "fields": [
+      {
+        "font": 16,
+        "height": 44,
+        "id": "session-length"
+      },
+      {
+        "font": 16,
+        "height": 44,
+        "id": "reading-input"
+      },
+      {
+        "font": 16,
+        "height": 44,
+        "id": "pattern-input"
+      }
+    ],
+    "legend": {
+      "bottom": 950,
+      "height": 33.59375,
+      "left": 28,
+      "right": 917,
+      "top": 916.40625,
+      "width": 889,
+      "x": 28,
+      "y": 916.40625
+    }
+  }
+}
