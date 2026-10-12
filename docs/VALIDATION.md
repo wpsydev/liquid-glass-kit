@@ -414,3 +414,15 @@ Original12second360frame960square native Review Room film uses160BPM drum-and-ba
 Final integrated npm run check passed1,142tests/53files including queued prototypes; this release adds28tests to574published tests. Packaging/browser checks recorded separately; release-only CI counts follow publication.
 
 Final npm pack --dry-run passed152files and excludes future optional modules. No action stylesheet is required. The published-scope verification will independently check602tests/35files if the expected additions hold.
+
+## 0.33 native snap decks (2026-10-12)
+
+30 focused tests include unchanged initial ResizeObserver delivery after update preserving immediate smoothRTLgoTo, plus actualgeometry/direction/padding/margin/visibility/membership invalidation. Optional JS2,700gzip/CSS443gzip, legacydefaultcore/CSS unchanged. Native T3desktopChromium fifteen3mode×5viewportcases fit320–1440px/44targets/16fields; ten functional checks cover firstRTL movement, actualLTR/RTLmiddle/end, quiet/allfit controls, one authored tree and native selectionfocus. Physicalphones/Safari/touchmomentum/AT unverified.
+
+Native32-card probe:5×20 lifecycle batches7.6/3.9/4.5/7.1/3.2ms median4.5ms,6,600geometryreads across100cycles. Separate5×20×4cachedinstantrequest batches.9/.7/.5/.6/1.4ms median.70ms,0rectrereads. Both0custom/idleRAF. Native smoothscroll events settle actualview instead of publishing requestedindex optimistically. Excludes native scrollanimation/layout/paint, no appFPS orcomparativespeedup.
+
+Original12second360frame960square Offset film132BPMgarage/bell seed33,744719bytes SHA256 `1dc6fdda4bbcbfab0a7d2fcf7a27e3f8e8c8a704ee3c6056d3e27c360d386679`. Actual10stour endsRTLindex1/scrollLeft-692.5/Motionconcept/picks2/0timers. Camera density and finalnativeframehold recorded; no invented selections. Three representativeframes2/6.5/9.5 reviewed, fullaudio/videodecode passed with280uniqueframehashes. Export30fps is not appFPS.
+
+Final integrated npm run check passed1,142tests/53files including queued prototypes. Final npm pack --dry-run passed156files, excluding future modules. This release adds30tests to602published tests; release-only CI counts follow publication.
+
+0.32 publication: initialcommitce63edf32f535437185f71465edbf7621f57b8b1 passedruntime verification/pages but release asset upload failed because media descriptors were outside the allowed directory. Correctiona505aa27a855898600b1aa5a2b584b39a13627d9 stages identicalverifiedmedia underdocs/campaign/assets; Verify38201207839 (602tests/35files),release38201207815 andPages38201207795 allpassed. Existingtag remainsce63edf; packageAPI/runtime unchanged bymedia-onlycorrection. Downloaded152members/328979bytes archive SHA256 `905c7f425b8ba749c2d0db92ee1d84e4252aa472f3da317e669ffbe38a530fee`. Hostedactual FormData/native queue submission producedB03/success/onecallback. npmregistry pending.

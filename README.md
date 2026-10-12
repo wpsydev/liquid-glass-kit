@@ -172,3 +172,5 @@ Optional `/disclosure-nav` enhances one authored navigation tree with native dis
 Optional `/material-preferences` coordinates scoped theme, motion and transparency choices with detected OS preferences. Import `/material-preferences.css` after the material stylesheet; forward effective policy to existing JavaScript controllers. Persistence needs an explicit host storage object/key. [API](docs/MATERIAL_PREFERENCES.md) · [Side B](https://wpsydev.github.io/liquid-glass-kit/preferences/).
 
 Optional `/action` coordinates an authored native button or form with single-flight work, explicit host outcomes and cancellation intent. Native validation, successful-control FormData, child identity and editable drafts remain intact. [API](docs/ACTION.md) · [Review Room](https://wpsydev.github.io/liquid-glass-kit/actions/).
+
+Optional `/snap-deck` enhances native CSS scroll-snap with settled-view reporting, cached LTR/RTL targets and explicit motion policy. Authored cards and native buttons keep ordinary semantics and focus. [API](docs/SNAP_DECK.md) · [Offset](https://wpsydev.github.io/liquid-glass-kit/deck/).

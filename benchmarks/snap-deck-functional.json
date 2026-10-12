@@ -1,0 +1,443 @@
+{
+  "observedAtUtc": "2026-10-12T03:16:42.206Z",
+  "sourceSha256": "3dd333bc93507a990231f8f595256ed4b370e8b692f22c9bace3201abea35490",
+  "correctedFunctional": {
+    "accepted": true,
+    "at": "2026-10-12T03:15:05.658Z",
+    "before": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": false,
+      "changes": 1,
+      "clientWidth": 865,
+      "compact": false,
+      "direction": "ltr",
+      "focus": "BUTTON",
+      "index": 0,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "initial",
+      "reduced": false,
+      "scrollLeft": 0,
+      "scrollWidth": 2060,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "buttons": [
+      {
+        "disabled": true,
+        "name": "previous"
+      },
+      {
+        "disabled": true,
+        "name": "0"
+      },
+      {
+        "disabled": true,
+        "name": "1"
+      },
+      {
+        "disabled": true,
+        "name": "2"
+      },
+      {
+        "disabled": true,
+        "name": "next"
+      }
+    ],
+    "cardCount": 3,
+    "checks": {
+      "allFitControls": true,
+      "focusPreserved": true,
+      "immediateReobserveRtlSurvives": true,
+      "ltrEnd": true,
+      "ltrMiddle": true,
+      "noArrowInterception": true,
+      "quietInstant": true,
+      "rtlEnd": true,
+      "smoothNotOptimistic": true,
+      "threeAuthoredCards": true
+    },
+    "compact": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": false,
+      "canPrevious": false,
+      "changes": 9,
+      "clientWidth": 865,
+      "compact": true,
+      "direction": "ltr",
+      "focus": "BUTTON",
+      "index": 0,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "update",
+      "reduced": false,
+      "scrollLeft": 0,
+      "scrollWidth": 865,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "end": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": false,
+      "canPrevious": true,
+      "changes": 3,
+      "clientWidth": 865,
+      "compact": false,
+      "direction": "ltr",
+      "focus": "BUTTON",
+      "index": 2,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "scroll",
+      "reduced": false,
+      "scrollLeft": 1195,
+      "scrollWidth": 2060,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "focusEnd": true,
+    "focusMiddle": true,
+    "immediate": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": false,
+      "changes": 1,
+      "clientWidth": 865,
+      "compact": false,
+      "direction": "ltr",
+      "focus": "BUTTON",
+      "index": 0,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "initial",
+      "reduced": false,
+      "scrollLeft": 0,
+      "scrollWidth": 2060,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "keyDefaultPrevented": false,
+    "middle": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": true,
+      "changes": 2,
+      "clientWidth": 865,
+      "compact": false,
+      "direction": "ltr",
+      "focus": "BUTTON",
+      "index": 1,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "scroll",
+      "reduced": false,
+      "scrollLeft": 692.5,
+      "scrollWidth": 2060,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "quiet": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": true,
+      "changes": 8,
+      "clientWidth": 865,
+      "compact": false,
+      "direction": "ltr",
+      "focus": "BUTTON",
+      "index": 1,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "api",
+      "reduced": true,
+      "scrollLeft": 692.5,
+      "scrollWidth": 2060,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "quietAccepted": true,
+    "roles": [
+      {
+        "role": null,
+        "tabindex": null
+      },
+      {
+        "role": null,
+        "tabindex": null
+      },
+      {
+        "role": null,
+        "tabindex": null
+      }
+    ],
+    "rtlAccepted": true,
+    "rtlBefore": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": false,
+      "changes": 4,
+      "clientWidth": 865,
+      "compact": false,
+      "direction": "rtl",
+      "focus": "BUTTON",
+      "index": 0,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "api",
+      "reduced": false,
+      "scrollLeft": 0,
+      "scrollWidth": 2060,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "rtlEnd": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": false,
+      "canPrevious": true,
+      "changes": 6,
+      "clientWidth": 865,
+      "compact": false,
+      "direction": "rtl",
+      "focus": "BUTTON",
+      "index": 2,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "scroll",
+      "reduced": false,
+      "scrollLeft": -1195,
+      "scrollWidth": 2060,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "rtlImmediate": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": false,
+      "changes": 4,
+      "clientWidth": 865,
+      "compact": false,
+      "direction": "rtl",
+      "focus": "BUTTON",
+      "index": 0,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "api",
+      "reduced": false,
+      "scrollLeft": 0,
+      "scrollWidth": 2060,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "rtlMiddle": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": true,
+      "changes": 5,
+      "clientWidth": 865,
+      "compact": false,
+      "direction": "rtl",
+      "focus": "BUTTON",
+      "index": 1,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "scroll",
+      "reduced": false,
+      "scrollLeft": -692.5,
+      "scrollWidth": 2060,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+    "viewport": {
+      "height": 960,
+      "width": 960
+    }
+  },
+  "nativeArrow": {
+    "after": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": false,
+      "changes": 9,
+      "clientWidth": 1345,
+      "compact": false,
+      "direction": "ltr",
+      "focus": "direction-deck",
+      "index": 0,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "api",
+      "reduced": false,
+      "scrollLeft": 40,
+      "scrollWidth": 2316,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "before": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": false,
+      "changes": 9,
+      "clientWidth": 1345,
+      "compact": false,
+      "direction": "ltr",
+      "focus": "direction-deck",
+      "index": 0,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "api",
+      "reduced": false,
+      "scrollLeft": 0,
+      "scrollWidth": 2316,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "keys": [
+      {
+        "defaultPrevented": false,
+        "key": "ArrowRight"
+      }
+    ]
+  },
+  "nativeTab": {
+    "focusedDirection": "form",
+    "focusedTag": "BUTTON",
+    "focusedText": "Use this direction ↗",
+    "role": null,
+    "state": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": false,
+      "changes": 9,
+      "clientWidth": 1345,
+      "compact": false,
+      "direction": "ltr",
+      "focus": "BUTTON",
+      "index": 0,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "api",
+      "reduced": false,
+      "scrollLeft": 0,
+      "scrollWidth": 2316,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "tabIndex": null
+  },
+  "nativeClick": {
+    "boardCode": "C / 02",
+    "boardHeading": "Give colour a clear job.",
+    "focusOnClickedButton": true,
+    "pressed": "true",
+    "state": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": true,
+      "changes": 10,
+      "clientWidth": 1345,
+      "compact": false,
+      "direction": "ltr",
+      "focus": "BUTTON",
+      "index": 1,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 1,
+      "reason": "api",
+      "reduced": true,
+      "scrollLeft": 778,
+      "scrollWidth": 2316,
+      "selected": "colour",
+      "systemReduced": false,
+      "tourStep": ""
+    }
+  },
+  "notes": [
+    "Corrected functional tests run with the final source hash; earlier native arrow/Tab/click observations concern unchanged input/host behavior before the geometry fix.",
+    "No native touch/swipe gesture tool is exposed; no synthetic pointer event is claimed as physical-phone verification.",
+    "A focused navigation button can natively blur when host rendering disables it at an endpoint. Core goTo preserves focus on ordinary card controls."
+  ]
+}

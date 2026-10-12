@@ -1,0 +1,10 @@
+{
+  "observedAtUtc": "2026-10-12T03:11:57.113Z",
+  "jsRawBytes": 6127,
+  "jsGzipBytes": 2700,
+  "cssRawBytes": 1013,
+  "cssGzipBytes": 443,
+  "sourceSha256": "3dd333bc93507a990231f8f595256ed4b370e8b692f22c9bace3201abea35490",
+  "scope": "Optional standalone helper and CSS payload. No runtime dependencies. Delivery bytes are not native scroll/paint timings or a comparative speedup.",
+  "reproduce": "node scripts/snap-deck-benchmark.mjs, write the resulting /tmp/lg-snap-deck-probe.html into a dedicated native T3 preview tab, then evaluate scripts/snap-deck-browser-probe.js with recording active for native paint-dependent events."
+}

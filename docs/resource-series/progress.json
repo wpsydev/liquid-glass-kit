@@ -220,12 +220,12 @@
     {
       "order": 16,
       "url": "https://cta.gallery",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Native single-flight actions with honest host outcomes",
       "version": "0.32.0-preview.1",
-      "demo": null,
-      "video": "assets/action-showcase.mp4",
-      "thread": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/actions/",
+      "video": "docs/campaign/assets/action-showcase.mp4",
+      "thread": "https://x.com/wpsygames/status/2109491790281859111",
       "performance": [
         "benchmarks/action-payload.json",
         "benchmarks/action-lifecycle-native.json",
@@ -236,13 +236,18 @@
     {
       "order": 17,
       "url": "https://supahero.io",
-      "status": "researched",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Native cached LTR/RTL snap decks",
+      "version": "0.33.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/snap-deck-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/snap-deck-payload.json",
+        "benchmarks/snap-deck-browser.json",
+        "benchmarks/snap-deck-functional.json",
+        "benchmarks/snap-deck-layouts.json"
+      ]
     },
     {
       "order": 18,

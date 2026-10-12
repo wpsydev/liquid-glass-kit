@@ -1,0 +1,55 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "video": "H264 High/yuv420p/faststart",
+  "audio": "AAC stereo48kHz",
+  "bytes": 744719,
+  "sha256": "1dc6fdda4bbcbfab0a7d2fcf7a27e3f8e8c8a704ee3c6056d3e27c360d386679",
+  "posterBytes": 300625,
+  "posterSha256": "8f9f5cbd26e8e89c5f80e33318f642e433658590b427898b7c67eef9a14401c6",
+  "decodedFrames": 360,
+  "uniqueDecodedFrameHashes": 280,
+  "fullVideoAudioDecodeExitCode": 0,
+  "reviewedFrameSeconds": [
+    2,
+    6.5,
+    9.5
+  ],
+  "captions": [
+    "three authored cards. browser-owned scrolling",
+    "real local choices. responsive cards",
+    "rtl. settled views. no custom frame loop"
+  ],
+  "music": {
+    "style": "garage",
+    "bpm": 132,
+    "seed": 33,
+    "patch": "bell",
+    "rms": 0.1361,
+    "scoreSha256": "0a2da72d2403cc76cf7b40082848995ba94449a3c948ef67e2e4b8dbd92b5f6c",
+    "provenance": "Original procedural stereo synthesis, MIT, no external samples"
+  },
+  "capture": {
+    "tool": "Native T3 collaborative browser",
+    "tabId": "tab_43",
+    "viewportCssPixels": {
+      "width": 960,
+      "height": 960
+    },
+    "devicePixelRatio": 2,
+    "originalTourSeconds": 10,
+    "sourceSha256": "3dd333bc93507a990231f8f595256ed4b370e8b692f22c9bace3201abea35490",
+    "camera": "Temporary recording-only density CSS reduces header/type/art heights/paddings and board art dimensions to show real host choice alongside the deck. Authored DOM/card identity, real native scroll geometry, 44px controls and 16px select remain; no transformed fake phone/gesture or fabricated frame data. Layout benchmarks use normal CSS without these overrides.",
+    "ending": "Native tour completed: index 1, signed RTL scrollLeft -692.5, selected Motion, 2 local choices, no remaining tour steps; final native frame held to 12 seconds during export.",
+    "recordingSource": "28105162-0472-4705-8632-6b21d2e581a1-0c57c298-02c0-4f4f-b4e5-137ec571bfca-mp4.mp4"
+  },
+  "limits": [
+    "Export FPS is not app FPS; native source timing is variable and final frame padding is disclosed.",
+    "No speedup, GPU timing, zero-paint-cost or universal browser claim.",
+    "Physical touch devices, Safari, zoom and assistive technology are unverified; native CSS viewport validation is desktop Chromium.",
+    "No native touch/swipe tool exists here; no synthetic gesture is promoted as physical-device validation."
+  ],
+  "publication": "Prepared local asset; root handles release and X publication receipts"
+}

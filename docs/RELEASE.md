@@ -1,11 +1,13 @@
-A pending button should tell the truth. **0.32.0-preview.1** adds optional `/action` for authored native buttons and forms.
+Keep the cards. Keep native scrolling. **0.33.0-preview.1** adds optional `/snap-deck` and `/snap-deck.css`.
 
-Native validation and submitter FormData precede one pending action. Fields keep their values and identities; focus stays usable. Explicit host success, submitted-only intent, retryable errors and cancellation have distinct outcomes. Cancelling the client never promises backend rollback.
+Settled LTR/RTL views drive Previous/Next state. Cached targets avoid rectangle reads on ordinary scroll and repeated requests. One authored tree keeps ordinary links, buttons and focus. No autoplay, clones, custom keys or focus transfer.
 
-[Review Room](https://wpsydev.github.io/liquid-glass-kit/actions/) is an original working local brief queue. The twelve-second160BPM drum-and-bass/FM film shows actual local outcomes, including host work that finishes after cancellation. Delays are fixture pacing, with no remote save or backend.
+[Offset](https://wpsydev.github.io/liquid-glass-kit/deck/) is an original art-direction board with real local concept selection. Its twelve-second132BPM garage/bell video shows actual native movement and RTL selection. The final frame is held for readability; export30fps is not appFPS.
 
-Optional JS2,402bytesgzip. Connected mount/destroy benchmark:8,000cycles pervariant,400×20batches, median normalized batch average about0.005ms/cycle. This excludes action execution, network and paint; no speedup or FPS claim. Fifteen native desktop Chromium cases fit320–1440px/44px targets/16px fields; physical phones/Safari/AT unverified.
+Native testing found and fixed a first-request race: an unchanged initial ResizeObserver delivery no longer cancels smooth RTL movement. Thirty focused tests and fifteen native desktop Chromium cases cover320–1440px,44px targets and16px fields; physical phones/Safari/AT unverified.
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/ACTION.md) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/action-native.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/16-cta.md)
+Optional JS2,700bytesgzip/CSS443bytesgzip. Separate32-card probes:5×20 lifecycle batches had4.5ms median/6,600total rectangle reads; cached20×4instant-request batches had0.70ms median/0rectangle rereads. Both scheduled0customRAF. Native scroll animation/layout/paint are excluded; no comparative speedup claim.
 
-Use the attached ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.32.0-preview.1`. npm registry publication remains pending. Default material/core/CSS stay unchanged; no required runtime dependency.
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/SNAP_DECK.md) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/snap-deck-functional.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/17-supahero.md)
+
+Use the attached ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.33.0-preview.1`. npm registry publication remains pending. Default core/material/CSS stay unchanged.

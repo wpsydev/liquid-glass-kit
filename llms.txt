@@ -89,3 +89,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Native actions](docs/ACTION.md): real validation and submitter data, single-flight intent, explicit host confirmation and honest cancellation.
 - [Review Room](https://wpsydev.github.io/liquid-glass-kit/actions/): local brief queue, review outcomes and cancellation that may outlive the client.
+
+- [Native snap decks](docs/SNAP_DECK.md): authored card order, settled LTR/RTL view and cached targets without custom scrolling loops.
+- [Offset](https://wpsydev.github.io/liquid-glass-kit/deck/): original art directions, native selection and quiet scrolling.

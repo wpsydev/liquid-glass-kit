@@ -1,0 +1,2092 @@
+{
+  "observedAtUtc": "2026-10-12T03:16:42.141Z",
+  "sourceSha256": "3dd333bc93507a990231f8f595256ed4b370e8b692f22c9bace3201abea35490",
+  "environment": "Native T3 Chromium CSS viewport emulation, desktop user agent; physical phone/Safari/AT unverified",
+  "cases": [
+    {
+      "actualViewport": {
+        "height": 700,
+        "width": 320
+      },
+      "at": "2026-10-12T03:16:02.260Z",
+      "documentWidth": 305,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "story",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 700,
+        "width": 320
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 277,
+        "compact": false,
+        "direction": "ltr",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 784,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 119.88
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 110
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 212.06
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 212.06
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 212.06
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 155
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 700,
+        "width": 320
+      },
+      "at": "2026-10-12T03:16:02.636Z",
+      "documentWidth": 305,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "compact",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 700,
+        "width": 320
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 277,
+        "compact": true,
+        "direction": "ltr",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 808,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 119.88
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 110
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 220
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 220
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 220
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 155
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 700,
+        "width": 320
+      },
+      "at": "2026-10-12T03:16:02.794Z",
+      "documentWidth": 305,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "rtl",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 700,
+        "width": 320
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 277,
+        "compact": false,
+        "direction": "rtl",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 784,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 119.88
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 110
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 212.06
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 212.06
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 212.06
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 155
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 844,
+        "width": 390
+      },
+      "at": "2026-10-12T03:16:03.215Z",
+      "documentWidth": 375,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "story",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 844,
+        "width": 390
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 335,
+        "compact": false,
+        "direction": "ltr",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 912,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 119.88
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 130
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 254.8
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 254.8
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 254.8
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 155
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 844,
+        "width": 390
+      },
+      "at": "2026-10-12T03:16:03.379Z",
+      "documentWidth": 375,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "compact",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 844,
+        "width": 390
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 335,
+        "compact": true,
+        "direction": "ltr",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 808,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 119.88
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 130
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 220
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 220
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 220
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 155
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 844,
+        "width": 390
+      },
+      "at": "2026-10-12T03:16:03.521Z",
+      "documentWidth": 375,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "rtl",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 844,
+        "width": 390
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 335,
+        "compact": false,
+        "direction": "rtl",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 912,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 119.88
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 130
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 254.8
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 254.8
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 254.8
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 155
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 1024,
+        "width": 768
+      },
+      "at": "2026-10-12T03:16:03.843Z",
+      "documentWidth": 753,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "story",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 1024,
+        "width": 768
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 673,
+        "compact": false,
+        "direction": "ltr",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 1611,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 133.48
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 167.09
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 214.38
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 214.38
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 214.38
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 145
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 1024,
+        "width": 768
+      },
+      "at": "2026-10-12T03:16:03.977Z",
+      "documentWidth": 753,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "compact",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 1024,
+        "width": 768
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 673,
+        "compact": true,
+        "direction": "ltr",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 816,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 133.48
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 167.09
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 216
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 216
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 216
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 145
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 1024,
+        "width": 768
+      },
+      "at": "2026-10-12T03:16:04.127Z",
+      "documentWidth": 753,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "rtl",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 1024,
+        "width": 768
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 673,
+        "compact": false,
+        "direction": "rtl",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 1611,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 133.48
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 167.09
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 214.38
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 214.38
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 214.38
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 145
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 390,
+        "width": 844
+      },
+      "at": "2026-10-12T03:16:04.434Z",
+      "documentWidth": 829,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "story",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 390,
+        "width": 844
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 749,
+        "compact": false,
+        "direction": "ltr",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 1789,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 133.48
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 167.09
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 244.75
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 244.75
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 244.75
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 145
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 390,
+        "width": 844
+      },
+      "at": "2026-10-12T03:16:04.573Z",
+      "documentWidth": 829,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "compact",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 390,
+        "width": 844
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 749,
+        "compact": true,
+        "direction": "ltr",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 816,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 133.48
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 167.09
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 216
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 216
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 216
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 145
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 390,
+        "width": 844
+      },
+      "at": "2026-10-12T03:16:04.722Z",
+      "documentWidth": 829,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "rtl",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 390,
+        "width": 844
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 749,
+        "compact": false,
+        "direction": "rtl",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 1789,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 133.48
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 167.09
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 244.75
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 244.75
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 244.75
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 145
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "at": "2026-10-12T03:16:05.034Z",
+      "documentWidth": 1425,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "story",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 11,
+        "clientWidth": 1345,
+        "compact": false,
+        "direction": "ltr",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "api",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 2316,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 133.48
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 167.09
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 317.2
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 317.2
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 317.2
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 145
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "at": "2026-10-12T03:16:05.215Z",
+      "documentWidth": 1425,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "compact",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": false,
+        "canPrevious": false,
+        "changes": 12,
+        "clientWidth": 1345,
+        "compact": true,
+        "direction": "ltr",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "update",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 1345,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 133.48
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 167.09
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 392.33
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 392.33
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 392.33
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 145
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    },
+    {
+      "actualViewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "at": "2026-10-12T03:16:05.372Z",
+      "documentWidth": 1425,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "id": "direction"
+        }
+      ],
+      "mode": "rtl",
+      "overflow": 0,
+      "requestedViewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "state": {
+        "authoredCards": [
+          "form-card",
+          "colour-card",
+          "motion-card"
+        ],
+        "canNext": true,
+        "canPrevious": false,
+        "changes": 13,
+        "clientWidth": 1345,
+        "compact": false,
+        "direction": "rtl",
+        "focus": "BUTTON",
+        "index": 0,
+        "nativeScrollend": true,
+        "pendingTourSteps": 0,
+        "picks": 0,
+        "reason": "update",
+        "reduced": false,
+        "scrollLeft": 0,
+        "scrollWidth": 2316,
+        "selected": "form",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "targets": [
+        {
+          "height": 44,
+          "id": "Offset, main content",
+          "tag": "A",
+          "width": 133.48
+        },
+        {
+          "height": 44,
+          "id": "Open the working board ↗",
+          "tag": "A",
+          "width": 167.09
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 317.2
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 317.2
+        },
+        {
+          "height": 44,
+          "id": "Use this direction ↗",
+          "tag": "BUTTON",
+          "width": 317.2
+        },
+        {
+          "height": 44,
+          "id": "previous",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Form",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Colour",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "Go to Motion",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "next",
+          "tag": "BUTTON",
+          "width": 44
+        },
+        {
+          "height": 44,
+          "id": "direction",
+          "tag": "SELECT",
+          "width": 145
+        },
+        {
+          "height": 44,
+          "id": "Compact cards",
+          "tag": "LABEL",
+          "width": 99.98
+        },
+        {
+          "height": 44,
+          "id": "Quiet motion",
+          "tag": "LABEL",
+          "width": 88.37
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "tag": "BUTTON",
+          "width": 150.19
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "tag": "BUTTON",
+          "width": 93.31
+        }
+      ],
+      "tooSmall": [],
+      "tooSmallFields": []
+    }
+  ]
+}

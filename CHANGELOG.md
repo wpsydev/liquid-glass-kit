@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.33.0-preview.1
+
+- Add optional native snap decks with settled view, cached logical LTR/RTL positions, all-fit controls and explicit motion policy. No autoplay, clones, custom keys or focus transfer.
+- Preserve immediate smooth RTL requests when an unchanged initial resize notification arrives; real geometry changes still invalidate owned movement.
+- Add original Offset, native behavior/layout probes and twelve-second garage/bell film. Default core and CSS stay unchanged.
+
 ## 0.32.0-preview.1
 
 - Add optional native button/form actions: validation, submitter FormData, single-flight work, explicit outcomes, host-confirmed retry and cancellation intent.

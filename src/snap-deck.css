@@ -1,0 +1,10 @@
+/* Native scrolling and source order. Card sizing is an authored layout choice. */
+[data-lg-snap-deck]{display:flex;gap:var(--lg-deck-gap,16px);scroll-behavior:smooth;overscroll-behavior-inline:contain;padding:var(--lg-deck-padding,0px);scroll-padding:var(--lg-deck-padding,0px)}
+[data-lg-snap-deck=x]{flex-direction:row;overflow-x:auto;scroll-snap-type:x proximity}
+[data-lg-snap-deck=y]{flex-direction:column;overflow-y:auto;max-block-size:var(--lg-deck-height,70vh);scroll-snap-type:y proximity;overscroll-behavior-block:auto}
+[data-lg-snap-deck] [data-lg-snap-item]{flex:none;scroll-snap-align:start;min-inline-size:0}
+[data-lg-snap-deck=x]>[data-lg-snap-item]{inline-size:var(--lg-deck-size,min(80%,480px))}
+[data-lg-snap-deck=y]>[data-lg-snap-item]{inline-size:100%}
+[data-lg-snap-deck][data-lg-snap-reduced=true]{scroll-behavior:auto}
+@media(prefers-reduced-motion:reduce){[data-lg-snap-deck]{scroll-behavior:auto}}
+/* No list-role reset, hidden cards, pointer capture, touch-action or decorative loop. */

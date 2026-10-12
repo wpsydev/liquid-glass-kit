@@ -1,0 +1,264 @@
+{
+  "cachedGoToRectReads": 0,
+  "cachedMedianBatchMs": 0.7000000476837158,
+  "cachedRequestCyclesPerBatch": 20,
+  "cachedRequestsBatchesMs": [
+    0.8999999761581421,
+    0.7000000476837158,
+    0.5,
+    0.5999999046325684,
+    1.4000000953674316
+  ],
+  "checks": {
+    "cachedRequestsDoNotRemeasure": true,
+    "cleanMarkers": true,
+    "focusPreserved": true,
+    "logicalPadding": true,
+    "ltrMiddle": true,
+    "noCustomAnimationFrames": true,
+    "rtlMiddle": true,
+    "smoothActuallySettled": true,
+    "smoothRequestNotOptimistic": true
+  },
+  "customRaf": 0,
+  "items": 32,
+  "lifecycleBatchesMs": [
+    7.600000023841858,
+    3.899999976158142,
+    4.5,
+    7.100000023841858,
+    3.1999999284744263
+  ],
+  "lifecycleCyclesPerBatch": 20,
+  "lifecycleMedianBatchMs": 4.5,
+  "lifecycleRectReads": 6600,
+  "ltr": {
+    "end": {
+      "canNext": false,
+      "canPrevious": true,
+      "clientWidth": 360,
+      "index": 31,
+      "scrollLeft": 7720,
+      "scrollWidth": 8080
+    },
+    "initial": {
+      "canNext": true,
+      "canPrevious": false,
+      "clientWidth": 360,
+      "index": 0,
+      "scrollLeft": 0,
+      "scrollWidth": 8080
+    },
+    "middle": {
+      "canNext": true,
+      "canPrevious": true,
+      "clientWidth": 360,
+      "index": 16,
+      "scrollLeft": 4027,
+      "scrollWidth": 8080
+    }
+  },
+  "nativeSmooth": {
+    "after": {
+      "canNext": true,
+      "canPrevious": true,
+      "clientWidth": 360,
+      "index": 1,
+      "scrollLeft": 247,
+      "scrollWidth": 8080
+    },
+    "before": {
+      "canNext": true,
+      "canPrevious": false,
+      "clientWidth": 360,
+      "index": 0,
+      "scrollLeft": 0,
+      "scrollWidth": 8080
+    },
+    "events": [
+      {
+        "at": 682006.1000000238,
+        "event": "scroll",
+        "scrollLeft": 0
+      },
+      {
+        "at": 682006.1000000238,
+        "event": "scrollend",
+        "scrollLeft": 0
+      },
+      {
+        "at": 682017.3000000715,
+        "event": "scroll",
+        "scrollLeft": 1
+      },
+      {
+        "at": 682033.9000000954,
+        "event": "scroll",
+        "scrollLeft": 5.5
+      },
+      {
+        "at": 682050.6000000238,
+        "event": "scroll",
+        "scrollLeft": 15.5
+      },
+      {
+        "at": 682067.3000000715,
+        "event": "scroll",
+        "scrollLeft": 35.5
+      },
+      {
+        "at": 682083.9000000954,
+        "event": "scroll",
+        "scrollLeft": 74.5
+      },
+      {
+        "at": 682100.5,
+        "event": "scroll",
+        "scrollLeft": 119.5
+      },
+      {
+        "at": 682117.1000000238,
+        "event": "scroll",
+        "scrollLeft": 151
+      },
+      {
+        "at": 682134,
+        "event": "scroll",
+        "scrollLeft": 173.5
+      },
+      {
+        "at": 682150.5,
+        "event": "scroll",
+        "scrollLeft": 189.5
+      },
+      {
+        "at": 682167.5,
+        "event": "scroll",
+        "scrollLeft": 202
+      },
+      {
+        "at": 682183.9000000954,
+        "event": "scroll",
+        "scrollLeft": 212
+      },
+      {
+        "at": 682200.6000000238,
+        "event": "scroll",
+        "scrollLeft": 219.5
+      },
+      {
+        "at": 682217.3000000715,
+        "event": "scroll",
+        "scrollLeft": 226
+      },
+      {
+        "at": 682234,
+        "event": "scroll",
+        "scrollLeft": 231.5
+      },
+      {
+        "at": 682249.8000000715,
+        "event": "scroll",
+        "scrollLeft": 235.5
+      },
+      {
+        "at": 682267.3000000715,
+        "event": "scroll",
+        "scrollLeft": 239
+      },
+      {
+        "at": 682283.8000000715,
+        "event": "scroll",
+        "scrollLeft": 241.5
+      },
+      {
+        "at": 682299.7000000477,
+        "event": "scroll",
+        "scrollLeft": 243.5
+      },
+      {
+        "at": 682315.3000000715,
+        "event": "scroll",
+        "scrollLeft": 245
+      },
+      {
+        "at": 682334,
+        "event": "scroll",
+        "scrollLeft": 246
+      },
+      {
+        "at": 682350.5,
+        "event": "scroll",
+        "scrollLeft": 246.5
+      },
+      {
+        "at": 682367.3000000715,
+        "event": "scroll",
+        "scrollLeft": 247
+      },
+      {
+        "at": 682399.3000000715,
+        "event": "scrollend",
+        "scrollLeft": 247
+      }
+    ],
+    "immediate": {
+      "canNext": true,
+      "canPrevious": false,
+      "clientWidth": 360,
+      "index": 0,
+      "scrollLeft": 0,
+      "scrollWidth": 8080
+    },
+    "observedWallMs": 1000.7000000476837,
+    "requestAccepted": true,
+    "scope": "Finite native smooth request and event observation; wall wait is not animation duration, frame rate, GPU time or a paint benchmark."
+  },
+  "notifications": 408,
+  "observedAtUtc": "2026-10-12T03:12:26.068Z",
+  "preservedFocus": true,
+  "requestsPerCycle": 4,
+  "restored": {
+    "children": 32,
+    "focusedSame": true,
+    "itemMarkers": 0,
+    "motionMarker": null,
+    "rootMarker": null
+  },
+  "rtl": {
+    "end": {
+      "canNext": false,
+      "canPrevious": true,
+      "clientWidth": 360,
+      "index": 31,
+      "scrollLeft": -7720,
+      "scrollWidth": 8080
+    },
+    "initial": {
+      "canNext": true,
+      "canPrevious": false,
+      "clientWidth": 360,
+      "index": 0,
+      "scrollLeft": 0,
+      "scrollWidth": 8080
+    },
+    "marginRight": "5px",
+    "middle": {
+      "canNext": true,
+      "canPrevious": true,
+      "clientWidth": 360,
+      "index": 16,
+      "scrollLeft": -4027,
+      "scrollWidth": 8080
+    },
+    "scrollPaddingRight": "14px"
+  },
+  "scope": "Connected native Chromium 32-card attach/refresh/destroy and cached instant goTo calls. Lifecycle includes synchronous geometry/style work; cached calls may incur browser synchronization but perform no JS bounding-rect remeasurement. Timed batches exclude native smooth/paint. Separate native event evidence is not comparative performance or physical-device verification.",
+  "subsequent250msIdleRaf": 0,
+  "subsequent250msIdleRectReads": 0,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "viewport": {
+    "height": 900,
+    "width": 1440
+  }
+}
