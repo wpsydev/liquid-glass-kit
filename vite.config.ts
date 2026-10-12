@@ -54,6 +54,7 @@ export default defineConfig({
         undo: resolve('site/undo/index.html'),
         scrub: resolve('site/scrub/index.html'),
         texture: resolve('site/texture/index.html'),
+        sequence: resolve('site/sequence/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),
         transitions: resolve('site/transitions/index.html'),

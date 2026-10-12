@@ -1,14 +1,14 @@
 {
-  "version": "0.45.0-preview.1",
+  "version": "0.46.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/scene-texture-showcase.mp4",
-      "name": "liquid-glass-real-source.mp4",
+      "path": "docs/campaign/assets/sequence-showcase.mp4",
+      "name": "liquid-glass-offbeat.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/scene-texture-showcase.png",
-      "name": "liquid-glass-real-source.png",
+      "path": "docs/campaign/assets/sequence-showcase.png",
+      "name": "liquid-glass-offbeat.png",
       "type": "image/png"
     }
   ]

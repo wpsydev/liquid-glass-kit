@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "measuredAt": "2026-10-12T05:13:18.699Z",
+  "sourceSHA256": "6518d143eb4d1b4268c72e8b67a277885e302f8104dabb5cb61160dedca6a67e",
+  "bundleBytes": 8462,
+  "gzipBytes": 3149,
+  "bundleSHA256": "c2a25cfb52a386af32411f7b6df2cc8a11f44b1caccbe223495d54f213af0eee",
+  "runtimeDependencies": 0,
+  "scope": "Standalone optional-entry payload, not package aggregate, load-time, GPU/compositing or speedup evidence"
+}

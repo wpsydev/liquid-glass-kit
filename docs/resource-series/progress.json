@@ -421,12 +421,12 @@
     {
       "order": 29,
       "url": "https://glass.samasante.com",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Experimental owned-media texture receiver with real source recovery",
       "version": "0.45.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/texture/",
       "video": "docs/campaign/assets/scene-texture-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109522038352159035",
       "performance": [
         "benchmarks/scene-texture-payload.json",
         "benchmarks/scene-texture-browser.json",
@@ -437,13 +437,17 @@
     {
       "order": 30,
       "url": "https://animejs.com",
-      "status": "queued",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Finite coordinated native visual sequence controller",
+      "version": "0.46.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/sequence-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/sequence-payload.json",
+        "benchmarks/sequence-browser.json",
+        "benchmarks/sequence-layouts.json"
+      ]
     },
     {
       "order": 31,

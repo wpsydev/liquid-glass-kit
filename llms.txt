@@ -128,3 +128,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Owned texture optics](docs/SCENE_TEXTURE.md): explicit experimental WebGL2 receiver for decoded host media, pixel budgets, static upload reuse and real error/context recovery.
 - [REAL / SOURCE](https://wpsydev.github.io/liquid-glass-kit/texture/): original Canvas2D sources, bounded lenses, static fallback and disclosed finite optics tour.
+
+- [Finite visual sequencing](docs/SEQUENCE.md): bounded native tracks, shared time, pause/seek/cancel and owned-style restoration without semantic callbacks.
+- [Offbeat](https://wpsydev.github.io/liquid-glass-kit/sequence/): six original shapes, actual native animation controls and the same editable draft.

@@ -1,0 +1,4411 @@
+{
+  "schemaVersion": 1,
+  "caseCount": 40,
+  "viewports": [
+    {
+      "result": {
+        "cases": [
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "important",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 273
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 273
+              }
+            ],
+            "name": "static-authored-rest",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 251
+            },
+            "state": {
+              "outcome": "At authored rest. Nothing is playing.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "idle",
+                "time": 0
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.00 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 116.66600000000926,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.66600000000926,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.66600000000926,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.66600000000926,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.66600000000926,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.66600000000926,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 273
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 273
+              }
+            ],
+            "name": "native-paused-common-time",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 251
+            },
+            "state": {
+              "outcome": "Paused. Seek or resume this shared clock.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "paused",
+                "time": 116.66600000000926
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.12 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 273
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 273
+              }
+            ],
+            "name": "paused-seek1150",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 251
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "paused",
+                "time": 1150
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.15 / 1.90s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "important",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 273
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 273
+              }
+            ],
+            "name": "cancel-priority-restored",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 251
+            },
+            "state": {
+              "outcome": "Cancelled. Authored tilt and priorities restored.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "cancelled",
+                "time": 0
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.00 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 273
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 273
+              }
+            ],
+            "name": "counterpoint-seek",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 251
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "counterpoint",
+              "sequence": {
+                "duration": 1800,
+                "status": "paused",
+                "time": 900
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.90 / 1.80s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 273
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 273
+              }
+            ],
+            "name": "restoration-seek",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 251
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "paused",
+                "time": 650
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.65 / 1.60s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "translate3d(22px, 22px, 0px) scale(1.12) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 273
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 273
+              }
+            ],
+            "name": "quiet-endpoint-no-wait",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 251
+            },
+            "state": {
+              "outcome": "Stable endpoint · reduced-motion",
+              "quiet": true,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "finished",
+                "time": 1600
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.60 / 1.60s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "translate3d(22px, 22px, 0px) scale(1.12) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 122.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 273
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 273
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 273
+              }
+            ],
+            "name": "solid-native-controls",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 251
+            },
+            "state": {
+              "outcome": "Stable endpoint · reduced-motion",
+              "quiet": true,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "finished",
+                "time": 1600
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.60 / 1.60s"
+          }
+        ],
+        "measuredAt": "2026-10-12T05:15:37.418Z",
+        "schemaVersion": 1,
+        "scope": "Desktop Chromium CSS viewports and actual native animation/time/style/control geometry. Physical phones, iOS Safari, AT output and GPU/compositing throughput unverified",
+        "viewport": {
+          "height": 700,
+          "width": 320
+        }
+      },
+      "recording": {
+        "id": "28105162-0472-4705-8632-6b21d2e581a1-d14dceef-f823-41e5-91d2-c849d59af541-mp4",
+        "tabId": "tab_4o",
+        "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-d14dceef-f823-41e5-91d2-c849d59af541-mp4.mp4",
+        "mimeType": "video/mp4;codecs=avc1",
+        "sizeBytes": 112410,
+        "createdAt": "2026-10-12T05:15:37.543Z"
+      }
+    },
+    {
+      "result": {
+        "cases": [
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "important",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 343
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 343
+              }
+            ],
+            "name": "static-authored-rest",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 321
+            },
+            "state": {
+              "outcome": "At authored rest. Nothing is playing.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "idle",
+                "time": 0
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.00 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 116.69999999998026,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.69999999998026,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.69999999998026,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.69999999998026,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.69999999998026,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.69999999998026,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 343
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 343
+              }
+            ],
+            "name": "native-paused-common-time",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 321
+            },
+            "state": {
+              "outcome": "Paused. Seek or resume this shared clock.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "paused",
+                "time": 116.69999999998026
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.12 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 343
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 343
+              }
+            ],
+            "name": "paused-seek1150",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 321
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "paused",
+                "time": 1150
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.15 / 1.90s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "important",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 343
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 343
+              }
+            ],
+            "name": "cancel-priority-restored",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 321
+            },
+            "state": {
+              "outcome": "Cancelled. Authored tilt and priorities restored.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "cancelled",
+                "time": 0
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.00 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 343
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 343
+              }
+            ],
+            "name": "counterpoint-seek",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 321
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "counterpoint",
+              "sequence": {
+                "duration": 1800,
+                "status": "paused",
+                "time": 900
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.90 / 1.80s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 343
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 343
+              }
+            ],
+            "name": "restoration-seek",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 321
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "paused",
+                "time": 650
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.65 / 1.60s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "translate3d(22px, 22px, 0px) scale(1.12) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 343
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 343
+              }
+            ],
+            "name": "quiet-endpoint-no-wait",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 321
+            },
+            "state": {
+              "outcome": "Stable endpoint · reduced-motion",
+              "quiet": true,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "finished",
+                "time": 1600
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.60 / 1.60s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "translate3d(22px, 22px, 0px) scale(1.12) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 93.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 84.140625
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 157.5
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 60,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "02CounterpointOpposing paths",
+                "width": 343
+              },
+              {
+                "height": 60,
+                "id": "03Return to restSeek, cancel",
+                "width": 343
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 343
+              }
+            ],
+            "name": "solid-native-controls",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 321
+            },
+            "state": {
+              "outcome": "Stable endpoint · reduced-motion",
+              "quiet": true,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "finished",
+                "time": 1600
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.60 / 1.60s"
+          }
+        ],
+        "measuredAt": "2026-10-12T05:15:38.287Z",
+        "schemaVersion": 1,
+        "scope": "Desktop Chromium CSS viewports and actual native animation/time/style/control geometry. Physical phones, iOS Safari, AT output and GPU/compositing throughput unverified",
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      },
+      "recording": {
+        "id": "28105162-0472-4705-8632-6b21d2e581a1-68382e57-2821-46a8-b92d-e4de08c4d179-mp4",
+        "tabId": "tab_4o",
+        "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-68382e57-2821-46a8-b92d-e4de08c4d179-mp4.mp4",
+        "mimeType": "video/mp4;codecs=avc1",
+        "sizeBytes": 168812,
+        "createdAt": "2026-10-12T05:15:38.397Z"
+      }
+    },
+    {
+      "result": {
+        "cases": [
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "important",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 71.796875,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 222.328125
+              },
+              {
+                "height": 71.796875,
+                "id": "02CounterpointOpposing paths",
+                "width": 222.3359375
+              },
+              {
+                "height": 71.796875,
+                "id": "03Return to restSeek, cancel",
+                "width": 222.328125
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "static-authored-rest",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 328
+            },
+            "state": {
+              "outcome": "At authored rest. Nothing is playing.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "idle",
+                "time": 0
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.00 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 116.66199999996252,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.66199999996252,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.66199999996252,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.66199999996252,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.66199999996252,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 116.66199999996252,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 71.796875,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 222.328125
+              },
+              {
+                "height": 71.796875,
+                "id": "02CounterpointOpposing paths",
+                "width": 222.3359375
+              },
+              {
+                "height": 71.796875,
+                "id": "03Return to restSeek, cancel",
+                "width": 222.328125
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "native-paused-common-time",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 328
+            },
+            "state": {
+              "outcome": "Paused. Seek or resume this shared clock.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "paused",
+                "time": 116.66199999996252
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.12 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 71.796875,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 222.328125
+              },
+              {
+                "height": 71.796875,
+                "id": "02CounterpointOpposing paths",
+                "width": 222.3359375
+              },
+              {
+                "height": 71.796875,
+                "id": "03Return to restSeek, cancel",
+                "width": 222.328125
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "paused-seek1150",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 328
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "paused",
+                "time": 1150
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.15 / 1.90s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "important",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 71.796875,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 222.328125
+              },
+              {
+                "height": 71.796875,
+                "id": "02CounterpointOpposing paths",
+                "width": 222.3359375
+              },
+              {
+                "height": 71.796875,
+                "id": "03Return to restSeek, cancel",
+                "width": 222.328125
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "cancel-priority-restored",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 328
+            },
+            "state": {
+              "outcome": "Cancelled. Authored tilt and priorities restored.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "cancelled",
+                "time": 0
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.00 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 71.796875,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 222.328125
+              },
+              {
+                "height": 71.796875,
+                "id": "02CounterpointOpposing paths",
+                "width": 222.3359375
+              },
+              {
+                "height": 71.796875,
+                "id": "03Return to restSeek, cancel",
+                "width": 222.328125
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "counterpoint-seek",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 328
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "counterpoint",
+              "sequence": {
+                "duration": 1800,
+                "status": "paused",
+                "time": 900
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.90 / 1.80s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 71.796875,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 222.328125
+              },
+              {
+                "height": 71.796875,
+                "id": "02CounterpointOpposing paths",
+                "width": 222.3359375
+              },
+              {
+                "height": 71.796875,
+                "id": "03Return to restSeek, cancel",
+                "width": 222.328125
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "restoration-seek",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 328
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "paused",
+                "time": 650
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.65 / 1.60s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "translate3d(22px, 22px, 0px) scale(1.12) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 71.796875,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 222.328125
+              },
+              {
+                "height": 71.796875,
+                "id": "02CounterpointOpposing paths",
+                "width": 222.3359375
+              },
+              {
+                "height": 71.796875,
+                "id": "03Return to restSeek, cancel",
+                "width": 222.328125
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "quiet-endpoint-no-wait",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 328
+            },
+            "state": {
+              "outcome": "Stable endpoint · reduced-motion",
+              "quiet": true,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "finished",
+                "time": 1600
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.60 / 1.60s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "translate3d(22px, 22px, 0px) scale(1.12) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 71.796875,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 222.328125
+              },
+              {
+                "height": 71.796875,
+                "id": "02CounterpointOpposing paths",
+                "width": 222.3359375
+              },
+              {
+                "height": 71.796875,
+                "id": "03Return to restSeek, cancel",
+                "width": 222.328125
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "solid-native-controls",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 328
+            },
+            "state": {
+              "outcome": "Stable endpoint · reduced-motion",
+              "quiet": true,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "finished",
+                "time": 1600
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.60 / 1.60s"
+          }
+        ],
+        "measuredAt": "2026-10-12T05:15:39.112Z",
+        "schemaVersion": 1,
+        "scope": "Desktop Chromium CSS viewports and actual native animation/time/style/control geometry. Physical phones, iOS Safari, AT output and GPU/compositing throughput unverified",
+        "viewport": {
+          "height": 1024,
+          "width": 768
+        }
+      },
+      "recording": {
+        "id": "28105162-0472-4705-8632-6b21d2e581a1-8f0aaa1b-03c9-4ba3-8b17-d1d36478b32a-mp4",
+        "tabId": "tab_4o",
+        "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-8f0aaa1b-03c9-4ba3-8b17-d1d36478b32a-mp4.mp4",
+        "mimeType": "video/mp4;codecs=avc1",
+        "sizeBytes": 226294,
+        "createdAt": "2026-10-12T05:15:39.226Z"
+      }
+    },
+    {
+      "result": {
+        "cases": [
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "important",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 249.671875
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "static-authored-rest",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 408
+            },
+            "state": {
+              "outcome": "At authored rest. Nothing is playing.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "idle",
+                "time": 0
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.00 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 133.23400000001584,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 133.23400000001584,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 133.23400000001584,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 133.23400000001584,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 133.23400000001584,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 133.23400000001584,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 249.671875
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "native-paused-common-time",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 408
+            },
+            "state": {
+              "outcome": "Paused. Seek or resume this shared clock.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "paused",
+                "time": 133.23400000001584
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.13 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 249.671875
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "paused-seek1150",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 408
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "paused",
+                "time": 1150
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.15 / 1.90s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "important",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 249.671875
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "cancel-priority-restored",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 408
+            },
+            "state": {
+              "outcome": "Cancelled. Authored tilt and priorities restored.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "cancelled",
+                "time": 0
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.00 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 249.671875
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "counterpoint-seek",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 408
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "counterpoint",
+              "sequence": {
+                "duration": 1800,
+                "status": "paused",
+                "time": 900
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.90 / 1.80s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 249.671875
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "restoration-seek",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 408
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "paused",
+                "time": 650
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.65 / 1.60s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "translate3d(22px, 22px, 0px) scale(1.12) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 249.671875
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "quiet-endpoint-no-wait",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 408
+            },
+            "state": {
+              "outcome": "Stable endpoint · reduced-motion",
+              "quiet": true,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "finished",
+                "time": 1600
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.60 / 1.60s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "translate3d(22px, 22px, 0px) scale(1.12) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 249.6640625
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 249.671875
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "solid-native-controls",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 408
+            },
+            "state": {
+              "outcome": "Stable endpoint · reduced-motion",
+              "quiet": true,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "finished",
+                "time": 1600
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.60 / 1.60s"
+          }
+        ],
+        "measuredAt": "2026-10-12T05:15:39.976Z",
+        "schemaVersion": 1,
+        "scope": "Desktop Chromium CSS viewports and actual native animation/time/style/control geometry. Physical phones, iOS Safari, AT output and GPU/compositing throughput unverified",
+        "viewport": {
+          "height": 390,
+          "width": 844
+        }
+      },
+      "recording": {
+        "id": "28105162-0472-4705-8632-6b21d2e581a1-0caeff94-0ad9-4bb7-86b7-892666436300-mp4",
+        "tabId": "tab_4o",
+        "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-0caeff94-0ad9-4bb7-86b7-892666436300-mp4.mp4",
+        "mimeType": "video/mp4;codecs=avc1",
+        "sizeBytes": 78893,
+        "createdAt": "2026-10-12T05:15:40.078Z"
+      }
+    },
+    {
+      "result": {
+        "cases": [
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "important",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 406
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "static-authored-rest",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 877
+            },
+            "state": {
+              "outcome": "At authored rest. Nothing is playing.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "idle",
+                "time": 0
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.00 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 133.39799999999968,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 133.39799999999968,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 133.39799999999968,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 133.39799999999968,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 133.39799999999968,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 133.39799999999968,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 406
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "native-paused-common-time",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 877
+            },
+            "state": {
+              "outcome": "Paused. Seek or resume this shared clock.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "paused",
+                "time": 133.39799999999968
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.13 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 1150,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 406
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "paused-seek1150",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 877
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "paused",
+                "time": 1150
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.15 / 1.90s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "important",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 406
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "cancel-priority-restored",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 877
+            },
+            "state": {
+              "outcome": "Cancelled. Authored tilt and priorities restored.",
+              "quiet": false,
+              "selected": "assembly",
+              "sequence": {
+                "duration": 1900,
+                "status": "cancelled",
+                "time": 0
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.00 / 1.90s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 900,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 406
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "counterpoint-seek",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 877
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "counterpoint",
+              "sequence": {
+                "duration": 1800,
+                "status": "paused",
+                "time": 900
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.90 / 1.80s"
+          },
+          {
+            "animations": [
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              },
+              {
+                "currentTime": 650,
+                "playState": "paused",
+                "startTime": null
+              }
+            ],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "rotate(-14deg)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 406
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "restoration-seek",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 877
+            },
+            "state": {
+              "outcome": "Paused presentation. No app action was replayed.",
+              "quiet": false,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "paused",
+                "time": 650
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 0.65 / 1.60s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "translate3d(22px, 22px, 0px) scale(1.12) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 406
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "quiet-endpoint-no-wait",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 877
+            },
+            "state": {
+              "outcome": "Stable endpoint · reduced-motion",
+              "quiet": true,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "finished",
+                "time": 1600
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.60 / 1.60s"
+          },
+          {
+            "animations": [],
+            "assertions": {
+              "controls44": true,
+              "overflow": 0,
+              "range44and16": true
+            },
+            "blade": {
+              "priority": "",
+              "transform": "translate3d(22px, 22px, 0px) scale(1.12) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+            },
+            "controls": [
+              {
+                "height": 44,
+                "id": "offbeat®",
+                "width": 103.3046875
+              },
+              {
+                "height": 44,
+                "id": "Library source ↗",
+                "width": 91.7578125
+              },
+              {
+                "height": 44,
+                "id": "play",
+                "width": 155
+              },
+              {
+                "height": 44,
+                "id": "pause",
+                "width": 65.1953125
+              },
+              {
+                "height": 44,
+                "id": "restore",
+                "width": 111.6484375
+              },
+              {
+                "height": 44,
+                "id": "tour",
+                "width": 100.7109375
+              },
+              {
+                "height": 44,
+                "id": "Quiet / endpoint",
+                "width": 93.546875
+              },
+              {
+                "height": 44,
+                "id": "Solid material",
+                "width": 84.5234375
+              },
+              {
+                "height": 53.3984375,
+                "id": "01AssemblyOffset entrances. ",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "02CounterpointOpposing paths",
+                "width": 406
+              },
+              {
+                "height": 53.3984375,
+                "id": "03Return to restSeek, cancel",
+                "width": 406
+              },
+              {
+                "height": 44,
+                "id": "More studies ↗",
+                "width": 63.0234375
+              }
+            ],
+            "name": "solid-native-controls",
+            "range": {
+              "font": 16,
+              "height": 44,
+              "width": 877
+            },
+            "state": {
+              "outcome": "Stable endpoint · reduced-motion",
+              "quiet": true,
+              "selected": "restoration",
+              "sequence": {
+                "duration": 1600,
+                "status": "finished",
+                "time": 1600
+              },
+              "touring": false
+            },
+            "timeLabel": "sampled 1.60 / 1.60s"
+          }
+        ],
+        "measuredAt": "2026-10-12T05:15:40.857Z",
+        "schemaVersion": 1,
+        "scope": "Desktop Chromium CSS viewports and actual native animation/time/style/control geometry. Physical phones, iOS Safari, AT output and GPU/compositing throughput unverified",
+        "viewport": {
+          "height": 900,
+          "width": 1440
+        }
+      },
+      "recording": {
+        "id": "28105162-0472-4705-8632-6b21d2e581a1-6b474010-0bea-439d-b409-d3751bbe48a1-mp4",
+        "tabId": "tab_4o",
+        "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-6b474010-0bea-439d-b409-d3751bbe48a1-mp4.mp4",
+        "mimeType": "video/mp4;codecs=avc1",
+        "sizeBytes": 258671,
+        "createdAt": "2026-10-12T05:15:40.950Z"
+      }
+    }
+  ]
+}

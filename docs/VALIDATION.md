@@ -548,3 +548,11 @@ Integrated npm run check passed1,145tests/53files including queued prototypes. n
 Optional43902raw/14470gzip includesexistingengine. CPUuniformupdate/render submissionmedianbelow~.1clockresolution/p95~.1ms; readPixelstallsnotintiming/GPUelapsednotmeasured/noFPSspeedup.250idle490draws/16uploadsunchanged. Original1121677-byte12s960square360frame pluckedsynthpop112seed45 SHA25649e13a44c0db399bea9fa3f58ef98ce96c4352b95afeb5bea44da63b79f67735; finite10.5tourendquiet/static/5uploads/cameraCSSdisclosed/324unique hashes/threeframe/fullaudio decodepassed.
 
 Integrated npm run check passed1,176tests/54files including queued prototypes. npm pack --dry-run passed198members with only declared public entries. Published-scope CI follows release.
+
+## 0.46 finite sequencing (2026-10-12)
+
+22focused/40nativecases44/16/nopageoverflow. ActualWAAPIsharedstarttime/play/pauseheld/seek1150/resumepromisetrue; authoredrotate−14!importantrestore/externalstylewins/unrelatednativeeffectretained/quietendpoint/hiddennoreplay/insertedbuttonpreserved/nativefocused draftuntouched. Phones/Safari/ATunverified. Optional3149gzip;1002-tracksetup/seek180/cancel/destroy median~.20p95~.30ms quantized~.1resolution/includescomputedstyles/setup/writes/cleanup0JSRAF/rects/retained effects/250idle. No activepaintcompositorGPUFPSspeedupclaim.
+
+Original915433-byte12s960square360frame chamberpizzicato126seed49 SHA2568b8e5f382713f2849cb10a89e8947169b4dcc7a1acbcb1aac7d9b35a3768db36. Actualfinite tourendsquietfinished/noeffects; disclosedcameraframing/323unique frames/three reviews/full decodepassed.
+
+Integrated npm run check passed1,176tests/54files including queued prototypes. npm pack --dry-run passed201members excluding future entries. Published-scope CI follows release.

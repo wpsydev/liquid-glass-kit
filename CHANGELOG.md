@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.46.0-preview.1
+
+- Add optional bounded native visual sequencing with shared timing, finite play/pause/seek/cancel and authored transform/priority restoration.
+- Preserve native controls/editing outside visual tracks; quiet/hidden/ownership guards add no semantic timeline callbacks or JS frame clock.
+- Add original Offbeat,40 native desktop cases, scoped setup benchmarks and twelve-second chamber-pizzicato film. Clarify sampled seek readout and44px footer navigation.
+
 ## 0.45.0-preview.1
 
 - Add explicit experimental owned-media texture receiver with bounded downscaling, static upload reuse, crop/matte mapping, real video-frame opt-in and native fallback states.

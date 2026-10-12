@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-12T05:23:52.933Z",
+  "published": false,
+  "source": "source30 / independently implemented finite native visual sequencing",
+  "baseCommit": "b1110b4a7669579b9594b3780abcb63d3072aa84",
+  "sourceSHA256": "6518d143eb4d1b4268c72e8b67a277885e302f8104dabb5cb61160dedca6a67e",
+  "coreChanged": false,
+  "media": {
+    "schemaVersion": 1,
+    "film": {
+      "path": "docs/campaign/assets/sequence-showcase.mp4",
+      "bytes": 915433,
+      "sha256": "8b8e5f382713f2849cb10a89e8947169b4dcc7a1acbcb1aac7d9b35a3768db36"
+    },
+    "poster": {
+      "path": "docs/campaign/assets/sequence-showcase.png",
+      "bytes": 333191,
+      "sha256": "c77e73cbb6eaf138bfb5de00dd5f786837884b66d8a75e05727bd6c4807d298a"
+    },
+    "native": {
+      "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-061168ef-f16b-4711-9c9f-9983042cc3bf-mp4.mp4",
+      "bytes": 3273313,
+      "sha256": "77ee684f917af0c56e67e6fc49a79005b68b31c014b9f2361c50bb681719b2b0"
+    },
+    "nativeDuration": "00:00:10.64",
+    "nativeVideo": "Stream #0:0[0x1](und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1920, 2460 kb/s, SAR 1:1 DAR 1:1, 15.23 fps, 120 tbr, 30k tbn (default)",
+    "exportVideo": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 960x960 [SAR 1:1 DAR 1:1], 399 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+    "exportAudio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 200 kb/s (default)",
+    "fullAudioVideoDecodeExitCode": 0,
+    "decodeErrors": "",
+    "decodedFrames": 360,
+    "uniqueFrameHashes": 323,
+    "frameHashFileSHA256": "02d0f5363af592b9216bb92a7623d1c6cee42c1fc62ddfe570ede6f7dd0c7177",
+    "reviewedFramesSeconds": [
+      0.8,
+      1.45,
+      4.1,
+      9.7
+    ]
+  },
+  "score": {
+    "style": "original chamber pizzicato",
+    "BPM": 126,
+    "seed": 49,
+    "patch": "plucked string-harmonic synthesis",
+    "chordIntervals": [
+      0,
+      4,
+      7,
+      11
+    ],
+    "durationSeconds": 12,
+    "license": "MIT",
+    "externalSamples": false
+  },
+  "native": {
+    "tabId": "tab_4o",
+    "CSSViewport": [
+      960,
+      960
+    ],
+    "DPR": 2,
+    "rawPixels": [
+      1920,
+      1920
+    ],
+    "finiteTourMs": 10500,
+    "recordingStopped": true,
+    "exportFPSIsAppFPS": false,
+    "finalFrameHoldSecondsApprox": 1.36
+  },
+  "tour": {
+    "complete": true,
+    "final": {
+      "outcome": "Tour complete. Every sequence is finite.",
+      "quiet": true,
+      "selected": "restoration",
+      "sequence": {
+        "duration": 1600,
+        "status": "finished",
+        "time": 1600
+      },
+      "touring": false
+    },
+    "finalNativeAnimationCount": 0,
+    "restoredAuthorAtCancel": {
+      "priority": "important",
+      "transform": "rotate(-14deg)"
+    },
+    "camera": "960 CSS px square; recording-only compact title/spacing and370px art stage; native controls44 and range16 retained; normal responsive matrix excludes camera override"
+  },
+  "validation": {
+    "focusedUnitTests": 22,
+    "fullCheckTests": 827,
+    "fullCheckFiles": 42,
+    "strictDemoTypeScript": "passed",
+    "isolatedViteBuild": "passed",
+    "standaloneNodeSSR": "passed without browser globals",
+    "nativeCases": 40,
+    "statesPerViewport": 8,
+    "viewports": [
+      [
+        320,
+        700
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "allControl44Field16OverflowAssertions": true,
+    "nativeControllerCases": 10,
+    "hostNativeDraft": {
+      "clicks": 0,
+      "sameDraft": true,
+      "sameFocus": true,
+      "selection": [
+        2,
+        7
+      ]
+    },
+    "externalOwner": "Later inline rotate27deg!important preserved; controller inert",
+    "unrelatedAnimation": "Native backgroundColor effect retained after sequence cancel",
+    "pause": "Native currentTime held across90ms wait",
+    "seek": "Both native tracks paused at exact280ms; no host click/focus/draft changes",
+    "hidden": "Real native hidden ancestor cancels and does not replay",
+    "quiet": "Immediate stable endpoint with no retained native effects; live OS toggles remain unit coverage",
+    "knownLimits": [
+      "Desktop Chromium/Electron CSS viewport behavior only",
+      "Physical phones/iOS Safari/AT output unverified",
+      "No actual GPU/compositor/paint/FPS or comparative speedup measurements",
+      "Dedicated wrappers must not share transform/opacity with another motion engine",
+      "Opacity endpoints do not manage hidden/inert/focus semantics"
+    ]
+  },
+  "demoFixes": [
+    "Footer link measured11–12.5px high; now native44px target",
+    "Seek/time output explicitly event-sampled rather than a live playback clock; range preserved16px/44px",
+    "Authored tilt label retained in pose applies to active and quiet held endpoints"
+  ],
+  "benchmark": {
+    "standaloneBundleBytes": 8462,
+    "gzipBytes": 3149,
+    "runtimeDependencies": 0,
+    "synchronous": {
+      "batches": [
+        {
+          "batch": 1,
+          "meanMs": 0.23500000238418578,
+          "samplesMs": [
+            0.5,
+            0.30000007152557373,
+            0.2999999523162842,
+            0.2999999523162842,
+            0.30000007152557373,
+            0.19999992847442627,
+            0.30000007152557373,
+            0.09999990463256836,
+            0.40000009536743164,
+            0.19999992847442627,
+            0.30000007152557373,
+            0.19999992847442627,
+            0.20000004768371582,
+            0.19999992847442627,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582
+          ]
+        },
+        {
+          "batch": 2,
+          "meanMs": 0.14000000357627868,
+          "samplesMs": [
+            0.10000002384185791,
+            0.10000002384185791,
+            0.20000004768371582,
+            0,
+            0.2999999523162842,
+            0.10000002384185791,
+            0.10000002384185791,
+            0.09999990463256836,
+            0.30000007152557373,
+            0,
+            0.19999992847442627,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.09999990463256836,
+            0.10000002384185791,
+            0.20000004768371582
+          ]
+        },
+        {
+          "batch": 3,
+          "meanMs": 0.13999999761581422,
+          "samplesMs": [
+            0.10000002384185791,
+            0.09999990463256836,
+            0.30000007152557373,
+            0.10000002384185791,
+            0.09999990463256836,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.10000002384185791,
+            0.09999990463256836,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.09999990463256836,
+            0.10000002384185791
+          ]
+        },
+        {
+          "batch": 4,
+          "meanMs": 0.15,
+          "samplesMs": [
+            0.30000007152557373,
+            0.09999990463256836,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.09999990463256836,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.20000004768371582,
+            0,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627
+          ]
+        },
+        {
+          "batch": 5,
+          "meanMs": 0.1850000023841858,
+          "samplesMs": [
+            0.10000002384185791,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.8999999761581421,
+            0.2999999523162842,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.09999990463256836,
+            0.20000004768371582,
+            0.20000004768371582,
+            0,
+            0.19999992847442627,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.10000002384185791
+          ]
+        }
+      ],
+      "medianMs": 0.19999992847442627,
+      "operation": "Connected attach + paused seek180ms + cancel + destroy over2visualtracks,100explicit cycles",
+      "p95Ms": 0.30000007152557373,
+      "scope": "Synchronous native setup/timing-property/style/cleanup invocation only; computed-style baselines included, bounding-rect reads not requested. Native active elapsed/paint/GPU/FPS/compositor cost excluded."
+    },
+    "beforeIdle": {
+      "nativeAnimations": 0,
+      "raf": 0,
+      "rect": 0
+    },
+    "afterIdle": {
+      "nativeAnimations": 0,
+      "raf": 0,
+      "rect": 0
+    },
+    "authorRestored": {
+      "opacity": "0.8",
+      "opacityPriority": "important",
+      "transform": "rotate(-14deg)",
+      "transformPriority": "important"
+    },
+    "timingCaveat": "Native clock resolution~0.1ms and instrumentation overhead. Zero samples mean below-resolution, not zero work. Synchronous setup/seek/cleanup excludes active paint/GPU/compositing."
+  }
+}

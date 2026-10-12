@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 1,
+  "probe": {
+    "CPUOnly": {
+      "batches": [
+        {
+          "batch": 1,
+          "meanMs": 0.23500000238418578,
+          "samplesMs": [
+            0.5,
+            0.30000007152557373,
+            0.2999999523162842,
+            0.2999999523162842,
+            0.30000007152557373,
+            0.19999992847442627,
+            0.30000007152557373,
+            0.09999990463256836,
+            0.40000009536743164,
+            0.19999992847442627,
+            0.30000007152557373,
+            0.19999992847442627,
+            0.20000004768371582,
+            0.19999992847442627,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582
+          ]
+        },
+        {
+          "batch": 2,
+          "meanMs": 0.14000000357627868,
+          "samplesMs": [
+            0.10000002384185791,
+            0.10000002384185791,
+            0.20000004768371582,
+            0,
+            0.2999999523162842,
+            0.10000002384185791,
+            0.10000002384185791,
+            0.09999990463256836,
+            0.30000007152557373,
+            0,
+            0.19999992847442627,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.09999990463256836,
+            0.10000002384185791,
+            0.20000004768371582
+          ]
+        },
+        {
+          "batch": 3,
+          "meanMs": 0.13999999761581422,
+          "samplesMs": [
+            0.10000002384185791,
+            0.09999990463256836,
+            0.30000007152557373,
+            0.10000002384185791,
+            0.09999990463256836,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.10000002384185791,
+            0.09999990463256836,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.09999990463256836,
+            0.10000002384185791
+          ]
+        },
+        {
+          "batch": 4,
+          "meanMs": 0.15,
+          "samplesMs": [
+            0.30000007152557373,
+            0.09999990463256836,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.09999990463256836,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.20000004768371582,
+            0,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627
+          ]
+        },
+        {
+          "batch": 5,
+          "meanMs": 0.1850000023841858,
+          "samplesMs": [
+            0.10000002384185791,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.8999999761581421,
+            0.2999999523162842,
+            0.10000002384185791,
+            0.20000004768371582,
+            0.09999990463256836,
+            0.20000004768371582,
+            0.20000004768371582,
+            0,
+            0.19999992847442627,
+            0.20000004768371582,
+            0.10000002384185791,
+            0.19999992847442627,
+            0.10000002384185791,
+            0.10000002384185791
+          ]
+        }
+      ],
+      "medianMs": 0.19999992847442627,
+      "operation": "Connected attach + paused seek180ms + cancel + destroy over2visualtracks,100explicit cycles",
+      "p95Ms": 0.30000007152557373,
+      "scope": "Synchronous native setup/timing-property/style/cleanup invocation only; computed-style baselines included, bounding-rect reads not requested. Native active elapsed/paint/GPU/FPS/compositor cost excluded."
+    },
+    "afterIdle": {
+      "nativeAnimations": 0,
+      "raf": 0,
+      "rect": 0
+    },
+    "authorRestored": {
+      "opacity": "0.8",
+      "opacityPriority": "important",
+      "transform": "rotate(-14deg)",
+      "transformPriority": "important"
+    },
+    "beforeIdle": {
+      "nativeAnimations": 0,
+      "raf": 0,
+      "rect": 0
+    },
+    "cases": [
+      {
+        "animations": [
+          {
+            "currentTime": 101.40400000000227,
+            "frames": [
+              {
+                "composite": "auto",
+                "computedOffset": 0,
+                "easing": "linear",
+                "offset": null,
+                "opacity": "0.3",
+                "transform": "translate3d(-30px, 0px, 0px) scale(1) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+              },
+              {
+                "composite": "auto",
+                "computedOffset": 1,
+                "easing": "linear",
+                "offset": null,
+                "opacity": "1",
+                "transform": "translate3d(40px, 0px, 0px) scale(1) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+              }
+            ],
+            "pending": false,
+            "playState": "running",
+            "startTime": 275487.696
+          },
+          {
+            "currentTime": 101.40400000000227,
+            "frames": [
+              {
+                "composite": "auto",
+                "computedOffset": 0,
+                "easing": "linear",
+                "offset": null,
+                "transform": "translate3d(0px, 20px, 0px) scale(1)"
+              },
+              {
+                "composite": "auto",
+                "computedOffset": 1,
+                "easing": "linear",
+                "offset": null,
+                "transform": "translate3d(0px, -20px, 0px) scale(1)"
+              }
+            ],
+            "pending": false,
+            "playState": "running",
+            "startTime": 275487.696
+          }
+        ],
+        "clicks": 0,
+        "computed": "matrix(0.970296, -0.241922, 0.241922, 0.970296, -10.2826, 0)",
+        "focus": "draft",
+        "inline": "transform: rotate(-14deg); opacity: 0.8;",
+        "name": "real-native-play-shared-origin",
+        "opacity": "0.497174",
+        "priority": "",
+        "sameCompletionPromise": true,
+        "state": {
+          "duration": 540,
+          "status": "playing",
+          "time": 101.40400000000227
+        }
+      },
+      {
+        "after": {
+          "animations": [
+            {
+              "currentTime": 101.40400000000227,
+              "frames": [
+                {
+                  "composite": "auto",
+                  "computedOffset": 0,
+                  "easing": "linear",
+                  "offset": null,
+                  "opacity": "0.3",
+                  "transform": "translate3d(-30px, 0px, 0px) scale(1) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+                },
+                {
+                  "composite": "auto",
+                  "computedOffset": 1,
+                  "easing": "linear",
+                  "offset": null,
+                  "opacity": "1",
+                  "transform": "translate3d(40px, 0px, 0px) scale(1) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+                }
+              ],
+              "pending": false,
+              "playState": "paused",
+              "startTime": null
+            },
+            {
+              "currentTime": 101.40400000000227,
+              "frames": [
+                {
+                  "composite": "auto",
+                  "computedOffset": 0,
+                  "easing": "linear",
+                  "offset": null,
+                  "transform": "translate3d(0px, 20px, 0px) scale(1)"
+                },
+                {
+                  "composite": "auto",
+                  "computedOffset": 1,
+                  "easing": "linear",
+                  "offset": null,
+                  "transform": "translate3d(0px, -20px, 0px) scale(1)"
+                }
+              ],
+              "pending": false,
+              "playState": "paused",
+              "startTime": null
+            }
+          ],
+          "clicks": 0,
+          "computed": "matrix(0.970296, -0.241922, 0.241922, 0.970296, -10.2826, 0)",
+          "focus": "draft",
+          "inline": "transform: rotate(-14deg); opacity: 0.8;",
+          "opacity": "0.497174",
+          "priority": "",
+          "state": {
+            "duration": 540,
+            "status": "paused",
+            "time": 101.40400000000227
+          }
+        },
+        "before": {
+          "animations": [
+            {
+              "currentTime": 101.40400000000227,
+              "frames": [
+                {
+                  "composite": "auto",
+                  "computedOffset": 0,
+                  "easing": "linear",
+                  "offset": null,
+                  "opacity": "0.3",
+                  "transform": "translate3d(-30px, 0px, 0px) scale(1) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+                },
+                {
+                  "composite": "auto",
+                  "computedOffset": 1,
+                  "easing": "linear",
+                  "offset": null,
+                  "opacity": "1",
+                  "transform": "translate3d(40px, 0px, 0px) scale(1) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+                }
+              ],
+              "pending": false,
+              "playState": "paused",
+              "startTime": null
+            },
+            {
+              "currentTime": 101.40400000000227,
+              "frames": [
+                {
+                  "composite": "auto",
+                  "computedOffset": 0,
+                  "easing": "linear",
+                  "offset": null,
+                  "transform": "translate3d(0px, 20px, 0px) scale(1)"
+                },
+                {
+                  "composite": "auto",
+                  "computedOffset": 1,
+                  "easing": "linear",
+                  "offset": null,
+                  "transform": "translate3d(0px, -20px, 0px) scale(1)"
+                }
+              ],
+              "pending": false,
+              "playState": "paused",
+              "startTime": null
+            }
+          ],
+          "clicks": 0,
+          "computed": "matrix(0.970296, -0.241922, 0.241922, 0.970296, -10.2826, 0)",
+          "focus": "draft",
+          "inline": "transform: rotate(-14deg); opacity: 0.8;",
+          "opacity": "0.497174",
+          "priority": "",
+          "state": {
+            "duration": 540,
+            "status": "paused",
+            "time": 101.40400000000227
+          }
+        },
+        "name": "pause-holds-native-time"
+      },
+      {
+        "animations": [
+          {
+            "currentTime": 280,
+            "frames": [
+              {
+                "composite": "auto",
+                "computedOffset": 0,
+                "easing": "linear",
+                "offset": null,
+                "opacity": "0.3",
+                "transform": "translate3d(-30px, 0px, 0px) scale(1) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+              },
+              {
+                "composite": "auto",
+                "computedOffset": 1,
+                "easing": "linear",
+                "offset": null,
+                "opacity": "1",
+                "transform": "translate3d(40px, 0px, 0px) scale(1) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+              }
+            ],
+            "pending": false,
+            "playState": "paused",
+            "startTime": null
+          },
+          {
+            "currentTime": 280,
+            "frames": [
+              {
+                "composite": "auto",
+                "computedOffset": 0,
+                "easing": "linear",
+                "offset": null,
+                "transform": "translate3d(0px, 20px, 0px) scale(1)"
+              },
+              {
+                "composite": "auto",
+                "computedOffset": 1,
+                "easing": "linear",
+                "offset": null,
+                "transform": "translate3d(0px, -20px, 0px) scale(1)"
+              }
+            ],
+            "pending": false,
+            "playState": "paused",
+            "startTime": null
+          }
+        ],
+        "clicks": 0,
+        "computed": "matrix(0.970296, -0.241922, 0.241922, 0.970296, 24.4444, 0)",
+        "focus": "draft",
+        "inline": "transform: rotate(-14deg); opacity: 0.8;",
+        "name": "seek-only-presentation",
+        "opacity": "0.844444",
+        "priority": "",
+        "state": {
+          "duration": 540,
+          "status": "paused",
+          "time": 280
+        }
+      },
+      {
+        "animations": [
+          {
+            "currentTime": 360,
+            "frames": [
+              {
+                "composite": "auto",
+                "computedOffset": 0,
+                "easing": "linear",
+                "offset": null,
+                "opacity": "0.3",
+                "transform": "translate3d(-30px, 0px, 0px) scale(1) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+              },
+              {
+                "composite": "auto",
+                "computedOffset": 1,
+                "easing": "linear",
+                "offset": null,
+                "opacity": "1",
+                "transform": "translate3d(40px, 0px, 0px) scale(1) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)"
+              }
+            ],
+            "pending": false,
+            "playState": "finished",
+            "startTime": 275442.332
+          },
+          {
+            "currentTime": 540,
+            "frames": [
+              {
+                "composite": "auto",
+                "computedOffset": 0,
+                "easing": "linear",
+                "offset": null,
+                "transform": "translate3d(0px, 20px, 0px) scale(1)"
+              },
+              {
+                "composite": "auto",
+                "computedOffset": 1,
+                "easing": "linear",
+                "offset": null,
+                "transform": "translate3d(0px, -20px, 0px) scale(1)"
+              }
+            ],
+            "pending": false,
+            "playState": "finished",
+            "startTime": 275442.332
+          }
+        ],
+        "clicks": 0,
+        "computed": "matrix(0.970296, -0.241922, 0.241922, 0.970296, 40, 0)",
+        "focus": "draft",
+        "inline": "transform: rotate(-14deg); opacity: 0.8;",
+        "name": "resume-finite-endpoint",
+        "opacity": "1",
+        "priority": "",
+        "result": {
+          "completed": true,
+          "reason": "finished"
+        },
+        "sameResume": true,
+        "state": {
+          "duration": 540,
+          "status": "finished",
+          "time": 540
+        }
+      },
+      {
+        "animations": [],
+        "clicks": 0,
+        "computed": "matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)",
+        "focus": "draft",
+        "inline": "transform: rotate(-14deg) !important; opacity: 0.8 !important;",
+        "name": "cancel-restores-authored-priority",
+        "opacity": "0.8",
+        "priority": "important",
+        "state": {
+          "duration": 540,
+          "status": "cancelled",
+          "time": 0
+        }
+      },
+      {
+        "animations": [],
+        "clicks": 0,
+        "computed": "matrix(0.891007, 0.45399, -0.45399, 0.891007, 0, 0)",
+        "focus": "draft",
+        "inline": "transform: rotate(27deg) !important; opacity: 0.8 !important;",
+        "name": "external-inline-owner-preserved",
+        "opacity": "0.8",
+        "priority": "important",
+        "replay": {
+          "completed": false,
+          "reason": "external-owner"
+        },
+        "result": {
+          "completed": false,
+          "reason": "external-owner"
+        },
+        "state": {
+          "duration": 540,
+          "status": "cancelled",
+          "time": 0
+        }
+      },
+      {
+        "animations": [
+          {
+            "currentTime": 34.164000079556445,
+            "frames": [
+              {
+                "backgroundColor": "rgb(159, 64, 88)",
+                "composite": "auto",
+                "computedOffset": 0,
+                "easing": "linear",
+                "offset": null
+              },
+              {
+                "backgroundColor": "rgb(205, 160, 173)",
+                "composite": "auto",
+                "computedOffset": 1,
+                "easing": "linear",
+                "offset": null
+              }
+            ],
+            "pending": false,
+            "playState": "running",
+            "startTime": 275988.2019999204
+          }
+        ],
+        "clicks": 0,
+        "computed": "matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)",
+        "focus": "draft",
+        "inline": "transform: rotate(-14deg) !important; opacity: 0.8 !important;",
+        "name": "unrelated-native-animation-not-cancelled",
+        "opacity": "0.8",
+        "priority": "important",
+        "result": {
+          "completed": false,
+          "reason": "cancelled"
+        },
+        "state": {
+          "duration": 540,
+          "status": "cancelled",
+          "time": 0
+        },
+        "unrelatedRetained": true,
+        "unrelatedState": "running"
+      },
+      {
+        "animations": [],
+        "clicks": 0,
+        "computed": "matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)",
+        "focus": "draft",
+        "inline": "transform: rotate(-14deg) !important; opacity: 0.8 !important;",
+        "name": "native-hidden-ancestor-no-replay",
+        "opacity": "0.8",
+        "priority": "important",
+        "result": {
+          "completed": false,
+          "reason": "hidden"
+        },
+        "state": {
+          "duration": 540,
+          "status": "cancelled",
+          "time": 0
+        }
+      },
+      {
+        "animations": [],
+        "clicks": 0,
+        "computed": "matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0)",
+        "focus": "draft",
+        "inline": "transform: rotate(-14deg) !important; opacity: 0.8 !important;",
+        "name": "host-adds-control-preserved",
+        "nodeConnected": true,
+        "opacity": "0.8",
+        "preservedInput": "host-owned new field",
+        "priority": "important",
+        "result": {
+          "completed": false,
+          "reason": "invalid-visual"
+        },
+        "state": {
+          "duration": 540,
+          "status": "cancelled",
+          "time": 0
+        }
+      },
+      {
+        "animations": [],
+        "clicks": 0,
+        "computed": "matrix(0.970296, -0.241922, 0.241922, 0.970296, 40, 0)",
+        "focus": "draft",
+        "inline": "transform: translate3d(40px, 0px, 0px) scale(1) matrix(0.970296, -0.241922, 0.241922, 0.970296, 0, 0); opacity: 1;",
+        "name": "quiet-endpoint-without-native-wait",
+        "opacity": "1",
+        "priority": "",
+        "result": {
+          "completed": true,
+          "reason": "reduced-motion"
+        },
+        "state": {
+          "duration": 540,
+          "status": "finished",
+          "time": 540
+        }
+      }
+    ],
+    "measuredAt": "2026-10-12T05:13:20.156Z",
+    "nativeHost": {
+      "clicks": 0,
+      "sameDraft": true,
+      "sameFocus": true,
+      "selection": [
+        2,
+        7
+      ]
+    },
+    "schemaVersion": 1,
+    "systemReduced": false,
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+    "viewport": {
+      "height": 960,
+      "width": 960
+    }
+  },
+  "recording": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-39aff7ab-f0a5-4e98-bc90-c774cb1e3c57-mp4",
+    "tabId": "tab_4o",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-39aff7ab-f0a5-4e98-bc90-c774cb1e3c57-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 73836,
+    "createdAt": "2026-10-12T05:13:20.284Z"
+  },
+  "timingCaveat": "Timer resolution~0.1ms and instrumentation apply; zero samples mean below resolution. Native playback objects/times are behavior evidence, not measured compositor, GPU or FPS performance."
+}

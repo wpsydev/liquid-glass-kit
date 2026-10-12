@@ -1,0 +1,77 @@
+{
+  "version": "0.45.0-preview.1",
+  "commit": "9c2ce2d1f76179030ea1e970b7176cfb56a05ff6",
+  "workflows": {
+    "verify": 38209417313,
+    "release": 38209417286,
+    "pages": 38209417303,
+    "conclusion": "success",
+    "tests": 994,
+    "testFiles": 48
+  },
+  "archive": {
+    "members": 198,
+    "bytes": 425945,
+    "sha256": "594694b3618829d51e9cce633c384fe93460814b00f5a489af76c201cfd0d9e4"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/texture/",
+    "native": {
+      "focus": "position",
+      "position": "51",
+      "state": {
+        "artwork": "poster",
+        "fit": "cover",
+        "quiet": false,
+        "renderer": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 1.5,
+          "drawCalls": 4,
+          "fieldCount": 0,
+          "fusionCount": 3,
+          "height": 450,
+          "pixels": 795600,
+          "renderer": "webgl2",
+          "wallpaperPasses": 1,
+          "width": 1768
+        },
+        "revision": 0,
+        "solid": false,
+        "source": {
+          "downscaled": true,
+          "height": 404,
+          "kind": "canvas",
+          "pixels": 261388,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 261388,
+          "uploads": 1,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 647
+        },
+        "touring": false
+      }
+    },
+    "scope": "Actual native rangeArrowRight changes crop50\u219251 while source remainsready/upload1; output795600/source261388 withinbounds"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109522038352159035",
+    "replies": [
+      "https://x.com/wpsygames/status/2109522784527270280",
+      "https://x.com/wpsygames/status/2109522994192433528"
+    ],
+    "upload": {
+      "bytes": 1121677,
+      "sha256": "49e13a44c0db399bea9fa3f58ef98ce96c4352b95afeb5bea44da63b79f67735"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical pages confirmed intended text"
+  },
+  "npmRegistry": "pending"
+}

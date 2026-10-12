@@ -1,13 +1,13 @@
-Original media. Owned optics. **0.45.0-preview.1** adds optional experimental `/scene-texture`.
+Things fall into place. **0.46.0-preview.1** adds optional `/sequence`.
 
-Decoded host image/video/canvas/bitmap sources render behind bounded WebGL2 optics. Static media reuse uploads; fit/crop/matte changes update uniforms. Source downscaling/output pixel caps are explicit resolution tradeoffs. Actual video callbacks are opt-in, not a polling loop; host decode/CORS/playback/fallback remain owned. PortableCSSdefault/nativeHTMLcontrols preserved, no arbitraryDOM capture orAppleparityclaim.
+Bounded noninteractive visual tracks share native WebAnimations timing, with real Play/Pause/Seek/Cancel and conditional authored transform/opacity restoration. Native controls/editing stay outside visual layers. Quiet/hidden/ownership guards preserve host app state; no business callback, navigation action or JS frame clock runs at timeline offsets.
 
-NativeWebGL tests found and fixed two defects: receiver uniforms used the wrong active program, and origin-tainted staging blocked a clean same-size retry. Realpixelreadback/contextrestore/imagebitmap/captureStreamrVFC prove recovery.31focusedtexture plus35scene tests;30desktop320–1440viewport/statecases44/16/noflow/caps. Phones/Safari/ATunverified.
+[Offbeat](https://wpsydev.github.io/liquid-glass-kit/sequence/) coordinates six original shapes, pauses/seeks real native effects and endsquiet while retaining its draft. The twelve-second original126BPM chamber-pizzicato film records actual finite states; seek readout is explicitly event-sampled.
 
-[REAL / SOURCE](https://wpsydev.github.io/liquid-glass-kit/texture/) uses three originalCanvas2Dart studies with boundedlenses/fusion/caustics and functionalplainfallback. Its twelve-second original112BPM plucked-synthpop film changes actualsource/optics and endsstaticquiet at5uploads, includingexplicitreset.
+22focusedtests;40desktop cases320–1440px44/16/noflow. Native sharedstarttime/pause/seek1150/resume/importantbaseline/externalowner/unrelatedanimation/hidden/controlinsertion/focus verified. Phones/Safari/ATunverified.
 
-Optionalentry43902minified/14470gzip includesexisting sceneengine. CPUuniformupdate/render submissions medianbelow~.1msresolution/p95~.1ms, notzero work; readPixelsstalls/decode/video/GPUelapsed/paintingoutside timing.250settledidle unchangedcounts. No FPS/uploadthroughput/comparativespeedup claim.
+Optional3149gzip.100connected2-tracksetup/seek180/cancel/destroy cycles median~.20/p95~.30ms at~.1clockresolution; includescomputedstylebaselines/native setup/writes/cleanup.0JSRAF/rect/retained effects/250idle work. Activepainting/compositor/GPU/FPS/speedupunmeasured. Heldpose guards still observe changes.
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/SCENE_TEXTURE.md) · [NativeGPU evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/scene-texture-browser.json)
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/SEQUENCE.md) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/sequence-browser.json)
 
-Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.45.0-preview.1`. npmregistrypending. Independent SamAsante-inspired optics without copiedrenderer/assets.
+Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.46.0-preview.1`. npmregistry pending. Independent Anime.js-inspired finite motion without required engine.
