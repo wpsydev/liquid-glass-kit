@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.22.0-preview.1
+
+- Add pure supplied-color readability preflight with bounded opaque samples/inks, unrounded contrast math and actual material/ink props.
+- Pin explicit tone and coherent opaque fallback; document tint/refraction and unsampled rendering boundaries. Allocate detailed samples only for the winning candidate.
+- Add original Light Table, native viewport/material checks and finite moving backgrounds, plus scoped math/payload evidence. No pixel sampling, runtime dependency or default import/CSS change.
+
 ## 0.21.0-preview.1
 
 - Add pure integration-brief authoring for six stacks and seven original widget recipes, with exact imports, host boundaries, states and validation.

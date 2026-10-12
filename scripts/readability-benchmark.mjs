@@ -1,0 +1,13 @@
+/** Supplied-color preflight math, not actual captured pixels or renderer speed. */
+import { build } from 'vite';
+import { resolve } from 'node:path';
+import { readFile,writeFile } from 'node:fs/promises';
+import { gzipSync } from 'node:zlib';
+import { createHash } from 'node:crypto';
+import { cpus } from 'node:os';
+import { resolveGlassReadability } from '../dist/readability.js';
+const r=await build({configFile:false,logLevel:'silent',build:{write:false,minify:true,target:'es2022',lib:{entry:resolve('src/readability.ts'),name:'GlassReadability',formats:['iife']}}});const code=(Array.isArray(r)?r[0]:r).output.find(x=>x.type==='chunk').code;
+const cases=[{backdrops:['#f3aabf','#d7ed8b','#89c5e1','#e9e3d5'],material:{opacity:.9,blur:0,saturation:1},minimumRatio:4.5},{backdrops:Array.from({length:64},(_,i)=>'#'+((i*2654435761)>>>8).toString(16).padStart(6,'0').slice(-6)),candidates:['#000000','#ffffff','#181818','#ececec','#27324a','#eee5c8','#333333','#cccccc'],material:{variant:'clear',opacity:.3},minimumRatio:7}];
+let checksum=0;const results=[];
+for(const config of cases){const run=()=>{const x=resolveGlassReadability(config);checksum+=x.worstSampleRatio+x.translucent.worstSampleRatio+x.samples.reduce((s,p)=>s+p.ratio,0)+JSON.stringify(x.props).length;};for(let i=0;i<100;i++)run();const samples=[];for(let round=0;round<25;round++){const t=performance.now();for(let i=0;i<500;i++)run();samples.push((performance.now()-t)/500)}const sorted=[...samples].sort((a,b)=>a-b);results.push({sampleCount:config.backdrops.length,candidateCount:config.candidates?.length??2,config,msPerOperation:samples,medianMs:sorted[12],p95BatchMeanMs:sorted[23]});}
+const result={observedAtUtc:new Date().toISOString(),runtime:process.version,cpu:cpus()[0]?.model,warmupPerCase:100,roundsPerCase:25,operationsPerRound:500,operation:'Resolve color advice, consume sample ratios and serialize material props',results,checksum,payload:{rawBytes:Buffer.byteLength(code),gzipBytes:gzipSync(code).length,sourceSha256:createHash('sha256').update(await readFile('src/readability.ts')).digest('hex')},scope:'Node advisory math only; p95 normalized batch means, not single-call latency tails. No rendered-pixel contrast/WCAG conformance, DOM/canvas readback, renderer/FPS/network or comparative speedup claim. Candidate scoring allocates detailed samples only for the winning ink.'};await writeFile('benchmarks/readability.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({results:results.map(r=>({samples:r.sampleCount,candidates:r.candidateCount,medianMs:r.medianMs})),payload:result.payload}));

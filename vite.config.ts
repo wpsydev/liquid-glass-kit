@@ -33,6 +33,7 @@ export default defineConfig({
         commands: resolve('site/commands/index.html'),
         composition: resolve('site/composition/index.html'),
         brief: resolve('site/brief/index.html'),
+        readability: resolve('site/readability/index.html'),
       },
     },
   },

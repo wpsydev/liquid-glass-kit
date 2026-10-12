@@ -138,3 +138,7 @@ Optional `/composition` and `/composition.css` add split/stack/cluster/grid layo
 ## Integration brief
 
 Optional `/integration-brief` generates a local Markdown handoff with exact imports, stack lifecycle, host responsibilities and required checks. Seven original recipes support HTML, React, Vue, Svelte, Next.js and Astro. [API](docs/INTEGRATION_BRIEF.md) · [Integration Desk](https://wpsydev.github.io/liquid-glass-kit/brief/).
+
+## Readability preflight
+
+Optional `/readability` evaluates host-supplied opaque colors, selects an ink and applies an opaque fallback when its simplified estimate fails. No pixel readback or animation controller; actual rendered contrast still needs checking. [Model and API](docs/READABILITY.md) · [Light Table](https://wpsydev.github.io/liquid-glass-kit/readability/).

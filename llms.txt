@@ -62,3 +62,5 @@ v0.19.0-preview.1. Install from the matching GitHub release/tag; npm publication
 - [Composition](https://wpsydev.github.io/liquid-glass-kit/docs/COMPOSITION.md): optional pure layout props and CSS, source order, inherited fonts, bounded reading measure and descendant container-relative headings
 
 - [Integration brief](https://wpsydev.github.io/liquid-glass-kit/docs/INTEGRATION_BRIEF.md): original local recipes produce an exact-import Markdown handoff for six stacks; host responsibilities and browser checks, no agent execution or discovery guarantee
+
+- [Readability preflight](https://wpsydev.github.io/liquid-glass-kit/docs/READABILITY.md): pure supplied-color advisory and coherent opaque fallback; no captured-pixel or WCAG conformance claim

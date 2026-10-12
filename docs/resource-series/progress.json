@@ -61,12 +61,12 @@
     {
       "order": 5,
       "url": "https://kage.design",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Integration brief",
       "version": "0.21.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/brief/",
       "video": "docs/campaign/assets/integration-brief-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109434514246132174",
       "performance": [
         "benchmarks/integration-brief.json",
         "benchmarks/integration-brief-browser.json"
@@ -75,13 +75,16 @@
     {
       "order": 6,
       "url": "https://styles.refero.design",
-      "status": "implemented-awaiting-validation",
+      "status": "validated-awaiting-publication",
       "feature": "Readability",
-      "version": null,
+      "version": "0.22.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/readability-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/readability.json",
+        "benchmarks/readability-browser.json"
+      ]
     },
     {
       "order": 7,

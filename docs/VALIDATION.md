@@ -268,3 +268,15 @@ Twenty-five focused tests cover deterministic recipe generation, six stacks, can
 NativeT3desktopChromium source-preview measured60 cases (threepresets×fourviews×fiveviewports320×700,390×844,768×1024,844×390,1440×900): nohorizontaloverflow,44pxcontrols,16pxfields. Actual native MarkdownBlob type/content matched the workspacebrief (7,294chars). Nativeclipboard absent onblanksourcepreview triggered selectableMarkdown fallback. Emptytask disabledboth exports andaria-invalid+associatedactualerror; validpresetrecovered. Demoedits clearstaleexportstatus. Filmframes visuallyreviewed. This isCSSviewport/sourcepreview evidence, notphysicaldevices/ATcertificate ordiskdownloadcompletion.
 
 Final integrated npm run check passed574tests/34files including queued prototypes; published release adds25brief tests to301prior tests. npm pack dry-run passed113files. Updated empty-context field associates error andclearsstalestatus; clipboard fallback rechecked afterthatdemochange. Rootmaterial/defaultimports remainunchanged.
+
+0.21 publication: commitfe653a7c83d16da2c0ad2b339cd08b8a4ed679a8 passed Verify38186401812,release38186401792,Pages38186401831. Downloaded113-member archive244,926bytes SHA256 `e3d06e9f344cb443188a01236fc53148c2a6b1bd737570b1d99c6c542b3fe073`; brief JS/types present, queuedmodulesabsent. Hostedworkspace valid; HTTPSclipboardAPIexists but browserwritepermissiondenied, selectableMarkdownfallbackworked. Xmain https://x.com/wpsygames/status/2109434514246132174 plays12seconds/readyState4.
+
+## 0.22 readability (2026-10-12)
+
+Twenty-six focusedtests cover plaininputs/bounds, exactunroundedcontrast, candidateworstcase/tieorder, pinnedtones, coreprops, neutralfallbacks, omitted-effects boundaries andmutation isolation. Candidate-scoring refinement avoids detailedrecords for losinginks; finalnative presets retained exactoriginaloutputs.
+
+NativeT3Chromium measured15presets×viewportcases320×700,390×844,768×1024,844×390,1440×900, nooverflow. Nativefields/selects16px/buttons44px;17px checkbox has44px-tall associatedlabel. Actualprops pinblackorwhiteink; opaque states computedbackdrop-filter:none. Quiet/translucentworstratio16.1928; dynamicrequested1.4007→opaque19.4219; strictrequested4.1818→opaque16.0713. Ratios describe modelinputs, notcapturedpixels. Finite1.6second movement endedwithzerorunninganimations; quietpreferenceleaveszeroanimations. Source/browserframes visuallyreviewed, notphysicaldevice/ATcertification.
+
+Node25×500 advisory-resolutionbatches after100warmups cover4samples×2inks and64samples×8inks: medians .012396/.097577ms, standalone2,826bytesgzip. Separateboundedmath/serializationmeasurements, notrenderer/FPS/network orcomparativespeedup.
+
+0.21 Verify job114609540648 confirms326publishedtests in24files. Final0.22 integrated check passed602tests/35files including queuedprototypes; releaseadds26readabilitytests to326prior tests. npm packdryrun116files. Candidate-order regression alreadytests genuineequal-worstcase distinctblack/whiteinks, so unchangedbehavior is verified beyondpresetvisuals.

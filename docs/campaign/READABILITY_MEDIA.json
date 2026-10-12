@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 572207,
+  "sha256": "046cbb9712e710ed99d2cadda3572b0eb6b76514db23b9ec8e4eaa34fc880770",
+  "music": {
+    "style": "electro",
+    "bpm": 144,
+    "seed": 22,
+    "patch": "metal",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Actual T3 source-preview applied material/ink props and finite original backdrop movement; export FPS is not app FPS"
+}
