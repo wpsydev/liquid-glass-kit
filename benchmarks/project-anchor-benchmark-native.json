@@ -1,0 +1,49 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "caveat": "Shared-machine batch measurements, no GPU/FPS/occlusion/virtualization claim and no before/after speed-up comparison; 1024 math calls are not 1024 rendered DOM labels",
+  "checksum": 72929456.86244924,
+  "excludes": "Prepared point/matrix inputs and initial scene fixture, asynchronous paint/compositor/raster/GPU/network; pure workload contains no DOM/renderer/RAF",
+  "hostSVGAndHTMLAuthoring": {
+    "callsPerBatch": 4,
+    "maxMs": 0.625,
+    "medianMs": 0.42500001192092896,
+    "minMs": 0.375,
+    "p95Ms": 0.6000000238418579,
+    "renders": 180,
+    "samples": 40,
+    "warmupBatches": 5
+  },
+  "includes": {
+    "host": "Actual original host camera matrix calculation, all geometry and anchor projections, native SVG line/polygon/node authoring/replacement, semantic inspector/controls/style updates and any synchronous style/layout work induced",
+    "pure": "All per-call validated point/matrix/viewport descriptors, clip multiplication, positive-W divide, frustum checks and frozen result allocation"
+  },
+  "pure": {
+    "array": {
+      "maxMs": 2.299999952316284,
+      "medianMs": 2.100000023841858,
+      "minMs": 2,
+      "p95Ms": 2.299999952316284,
+      "projectionsPerBatch": 1024,
+      "samples": 40,
+      "warmupBatches": 10
+    },
+    "float32": {
+      "maxMs": 2.299999952316284,
+      "medianMs": 2.100000023841858,
+      "minMs": 2,
+      "p95Ms": 2.299999952316284,
+      "projectionsPerBatch": 1024,
+      "samples": 40,
+      "warmupBatches": 10
+    },
+    "float64": {
+      "maxMs": 2.399999976158142,
+      "medianMs": 2.100000023841858,
+      "minMs": 2,
+      "p95Ms": 2.299999952316284,
+      "projectionsPerBatch": 1024,
+      "samples": 40,
+      "warmupBatches": 10
+    }
+  }
+}

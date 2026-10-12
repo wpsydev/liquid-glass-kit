@@ -1,0 +1,93 @@
+{
+  "version": "0.46.0-preview.1",
+  "commit": "bc05d19ed8c61c72665f4aa7d48d9ce5b3581668",
+  "workflows": {
+    "verify": 38210188460,
+    "release": 38210188358,
+    "pages": 38210188429,
+    "conclusion": "success",
+    "tests": 1016,
+    "testFiles": 49
+  },
+  "archive": {
+    "members": 201,
+    "bytes": 432220,
+    "sha256": "6d865a050bfc2b4dca4e0c52e16f712001292a9a892aa6b2fdc114474e6bbe83"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/sequence/",
+    "native": {
+      "pause": {
+        "effects": [
+          {
+            "state": "paused",
+            "time": 333.3200000000005
+          },
+          {
+            "state": "paused",
+            "time": 333.3200000000005
+          },
+          {
+            "state": "paused",
+            "time": 333.3200000000005
+          },
+          {
+            "state": "paused",
+            "time": 333.3200000000005
+          },
+          {
+            "state": "paused",
+            "time": 333.3200000000005
+          },
+          {
+            "state": "paused",
+            "time": 333.3200000000005
+          }
+        ],
+        "state": {
+          "outcome": "Paused. Seek or resume this shared clock.",
+          "quiet": false,
+          "selected": "assembly",
+          "sequence": {
+            "duration": 1900,
+            "status": "paused",
+            "time": 333.3200000000005
+          },
+          "touring": false
+        }
+      },
+      "cancel": {
+        "effects": [],
+        "state": {
+          "outcome": "Cancelled. Authored tilt and priorities restored.",
+          "quiet": false,
+          "selected": "assembly",
+          "sequence": {
+            "duration": 1900,
+            "status": "cancelled",
+            "time": 0
+          },
+          "touring": false
+        }
+      }
+    },
+    "scope": "Actual native Play/Pause sixeffects held333.32ms, Cancel clearsallnativeeffects/statetime0"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109524907302256812",
+    "replies": [
+      "https://x.com/wpsygames/status/2109525388871467079",
+      "https://x.com/wpsygames/status/2109525759148892171"
+    ],
+    "upload": {
+      "bytes": 915433,
+      "sha256": "8b8e5f382713f2849cb10a89e8947169b4dcc7a1acbcb1aac7d9b35a3768db36"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical pages confirmed intended text"
+  },
+  "npmRegistry": "pending"
+}

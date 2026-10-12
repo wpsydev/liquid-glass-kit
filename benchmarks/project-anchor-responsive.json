@@ -1,0 +1,4245 @@
+{
+  "scope": "T3 native desktop browser layout emulation, not physical phones/Safari/AT",
+  "cases": [
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "scene",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 1.1368683772161603e-13,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8780132334935208,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 32.17836820612834,
+              "y": 131.91441053823942
+            },
+            "expected": {
+              "depth": 0.8780132334935207,
+              "x": 32.17836820612834,
+              "y": 131.91441053823942
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 1.1102230246251565e-16,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.84964732919773,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 126.28470233548758,
+              "y": 193.37307512212624
+            },
+            "expected": {
+              "depth": 0.84964732919773,
+              "x": 126.28470233548758,
+              "y": 193.37307512212624
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8603809959634081,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 257.4511560079399,
+              "y": 120.17841699988648
+            },
+            "expected": {
+              "depth": 0.8603809959634081,
+              "x": 257.45115600794,
+              "y": 120.17841699988648
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 1.1368683772161603e-13,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8373137571701933,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 341.2329064897768,
+              "y": 287.0119132797413
+            },
+            "expected": {
+              "depth": 0.8373137571701931,
+              "x": 341.2329064897768,
+              "y": 287.0119132797413
+            },
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              3,
+              -1.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            2.6181412445030667,
+            0,
+            -0.2849809949972364,
+            -0.27563735581699916,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            -0.7507399211260773,
+            0,
+            -0.993846838173516,
+            -0.9612616959383189,
+            -4.504439526756465,
+            0,
+            -0.7766403510749952,
+            0.23242982437008664
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8780132334935208,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 32.17836820612834,
+              "y": 131.91441053823942
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.84964732919773,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 126.28470233548758,
+              "y": 193.37307512212624
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.8373137571701933,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 341.2329064897768,
+              "y": 287.0119132797413
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8603809959634081,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 257.4511560079399,
+              "y": 120.17841699988648
+            }
+          },
+          "quiet": false,
+          "renders": 9,
+          "selected": "facet",
+          "touring": false,
+          "viewport": {
+            "height": 360,
+            "width": 271
+          },
+          "yaw": -16
+        }
+      },
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": true,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "parallax",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 3.019806626980426e-14,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8370857464319645,
+              "inFrustum": false,
+              "projectable": true,
+              "x": -15.522735037620862,
+              "y": 104.82949481583253
+            },
+            "expected": {
+              "depth": 0.8370857464319647,
+              "x": -15.522735037620892,
+              "y": 104.82949481583253
+            },
+            "id": "facet",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 3.019806626980426e-14,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.850684128754047,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 153.54457992332874,
+              "y": 196.46511642520204
+            },
+            "expected": {
+              "depth": 0.850684128754047,
+              "x": 153.5445799233287,
+              "y": 196.46511642520204
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 2.842170943040401e-14,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8925065680879554,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 232.85553270059293,
+              "y": 119.64359404533592
+            },
+            "expected": {
+              "depth": 0.8925065680879556,
+              "x": 232.85553270059293,
+              "y": 119.64359404533592
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.89487802045997,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 303.9361673611392,
+              "y": 273.70120332610355
+            },
+            "expected": {
+              "depth": 0.8948780204599702,
+              "x": 303.9361673611392,
+              "y": 273.70120332610355
+            },
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              3,
+              -1.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 43,
+          "matrix": [
+            3.031069303093269,
+            0,
+            0.45323118566328335,
+            0.4383711467890774,
+            0,
+            2.5386478956643077,
+            0,
+            0,
+            1.4783512773202017,
+            0,
+            -0.9292616410889692,
+            -0.898794046299167,
+            8.87010766392121,
+            0,
+            -0.3891291685677146,
+            0.6072357222049973
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8370857464319645,
+              "inFrustum": false,
+              "projectable": true,
+              "x": -15.522735037620862,
+              "y": 104.82949481583253
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.850684128754047,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 153.54457992332874,
+              "y": 196.46511642520204
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.89487802045997,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 303.9361673611392,
+              "y": 273.70120332610355
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8925065680879554,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 232.85553270059293,
+              "y": 119.64359404533592
+            }
+          },
+          "quiet": false,
+          "renders": 10,
+          "selected": "facet",
+          "touring": false,
+          "viewport": {
+            "height": 360,
+            "width": 271
+          },
+          "yaw": 26
+        }
+      },
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "boundary",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 0,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 18.63268102998013,
+              "y": 127.71725203972794
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 18.63268102998013,
+              "y": 127.71725203972794
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 0,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 135.5,
+              "y": 193.42017059942813
+            },
+            "expected": {
+              "depth": 0.8489984591679506,
+              "x": 135.5,
+              "y": 193.42017059942813
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 245.0631115343936,
+              "y": 125.2184442328032
+            },
+            "expected": {
+              "depth": 0.8749999999999999,
+              "x": 245.0631115343936,
+              "y": 125.2184442328032
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 750.5911524737887,
+              "y": 149.24544237631056
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 750.5911524737887,
+              "y": 149.24544237631056
+            },
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 0,
+            "world": [
+              10,
+              0.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            2.7236508596625333,
+            0,
+            0,
+            0,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            0,
+            0,
+            -1.0338983050847457,
+            -1,
+            0,
+            0,
+            -1.0169491525423728,
+            0
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 18.63268102998013,
+              "y": 127.71725203972794
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 135.5,
+              "y": 193.42017059942813
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 750.5911524737887,
+              "y": 149.24544237631056
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 245.0631115343936,
+              "y": 125.2184442328032
+            }
+          },
+          "quiet": false,
+          "renders": 11,
+          "selected": "probe",
+          "touring": false,
+          "viewport": {
+            "height": 360,
+            "width": 271
+          },
+          "yaw": 0
+        }
+      },
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "behind",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 0,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 18.63268102998013,
+              "y": 127.71725203972794
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 18.63268102998013,
+              "y": 127.71725203972794
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 0,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 135.5,
+              "y": 193.42017059942813
+            },
+            "expected": {
+              "depth": 0.8489984591679506,
+              "x": 135.5,
+              "y": 193.42017059942813
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 245.0631115343936,
+              "y": 125.2184442328032
+            },
+            "expected": {
+              "depth": 0.8749999999999999,
+              "x": 245.0631115343936,
+              "y": 125.2184442328032
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": true,
+              "depth": null,
+              "inFrustum": false,
+              "projectable": false,
+              "x": null,
+              "y": null
+            },
+            "expected": null,
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": null,
+            "world": [
+              0,
+              0.5,
+              3
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            2.7236508596625333,
+            0,
+            0,
+            0,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            0,
+            0,
+            -1.0338983050847457,
+            -1,
+            0,
+            0,
+            -1.0169491525423728,
+            0
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 18.63268102998013,
+              "y": 127.71725203972794
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 135.5,
+              "y": 193.42017059942813
+            },
+            "probe": {
+              "behindCamera": true,
+              "depth": null,
+              "inFrustum": false,
+              "projectable": false,
+              "x": null,
+              "y": null
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 245.0631115343936,
+              "y": 125.2184442328032
+            }
+          },
+          "quiet": false,
+          "renders": 12,
+          "selected": "probe",
+          "touring": false,
+          "viewport": {
+            "height": 360,
+            "width": 271
+          },
+          "yaw": 0
+        }
+      },
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "scene",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 1.4210854715202004e-14,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8780132334935208,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 67.17836820612833,
+              "y": 131.91441053823942
+            },
+            "expected": {
+              "depth": 0.8780132334935207,
+              "x": 67.17836820612834,
+              "y": 131.91441053823942
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 1.4210854715202004e-14,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.84964732919773,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 161.28470233548757,
+              "y": 193.37307512212624
+            },
+            "expected": {
+              "depth": 0.84964732919773,
+              "x": 161.28470233548757,
+              "y": 193.37307512212624
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8603809959634081,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 292.45115600794,
+              "y": 120.17841699988648
+            },
+            "expected": {
+              "depth": 0.8603809959634081,
+              "x": 292.45115600794,
+              "y": 120.17841699988648
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8373137571701933,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 376.2329064897768,
+              "y": 287.0119132797413
+            },
+            "expected": {
+              "depth": 0.8373137571701931,
+              "x": 376.2329064897768,
+              "y": 287.0119132797413
+            },
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              3,
+              -1.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            2.080692895191587,
+            0,
+            -0.2849809949972364,
+            -0.27563735581699916,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            -0.5966290868773225,
+            0,
+            -0.993846838173516,
+            -0.9612616959383189,
+            -3.5797745212639356,
+            0,
+            -0.7766403510749952,
+            0.23242982437008664
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8780132334935208,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 67.17836820612833,
+              "y": 131.91441053823942
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.84964732919773,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 161.28470233548757,
+              "y": 193.37307512212624
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.8373137571701933,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 376.2329064897768,
+              "y": 287.0119132797413
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8603809959634081,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 292.45115600794,
+              "y": 120.17841699988648
+            }
+          },
+          "quiet": false,
+          "renders": 15,
+          "selected": "facet",
+          "touring": false,
+          "viewport": {
+            "height": 360,
+            "width": 341
+          },
+          "yaw": -16
+        }
+      },
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "parallax",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 3.552713678800501e-14,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8370857464319645,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 19.47726496237914,
+              "y": 104.82949481583253
+            },
+            "expected": {
+              "depth": 0.8370857464319647,
+              "x": 19.477264962379106,
+              "y": 104.82949481583253
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 3.552713678800501e-14,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.850684128754047,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 188.5445799233287,
+              "y": 196.46511642520204
+            },
+            "expected": {
+              "depth": 0.850684128754047,
+              "x": 188.5445799233287,
+              "y": 196.46511642520204
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8925065680879554,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 267.85553270059296,
+              "y": 119.64359404533592
+            },
+            "expected": {
+              "depth": 0.8925065680879556,
+              "x": 267.85553270059296,
+              "y": 119.64359404533592
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.89487802045997,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 338.9361673611392,
+              "y": 273.70120332610355
+            },
+            "expected": {
+              "depth": 0.8948780204599702,
+              "x": 338.9361673611392,
+              "y": 273.70120332610355
+            },
+            "id": "probe",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              3,
+              -1.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 43,
+          "matrix": [
+            2.4088556631621,
+            0,
+            0.45323118566328335,
+            0.4383711467890774,
+            0,
+            2.5386478956643077,
+            0,
+            0,
+            1.1748774080755855,
+            0,
+            -0.9292616410889692,
+            -0.898794046299167,
+            7.049264448453513,
+            0,
+            -0.3891291685677146,
+            0.6072357222049973
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8370857464319645,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 19.47726496237914,
+              "y": 104.82949481583253
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.850684128754047,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 188.5445799233287,
+              "y": 196.46511642520204
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.89487802045997,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 338.9361673611392,
+              "y": 273.70120332610355
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8925065680879554,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 267.85553270059296,
+              "y": 119.64359404533592
+            }
+          },
+          "quiet": false,
+          "renders": 16,
+          "selected": "facet",
+          "touring": false,
+          "viewport": {
+            "height": 360,
+            "width": 341
+          },
+          "yaw": 26
+        }
+      },
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "boundary",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 0,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 53.63268102998012,
+              "y": 127.71725203972794
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 53.63268102998012,
+              "y": 127.71725203972794
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 0,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 170.5,
+              "y": 193.42017059942813
+            },
+            "expected": {
+              "depth": 0.8489984591679506,
+              "x": 170.5,
+              "y": 193.42017059942813
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 280.0631115343936,
+              "y": 125.2184442328032
+            },
+            "expected": {
+              "depth": 0.8749999999999999,
+              "x": 280.0631115343936,
+              "y": 125.2184442328032
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 785.591152473789,
+              "y": 149.24544237631056
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 785.591152473789,
+              "y": 149.24544237631056
+            },
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 0,
+            "world": [
+              10,
+              0.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            2.1645436450690516,
+            0,
+            0,
+            0,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            0,
+            0,
+            -1.0338983050847457,
+            -1,
+            0,
+            0,
+            -1.0169491525423728,
+            0
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 53.63268102998012,
+              "y": 127.71725203972794
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 170.5,
+              "y": 193.42017059942813
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 785.591152473789,
+              "y": 149.24544237631056
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 280.0631115343936,
+              "y": 125.2184442328032
+            }
+          },
+          "quiet": false,
+          "renders": 17,
+          "selected": "probe",
+          "touring": false,
+          "viewport": {
+            "height": 360,
+            "width": 341
+          },
+          "yaw": 0
+        }
+      },
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "behind",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 0,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 53.63268102998012,
+              "y": 127.71725203972794
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 53.63268102998012,
+              "y": 127.71725203972794
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 0,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 170.5,
+              "y": 193.42017059942813
+            },
+            "expected": {
+              "depth": 0.8489984591679506,
+              "x": 170.5,
+              "y": 193.42017059942813
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 280.0631115343936,
+              "y": 125.2184442328032
+            },
+            "expected": {
+              "depth": 0.8749999999999999,
+              "x": 280.0631115343936,
+              "y": 125.2184442328032
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": true,
+              "depth": null,
+              "inFrustum": false,
+              "projectable": false,
+              "x": null,
+              "y": null
+            },
+            "expected": null,
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": null,
+            "world": [
+              0,
+              0.5,
+              3
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            2.1645436450690516,
+            0,
+            0,
+            0,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            0,
+            0,
+            -1.0338983050847457,
+            -1,
+            0,
+            0,
+            -1.0169491525423728,
+            0
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 53.63268102998012,
+              "y": 127.71725203972794
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 170.5,
+              "y": 193.42017059942813
+            },
+            "probe": {
+              "behindCamera": true,
+              "depth": null,
+              "inFrustum": false,
+              "projectable": false,
+              "x": null,
+              "y": null
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 280.0631115343936,
+              "y": 125.2184442328032
+            }
+          },
+          "quiet": false,
+          "renders": 18,
+          "selected": "probe",
+          "touring": false,
+          "viewport": {
+            "height": 360,
+            "width": 341
+          },
+          "yaw": 0
+        }
+      },
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "scene",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 1.1368683772161603e-13,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8780132334935208,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 99.29634200242258,
+              "y": 166.87401951161138
+            },
+            "expected": {
+              "depth": 0.8780132334935207,
+              "x": 99.2963420024226,
+              "y": 166.87401951161138
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 2.842170943040401e-14,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.84964732919773,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 218.34248846658508,
+              "y": 244.62029720093278
+            },
+            "expected": {
+              "depth": 0.84964732919773,
+              "x": 218.3424884665851,
+              "y": 244.62029720093278
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 2.842170943040401e-14,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8603809959634081,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 384.2703295576136,
+              "y": 152.02778393570708
+            },
+            "expected": {
+              "depth": 0.8603809959634081,
+              "x": 384.2703295576137,
+              "y": 152.02778393570708
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 1.1368683772161603e-13,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8373137571701933,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 490.2556984614165,
+              "y": 363.0750531445894
+            },
+            "expected": {
+              "depth": 0.8373137571701931,
+              "x": 490.2556984614165,
+              "y": 363.0750531445894
+            },
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              3,
+              -1.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            1.9511965407070513,
+            0,
+            -0.2849809949972364,
+            -0.27563735581699916,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            -0.5594966047562949,
+            0,
+            -0.993846838173516,
+            -0.9612616959383189,
+            -3.35697962853777,
+            0,
+            -0.7766403510749952,
+            0.23242982437008664
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8780132334935208,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 99.29634200242258,
+              "y": 166.87401951161138
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.84964732919773,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 218.34248846658508,
+              "y": 244.62029720093278
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.8373137571701933,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 490.2556984614165,
+              "y": 363.0750531445894
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8603809959634081,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 384.2703295576136,
+              "y": 152.02778393570708
+            }
+          },
+          "quiet": false,
+          "renders": 21,
+          "selected": "facet",
+          "touring": false,
+          "viewport": {
+            "height": 455.40625,
+            "width": 460
+          },
+          "yaw": -16
+        }
+      },
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "parallax",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 7.815970093361102e-14,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8370857464319645,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 38.953618254926354,
+              "y": 132.61113089853538
+            },
+            "expected": {
+              "depth": 0.8370857464319647,
+              "x": 38.953618254926276,
+              "y": 132.61113089853538
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 7.815970093361102e-14,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.850684128754047,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 252.82670687696785,
+              "y": 248.5317831305963
+            },
+            "expected": {
+              "depth": 0.850684128754047,
+              "x": 252.82670687696785,
+              "y": 248.5317831305963
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8925065680879554,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 353.15643906647057,
+              "y": 151.3512236130799
+            },
+            "expected": {
+              "depth": 0.8925065680879556,
+              "x": 353.15643906647057,
+              "y": 151.3512236130799
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.89487802045997,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 443.0746759508578,
+              "y": 346.2367739645232
+            },
+            "expected": {
+              "depth": 0.8948780204599702,
+              "x": 443.0746759508578,
+              "y": 346.2367739645232
+            },
+            "id": "probe",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              3,
+              -1.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 43,
+          "matrix": [
+            2.258935399782627,
+            0,
+            0.45323118566328335,
+            0.4383711467890774,
+            0,
+            2.5386478956643077,
+            0,
+            0,
+            1.1017564099390396,
+            0,
+            -0.9292616410889692,
+            -0.898794046299167,
+            6.610538459634238,
+            0,
+            -0.3891291685677146,
+            0.6072357222049973
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8370857464319645,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 38.953618254926354,
+              "y": 132.61113089853538
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.850684128754047,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 252.82670687696785,
+              "y": 248.5317831305963
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.89487802045997,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 443.0746759508578,
+              "y": 346.2367739645232
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8925065680879554,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 353.15643906647057,
+              "y": 151.3512236130799
+            }
+          },
+          "quiet": false,
+          "renders": 22,
+          "selected": "facet",
+          "touring": false,
+          "viewport": {
+            "height": 455.40625,
+            "width": 460
+          },
+          "yaw": 26
+        }
+      },
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "boundary",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 0,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 82.16081255641497,
+              "y": 161.5645411436593
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 82.16081255641497,
+              "y": 161.5645411436593
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 0,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 230,
+              "y": 244.6798737973495
+            },
+            "expected": {
+              "depth": 0.8489984591679506,
+              "x": 230,
+              "y": 244.6798737973495
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 368.59923822836095,
+              "y": 158.40350588581953
+            },
+            "expected": {
+              "depth": 0.8749999999999999,
+              "x": 368.59923822836095,
+              "y": 158.40350588581953
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 1008.1009865451844,
+              "y": 188.7980756727408
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 1008.1009865451844,
+              "y": 188.7980756727408
+            },
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 0,
+            "world": [
+              10,
+              0.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            2.029828660552655,
+            0,
+            0,
+            0,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            0,
+            0,
+            -1.0338983050847457,
+            -1,
+            0,
+            0,
+            -1.0169491525423728,
+            0
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 82.16081255641497,
+              "y": 161.5645411436593
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 230,
+              "y": 244.6798737973495
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 1008.1009865451844,
+              "y": 188.7980756727408
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 368.59923822836095,
+              "y": 158.40350588581953
+            }
+          },
+          "quiet": false,
+          "renders": 23,
+          "selected": "probe",
+          "touring": false,
+          "viewport": {
+            "height": 455.40625,
+            "width": 460
+          },
+          "yaw": 0
+        }
+      },
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "behind",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 0,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 82.16081255641497,
+              "y": 161.5645411436593
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 82.16081255641497,
+              "y": 161.5645411436593
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 0,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 230,
+              "y": 244.6798737973495
+            },
+            "expected": {
+              "depth": 0.8489984591679506,
+              "x": 230,
+              "y": 244.6798737973495
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 368.59923822836095,
+              "y": 158.40350588581953
+            },
+            "expected": {
+              "depth": 0.8749999999999999,
+              "x": 368.59923822836095,
+              "y": 158.40350588581953
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": true,
+              "depth": null,
+              "inFrustum": false,
+              "projectable": false,
+              "x": null,
+              "y": null
+            },
+            "expected": null,
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": null,
+            "world": [
+              0,
+              0.5,
+              3
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            2.029828660552655,
+            0,
+            0,
+            0,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            0,
+            0,
+            -1.0338983050847457,
+            -1,
+            0,
+            0,
+            -1.0169491525423728,
+            0
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 82.16081255641497,
+              "y": 161.5645411436593
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 230,
+              "y": 244.6798737973495
+            },
+            "probe": {
+              "behindCamera": true,
+              "depth": null,
+              "inFrustum": false,
+              "projectable": false,
+              "x": null,
+              "y": null
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 368.59923822836095,
+              "y": 158.40350588581953
+            }
+          },
+          "quiet": false,
+          "renders": 24,
+          "selected": "probe",
+          "touring": false,
+          "viewport": {
+            "height": 455.40625,
+            "width": 460
+          },
+          "yaw": 0
+        }
+      },
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "scene",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 2.220446049250313e-16,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8780132334935208,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 166.5169909941269,
+              "y": 129.56697528126554
+            },
+            "expected": {
+              "depth": 0.8780132334935207,
+              "x": 166.5169909941269,
+              "y": 129.56697528126554
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 1.1102230246251565e-16,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.84964732919773,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 258.94868983733,
+              "y": 189.93197439295645
+            },
+            "expected": {
+              "depth": 0.84964732919773,
+              "x": 258.94868983733,
+              "y": 189.93197439295645
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8603809959634081,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 387.7810182491182,
+              "y": 118.03982537792669
+            },
+            "expected": {
+              "depth": 0.8603809959634081,
+              "x": 387.7810182491182,
+              "y": 118.03982537792669
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8373137571701933,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 470.07186084477644,
+              "y": 281.90449642016256
+            },
+            "expected": {
+              "depth": 0.8373137571701931,
+              "x": 470.07186084477644,
+              "y": 281.90449642016256
+            },
+            "id": "probe",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              3,
+              -1.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            1.3001685383629782,
+            0,
+            -0.2849809949972364,
+            -0.27563735581699916,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            -0.3728173290843576,
+            0,
+            -0.993846838173516,
+            -0.9612616959383189,
+            -2.236903974506146,
+            0,
+            -0.7766403510749952,
+            0.23242982437008664
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8780132334935208,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 166.5169909941269,
+              "y": 129.56697528126554
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.84964732919773,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 258.94868983733,
+              "y": 189.93197439295645
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.8373137571701933,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 470.07186084477644,
+              "y": 281.90449642016256
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8603809959634081,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 387.7810182491182,
+              "y": 118.03982537792669
+            }
+          },
+          "quiet": false,
+          "renders": 27,
+          "selected": "facet",
+          "touring": false,
+          "viewport": {
+            "height": 353.59375,
+            "width": 536
+          },
+          "yaw": -16
+        }
+      },
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "parallax",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 5.684341886080802e-14,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8370857464319645,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 119.6647355077534,
+              "y": 102.96403939593273
+            },
+            "expected": {
+              "depth": 0.8370857464319647,
+              "x": 119.6647355077534,
+              "y": 102.96403939593273
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 1.1102230246251565e-16,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.850684128754047,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 285.72347411740145,
+              "y": 192.96899239159384
+            },
+            "expected": {
+              "depth": 0.850684128754047,
+              "x": 285.72347411740145,
+              "y": 192.96899239159384
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8925065680879554,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 363.6230774745841,
+              "y": 117.51451967213332
+            },
+            "expected": {
+              "depth": 0.8925065680879556,
+              "x": 363.62307747458414,
+              "y": 117.51451967213332
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 5.684341886080802e-14,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.89487802045997,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 433.4388223690356,
+              "y": 268.83065239885957
+            },
+            "expected": {
+              "depth": 0.8948780204599702,
+              "x": 433.4388223690356,
+              "y": 268.83065239885957
+            },
+            "id": "probe",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              3,
+              -1.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 43,
+          "matrix": [
+            1.5052285485948502,
+            0,
+            0.45323118566328335,
+            0.4383711467890774,
+            0,
+            2.5386478956643077,
+            0,
+            0,
+            0.7341490163894008,
+            0,
+            -0.9292616410889692,
+            -0.898794046299167,
+            4.404894098336404,
+            0,
+            -0.3891291685677146,
+            0.6072357222049973
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8370857464319645,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 119.6647355077534,
+              "y": 102.96403939593273
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.850684128754047,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 285.72347411740145,
+              "y": 192.96899239159384
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.89487802045997,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 433.4388223690356,
+              "y": 268.83065239885957
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8925065680879554,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 363.6230774745841,
+              "y": 117.51451967213332
+            }
+          },
+          "quiet": false,
+          "renders": 28,
+          "selected": "facet",
+          "touring": false,
+          "viewport": {
+            "height": 353.59375,
+            "width": 536
+          },
+          "yaw": 26
+        }
+      },
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "boundary",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 0,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 153.2123512026237,
+              "y": 125.44450580117375
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 153.2123512026237,
+              "y": 125.44450580117375
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 0,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 268,
+              "y": 189.97823179969873
+            },
+            "expected": {
+              "depth": 0.8489984591679506,
+              "x": 268,
+              "y": 189.97823179969873
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 375.61342074754026,
+              "y": 122.99016462622987
+            },
+            "expected": {
+              "depth": 0.8749999999999999,
+              "x": 375.61342074754026,
+              "y": 122.99016462622987
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 872.1455199861912,
+              "y": 146.58959900069044
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 872.1455199861912,
+              "y": 146.58959900069044
+            },
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 0,
+            "world": [
+              10,
+              0.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            1.3525645969840099,
+            0,
+            0,
+            0,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            0,
+            0,
+            -1.0338983050847457,
+            -1,
+            0,
+            0,
+            -1.0169491525423728,
+            0
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 153.2123512026237,
+              "y": 125.44450580117375
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 268,
+              "y": 189.97823179969873
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 872.1455199861912,
+              "y": 146.58959900069044
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 375.61342074754026,
+              "y": 122.99016462622987
+            }
+          },
+          "quiet": false,
+          "renders": 29,
+          "selected": "probe",
+          "touring": false,
+          "viewport": {
+            "height": 353.59375,
+            "width": 536
+          },
+          "yaw": 0
+        }
+      },
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "behind",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 0,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 153.2123512026237,
+              "y": 125.44450580117375
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 153.2123512026237,
+              "y": 125.44450580117375
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 0,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 268,
+              "y": 189.97823179969873
+            },
+            "expected": {
+              "depth": 0.8489984591679506,
+              "x": 268,
+              "y": 189.97823179969873
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 375.61342074754026,
+              "y": 122.99016462622987
+            },
+            "expected": {
+              "depth": 0.8749999999999999,
+              "x": 375.61342074754026,
+              "y": 122.99016462622987
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": true,
+              "depth": null,
+              "inFrustum": false,
+              "projectable": false,
+              "x": null,
+              "y": null
+            },
+            "expected": null,
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": null,
+            "world": [
+              0,
+              0.5,
+              3
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            1.3525645969840099,
+            0,
+            0,
+            0,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            0,
+            0,
+            -1.0338983050847457,
+            -1,
+            0,
+            0,
+            -1.0169491525423728,
+            0
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 153.2123512026237,
+              "y": 125.44450580117375
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 268,
+              "y": 189.97823179969873
+            },
+            "probe": {
+              "behindCamera": true,
+              "depth": null,
+              "inFrustum": false,
+              "projectable": false,
+              "x": null,
+              "y": null
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 375.61342074754026,
+              "y": 122.99016462622987
+            }
+          },
+          "quiet": false,
+          "renders": 30,
+          "selected": "probe",
+          "touring": false,
+          "viewport": {
+            "height": 353.59375,
+            "width": 536
+          },
+          "yaw": 0
+        }
+      },
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "scene",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 2.220446049250313e-16,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8780132334935208,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 382.18975212429973,
+              "y": 124.87783021916405
+            },
+            "expected": {
+              "depth": 0.8780132334935207,
+              "x": 382.18975212429973,
+              "y": 124.87783021916405
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 1.1102230246251565e-16,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.84964732919773,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 471.27626487149826,
+              "y": 183.05816586322462
+            },
+            "expected": {
+              "depth": 0.84964732919773,
+              "x": 471.27626487149826,
+              "y": 183.05816586322462
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8603809959634081,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 595.4460357503984,
+              "y": 113.76785821113386
+            },
+            "expected": {
+              "depth": 0.8603809959634081,
+              "x": 595.4460357503984,
+              "y": 113.76785821113386
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8373137571701933,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 674.7586989343977,
+              "y": 271.7021198152967
+            },
+            "expected": {
+              "depth": 0.8373137571701931,
+              "x": 674.7586989343977,
+              "y": 271.7021198152967
+            },
+            "id": "probe",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              3,
+              -1.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            0.699655468900331,
+            0,
+            -0.2849809949972364,
+            -0.27563735581699916,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            -0.20062297732808504,
+            0,
+            -0.993846838173516,
+            -0.9612616959383189,
+            -1.2037378639685103,
+            0,
+            -0.7766403510749952,
+            0.23242982437008664
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8780132334935208,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 382.18975212429973,
+              "y": 124.87783021916405
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.84964732919773,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 471.27626487149826,
+              "y": 183.05816586322462
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.8373137571701933,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 674.7586989343977,
+              "y": 271.7021198152967
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8603809959634081,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 595.4460357503984,
+              "y": 113.76785821113386
+            }
+          },
+          "quiet": false,
+          "renders": 33,
+          "selected": "facet",
+          "touring": false,
+          "viewport": {
+            "height": 340.796875,
+            "width": 960
+          },
+          "yaw": -16
+        }
+      },
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "parallax",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 1.1368683772161603e-13,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8370857464319645,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 337.0331217922939,
+              "y": 99.2376784474012
+            },
+            "expected": {
+              "depth": 0.8370857464319647,
+              "x": 337.03312179229385,
+              "y": 99.2376784474012
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 5.684341886080802e-14,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.850684128754047,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 497.08204569043943,
+              "y": 185.98527145616674
+            },
+            "expected": {
+              "depth": 0.850684128754047,
+              "x": 497.0820456904393,
+              "y": 185.98527145616674
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 1.1368683772161603e-13,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8925065680879554,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 572.1623925231178,
+              "y": 113.26156379005302
+            },
+            "expected": {
+              "depth": 0.8925065680879556,
+              "x": 572.1623925231178,
+              "y": 113.26156379005302
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.89487802045997,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 639.45144298237,
+              "y": 259.10142993687697
+            },
+            "expected": {
+              "depth": 0.8948780204599702,
+              "x": 639.45144298237,
+              "y": 259.10142993687697
+            },
+            "id": "probe",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 2.220446049250313e-16,
+            "world": [
+              3,
+              -1.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 43,
+          "matrix": [
+            0.8100037455876978,
+            0,
+            0.45323118566328335,
+            0.4383711467890774,
+            0,
+            2.5386478956643077,
+            0,
+            0,
+            0.3950652235835313,
+            0,
+            -0.9292616410889692,
+            -0.898794046299167,
+            2.370391341501188,
+            0,
+            -0.3891291685677146,
+            0.6072357222049973
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8370857464319645,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 337.0331217922939,
+              "y": 99.2376784474012
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.850684128754047,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 497.08204569043943,
+              "y": 185.98527145616674
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.89487802045997,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 639.45144298237,
+              "y": 259.10142993687697
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8925065680879554,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 572.1623925231178,
+              "y": 113.26156379005302
+            }
+          },
+          "quiet": false,
+          "renders": 34,
+          "selected": "facet",
+          "touring": false,
+          "viewport": {
+            "height": 340.796875,
+            "width": 960
+          },
+          "yaw": 26
+        }
+      },
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "boundary",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 0,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 369.36661918163617,
+              "y": 120.90455660757405
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 369.36661918163617,
+              "y": 120.90455660757405
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 0,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 480,
+              "y": 183.1027491729222
+            },
+            "expected": {
+              "depth": 0.8489984591679506,
+              "x": 480,
+              "y": 183.1027491729222
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 583.7187945172161,
+              "y": 118.53904024139194
+            },
+            "expected": {
+              "depth": 0.8749999999999999,
+              "x": 583.7187945172161,
+              "y": 118.53904024139194
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 1062.2809516755992,
+              "y": 141.28438991622002
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 1062.2809516755992,
+              "y": 141.28438991622002
+            },
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": 0,
+            "world": [
+              10,
+              0.5,
+              -6
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            0.727851189594499,
+            0,
+            0,
+            0,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            0,
+            0,
+            -1.0338983050847457,
+            -1,
+            0,
+            0,
+            -1.0169491525423728,
+            0
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 369.36661918163617,
+              "y": 120.90455660757405
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 480,
+              "y": 183.1027491729222
+            },
+            "probe": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": false,
+              "projectable": true,
+              "x": 1062.2809516755992,
+              "y": 141.28438991622002
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 583.7187945172161,
+              "y": 118.53904024139194
+            }
+          },
+          "quiet": false,
+          "renders": 35,
+          "selected": "probe",
+          "touring": false,
+          "viewport": {
+            "height": 340.796875,
+            "width": 960
+          },
+          "yaw": 0
+        }
+      },
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    },
+    {
+      "clippedLabels": [],
+      "labelTags": [
+        {
+          "hidden": false,
+          "id": "label-facet",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-plate",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": false,
+          "id": "label-spire",
+          "role": null,
+          "tag": "DIV"
+        },
+        {
+          "hidden": true,
+          "id": "label-probe",
+          "role": null,
+          "tag": "DIV"
+        }
+      ],
+      "pageOverflow": false,
+      "preset": "behind",
+      "reference": {
+        "decorativeSVG": "true",
+        "maxDifference": 0,
+        "occlusionDisclosure": "Frustum membership does not test occlusion. These labels can overlap geometry. The fixed inspector stays available.",
+        "results": [
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 369.36661918163617,
+              "y": 120.90455660757405
+            },
+            "expected": {
+              "depth": 0.8644067796610169,
+              "x": 369.36661918163617,
+              "y": 120.90455660757405
+            },
+            "id": "facet",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "01 / CERAMICCut facet",
+            "maxDifference": 0,
+            "world": [
+              -1.9,
+              0.85,
+              -6
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 480,
+              "y": 183.1027491729222
+            },
+            "expected": {
+              "depth": 0.8489984591679506,
+              "x": 480,
+              "y": 183.1027491729222
+            },
+            "id": "plate",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "02 / MATERIALGlass plane",
+            "maxDifference": 0,
+            "world": [
+              0,
+              -0.2,
+              -5.5
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 583.7187945172161,
+              "y": 118.53904024139194
+            },
+            "expected": {
+              "depth": 0.8749999999999999,
+              "x": 583.7187945172161,
+              "y": 118.53904024139194
+            },
+            "id": "spire",
+            "labelHidden": false,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "03 / STRUCTUREOpen spire",
+            "maxDifference": 0,
+            "world": [
+              1.9,
+              0.95,
+              -6.4
+            ]
+          },
+          {
+            "actual": {
+              "behindCamera": true,
+              "depth": null,
+              "inFrustum": false,
+              "projectable": false,
+              "x": null,
+              "y": null
+            },
+            "expected": null,
+            "id": "probe",
+            "labelHidden": true,
+            "labelInteractive": false,
+            "labelPlainHTML": true,
+            "labelText": "04 / TEST POINTReference anchor",
+            "maxDifference": null,
+            "world": [
+              0,
+              0.5,
+              3
+            ]
+          }
+        ],
+        "state": {
+          "fov": 52,
+          "matrix": [
+            0.727851189594499,
+            0,
+            0,
+            0,
+            0,
+            2.050303841579296,
+            0,
+            0,
+            0,
+            0,
+            -1.0338983050847457,
+            -1,
+            0,
+            0,
+            -1.0169491525423728,
+            0
+          ],
+          "points": {
+            "facet": {
+              "behindCamera": false,
+              "depth": 0.8644067796610169,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 369.36661918163617,
+              "y": 120.90455660757405
+            },
+            "plate": {
+              "behindCamera": false,
+              "depth": 0.8489984591679506,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 480,
+              "y": 183.1027491729222
+            },
+            "probe": {
+              "behindCamera": true,
+              "depth": null,
+              "inFrustum": false,
+              "projectable": false,
+              "x": null,
+              "y": null
+            },
+            "spire": {
+              "behindCamera": false,
+              "depth": 0.8749999999999999,
+              "inFrustum": true,
+              "projectable": true,
+              "x": 583.7187945172161,
+              "y": 118.53904024139194
+            }
+          },
+          "quiet": false,
+          "renders": 36,
+          "selected": "probe",
+          "touring": false,
+          "viewport": {
+            "height": 340.796875,
+            "width": 960
+          },
+          "yaw": 0
+        }
+      },
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "svgHidden": "true"
+    }
+  ]
+}

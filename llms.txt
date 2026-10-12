@@ -131,3 +131,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Finite visual sequencing](docs/SEQUENCE.md): bounded native tracks, shared time, pause/seek/cancel and owned-style restoration without semantic callbacks.
 - [Offbeat](https://wpsydev.github.io/liquid-glass-kit/sequence/): six original shapes, actual native animation controls and the same editable draft.
+
+- [Spatial HTML anchors](docs/PROJECT_ANCHOR.md): pure explicit world/clip/CSS-pixel math, selectable depth conventions and truthful projection/frustum facts.
+- [Parallax](https://wpsydev.github.io/liquid-glass-kit/anchors/): original geometry, ordinary HTML labels, native camera controls and independent screen-position evidence.

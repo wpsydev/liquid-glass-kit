@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.47.0-preview.1
+
+- Add pure world-to-clip-to-CSS-pixel projection for host matrices and ordinary HTML labels, with explicit depth conventions and truthful frustum/behind-camera results.
+- Leave renderer, occlusion, collision, focus and visibility policy host-owned with no required 3D engine.
+- Add original Parallax, independent math and actual screen-position checks, scoped pure/host benchmarks and twelve-second original swing-jazz film. Fix44px footer target, retained tour preferences and optimized CSS Solid fallback ordering.
+
 ## 0.46.0-preview.1
 
 - Add optional bounded native visual sequencing with shared timing, finite play/pause/seek/cancel and authored transform/priority restoration.

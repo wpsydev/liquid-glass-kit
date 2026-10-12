@@ -1,0 +1,6 @@
+{
+  "scope": "Optional standalone projection math only, no renderer/DOM/CSS/default import growth",
+  "bytes": 2203,
+  "gzipBytes": 1055,
+  "sourceSHA256": "4e34a7b4cc54e97fb3c14985192aab67ef78d02129d1ee8be6f9e9bb518d1341"
+}

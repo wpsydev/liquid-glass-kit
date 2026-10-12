@@ -556,3 +556,11 @@ Integrated npm run check passed1,176tests/54files including queued prototypes. n
 Original915433-byte12s960square360frame chamberpizzicato126seed49 SHA2568b8e5f382713f2849cb10a89e8947169b4dcc7a1acbcb1aac7d9b35a3768db36. Actualfinite tourendsquietfinished/noeffects; disclosedcameraframing/323unique frames/three reviews/full decodepassed.
 
 Integrated npm run check passed1,176tests/54files including queued prototypes. npm pack --dry-run passed201members excluding future entries. Published-scope CI follows release.
+
+## 0.47 spatial anchors (2026-10-12)
+
+16focused/20desktopresponsive+20activelypainted screenchecks44/16/nopageoverflow/labelclip. Independentreferencecamera maxerror1.14e−13/math actualSVGdotposition<.000043px. NativeyawArrowRight−16→−15/FOVArrowLeft52→51/samefocus/input; incompletedraft preserveslastvalidpoint; boundarypositiveWfiniteunclamped/behindnull/HTMLlabelidentity. QuietSolidtourchoicespreserved/SolidbuiltCSSunprefixednoneafterorderingfix/footer44. Frustumnotocclusion/phonesSafariATunverified. Optional1055gzip;separatepure1024projection2.1msmedian/hostpose.425msmedian noGPUFPSspeedup.
+
+Original764408-byte12s960square360frame swingjazz138upright/brushes/woodreed/vibraphoneseed47 SHA2564559a72eb5ab805bb3a5487581fc7a2153dd2c63d1edfb38a85f483a0ae4e7ab. Actualfiniteposes/disclosedcameracontrolbottom834abovecaption882/newmelodyprogression/full decode/fourframespass.
+
+Integrated npm run check passed1,176tests/54files including queued prototypes. npm pack --dry-run passed204members excluding future entries. Published-scope CI follows release.
