@@ -122,3 +122,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Reversible actions](docs/REVERSIBLE_ACTION.md): actual host acknowledgments/opaque receipts, persistent Undo default, composed deadline pauses and truthful stale outcomes.
 - [Kept](https://wpsydev.github.io/liquid-glass-kit/undo/): real local archive/Undo, same original item and independent history Restore.
+
+- [Precision native number input](docs/NUMBER_INPUT.md): actual native drafts/validity/forms, optional dedicated scrub/tap controls and explicit supported-precision boundaries.
+- [Hinge](https://wpsydev.github.io/liquid-glass-kit/scrub/): real local material settings after valid Commit; native editing and disclosed synthetic scrub tour.

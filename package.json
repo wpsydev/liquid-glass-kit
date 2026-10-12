@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.43.0-preview.1",
+  "version": "0.44.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -245,7 +245,12 @@
     "./reversible-action": {
       "types": "./dist/reversible-action.d.ts",
       "import": "./dist/reversible-action.js"
-    }
+    },
+    "./number-input": {
+      "types": "./dist/number-input.d.ts",
+      "import": "./dist/number-input.js"
+    },
+    "./number-input.css": "./dist/number-input.css"
   },
   "scripts": {
     "build": "node scripts/clean.mjs && node scripts/compile-library.mjs && node scripts/build.mjs",

@@ -1,0 +1,95 @@
+{
+  "boundary": "Host changes gap constraint to7decimalplaces; native ArrowUp remains browser-owned and helper stepping declines",
+  "focus": "gap",
+  "state": {
+    "cancelNotifications": 0,
+    "commitNotifications": 1,
+    "draftNotifications": 2,
+    "fields": {
+      "blur": {
+        "canScrub": true,
+        "canStep": true,
+        "empty": false,
+        "max": "32",
+        "min": "0",
+        "precisionSupported": true,
+        "raw": "12",
+        "scrubbing": false,
+        "step": "0.5",
+        "valid": true,
+        "validationMessage": "",
+        "validity": {
+          "badInput": false,
+          "customError": false,
+          "rangeOverflow": false,
+          "rangeUnderflow": false,
+          "stepMismatch": false,
+          "valueMissing": false
+        },
+        "value": 12
+      },
+      "gap": {
+        "canScrub": false,
+        "canStep": false,
+        "empty": false,
+        "max": "48",
+        "min": "0",
+        "precisionSupported": false,
+        "raw": "12.0000001",
+        "scrubbing": false,
+        "step": "0.0000001",
+        "valid": true,
+        "validationMessage": "",
+        "validity": {
+          "badInput": false,
+          "customError": false,
+          "rangeOverflow": false,
+          "rangeUnderflow": false,
+          "stepMismatch": false,
+          "valueMissing": false
+        },
+        "value": 12.0000001
+      },
+      "radius": {
+        "canScrub": true,
+        "canStep": true,
+        "empty": false,
+        "max": "48",
+        "min": "0",
+        "precisionSupported": true,
+        "raw": "20",
+        "scrubbing": false,
+        "step": "2",
+        "valid": true,
+        "validationMessage": "",
+        "validity": {
+          "badInput": false,
+          "customError": false,
+          "rangeOverflow": false,
+          "rangeUnderflow": false,
+          "stepMismatch": false,
+          "valueMissing": false
+        },
+        "value": 20
+      }
+    },
+    "focus": "gap",
+    "gapRule": false,
+    "lastSource": "gap / commit / change",
+    "modifiers": false,
+    "normalize": false,
+    "object": {
+      "blur": 12,
+      "gap": 12.0000001,
+      "id": "surface-01",
+      "radius": 20
+    },
+    "pendingTourSteps": 0,
+    "quiet": false,
+    "revision": 1,
+    "snapshot": null,
+    "solid": false,
+    "tourStep": ""
+  }
+}
+

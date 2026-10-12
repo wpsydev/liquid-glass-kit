@@ -1,0 +1,12 @@
+{
+  "observedAtUtc": "2026-10-12T05:10:33.983Z",
+  "target": "es2022",
+  "format": "standalone minified IIFE",
+  "jsRawBytes": 10901,
+  "jsGzipBytes": 4284,
+  "cssRawBytes": 913,
+  "cssGzipBytes": 403,
+  "sourceSha256": "45b95f70704c6386d02136379938949caffbde29a504cd89fb04eff840235598",
+  "cssSha256": "42ac7c5ebc5d806393b467fe580d93f915665136cbdd4d026a0c0d081959978f",
+  "scope": "Optional number input controller including numeric/lifecycle helper code. CSS excludes prerequisite material.css. No parse/render/GPU/FPS, financial or comparative speedup claim."
+}

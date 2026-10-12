@@ -1,0 +1,94 @@
+{
+  "allListenersAdded": 5617,
+  "allListenersRemoved": 5617,
+  "allObserversConstructed": 1,
+  "allObserversDisconnected": 1,
+  "idle250msRequestedFrames": 0,
+  "observedAtUtc": "2026-10-12T05:11:17.424Z",
+  "postDestroy250msRequestedFrames": 0,
+  "scope": "Actual connected native inputs. Controller work includes native step/validity/events/class/style, no fake geometry. Packet burst coalescence and 60ms pacing are not GPU/frame-time/FPS or physical input speed measurements. No financial or comparative speedup claim.",
+  "synchronous": {
+    "batchesMs": [
+      36,
+      30.300000071525574,
+      25.399999976158142,
+      25.600000023841858,
+      24.199999928474426
+    ],
+    "cancels": 0,
+    "commits": 2400,
+    "computedStyleReads": 0,
+    "connectedSequences": 800,
+    "inputs": 2400,
+    "listenersAdded": 5600,
+    "listenersRemoved": 5600,
+    "medianBatchMs": 25.600000023841858,
+    "observersConstructed": 0,
+    "observersDisconnected": 0,
+    "rectReads": 0,
+    "requestedFrames": 0,
+    "sequencesPerBatch": 160
+  },
+  "syntheticPackets": {
+    "active": {
+      "frames": 1,
+      "inputs": 1,
+      "state": {
+        "canScrub": true,
+        "canStep": true,
+        "empty": false,
+        "precisionSupported": true,
+        "raw": "26",
+        "scrubbing": true,
+        "valid": true,
+        "validity": {
+          "badInput": false,
+          "customError": false,
+          "rangeOverflow": false,
+          "rangeUnderflow": false,
+          "stepMismatch": false,
+          "valueMissing": false
+        },
+        "value": 26
+      }
+    },
+    "boundary": "Script PointerEvent packets; native synthetic pointer capture may decline, scoped document listeners are exercised; no physical drag/capture/phone claim",
+    "elapsedIncludingDeliberate60msWait": 64,
+    "movePackets": 100,
+    "queued": {
+      "frames": 1,
+      "inputs": 0,
+      "raw": "20"
+    },
+    "released": {
+      "cancelledFrames": 1,
+      "commits": 1,
+      "computedStyleReads": 2,
+      "frames": 2,
+      "inputs": 1,
+      "observersConstructed": 1,
+      "observersDisconnected": 1,
+      "rectReads": 0,
+      "state": {
+        "canScrub": true,
+        "canStep": true,
+        "empty": false,
+        "precisionSupported": true,
+        "raw": "26",
+        "scrubbing": false,
+        "valid": true,
+        "validity": {
+          "badInput": false,
+          "customError": false,
+          "rangeOverflow": false,
+          "rangeUnderflow": false,
+          "stepMismatch": false,
+          "valueMissing": false
+        },
+        "value": 26
+      }
+    }
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36"
+}
+

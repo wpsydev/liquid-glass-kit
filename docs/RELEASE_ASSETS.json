@@ -1,14 +1,14 @@
 {
-  "version": "0.43.0-preview.1",
+  "version": "0.44.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/reversible-action-showcase.mp4",
-      "name": "liquid-glass-kept.mp4",
+      "path": "docs/campaign/assets/number-input-showcase.mp4",
+      "name": "liquid-glass-hinge.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/reversible-action-showcase.png",
-      "name": "liquid-glass-kept.png",
+      "path": "docs/campaign/assets/number-input-showcase.png",
+      "name": "liquid-glass-hinge.png",
       "type": "image/png"
     }
   ]

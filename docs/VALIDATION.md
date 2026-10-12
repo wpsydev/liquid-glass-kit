@@ -532,3 +532,11 @@ Integrated npm run check passed1,145tests/53files including unreleased prototype
 Optional2250gzip. Purebatchaverageconstructdestroy.002/synhostApplyUndo.008/ApplyCommit.004msmedian, excludesDOM/waits/asyncservice/painting, noFPS/speedup. Original791717-byte12s360frame acousticpop116nylon/handclaps/woodblockseed43 SHA2565fab2932c8af339251900581c98668b7a31b5241a2758f1128ba368b8d2d060d. Actualfiniteactions/finalnohostwaits/toursteps; newmelody/rhythm/progression, cameradensitydisclosed, controls≤865.73abovecaption882/full decode/fourframespass.
 
 Integrated npm run check passed1,145tests/53files including queued prototypes. npm pack --dry-run passed189members excluding future entries. Published-scope CI follows release.
+
+## 0.44 native number inputs (2026-10-12)
+
+27focused/80nativecases16states×5desktop320–1440sizes44targets/18fields/noflow. ActualArrowUp20→22/nativeconstraints/no customrole. Typed12.25 staysdraft/object12/stepMismatch; invalidsubmitnull; actualApply12.5/nativeRecordFormDataradius22blur12.5gap12intentrecord/submitterrecord. TypedminusbadInputDOMempty/nofakezero. Separate100syntheticmovepackets1RAF/write/releaseonce; cancellation/hostvalues/constraintchanges/modifiers backed, physicaldrag/capture/phones/Safari/ATunverified.7decimalhelperdeclines/nativeArrowUp12.0000001 works.
+
+Optional4284gzip/CSS403.800connectedlifecycles25.6/160median0syncRAF/style/rect5600listenersbalance; live5617listeners/oneobserverbalanced;250idle/destroy0RAF. No paintGPUFPSspeedupfinanceclaim. Original574935-byte12s960square360frame electrickeysdisco120seed58 SHA256c0c3fce46d32e2067b6cd599aebe00bf6a587b6cb269315d073ca9febda3d023. Actualstate/cameradensity/syntheticdragdisclosed/controlsbottom871abovecaption882/full decode/threeframespass.
+
+Integrated npm run check passed1,145tests/53files including queued prototypes. npm pack --dry-run passed193members excluding future entries. Published-scope CI follows release.

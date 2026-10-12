@@ -52,6 +52,7 @@ export default defineConfig({
         follow: resolve('site/follow/index.html'),
         table: resolve('site/table/index.html'),
         undo: resolve('site/undo/index.html'),
+        scrub: resolve('site/scrub/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),
         transitions: resolve('site/transitions/index.html'),

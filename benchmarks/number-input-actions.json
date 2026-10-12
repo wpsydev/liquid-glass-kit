@@ -1,0 +1,694 @@
+{
+  "raw": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-cc21db57-4793-4221-9d2d-eff4bb5ea923-mp4",
+    "tabId": "tab_4m",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-cc21db57-4793-4221-9d2d-eff4bb5ea923-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 241506,
+    "createdAt": "2026-10-12T05:16:34.478Z"
+  },
+  "tour": {
+    "completed": true,
+    "final": {
+      "cancelNotifications": 0,
+      "commitNotifications": 11,
+      "draftNotifications": 10,
+      "fields": {
+        "blur": {
+          "canScrub": true,
+          "canStep": true,
+          "empty": false,
+          "max": "32",
+          "min": "0",
+          "precisionSupported": true,
+          "raw": "12.5",
+          "scrubbing": false,
+          "step": "0.5",
+          "valid": true,
+          "validationMessage": "",
+          "validity": {
+            "badInput": false,
+            "customError": false,
+            "rangeOverflow": false,
+            "rangeUnderflow": false,
+            "stepMismatch": false,
+            "valueMissing": false
+          },
+          "value": 12.5
+        },
+        "gap": {
+          "canScrub": false,
+          "canStep": false,
+          "empty": false,
+          "max": "48",
+          "min": "0",
+          "precisionSupported": true,
+          "raw": "10.3",
+          "scrubbing": false,
+          "step": "any",
+          "valid": true,
+          "validationMessage": "",
+          "validity": {
+            "badInput": false,
+            "customError": false,
+            "rangeOverflow": false,
+            "rangeUnderflow": false,
+            "stepMismatch": false,
+            "valueMissing": false
+          },
+          "value": 10.3
+        },
+        "radius": {
+          "canScrub": true,
+          "canStep": true,
+          "empty": false,
+          "max": "48",
+          "min": "0",
+          "precisionSupported": true,
+          "raw": "32",
+          "scrubbing": false,
+          "step": "2",
+          "valid": true,
+          "validationMessage": "",
+          "validity": {
+            "badInput": false,
+            "customError": false,
+            "rangeOverflow": false,
+            "rangeUnderflow": false,
+            "stepMismatch": false,
+            "valueMissing": false
+          },
+          "value": 32
+        }
+      },
+      "focus": "BODY",
+      "gapRule": false,
+      "lastSource": "gap / commit / manual",
+      "modifiers": false,
+      "normalize": false,
+      "object": {
+        "blur": 12.5,
+        "gap": 10.3,
+        "id": "surface-01",
+        "radius": 32
+      },
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "revision": 6,
+      "snapshot": null,
+      "solid": false,
+      "tourStep": ""
+    },
+    "samples": [
+      {
+        "editorBottom": 850.078125,
+        "elapsedMs": 1204.6000000238419,
+        "pageWidth": 960,
+        "previewBottom": 870.84375,
+        "state": {
+          "cancelNotifications": 0,
+          "commitNotifications": 1,
+          "draftNotifications": 1,
+          "fields": {
+            "blur": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "32",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12",
+              "scrubbing": false,
+              "step": "0.5",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12
+            },
+            "gap": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12",
+              "scrubbing": false,
+              "step": "0.25",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12
+            },
+            "radius": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "24",
+              "scrubbing": false,
+              "step": "2",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 24
+            }
+          },
+          "focus": "BODY",
+          "gapRule": false,
+          "lastSource": "radius / commit / step",
+          "modifiers": false,
+          "normalize": false,
+          "object": {
+            "blur": 12,
+            "gap": 12,
+            "id": "surface-01",
+            "radius": 24
+          },
+          "pendingTourSteps": 10,
+          "quiet": false,
+          "revision": 1,
+          "snapshot": null,
+          "solid": false,
+          "tourStep": "native tap / actual radius"
+        },
+        "viewport": 960
+      },
+      {
+        "editorBottom": 850.078125,
+        "elapsedMs": 2605.899999976158,
+        "pageWidth": 960,
+        "previewBottom": 870.84375,
+        "state": {
+          "cancelNotifications": 0,
+          "commitNotifications": 3,
+          "draftNotifications": 3,
+          "fields": {
+            "blur": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "32",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12.5",
+              "scrubbing": false,
+              "step": "0.5",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12.5
+            },
+            "gap": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12",
+              "scrubbing": false,
+              "step": "0.25",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12
+            },
+            "radius": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "24",
+              "scrubbing": false,
+              "step": "2",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 24
+            }
+          },
+          "focus": "BODY",
+          "gapRule": false,
+          "lastSource": "blur / commit / manual",
+          "modifiers": false,
+          "normalize": false,
+          "object": {
+            "blur": 12.5,
+            "gap": 12,
+            "id": "surface-01",
+            "radius": 24
+          },
+          "pendingTourSteps": 8,
+          "quiet": false,
+          "revision": 2,
+          "snapshot": null,
+          "solid": false,
+          "tourStep": "explicit snap / native half-pixel grid"
+        },
+        "viewport": 960
+      },
+      {
+        "editorBottom": 850.078125,
+        "elapsedMs": 4708.699999928474,
+        "pageWidth": 960,
+        "previewBottom": 870.84375,
+        "state": {
+          "cancelNotifications": 0,
+          "commitNotifications": 5,
+          "draftNotifications": 5,
+          "fields": {
+            "blur": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "32",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12.5",
+              "scrubbing": false,
+              "step": "0.5",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12.5
+            },
+            "gap": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12",
+              "scrubbing": false,
+              "step": "0.25",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12
+            },
+            "radius": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "48",
+              "scrubbing": false,
+              "step": "2",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 48
+            }
+          },
+          "focus": "BODY",
+          "gapRule": false,
+          "lastSource": "radius / commit / manual",
+          "modifiers": false,
+          "normalize": false,
+          "object": {
+            "blur": 12.5,
+            "gap": 12,
+            "id": "surface-01",
+            "radius": 48
+          },
+          "pendingTourSteps": 6,
+          "quiet": false,
+          "revision": 3,
+          "snapshot": null,
+          "solid": false,
+          "tourStep": "explicit clamp / forty-eight"
+        },
+        "viewport": 960
+      },
+      {
+        "editorBottom": 866.671875,
+        "elapsedMs": 5912,
+        "pageWidth": 960,
+        "previewBottom": 870.84375,
+        "state": {
+          "cancelNotifications": 0,
+          "commitNotifications": 7,
+          "draftNotifications": 6,
+          "fields": {
+            "blur": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "32",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12.5",
+              "scrubbing": false,
+              "step": "0.5",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12.5
+            },
+            "gap": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12",
+              "scrubbing": false,
+              "step": "0.25",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12
+            },
+            "radius": {
+              "canScrub": false,
+              "canStep": true,
+              "empty": true,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "",
+              "scrubbing": false,
+              "step": "2",
+              "valid": false,
+              "validationMessage": "Please fill out this field.",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": true
+              },
+              "value": null
+            }
+          },
+          "focus": "BODY",
+          "gapRule": false,
+          "lastSource": "radius / commit / manual",
+          "modifiers": false,
+          "normalize": false,
+          "object": {
+            "blur": 12.5,
+            "gap": 12,
+            "id": "surface-01",
+            "radius": 48
+          },
+          "pendingTourSteps": 5,
+          "quiet": false,
+          "revision": 3,
+          "snapshot": null,
+          "solid": false,
+          "tourStep": "required blank / never invented zero"
+        },
+        "viewport": 960
+      },
+      {
+        "editorBottom": 850.078125,
+        "elapsedMs": 8517.899999976158,
+        "pageWidth": 960,
+        "previewBottom": 870.84375,
+        "state": {
+          "cancelNotifications": 0,
+          "commitNotifications": 10,
+          "draftNotifications": 9,
+          "fields": {
+            "blur": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "32",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12.5",
+              "scrubbing": false,
+              "step": "0.5",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12.5
+            },
+            "gap": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "8",
+              "scrubbing": false,
+              "step": "0.25",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 8
+            },
+            "radius": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "32",
+              "scrubbing": false,
+              "step": "2",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 32
+            }
+          },
+          "focus": "BODY",
+          "gapRule": true,
+          "lastSource": "gap / commit / manual",
+          "modifiers": false,
+          "normalize": false,
+          "object": {
+            "blur": 12.5,
+            "gap": 8,
+            "id": "surface-01",
+            "radius": 32
+          },
+          "pendingTourSteps": 2,
+          "quiet": false,
+          "revision": 5,
+          "snapshot": null,
+          "solid": false,
+          "tourStep": "actual host-rule correction"
+        },
+        "viewport": 960
+      },
+      {
+        "editorBottom": 850.078125,
+        "elapsedMs": 10821.100000023842,
+        "pageWidth": 960,
+        "previewBottom": 870.84375,
+        "state": {
+          "cancelNotifications": 0,
+          "commitNotifications": 11,
+          "draftNotifications": 10,
+          "fields": {
+            "blur": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "32",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "12.5",
+              "scrubbing": false,
+              "step": "0.5",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 12.5
+            },
+            "gap": {
+              "canScrub": false,
+              "canStep": false,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "10.3",
+              "scrubbing": false,
+              "step": "any",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 10.3
+            },
+            "radius": {
+              "canScrub": true,
+              "canStep": true,
+              "empty": false,
+              "max": "48",
+              "min": "0",
+              "precisionSupported": true,
+              "raw": "32",
+              "scrubbing": false,
+              "step": "2",
+              "valid": true,
+              "validationMessage": "",
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "valueMissing": false
+              },
+              "value": 32
+            }
+          },
+          "focus": "BODY",
+          "gapRule": false,
+          "lastSource": "gap / commit / manual",
+          "modifiers": false,
+          "normalize": false,
+          "object": {
+            "blur": 12.5,
+            "gap": 10.3,
+            "id": "surface-01",
+            "radius": 32
+          },
+          "pendingTourSteps": 0,
+          "quiet": false,
+          "revision": 6,
+          "snapshot": null,
+          "solid": false,
+          "tourStep": ""
+        },
+        "viewport": 960
+      }
+    ]
+  },
+  "cameraOnlyCSS": "body{transform:translateZ(0)}.page{padding-inline:24px}header{min-height:44px}.intro{padding-block:13px 12px;gap:30px}.intro h1{font-size:37px;letter-spacing:-1.9px;margin-top:6px}.intro>p{font-size:11px;line-height:1.5}.options{padding-block:8px;gap:10px 15px}.options>div{display:none}.options .check,.options button{font-size:10px}.policy-note{font-size:9px;line-height:1.4;margin-block:7px 10px}.workspace{gap:28px;grid-template-columns:minmax(0,1.16fr) minmax(0,1fr)}.section-heading{margin-block:0 9px;gap:12px}.section-heading h2{font-size:21px;margin-top:4px}.number-field{padding-block:7px 8px}.field-heading{margin-bottom:5px}.field-heading label{font-size:11px}input[type=number]{min-height:44px;padding-block:7px}.step-controls{margin-top:6px;gap:6px}.step-controls .apply{flex:0;min-width:100px}.step-controls .handle{min-width:113px}.ruler,.field-help{display:none}.field-receipt{font-size:9px;margin-top:5px;line-height:1.4}.field-error{font-size:9px;line-height:1.4;margin-top:4px}.editor-actions{padding-top:10px;gap:7px}.editor-actions button{font-size:10px}#host-status{font-size:9px;line-height:1.45;min-height:28px;margin-top:9px}.scene{height:370px}.preview-card{inset-inline:23px;inset-block-start:106px;padding:18px}.preview-card h3{font-size:30px;margin-top:10px}.preview-card>p:not(.preview-kicker):not(.preview-footer){font-size:11px;margin-top:11px}.preview-items{margin-top:13px}.preview-card .preview-footer{margin-top:15px}.preview-note{font-size:9px;line-height:1.5;margin-top:10px}.object-readout{margin-top:12px;padding:12px 14px}.object-readout h3{font-size:11px}.object-readout pre{font-size:10px;line-height:1.5;margin-top:8px}.object-readout p{font-size:9px;line-height:1.45;padding-top:8px;margin-top:8px}.cases{margin-top:14px;padding-block:8px;gap:7px}.cases button{font-size:10px}.cases>span{font-size:10px;margin-right:0}.mechanics,footer{display:none}.scene{height:320px}.preview-card{inset-block-start:66px}.cases{display:none}",
+  "captions": [
+    "native inputs, deliberate commits",
+    "invalid drafts keep the previous object",
+    "blank stays blank; step any stays honest"
+  ]
+}
+

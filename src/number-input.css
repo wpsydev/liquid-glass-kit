@@ -1,0 +1,8 @@
+/* Native input and host-authored labels/units. Only the dedicated handle disables pan. */
+.lg-number-input { min-block-size: 44px; min-inline-size: 0; max-inline-size: 100%; font-size: max(1em, 16px); }
+.lg-number-step, .lg-number-scrub-handle { min-inline-size: 44px; min-block-size: 44px; font: inherit; color: inherit; }
+.lg-number-scrub-handle { cursor: ew-resize; touch-action: none; }
+.lg-number-scrub-handle[data-lg-number-scrubbing='true'] { background: rgb(127 127 127 / .16); }
+.lg-number-input:focus-visible, .lg-number-step:focus-visible, .lg-number-scrub-handle:focus-visible { outline: 3px solid var(--lg-number-focus, #4379e8); outline-offset: 3px; }
+.lg-number-step:disabled, .lg-number-scrub-handle:disabled { cursor: default; }
+@media (forced-colors: active) { .lg-number-input:focus-visible, .lg-number-step:focus-visible, .lg-number-scrub-handle:focus-visible { outline-color: Highlight; } }

@@ -1,0 +1,8 @@
+/** Optional native number editor payload + connected browser fixture; never shared dist. */
+import {build} from 'vite';import {resolve} from 'node:path';import {readFile,writeFile,mkdir} from 'node:fs/promises';import {gzipSync} from 'node:zlib';import {createHash} from 'node:crypto';
+const r=await build({configFile:false,logLevel:'silent',build:{write:false,minify:true,target:'es2022',lib:{entry:resolve('src/number-input.ts'),name:'GlassNumberInput',formats:['iife']}}});
+const js=(Array.isArray(r)?r[0]:r).output.find(x=>x.type==='chunk').code,css=await readFile('src/number-input.css');
+const evidence={observedAtUtc:new Date().toISOString(),target:'es2022',format:'standalone minified IIFE',jsRawBytes:Buffer.byteLength(js),jsGzipBytes:gzipSync(js).length,cssRawBytes:css.length,cssGzipBytes:gzipSync(css).length,sourceSha256:createHash('sha256').update(await readFile('src/number-input.ts')).digest('hex'),cssSha256:createHash('sha256').update(css).digest('hex'),scope:'Optional number input controller including numeric/lifecycle helper code. CSS excludes prerequisite material.css. No parse/render/GPU/FPS, financial or comparative speedup claim.'};
+await mkdir('benchmarks',{recursive:true});await writeFile('benchmarks/number-input-payload.json',JSON.stringify(evidence,null,2)+'\n');
+await writeFile('/tmp/lg-number-input-probe.html','<!doctype html><html><head><meta charset="utf-8"><style>'+css.toString()+'#fixture{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.scope{min-width:0;border:1px solid #888;padding:8px}.scope input{width:100%}</style></head><body><main id="fixture"></main><script>'+js.replaceAll('</script','<\\/script')+'</script></body></html>');console.log(JSON.stringify(evidence));
+

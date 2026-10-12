@@ -389,12 +389,12 @@
     {
       "order": 27,
       "url": "https://kinetics.colorion.co",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Acknowledged reversible actions and truthful stale recovery",
       "version": "0.43.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/undo/",
       "video": "docs/campaign/assets/reversible-action-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109517930446659869",
       "performance": [
         "benchmarks/reversible-action-payload.json",
         "benchmarks/reversible-action-benchmark-native.json",
@@ -405,13 +405,18 @@
     {
       "order": 28,
       "url": "https://microkit.co",
-      "status": "researching",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Native number drafts and optional dedicated precision scrubbing",
+      "version": "0.44.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/number-input-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/number-input-payload.json",
+        "benchmarks/number-input-browser.json",
+        "benchmarks/number-input-native.json",
+        "benchmarks/number-input-boundaries.json"
+      ]
     },
     {
       "order": 29,

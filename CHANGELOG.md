@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.44.0-preview.1
+
+- Add optional native number-input enhancement with dedicated scrub/tap controls and deliberate finite-value Commit.
+- Preserve typed drafts, native constraints/arrows/validation/forms and non-drag alternatives; decline unsupported precision without replacing native input.
+- Add original Hinge material editor,80 native cases plus separately disclosed synthetic scrub probes, scoped lifecycle/payload evidence and twelve-second electric-keys disco video. Refine distinct Apply labels and measured host-update wording.
+
 ## 0.43.0-preview.1
 
 - Add optional acknowledged Apply/Undo/Commit model, opaque host receipts, single-flight phases and truthful stale/error outcomes.

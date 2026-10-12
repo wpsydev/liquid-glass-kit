@@ -1,0 +1,182 @@
+{
+  "version": "0.43.0-preview.1",
+  "commit": "6d912ece85db2ecd0aef8a1387413a840aae032a",
+  "workflows": {
+    "verify": 38208377660,
+    "release": 38208377622,
+    "pages": 38208377656,
+    "conclusion": "success",
+    "tests": 936,
+    "testFiles": 46
+  },
+  "archive": {
+    "members": 189,
+    "bytes": 406772,
+    "sha256": "30d13d2120cf9f937fda2a5ac17c7793fc940d629d63aeaf90e702c4a350a06b"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/undo/",
+    "native": {
+      "archive": {
+        "archived": [
+          {
+            "cause": null,
+            "id": "K01",
+            "operation": "archive:K01:1",
+            "sameOriginalObject": true,
+            "state": "provisional",
+            "title": "A quieter first screen"
+          }
+        ],
+        "audit": [
+          "archive:K01:1 / actual Apply"
+        ],
+        "controller": {
+          "deadlineMs": null,
+          "error": null,
+          "generation": 1,
+          "hasReceipt": true,
+          "key": "archive:K01:1",
+          "pauseReasons": [],
+          "paused": false,
+          "phase": "apply",
+          "receipt": {
+            "itemId": "K01",
+            "operation": "archive:K01:1",
+            "position": 0
+          },
+          "remainingMs": null,
+          "status": "available"
+        },
+        "fixture": "none",
+        "focus": "undo",
+        "hostSettled": true,
+        "nextMode": "persistent",
+        "operationCount": 1,
+        "pendingFixtureActions": 0,
+        "pendingHostCallbacks": 0,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "saved": [
+          {
+            "id": "K02",
+            "sameOriginalObject": true,
+            "title": "Keep the original source"
+          },
+          {
+            "id": "K03",
+            "sameOriginalObject": true,
+            "title": "Useful little shortcuts"
+          },
+          {
+            "id": "K04",
+            "sameOriginalObject": true,
+            "title": "An error you can recover from"
+          },
+          {
+            "id": "K05",
+            "sameOriginalObject": true,
+            "title": "A note worth keeping"
+          },
+          {
+            "id": "K06",
+            "sameOriginalObject": true,
+            "title": "Room for a longer thought"
+          }
+        ],
+        "solid": false,
+        "staleOutcomes": 0,
+        "tourStep": ""
+      },
+      "undo": {
+        "sameButton": true,
+        "state": {
+          "archived": [],
+          "audit": [
+            "archive:K01:1 / same original object restored by Undo",
+            "archive:K01:1 / actual Apply"
+          ],
+          "controller": {
+            "deadlineMs": null,
+            "error": null,
+            "generation": 1,
+            "hasReceipt": true,
+            "key": "archive:K01:1",
+            "pauseReasons": [],
+            "paused": false,
+            "phase": "undo",
+            "receipt": {
+              "itemId": "K01",
+              "operation": "archive:K01:1",
+              "position": 0
+            },
+            "remainingMs": null,
+            "status": "undone"
+          },
+          "fixture": "none",
+          "focus": "archive-K01",
+          "hostSettled": true,
+          "nextMode": "persistent",
+          "operationCount": 1,
+          "pendingFixtureActions": 0,
+          "pendingHostCallbacks": 0,
+          "pendingTourSteps": 0,
+          "quiet": false,
+          "saved": [
+            {
+              "id": "K01",
+              "sameOriginalObject": true,
+              "title": "A quieter first screen"
+            },
+            {
+              "id": "K02",
+              "sameOriginalObject": true,
+              "title": "Keep the original source"
+            },
+            {
+              "id": "K03",
+              "sameOriginalObject": true,
+              "title": "Useful little shortcuts"
+            },
+            {
+              "id": "K04",
+              "sameOriginalObject": true,
+              "title": "An error you can recover from"
+            },
+            {
+              "id": "K05",
+              "sameOriginalObject": true,
+              "title": "A note worth keeping"
+            },
+            {
+              "id": "K06",
+              "sameOriginalObject": true,
+              "title": "Room for a longer thought"
+            }
+          ],
+          "solid": false,
+          "staleOutcomes": 0,
+          "tourStep": ""
+        }
+      }
+    },
+    "scope": "Actual Archive click/Enter Undo: acknowledgment/focusundo then same original object/button/focusarchive/0callbacks"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109517930446659869",
+    "replies": [
+      "https://x.com/wpsygames/status/2109518589422166228",
+      "https://x.com/wpsygames/status/2109518704774144328"
+    ],
+    "upload": {
+      "bytes": 791717,
+      "sha256": "5fab2932c8af339251900581c98668b7a31b5241a2758f1128ba368b8d2d060d"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical pages confirmed intended text"
+  },
+  "npmRegistry": "pending"
+}
