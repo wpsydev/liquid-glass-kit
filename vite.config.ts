@@ -38,6 +38,7 @@ export default defineConfig({
         feedback: resolve('site/feedback/index.html'),
         sheet: resolve('site/sheet/index.html'),
         preview: resolve('site/preview/index.html'),
+        navigation: resolve('site/navigation/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),
         transitions: resolve('site/transitions/index.html'),

@@ -177,12 +177,12 @@
     {
       "order": 13,
       "url": "https://hoverstat.es",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Deliberate contextual preview intent",
       "version": "0.29.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/preview/",
       "video": "docs/campaign/assets/preview-intent-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109472676951777560",
       "performance": [
         "benchmarks/preview-intent-payload.json",
         "benchmarks/preview-intent-browser.json"
@@ -191,13 +191,16 @@
     {
       "order": 14,
       "url": "https://navbar.gallery",
-      "status": "researched",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Semantic native disclosure navigation",
+      "version": "0.30.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/disclosure-nav-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/disclosure-nav-payload.json",
+        "benchmarks/disclosure-nav-browser.json"
+      ]
     },
     {
       "order": 15,

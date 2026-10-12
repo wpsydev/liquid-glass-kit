@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.29.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.30.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -166,3 +166,5 @@ Optional `/responsive-image` authors native image/picture props with actual dime
 Optional `/bottom-sheet` adapts an authored native dialog into a mobile editor with resting heights, keyboard resize and guarded dismissal. Import `/bottom-sheet.css` separately. Real form semantics remain native; the host owns saving and unsaved-edit decisions. [API](docs/BOTTOM_SHEET.md) · [Field / Notes](https://wpsydev.github.io/liquid-glass-kit/sheet/).
 
 Optional `/preview-intent` manages deliberate hover/focus/manual preview visibility, with cancelled intent and host-declared semantics. It does not consume link clicks, move focus, position panels or load content. [API](docs/PREVIEW_INTENT.md) · [Context Studio](https://wpsydev.github.io/liquid-glass-kit/preview/).
+
+Optional `/disclosure-nav` enhances one authored navigation tree with native disclosure buttons, ordinary links and safe focus rescue. Import `/disclosure-nav.css` separately; host CSS owns compact layout and routing remains native. [API](docs/DISCLOSURE_NAV.md) · [Long Way Library](https://wpsydev.github.io/liquid-glass-kit/navigation/).

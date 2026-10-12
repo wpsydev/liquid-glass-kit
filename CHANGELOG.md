@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.30.0-preview.1
+
+- Add optional one-open navigation disclosures around authored native buttons and ordinary link/form panels. Preserve Tab/Enter/Space, native anchors and nested dialog Escape handling.
+- Support explicit host breakpoint closure, visible focus fallback, outside/focus-leave closure, refresh after host changes and conditional teardown. No router, menu roles, copied trees or idle frame loop.
+- Add original Long Way Library, local planning form, responsive native evidence, bounded payload/lifecycle record and twelve-second electro/metal film. Default core and CSS stay unchanged.
+
 ## 0.29.0-preview.1
 
 - Add optional preview intent: delayed fine-pointer entry, immediate focus access, panel crossing grace, Escape suppression and explicit manual pinning.

@@ -1,15 +1,13 @@
-Good context should respect attention. **0.29.0-preview.1** adds optional `/preview-intent`: delayed fine-pointer entry, immediate keyboard access and an explicit native-button path for touch.
+Navigation should leave the next step to the person. **0.30.0-preview.1** adds optional `/disclosure-nav` and `/disclosure-nav.css`: one authored navigation tree with native disclosure buttons and ordinary links/forms.
 
-A pointer can cross into the panel without losing it. Escape closes without moving focus or reopening on unchanged focus. Manual show pins the panel. Closing or replacing intent aborts the old host request; the host checks the signal before applying content. Navigation links stay links.
+One group opens at a time. Tab/Enter/Space stay native. Escape returns focus; nested native dialogs keep their own Escape handling. Outside/focus-leave closure preserves the new destination, and an explicit host breakpoint/fallback provides focus rescue. No menu roles, router, copied content, focus trap, body lock or idle frame loop.
 
-[Context Studio](https://wpsydev.github.io/liquid-glass-kit/preview/) has three original directions: a noninteractive description, a real selectable disclosure and cancelable local details. Its finite 10.1 s tour uses host-authored 160 ms reveals with quiet/OS fallbacks. An original twelve-second funk/brass film is attached.
+[Long Way Library](https://wpsydev.github.io/liquid-glass-kit/navigation/) has original route artwork, grouped destinations, a native local planning form and an authored planning-notes dialog. Its finite 10.4s tour shows all three groups, then hides the host and returns focus to the opener. The attached original twelve-second electro/metal score is 144BPM.
 
-Semantics are explicit: authored tooltip descriptions, native-button disclosures or host-owned none. Portable hidden panels are default; explicitly authored manual popovers are optional. The helper does not position, animate, move focus or fetch.
+Fifteen native desktop Chromium viewport/group cases fit 320–1440px with 44px controls and 16px fields. Native links, form submit, Tab/Escape, nested dialog Escape and a1440→390 breakpoint focus rescue were tested. Physical phones, Safari, zoom and assistive technology remain unverified.
 
-Fifteen native desktop Chromium viewport/content cases fit 320–1440 px with 44 px controls and 16 px fields. Actual native popover selection and Escape were tested. Synthetic pointer crossing and touch-ignore checks are reported separately; physical phones, Safari and assistive technology remain unverified.
+Optional standalone JS2,727bytesgzip/CSS891bytesgzip. Five20-cycle32-group lifecycle batches had11.2ms median perbatch,6,400notifications and0customRAF/JavaScript rectangle reads/subsequentidleRAF. These measurements exclude menu animation/layout/paint and user navigation. Optional CSS uses a140ms reveal; no comparative speedup or FPS claim. Default core/CSS/imports remain unchanged.
 
-Standalone optional JS is 3,299 bytes gzip. Five batches of 20 cycles over 64 connected manual descriptions had 42.6 ms median per batch, 6,400 opens/closes and no custom RAF or JavaScript rectangle reads. That excludes placement, content requests, animation, rendering and paint. No comparative speedup or FPS claim; core/default CSS remains unchanged.
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/DISCLOSURE_NAV.md) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/disclosure-nav-browser.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/14-navbar.md)
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/PREVIEW_INTENT.md) · [Evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/preview-intent-browser.json) · [Research](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/resource-series/research/13-hoverstates.md)
-
-Hoverstates informed an independent study of useful context, without copying source, art, fonts or recordings. Use the attached ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.29.0-preview.1`. npm registry publication remains pending.
+The gallery inspired an independent navigation study. No external source, art, fonts or recordings copied. Use the attached ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.30.0-preview.1`. npm registry publication remains pending.

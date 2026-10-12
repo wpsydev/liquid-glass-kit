@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 621914,
+  "sha256": "da2ca48396172e4b1df2b6a69dc7d7211ea3251dc7da2ab401b654aa05173db5",
+  "music": {
+    "style": "electro",
+    "bpm": 144,
+    "seed": 30,
+    "patch": "metal",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Native T3 actual original navigation three-group tour, native planner controls and host-hide focus rescue. No camera CSS/geometry or simulated viewport in film; physical-device/zoom unverified. Export FPS not app FPS."
+}

@@ -372,3 +372,17 @@ Connected native manual description lifecycle5×20cycles×64controllers had batc
 Original12second360framefilm104BPMfunk/brass seed29,651141bytes SHA256 `a34d1f2a336e7e5afe26f91897af2497d93f2f883def25a8b21444443c37f3cd`; actual tour+finite reveals, camera density separately documented. Full decode and representative image review passed. Export30fps not appFPS.
 
 Final integrated npm run check passed1022tests/50files including queued independent prototypes; release scope adds34tests to492previously published. Final npm pack --dry-run passed141files, queued modules absent. Release-only CI receipts follow publication.
+
+0.29 publication: commit7d23bf78cf37914378684da5c4ab87bd69d0ef08 passed Verify38196190502 (526tests/32files), release38196190497 and Pages38196190486. Archive141members/305676bytes SHA256 `ec5236b9e90d81e5468b1cf1b46ea7e060db9285abd59a08d0380a351b62f3f1`. Hosted actualselection/focus return and canonical Xmain/two replies/video12seconds read back; bounded campaign/PREVIEW_INTENT_PUBLICATION.json. npm registry pending.
+
+## 0.30 semantic disclosure navigation (2026-10-12)
+
+24 focused tests cover native links/buttons, one-open state, focus/Escape/outside closure, nested modal isolation, explicit breakpoint rescue, refresh/update/conditional teardown/SSR. Standalone optional JS2727bytesgzip/CSS891bytesgzip, default imports/core/CSS unchanged.
+
+Fifteen native T3 desktop Chromium groups/sizes320×700,390×844,768×1024,844×390,1440×900 fit page/panel horizontally, all visible button/link/input/select/summary targets44px andfields16px. Actual Tab reached ordinary route anchor; Escape restoredroutes trigger. Actual nested dialog Escape closedonlydialog andretainedplanner/focusplanning-notes. Actual nativeform createdlocalBergen2026-11-03/unhurriedpreview; no booking/network. Ordinary #coast link navigated/focusedcoast andfocus-leaveclosedgroup. Active1440→390 breakpoint closed/hiddenhost andrescuednavigation-toggle; inactive firstread wasnot usedasfinaleventevidence. Physicalphones/Safari/zoom/AT unverified.
+
+Connected32-group attach/open-close-all/refresh/destroy5×20batches29/12.4/10.8/11.1/11.2ms median11.2ms perbatch,6400notifications,0customRAF/JavaScript rectangles/subsequent250msidleRAF. Includes visibilitycomputedstyle checks, excludes menuanimation/layout/paint andusernavigation. Repro generator/browserprobe committed; no comparative speedup.
+
+Original twelve-second/360frame nativefilm144BPM electro/metal seed30,621914bytes SHA256 `da2ca48396172e4b1df2b6a69dc7d7211ea3251dc7da2ab401b654aa05173db5`. Actual threegroups/hosthidefocusrescue; no cameraCSS/fakegeometry/viewport in film. Separate dialog/breakpoint tests not describedasfilmfootage. Finalrepresentativeframes reviewed andfull decode passed; export30fps not appFPS.
+
+Final integrated npm run check passed1094tests/51files including queued prototypes; this release adds24tests to526previously published. Final npm pack --dry-run passed145files; future modules absent. Browser/media validation stays separate from unit/SSR/package checks. Release-only CI counts follow publication.

@@ -1,0 +1,9 @@
+{
+  "observedAtUtc": "2026-10-12T02:39:37.696Z",
+  "jsRawBytes": 6685,
+  "jsGzipBytes": 2727,
+  "cssRawBytes": 2207,
+  "cssGzipBytes": 891,
+  "sourceSha256": "dec67ab5c18eba503474e636fa408f965c5a8c92c263960a81b26bdb38fb763b",
+  "scope": "Optional standalone helper/CSS; payload, not rendering or comparative speedup"
+}

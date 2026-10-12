@@ -1,14 +1,14 @@
 {
-  "version": "0.29.0-preview.1",
+  "version": "0.30.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/preview-intent-showcase.mp4",
-      "name": "liquid-glass-context-studio.mp4",
+      "path": "docs/campaign/assets/disclosure-nav-showcase.mp4",
+      "name": "liquid-glass-long-way.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/preview-intent-showcase.png",
-      "name": "liquid-glass-context-studio.png",
+      "path": "docs/campaign/assets/disclosure-nav-showcase.png",
+      "name": "liquid-glass-long-way.png",
       "type": "image/png"
     }
   ]

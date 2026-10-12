@@ -1,0 +1,17 @@
+/* Optional presentation for one authored ordinary navigation tree. */
+[data-lg-disclosure-nav]{position:relative;display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+[data-lg-nav-trigger]{min-width:44px;min-height:44px;padding:10px 14px;border:1px solid transparent;border-radius:12px;background:transparent;color:inherit;font:inherit;cursor:pointer;touch-action:manipulation}
+[data-lg-nav-trigger][aria-expanded=true]{background:#71839a1c;border-color:#71839a24}
+[data-lg-nav-panel]{position:absolute;inset-block-start:calc(100% + 8px);inset-inline:0;max-width:100%;max-height:min(70vh,600px);overflow:auto;overscroll-behavior:contain;box-sizing:border-box;padding:20px;border:1px solid #ffffff80;border-radius:20px;background:#f5f7fc;color:#172033;box-shadow:0 16px 40px #10203821;z-index:10;animation:lg-nav-enter .14s ease-out}
+[data-lg-nav-panel][hidden]{display:none!important}
+[data-lg-nav-panel] :where(a,button,input,select){min-height:44px;font:inherit;touch-action:manipulation}
+[data-lg-nav-panel] :where(input,select,textarea){font-size:16px;max-width:100%}
+[data-lg-nav-panel] a{display:inline-flex;align-items:center;padding:8px 4px;color:inherit}
+[data-lg-nav-trigger]:focus-visible,[data-lg-nav-panel] :focus-visible{outline:3px solid #4777bd;outline-offset:3px}
+[data-lg-nav-mode=compact]{align-items:stretch}
+[data-lg-nav-mode=compact] [data-lg-nav-panel]{position:static;flex-basis:100%;max-height:none;box-shadow:none;margin-block:0 8px}
+@supports(backdrop-filter:blur(1px)){[data-lg-nav-panel]{background:#f5f7fce8;backdrop-filter:blur(16px) saturate(1.1)}}
+@keyframes lg-nav-enter{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){[data-lg-nav-panel]{animation:none}}
+@media(prefers-reduced-transparency:reduce){[data-lg-nav-panel]{background:#f5f7fc;backdrop-filter:none}}
+@media(forced-colors:active){[data-lg-nav-panel]{background:Canvas;color:CanvasText;border-color:CanvasText;backdrop-filter:none;box-shadow:none}[data-lg-nav-trigger]{color:ButtonText}[data-lg-nav-trigger][aria-expanded=true]{border-color:ButtonText}[data-lg-nav-trigger]:focus-visible,[data-lg-nav-panel] :focus-visible{outline-color:Highlight}}

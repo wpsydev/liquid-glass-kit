@@ -1,0 +1,11 @@
+import {build} from 'vite';
+import {resolve} from 'node:path';
+import {readFile,writeFile} from 'node:fs/promises';
+import {gzipSync} from 'node:zlib';
+import {createHash} from 'node:crypto';
+const r=await build({configFile:false,logLevel:'silent',build:{write:false,minify:true,target:'es2022',lib:{entry:resolve('src/disclosure-nav.ts'),name:'GlassNavigation',formats:['iife']}}});
+const js=(Array.isArray(r)?r[0]:r).output.find(x=>x.type==='chunk').code,css=await readFile('src/disclosure-nav.css');
+const evidence={observedAtUtc:new Date().toISOString(),jsRawBytes:Buffer.byteLength(js),jsGzipBytes:gzipSync(js).length,cssRawBytes:css.length,cssGzipBytes:gzipSync(css).length,sourceSha256:createHash('sha256').update(await readFile('src/disclosure-nav.ts')).digest('hex'),scope:'Optional standalone helper/CSS; payload, not rendering or comparative speedup'};
+await writeFile('benchmarks/disclosure-nav-payload.json',JSON.stringify(evidence,null,2)+'\n');
+await writeFile('/tmp/lg-disclosure-nav-probe.html','<!doctype html><meta charset="utf-8"><title>Navigation lifecycle</title><nav id="fixture" aria-label="Fixture"></nav><script>'+js.replaceAll('</script','<\\/script')+'</script>');
+console.log(JSON.stringify(evidence));

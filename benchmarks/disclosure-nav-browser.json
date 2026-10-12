@@ -1,0 +1,1986 @@
+{
+  "observedAtUtc": "2026-10-12T02:41:00Z",
+  "scope": "Native T3 desktop Chromium responsive/focus/form evidence; not physical phones/Safari/AT. Lifecycle excludes rendering.",
+  "layouts": [
+    {
+      "id": "routes",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 614.2486724853516,
+        "clientHeight": 421,
+        "height": 423.2578125,
+        "left": 25,
+        "right": 280,
+        "scrollHeight": 421,
+        "top": 190.99085998535156,
+        "width": 255
+      },
+      "smallControls": [],
+      "state": {
+        "compact": true,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "refresh"
+          },
+          {
+            "openId": "planner",
+            "reason": "trigger"
+          },
+          {
+            "openId": null,
+            "reason": "escape"
+          },
+          {
+            "openId": "routes",
+            "reason": "trigger"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "routes",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "routes",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "id": "guides",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 632.5079956054688,
+        "clientHeight": 391,
+        "height": 393.0234375,
+        "left": 25,
+        "right": 280,
+        "scrollHeight": 391,
+        "top": 239.48455810546875,
+        "width": 255
+      },
+      "smallControls": [],
+      "state": {
+        "compact": true,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "refresh"
+          },
+          {
+            "openId": "planner",
+            "reason": "trigger"
+          },
+          {
+            "openId": null,
+            "reason": "escape"
+          },
+          {
+            "openId": "routes",
+            "reason": "trigger"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "guides",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "guides",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "id": "planner",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 817.0657348632812,
+        "clientHeight": 528,
+        "height": 529.5234375,
+        "left": 25,
+        "right": 280,
+        "scrollHeight": 528,
+        "top": 287.54229736328125,
+        "width": 255
+      },
+      "smallControls": [],
+      "state": {
+        "compact": true,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "refresh"
+          },
+          {
+            "openId": "planner",
+            "reason": "trigger"
+          },
+          {
+            "openId": null,
+            "reason": "escape"
+          },
+          {
+            "openId": "routes",
+            "reason": "trigger"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "planner",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "planner",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "id": "routes",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 567.7390899658203,
+        "clientHeight": 375,
+        "height": 376.7890625,
+        "left": 27,
+        "right": 348,
+        "scrollHeight": 375,
+        "top": 190.9500274658203,
+        "width": 321
+      },
+      "smallControls": [],
+      "state": {
+        "compact": true,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "refresh"
+          },
+          {
+            "openId": "planner",
+            "reason": "trigger"
+          },
+          {
+            "openId": null,
+            "reason": "escape"
+          },
+          {
+            "openId": "routes",
+            "reason": "trigger"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "routes",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "routes",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "id": "guides",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 616.2835083007812,
+        "clientHeight": 375,
+        "height": 376.7890625,
+        "left": 27,
+        "right": 348,
+        "scrollHeight": 375,
+        "top": 239.49444580078125,
+        "width": 321
+      },
+      "smallControls": [],
+      "state": {
+        "compact": true,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "refresh"
+          },
+          {
+            "openId": "planner",
+            "reason": "trigger"
+          },
+          {
+            "openId": null,
+            "reason": "escape"
+          },
+          {
+            "openId": "routes",
+            "reason": "trigger"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "guides",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "guides",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "id": "planner",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 722.2742919921875,
+        "clientHeight": 433,
+        "height": 434.7890319824219,
+        "left": 27,
+        "right": 348,
+        "scrollHeight": 433,
+        "top": 287.4852600097656,
+        "width": 321
+      },
+      "smallControls": [],
+      "state": {
+        "compact": true,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "refresh"
+          },
+          {
+            "openId": "planner",
+            "reason": "trigger"
+          },
+          {
+            "openId": null,
+            "reason": "escape"
+          },
+          {
+            "openId": "routes",
+            "reason": "trigger"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "planner",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "planner",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "id": "routes",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 407.2236633300781,
+        "clientHeight": 266,
+        "height": 268.3125,
+        "left": 157.125,
+        "right": 578.21875,
+        "scrollHeight": 266,
+        "top": 138.91116333007812,
+        "width": 421.09375
+      },
+      "smallControls": [],
+      "state": {
+        "compact": false,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "responsive"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "refresh"
+          },
+          {
+            "openId": "planner",
+            "reason": "trigger"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "routes",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "routes",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "guides",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 446.10231018066406,
+        "clientHeight": 305,
+        "height": 306.6015625,
+        "left": 157.125,
+        "right": 578.21875,
+        "scrollHeight": 305,
+        "top": 139.50074768066406,
+        "width": 421.09375
+      },
+      "smallControls": [],
+      "state": {
+        "compact": false,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "responsive"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "refresh"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "guides",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "guides",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "planner",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 453.0785827636719,
+        "clientHeight": 312,
+        "height": 313.59375,
+        "left": 157.125,
+        "right": 578.21875,
+        "scrollHeight": 312,
+        "top": 139.48483276367188,
+        "width": 421.09375
+      },
+      "smallControls": [],
+      "state": {
+        "compact": false,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "responsive"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "planner",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "planner",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "routes",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 352.0826416015625,
+        "clientHeight": 211,
+        "height": 212.53125,
+        "left": 157.125,
+        "right": 654.21875,
+        "scrollHeight": 211,
+        "top": 139.5513916015625,
+        "width": 497.09375
+      },
+      "smallControls": [],
+      "state": {
+        "compact": false,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "responsive"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "routes",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "routes",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "id": "guides",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 371.75872802734375,
+        "clientHeight": 230,
+        "height": 232.125,
+        "left": 157.125,
+        "right": 654.21875,
+        "scrollHeight": 230,
+        "top": 139.63372802734375,
+        "width": 497.09375
+      },
+      "smallControls": [],
+      "state": {
+        "compact": false,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "responsive"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "guides",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "guides",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "id": "planner",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 390.4019775390625,
+        "clientHeight": 249,
+        "height": 250.8359375,
+        "left": 157.125,
+        "right": 654.21875,
+        "scrollHeight": 249,
+        "top": 139.5660400390625,
+        "width": 497.09375
+      },
+      "smallControls": [],
+      "state": {
+        "compact": false,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "responsive"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "planner",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "planner",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "id": "routes",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 381.9461975097656,
+        "clientHeight": 240,
+        "height": 242,
+        "left": 181.125,
+        "right": 1213.2265625,
+        "scrollHeight": 240,
+        "top": 139.94619750976562,
+        "width": 1032.1015625
+      },
+      "smallControls": [],
+      "state": {
+        "compact": false,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "responsive"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "routes",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "routes",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "id": "guides",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 382.5517883300781,
+        "clientHeight": 240,
+        "height": 242,
+        "left": 181.125,
+        "right": 1213.2265625,
+        "scrollHeight": 240,
+        "top": 140.55178833007812,
+        "width": 1032.1015625
+      },
+      "smallControls": [],
+      "state": {
+        "compact": false,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "responsive"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "guides",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "guides",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "id": "planner",
+      "minFieldFont": 16,
+      "overflow": false,
+      "panel": {
+        "bottom": 395.5254821777344,
+        "clientHeight": 253,
+        "height": 255,
+        "left": 181.125,
+        "right": 1213.2265625,
+        "scrollHeight": 253,
+        "top": 140.52548217773438,
+        "width": 1032.1015625
+      },
+      "smallControls": [],
+      "state": {
+        "compact": false,
+        "dialog": {
+          "nativeModal": false,
+          "open": false
+        },
+        "focus": "navigation-toggle",
+        "groups": [
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "routes",
+            "links": [
+              "#coast",
+              "#city",
+              "#slow"
+            ]
+          },
+          {
+            "expanded": "false",
+            "hidden": true,
+            "id": "guides",
+            "links": [
+              "#reading",
+              "../images/",
+              "../preview/"
+            ]
+          },
+          {
+            "expanded": "true",
+            "hidden": false,
+            "id": "planner",
+            "links": []
+          }
+        ],
+        "hash": "",
+        "history": [
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": "planner",
+            "reason": "api"
+          },
+          {
+            "openId": "guides",
+            "reason": "api"
+          },
+          {
+            "openId": "routes",
+            "reason": "api"
+          },
+          {
+            "openId": null,
+            "reason": "responsive"
+          }
+        ],
+        "hostHidden": false,
+        "lastChange": {
+          "openId": "planner",
+          "reason": "api"
+        },
+        "lastHostAction": "responsive presentation changed",
+        "localPlans": 0,
+        "openId": "planner",
+        "responsiveQuery": "(max-width: 760px)",
+        "solid": false,
+        "tourStep": null
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "nativeEscape": {
+    "compact": false,
+    "dialog": {
+      "nativeModal": false,
+      "open": false
+    },
+    "focus": "routes-trigger",
+    "groups": [
+      {
+        "expanded": "false",
+        "hidden": true,
+        "id": "routes",
+        "links": [
+          "#coast",
+          "#city",
+          "#slow"
+        ]
+      },
+      {
+        "expanded": "false",
+        "hidden": true,
+        "id": "guides",
+        "links": [
+          "#reading",
+          "../images/",
+          "../preview/"
+        ]
+      },
+      {
+        "expanded": "false",
+        "hidden": true,
+        "id": "planner",
+        "links": []
+      }
+    ],
+    "hash": "",
+    "history": [
+      {
+        "openId": null,
+        "reason": "escape"
+      },
+      {
+        "openId": "routes",
+        "reason": "trigger"
+      }
+    ],
+    "hostHidden": false,
+    "lastChange": {
+      "openId": null,
+      "reason": "escape"
+    },
+    "lastHostAction": "initial",
+    "localPlans": 0,
+    "openId": null,
+    "responsiveQuery": "(max-width: 760px)",
+    "solid": false,
+    "tourStep": null
+  },
+  "nativeDialogEscape": {
+    "compact": false,
+    "dialog": {
+      "nativeModal": false,
+      "open": false
+    },
+    "focus": "planning-notes",
+    "groups": [
+      {
+        "expanded": "false",
+        "hidden": true,
+        "id": "routes",
+        "links": [
+          "#coast",
+          "#city",
+          "#slow"
+        ]
+      },
+      {
+        "expanded": "false",
+        "hidden": true,
+        "id": "guides",
+        "links": [
+          "#reading",
+          "../images/",
+          "../preview/"
+        ]
+      },
+      {
+        "expanded": "true",
+        "hidden": false,
+        "id": "planner",
+        "links": []
+      }
+    ],
+    "hash": "",
+    "history": [
+      {
+        "openId": "planner",
+        "reason": "trigger"
+      },
+      {
+        "openId": null,
+        "reason": "escape"
+      },
+      {
+        "openId": "routes",
+        "reason": "trigger"
+      }
+    ],
+    "hostHidden": false,
+    "lastChange": {
+      "openId": "planner",
+      "reason": "trigger"
+    },
+    "lastHostAction": "native dialog closed; navigation still owns its group",
+    "localPlans": 0,
+    "openId": "planner",
+    "responsiveQuery": "(max-width: 760px)",
+    "solid": false,
+    "tourStep": null
+  },
+  "nativeForm": {
+    "output": "Bergen / coastline · 2026-11-03 · unhurried · local preview only",
+    "state": {
+      "compact": false,
+      "dialog": {
+        "nativeModal": false,
+        "open": false
+      },
+      "focus": "",
+      "groups": [
+        {
+          "expanded": "false",
+          "hidden": true,
+          "id": "routes",
+          "links": [
+            "#coast",
+            "#city",
+            "#slow"
+          ]
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "id": "guides",
+          "links": [
+            "#reading",
+            "../images/",
+            "../preview/"
+          ]
+        },
+        {
+          "expanded": "true",
+          "hidden": false,
+          "id": "planner",
+          "links": []
+        }
+      ],
+      "hash": "",
+      "history": [
+        {
+          "openId": "planner",
+          "reason": "api"
+        },
+        {
+          "openId": "guides",
+          "reason": "api"
+        },
+        {
+          "openId": "routes",
+          "reason": "api"
+        },
+        {
+          "openId": "planner",
+          "reason": "api"
+        },
+        {
+          "openId": "guides",
+          "reason": "api"
+        },
+        {
+          "openId": "routes",
+          "reason": "api"
+        },
+        {
+          "openId": "planner",
+          "reason": "api"
+        },
+        {
+          "openId": "guides",
+          "reason": "api"
+        },
+        {
+          "openId": "routes",
+          "reason": "api"
+        },
+        {
+          "openId": null,
+          "reason": "responsive"
+        }
+      ],
+      "hostHidden": false,
+      "lastChange": {
+        "openId": "planner",
+        "reason": "api"
+      },
+      "lastHostAction": "native form submitted to a local host preview",
+      "localPlans": 1,
+      "openId": "planner",
+      "responsiveQuery": "(max-width: 760px)",
+      "solid": false,
+      "tourStep": null
+    }
+  },
+  "nativeAnchor": {
+    "hash": "#coast",
+    "state": {
+      "compact": false,
+      "dialog": {
+        "nativeModal": false,
+        "open": false
+      },
+      "focus": "coast",
+      "groups": [
+        {
+          "expanded": "false",
+          "hidden": true,
+          "id": "routes",
+          "links": [
+            "#coast",
+            "#city",
+            "#slow"
+          ]
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "id": "guides",
+          "links": [
+            "#reading",
+            "../images/",
+            "../preview/"
+          ]
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "id": "planner",
+          "links": []
+        }
+      ],
+      "hash": "#coast",
+      "history": [
+        {
+          "openId": null,
+          "reason": "focus-leave"
+        },
+        {
+          "openId": "routes",
+          "reason": "trigger"
+        }
+      ],
+      "hostHidden": false,
+      "lastChange": {
+        "openId": null,
+        "reason": "focus-leave"
+      },
+      "lastHostAction": "ordinary browser anchor navigation",
+      "localPlans": 0,
+      "openId": null,
+      "responsiveQuery": "(max-width: 760px)",
+      "solid": false,
+      "tourStep": null
+    }
+  },
+  "responsiveFocusRescue": {
+    "media": true,
+    "state": {
+      "compact": true,
+      "dialog": {
+        "nativeModal": false,
+        "open": false
+      },
+      "focus": "navigation-toggle",
+      "groups": [
+        {
+          "expanded": "false",
+          "hidden": true,
+          "id": "routes",
+          "links": [
+            "#coast",
+            "#city",
+            "#slow"
+          ]
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "id": "guides",
+          "links": [
+            "#reading",
+            "../images/",
+            "../preview/"
+          ]
+        },
+        {
+          "expanded": "false",
+          "hidden": true,
+          "id": "planner",
+          "links": []
+        }
+      ],
+      "hash": "",
+      "history": [
+        {
+          "openId": null,
+          "reason": "refresh"
+        },
+        {
+          "openId": "planner",
+          "reason": "api"
+        },
+        {
+          "openId": "guides",
+          "reason": "api"
+        },
+        {
+          "openId": "routes",
+          "reason": "api"
+        },
+        {
+          "openId": "planner",
+          "reason": "api"
+        },
+        {
+          "openId": "guides",
+          "reason": "api"
+        },
+        {
+          "openId": "routes",
+          "reason": "api"
+        },
+        {
+          "openId": "planner",
+          "reason": "api"
+        },
+        {
+          "openId": "guides",
+          "reason": "api"
+        },
+        {
+          "openId": "routes",
+          "reason": "api"
+        }
+      ],
+      "hostHidden": true,
+      "lastChange": {
+        "openId": null,
+        "reason": "refresh"
+      },
+      "lastHostAction": "responsive presentation changed",
+      "localPlans": 1,
+      "openId": null,
+      "responsiveQuery": "(max-width: 760px)",
+      "solid": false,
+      "tourStep": null
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "lifecycle": {
+    "batchesMs": [
+      29,
+      12.399999976158142,
+      10.800000071525574,
+      11.100000023841858,
+      11.200000047683716
+    ],
+    "customRaf": 0,
+    "cyclesPerBatch": 20,
+    "jsRectReads": 0,
+    "medianBatchMs": 11.200000047683716,
+    "notifications": 6400,
+    "observedAtUtc": "2026-10-12T02:40:11.169Z",
+    "pairs": 32,
+    "scope": "Connected32-group attach/open-close-all/refresh/destroy; includes visible-control computed style checks, excludes menu animation/layout/paint/user navigation",
+    "subsequent250msIdleRaf": 0,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36"
+  }
+}

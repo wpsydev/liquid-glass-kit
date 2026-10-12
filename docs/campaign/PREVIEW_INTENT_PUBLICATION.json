@@ -1,0 +1,79 @@
+{
+  "version": "0.29.0-preview.1",
+  "commit": "7d23bf78cf37914378684da5c4ab87bd69d0ef08",
+  "workflows": {
+    "verify": 38196190502,
+    "release": 38196190497,
+    "pages": 38196190486,
+    "conclusion": "success",
+    "tests": 526,
+    "testFiles": 32
+  },
+  "archive": {
+    "members": 141,
+    "bytes": 305676,
+    "sha256": "ec5236b9e90d81e5468b1cf1b46ea7e060db9285abd59a08d0380a351b62f3f1"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/preview/",
+    "chunk": "preview-DiaQOhKM.js",
+    "actualSelection": {
+      "delay": 120,
+      "detail": "shape",
+      "events": [
+        "disclosure / closed from manual",
+        "host / folded direction explicitly selected",
+        "disclosure / open from manual"
+      ],
+      "focus": "disclosure-trigger",
+      "local": {
+        "cancelled": 0,
+        "generation": 1,
+        "ready": 0,
+        "staleWritesPrevented": 0
+      },
+      "previews": [
+        {
+          "id": "tooltip",
+          "open": false,
+          "pending": false,
+          "positioned": false,
+          "renderer": "hidden",
+          "triggerDescription": "tooltip-panel",
+          "triggerExpanded": null
+        },
+        {
+          "id": "disclosure",
+          "open": false,
+          "pending": false,
+          "positioned": false,
+          "renderer": "hidden",
+          "triggerDescription": null,
+          "triggerExpanded": "false"
+        },
+        {
+          "id": "lazy",
+          "open": false,
+          "pending": false,
+          "positioned": false,
+          "renderer": "hidden",
+          "triggerDescription": null,
+          "triggerExpanded": null
+        }
+      ],
+      "quiet": false,
+      "selected": true,
+      "solid": false,
+      "tier": "hidden",
+      "tourStep": null
+    }
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109472676951777560",
+    "reply1": "https://x.com/wpsygames/status/2109473725892694521",
+    "reply2": "https://x.com/wpsygames/status/2109475583923265761",
+    "duration": 12,
+    "readyState": 4
+  },
+  "npmRegistry": "pending"
+}
