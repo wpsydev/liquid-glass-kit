@@ -504,3 +504,13 @@ Pure50kcalls10.9ms/10kbatchmedian;connected12800applies12.1ms/2560median0RAF/rec
 Original752612-byte12s960square360frame vibraphonednb160seed40 SHA256ef8b3ea4dea439816aa9cb33f6790777723588d782ae5121dbb5b463911aef81. Actual10stourfinal1166/1166bytes/0waits/actions/steps, staged delays notCPUmeasurement, cameradensitydisclosed. Fullaudio/decode/threeframespassed.
 
 Integrated npm run check passed1,145tests/53files including unreleased prototypes. npm pack --dry-run passed179members with only declared public entries. Published-scope CI follows release.
+
+## 0.41 reader following (2026-10-12)
+
+21 focused tests;75native desktopcases44targets/16fields/noflow. ActualcomposerEnter appends/preservesfocus; ReadOlder then3appends preserves474scrolltop/unread3; JumpLatestactualtail/focusbutton/unread0; ArrowUppauses. Range/nodeidentity retained, ROwidthpinnedvpaused checked. New10-recordReset clearsoldunread with initiallyFollowingfalse reattach, noforcedjump. Physicalphones/Safari/ATunverified.
+
+Optional2721gzip.800connectedsequences31ms/160median;26400nativegeometrygetters0explicitrect/0syncRAF/9600listenersbalance; native inducedsyncstyle/layout included/paintGPUexcluded. Following250idle/postdestroy0RAF. NoFPS/speedup.
+
+Original668830-byte12s960square360frame garage132/pluckedkeys seed41 SHA25666493a161f0d28a0819d156cdc3f71839c1632339b44d6975aef8e3060fe8148. Actualtour14records/3unreadolder/0afterexplicitjump/0newrecordsforinplacetextgrowth. Cameraframingdisclosed; crop/fullframe reviews confirmcompletecontrols/text. No demonstratedrendererbug. Fulldecodepassed.
+
+Integrated npm run check passed1,145tests/53files including queued prototypes. npm pack --dry-run passed182members excluding future entries. Published-scope CI follows release.

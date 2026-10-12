@@ -1,0 +1,5219 @@
+{
+  "observedAtUtc": "2026-10-12T04:48:39.751Z",
+  "tabId": "tab_4i",
+  "matrix": [
+    {
+      "dom": {
+        "count": 10,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 1016,
+        "height": 353,
+        "maximum": 1016,
+        "top": 0,
+        "total": 1369
+      },
+      "inputFont": "16px",
+      "name": "attachment-start-reader",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 0,
+        "distance": 1016,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 10,
+        "solid": false,
+        "stage": "reading",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 11,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0.5,
+        "height": 353,
+        "maximum": 1137,
+        "top": 1136.5,
+        "total": 1490
+      },
+      "inputFont": "16px",
+      "name": "following-real-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 1,
+        "distance": 0.5,
+        "following": true,
+        "growthUpdates": 0,
+        "nearEnd": true,
+        "quiet": false,
+        "records": 11,
+        "solid": false,
+        "stage": "following",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 11,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 280,
+        "height": 353,
+        "maximum": 1137,
+        "top": 857,
+        "total": 1490
+      },
+      "inputFont": "16px",
+      "name": "older-paused",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 1,
+        "distance": 280,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 11,
+        "solid": false,
+        "stage": "older",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 642,
+        "height": 353,
+        "maximum": 1499,
+        "top": 857,
+        "total": 1852
+      },
+      "inputFont": "16px",
+      "name": "three-unread-position",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 642,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 14,
+        "solid": false,
+        "stage": "unread",
+        "touring": false,
+        "unread": 3,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 730,
+        "height": 353,
+        "maximum": 1587,
+        "top": 857,
+        "total": 1940
+      },
+      "inputFont": "16px",
+      "name": "text-growth-zero-unread",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 730,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 14,
+        "solid": false,
+        "stage": "unread",
+        "touring": false,
+        "unread": 3,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 353,
+        "maximum": 1587,
+        "top": 1587,
+        "total": 1940
+      },
+      "inputFont": "16px",
+      "name": "quiet-explicit-jump",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 0,
+        "following": true,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 14,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 353,
+        "maximum": 1587,
+        "top": 1587,
+        "total": 1940
+      },
+      "inputFont": "16px",
+      "name": "explicit-pause",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 0,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 14,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 15,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 143,
+        "height": 353,
+        "maximum": 1730,
+        "top": 1587,
+        "total": 2083
+      },
+      "inputFont": "16px",
+      "name": "paused-one-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 5,
+        "distance": 143,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 15,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 15,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "selection": "Start with the work. A review should make the next step easier to see.",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 353,
+        "maximum": 1730,
+        "top": 1730,
+        "total": 2083
+      },
+      "inputFont": "16px",
+      "name": "native-range-selection",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 5,
+        "distance": 0,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 15,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "Start with the work. A review should make the next step easier to see.",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 121,
+        "height": 353,
+        "maximum": 1851,
+        "top": 1730,
+        "total": 2204
+      },
+      "inputFont": "16px",
+      "name": "selection-append-preserved",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 121,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 121,
+        "height": 353,
+        "maximum": 1851,
+        "top": 1730,
+        "total": 2204
+      },
+      "inputFont": "16px",
+      "name": "selection-cleared-sticky-pause",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 121,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 150,
+        "height": 353,
+        "maximum": 1851,
+        "top": 1701,
+        "total": 2204
+      },
+      "inputFont": "16px",
+      "name": "scripted-upward-intent",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 150,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 17,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 271,
+        "height": 353,
+        "maximum": 1972,
+        "top": 1701,
+        "total": 2325
+      },
+      "inputFont": "16px",
+      "name": "upward-paused-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 7,
+        "distance": 271,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 17,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 18,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 0,
+        "maximum": 0,
+        "top": 0,
+        "total": 0
+      },
+      "inputFont": "16px",
+      "name": "hidden-real-unread",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 8,
+        "distance": 271,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 18,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 2,
+        "visible": false
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 18,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 414,
+        "height": 353,
+        "maximum": 2115,
+        "top": 1701,
+        "total": 2468
+      },
+      "inputFont": "16px",
+      "name": "revealed-no-replay",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 8,
+        "distance": 414,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 18,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 2,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "dom": {
+        "count": 10,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 884,
+        "height": 353,
+        "maximum": 884,
+        "top": 0,
+        "total": 1237
+      },
+      "inputFont": "16px",
+      "name": "attachment-start-reader",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 0,
+        "distance": 884,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 10,
+        "solid": false,
+        "stage": "reading",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 11,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 353,
+        "maximum": 983,
+        "top": 983,
+        "total": 1336
+      },
+      "inputFont": "16px",
+      "name": "following-real-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 1,
+        "distance": 0,
+        "following": true,
+        "growthUpdates": 0,
+        "nearEnd": true,
+        "quiet": false,
+        "records": 11,
+        "solid": false,
+        "stage": "following",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 11,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 280,
+        "height": 353,
+        "maximum": 983,
+        "top": 703,
+        "total": 1336
+      },
+      "inputFont": "16px",
+      "name": "older-paused",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 1,
+        "distance": 280,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 11,
+        "solid": false,
+        "stage": "older",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 621,
+        "height": 353,
+        "maximum": 1324,
+        "top": 703,
+        "total": 1677
+      },
+      "inputFont": "16px",
+      "name": "three-unread-position",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 621,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 14,
+        "solid": false,
+        "stage": "unread",
+        "touring": false,
+        "unread": 3,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 709,
+        "height": 353,
+        "maximum": 1412,
+        "top": 703,
+        "total": 1765
+      },
+      "inputFont": "16px",
+      "name": "text-growth-zero-unread",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 709,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 14,
+        "solid": false,
+        "stage": "unread",
+        "touring": false,
+        "unread": 3,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0.5,
+        "height": 353,
+        "maximum": 1412,
+        "top": 1411.5,
+        "total": 1765
+      },
+      "inputFont": "16px",
+      "name": "quiet-explicit-jump",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 0.5,
+        "following": true,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 14,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0.5,
+        "height": 353,
+        "maximum": 1412,
+        "top": 1411.5,
+        "total": 1765
+      },
+      "inputFont": "16px",
+      "name": "explicit-pause",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 0.5,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 14,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 15,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 120.5,
+        "height": 353,
+        "maximum": 1532,
+        "top": 1411.5,
+        "total": 1885
+      },
+      "inputFont": "16px",
+      "name": "paused-one-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 5,
+        "distance": 120.5,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 15,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 15,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "selection": "Start with the work. A review should make the next step easier to see.",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 353,
+        "maximum": 1532,
+        "top": 1532,
+        "total": 1885
+      },
+      "inputFont": "16px",
+      "name": "native-range-selection",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 5,
+        "distance": 0,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 15,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "Start with the work. A review should make the next step easier to see.",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 121,
+        "height": 353,
+        "maximum": 1653,
+        "top": 1532,
+        "total": 2006
+      },
+      "inputFont": "16px",
+      "name": "selection-append-preserved",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 121,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 121,
+        "height": 353,
+        "maximum": 1653,
+        "top": 1532,
+        "total": 2006
+      },
+      "inputFont": "16px",
+      "name": "selection-cleared-sticky-pause",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 121,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 150,
+        "height": 353,
+        "maximum": 1653,
+        "top": 1503,
+        "total": 2006
+      },
+      "inputFont": "16px",
+      "name": "scripted-upward-intent",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 150,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 17,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 249,
+        "height": 353,
+        "maximum": 1752,
+        "top": 1503,
+        "total": 2105
+      },
+      "inputFont": "16px",
+      "name": "upward-paused-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 7,
+        "distance": 249,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 17,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 18,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 0,
+        "maximum": 0,
+        "top": 0,
+        "total": 0
+      },
+      "inputFont": "16px",
+      "name": "hidden-real-unread",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 8,
+        "distance": 0,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 18,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 2,
+        "visible": false
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 18,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 370,
+        "height": 353,
+        "maximum": 1873,
+        "top": 1503,
+        "total": 2226
+      },
+      "inputFont": "16px",
+      "name": "revealed-no-replay",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 8,
+        "distance": 370,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 18,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 2,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "dom": {
+        "count": 10,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 720,
+        "height": 408,
+        "maximum": 720,
+        "top": 0,
+        "total": 1128
+      },
+      "inputFont": "16px",
+      "name": "attachment-start-reader",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 0,
+        "distance": 720,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 10,
+        "solid": false,
+        "stage": "reading",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 11,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 408,
+        "maximum": 819,
+        "top": 819,
+        "total": 1227
+      },
+      "inputFont": "16px",
+      "name": "following-real-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 1,
+        "distance": 0,
+        "following": true,
+        "growthUpdates": 0,
+        "nearEnd": true,
+        "quiet": false,
+        "records": 11,
+        "solid": false,
+        "stage": "following",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 11,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 280,
+        "height": 408,
+        "maximum": 819,
+        "top": 539,
+        "total": 1227
+      },
+      "inputFont": "16px",
+      "name": "older-paused",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 1,
+        "distance": 280,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 11,
+        "solid": false,
+        "stage": "older",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 577,
+        "height": 408,
+        "maximum": 1116,
+        "top": 539,
+        "total": 1524
+      },
+      "inputFont": "16px",
+      "name": "three-unread-position",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 577,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 14,
+        "solid": false,
+        "stage": "unread",
+        "touring": false,
+        "unread": 3,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 643,
+        "height": 408,
+        "maximum": 1182,
+        "top": 539,
+        "total": 1590
+      },
+      "inputFont": "16px",
+      "name": "text-growth-zero-unread",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 643,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 14,
+        "solid": false,
+        "stage": "unread",
+        "touring": false,
+        "unread": 3,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 408,
+        "maximum": 1182,
+        "top": 1182,
+        "total": 1590
+      },
+      "inputFont": "16px",
+      "name": "quiet-explicit-jump",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 0,
+        "following": true,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 14,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 408,
+        "maximum": 1182,
+        "top": 1182,
+        "total": 1590
+      },
+      "inputFont": "16px",
+      "name": "explicit-pause",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 0,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 14,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 15,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 99,
+        "height": 408,
+        "maximum": 1281,
+        "top": 1182,
+        "total": 1689
+      },
+      "inputFont": "16px",
+      "name": "paused-one-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 5,
+        "distance": 99,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 15,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 15,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "selection": "Start with the work. A review should make the next step easier to see.",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 408,
+        "maximum": 1281,
+        "top": 1281,
+        "total": 1689
+      },
+      "inputFont": "16px",
+      "name": "native-range-selection",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 5,
+        "distance": 0,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 15,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "Start with the work. A review should make the next step easier to see.",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 99,
+        "height": 408,
+        "maximum": 1380,
+        "top": 1281,
+        "total": 1788
+      },
+      "inputFont": "16px",
+      "name": "selection-append-preserved",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 99,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 99,
+        "height": 408,
+        "maximum": 1380,
+        "top": 1281,
+        "total": 1788
+      },
+      "inputFont": "16px",
+      "name": "selection-cleared-sticky-pause",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 99,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 150,
+        "height": 408,
+        "maximum": 1380,
+        "top": 1230,
+        "total": 1788
+      },
+      "inputFont": "16px",
+      "name": "scripted-upward-intent",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 150,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 17,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 249,
+        "height": 408,
+        "maximum": 1479,
+        "top": 1230,
+        "total": 1887
+      },
+      "inputFont": "16px",
+      "name": "upward-paused-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 7,
+        "distance": 249,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 17,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 18,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 0,
+        "maximum": 0,
+        "top": 0,
+        "total": 0
+      },
+      "inputFont": "16px",
+      "name": "hidden-real-unread",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 8,
+        "distance": 249,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 18,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 2,
+        "visible": false
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 18,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 370,
+        "height": 408,
+        "maximum": 1600,
+        "top": 1230,
+        "total": 2008
+      },
+      "inputFont": "16px",
+      "name": "revealed-no-replay",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 8,
+        "distance": 370,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 18,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 2,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "dom": {
+        "count": 10,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 847,
+        "height": 298,
+        "maximum": 847,
+        "top": 0,
+        "total": 1145
+      },
+      "inputFont": "16px",
+      "name": "attachment-start-reader",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 0,
+        "distance": 847,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 10,
+        "solid": false,
+        "stage": "reading",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 11,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 298,
+        "maximum": 951,
+        "top": 951,
+        "total": 1249
+      },
+      "inputFont": "16px",
+      "name": "following-real-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 1,
+        "distance": 0,
+        "following": true,
+        "growthUpdates": 0,
+        "nearEnd": true,
+        "quiet": false,
+        "records": 11,
+        "solid": false,
+        "stage": "following",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 11,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 280,
+        "height": 298,
+        "maximum": 951,
+        "top": 671,
+        "total": 1249
+      },
+      "inputFont": "16px",
+      "name": "older-paused",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 1,
+        "distance": 280,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 11,
+        "solid": false,
+        "stage": "older",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 595,
+        "height": 298,
+        "maximum": 1266,
+        "top": 671,
+        "total": 1564
+      },
+      "inputFont": "16px",
+      "name": "three-unread-position",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 595,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 14,
+        "solid": false,
+        "stage": "unread",
+        "touring": false,
+        "unread": 3,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 639,
+        "height": 298,
+        "maximum": 1310,
+        "top": 671,
+        "total": 1608
+      },
+      "inputFont": "16px",
+      "name": "text-growth-zero-unread",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 639,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 14,
+        "solid": false,
+        "stage": "unread",
+        "touring": false,
+        "unread": 3,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 298,
+        "maximum": 1310,
+        "top": 1310,
+        "total": 1608
+      },
+      "inputFont": "16px",
+      "name": "quiet-explicit-jump",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 0,
+        "following": true,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 14,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 298,
+        "maximum": 1310,
+        "top": 1310,
+        "total": 1608
+      },
+      "inputFont": "16px",
+      "name": "explicit-pause",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 0,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 14,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 15,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 105,
+        "height": 298,
+        "maximum": 1415,
+        "top": 1310,
+        "total": 1713
+      },
+      "inputFont": "16px",
+      "name": "paused-one-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 5,
+        "distance": 105,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 15,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 15,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "selection": "Start with the work. A review should make the next step easier to see.",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 298,
+        "maximum": 1415,
+        "top": 1415,
+        "total": 1713
+      },
+      "inputFont": "16px",
+      "name": "native-range-selection",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 5,
+        "distance": 0,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 15,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "Start with the work. A review should make the next step easier to see.",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 105,
+        "height": 298,
+        "maximum": 1520,
+        "top": 1415,
+        "total": 1818
+      },
+      "inputFont": "16px",
+      "name": "selection-append-preserved",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 105,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 105,
+        "height": 298,
+        "maximum": 1520,
+        "top": 1415,
+        "total": 1818
+      },
+      "inputFont": "16px",
+      "name": "selection-cleared-sticky-pause",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 105,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 150,
+        "height": 298,
+        "maximum": 1520,
+        "top": 1370,
+        "total": 1818
+      },
+      "inputFont": "16px",
+      "name": "scripted-upward-intent",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 150,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 17,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 255,
+        "height": 298,
+        "maximum": 1625,
+        "top": 1370,
+        "total": 1923
+      },
+      "inputFont": "16px",
+      "name": "upward-paused-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 7,
+        "distance": 255,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 17,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 18,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 0,
+        "maximum": 0,
+        "top": 0,
+        "total": 0
+      },
+      "inputFont": "16px",
+      "name": "hidden-real-unread",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 8,
+        "distance": 255,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 18,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 2,
+        "visible": false
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 18,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 360,
+        "height": 298,
+        "maximum": 1730,
+        "top": 1370,
+        "total": 2028
+      },
+      "inputFont": "16px",
+      "name": "revealed-no-replay",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 8,
+        "distance": 360,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 18,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 2,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "dom": {
+        "count": 10,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 671,
+        "height": 298,
+        "maximum": 671,
+        "top": 0,
+        "total": 969
+      },
+      "inputFont": "16px",
+      "name": "attachment-start-reader",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 0,
+        "distance": 671,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 10,
+        "solid": false,
+        "stage": "reading",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 11,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0.5,
+        "height": 298,
+        "maximum": 754,
+        "top": 753.5,
+        "total": 1052
+      },
+      "inputFont": "16px",
+      "name": "following-real-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 1,
+        "distance": 0.5,
+        "following": true,
+        "growthUpdates": 0,
+        "nearEnd": true,
+        "quiet": false,
+        "records": 11,
+        "solid": false,
+        "stage": "following",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 11,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 280,
+        "height": 298,
+        "maximum": 754,
+        "top": 474,
+        "total": 1052
+      },
+      "inputFont": "16px",
+      "name": "older-paused",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 1,
+        "distance": 280,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 11,
+        "solid": false,
+        "stage": "older",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 529,
+        "height": 298,
+        "maximum": 1003,
+        "top": 474,
+        "total": 1301
+      },
+      "inputFont": "16px",
+      "name": "three-unread-position",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 529,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 14,
+        "solid": false,
+        "stage": "unread",
+        "touring": false,
+        "unread": 3,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 573,
+        "height": 298,
+        "maximum": 1047,
+        "top": 474,
+        "total": 1345
+      },
+      "inputFont": "16px",
+      "name": "text-growth-zero-unread",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 573,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 14,
+        "solid": false,
+        "stage": "unread",
+        "touring": false,
+        "unread": 3,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0.5,
+        "height": 298,
+        "maximum": 1047,
+        "top": 1046.5,
+        "total": 1345
+      },
+      "inputFont": "16px",
+      "name": "quiet-explicit-jump",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 0.5,
+        "following": true,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 14,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0.5,
+        "height": 298,
+        "maximum": 1047,
+        "top": 1046.5,
+        "total": 1345
+      },
+      "inputFont": "16px",
+      "name": "explicit-pause",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 0.5,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 14,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 15,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 83.5,
+        "height": 298,
+        "maximum": 1130,
+        "top": 1046.5,
+        "total": 1428
+      },
+      "inputFont": "16px",
+      "name": "paused-one-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 5,
+        "distance": 83.5,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 15,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 15,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "selection": "Start with the work. A review should make the next step easier to see.",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0.5,
+        "height": 298,
+        "maximum": 1130,
+        "top": 1129.5,
+        "total": 1428
+      },
+      "inputFont": "16px",
+      "name": "native-range-selection",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 5,
+        "distance": 0.5,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": true,
+        "quiet": true,
+        "records": 15,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "Start with the work. A review should make the next step easier to see.",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 83.5,
+        "height": 298,
+        "maximum": 1213,
+        "top": 1129.5,
+        "total": 1511
+      },
+      "inputFont": "16px",
+      "name": "selection-append-preserved",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 83.5,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 83.5,
+        "height": 298,
+        "maximum": 1213,
+        "top": 1129.5,
+        "total": 1511
+      },
+      "inputFont": "16px",
+      "name": "selection-cleared-sticky-pause",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 83.5,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 16,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 150.5,
+        "height": 298,
+        "maximum": 1213,
+        "top": 1062.5,
+        "total": 1511
+      },
+      "inputFont": "16px",
+      "name": "scripted-upward-intent",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 6,
+        "distance": 150.5,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 16,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 17,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 233.5,
+        "height": 298,
+        "maximum": 1296,
+        "top": 1062.5,
+        "total": 1594
+      },
+      "inputFont": "16px",
+      "name": "upward-paused-append",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 7,
+        "distance": 233.5,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 17,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 18,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 0,
+        "height": 0,
+        "maximum": 0,
+        "top": 0,
+        "total": 0
+      },
+      "inputFont": "16px",
+      "name": "hidden-real-unread",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 8,
+        "distance": 233.5,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 18,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 2,
+        "visible": false
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "dom": {
+        "count": 18,
+        "directChild": true,
+        "focus": "",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 337.5,
+        "height": 298,
+        "maximum": 1400,
+        "top": 1062.5,
+        "total": 1698
+      },
+      "inputFont": "16px",
+      "name": "revealed-no-replay",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 8,
+        "distance": 337.5,
+        "following": false,
+        "growthUpdates": 1,
+        "nearEnd": false,
+        "quiet": true,
+        "records": 18,
+        "solid": false,
+        "stage": "latest",
+        "touring": false,
+        "unread": 2,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    }
+  ],
+  "probe": "(()=>{const s=document.getElementById('scrollport'),d=window.__followDemo.state(),content=document.getElementById('log-content'),controls=[...document.querySelectorAll('button,a[href],.preferences label,#draft')].filter(n=>!n.closest('[hidden]')).map(n=>({id:n.id||n.className,width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height})),selection=getSelection();return {viewport:{width:innerWidth,height:innerHeight},pageOverflow:document.documentElement.scrollWidth>innerWidth,nestedHorizontalOverflow:s.scrollWidth>s.clientWidth,targets:{count:controls.length,minWidth:Math.min(...controls.map(x=>x.width)),minHeight:Math.min(...controls.map(x=>x.height)),below44:controls.filter(x=>x.width<44||x.height<44)},inputFont:getComputedStyle(document.getElementById('draft')).fontSize,geometry:{top:s.scrollTop,height:s.clientHeight,total:s.scrollHeight,maximum:s.scrollHeight-s.clientHeight,distance:s.scrollHeight-s.clientHeight-s.scrollTop},state:{following:d.following,nearEnd:d.nearEnd,distance:d.distance,unread:d.unread,visible:d.visible,records:d.records,declaredAppends:d.declaredAppends,growthUpdates:d.growthUpdates,touring:d.touring,stage:d.stage,quiet:d.quiet,solid:d.solid},dom:{ids:[...document.querySelectorAll('[data-record-id]')].map(n=>n.dataset.recordId),count:document.querySelectorAll('[data-record-id]').length,directChild:content.parentElement===s,selection:selection.toString(),focus:document.activeElement.id,userSelect:getComputedStyle(content).userSelect}}})()",
+  "matrixExpression": "(async()=>{const d=window.__followDemo,s=document.getElementById('scrollport'),wait=ms=>new Promise(r=>setTimeout(r,ms)),rows=[],capture=name=>rows.push({name,...(()=>{const s=document.getElementById('scrollport'),d=window.__followDemo.state(),content=document.getElementById('log-content'),controls=[...document.querySelectorAll('button,a[href],.preferences label,#draft')].filter(n=>!n.closest('[hidden]')).map(n=>({id:n.id||n.className,width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height})),selection=getSelection();return {viewport:{width:innerWidth,height:innerHeight},pageOverflow:document.documentElement.scrollWidth>innerWidth,nestedHorizontalOverflow:s.scrollWidth>s.clientWidth,targets:{count:controls.length,minWidth:Math.min(...controls.map(x=>x.width)),minHeight:Math.min(...controls.map(x=>x.height)),below44:controls.filter(x=>x.width<44||x.height<44)},inputFont:getComputedStyle(document.getElementById('draft')).fontSize,geometry:{top:s.scrollTop,height:s.clientHeight,total:s.scrollHeight,maximum:s.scrollHeight-s.clientHeight,distance:s.scrollHeight-s.clientHeight-s.scrollTop},state:{following:d.following,nearEnd:d.nearEnd,distance:d.distance,unread:d.unread,visible:d.visible,records:d.records,declaredAppends:d.declaredAppends,growthUpdates:d.growthUpdates,touring:d.touring,stage:d.stage,quiet:d.quiet,solid:d.solid},dom:{ids:[...document.querySelectorAll('[data-record-id]')].map(n=>n.dataset.recordId),count:document.querySelectorAll('[data-record-id]').length,directChild:content.parentElement===s,selection:selection.toString(),focus:document.activeElement.id,userSelect:getComputedStyle(content).userSelect}}})()});d.reset();s.scrollIntoView({block:'center'});await wait(70);capture('attachment-start-reader');d.preset('following');await wait(80);capture('following-real-append');d.preset('older');await wait(60);capture('older-paused');d.preset('unread');await wait(60);capture('three-unread-position');const old=+s.scrollTop;d.preset('growth');await wait(60);capture('text-growth-zero-unread');document.querySelector('#quiet').checked=true;d.preset('latest');await wait(60);capture('quiet-explicit-jump');document.querySelector('#pause').click();capture('explicit-pause');document.querySelector('#append').click();await wait(60);capture('paused-one-append');d.preset('latest');await wait(60);const p=document.querySelector('[data-record-text]'),range=document.createRange();range.selectNodeContents(p);getSelection().removeAllRanges();getSelection().addRange(range);await wait(40);capture('native-range-selection');document.querySelector('#append').click();await wait(60);capture('selection-append-preserved');getSelection().removeAllRanges();await wait(40);capture('selection-cleared-sticky-pause');d.preset('latest');await wait(60);s.scrollTop=Math.max(0,s.scrollTop-150);s.dispatchEvent(new WheelEvent('wheel',{deltaY:-100,bubbles:true}));await wait(60);capture('scripted-upward-intent');document.querySelector('#append').click();await wait(60);capture('upward-paused-append');s.hidden=true;document.querySelector('#append').click();await wait(60);capture('hidden-real-unread');s.hidden=false;await wait(90);capture('revealed-no-replay');d.reset();getSelection().removeAllRanges();return rows})()",
+  "composer": {
+    "caret": 40,
+    "focus": "draft",
+    "lastRecord": "YYou09:20REVIEWkeep the reader where they chose to read",
+    "state": {
+      "declaredAppends": 1,
+      "destroyed": false,
+      "distance": 754,
+      "draft": "keep the reader where they chose to read",
+      "following": false,
+      "growthUpdates": 0,
+      "nearEnd": false,
+      "quiet": false,
+      "recordTexts": [
+        "Start with the work. A review should make the next step easier to see.",
+        "Keep the labels close to the controls. There is no need to make someone remember them.",
+        "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+        "Use a real button to return to the latest entry. It should say what it does.",
+        "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+        "New entries can wait. An unread count is more useful than pulling the reader away.",
+        "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+        "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+        "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+        "Give people a place to stop. A useful feed does not have to keep moving.",
+        "keep the reader where they chose to read"
+      ],
+      "records": 11,
+      "solid": false,
+      "stage": "reading",
+      "top": 0,
+      "touring": false,
+      "unread": 1,
+      "visible": true
+    }
+  },
+  "nativeReading": {
+    "before": {
+      "dom": {
+        "count": 11,
+        "directChild": true,
+        "focus": "read-older",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 280,
+        "height": 298,
+        "maximum": 754,
+        "top": 474,
+        "total": 1052
+      },
+      "inputFont": "16px",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 1,
+        "distance": 280,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 11,
+        "solid": false,
+        "stage": "older",
+        "touring": false,
+        "unread": 1,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    "after": {
+      "dom": {
+        "count": 14,
+        "directChild": true,
+        "focus": "append-three",
+        "ids": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "selection": "",
+        "userSelect": "text"
+      },
+      "geometry": {
+        "distance": 529,
+        "height": 298,
+        "maximum": 1003,
+        "top": 474,
+        "total": 1301
+      },
+      "inputFont": "16px",
+      "nestedHorizontalOverflow": false,
+      "pageOverflow": false,
+      "state": {
+        "declaredAppends": 4,
+        "distance": 529,
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "records": 14,
+        "solid": false,
+        "stage": "older",
+        "touring": false,
+        "unread": 4,
+        "visible": true
+      },
+      "targets": {
+        "below44": [],
+        "count": 15,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    }
+  },
+  "nativeJump": {
+    "dom": {
+      "count": 14,
+      "directChild": true,
+      "focus": "jump",
+      "ids": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "selection": "",
+      "userSelect": "text"
+    },
+    "geometry": {
+      "distance": 0.5,
+      "height": 298,
+      "maximum": 1003,
+      "top": 1002.5,
+      "total": 1301
+    },
+    "inputFont": "16px",
+    "nestedHorizontalOverflow": false,
+    "pageOverflow": false,
+    "state": {
+      "declaredAppends": 4,
+      "distance": 0.5,
+      "following": true,
+      "growthUpdates": 0,
+      "nearEnd": true,
+      "quiet": false,
+      "records": 14,
+      "solid": false,
+      "stage": "latest",
+      "touring": false,
+      "unread": 0,
+      "visible": true
+    },
+    "targets": {
+      "below44": [],
+      "count": 15,
+      "minHeight": 44,
+      "minWidth": 52.25
+    },
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  "resetRegression": {
+    "afterReset": {
+      "declaredAppends": 0,
+      "destroyed": false,
+      "distance": 671,
+      "draft": "keep the reader where they chose to read",
+      "following": false,
+      "growthUpdates": 0,
+      "nearEnd": false,
+      "quiet": false,
+      "recordTexts": [
+        "Start with the work. A review should make the next step easier to see.",
+        "Keep the labels close to the controls. There is no need to make someone remember them.",
+        "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+        "Use a real button to return to the latest entry. It should say what it does.",
+        "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+        "New entries can wait. An unread count is more useful than pulling the reader away.",
+        "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+        "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+        "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+        "Give people a place to stop. A useful feed does not have to keep moving."
+      ],
+      "records": 10,
+      "solid": false,
+      "stage": "reading",
+      "top": 0,
+      "touring": false,
+      "unread": 0,
+      "visible": true
+    },
+    "beforeNativeUp": {
+      "declaredAppends": 1,
+      "destroyed": false,
+      "distance": 0.5,
+      "draft": "keep the reader where they chose to read",
+      "following": true,
+      "growthUpdates": 0,
+      "nearEnd": true,
+      "quiet": false,
+      "recordTexts": [
+        "Start with the work. A review should make the next step easier to see.",
+        "Keep the labels close to the controls. There is no need to make someone remember them.",
+        "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+        "Use a real button to return to the latest entry. It should say what it does.",
+        "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+        "New entries can wait. An unread count is more useful than pulling the reader away.",
+        "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+        "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+        "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+        "Give people a place to stop. A useful feed does not have to keep moving.",
+        "First new fixture: the current reader position remains part of the review."
+      ],
+      "records": 11,
+      "solid": false,
+      "stage": "following",
+      "top": 753.5,
+      "touring": false,
+      "unread": 0,
+      "visible": true
+    },
+    "beforeReset": {
+      "declaredAppends": 2,
+      "destroyed": false,
+      "distance": 837,
+      "draft": "keep the reader where they chose to read",
+      "following": false,
+      "growthUpdates": 0,
+      "nearEnd": false,
+      "quiet": false,
+      "recordTexts": [
+        "Start with the work. A review should make the next step easier to see.",
+        "Keep the labels close to the controls. There is no need to make someone remember them.",
+        "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+        "Use a real button to return to the latest entry. It should say what it does.",
+        "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+        "New entries can wait. An unread count is more useful than pulling the reader away.",
+        "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+        "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+        "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+        "Give people a place to stop. A useful feed does not have to keep moving.",
+        "First new fixture: the current reader position remains part of the review.",
+        "Second new fixture: a small, explicit unread count can hold the next thought."
+      ],
+      "records": 12,
+      "solid": false,
+      "stage": "reading",
+      "top": 0,
+      "touring": false,
+      "unread": 2,
+      "visible": true
+    }
+  },
+  "nativeUp": {
+    "dom": {
+      "count": 11,
+      "directChild": true,
+      "focus": "scrollport",
+      "ids": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "selection": "",
+      "userSelect": "text"
+    },
+    "geometry": {
+      "distance": 40.5,
+      "height": 298,
+      "maximum": 754,
+      "top": 713.5,
+      "total": 1052
+    },
+    "inputFont": "16px",
+    "nestedHorizontalOverflow": false,
+    "pageOverflow": false,
+    "state": {
+      "declaredAppends": 1,
+      "distance": 40.5,
+      "following": false,
+      "growthUpdates": 0,
+      "nearEnd": true,
+      "quiet": false,
+      "records": 11,
+      "solid": false,
+      "stage": "following",
+      "touring": false,
+      "unread": 0,
+      "visible": true
+    },
+    "targets": {
+      "below44": [],
+      "count": 15,
+      "minHeight": 44,
+      "minWidth": 52.25
+    },
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  "selection": {
+    "after": {
+      "sameTextNode": true,
+      "selection": "w entries can wait. An unread count is more",
+      "state": {
+        "declaredAppends": 4,
+        "destroyed": false,
+        "distance": 529,
+        "draft": "keep the reader where they chose to read",
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "recordTexts": [
+          "Start with the work. A review should make the next step easier to see.",
+          "Keep the labels close to the controls. There is no need to make someone remember them.",
+          "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+          "Use a real button to return to the latest entry. It should say what it does.",
+          "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+          "New entries can wait. An unread count is more useful than pulling the reader away.",
+          "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+          "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+          "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+          "Give people a place to stop. A useful feed does not have to keep moving.",
+          "First new fixture: the current reader position remains part of the review.",
+          "Second new fixture: a small, explicit unread count can hold the next thought.",
+          "Third new fixture: the latest entry will still be here when you choose to return.",
+          "Start with the work. A review should make the next step easier to see."
+        ],
+        "records": 14,
+        "solid": false,
+        "stage": "unread",
+        "top": 474,
+        "touring": false,
+        "unread": 3,
+        "visible": true
+      },
+      "top": 474
+    },
+    "before": {
+      "selection": "w entries can wait. An unread count is more",
+      "state": {
+        "declaredAppends": 1,
+        "destroyed": false,
+        "distance": 280,
+        "draft": "keep the reader where they chose to read",
+        "following": false,
+        "growthUpdates": 0,
+        "nearEnd": false,
+        "quiet": false,
+        "recordTexts": [
+          "Start with the work. A review should make the next step easier to see.",
+          "Keep the labels close to the controls. There is no need to make someone remember them.",
+          "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+          "Use a real button to return to the latest entry. It should say what it does.",
+          "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+          "New entries can wait. An unread count is more useful than pulling the reader away.",
+          "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+          "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+          "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+          "Give people a place to stop. A useful feed does not have to keep moving.",
+          "First new fixture: the current reader position remains part of the review."
+        ],
+        "records": 11,
+        "solid": false,
+        "stage": "older",
+        "top": 474,
+        "touring": false,
+        "unread": 0,
+        "visible": true
+      },
+      "top": 474
+    },
+    "kind": "Actual native Range selection authored by fixture, not physical mouse selection"
+  },
+  "resize": {
+    "before": {
+      "declaredAppends": 4,
+      "destroyed": false,
+      "distance": 0.5,
+      "draft": "keep the reader where they chose to read",
+      "following": true,
+      "growthUpdates": 0,
+      "nearEnd": true,
+      "quiet": true,
+      "recordTexts": [
+        "Start with the work. A review should make the next step easier to see.",
+        "Keep the labels close to the controls. There is no need to make someone remember them.",
+        "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+        "Use a real button to return to the latest entry. It should say what it does.",
+        "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+        "New entries can wait. An unread count is more useful than pulling the reader away.",
+        "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+        "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+        "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+        "Give people a place to stop. A useful feed does not have to keep moving.",
+        "First new fixture: the current reader position remains part of the review.",
+        "Second new fixture: a small, explicit unread count can hold the next thought.",
+        "Third new fixture: the latest entry will still be here when you choose to return.",
+        "Start with the work. A review should make the next step easier to see."
+      ],
+      "records": 14,
+      "solid": false,
+      "stage": "unread",
+      "top": 1002.5,
+      "touring": false,
+      "unread": 0,
+      "visible": true
+    },
+    "kind": "Actual width changes and native ResizeObserver delivery; position metric is pixels, no semantic reflow/prepend anchoring claim",
+    "pausedBefore": {
+      "declaredAppends": 4,
+      "destroyed": false,
+      "distance": 280,
+      "draft": "keep the reader where they chose to read",
+      "following": false,
+      "growthUpdates": 0,
+      "nearEnd": false,
+      "quiet": true,
+      "recordTexts": [
+        "Start with the work. A review should make the next step easier to see.",
+        "Keep the labels close to the controls. There is no need to make someone remember them.",
+        "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+        "Use a real button to return to the latest entry. It should say what it does.",
+        "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+        "New entries can wait. An unread count is more useful than pulling the reader away.",
+        "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+        "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+        "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+        "Give people a place to stop. A useful feed does not have to keep moving.",
+        "First new fixture: the current reader position remains part of the review.",
+        "Second new fixture: a small, explicit unread count can hold the next thought.",
+        "Third new fixture: the latest entry will still be here when you choose to return.",
+        "Start with the work. A review should make the next step easier to see."
+      ],
+      "records": 14,
+      "solid": false,
+      "stage": "older",
+      "top": 1633,
+      "touring": false,
+      "unread": 0,
+      "visible": true
+    },
+    "resizedPaused": {
+      "declaredAppends": 4,
+      "destroyed": false,
+      "distance": 951,
+      "draft": "keep the reader where they chose to read",
+      "following": false,
+      "growthUpdates": 0,
+      "nearEnd": false,
+      "quiet": true,
+      "recordTexts": [
+        "Start with the work. A review should make the next step easier to see.",
+        "Keep the labels close to the controls. There is no need to make someone remember them.",
+        "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+        "Use a real button to return to the latest entry. It should say what it does.",
+        "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+        "New entries can wait. An unread count is more useful than pulling the reader away.",
+        "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+        "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+        "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+        "Give people a place to stop. A useful feed does not have to keep moving.",
+        "First new fixture: the current reader position remains part of the review.",
+        "Second new fixture: a small, explicit unread count can hold the next thought.",
+        "Third new fixture: the latest entry will still be here when you choose to return.",
+        "Start with the work. A review should make the next step easier to see."
+      ],
+      "records": 14,
+      "solid": false,
+      "stage": "older",
+      "top": 1633,
+      "touring": false,
+      "unread": 0,
+      "visible": true
+    },
+    "resizedPinned": {
+      "declaredAppends": 4,
+      "destroyed": false,
+      "distance": 0,
+      "draft": "keep the reader where they chose to read",
+      "following": true,
+      "growthUpdates": 0,
+      "nearEnd": true,
+      "quiet": true,
+      "recordTexts": [
+        "Start with the work. A review should make the next step easier to see.",
+        "Keep the labels close to the controls. There is no need to make someone remember them.",
+        "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+        "Use a real button to return to the latest entry. It should say what it does.",
+        "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+        "New entries can wait. An unread count is more useful than pulling the reader away.",
+        "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+        "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+        "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+        "Give people a place to stop. A useful feed does not have to keep moving.",
+        "First new fixture: the current reader position remains part of the review.",
+        "Second new fixture: a small, explicit unread count can hold the next thought.",
+        "Third new fixture: the latest entry will still be here when you choose to return.",
+        "Start with the work. A review should make the next step easier to see."
+      ],
+      "records": 14,
+      "solid": false,
+      "stage": "unread",
+      "top": 1913,
+      "touring": false,
+      "unread": 0,
+      "visible": true
+    }
+  },
+  "boundedRecords": {
+    "beforeRecords": 32,
+    "controlsDisabled": true,
+    "ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "originalNodesRetained": true,
+    "state": {
+      "declaredAppends": 22,
+      "destroyed": false,
+      "distance": 2562,
+      "draft": "keep the reader where they chose to read",
+      "following": false,
+      "growthUpdates": 0,
+      "nearEnd": false,
+      "quiet": false,
+      "recordTexts": [
+        "Start with the work. A review should make the next step easier to see.",
+        "Keep the labels close to the controls. There is no need to make someone remember them.",
+        "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+        "Use a real button to return to the latest entry. It should say what it does.",
+        "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+        "New entries can wait. An unread count is more useful than pulling the reader away.",
+        "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+        "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+        "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+        "Give people a place to stop. A useful feed does not have to keep moving.",
+        "First new fixture: the current reader position remains part of the review.",
+        "Second new fixture: a small, explicit unread count can hold the next thought.",
+        "Third new fixture: the latest entry will still be here when you choose to return.",
+        "Start with the work. A review should make the next step easier to see.",
+        "Keep the labels close to the controls. There is no need to make someone remember them.",
+        "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+        "Use a real button to return to the latest entry. It should say what it does.",
+        "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+        "New entries can wait. An unread count is more useful than pulling the reader away.",
+        "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+        "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+        "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+        "Give people a place to stop. A useful feed does not have to keep moving.",
+        "First new fixture: the current reader position remains part of the review.",
+        "Second new fixture: a small, explicit unread count can hold the next thought.",
+        "Third new fixture: the latest entry will still be here when you choose to return.",
+        "Start with the work. A review should make the next step easier to see.",
+        "Keep the labels close to the controls. There is no need to make someone remember them.",
+        "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+        "Use a real button to return to the latest entry. It should say what it does.",
+        "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+        "New entries can wait. An unread count is more useful than pulling the reader away."
+      ],
+      "records": 32,
+      "solid": false,
+      "stage": "reading",
+      "top": 0,
+      "touring": false,
+      "unread": 22,
+      "visible": true
+    }
+  },
+  "limits": [
+    "Actual desktop Chromium viewport measurements, not physical phone/Safari/AT certification",
+    "Range selection and wheel/scroll fixture events distinguished from physical input; native ArrowUp/composer/buttons use native tool input",
+    "No virtualized/reversed/prepended-history or semantic text reflow anchoring claim",
+    "All records are local original fixtures and native composer text, no backend/stream/model"
+  ]
+}
+

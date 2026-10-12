@@ -1,0 +1,9 @@
+{
+  "observedAtUtc": "2026-10-12T04:48:04.211Z",
+  "target": "es2022",
+  "format": "standalone minified IIFE",
+  "jsRawBytes": 5923,
+  "jsGzipBytes": 2721,
+  "sourceSha256": "92ad582571a6e3af4bdf16ccd3d664571ce2170b9365a15ec589b6963c275c12",
+  "scope": "Optional follow controller including numeric/lifecycle helper code, no CSS. Payload only, not real-task/GPU/paint or comparative speedup measurement."
+}

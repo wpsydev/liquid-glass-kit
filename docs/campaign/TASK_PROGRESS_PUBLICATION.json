@@ -1,0 +1,191 @@
+{
+  "version": "0.40.0-preview.1",
+  "commit": "76742bbe7d150eff14f63930841a7407f93428f2",
+  "workflows": {
+    "verify": 38207345151,
+    "release": 38207345145,
+    "pages": 38207345157,
+    "conclusion": "success",
+    "tests": 870,
+    "testFiles": 43
+  },
+  "archive": {
+    "members": 179,
+    "bytes": 385322,
+    "sha256": "d57e136236c5ca7a77608683950ee58bb58c463f9fa4f1c2d6234b55a4cb091c"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/progress/",
+    "native": {
+      "start": {
+        "cancel": false,
+        "native": {
+          "max": null,
+          "position": -1,
+          "value": null
+        },
+        "state": {
+          "active": true,
+          "checkedBytes": 0,
+          "completedRuns": 0,
+          "failedId": null,
+          "focus": "run",
+          "generation": 1,
+          "max": null,
+          "mode": "indeterminate",
+          "native": {
+            "busy": "true",
+            "hidden": false,
+            "label": "Inspect selected local notes",
+            "maxAttribute": null,
+            "motion": "static",
+            "position": -1,
+            "ringHidden": false,
+            "valueAttribute": null,
+            "valueText": null
+          },
+          "pendingFixtureActions": 0,
+          "pendingTourSteps": 0,
+          "pendingWaits": 1,
+          "preferences": {
+            "animated": false,
+            "announce": true,
+            "inView": true,
+            "quiet": false,
+            "solid": false,
+            "systemReduced": false
+          },
+          "results": [],
+          "selected": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08"
+          ],
+          "snapshot": {
+            "collection": "interface",
+            "ids": [
+              "A01",
+              "A02",
+              "A03",
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08"
+            ],
+            "prepareOnly": false,
+            "title": "Interface field notes"
+          },
+          "stage": "Local preparation fixture",
+          "state": "busy",
+          "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+          "tourStep": "",
+          "unit": "records",
+          "value": null
+        }
+      },
+      "cancel": {
+        "cancel": true,
+        "native": {
+          "max": "8",
+          "position": 0.125,
+          "value": "1"
+        },
+        "state": {
+          "active": false,
+          "checkedBytes": 135,
+          "completedRuns": 0,
+          "failedId": null,
+          "focus": "BODY",
+          "generation": 2,
+          "max": 8,
+          "mode": "determinate",
+          "native": {
+            "busy": "false",
+            "hidden": false,
+            "label": "Inspect selected local notes",
+            "maxAttribute": "8",
+            "motion": "static",
+            "position": 0.125,
+            "ringHidden": true,
+            "valueAttribute": "1",
+            "valueText": "1 of 8 selected records checked"
+          },
+          "pendingFixtureActions": 0,
+          "pendingTourSteps": 0,
+          "pendingWaits": 0,
+          "preferences": {
+            "animated": false,
+            "announce": true,
+            "inView": true,
+            "quiet": false,
+            "solid": false,
+            "systemReduced": false
+          },
+          "results": [
+            {
+              "bytes": 135,
+              "id": "A01",
+              "title": "Keep the first step obvious",
+              "words": 22
+            }
+          ],
+          "selected": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08"
+          ],
+          "snapshot": {
+            "collection": "interface",
+            "ids": [
+              "A01",
+              "A02",
+              "A03",
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08"
+            ],
+            "prepareOnly": false,
+            "title": "Interface field notes"
+          },
+          "stage": "Stopped by the host",
+          "state": "cancelled",
+          "status": "Inspection cancelled. 1 checked records and their measured bytes remain; the rest were not processed.",
+          "tourStep": "",
+          "unit": "records",
+          "value": 1
+        }
+      }
+    },
+    "scope": "Actual Inspect and Cancel clicks: unknown absent attributes, then cancel retains one actual135-byte record with1/8, no invented completion"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109514471094026741",
+    "replies": [
+      "https://x.com/wpsygames/status/2109514681807405091",
+      "https://x.com/wpsygames/status/2109514774027338191"
+    ],
+    "upload": {
+      "bytes": 752612,
+      "sha256": "ef8b3ea4dea439816aa9cb33f6790777723588d782ae5121dbb5b463911aef81"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical pages confirmed intended text"
+  },
+  "npmRegistry": "pending"
+}

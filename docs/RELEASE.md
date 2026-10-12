@@ -1,13 +1,13 @@
-Unknown means unknown. **0.40.0-preview.1** adds optional `/task-progress` and scoped CSS.
+Keep the reader’s place. **0.41.0-preview.1** adds optional `/follow`.
 
-Pure view props preserve native progress with actual finite value/max or genuinely omitted unknown quantities. Explicit complete/error/cancelled never invents100%. Separate useful status stays outside the busy results; announcements are deliberate. Optional CSSring runs only for visible host-permitted busy unknown work, stops in quiet mode and adds no task runner. Host owns execution, visibility, cancellation and retry.
+Actual native records, selection, focus and keyboard scrolling remain intact. Appends carry explicit unread counts; reading pause is sticky until the user deliberately returns. Attachment never jumps. Event-driven geometry/visibility gates and conditional cleanup add no idle loop. The host owns content and real data.
 
-[Index Room](https://wpsydev.github.io/liquid-glass-kit/progress/) computes actual UTF-8 bytes and word segments from14 original local notes. Staged preparation/record waits make states inspectable; they are not processing-speed measurements. The twelve-second original160BPM vibraphone drum-and-bass film shows honest partial rejection, cancellation/retry and quiet completion.
+[Relay](https://wpsydev.github.io/liquid-glass-kit/follow/) is an original local review log. Its native composer, Read Older and Jump Latest use real host actions. New-session Reset clears old unread by deliberately reattaching at the new session. The twelve-second original132BPM plucked-keys garage video ends with14realrecords and no tour work.
 
-41 focused tests and75 native desktop viewport/state cases320–1440px retain44px targets,16px fields and no page overflow. Actual0/8, fractional135/1166, partial error426/1166, terminal unknown hiding, real offscreen/quiet stop and separate status verified. Physical phones, Safari and assistive technology remain unverified.
+21 focused tests;75 native desktop viewport/state cases320–1440px retain44px controls,16px fields and no page overflow. Actual Enter append, ArrowUp pause, reader position, selected text/node identity and width observation verified. Physical phones, Safari and assistive technology remain unverified.
 
-Optional IIFE1613gzip/CSS907gzip excluding material. Separate synchronous probes: pure10.9ms/10,000calls median; connectedhost12.1ms/2560applies median/0RAF/rect; forcedstylelayout4.8ms/100updates median includes browserstyle/layout. No painting/GPU/task/backend/comparative speedup or appFPS claim.
+Optional2721gzip.800connected lifecycle sequences median31ms/160batch,26,400nativegeometrygetters/0explicitrect/0syncRAF/9600balancedlisteners; induced synchronous style/layout included.250msidle andpostdestroy0RAF. No paint/GPU/FPS/comparative speedup claim.
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/TASK_PROGRESS.md) · [Evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/task-progress-native.json)
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/FOLLOW.md) · [Evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/follow-native.json)
 
-Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.40.0-preview.1`. npm registry remains pending. Independent Uiverse-inspired waiting-state adaptation; no copied loader.
+Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.41.0-preview.1`. npm registry pending. Independent Smooth UI-inspired interaction, without copied widget.

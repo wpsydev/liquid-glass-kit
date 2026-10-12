@@ -2,7 +2,7 @@
 
 **CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.40 task-progress preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.41 reader-follow preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
 ![Material workbench](docs/assets/studio.webp)
 
@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.40.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.41.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -188,3 +188,5 @@ Optional `/number-transition` keeps a separate readable actual value current whi
 Optional `/auto-size` transitions a dedicated natural-height frame around actual committed content. Focus and responsive width changes snap, preserving the original draft and caret; native height motion incurs layout and painting. [API](docs/AUTO_SIZE.md) · [Session Notes](https://wpsydev.github.io/liquid-glass-kit/size/).
 
 Optional `/task-progress` produces native progress, separate status and busy-region props from actual host quantities. Unknown progress stays unknown; optional scoped CSS decoration stops in quiet mode. The host owns execution and visibility. [API](docs/TASK_PROGRESS.md) · [Index Room](https://wpsydev.github.io/liquid-glass-kit/progress/).
+
+Optional `/follow` preserves native reading position and text selection while actual host records append. Unread counts are explicit, pause is sticky, and Jump latest is deliberate. [API](docs/FOLLOW.md) · [Relay](https://wpsydev.github.io/liquid-glass-kit/follow/).

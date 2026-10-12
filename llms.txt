@@ -113,3 +113,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Honest task progress](docs/TASK_PROGRESS.md): native quantities, unknown without value/max, meaningful separate status and host execution/visibility.
 - [Index Room](https://wpsydev.github.io/liquid-glass-kit/progress/): actual local text inspection, partial error/cancel, explicit retry and quiet completion.
+
+- [Reader-intent following](docs/FOLLOW.md): normal native scrollport, explicit appended counts, sticky pause, native selection and deliberate tail return.
+- [Reader Relay](https://wpsydev.github.io/liquid-glass-kit/follow/): actual local notes, preserved reading position, unread ledger and native composer.

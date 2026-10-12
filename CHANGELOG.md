@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.41.0-preview.1
+
+- Add optional reader-intent tail following with explicit appended counts, sticky pause, unread ledger and deliberate native tail navigation.
+- Preserve actual nodes, focus and text selection; event-driven geometry/visibility gates avoid idle work.
+- Add original Relay local review log,75 native desktop viewport/state checks, scoped lifecycle benchmark and twelve-second plucked-keys garage video. Correct new-session unread reset and44px demo home link.
+
 ## 0.40.0-preview.1
 
 - Add pure native task-progress props and optional scoped CSS, explicit known/unknown quantities and host-supplied outcomes.

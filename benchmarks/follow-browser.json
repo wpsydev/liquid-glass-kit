@@ -1,0 +1,57 @@
+{
+  "allListenersAdded": 9612,
+  "allListenersRemoved": 9612,
+  "nativeEventLifecycle": {
+    "afterActualAppend": {
+      "destroyed": false,
+      "distance": 0,
+      "following": true,
+      "nearEnd": true,
+      "unread": 0,
+      "visible": true
+    },
+    "destroyed": true,
+    "idle250msRequestedFrames": 0,
+    "pausedGrowth": {
+      "positionPreserved": true,
+      "state": {
+        "destroyed": false,
+        "distance": 0,
+        "following": false,
+        "nearEnd": true,
+        "unread": 0,
+        "visible": true
+      }
+    },
+    "postDestroy250msRequestedFrames": 0
+  },
+  "observedAtUtc": "2026-10-12T04:48:39.404Z",
+  "scope": "800 actual connected attach/follow/append/notify/pause/text-growth/notify/append/refresh/jump/destroy sequences. Timings include synchronous native geometry style/layout. Separate native ResizeObserver/scroll event and idle observations. No paint/GPU/FPS/physical-device speed or comparative claim.",
+  "synchronous": {
+    "batchesMs": [
+      55.39999997615814,
+      31,
+      32,
+      30.699999928474426,
+      25.5
+    ],
+    "cancelledFrames": 0,
+    "connectedSequences": 800,
+    "explicitRectReads": 0,
+    "geometryGetterReads": {
+      "clientHeight": 8000,
+      "scrollHeight": 8000,
+      "scrollTop": 10400
+    },
+    "listenersAdded": 9600,
+    "listenersRemoved": 9600,
+    "medianBatchMs": 31,
+    "notifications": 4000,
+    "requestedFrames": 0,
+    "scopes": 16,
+    "sequencesPerBatch": 160
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "visibility": "visible"
+}
+

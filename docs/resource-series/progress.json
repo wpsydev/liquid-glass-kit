@@ -343,12 +343,12 @@
     {
       "order": 24,
       "url": "https://uiverse.io",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Pure actual-quantity native task progress and meaningful separate status",
       "version": "0.40.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/progress/",
       "video": "docs/campaign/assets/task-progress-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109514471094026741",
       "performance": [
         "benchmarks/task-progress-payload.json",
         "benchmarks/task-progress-browser.json",
@@ -358,13 +358,17 @@
     {
       "order": 25,
       "url": "https://smoothui.dev",
-      "status": "researching",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Reader-intent native following with explicit unread ledger",
+      "version": "0.41.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/follow-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/follow-payload.json",
+        "benchmarks/follow-browser.json",
+        "benchmarks/follow-native.json"
+      ]
     },
     {
       "order": 26,
