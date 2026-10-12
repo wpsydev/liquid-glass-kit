@@ -1,0 +1,536 @@
+{
+  "raw": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-f91e368d-4cda-4fc9-af38-97a3ac7f39ec-mp4",
+    "tabId": "tab_4q",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-f91e368d-4cda-4fc9-af38-97a3ac7f39ec-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 2046641,
+    "createdAt": "2026-10-12T05:52:58.436Z"
+  },
+  "tour": {
+    "final": {
+      "diagnostics": "ERROR: 0:13: 'BROKEN_TOKEN' : syntax error\n\u0000",
+      "enabled": true,
+      "failedReplacement": true,
+      "fallback": false,
+      "height": 627,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 510378,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 6.2,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "tidal",
+      "submittedFrames": 387,
+      "time": 6.2,
+      "touring": false,
+      "values": {
+        "uDetail": 1.3,
+        "uGain": 1.45,
+        "uWarmth": 0.65
+      },
+      "visible": true,
+      "width": 814
+    },
+    "samples": [
+      {
+        "contentBottom": 843.640625,
+        "elapsedMs": 1213.7999999523163,
+        "pageWidth": 960,
+        "state": {
+          "diagnostics": "",
+          "enabled": true,
+          "failedReplacement": false,
+          "fallback": false,
+          "height": 627,
+          "keptStudies": [],
+          "latest": "ready",
+          "pixels": 510378,
+          "playing": true,
+          "provenance": {
+            "author": "wpsydev · original Light Studies functions",
+            "license": "MIT"
+          },
+          "quiet": false,
+          "reason": "none",
+          "seek": 0,
+          "shaders": [
+            "ice",
+            "solar",
+            "tidal"
+          ],
+          "solid": false,
+          "status": "ready",
+          "study": "ice",
+          "submittedFrames": 77,
+          "time": 1.1987360000000333,
+          "touring": true,
+          "values": {
+            "uDetail": 1,
+            "uGain": 1,
+            "uWarmth": 0.35
+          },
+          "visible": true,
+          "width": 814
+        },
+        "viewport": 960
+      },
+      {
+        "contentBottom": 843.640625,
+        "elapsedMs": 3115.6999999284744,
+        "pageWidth": 960,
+        "state": {
+          "diagnostics": "",
+          "enabled": true,
+          "failedReplacement": false,
+          "fallback": false,
+          "height": 627,
+          "keptStudies": [],
+          "latest": "ready",
+          "pixels": 510378,
+          "playing": true,
+          "provenance": {
+            "author": "wpsydev · original Light Studies functions",
+            "license": "MIT"
+          },
+          "quiet": false,
+          "reason": "none",
+          "seek": 2.8,
+          "shaders": [
+            "ice",
+            "solar",
+            "tidal"
+          ],
+          "solid": false,
+          "status": "ready",
+          "study": "solar",
+          "submittedFrames": 172,
+          "time": 3.432100000000095,
+          "touring": true,
+          "values": {
+            "uDetail": 1,
+            "uGain": 1,
+            "uWarmth": 0.35
+          },
+          "visible": true,
+          "width": 814
+        },
+        "viewport": 960
+      },
+      {
+        "contentBottom": 843.640625,
+        "elapsedMs": 5118.299999952316,
+        "pageWidth": 960,
+        "state": {
+          "diagnostics": "",
+          "enabled": true,
+          "failedReplacement": false,
+          "fallback": false,
+          "height": 627,
+          "keptStudies": [],
+          "latest": "ready",
+          "pixels": 510378,
+          "playing": false,
+          "provenance": {
+            "author": "wpsydev · original Light Studies functions",
+            "license": "MIT"
+          },
+          "quiet": false,
+          "reason": "paused",
+          "seek": 2.8,
+          "shaders": [
+            "ice",
+            "solar",
+            "tidal"
+          ],
+          "solid": false,
+          "status": "ready",
+          "study": "solar",
+          "submittedFrames": 251,
+          "time": 4.732699999999951,
+          "touring": true,
+          "values": {
+            "uDetail": 1.3,
+            "uGain": 1.45,
+            "uWarmth": 0.65
+          },
+          "visible": true,
+          "width": 814
+        },
+        "viewport": 960
+      },
+      {
+        "contentBottom": 843.640625,
+        "elapsedMs": 6821.199999928474,
+        "pageWidth": 960,
+        "state": {
+          "diagnostics": "",
+          "enabled": true,
+          "failedReplacement": false,
+          "fallback": false,
+          "height": 627,
+          "keptStudies": [],
+          "latest": "ready",
+          "pixels": 510378,
+          "playing": true,
+          "provenance": {
+            "author": "wpsydev · original Light Studies functions",
+            "license": "MIT"
+          },
+          "quiet": false,
+          "reason": "none",
+          "seek": 6.2,
+          "shaders": [
+            "ice",
+            "solar",
+            "tidal"
+          ],
+          "solid": false,
+          "status": "ready",
+          "study": "tidal",
+          "submittedFrames": 320,
+          "time": 7.298099999999851,
+          "touring": true,
+          "values": {
+            "uDetail": 1.3,
+            "uGain": 1.45,
+            "uWarmth": 0.65
+          },
+          "visible": true,
+          "width": 814
+        },
+        "viewport": 960
+      },
+      {
+        "contentBottom": 846.546875,
+        "elapsedMs": 9024.099999904633,
+        "pageWidth": 960,
+        "state": {
+          "diagnostics": "ERROR: 0:13: 'BROKEN_TOKEN' : syntax error\n\u0000",
+          "enabled": true,
+          "failedReplacement": true,
+          "fallback": false,
+          "height": 627,
+          "keptStudies": [],
+          "latest": "ready",
+          "pixels": 510378,
+          "playing": false,
+          "provenance": {
+            "author": "wpsydev · original Light Studies functions",
+            "license": "MIT"
+          },
+          "quiet": false,
+          "reason": "paused",
+          "seek": 6.2,
+          "shaders": [
+            "ice",
+            "solar",
+            "tidal"
+          ],
+          "solid": false,
+          "status": "ready",
+          "study": "tidal",
+          "submittedFrames": 387,
+          "time": 6.2,
+          "touring": true,
+          "values": {
+            "uDetail": 1.3,
+            "uGain": 1.45,
+            "uWarmth": 0.65
+          },
+          "visible": true,
+          "width": 814
+        },
+        "viewport": 960
+      },
+      {
+        "contentBottom": 846.546875,
+        "elapsedMs": 10927.099999904633,
+        "pageWidth": 960,
+        "state": {
+          "diagnostics": "ERROR: 0:13: 'BROKEN_TOKEN' : syntax error\n\u0000",
+          "enabled": true,
+          "failedReplacement": true,
+          "fallback": false,
+          "height": 627,
+          "keptStudies": [],
+          "latest": "ready",
+          "pixels": 510378,
+          "playing": false,
+          "provenance": {
+            "author": "wpsydev · original Light Studies functions",
+            "license": "MIT"
+          },
+          "quiet": false,
+          "reason": "paused",
+          "seek": 6.2,
+          "shaders": [
+            "ice",
+            "solar",
+            "tidal"
+          ],
+          "solid": false,
+          "status": "ready",
+          "study": "tidal",
+          "submittedFrames": 387,
+          "time": 6.2,
+          "touring": false,
+          "values": {
+            "uDetail": 1.3,
+            "uGain": 1.45,
+            "uWarmth": 0.65
+          },
+          "visible": true,
+          "width": 814
+        },
+        "viewport": 960
+      }
+    ]
+  },
+  "cameraOnlyCSS": "body{transform:translateZ(0)}header{min-height:44px}.intro{padding:14px 0 16px}h1{font-size:42px}.intro>p{font-size:11px}.intro>p span{font-size:8px;margin-top:8px}.exhibit{gap:28px}.art-frame{height:420px}.glass-note.lg-glass{padding:16px 19px;bottom:42px}.glass-note h2{font-size:27px}.glass-note p{font-size:10px;line-height:1.55;margin:8px 0 11px}.studio>h2{font-size:24px}.studio-copy{font-size:10px;line-height:1.45;margin:9px 0 10px}.studio>.eyebrow{margin-bottom:10px}.facts{margin-top:8px}.facts div{padding:4px 0}.fact-note{font-size:8px;line-height:1.45;margin-bottom:9px}.replacement-result{font-size:9px;line-height:1.4;margin:8px 0}.diagnostics,footer{display:none}.demo-controls{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px 20px;margin:15px 0 0;padding-top:11px}.demo-controls>p{font-size:9px;line-height:1.45;overflow-wrap:anywhere}.ownership{font-size:8px!important}.art-caption{font-size:8px;line-height:1.45}",
+  "captions": [
+    "three original shader backdrops",
+    "real uniforms, finite explicit playback",
+    "bad source rejected; last good stays"
+  ],
+  "portableShaderPixels": {
+    "boundary": "Signed Gaussian squares use multiplication, avoiding GLSL pow negative-base undefined behavior; actual same-dimension native pixel regression",
+    "state": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 6.2,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "tidal",
+      "submittedFrames": 6,
+      "time": 6.2,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": true,
+      "width": 1057
+    },
+    "styles": [
+      {
+        "error": 0,
+        "height": 544,
+        "name": "ice",
+        "samples": [
+          [
+            240,
+            247,
+            239,
+            255
+          ],
+          [
+            240,
+            247,
+            239,
+            255
+          ],
+          [
+            240,
+            246,
+            239,
+            255
+          ],
+          [
+            244,
+            249,
+            240,
+            255
+          ],
+          [
+            133,
+            202,
+            211,
+            255
+          ],
+          [
+            240,
+            246,
+            239,
+            255
+          ],
+          [
+            247,
+            251,
+            241,
+            255
+          ],
+          [
+            187,
+            250,
+            251,
+            255
+          ],
+          [
+            240,
+            246,
+            239,
+            255
+          ]
+        ],
+        "width": 1057
+      },
+      {
+        "error": 0,
+        "height": 544,
+        "name": "solar",
+        "samples": [
+          [
+            252,
+            238,
+            212,
+            255
+          ],
+          [
+            255,
+            241,
+            212,
+            255
+          ],
+          [
+            253,
+            239,
+            212,
+            255
+          ],
+          [
+            253,
+            239,
+            212,
+            255
+          ],
+          [
+            255,
+            183,
+            76,
+            255
+          ],
+          [
+            239,
+            207,
+            154,
+            255
+          ],
+          [
+            253,
+            239,
+            212,
+            255
+          ],
+          [
+            255,
+            205,
+            103,
+            255
+          ],
+          [
+            255,
+            240,
+            212,
+            255
+          ]
+        ],
+        "width": 1057
+      },
+      {
+        "error": 0,
+        "height": 544,
+        "name": "tidal",
+        "samples": [
+          [
+            232,
+            243,
+            241,
+            255
+          ],
+          [
+            232,
+            243,
+            241,
+            255
+          ],
+          [
+            232,
+            243,
+            241,
+            255
+          ],
+          [
+            144,
+            197,
+            226,
+            255
+          ],
+          [
+            180,
+            204,
+            217,
+            255
+          ],
+          [
+            232,
+            243,
+            241,
+            255
+          ],
+          [
+            223,
+            238,
+            238,
+            255
+          ],
+          [
+            211,
+            240,
+            244,
+            255
+          ],
+          [
+            165,
+            216,
+            230,
+            255
+          ]
+        ],
+        "width": 1057
+      }
+    ]
+  },
+  "primarySpec": "https://registry.khronos.org/OpenGL/specs/es/3.0/GLSL_ES_Specification_3.00.pdf"
+}

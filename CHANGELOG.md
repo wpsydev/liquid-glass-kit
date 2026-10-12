@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.48.0-preview.1
+
+- Refresh the bundled agent skill install pin and helper routing; align discovery version and shader-time bounds with the code.
+
+- Add optional trusted procedural shader backdrops, explicit playback/capped backing, cached uniforms and retained last-good shader state on compiler failure.
+- Keep native HTML/fallback and shader licensing/duration host-owned; static observer settling is documented without an exact one-draw claim.
+- Add original three-style Light Studies,40 native cases, real GPU pixel/context proofs, scoped driver-submission benchmarks and twelve-second acid-bass breakbeat film. Fix demo targets, duplicate draw, paused readout and signed-pow portability.
+
 ## 0.47.0-preview.1
 
 - Add pure world-to-clip-to-CSS-pixel projection for host matrices and ordinary HTML labels, with explicit depth conventions and truthful frustum/behind-camera results.

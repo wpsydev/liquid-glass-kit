@@ -452,12 +452,12 @@
     {
       "order": 31,
       "url": "https://threejs.org",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Pure world-point projection to ordinary semantic HTML labels",
       "version": "0.47.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/anchors/",
       "video": "docs/campaign/assets/project-anchor-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109526915673411658",
       "performance": [
         "benchmarks/project-anchor-payload.json",
         "benchmarks/project-anchor-benchmark-native.json",
@@ -468,13 +468,18 @@
     {
       "order": 32,
       "url": "https://shadertoy.com",
-      "status": "queued",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Trusted original procedural shader backdrops and last-good recovery",
+      "version": "0.48.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/shader-backdrop-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/shader-backdrop-payload.json",
+        "benchmarks/shader-backdrop-browser.json",
+        "benchmarks/shader-backdrop-native.json",
+        "benchmarks/shader-backdrop-boundaries.json"
+      ]
     },
     {
       "order": 33,

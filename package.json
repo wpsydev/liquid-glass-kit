@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.47.0-preview.1",
+  "version": "0.48.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -262,6 +262,10 @@
     "./project-anchor": {
       "types": "./dist/project-anchor.d.ts",
       "import": "./dist/project-anchor.js"
+    },
+    "./shader-backdrop": {
+      "types": "./dist/shader-backdrop.d.ts",
+      "import": "./dist/shader-backdrop.js"
     }
   },
   "scripts": {

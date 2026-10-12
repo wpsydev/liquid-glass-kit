@@ -1,0 +1,106 @@
+{
+  "version": "0.47.0-preview.1",
+  "commit": "9fc6417e1a99ffcd4fb92e86218748a454f976a3",
+  "workflows": {
+    "verify": 38211015801,
+    "release": 38211015778,
+    "pages": 38211015762,
+    "conclusion": "success",
+    "tests": 1032,
+    "testFiles": 50
+  },
+  "archive": {
+    "members": 204,
+    "bytes": 437419,
+    "sha256": "22d89890a4b5c1f55f22636018e128957c55b57a959286c69d8572fab1c69841"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/anchors/",
+    "native": {
+      "focus": "yaw",
+      "state": {
+        "fov": 52,
+        "matrix": [
+          0.7635308425787777,
+          0,
+          0.018044013435157526,
+          0.01745240643728351,
+          0,
+          2.050303841579296,
+          0,
+          0,
+          0.013327480431909244,
+          0,
+          -1.0337408373650825,
+          -0.9998476951563913,
+          0.07996488259145547,
+          0,
+          -1.0160043462243937,
+          0.0009138290616519384
+        ],
+        "points": {
+          "facet": {
+            "behindCamera": false,
+            "depth": 0.863464862988728,
+            "inFrustum": true,
+            "projectable": true,
+            "x": 346.2687390092077,
+            "y": 120.62950384919979
+          },
+          "plate": {
+            "behindCamera": false,
+            "depth": 0.849001019236333,
+            "inFrustum": true,
+            "projectable": true,
+            "x": 458.05429435235305,
+            "y": 183.1025732727938
+          },
+          "probe": {
+            "behindCamera": false,
+            "depth": 0.865873002596404,
+            "inFrustum": true,
+            "projectable": true,
+            "x": 630.646766369901,
+            "y": 256.9850082390655
+          },
+          "spire": {
+            "behindCamera": false,
+            "depth": 0.8758175406158233,
+            "inFrustum": true,
+            "projectable": true,
+            "x": 560.2903180005493,
+            "y": 118.80585972413229
+          }
+        },
+        "quiet": false,
+        "renders": 5,
+        "selected": "facet",
+        "touring": false,
+        "viewport": {
+          "height": 340.796875,
+          "width": 915
+        },
+        "yaw": 1
+      },
+      "yaw": "1"
+    },
+    "scope": "Actual range click then ArrowRight updates yaw1/projectedpoints while retaining native focusyaw; no physical-phone/occlusion/GPU claim"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109526915673411658",
+    "replies": [
+      "https://x.com/wpsygames/status/2109529084850315272",
+      "https://x.com/wpsygames/status/2109530250388644077"
+    ],
+    "upload": {
+      "bytes": 764408,
+      "sha256": "4559a72eb5ab805bb3a5487581fc7a2153dd2c63d1edfb38a85f483a0ae4e7ab"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": true
+  },
+  "npmRegistry": "pending"
+}

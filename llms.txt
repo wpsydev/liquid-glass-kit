@@ -20,7 +20,7 @@
 - [Compatibility](https://wpsydev.github.io/liquid-glass-kit/docs/COMPATIBILITY.md): Portable CSS versus experimental refraction.
 - [Repository](https://github.com/wpsydev/liquid-glass-kit): Source, issues, license, and installable skill.
 
-v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
+v0.48.0-preview.1. Install from the matching GitHub release/tag; npm publication remains pending. This file aids discovery; it does not guarantee agent indexing.
 
 - [Experimental scene optics](docs/SCENE.md): optional WebGL2 subpath for an owned procedural background; no arbitrary DOM sampling.
 - [Optics lab](https://wpsydev.github.io/liquid-glass-kit/optics/): interactive refractive lenses and original neon scene.
@@ -134,3 +134,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Spatial HTML anchors](docs/PROJECT_ANCHOR.md): pure explicit world/clip/CSS-pixel math, selectable depth conventions and truthful projection/frustum facts.
 - [Parallax](https://wpsydev.github.io/liquid-glass-kit/anchors/): original geometry, ordinary HTML labels, native camera controls and independent screen-position evidence.
+
+- [Trusted shader backdrops](docs/SHADER_BACKDROP.md): original GLSL, explicit clock, cached uniforms/programs, capped backing and last-good compile failure recovery.
+- [Light shader studies](https://wpsydev.github.io/liquid-glass-kit/shaders/): three original analytic styles, native controls, exact paused submission counts and finite tour.

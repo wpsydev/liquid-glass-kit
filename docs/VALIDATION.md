@@ -564,3 +564,11 @@ Integrated npm run check passed1,176tests/54files including queued prototypes. n
 Original764408-byte12s960square360frame swingjazz138upright/brushes/woodreed/vibraphoneseed47 SHA2564559a72eb5ab805bb3a5487581fc7a2153dd2c63d1edfb38a85f483a0ae4e7ab. Actualfiniteposes/disclosedcameracontrolbottom834abovecaption882/newmelodyprogression/full decode/fourframespass.
 
 Integrated npm run check passed1,176tests/54files including queued prototypes. npm pack --dry-run passed204members excluding future entries. Published-scope CI follows release.
+
+## 0.48 shader backdrop (2026-10-12)
+
+30focused/40desktop320–1440cases44/16/noflow. Actual3styleWebGL2pixels/glError0/compilerrejectlastgoodidenticalpixels/provenance; realcontextlost/restoredpaused/250idleunchanged; nativewarmthArrowRight.35→.36/focus/nativeSavePlayPause/IOoffscreennoreplay/quietsolid/backingcaps.4signedpowGaussianmultiplications portabilityfix27sampledRGBAbyteidenticaldriver; pausedexactcount4; valuepreset1vs2before/no recompile. Corecommentonlyclarifiesobserverstilldraws. PhonesSafariATliveOSunverified. Optional4441gzip;200128×96CPUdrivercommands.6ms/40medianincludes200geometry/styles/1200uniformattempts600nonnull/0recompilelookuptexturebufferupload.6programs6VAOs14shadersbalanced/idlepostdestroy0RAF/submissions. NoGPUFPSspeedupwatchdogclaim.
+
+Original711140-byte12s960square360frame breakbeat148acidbassFMseed73 SHA25653c7c0b991afaeefbdc8a061deffe8ba94956ea72e27eadb08498a327267da4c. Actualfinite10.5tour3styles/lastgoodrejection/endpaused393submissionscountsnotFPS/cameradensitydisclosed/fourframes/full decodepass.
+
+Integrated npm run check passed1,176tests/54files including queued prototypes. Final npm pack --dry-run passed207members/448480bytes. Skill-creator validator passed,11new guide links resolve and63checked import declarations match public exports. Published-scope CI follows release.

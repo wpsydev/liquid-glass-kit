@@ -1,0 +1,6376 @@
+{
+  "observedAtUtc": "2026-10-12T05:43:43.403Z",
+  "tabId": "tab_4q",
+  "initial": {
+    "diagnostics": "",
+    "enabled": true,
+    "failedReplacement": false,
+    "fallback": false,
+    "height": 544,
+    "keptStudies": [],
+    "latest": "ready",
+    "pixels": 575008,
+    "playing": false,
+    "provenance": {
+      "author": "wpsydev · original Light Studies functions",
+      "license": "MIT"
+    },
+    "quiet": false,
+    "reason": "paused",
+    "seek": 0,
+    "shaders": [
+      "ice",
+      "solar",
+      "tidal"
+    ],
+    "solid": false,
+    "status": "ready",
+    "study": "ice",
+    "submittedFrames": 5,
+    "time": 0,
+    "touring": false,
+    "values": {
+      "uDetail": 1,
+      "uGain": 1,
+      "uWarmth": 0.35
+    },
+    "visible": true,
+    "width": 1057
+  },
+  "matrix": [
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 567,
+        "hidden": false,
+        "width": 412
+      },
+      "name": "ice-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "true",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 0.0s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "0"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 567,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 233604,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 412
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 567,
+        "hidden": false,
+        "width": 412
+      },
+      "name": "solar-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 2.8s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "2.8"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 567,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 233604,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 2.8,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "solar",
+        "submittedFrames": 5,
+        "time": 2.8,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 412
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 567,
+        "hidden": false,
+        "width": 412
+      },
+      "name": "tidal-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 567,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 233604,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 7,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 412
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 567,
+        "hidden": false,
+        "width": 412
+      },
+      "name": "uniform-values",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 567,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 233604,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 9,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 412
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 567,
+        "hidden": false,
+        "width": 412
+      },
+      "name": "failed-replacement-lastgood",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "ERROR: 0:13: 'BROKEN_TOKEN' : syntax error\n\u0000",
+        "enabled": true,
+        "failedReplacement": true,
+        "fallback": false,
+        "height": 567,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 233604,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 10,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 412
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 567,
+        "hidden": false,
+        "width": 412
+      },
+      "name": "quiet-time-zero",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": true,
+        "fallback": false,
+        "height": 567,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 233604,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": true,
+        "reason": "motion",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 412
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "none",
+        "height": 567,
+        "hidden": true,
+        "width": 412
+      },
+      "name": "solid-fallback",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": false,
+        "failedReplacement": true,
+        "fallback": true,
+        "height": 567,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 233604,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": true,
+        "reason": "disabled",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": true,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": false,
+        "width": 412
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 567,
+        "hidden": false,
+        "width": 412
+      },
+      "name": "reset-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "true",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 0.0s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "0"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 567,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 233604,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 412
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 604,
+        "hidden": false,
+        "width": 505
+      },
+      "name": "ice-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "true",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 0.0s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "0"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 604,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 305020,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 505
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 604,
+        "hidden": false,
+        "width": 505
+      },
+      "name": "solar-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 2.8s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "2.8"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 604,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 305020,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 2.8,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "solar",
+        "submittedFrames": 5,
+        "time": 2.8,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 505
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 604,
+        "hidden": false,
+        "width": 505
+      },
+      "name": "tidal-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 604,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 305020,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 7,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 505
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 604,
+        "hidden": false,
+        "width": 505
+      },
+      "name": "uniform-values",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 604,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 305020,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 9,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 505
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 604,
+        "hidden": false,
+        "width": 505
+      },
+      "name": "failed-replacement-lastgood",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "ERROR: 0:13: 'BROKEN_TOKEN' : syntax error\n\u0000",
+        "enabled": true,
+        "failedReplacement": true,
+        "fallback": false,
+        "height": 604,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 305020,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 10,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 505
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 604,
+        "hidden": false,
+        "width": 505
+      },
+      "name": "quiet-time-zero",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": true,
+        "fallback": false,
+        "height": 604,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 305020,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": true,
+        "reason": "motion",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 505
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "none",
+        "height": 604,
+        "hidden": true,
+        "width": 505
+      },
+      "name": "solid-fallback",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": false,
+        "failedReplacement": true,
+        "fallback": true,
+        "height": 604,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 305020,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": true,
+        "reason": "disabled",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": true,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": false,
+        "width": 505
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 604,
+        "hidden": false,
+        "width": 505
+      },
+      "name": "reset-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "true",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 0.0s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "0"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 604,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 305020,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 505
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 44.484375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 657,
+        "hidden": false,
+        "width": 607
+      },
+      "name": "ice-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "true",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 0.0s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "0"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 657,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 398799,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 607
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 657,
+        "hidden": false,
+        "width": 607
+      },
+      "name": "solar-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 2.8s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "2.8"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 657,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 398799,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 2.8,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "solar",
+        "submittedFrames": 5,
+        "time": 2.8,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 607
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 657,
+        "hidden": false,
+        "width": 607
+      },
+      "name": "tidal-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 657,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 398799,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 7,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 607
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 657,
+        "hidden": false,
+        "width": 607
+      },
+      "name": "uniform-values",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 657,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 398799,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 9,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 607
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 657,
+        "hidden": false,
+        "width": 607
+      },
+      "name": "failed-replacement-lastgood",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "ERROR: 0:13: 'BROKEN_TOKEN' : syntax error\n\u0000",
+        "enabled": true,
+        "failedReplacement": true,
+        "fallback": false,
+        "height": 657,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 398799,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 10,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 607
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 657,
+        "hidden": false,
+        "width": 607
+      },
+      "name": "quiet-time-zero",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": true,
+        "fallback": false,
+        "height": 657,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 398799,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": true,
+        "reason": "motion",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 607
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "none",
+        "height": 657,
+        "hidden": true,
+        "width": 607
+      },
+      "name": "solid-fallback",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": false,
+        "failedReplacement": true,
+        "fallback": true,
+        "height": 657,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 398799,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": true,
+        "reason": "disabled",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": true,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": false,
+        "width": 607
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 657,
+        "hidden": false,
+        "width": 607
+      },
+      "name": "reset-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "true",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 0.0s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "0"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 657,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 398799,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 607
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 680
+      },
+      "name": "ice-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "true",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 0.0s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "0"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 369920,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 680
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 680
+      },
+      "name": "solar-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 2.8s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "2.8"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 369920,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 2.8,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "solar",
+        "submittedFrames": 5,
+        "time": 2.8,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 680
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 680
+      },
+      "name": "tidal-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 369920,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 7,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 680
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 680
+      },
+      "name": "uniform-values",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 369920,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 9,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 680
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 680
+      },
+      "name": "failed-replacement-lastgood",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "ERROR: 0:13: 'BROKEN_TOKEN' : syntax error\n\u0000",
+        "enabled": true,
+        "failedReplacement": true,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 369920,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 10,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 680
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 680
+      },
+      "name": "quiet-time-zero",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": true,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 369920,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": true,
+        "reason": "motion",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 680
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "none",
+        "height": 544,
+        "hidden": true,
+        "width": 680
+      },
+      "name": "solid-fallback",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": false,
+        "failedReplacement": true,
+        "fallback": true,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 369920,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": true,
+        "reason": "disabled",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": true,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": false,
+        "width": 680
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 680
+      },
+      "name": "reset-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "true",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 0.0s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "0"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 369920,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 680
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 1057
+      },
+      "name": "ice-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "true",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 0.0s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "0"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 1057
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 1057
+      },
+      "name": "solar-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 2.8s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "2.8"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 2.8,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "solar",
+        "submittedFrames": 5,
+        "time": 2.8,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 1057
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 1057
+      },
+      "name": "tidal-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 7,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 1057
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 1057
+      },
+      "name": "uniform-values",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 9,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 1057
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 1057
+      },
+      "name": "failed-replacement-lastgood",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "ERROR: 0:13: 'BROKEN_TOKEN' : syntax error\n\u0000",
+        "enabled": true,
+        "failedReplacement": true,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 10,
+        "time": 6.2,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 1057
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 1057
+      },
+      "name": "quiet-time-zero",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": true,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": true,
+        "reason": "motion",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 1057
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "none",
+        "height": 544,
+        "hidden": true,
+        "width": 1057
+      },
+      "name": "solid-fallback",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "false",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "true",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 6.2s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "6.2"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.45"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.45"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.30"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1.3"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.65"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.65"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": false,
+        "failedReplacement": true,
+        "fallback": true,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": true,
+        "reason": "disabled",
+        "seek": 6.2,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": true,
+        "status": "ready",
+        "study": "tidal",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": false,
+        "width": 1057
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "canvas": {
+        "ariaHidden": "true",
+        "display": "block",
+        "height": 544,
+        "hidden": false,
+        "width": 1057
+      },
+      "name": "reset-static",
+      "overflow": false,
+      "semantics": {
+        "buttons": [
+          {
+            "pressed": "true",
+            "study": "ice",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "solar",
+            "tag": "BUTTON"
+          },
+          {
+            "pressed": "false",
+            "study": "tidal",
+            "tag": "BUTTON"
+          }
+        ],
+        "rangeInputs": [
+          {
+            "id": "seek",
+            "label": [
+              "Study time 0.0s"
+            ],
+            "max": "12",
+            "min": "0",
+            "step": ".1",
+            "value": "0"
+          },
+          {
+            "id": "gain",
+            "label": [
+              "Light intensity 1.00"
+            ],
+            "max": "1.6",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "detail",
+            "label": [
+              "Contour detail 1.00"
+            ],
+            "max": "1.4",
+            "min": ".4",
+            "step": ".01",
+            "value": "1"
+          },
+          {
+            "id": "warmth",
+            "label": [
+              "Warmth 0.35"
+            ],
+            "max": "1",
+            "min": "0",
+            "step": ".01",
+            "value": "0.35"
+          }
+        ],
+        "status": "status"
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 1057
+      },
+      "targets": {
+        "below44": [],
+        "count": 19,
+        "minHeight": 44,
+        "minWidth": 52.25
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    }
+  ],
+  "probe": "(()=>{const d=window.__shaderDemo.state(),canvas=document.getElementById('backdrop'),controls=[...document.querySelectorAll('button,a[href],input[type=range],summary,.preferences label')].filter(n=>!n.closest('[hidden]')).map(n=>({id:n.id||n.className||n.textContent.slice(0,25),width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height}));return {viewport:{width:innerWidth,height:innerHeight},overflow:document.documentElement.scrollWidth>innerWidth,targets:{count:controls.length,minWidth:Math.min(...controls.map(n=>n.width)),minHeight:Math.min(...controls.map(n=>n.height)),below44:controls.filter(n=>n.width<44||n.height<44)},state:d,canvas:{ariaHidden:canvas.getAttribute('aria-hidden'),hidden:canvas.hidden,width:canvas.width,height:canvas.height,display:getComputedStyle(canvas).display},semantics:{buttons:[...document.querySelectorAll('button[data-study]')].map(n=>({study:n.dataset.study,tag:n.tagName,pressed:n.getAttribute('aria-pressed')})),rangeInputs:[...document.querySelectorAll('input[type=range]')].map(n=>({id:n.id,value:n.value,label:[...n.labels].map(x=>x.textContent),min:n.min,max:n.max,step:n.step})),status:document.getElementById('status').getAttribute('role')}}})()",
+  "matrixExpression": "(async()=>{const d=window.__shaderDemo,wait=ms=>new Promise(r=>setTimeout(r,ms)),rows=[],capture=name=>rows.push({name,...(()=>{const d=window.__shaderDemo.state(),canvas=document.getElementById('backdrop'),controls=[...document.querySelectorAll('button,a[href],input[type=range],summary,.preferences label')].filter(n=>!n.closest('[hidden]')).map(n=>({id:n.id||n.className||n.textContent.slice(0,25),width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height}));return {viewport:{width:innerWidth,height:innerHeight},overflow:document.documentElement.scrollWidth>innerWidth,targets:{count:controls.length,minWidth:Math.min(...controls.map(n=>n.width)),minHeight:Math.min(...controls.map(n=>n.height)),below44:controls.filter(n=>n.width<44||n.height<44)},state:d,canvas:{ariaHidden:canvas.getAttribute('aria-hidden'),hidden:canvas.hidden,width:canvas.width,height:canvas.height,display:getComputedStyle(canvas).display},semantics:{buttons:[...document.querySelectorAll('button[data-study]')].map(n=>({study:n.dataset.study,tag:n.tagName,pressed:n.getAttribute('aria-pressed')})),rangeInputs:[...document.querySelectorAll('input[type=range]')].map(n=>({id:n.id,value:n.value,label:[...n.labels].map(x=>x.textContent),min:n.min,max:n.max,step:n.step})),status:document.getElementById('status').getAttribute('role')}}})()});d.reset();document.getElementById('art-frame').scrollIntoView({block:'center'});await wait(80);capture('ice-static');d.preset('solar');await wait(50);capture('solar-static');d.preset('tidal');await wait(50);capture('tidal-static');d.preset('values');capture('uniform-values');d.preset('failure');await wait(50);capture('failed-replacement-lastgood');d.preset('quiet');await wait(80);capture('quiet-time-zero');d.preset('solid');await wait(60);capture('solid-fallback');d.reset();await wait(60);capture('reset-static');return rows})()",
+  "pixels": {
+    "boundary": "Actual native readPixels after same-task renders, deliberately synchronizing GPU only for correctness validation; not timing/FPS/benchmark proof",
+    "contextAttributes": {
+      "alpha": true,
+      "antialias": false,
+      "depth": false,
+      "desynchronized": false,
+      "failIfMajorPerformanceCaveat": false,
+      "powerPreference": "default",
+      "premultipliedAlpha": true,
+      "preserveDrawingBuffer": false,
+      "stencil": false,
+      "xrCompatible": false
+    },
+    "decorativeAriaHidden": "true",
+    "lastGood": {
+      "after": {
+        "pixels": {
+          "error": 0,
+          "height": 544,
+          "samples": [
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              144,
+              197,
+              226,
+              255
+            ],
+            [
+              180,
+              204,
+              217,
+              255
+            ],
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              223,
+              238,
+              238,
+              255
+            ],
+            [
+              211,
+              240,
+              244,
+              255
+            ],
+            [
+              165,
+              216,
+              230,
+              255
+            ]
+          ],
+          "width": 1057
+        },
+        "state": {
+          "diagnostics": "ERROR: 0:13: 'BROKEN_TOKEN' : syntax error\n\u0000",
+          "enabled": true,
+          "failedReplacement": true,
+          "fallback": false,
+          "height": 544,
+          "keptStudies": [],
+          "latest": "ready",
+          "pixels": 575008,
+          "playing": false,
+          "provenance": {
+            "author": "wpsydev · original Light Studies functions",
+            "license": "MIT"
+          },
+          "quiet": false,
+          "reason": "paused",
+          "seek": 6.2,
+          "shaders": [
+            "ice",
+            "solar",
+            "tidal"
+          ],
+          "solid": false,
+          "status": "ready",
+          "study": "tidal",
+          "submittedFrames": 11,
+          "time": 6.2,
+          "touring": false,
+          "values": {
+            "uDetail": 1,
+            "uGain": 1,
+            "uWarmth": 0.35
+          },
+          "visible": true,
+          "width": 1057
+        }
+      },
+      "before": {
+        "pixels": {
+          "error": 0,
+          "height": 544,
+          "samples": [
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              144,
+              197,
+              226,
+              255
+            ],
+            [
+              180,
+              204,
+              217,
+              255
+            ],
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              223,
+              238,
+              238,
+              255
+            ],
+            [
+              211,
+              240,
+              244,
+              255
+            ],
+            [
+              165,
+              216,
+              230,
+              255
+            ]
+          ],
+          "width": 1057
+        },
+        "state": {
+          "diagnostics": "",
+          "enabled": true,
+          "failedReplacement": false,
+          "fallback": false,
+          "height": 544,
+          "keptStudies": [],
+          "latest": "ready",
+          "pixels": 575008,
+          "playing": false,
+          "provenance": {
+            "author": "wpsydev · original Light Studies functions",
+            "license": "MIT"
+          },
+          "quiet": false,
+          "reason": "paused",
+          "seek": 6.2,
+          "shaders": [
+            "ice",
+            "solar",
+            "tidal"
+          ],
+          "solid": false,
+          "status": "ready",
+          "study": "tidal",
+          "submittedFrames": 10,
+          "time": 6.2,
+          "touring": false,
+          "values": {
+            "uDetail": 1,
+            "uGain": 1,
+            "uWarmth": 0.35
+          },
+          "visible": true,
+          "width": 1057
+        }
+      },
+      "pixelsIdentical": true,
+      "provenanceIdentical": true
+    },
+    "renderer": "WebKit WebGL",
+    "styles": [
+      {
+        "name": "ice",
+        "pixels": {
+          "error": 0,
+          "height": 544,
+          "samples": [
+            [
+              240,
+              247,
+              239,
+              255
+            ],
+            [
+              240,
+              247,
+              239,
+              255
+            ],
+            [
+              240,
+              246,
+              239,
+              255
+            ],
+            [
+              244,
+              249,
+              240,
+              255
+            ],
+            [
+              133,
+              202,
+              211,
+              255
+            ],
+            [
+              240,
+              246,
+              239,
+              255
+            ],
+            [
+              247,
+              251,
+              241,
+              255
+            ],
+            [
+              187,
+              250,
+              251,
+              255
+            ],
+            [
+              240,
+              246,
+              239,
+              255
+            ]
+          ],
+          "width": 1057
+        },
+        "state": {
+          "diagnostics": "",
+          "enabled": true,
+          "failedReplacement": false,
+          "fallback": false,
+          "height": 544,
+          "keptStudies": [],
+          "latest": "ready",
+          "pixels": 575008,
+          "playing": false,
+          "provenance": {
+            "author": "wpsydev · original Light Studies functions",
+            "license": "MIT"
+          },
+          "quiet": false,
+          "reason": "paused",
+          "seek": 0,
+          "shaders": [
+            "ice",
+            "solar",
+            "tidal"
+          ],
+          "solid": false,
+          "status": "ready",
+          "study": "ice",
+          "submittedFrames": 6,
+          "time": 0,
+          "touring": false,
+          "values": {
+            "uDetail": 1,
+            "uGain": 1,
+            "uWarmth": 0.35
+          },
+          "visible": true,
+          "width": 1057
+        }
+      },
+      {
+        "name": "solar",
+        "pixels": {
+          "error": 0,
+          "height": 544,
+          "samples": [
+            [
+              252,
+              238,
+              212,
+              255
+            ],
+            [
+              255,
+              241,
+              212,
+              255
+            ],
+            [
+              253,
+              239,
+              212,
+              255
+            ],
+            [
+              253,
+              239,
+              212,
+              255
+            ],
+            [
+              255,
+              183,
+              76,
+              255
+            ],
+            [
+              239,
+              207,
+              154,
+              255
+            ],
+            [
+              253,
+              239,
+              212,
+              255
+            ],
+            [
+              255,
+              205,
+              103,
+              255
+            ],
+            [
+              255,
+              240,
+              212,
+              255
+            ]
+          ],
+          "width": 1057
+        },
+        "state": {
+          "diagnostics": "",
+          "enabled": true,
+          "failedReplacement": false,
+          "fallback": false,
+          "height": 544,
+          "keptStudies": [],
+          "latest": "ready",
+          "pixels": 575008,
+          "playing": false,
+          "provenance": {
+            "author": "wpsydev · original Light Studies functions",
+            "license": "MIT"
+          },
+          "quiet": false,
+          "reason": "paused",
+          "seek": 2.8,
+          "shaders": [
+            "ice",
+            "solar",
+            "tidal"
+          ],
+          "solid": false,
+          "status": "ready",
+          "study": "solar",
+          "submittedFrames": 8,
+          "time": 2.8,
+          "touring": false,
+          "values": {
+            "uDetail": 1,
+            "uGain": 1,
+            "uWarmth": 0.35
+          },
+          "visible": true,
+          "width": 1057
+        }
+      },
+      {
+        "name": "tidal",
+        "pixels": {
+          "error": 0,
+          "height": 544,
+          "samples": [
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              144,
+              197,
+              226,
+              255
+            ],
+            [
+              180,
+              204,
+              217,
+              255
+            ],
+            [
+              232,
+              243,
+              241,
+              255
+            ],
+            [
+              223,
+              238,
+              238,
+              255
+            ],
+            [
+              211,
+              240,
+              244,
+              255
+            ],
+            [
+              165,
+              216,
+              230,
+              255
+            ]
+          ],
+          "width": 1057
+        },
+        "state": {
+          "diagnostics": "",
+          "enabled": true,
+          "failedReplacement": false,
+          "fallback": false,
+          "height": 544,
+          "keptStudies": [],
+          "latest": "ready",
+          "pixels": 575008,
+          "playing": false,
+          "provenance": {
+            "author": "wpsydev · original Light Studies functions",
+            "license": "MIT"
+          },
+          "quiet": false,
+          "reason": "paused",
+          "seek": 6.2,
+          "shaders": [
+            "ice",
+            "solar",
+            "tidal"
+          ],
+          "solid": false,
+          "status": "ready",
+          "study": "tidal",
+          "submittedFrames": 10,
+          "time": 6.2,
+          "touring": false,
+          "values": {
+            "uDetail": 1,
+            "uGain": 1,
+            "uWarmth": 0.35
+          },
+          "visible": true,
+          "width": 1057
+        }
+      }
+    ],
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "webgl2": true
+  },
+  "context": {
+    "available": true,
+    "before": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 3,
+      "time": 0,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": true,
+      "width": 1057
+    },
+    "boundary": "Actual native WEBGL_lose_context events/driver rebuild, no synthetic dispatch, no real GPU fault or watchdog security claim",
+    "centerPixel": [
+      133,
+      202,
+      211,
+      255
+    ],
+    "events": [
+      "webglcontextlost",
+      "webglcontextrestored"
+    ],
+    "glError": 0,
+    "idle": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 10,
+      "time": 0.08330000000004656,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": true,
+      "width": 1057
+    },
+    "lossObserved": true,
+    "lost": {
+      "canvasHidden": true,
+      "fallback": "true",
+      "nativeLost": true,
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": true,
+        "height": 0,
+        "keptStudies": [],
+        "latest": "context-lost",
+        "pixels": 0,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "context",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "context-lost",
+        "study": "ice",
+        "submittedFrames": 9,
+        "time": 0.08330000000004656,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": false,
+        "width": 0
+      }
+    },
+    "noIdleSubmissions": true,
+    "playing": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": true,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "none",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 9,
+      "time": 0.08330000000004656,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": true,
+      "width": 1057
+    },
+    "restoreObserved": true,
+    "restored": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 10,
+      "time": 0.08330000000004656,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": true,
+      "width": 1057
+    }
+  },
+  "lifecycleBeforeDemoRefinement": {
+    "before": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 3,
+      "time": 0,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": true,
+      "width": 1057
+    },
+    "boundary": "Forwarded native WebGL method calls, not completed GPU work. Input update fixture is synthetic DOM input; Play/Pause here are host fixture clicks.",
+    "counts": {
+      "compile": 6,
+      "draw": 25,
+      "effectiveUniformCalls": 125,
+      "link": 3,
+      "uniformCalls": 200
+    },
+    "idle": {
+      "draws": 0,
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 1057
+      }
+    },
+    "inputUpdate": {
+      "compiles": 0,
+      "draws": 1,
+      "uniformCalls": 8
+    },
+    "pauseIdle": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 16,
+      "time": 0.15000000000000002,
+      "touring": false,
+      "values": {
+        "uDetail": 1.3,
+        "uGain": 1.25,
+        "uWarmth": 0.65
+      },
+      "visible": true,
+      "width": 1057
+    },
+    "paused": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 16,
+      "time": 0.15000000000000002,
+      "touring": false,
+      "values": {
+        "uDetail": 1.3,
+        "uGain": 1.25,
+        "uWarmth": 0.65
+      },
+      "visible": true,
+      "width": 1057
+    },
+    "playing": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": true,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "none",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 16,
+      "time": 0.15000000000000002,
+      "touring": false,
+      "values": {
+        "uDetail": 1.3,
+        "uGain": 1.25,
+        "uWarmth": 0.65
+      },
+      "visible": true,
+      "width": 1057
+    },
+    "quiet": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": true,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 1,
+      "time": 0,
+      "touring": false,
+      "values": {
+        "uDetail": 1.3,
+        "uGain": 1.25,
+        "uWarmth": 0.65
+      },
+      "visible": true,
+      "width": 1057
+    },
+    "updates": {
+      "compiles": 0,
+      "draws": 2,
+      "effectiveUniformCalls": 10,
+      "links": 0,
+      "uniformCalls": 16
+    },
+    "visibleAgain": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 8,
+      "time": 0.08330400000000372,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": false,
+      "width": 1057
+    },
+    "visuallyHidden": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 544,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 575008,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 8,
+      "time": 0.08330400000000372,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": false,
+      "width": 1057
+    }
+  },
+  "demoRegression": {
+    "after": {
+      "displayed": 4,
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 4,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 1057
+      }
+    },
+    "before": {
+      "displayed": 3,
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.35
+        },
+        "visible": true,
+        "width": 1057
+      }
+    },
+    "factNote": "Submission counts, sampled during playback and exact when paused; not completed GPU work, frame rate or a speed guarantee.",
+    "parameterPresetDraws": 1,
+    "seekLabel": "Seek time 0.0s"
+  },
+  "nativeUniform": {
+    "displayed": 6,
+    "focus": "warmth",
+    "state": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 627,
+      "keptStudies": [],
+      "latest": "ready",
+      "pixels": 510378,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "solar",
+      "submittedFrames": 6,
+      "time": 0,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.36
+      },
+      "visible": true,
+      "width": 814
+    }
+  },
+  "nativeBookmark": {
+    "pressed": "true",
+    "state": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 627,
+      "keptStudies": [
+        "solar"
+      ],
+      "latest": "ready",
+      "pixels": 510378,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "solar",
+      "submittedFrames": 6,
+      "time": 0,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.36
+      },
+      "visible": true,
+      "width": 814
+    }
+  },
+  "nativePlay": {
+    "diagnostics": "",
+    "enabled": true,
+    "failedReplacement": false,
+    "fallback": false,
+    "height": 627,
+    "keptStudies": [
+      "solar"
+    ],
+    "latest": "ready",
+    "pixels": 510378,
+    "playing": true,
+    "provenance": {
+      "author": "wpsydev · original Light Studies functions",
+      "license": "MIT"
+    },
+    "quiet": false,
+    "reason": "none",
+    "seek": 0,
+    "shaders": [
+      "ice",
+      "solar",
+      "tidal"
+    ],
+    "solid": false,
+    "status": "ready",
+    "study": "solar",
+    "submittedFrames": 23,
+    "time": 0.2667000000000699,
+    "touring": false,
+    "values": {
+      "uDetail": 1,
+      "uGain": 1,
+      "uWarmth": 0.36
+    },
+    "visible": true,
+    "width": 814
+  },
+  "nativePause": {
+    "diagnostics": "",
+    "enabled": true,
+    "failedReplacement": false,
+    "fallback": false,
+    "height": 627,
+    "keptStudies": [
+      "solar"
+    ],
+    "latest": "ready",
+    "pixels": 510378,
+    "playing": false,
+    "provenance": {
+      "author": "wpsydev · original Light Studies functions",
+      "license": "MIT"
+    },
+    "quiet": false,
+    "reason": "paused",
+    "seek": 0,
+    "shaders": [
+      "ice",
+      "solar",
+      "tidal"
+    ],
+    "solid": false,
+    "status": "ready",
+    "study": "solar",
+    "submittedFrames": 42,
+    "time": 0.5834000000000233,
+    "touring": false,
+    "values": {
+      "uDetail": 1,
+      "uGain": 1,
+      "uWarmth": 0.36
+    },
+    "visible": true,
+    "width": 814
+  },
+  "budget": {
+    "boundary": "Actual oversized CSS canvas rectangles and native backing allocations; pixel/dimension caps only, not quality equivalence or GPU memory/time guarantees",
+    "budget": {
+      "css": {
+        "height": 1600,
+        "width": 2400
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 724,
+        "keptStudies": [
+          "solar"
+        ],
+        "latest": "ready",
+        "pixels": 786264,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 2,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.45,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 1086
+      }
+    },
+    "dimension": {
+      "css": {
+        "height": 100,
+        "width": 9000
+      },
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 17,
+        "keptStudies": [
+          "solar"
+        ],
+        "latest": "ready",
+        "pixels": 26112,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 3,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1.3,
+          "uGain": 1.2,
+          "uWarmth": 0.65
+        },
+        "visible": true,
+        "width": 1536
+      }
+    },
+    "restored": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 627,
+      "keptStudies": [
+        "solar"
+      ],
+      "latest": "ready",
+      "pixels": 510378,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 3,
+      "time": 0,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": true,
+      "width": 814
+    }
+  },
+  "offscreen": {
+    "before": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 627,
+      "keptStudies": [
+        "solar"
+      ],
+      "latest": "ready",
+      "pixels": 510378,
+      "playing": true,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "none",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 10,
+      "time": 0.09853799999994226,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": true,
+      "width": 814
+    },
+    "boundary": "Actual native IntersectionObserver exit/return, not synthetic document-hidden or physical-device simulation",
+    "idle": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 627,
+      "keptStudies": [
+        "solar"
+      ],
+      "latest": "ready",
+      "pixels": 501600,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 13,
+      "time": 0.11473799999989569,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": true,
+      "width": 800
+    },
+    "noReplay": true,
+    "offscreen": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 627,
+      "keptStudies": [
+        "solar"
+      ],
+      "latest": "ready",
+      "pixels": 501600,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 12,
+      "time": 0.11473799999989569,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": false,
+      "width": 800
+    },
+    "returned": {
+      "diagnostics": "",
+      "enabled": true,
+      "failedReplacement": false,
+      "fallback": false,
+      "height": 627,
+      "keptStudies": [
+        "solar"
+      ],
+      "latest": "ready",
+      "pixels": 501600,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev · original Light Studies functions",
+        "license": "MIT"
+      },
+      "quiet": false,
+      "reason": "paused",
+      "seek": 0,
+      "shaders": [
+        "ice",
+        "solar",
+        "tidal"
+      ],
+      "solid": false,
+      "status": "ready",
+      "study": "ice",
+      "submittedFrames": 13,
+      "time": 0.11473799999989569,
+      "touring": false,
+      "values": {
+        "uDetail": 1,
+        "uGain": 1,
+        "uWarmth": 0.35
+      },
+      "visible": true,
+      "width": 800
+    }
+  },
+  "limits": [
+    "Actual desktop Chromium WebGL2, no physical mobile/Safari/AT guarantee",
+    "GPU correctness readback intentionally synchronizes only validation; no GPU timer/FPS/speed claim",
+    "Provenance is caller declaration, not verified license or watchdog/security certificate",
+    "Native WEBGL_lose_context extension is real driver context loss, not an actual GPU crash",
+    "Static observer settling can submit more than one still frame; zero continuous clock/idle submissions after settling"
+  ]
+}
+

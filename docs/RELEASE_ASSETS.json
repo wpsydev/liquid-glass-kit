@@ -1,14 +1,14 @@
 {
-  "version": "0.47.0-preview.1",
+  "version": "0.48.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/project-anchor-showcase.mp4",
-      "name": "liquid-glass-parallax.mp4",
+      "path": "docs/campaign/assets/shader-backdrop-showcase.mp4",
+      "name": "liquid-glass-light-shaders.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/project-anchor-showcase.png",
-      "name": "liquid-glass-parallax.png",
+      "path": "docs/campaign/assets/shader-backdrop-showcase.png",
+      "name": "liquid-glass-light-shaders.png",
       "type": "image/png"
     }
   ]

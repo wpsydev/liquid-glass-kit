@@ -1,13 +1,13 @@
-World points. Human labels. **0.47.0-preview.1** adds optional `/project-anchor`.
+A little light changes the room. **0.48.0-preview.1** adds optional experimental `/shader-backdrop`.
 
-Pure host-supplied projection×view matrices map world points into CSSpixels for ordinary HTMLlabels. Explicit WebGL/WebGPU-style depth conventions and truthful behind/frustum results add no 3Dengine or occlusion claim. Host rendering, collision/gutters, visibility and focus remain explicit.
+TrustedoriginalGLSL uses explicitplayback, boundedoutput, cacheduniforms/programs andactual last-good retention when replacement fails tocompile. Nativecontrols/fallback/licensing/durationstop remainhost-owned; shader/sourcecaps do notcertifyGPUcost orwatchdogsafety. Staticinitialobserver settling maydrawadditionalstillframes.
 
-[Parallax](https://wpsydev.github.io/liquid-glass-kit/anchors/) draws three originalforms with nativeyaw/FOV/pointcontrols and real projectedHTMLlabels. Its twelve-second original138BPM swing-jazz upright/brushes/reed/vibraphone score has a freshmelody/progression. The finite tour preserves Quiet/Solid preferences; correctedCSSorder keepsSolid filteractuallynone.
+[Light Studies](https://wpsydev.github.io/liquid-glass-kit/shaders/) has three originalIce/Solar/Tidal shaders, nativecontrols, exactpausedsubmissioncounts/sampledplaybackreadout, andactualcompiler-rejection recovery. Four signed-basepow squares nowmultiply explicitly perGLSLESnegative-base rule;27sampled nativepixels unchangedonthisdriver. Twelve-second original148BPM acid-bass/glassFM breakbeat film recordsfinalsource.
 
-16focusedtests;20native responsive+20activelypainted screenchecks320–1440px44/16/noflow/noauthoredlabelclipping. Independentcamera mathmaxerror1.14e−13; actualSVGdotpositionerror<.000043px. Nativearrows/incompletedrafts/boundary/behind/identity checked. Phones/Safari/ATunverified.
+30focusedtests/40desktop320–1440cases44/16/noflow. ActualWebGLpixels/compiler/lastgood/contextlossrestore/offscreenquietsolid/caps/nativearrows checked. Phones/Safari/AT/liveOSunverified.
 
-Optional1055gzip. Separate1024pureprojections2.1msmedian/hostposeauthoring.425msmedian. NoGPUelapsed/FPS/occlusion/comparativespeedupclaim.
+Optional4441gzip excludingfragments/material.200128×96commands median.6ms/40CPUdriverbatch withgeometry/style included;0recompile/locationlookup/upload inmeasuredwork. Separate6program/6VAO/14shader balancedlifecycles andidle0RAF/submissions. NoGPUelapsed/paint/FPS/speedupclaim.
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/PROJECT_ANCHOR.md) · [Painted evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/project-anchor-screen-native.json)
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/SHADER_BACKDROP.md) · [Evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/shader-backdrop-native.json)
 
-Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.47.0-preview.1`. npmregistry pending. IndependentThree.js-inspired HTMLbridge, no copiedmeshes/requiredengine.
+Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.48.0-preview.1`. npmregistry pending. IndependentShadertoy-inspired authoring without copiedshader/channelAPI.

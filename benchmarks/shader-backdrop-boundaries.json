@@ -1,0 +1,43 @@
+{
+  "after": {
+    "diagnostics": "",
+    "enabled": true,
+    "height": 0,
+    "pixels": 0,
+    "playing": false,
+    "provenance": {
+      "author": "wpsydev original denied-port fixture",
+      "license": "MIT"
+    },
+    "reason": "none",
+    "status": "destroyed",
+    "submittedFrames": 0,
+    "time": 0,
+    "visible": false,
+    "width": 0
+  },
+  "available": true,
+  "before": {
+    "diagnostics": "",
+    "enabled": true,
+    "height": 0,
+    "pixels": 0,
+    "playing": false,
+    "provenance": {
+      "author": "wpsydev original denied-port fixture",
+      "license": "MIT"
+    },
+    "reason": "webgl",
+    "status": "unsupported",
+    "submittedFrames": 0,
+    "time": 0,
+    "visible": true,
+    "width": 0
+  },
+  "boundary": "Explicit getContext denial fixture on a real native canvas, not a claim about actual browser GPU support; real native context-loss evidence is separate",
+  "fallbackVisible": true,
+  "nativeControl": "BUTTON",
+  "play": false,
+  "render": false
+}
+

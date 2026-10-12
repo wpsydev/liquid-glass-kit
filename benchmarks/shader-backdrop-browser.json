@@ -1,0 +1,171 @@
+{
+  "commands": {
+    "batchesMs": [
+      1.100000023841858,
+      1.7999999523162842,
+      0.30000007152557373,
+      0.3999999761581421,
+      0.6000000238418579
+    ],
+    "changedUniformUpdates": 100,
+    "compiles": 0,
+    "computedStyleReads": 200,
+    "drawSubmissions": 200,
+    "effectiveUniformCalls": 600,
+    "links": 0,
+    "manualRenders": 100,
+    "medianBatchMs": 0.6000000238418579,
+    "rectReads": 200,
+    "uniformCalls": 1200,
+    "uniformLocationQueries": 0
+  },
+  "contextVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+  "failedReplacement": {
+    "accepted": false,
+    "after": {
+      "diagnostics": "ERROR: 0:11: 'INVALID' : syntax error\n\u0000",
+      "enabled": true,
+      "height": 96,
+      "pixels": 12288,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev original benchmark function",
+        "license": "MIT"
+      },
+      "reason": "paused",
+      "status": "ready",
+      "submittedFrames": 205,
+      "time": 1.9,
+      "visible": true,
+      "width": 128
+    },
+    "before": {
+      "diagnostics": "",
+      "enabled": true,
+      "height": 96,
+      "pixels": 12288,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev original benchmark function",
+        "license": "MIT"
+      },
+      "reason": "paused",
+      "status": "ready",
+      "submittedFrames": 204,
+      "time": 1.9,
+      "visible": true,
+      "width": 128
+    }
+  },
+  "idle": {
+    "additionalDraws": 0,
+    "additionalFrames": 0,
+    "state": {
+      "diagnostics": "",
+      "enabled": true,
+      "height": 96,
+      "pixels": 12288,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev original benchmark function",
+        "license": "MIT"
+      },
+      "reason": "paused",
+      "status": "ready",
+      "submittedFrames": 3,
+      "time": 0,
+      "visible": true,
+      "width": 128
+    }
+  },
+  "lifecycle": {
+    "connectedCreateRenderDestroySequences": 5,
+    "medianWallMs": 2.6999999284744263,
+    "scope": "Native compile/link/setup and synchronous command calls, not completed GPU execution",
+    "wallTimesMs": [
+      2.8000000715255737,
+      2.6999999284744263,
+      4,
+      2.399999976158142,
+      2.3000000715255737
+    ]
+  },
+  "observedAtUtc": "2026-10-12T05:35:34.329Z",
+  "pixel": {
+    "boundary": "GPU-synchronizing readback only for correctness; excluded from command batch timing",
+    "error": 0,
+    "rgba": [
+      115,
+      90,
+      126,
+      255
+    ]
+  },
+  "postDestroy250msRequestedFrames": 0,
+  "scope": "Own trusted finite analytic benchmark function and actual native WebGL2. Counts are submissions and uniform call attempts/non-null-location calls, not bytes uploaded or completed GPU/FPS. Zero texture/buffer uploads applies to this single-pass procedural path only. Geometry reads include native style/layout; shader/pixel bounds do not guarantee watchdog safety.",
+  "settled": {
+    "counts": {
+      "bufferData": 0,
+      "compileShader": 2,
+      "drawArrays": 3,
+      "effectiveUniformCalls": 9,
+      "getError": 1,
+      "getProgramParameter": 1,
+      "getShaderParameter": 2,
+      "getUniformLocation": 6,
+      "linkProgram": 1,
+      "programsCreated": 1,
+      "programsDeleted": 0,
+      "shadersCreated": 2,
+      "shadersDeleted": 2,
+      "texImage2D": 0,
+      "texSubImage2D": 0,
+      "uniformCalls": 18,
+      "vaosCreated": 1,
+      "vaosDeleted": 0
+    },
+    "raf": 0,
+    "rect": 6,
+    "state": {
+      "diagnostics": "",
+      "enabled": true,
+      "height": 96,
+      "pixels": 12288,
+      "playing": false,
+      "provenance": {
+        "author": "wpsydev original benchmark function",
+        "license": "MIT"
+      },
+      "reason": "paused",
+      "status": "ready",
+      "submittedFrames": 3,
+      "time": 0,
+      "visible": true,
+      "width": 128
+    },
+    "styles": 6
+  },
+  "supported": true,
+  "totals": {
+    "bufferData": 0,
+    "compileShader": 14,
+    "drawArrays": 215,
+    "effectiveUniformCalls": 645,
+    "getError": 7,
+    "getProgramParameter": 6,
+    "getShaderParameter": 14,
+    "getUniformLocation": 36,
+    "linkProgram": 6,
+    "programsCreated": 6,
+    "programsDeleted": 6,
+    "shadersCreated": 14,
+    "shadersDeleted": 14,
+    "texImage2D": 0,
+    "texSubImage2D": 0,
+    "uniformCalls": 1290,
+    "vaosCreated": 6,
+    "vaosDeleted": 6
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36"
+}
+

@@ -1,0 +1,8 @@
+/** Optional trusted shader controller payload + native GPU fixture; never shared dist. */
+import {build} from 'vite';import {resolve} from 'node:path';import {readFile,writeFile,mkdir} from 'node:fs/promises';import {gzipSync} from 'node:zlib';import {createHash} from 'node:crypto';
+const r=await build({configFile:false,logLevel:'silent',build:{write:false,minify:true,target:'es2022',lib:{entry:resolve('src/shader-backdrop.ts'),name:'GlassShaderBackdrop',formats:['iife']}}});
+const js=(Array.isArray(r)?r[0]:r).output.find(x=>x.type==='chunk').code;
+const evidence={observedAtUtc:new Date().toISOString(),target:'es2022',format:'standalone minified IIFE',jsRawBytes:Buffer.byteLength(js),jsGzipBytes:gzipSync(js).length,sourceSha256:createHash('sha256').update(await readFile('src/shader-backdrop.ts')).digest('hex'),scope:'Optional shader-backdrop controller including lifecycle helper; no demo shader functions/material CSS. Payload only, not GPU time/FPS, watchdog security or comparative speedup proof.'};
+await mkdir('benchmarks',{recursive:true});await writeFile('benchmarks/shader-backdrop-payload.json',JSON.stringify(evidence,null,2)+'\n');
+await writeFile('/tmp/lg-shader-backdrop-probe.html','<!doctype html><html><head><meta charset="utf-8"><style>body{margin:0;background:#eee}canvas{display:block;width:128px;height:96px}#fixture{padding:20px}</style></head><body><main id="fixture"><canvas id="probe" width="128" height="96" aria-hidden="true"></canvas><p>Semantic host fallback stays present.</p></main><script>'+js.replaceAll('</script','<\\/script')+'</script></body></html>');console.log(JSON.stringify(evidence));
+
