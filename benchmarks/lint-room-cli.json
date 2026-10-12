@@ -1,0 +1,272 @@
+{
+  "schema": 1,
+  "artifactVersion": "0.53.0-preview.1",
+  "environment": {
+    "node": "v24.21.0",
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "historicalHandoffPatch": {
+    "sha256": "497d3860dbb9297e5043fa09537995752acb0b9daec1fcc1aa9cb15d778da53b",
+    "verification": "Static accepted original handoff identity, not current file verification"
+  },
+  "sourceHashes": {
+    "tooling/cli.ts": "45cb8eee4a0b7e73492160f595db69c14177b5d6b7f4c59bb59284391405d65e",
+    "tooling/cli-main.ts": "4a4522daa73fbb6cf15e0a61af56722e01dbf78941b20f89171063a8dafa4251",
+    "tooling/css-checker.ts": "28c42e2dacbd59aa6af2b49d4cad4b6565e3e793f3f68159932b88040fae1ef7",
+    "tooling/lint-files.ts": "107bcd3cc1907e04cee3856fd880c7fe8124e5e5492053c181702d8b6643ebb5",
+    "scripts/build-cli.mjs": "79d7296de3ef73eb5780ac93f49509cb1a0674a2b25203ff15ac9ac9f0d96c2d"
+  },
+  "inputSummary": [
+    {
+      "id": "draft",
+      "name": "Surface / first draft",
+      "characters": 92,
+      "utf8Bytes": 92,
+      "sha256": "3047ae9ef90b07fed5ca345a6d193a5e0c398a9e6053f9605cb1b70542080558"
+    },
+    {
+      "id": "radius",
+      "name": "Radius / corrected",
+      "characters": 92,
+      "utf8Bytes": 92,
+      "sha256": "da96852f5dd6c79723810cc0a0880d0f98f1aa35cf669226784858485ccefffe"
+    },
+    {
+      "id": "clean",
+      "name": "Properties / intentional",
+      "characters": 113,
+      "utf8Bytes": 113,
+      "sha256": "c5ca262fb9b1533e138ce2c0413885872f04beb31f0e2d4c3fce3c84b46c7536"
+    },
+    {
+      "id": "quoted",
+      "name": "Content / kept literal",
+      "characters": 97,
+      "utf8Bytes": 97,
+      "sha256": "3393c2bf34e52dbc528d334a32927b4b8f34049ad9d627d89240688d7be3bc9c"
+    },
+    {
+      "id": "syntax",
+      "name": "Syntax / unfinished",
+      "characters": 49,
+      "utf8Bytes": 49,
+      "sha256": "1817c1cd715fdfb97197f21610534b3049983562576b198b5bb4df1ac3ae91c4"
+    },
+    {
+      "id": "bounded",
+      "name": "Bounds / 30 findings",
+      "characters": 1396,
+      "utf8Bytes": 1396,
+      "sha256": "bc33d8535816bf6bce4d6539d1cb429b1a8cf43e7b629ff452bb06fb697fd71c"
+    }
+  ],
+  "checkerSha256": "28c42e2dacbd59aa6af2b49d4cad4b6565e3e793f3f68159932b88040fae1ef7",
+  "artifact": {
+    "bytes": 78919,
+    "gzipBytes": 28895,
+    "sha256": "70dbfe6695ac79823effac48aeb760142bc33c268214905029d944a4590cbcdd",
+    "licenseNoticeBytes": 4535
+  },
+  "trials": [
+    {
+      "name": "draft stdin",
+      "code": 1,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"draft.css\",\"status\":\"findings\",\"diagnostics\":[{\"from\":13,\"to\":26,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":2,\"column\":3},{\"from\":36,\"to\":51,\"severity\":\"warning\",\"message\":\"Name the animated properties to avoid accidental layout animation.\",\"rule\":\"explicit-transition\",\"line\":3,\"column\":3}],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":1,\"findingsFiles\":1,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":2}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 52.863825000000006
+    },
+    {
+      "name": "draft file",
+      "code": 1,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"draft.css\",\"status\":\"findings\",\"diagnostics\":[{\"from\":13,\"to\":26,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":2,\"column\":3},{\"from\":36,\"to\":51,\"severity\":\"warning\",\"message\":\"Name the animated properties to avoid accidental layout animation.\",\"rule\":\"explicit-transition\",\"line\":3,\"column\":3}],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":1,\"findingsFiles\":1,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":2}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 55.685201000000006
+    },
+    {
+      "name": "radius stdin",
+      "code": 1,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"radius.css\",\"status\":\"findings\",\"diagnostics\":[{\"from\":36,\"to\":51,\"severity\":\"warning\",\"message\":\"Name the animated properties to avoid accidental layout animation.\",\"rule\":\"explicit-transition\",\"line\":3,\"column\":3}],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":1,\"findingsFiles\":1,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":1}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 57.45506199999997
+    },
+    {
+      "name": "radius file",
+      "code": 1,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"radius.css\",\"status\":\"findings\",\"diagnostics\":[{\"from\":36,\"to\":51,\"severity\":\"warning\",\"message\":\"Name the animated properties to avoid accidental layout animation.\",\"rule\":\"explicit-transition\",\"line\":3,\"column\":3}],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":1,\"findingsFiles\":1,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":1}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 61.205659000000026
+    },
+    {
+      "name": "clean stdin",
+      "code": 0,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"clean.css\",\"status\":\"checked\",\"diagnostics\":[],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":1,\"findingsFiles\":0,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":0}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 56.15770600000002
+    },
+    {
+      "name": "clean file",
+      "code": 0,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"clean.css\",\"status\":\"checked\",\"diagnostics\":[],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":1,\"findingsFiles\":0,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":0}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 59.930094
+    },
+    {
+      "name": "quoted stdin",
+      "code": 0,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"quoted.css\",\"status\":\"checked\",\"diagnostics\":[],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":1,\"findingsFiles\":0,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":0}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 70.54879199999999
+    },
+    {
+      "name": "quoted file",
+      "code": 0,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"quoted.css\",\"status\":\"checked\",\"diagnostics\":[],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":1,\"findingsFiles\":0,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":0}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 63.38005599999997
+    },
+    {
+      "name": "syntax stdin",
+      "code": 1,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"syntax.css\",\"status\":\"findings\",\"diagnostics\":[{\"from\":49,\"to\":49,\"severity\":\"error\",\"message\":\"CSS syntax needs attention.\",\"rule\":\"syntax\",\"line\":4,\"column\":1}],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":1,\"findingsFiles\":1,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":1}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 55.03143799999998
+    },
+    {
+      "name": "syntax file",
+      "code": 1,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"syntax.css\",\"status\":\"findings\",\"diagnostics\":[{\"from\":49,\"to\":49,\"severity\":\"error\",\"message\":\"CSS syntax needs attention.\",\"rule\":\"syntax\",\"line\":4,\"column\":1}],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":1,\"findingsFiles\":1,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":1}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 54.06611900000007
+    },
+    {
+      "name": "bounded stdin",
+      "code": 1,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"bounded.css\",\"status\":\"findings\",\"diagnostics\":[{\"from\":13,\"to\":26,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":1,\"column\":14},{\"from\":49,\"to\":62,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":2,\"column\":14},{\"from\":85,\"to\":98,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":3,\"column\":14},{\"from\":121,\"to\":134,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":4,\"column\":14},{\"from\":157,\"to\":170,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":5,\"column\":14},{\"from\":193,\"to\":206,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":6,\"column\":14},{\"from\":229,\"to\":242,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":7,\"column\":14},{\"from\":265,\"to\":278,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":8,\"column\":14},{\"from\":301,\"to\":314,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":9,\"column\":14},{\"from\":337,\"to\":350,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":10,\"column\":14},{\"from\":374,\"to\":387,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":11,\"column\":15},{\"from\":411,\"to\":424,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":12,\"column\":15},{\"from\":448,\"to\":461,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":13,\"column\":15},{\"from\":485,\"to\":498,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":14,\"column\":15},{\"from\":522,\"to\":535,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":15,\"column\":15},{\"from\":559,\"to\":572,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":16,\"column\":15},{\"from\":596,\"to\":609,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":17,\"column\":15},{\"from\":633,\"to\":646,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":18,\"column\":15},{\"from\":670,\"to\":683,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":19,\"column\":15},{\"from\":707,\"to\":720,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":20,\"column\":15},{\"from\":744,\"to\":757,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":21,\"column\":15},{\"from\":781,\"to\":794,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":22,\"column\":15},{\"from\":818,\"to\":831,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":23,\"column\":15},{\"from\":855,\"to\":868,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":24,\"column\":15},{\"from\":892,\"to\":905,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":25,\"column\":15},{\"from\":929,\"to\":942,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":26,\"column\":15},{\"from\":966,\"to\":979,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":27,\"column\":15},{\"from\":1003,\"to\":1016,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":28,\"column\":15},{\"from\":1040,\"to\":1053,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":29,\"column\":15},{\"from\":1077,\"to\":1090,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":30,\"column\":15}],\"diagnosticLimitReached\":true}],\"summary\":{\"checked\":1,\"findingsFiles\":1,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":30}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 54.75200300000006
+    },
+    {
+      "name": "bounded file",
+      "code": 1,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"bounded.css\",\"status\":\"findings\",\"diagnostics\":[{\"from\":13,\"to\":26,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":1,\"column\":14},{\"from\":49,\"to\":62,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":2,\"column\":14},{\"from\":85,\"to\":98,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":3,\"column\":14},{\"from\":121,\"to\":134,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":4,\"column\":14},{\"from\":157,\"to\":170,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":5,\"column\":14},{\"from\":193,\"to\":206,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":6,\"column\":14},{\"from\":229,\"to\":242,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":7,\"column\":14},{\"from\":265,\"to\":278,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":8,\"column\":14},{\"from\":301,\"to\":314,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":9,\"column\":14},{\"from\":337,\"to\":350,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":10,\"column\":14},{\"from\":374,\"to\":387,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":11,\"column\":15},{\"from\":411,\"to\":424,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":12,\"column\":15},{\"from\":448,\"to\":461,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":13,\"column\":15},{\"from\":485,\"to\":498,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":14,\"column\":15},{\"from\":522,\"to\":535,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":15,\"column\":15},{\"from\":559,\"to\":572,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":16,\"column\":15},{\"from\":596,\"to\":609,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":17,\"column\":15},{\"from\":633,\"to\":646,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":18,\"column\":15},{\"from\":670,\"to\":683,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":19,\"column\":15},{\"from\":707,\"to\":720,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":20,\"column\":15},{\"from\":744,\"to\":757,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":21,\"column\":15},{\"from\":781,\"to\":794,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":22,\"column\":15},{\"from\":818,\"to\":831,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":23,\"column\":15},{\"from\":855,\"to\":868,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":24,\"column\":15},{\"from\":892,\"to\":905,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":25,\"column\":15},{\"from\":929,\"to\":942,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":26,\"column\":15},{\"from\":966,\"to\":979,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":27,\"column\":15},{\"from\":1003,\"to\":1016,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":28,\"column\":15},{\"from\":1040,\"to\":1053,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":29,\"column\":15},{\"from\":1077,\"to\":1090,\"severity\":\"error\",\"message\":\"Unknown property. Use border-radius.\",\"rule\":\"property-typo\",\"line\":30,\"column\":15}],\"diagnosticLimitReached\":true}],\"summary\":{\"checked\":1,\"findingsFiles\":1,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":30}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 54.88578999999993
+    },
+    {
+      "name": "outside root",
+      "code": 2,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"argument-1\",\"status\":\"error\",\"reason\":\"outside-root\",\"diagnostics\":[],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":0,\"findingsFiles\":0,\"skipped\":0,\"errors\":1,\"diagnosticsDisplayed\":0}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 38.49935099999993
+    },
+    {
+      "name": "interior symlink",
+      "code": 2,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"linked.css\",\"status\":\"error\",\"reason\":\"symlink\",\"diagnostics\":[],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":0,\"findingsFiles\":0,\"skipped\":0,\"errors\":1,\"diagnosticsDisplayed\":0}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 43.324896999999964
+    },
+    {
+      "name": "missing file",
+      "code": 2,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"absent.css\",\"status\":\"error\",\"reason\":\"file-unavailable\",\"diagnostics\":[],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":0,\"findingsFiles\":0,\"skipped\":0,\"errors\":1,\"diagnosticsDisplayed\":0}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 43.840535000000045
+    },
+    {
+      "name": "invalid UTF8",
+      "code": 2,
+      "stdout": "{\"schemaVersion\":1,\"status\":\"error\",\"reason\":\"invalid-utf8\",\"message\":\"CSS check did not complete. Run liquid-glass --help for limits and usage.\"}\n",
+      "stderr": "",
+      "synchronousProcessMs": 48.424086999999986
+    },
+    {
+      "name": "character limit",
+      "code": 2,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"stdin.css\",\"status\":\"error\",\"reason\":\"source-limit\",\"diagnostics\":[],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":0,\"findingsFiles\":0,\"skipped\":0,\"errors\":1,\"diagnosticsDisplayed\":0}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 54.172051000000124
+    },
+    {
+      "name": "unsupported extension",
+      "code": 0,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"notes.md\",\"status\":\"skipped\",\"reason\":\"unsupported-extension\",\"diagnostics\":[],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":0,\"findingsFiles\":0,\"skipped\":1,\"errors\":0,\"diagnosticsDisplayed\":0}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 42.124908000000005
+    },
+    {
+      "name": "hook findings",
+      "code": 0,
+      "stdout": "{\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"Liquid Glass configured CSS checks\\nfile-1: findings\\n  2:3 error property-typo: Unknown property. Use border-radius.\\n  3:3 warning explicit-transition: Name the animated properties to avoid accidental layout animation.\\nChecked 1; finding files 1; skipped 0; read/check errors 0.\\nAdvisory configured checks only; no edit was undone and no permission decision was made.\"}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 52.803218000000015
+    },
+    {
+      "name": "hook outside root",
+      "code": 0,
+      "stdout": "{\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"Liquid Glass configured CSS checks\\nfile-1: error (outside-root)\\nChecked 0; finding files 0; skipped 0; read/check errors 1.\\nAdvisory configured checks only; no edit was undone and no permission decision was made.\"}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 48.834573999999975
+    },
+    {
+      "name": "hook unsupported",
+      "code": 0,
+      "stdout": "{\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"Liquid Glass CSS check skipped: unsupported event or tool. Nothing was checked.\"}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 49.54348300000015
+    },
+    {
+      "name": "hook malformed",
+      "code": 0,
+      "stdout": "{\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"Liquid Glass CSS check not run (invalid-hook-input). No clean result or permission decision is implied.\"}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 55.08727500000009
+    },
+    {
+      "name": "help",
+      "code": 0,
+      "stdout": "Liquid Glass read-only CSS checks\n\nliquid-glass lint <paths...> [--root project] [--format text|json]\nliquid-glass lint --stdin [--name relative.css] [--format text|json]\nliquid-glass hook claude-post-tool-use --root project\n\nUse literal CSS file paths; no scanning, glob expansion, fixes or commands.\nConfigured rules: parser syntax, border-raduis typo, transition:all warning.\nLimits: 32 files, 256000 bytes/64000 UTF-16 code units per file, 2048000 aggregate bytes, 1024000 aggregate code units, 30 diagnostics/file, 120 displayed total.\nInterior symlinks and non-regular files are rejected; UTF-8 decoding is strict.\nLint exits:0 clean configured checks or reported skips;1 findings;2 invalid invocation/read/limit errors. Skipped does not mean checked.\nHook output is advisory context, never a permission or approval decision.\n",
+      "stderr": "",
+      "synchronousProcessMs": 45.931781999999885
+    },
+    {
+      "name": "version",
+      "code": 0,
+      "stdout": "0.53.0-preview.1\n",
+      "stderr": "",
+      "synchronousProcessMs": 51.32906400000002
+    },
+    {
+      "name": "standalone distribution no node_modules",
+      "code": 0,
+      "stdout": "{\"schemaVersion\":1,\"rules\":[\"syntax\",\"property-typo\",\"explicit-transition\"],\"limits\":{\"files\":32,\"fileBytes\":256000,\"sourceCharacters\":64000,\"aggregateBytes\":2048000,\"aggregateCharacters\":1024000,\"stdinBytes\":256000,\"diagnosticsPerFile\":30,\"diagnosticsTotal\":120,\"outputBytes\":131072,\"pathCharacters\":2048},\"files\":[{\"file\":\"stdin.css\",\"status\":\"checked\",\"diagnostics\":[],\"diagnosticLimitReached\":false}],\"summary\":{\"checked\":1,\"findingsFiles\":0,\"skipped\":0,\"errors\":0,\"diagnosticsDisplayed\":0}}\n",
+      "stderr": "",
+      "synchronousProcessMs": 56.426832000000104
+    }
+  ],
+  "benchmarks": {
+    "large": {
+      "characters": 63954,
+      "calls": 15,
+      "warmupCalls": 3,
+      "medianMs": 13.984577000000172,
+      "p95Ms": 18.708218000000215,
+      "scope": "near64k character cap, synchronous shared checker CPU excludes DOM/paint"
+    },
+    "process": {
+      "count": 20,
+      "medianMs": 49.9471759999999,
+      "p95Ms": 59.99311499999999,
+      "scope": "new Node process, stdin decode/parser/JSON/output/startup together; no editor/render/network"
+    },
+    "checker": {
+      "batches": 100,
+      "callsPerBatch": 500,
+      "warmupCalls": 20,
+      "medianBatchMs": 12.832479000000149,
+      "p95BatchMs": 21.543631000000005,
+      "scope": "same shared parser/configured rules on 92-character fixture; synchronous model CPU excludes DOM/painting/Node process startup"
+    }
+  }
+}

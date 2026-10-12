@@ -1,0 +1,292 @@
+{
+  "schema": 1,
+  "artifactVersion": "0.53.0-preview.1",
+  "environment": {
+    "tool": "Native T3 own tab",
+    "browser": "Chromium152/Electron44 on macOS, CSS desktop viewports"
+  },
+  "checks": {
+    "cancelled": false,
+    "checked": {
+      "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "checks": 2,
+      "diagnostics": [
+        {
+          "column": 3,
+          "from": 36,
+          "line": 3,
+          "message": "Name the animated properties to avoid accidental layout animation.",
+          "rule": "explicit-transition",
+          "severity": "warning",
+          "to": 51
+        }
+      ],
+      "dirty": false,
+      "fileStatus": "",
+      "focus": "source",
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "savedReceipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 1,
+        "fixture": "draft",
+        "precomputed": true
+      },
+      "selected": "draft",
+      "selection": [
+        92,
+        92
+      ],
+      "solid": false,
+      "source": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "status": "1 configured diagnostics in this checked snapshot",
+      "systemReduced": false,
+      "tourRunning": false
+    },
+    "final": {
+      "checkedSource": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "checks": 1,
+      "diagnostics": [
+        {
+          "column": 3,
+          "from": 13,
+          "line": 2,
+          "message": "Unknown property. Use border-radius.",
+          "rule": "property-typo",
+          "severity": "error",
+          "to": 26
+        },
+        {
+          "column": 3,
+          "from": 36,
+          "line": 3,
+          "message": "Name the animated properties to avoid accidental layout animation.",
+          "rule": "explicit-transition",
+          "severity": "warning",
+          "to": 51
+        }
+      ],
+      "dirty": false,
+      "fileStatus": "",
+      "focus": "source",
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "savedReceipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 1,
+        "fixture": "draft",
+        "precomputed": true
+      },
+      "selected": "draft",
+      "selection": [
+        92,
+        92
+      ],
+      "solid": false,
+      "source": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "status": "01 / two actual configured findings",
+      "systemReduced": false,
+      "tourRunning": false
+    },
+    "invalidUtf8": {
+      "checkedSource": ".local { border-raduis: 12px; }",
+      "checks": 3,
+      "diagnostics": [
+        {
+          "column": 10,
+          "from": 9,
+          "line": 1,
+          "message": "Unknown property. Use border-radius.",
+          "rule": "property-typo",
+          "severity": "error",
+          "to": 22
+        }
+      ],
+      "dirty": false,
+      "fileStatus": "File must be valid UTF-8 and at most 64,000 characters. Current edits are retained.",
+      "focus": "source",
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "savedReceipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 1,
+        "fixture": "draft",
+        "precomputed": true
+      },
+      "selected": "draft",
+      "selection": [
+        31,
+        31
+      ],
+      "solid": false,
+      "source": ".local { border-raduis: 12px; }",
+      "status": "1 configured diagnostics in this checked snapshot",
+      "systemReduced": false,
+      "tourRunning": false
+    },
+    "local": {
+      "checkedSource": ".local { border-raduis: 12px; }",
+      "checks": 3,
+      "diagnostics": [
+        {
+          "column": 10,
+          "from": 9,
+          "line": 1,
+          "message": "Unknown property. Use border-radius.",
+          "rule": "property-typo",
+          "severity": "error",
+          "to": 22
+        }
+      ],
+      "dirty": false,
+      "fileStatus": "Local CSS loaded. No upload or shell execution.",
+      "focus": "source",
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "savedReceipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 1,
+        "fixture": "draft",
+        "precomputed": true
+      },
+      "selected": "draft",
+      "selection": [
+        31,
+        31
+      ],
+      "solid": false,
+      "source": ".local { border-raduis: 12px; }",
+      "status": "1 configured diagnostics in this checked snapshot",
+      "systemReduced": false,
+      "tourRunning": false
+    },
+    "quoted": {
+      "checkedSource": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+      "checks": 4,
+      "diagnostics": [],
+      "dirty": false,
+      "fileStatus": "",
+      "focus": "source",
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "savedReceipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 0,
+        "fixture": "quoted",
+        "precomputed": true
+      },
+      "selected": "quoted",
+      "selection": [
+        97,
+        97
+      ],
+      "solid": false,
+      "source": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+      "status": "0 configured diagnostics in this checked snapshot",
+      "systemReduced": false,
+      "tourRunning": false
+    },
+    "selected": {
+      "state": {
+        "checkedSource": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 1,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 13,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "source",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "draft",
+          "precomputed": true
+        },
+        "selected": "draft",
+        "selection": [
+          13,
+          26
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "Selected property-typo at 2:3",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "text": "border-raduis"
+    },
+    "stale": {
+      "disabled": true,
+      "state": {
+        "checkedSource": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 1,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 13,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": true,
+        "fileStatus": "",
+        "focus": "source",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "draft",
+          "precomputed": true
+        },
+        "selected": "draft",
+        "selection": [
+          92,
+          92
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "Selected property-typo at 2:3",
+        "systemReduced": false,
+        "tourRunning": false
+      }
+    }
+  },
+  "limits": [
+    "No actual client delivery or discovery",
+    "Physical phones/Safari/AT/real OS reduction/background not verified",
+    "Native scripted activations are not physical keyboard/touch or OS picker claims"
+  ],
+  "previousDetailedBoundaryEvidence": "Earlier v0.30 boundary evidence preserved in source37-media-v030; current version layouts, controls and films freshly checked."
+}

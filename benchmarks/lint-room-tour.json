@@ -1,0 +1,244 @@
+{
+  "schema": 1,
+  "artifactVersion": "0.53.0-preview.1",
+  "complete": true,
+  "density": "record-only960px CSS hides local file/receipt download buttons and compresses spacing; exact editable source, diagnostics/positions, scope, precomputed receipt labels and native controls remain visible",
+  "final": {
+    "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+    "checks": 6,
+    "diagnostics": [],
+    "dirty": false,
+    "fileStatus": "",
+    "focus": "source",
+    "pendingTourSteps": 0,
+    "quiet": false,
+    "savedReceipt": {
+      "artifactVersion": "0.53.0-preview.1",
+      "code": 0,
+      "fixture": "clean",
+      "precomputed": true
+    },
+    "selected": "clean",
+    "selection": [
+      113,
+      113
+    ],
+    "solid": false,
+    "source": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+    "status": "Reviewed locally / no auto-fix or shell execution",
+    "systemReduced": false,
+    "tourRunning": false
+  },
+  "frames": [
+    {
+      "diagnostics": [
+        {
+          "column": 3,
+          "from": 13,
+          "line": 2,
+          "message": "Unknown property. Use border-radius.",
+          "rule": "property-typo",
+          "severity": "error",
+          "to": 26
+        },
+        {
+          "column": 3,
+          "from": 36,
+          "line": 3,
+          "message": "Name the animated properties to avoid accidental layout animation.",
+          "rule": "explicit-transition",
+          "severity": "warning",
+          "to": 51
+        }
+      ],
+      "focus": "",
+      "receipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 1,
+        "fixture": "draft",
+        "precomputed": true
+      },
+      "selected": "draft",
+      "selection": [
+        92,
+        92
+      ],
+      "source": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "status": "01 / two actual configured findings",
+      "time": 2348335.5
+    },
+    {
+      "diagnostics": [
+        {
+          "column": 3,
+          "from": 13,
+          "line": 2,
+          "message": "Unknown property. Use border-radius.",
+          "rule": "property-typo",
+          "severity": "error",
+          "to": 26
+        },
+        {
+          "column": 3,
+          "from": 36,
+          "line": 3,
+          "message": "Name the animated properties to avoid accidental layout animation.",
+          "rule": "explicit-transition",
+          "severity": "warning",
+          "to": 51
+        }
+      ],
+      "focus": "source",
+      "receipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 1,
+        "fixture": "draft",
+        "precomputed": true
+      },
+      "selected": "draft",
+      "selection": [
+        13,
+        26
+      ],
+      "source": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "status": "02 / exact source coordinates, native selection",
+      "time": 2349938.100000024
+    },
+    {
+      "diagnostics": [
+        {
+          "column": 3,
+          "from": 36,
+          "line": 3,
+          "message": "Name the animated properties to avoid accidental layout animation.",
+          "rule": "explicit-transition",
+          "severity": "warning",
+          "to": 51
+        }
+      ],
+      "focus": "source",
+      "receipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 1,
+        "fixture": "radius",
+        "precomputed": true
+      },
+      "selected": "radius",
+      "selection": [
+        92,
+        92
+      ],
+      "source": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "status": "03 / radius fixed, transition still needs care",
+      "time": 2351437.7999999523
+    },
+    {
+      "diagnostics": [],
+      "focus": "source",
+      "receipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 0,
+        "fixture": "clean",
+        "precomputed": true
+      },
+      "selected": "clean",
+      "selection": [
+        113,
+        113
+      ],
+      "source": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "status": "04 / named motion properties, configured checks clear",
+      "time": 2353037.2999999523
+    },
+    {
+      "diagnostics": [],
+      "focus": "source",
+      "receipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 0,
+        "fixture": "quoted",
+        "precomputed": true
+      },
+      "selected": "quoted",
+      "selection": [
+        97,
+        97
+      ],
+      "source": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+      "status": "05 / comments and literal content stay literal",
+      "time": 2354638
+    },
+    {
+      "diagnostics": [
+        {
+          "column": 1,
+          "from": 49,
+          "line": 4,
+          "message": "CSS syntax needs attention.",
+          "rule": "syntax",
+          "severity": "error",
+          "to": 49
+        }
+      ],
+      "focus": "source",
+      "receipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 1,
+        "fixture": "syntax",
+        "precomputed": true
+      },
+      "selected": "syntax",
+      "selection": [
+        49,
+        49
+      ],
+      "source": ".surface {\n  color: #234;\n  border-radius: 24px;\n",
+      "status": "06 / grammar catches an unfinished block",
+      "time": 2356437.5
+    },
+    {
+      "diagnostics": [],
+      "focus": "source",
+      "receipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 0,
+        "fixture": "clean",
+        "precomputed": true
+      },
+      "selected": "clean",
+      "selection": [
+        113,
+        113
+      ],
+      "source": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "status": "Reviewed locally / no auto-fix or shell execution",
+      "time": 2357737.6999999285
+    },
+    {
+      "diagnostics": [],
+      "focus": "source",
+      "receipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 0,
+        "fixture": "clean",
+        "precomputed": true
+      },
+      "selected": "clean",
+      "selection": [
+        113,
+        113
+      ],
+      "source": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "status": "Reviewed locally / no auto-fix or shell execution",
+      "time": 2358836.899999976
+    }
+  ],
+  "nativeRecording": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-1fb8afe8-1760-4c4e-acc8-4efe0ee88ac1-mp4",
+    "tabId": "tab_4t",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-1fb8afe8-1760-4c4e-acc8-4efe0ee88ac1-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 312310,
+    "createdAt": "2026-10-12T06:18:19.268Z"
+  }
+}

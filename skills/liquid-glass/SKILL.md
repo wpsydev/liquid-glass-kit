@@ -7,7 +7,7 @@ description: Add or tune Liquid Glass and glassmorphism surfaces in web apps usi
 
 Respect the user's existing UI library and dependency choices. This skill supports the independent `@wpsydev/liquid-glass` web package; it is not an instruction to replace an adequate existing material.
 
-Check whether the npm package is published before recommending registry installation. Registry publication is pending; the matching release for this skill is `github:wpsydev/liquid-glass-kit#v0.52.0-preview.1` (Node 22.12+ to build). Verify that tag/release is available before recommending installation; prepared local changes do not establish publication. Choose `@wpsydev/liquid-glass/material.css` for material-only pages; add `/motion.css`, `/indicator.css` or `/scroll-edge.css` for that helper. `/styles.css` remains compatible and includes all four; do not import both aggregate and components.
+Check whether the npm package is published before recommending registry installation. Registry publication is pending; the matching release for this skill is `github:wpsydev/liquid-glass-kit#v0.53.0-preview.1` (Node 22.12+ to build). Verify that tag/release is available before recommending installation; prepared local changes do not establish publication. Choose `@wpsydev/liquid-glass/material.css` for material-only pages; add `/motion.css`, `/indicator.css` or `/scroll-edge.css` for that helper. `/styles.css` remains compatible and includes all four; do not import both aggregate and components.
 
 The 0.9 update retains existing APIs. Static attachGlass controllers avoid input listeners, ResizeObservers and animation frames; per-Window media listeners are shared and cleaned up. Read docs/PERFORMANCE.md for measured controller-lifecycle scope and tradeoffs; no frame-rate, battery or all-phone speed promise follows.
 
@@ -144,3 +144,5 @@ For stable visual budgets from actual host measurements, use pure `/quality-gove
 For original empty-state, onboarding or hero art with native image resources, use `/illustration` `getGlassIllustrationScene` and read [meaning, authored layers and picture sources](../../docs/ILLUSTRATION.md). Keep controls outside the image group; author mobile geometry and verify asset decoding and rights.
 
 For a related group of native icon actions needing one keyboard entry, use `/icon-toolbar` and `/icon-toolbar.css`; read [action ownership and focus repair](../../docs/ICON_TOOLBAR.md). Host activation and pressed/disabled state stay native; capture focus before removing an active action.
+
+- For explicit development CSS checks, use the optional liquid-glass lint binary after installation or node dist/cli.js locally. It checks three bounded rules and reports unknown/skipped/truncated scope; it does not fix files or certify UI. The optional Claude hook emits advisory context and never changes permissions or installs settings. Read [CLI.md](../../docs/CLI.md).

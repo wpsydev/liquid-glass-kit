@@ -60,6 +60,7 @@ export default defineConfig({
         quality: resolve('site/quality/index.html'),
         illustrations: resolve('site/illustrations/index.html'),
         toolbar: resolve('site/toolbar/index.html'),
+        lint_room: resolve('site/lint-room/index.html'),
         shaders: resolve('site/shaders/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),

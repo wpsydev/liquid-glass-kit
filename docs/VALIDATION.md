@@ -604,3 +604,11 @@ Integrated npm run check passed1,195tests/55files including queued prototypes. n
 Original618949-byte12s960square360frame124BPM afrobeat/marimba52 film SHA25698332a0fc228f79c04adcaac11374c60d5f28645629cbdfd07b529d4c723bd10; unchangedmusic/video/311uniqueframes/full decode/threeframes/nativefiniteendsstatic/hostactionsreal.
 
 Integrated npm run check passed1,196tests/55files. npm pack --dry-run passed218members/475275bytes; declared exports/CSS and SSR checks passed. Published-scope CI follows release.
+
+## 0.53.0 developer CLI (2026-10-12)
+
+Sharedchecker extracted fromexistingworkbench preservinggrammar/vectors/threeconfiguredrules; 12CLItests plusworkbench suite.25actual distributed NodeCLIprocess cases includingUTF8/path/root/symlink/byteunitcaps/exitcodes/advisoryhook/helpversion; no clientdeliveryorWindowsFSsandboxclaim.30native desktop cases44px/16px/noflow; actualediting/caret/CtrlEnter/diagnosticselection/stalesnapshot/file/Blob/race/quiet/finitecancel. Near63954UTF16browsercheck21.5msincludingDOMexcludepaint. Node78919-byte command includes4MITnotices4535B, no browsermaterialparser/runtime deps. Process/native/puretimings separatelyscoped, noGPU/FPS/speedupclaim.
+
+Original608419-byte12s960square360-frame130BPM flute-FM breakbeatseed67 film SHA256cea830af765441a883c992cc2f77fab72d2856bab2a75f29b6608d8c06ca2365; recapturedactualCLI0.53/313uniqueframes/threeframes/full decode/native10.43+1.57hold; CLIpanel labeled savedreceipts, notlivebrowserterminal. Originalscorepreserved.
+
+Integrated npm run check passed1,208tests/56files includingactualdistributedCLI verifier. npm pack --dry-run passed221members/510095bytes with executablecli.js mode755 andfourMITnotices. Final0.53binary78919B/SHA25670dbfe6695ac79823effac48aeb760142bc33c268214905029d944a4590cbcdd matchesrecapturedfilm/receipts.25CLIprocess fixtures regenerated withcommittedsource/input/artifacthashes and no temporarypatch reads; finalsitebuild passed. Published-scope CI followsrelease.

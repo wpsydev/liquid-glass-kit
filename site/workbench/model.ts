@@ -1,25 +1,10 @@
-import { cssLanguage } from '@codemirror/lang-css';
+import { inspectGlassCSS as inspect, glassCSSParser } from '../../tooling/css-checker.js';
+import type { GlassCSSDiagnostic as Problem } from '../../tooling/css-checker.js';
 
 import {type Workspace} from './state.js';
 
-export interface Problem { from: number; to: number; severity: 'error' | 'warning'; message: string; rule: string; line: number }
-export function inspect(source: string): Problem[] {
-  if (source.length > 64000) return [{from:0,to:0,severity:'warning',message:'Demo lint is limited to 64,000 characters. Reduce this document to enable checks.',rule:'document-limit',line:1}];
-  const problems: Problem[] = [];
-  const add = (from: number, to: number, severity: Problem['severity'], message: string, rule: string) => {
-    // Bound collection before calculating line numbers, not only at return.
-    if (problems.length >= 30) return;
-    if (rule !== 'syntax' && tree.resolveInner(from, 1).name !== 'PropertyName') return;
-    problems.push({ from, to: Math.max(from, to), severity, message, rule, line: source.slice(0, from).split('\n').length });
-  };
-  const tree = cssLanguage.parser.parse(source);
-  tree.iterate({ enter(node) {
-    if (node.type.isError) add(node.from, node.to, 'error', 'CSS syntax needs attention.', 'syntax');
-  } });
-  for (const match of source.matchAll(/\bborder-raduis\b/g)) add(match.index!, match.index! + match[0].length, 'error', 'Unknown property. Use border-radius.', 'property-typo');
-  for (const match of source.matchAll(/\btransition\s*:\s*all\b/g)) add(match.index!, match.index! + match[0].length, 'warning', 'Name the animated properties to avoid accidental layout animation.', 'explicit-transition');
-  return problems;
-}
+export { inspect };
+export type { Problem };
 export function fixSurface(source: string) {
   // Only replace spans diagnosed by the linter, leaving comments/string text alone.
   for (const issue of inspect(source).filter(p => p.rule === 'property-typo' || p.rule === 'explicit-transition').sort((a, b) => b.from - a.from)) {
@@ -31,7 +16,7 @@ export function tokens(source: string) {
   // Restricted numeric/color tokens only. Never inject arbitrary CSS or run code.
   const result = {corner:24,accent:'#b8ecc9',padding:24};
   if (source.length > 64000) return result;
-  cssLanguage.parser.parse(source).iterate({enter(node) {
+  glassCSSParser.parse(source).iterate({enter(node) {
     if (node.name !== 'Declaration') return;
     const declaration = source.slice(node.from, node.to);
     const size = /^(--corner|padding)\s*:\s*(\d+(?:\.\d+)?)px$/.exec(declaration);

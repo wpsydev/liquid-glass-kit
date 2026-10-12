@@ -1,0 +1,5616 @@
+{
+  "schema": 1,
+  "artifactVersion": "0.53.0-preview.1",
+  "cases": [
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 123.1015625
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL2 : C3Unknown property. Us",
+          "width": 277
+        },
+        {
+          "height": 112.8984375,
+          "id": "WARNINGL3 : C3Name the animated ",
+          "width": 277
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "2",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 247
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 239
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "draft",
+      "state": {
+        "checkedSource": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 2,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 13,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "draft",
+          "precomputed": true
+        },
+        "selected": "draft",
+        "selection": [
+          92,
+          92
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "2 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 123.1015625
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 112.8984375,
+          "id": "WARNINGL3 : C3Name the animated ",
+          "width": 277
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "1",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 247
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 239
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "radius",
+      "state": {
+        "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 3,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "radius",
+          "precomputed": true
+        },
+        "selected": "radius",
+        "selection": [
+          92,
+          92
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "1 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 123.1015625
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "0",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 247
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 239
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "clean",
+      "state": {
+        "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 4,
+        "diagnostics": [],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 0,
+          "fixture": "clean",
+          "precomputed": true
+        },
+        "selected": "clean",
+        "selection": [
+          113,
+          113
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "0 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 123.1015625
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "0",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 247
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 239
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "quoted",
+      "state": {
+        "checkedSource": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+        "checks": 5,
+        "diagnostics": [],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 0,
+          "fixture": "quoted",
+          "precomputed": true
+        },
+        "selected": "quoted",
+        "selection": [
+          97,
+          97
+        ],
+        "solid": false,
+        "source": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+        "status": "0 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 123.1015625
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL4 : C1CSS syntax needs att",
+          "width": 277
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "1",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 247
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 239
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "syntax",
+      "state": {
+        "checkedSource": ".surface {\n  color: #234;\n  border-radius: 24px;\n",
+        "checks": 6,
+        "diagnostics": [
+          {
+            "column": 1,
+            "from": 49,
+            "line": 4,
+            "message": "CSS syntax needs attention.",
+            "rule": "syntax",
+            "severity": "error",
+            "to": 49
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "syntax",
+          "precomputed": true
+        },
+        "selected": "syntax",
+        "selection": [
+          49,
+          49
+        ],
+        "solid": false,
+        "source": ".surface {\n  color: #234;\n  border-radius: 24px;\n",
+        "status": "1 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 123.1015625
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL1 : C14Unknown property. U",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL2 : C14Unknown property. U",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL3 : C14Unknown property. U",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL4 : C14Unknown property. U",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL5 : C14Unknown property. U",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL6 : C14Unknown property. U",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL7 : C14Unknown property. U",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL8 : C14Unknown property. U",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL9 : C14Unknown property. U",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL10 : C14Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL11 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL12 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL13 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL14 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL15 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL16 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL17 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL18 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL19 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL20 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL21 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL22 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL23 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL24 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL25 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL26 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL27 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL28 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL29 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL30 : C15Unknown property. ",
+          "width": 262
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "30",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 247
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 239
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "bounded",
+      "state": {
+        "checkedSource": ".surface-0 { border-raduis: 12px; }\n.surface-1 { border-raduis: 12px; }\n.surface-2 { border-raduis: 12px; }\n.surface-3 { border-raduis: 12px; }\n.surface-4 { border-raduis: 12px; }\n.surface-5 { border-raduis: 12px; }\n.surface-6 { border-raduis: 12px; }\n.surface-7 { border-raduis: 12px; }\n.surface-8 { border-raduis: 12px; }\n.surface-9 { border-raduis: 12px; }\n.surface-10 { border-raduis: 12px; }\n.surface-11 { border-raduis: 12px; }\n.surface-12 { border-raduis: 12px; }\n.surface-13 { border-raduis: 12px; }\n.surface-14 { border-raduis: 12px; }\n.surface-15 { border-raduis: 12px; }\n.surface-16 { border-raduis: 12px; }\n.surface-17 { border-raduis: 12px; }\n.surface-18 { border-raduis: 12px; }\n.surface-19 { border-raduis: 12px; }\n.surface-20 { border-raduis: 12px; }\n.surface-21 { border-raduis: 12px; }\n.surface-22 { border-raduis: 12px; }\n.surface-23 { border-raduis: 12px; }\n.surface-24 { border-raduis: 12px; }\n.surface-25 { border-raduis: 12px; }\n.surface-26 { border-raduis: 12px; }\n.surface-27 { border-raduis: 12px; }\n.surface-28 { border-raduis: 12px; }\n.surface-29 { border-raduis: 12px; }\n.surface-30 { border-raduis: 12px; }\n.surface-31 { border-raduis: 12px; }\n.surface-32 { border-raduis: 12px; }\n.surface-33 { border-raduis: 12px; }\n.surface-34 { border-raduis: 12px; }\n.surface-35 { border-raduis: 12px; }\n.surface-36 { border-raduis: 12px; }\n.surface-37 { border-raduis: 12px; }\n",
+        "checks": 7,
+        "diagnostics": [
+          {
+            "column": 14,
+            "from": 13,
+            "line": 1,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 14,
+            "from": 49,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 62
+          },
+          {
+            "column": 14,
+            "from": 85,
+            "line": 3,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 98
+          },
+          {
+            "column": 14,
+            "from": 121,
+            "line": 4,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 134
+          },
+          {
+            "column": 14,
+            "from": 157,
+            "line": 5,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 170
+          },
+          {
+            "column": 14,
+            "from": 193,
+            "line": 6,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 206
+          },
+          {
+            "column": 14,
+            "from": 229,
+            "line": 7,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 242
+          },
+          {
+            "column": 14,
+            "from": 265,
+            "line": 8,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 278
+          },
+          {
+            "column": 14,
+            "from": 301,
+            "line": 9,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 314
+          },
+          {
+            "column": 14,
+            "from": 337,
+            "line": 10,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 350
+          },
+          {
+            "column": 15,
+            "from": 374,
+            "line": 11,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 387
+          },
+          {
+            "column": 15,
+            "from": 411,
+            "line": 12,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 424
+          },
+          {
+            "column": 15,
+            "from": 448,
+            "line": 13,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 461
+          },
+          {
+            "column": 15,
+            "from": 485,
+            "line": 14,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 498
+          },
+          {
+            "column": 15,
+            "from": 522,
+            "line": 15,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 535
+          },
+          {
+            "column": 15,
+            "from": 559,
+            "line": 16,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 572
+          },
+          {
+            "column": 15,
+            "from": 596,
+            "line": 17,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 609
+          },
+          {
+            "column": 15,
+            "from": 633,
+            "line": 18,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 646
+          },
+          {
+            "column": 15,
+            "from": 670,
+            "line": 19,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 683
+          },
+          {
+            "column": 15,
+            "from": 707,
+            "line": 20,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 720
+          },
+          {
+            "column": 15,
+            "from": 744,
+            "line": 21,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 757
+          },
+          {
+            "column": 15,
+            "from": 781,
+            "line": 22,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 794
+          },
+          {
+            "column": 15,
+            "from": 818,
+            "line": 23,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 831
+          },
+          {
+            "column": 15,
+            "from": 855,
+            "line": 24,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 868
+          },
+          {
+            "column": 15,
+            "from": 892,
+            "line": 25,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 905
+          },
+          {
+            "column": 15,
+            "from": 929,
+            "line": 26,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 942
+          },
+          {
+            "column": 15,
+            "from": 966,
+            "line": 27,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 979
+          },
+          {
+            "column": 15,
+            "from": 1003,
+            "line": 28,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1016
+          },
+          {
+            "column": 15,
+            "from": 1040,
+            "line": 29,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1053
+          },
+          {
+            "column": 15,
+            "from": 1077,
+            "line": 30,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1090
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "bounded",
+          "precomputed": true
+        },
+        "selected": "bounded",
+        "selection": [
+          1396,
+          1396
+        ],
+        "solid": false,
+        "source": ".surface-0 { border-raduis: 12px; }\n.surface-1 { border-raduis: 12px; }\n.surface-2 { border-raduis: 12px; }\n.surface-3 { border-raduis: 12px; }\n.surface-4 { border-raduis: 12px; }\n.surface-5 { border-raduis: 12px; }\n.surface-6 { border-raduis: 12px; }\n.surface-7 { border-raduis: 12px; }\n.surface-8 { border-raduis: 12px; }\n.surface-9 { border-raduis: 12px; }\n.surface-10 { border-raduis: 12px; }\n.surface-11 { border-raduis: 12px; }\n.surface-12 { border-raduis: 12px; }\n.surface-13 { border-raduis: 12px; }\n.surface-14 { border-raduis: 12px; }\n.surface-15 { border-raduis: 12px; }\n.surface-16 { border-raduis: 12px; }\n.surface-17 { border-raduis: 12px; }\n.surface-18 { border-raduis: 12px; }\n.surface-19 { border-raduis: 12px; }\n.surface-20 { border-raduis: 12px; }\n.surface-21 { border-raduis: 12px; }\n.surface-22 { border-raduis: 12px; }\n.surface-23 { border-raduis: 12px; }\n.surface-24 { border-raduis: 12px; }\n.surface-25 { border-raduis: 12px; }\n.surface-26 { border-raduis: 12px; }\n.surface-27 { border-raduis: 12px; }\n.surface-28 { border-raduis: 12px; }\n.surface-29 { border-raduis: 12px; }\n.surface-30 { border-raduis: 12px; }\n.surface-31 { border-raduis: 12px; }\n.surface-32 { border-raduis: 12px; }\n.surface-33 { border-raduis: 12px; }\n.surface-34 { border-raduis: 12px; }\n.surface-35 { border-raduis: 12px; }\n.surface-36 { border-raduis: 12px; }\n.surface-37 { border-raduis: 12px; }\n",
+        "status": "30 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL2 : C3Unknown property. Us",
+          "width": 339
+        },
+        {
+          "height": 112.8984375,
+          "id": "WARNINGL3 : C3Name the animated ",
+          "width": 339
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "2",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 188.46875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 301
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "draft",
+      "state": {
+        "checkedSource": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 8,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 13,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "draft",
+          "precomputed": true
+        },
+        "selected": "draft",
+        "selection": [
+          92,
+          92
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "2 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 112.8984375,
+          "id": "WARNINGL3 : C3Name the animated ",
+          "width": 339
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "1",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 188.46875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 301
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "radius",
+      "state": {
+        "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 9,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "radius",
+          "precomputed": true
+        },
+        "selected": "radius",
+        "selection": [
+          92,
+          92
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "1 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "0",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 188.46875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 301
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "clean",
+      "state": {
+        "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 10,
+        "diagnostics": [],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 0,
+          "fixture": "clean",
+          "precomputed": true
+        },
+        "selected": "clean",
+        "selection": [
+          113,
+          113
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "0 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "0",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 188.46875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 301
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "quoted",
+      "state": {
+        "checkedSource": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+        "checks": 11,
+        "diagnostics": [],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 0,
+          "fixture": "quoted",
+          "precomputed": true
+        },
+        "selected": "quoted",
+        "selection": [
+          97,
+          97
+        ],
+        "solid": false,
+        "source": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+        "status": "0 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL4 : C1CSS syntax needs att",
+          "width": 339
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "1",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 188.46875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 301
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "syntax",
+      "state": {
+        "checkedSource": ".surface {\n  color: #234;\n  border-radius: 24px;\n",
+        "checks": 12,
+        "diagnostics": [
+          {
+            "column": 1,
+            "from": 49,
+            "line": 4,
+            "message": "CSS syntax needs attention.",
+            "rule": "syntax",
+            "severity": "error",
+            "to": 49
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "syntax",
+          "precomputed": true
+        },
+        "selected": "syntax",
+        "selection": [
+          49,
+          49
+        ],
+        "solid": false,
+        "source": ".surface {\n  color: #234;\n  border-radius: 24px;\n",
+        "status": "1 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL1 : C14Unknown property. U",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL2 : C14Unknown property. U",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL3 : C14Unknown property. U",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL4 : C14Unknown property. U",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL5 : C14Unknown property. U",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL6 : C14Unknown property. U",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL7 : C14Unknown property. U",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL8 : C14Unknown property. U",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL9 : C14Unknown property. U",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL10 : C14Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL11 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL12 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL13 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL14 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL15 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL16 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL17 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL18 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL19 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL20 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL21 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL22 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL23 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL24 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL25 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL26 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL27 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL28 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL29 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL30 : C15Unknown property. ",
+          "width": 324
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "30",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 188.46875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 301
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "bounded",
+      "state": {
+        "checkedSource": ".surface-0 { border-raduis: 12px; }\n.surface-1 { border-raduis: 12px; }\n.surface-2 { border-raduis: 12px; }\n.surface-3 { border-raduis: 12px; }\n.surface-4 { border-raduis: 12px; }\n.surface-5 { border-raduis: 12px; }\n.surface-6 { border-raduis: 12px; }\n.surface-7 { border-raduis: 12px; }\n.surface-8 { border-raduis: 12px; }\n.surface-9 { border-raduis: 12px; }\n.surface-10 { border-raduis: 12px; }\n.surface-11 { border-raduis: 12px; }\n.surface-12 { border-raduis: 12px; }\n.surface-13 { border-raduis: 12px; }\n.surface-14 { border-raduis: 12px; }\n.surface-15 { border-raduis: 12px; }\n.surface-16 { border-raduis: 12px; }\n.surface-17 { border-raduis: 12px; }\n.surface-18 { border-raduis: 12px; }\n.surface-19 { border-raduis: 12px; }\n.surface-20 { border-raduis: 12px; }\n.surface-21 { border-raduis: 12px; }\n.surface-22 { border-raduis: 12px; }\n.surface-23 { border-raduis: 12px; }\n.surface-24 { border-raduis: 12px; }\n.surface-25 { border-raduis: 12px; }\n.surface-26 { border-raduis: 12px; }\n.surface-27 { border-raduis: 12px; }\n.surface-28 { border-raduis: 12px; }\n.surface-29 { border-raduis: 12px; }\n.surface-30 { border-raduis: 12px; }\n.surface-31 { border-raduis: 12px; }\n.surface-32 { border-raduis: 12px; }\n.surface-33 { border-raduis: 12px; }\n.surface-34 { border-raduis: 12px; }\n.surface-35 { border-raduis: 12px; }\n.surface-36 { border-raduis: 12px; }\n.surface-37 { border-raduis: 12px; }\n",
+        "checks": 13,
+        "diagnostics": [
+          {
+            "column": 14,
+            "from": 13,
+            "line": 1,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 14,
+            "from": 49,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 62
+          },
+          {
+            "column": 14,
+            "from": 85,
+            "line": 3,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 98
+          },
+          {
+            "column": 14,
+            "from": 121,
+            "line": 4,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 134
+          },
+          {
+            "column": 14,
+            "from": 157,
+            "line": 5,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 170
+          },
+          {
+            "column": 14,
+            "from": 193,
+            "line": 6,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 206
+          },
+          {
+            "column": 14,
+            "from": 229,
+            "line": 7,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 242
+          },
+          {
+            "column": 14,
+            "from": 265,
+            "line": 8,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 278
+          },
+          {
+            "column": 14,
+            "from": 301,
+            "line": 9,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 314
+          },
+          {
+            "column": 14,
+            "from": 337,
+            "line": 10,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 350
+          },
+          {
+            "column": 15,
+            "from": 374,
+            "line": 11,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 387
+          },
+          {
+            "column": 15,
+            "from": 411,
+            "line": 12,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 424
+          },
+          {
+            "column": 15,
+            "from": 448,
+            "line": 13,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 461
+          },
+          {
+            "column": 15,
+            "from": 485,
+            "line": 14,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 498
+          },
+          {
+            "column": 15,
+            "from": 522,
+            "line": 15,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 535
+          },
+          {
+            "column": 15,
+            "from": 559,
+            "line": 16,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 572
+          },
+          {
+            "column": 15,
+            "from": 596,
+            "line": 17,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 609
+          },
+          {
+            "column": 15,
+            "from": 633,
+            "line": 18,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 646
+          },
+          {
+            "column": 15,
+            "from": 670,
+            "line": 19,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 683
+          },
+          {
+            "column": 15,
+            "from": 707,
+            "line": 20,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 720
+          },
+          {
+            "column": 15,
+            "from": 744,
+            "line": 21,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 757
+          },
+          {
+            "column": 15,
+            "from": 781,
+            "line": 22,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 794
+          },
+          {
+            "column": 15,
+            "from": 818,
+            "line": 23,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 831
+          },
+          {
+            "column": 15,
+            "from": 855,
+            "line": 24,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 868
+          },
+          {
+            "column": 15,
+            "from": 892,
+            "line": 25,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 905
+          },
+          {
+            "column": 15,
+            "from": 929,
+            "line": 26,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 942
+          },
+          {
+            "column": 15,
+            "from": 966,
+            "line": 27,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 979
+          },
+          {
+            "column": 15,
+            "from": 1003,
+            "line": 28,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1016
+          },
+          {
+            "column": 15,
+            "from": 1040,
+            "line": 29,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1053
+          },
+          {
+            "column": 15,
+            "from": 1077,
+            "line": 30,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1090
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "bounded",
+          "precomputed": true
+        },
+        "selected": "bounded",
+        "selection": [
+          1396,
+          1396
+        ],
+        "solid": false,
+        "source": ".surface-0 { border-raduis: 12px; }\n.surface-1 { border-raduis: 12px; }\n.surface-2 { border-raduis: 12px; }\n.surface-3 { border-raduis: 12px; }\n.surface-4 { border-raduis: 12px; }\n.surface-5 { border-raduis: 12px; }\n.surface-6 { border-raduis: 12px; }\n.surface-7 { border-raduis: 12px; }\n.surface-8 { border-raduis: 12px; }\n.surface-9 { border-raduis: 12px; }\n.surface-10 { border-raduis: 12px; }\n.surface-11 { border-raduis: 12px; }\n.surface-12 { border-raduis: 12px; }\n.surface-13 { border-raduis: 12px; }\n.surface-14 { border-raduis: 12px; }\n.surface-15 { border-raduis: 12px; }\n.surface-16 { border-raduis: 12px; }\n.surface-17 { border-raduis: 12px; }\n.surface-18 { border-raduis: 12px; }\n.surface-19 { border-raduis: 12px; }\n.surface-20 { border-raduis: 12px; }\n.surface-21 { border-raduis: 12px; }\n.surface-22 { border-raduis: 12px; }\n.surface-23 { border-raduis: 12px; }\n.surface-24 { border-raduis: 12px; }\n.surface-25 { border-raduis: 12px; }\n.surface-26 { border-raduis: 12px; }\n.surface-27 { border-raduis: 12px; }\n.surface-28 { border-raduis: 12px; }\n.surface-29 { border-raduis: 12px; }\n.surface-30 { border-raduis: 12px; }\n.surface-31 { border-raduis: 12px; }\n.surface-32 { border-raduis: 12px; }\n.surface-33 { border-raduis: 12px; }\n.surface-34 { border-raduis: 12px; }\n.surface-35 { border-raduis: 12px; }\n.surface-36 { border-raduis: 12px; }\n.surface-37 { border-raduis: 12px; }\n",
+        "status": "30 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL2 : C3Unknown property. Us",
+          "width": 317.0625
+        },
+        {
+          "height": 112.8984375,
+          "id": "WARNINGL3 : C3Name the animated ",
+          "width": 317.0625
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "2",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "draft",
+      "state": {
+        "checkedSource": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 14,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 13,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "draft",
+          "precomputed": true
+        },
+        "selected": "draft",
+        "selection": [
+          92,
+          92
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "2 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 112.8984375,
+          "id": "WARNINGL3 : C3Name the animated ",
+          "width": 317.0625
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "1",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "radius",
+      "state": {
+        "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 15,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "radius",
+          "precomputed": true
+        },
+        "selected": "radius",
+        "selection": [
+          92,
+          92
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "1 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "0",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "clean",
+      "state": {
+        "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 16,
+        "diagnostics": [],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 0,
+          "fixture": "clean",
+          "precomputed": true
+        },
+        "selected": "clean",
+        "selection": [
+          113,
+          113
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "0 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "0",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "quoted",
+      "state": {
+        "checkedSource": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+        "checks": 17,
+        "diagnostics": [],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 0,
+          "fixture": "quoted",
+          "precomputed": true
+        },
+        "selected": "quoted",
+        "selection": [
+          97,
+          97
+        ],
+        "solid": false,
+        "source": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+        "status": "0 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL4 : C1CSS syntax needs att",
+          "width": 317.0625
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "1",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "syntax",
+      "state": {
+        "checkedSource": ".surface {\n  color: #234;\n  border-radius: 24px;\n",
+        "checks": 18,
+        "diagnostics": [
+          {
+            "column": 1,
+            "from": 49,
+            "line": 4,
+            "message": "CSS syntax needs attention.",
+            "rule": "syntax",
+            "severity": "error",
+            "to": 49
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "syntax",
+          "precomputed": true
+        },
+        "selected": "syntax",
+        "selection": [
+          49,
+          49
+        ],
+        "solid": false,
+        "source": ".surface {\n  color: #234;\n  border-radius: 24px;\n",
+        "status": "1 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL1 : C14Unknown property. U",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL2 : C14Unknown property. U",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL3 : C14Unknown property. U",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL4 : C14Unknown property. U",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL5 : C14Unknown property. U",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL6 : C14Unknown property. U",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL7 : C14Unknown property. U",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL8 : C14Unknown property. U",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL9 : C14Unknown property. U",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL10 : C14Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL11 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL12 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL13 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL14 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL15 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL16 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL17 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL18 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL19 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL20 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL21 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL22 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL23 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL24 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL25 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL26 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL27 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL28 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL29 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL30 : C15Unknown property. ",
+          "width": 302.0625
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "30",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 326.9296875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "bounded",
+      "state": {
+        "checkedSource": ".surface-0 { border-raduis: 12px; }\n.surface-1 { border-raduis: 12px; }\n.surface-2 { border-raduis: 12px; }\n.surface-3 { border-raduis: 12px; }\n.surface-4 { border-raduis: 12px; }\n.surface-5 { border-raduis: 12px; }\n.surface-6 { border-raduis: 12px; }\n.surface-7 { border-raduis: 12px; }\n.surface-8 { border-raduis: 12px; }\n.surface-9 { border-raduis: 12px; }\n.surface-10 { border-raduis: 12px; }\n.surface-11 { border-raduis: 12px; }\n.surface-12 { border-raduis: 12px; }\n.surface-13 { border-raduis: 12px; }\n.surface-14 { border-raduis: 12px; }\n.surface-15 { border-raduis: 12px; }\n.surface-16 { border-raduis: 12px; }\n.surface-17 { border-raduis: 12px; }\n.surface-18 { border-raduis: 12px; }\n.surface-19 { border-raduis: 12px; }\n.surface-20 { border-raduis: 12px; }\n.surface-21 { border-raduis: 12px; }\n.surface-22 { border-raduis: 12px; }\n.surface-23 { border-raduis: 12px; }\n.surface-24 { border-raduis: 12px; }\n.surface-25 { border-raduis: 12px; }\n.surface-26 { border-raduis: 12px; }\n.surface-27 { border-raduis: 12px; }\n.surface-28 { border-raduis: 12px; }\n.surface-29 { border-raduis: 12px; }\n.surface-30 { border-raduis: 12px; }\n.surface-31 { border-raduis: 12px; }\n.surface-32 { border-raduis: 12px; }\n.surface-33 { border-raduis: 12px; }\n.surface-34 { border-raduis: 12px; }\n.surface-35 { border-raduis: 12px; }\n.surface-36 { border-raduis: 12px; }\n.surface-37 { border-raduis: 12px; }\n",
+        "checks": 19,
+        "diagnostics": [
+          {
+            "column": 14,
+            "from": 13,
+            "line": 1,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 14,
+            "from": 49,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 62
+          },
+          {
+            "column": 14,
+            "from": 85,
+            "line": 3,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 98
+          },
+          {
+            "column": 14,
+            "from": 121,
+            "line": 4,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 134
+          },
+          {
+            "column": 14,
+            "from": 157,
+            "line": 5,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 170
+          },
+          {
+            "column": 14,
+            "from": 193,
+            "line": 6,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 206
+          },
+          {
+            "column": 14,
+            "from": 229,
+            "line": 7,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 242
+          },
+          {
+            "column": 14,
+            "from": 265,
+            "line": 8,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 278
+          },
+          {
+            "column": 14,
+            "from": 301,
+            "line": 9,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 314
+          },
+          {
+            "column": 14,
+            "from": 337,
+            "line": 10,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 350
+          },
+          {
+            "column": 15,
+            "from": 374,
+            "line": 11,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 387
+          },
+          {
+            "column": 15,
+            "from": 411,
+            "line": 12,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 424
+          },
+          {
+            "column": 15,
+            "from": 448,
+            "line": 13,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 461
+          },
+          {
+            "column": 15,
+            "from": 485,
+            "line": 14,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 498
+          },
+          {
+            "column": 15,
+            "from": 522,
+            "line": 15,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 535
+          },
+          {
+            "column": 15,
+            "from": 559,
+            "line": 16,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 572
+          },
+          {
+            "column": 15,
+            "from": 596,
+            "line": 17,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 609
+          },
+          {
+            "column": 15,
+            "from": 633,
+            "line": 18,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 646
+          },
+          {
+            "column": 15,
+            "from": 670,
+            "line": 19,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 683
+          },
+          {
+            "column": 15,
+            "from": 707,
+            "line": 20,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 720
+          },
+          {
+            "column": 15,
+            "from": 744,
+            "line": 21,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 757
+          },
+          {
+            "column": 15,
+            "from": 781,
+            "line": 22,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 794
+          },
+          {
+            "column": 15,
+            "from": 818,
+            "line": 23,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 831
+          },
+          {
+            "column": 15,
+            "from": 855,
+            "line": 24,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 868
+          },
+          {
+            "column": 15,
+            "from": 892,
+            "line": 25,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 905
+          },
+          {
+            "column": 15,
+            "from": 929,
+            "line": 26,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 942
+          },
+          {
+            "column": 15,
+            "from": 966,
+            "line": 27,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 979
+          },
+          {
+            "column": 15,
+            "from": 1003,
+            "line": 28,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1016
+          },
+          {
+            "column": 15,
+            "from": 1040,
+            "line": 29,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1053
+          },
+          {
+            "column": 15,
+            "from": 1077,
+            "line": 30,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1090
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "bounded",
+          "precomputed": true
+        },
+        "selected": "bounded",
+        "selection": [
+          1396,
+          1396
+        ],
+        "solid": false,
+        "source": ".surface-0 { border-raduis: 12px; }\n.surface-1 { border-raduis: 12px; }\n.surface-2 { border-raduis: 12px; }\n.surface-3 { border-raduis: 12px; }\n.surface-4 { border-raduis: 12px; }\n.surface-5 { border-raduis: 12px; }\n.surface-6 { border-raduis: 12px; }\n.surface-7 { border-raduis: 12px; }\n.surface-8 { border-raduis: 12px; }\n.surface-9 { border-raduis: 12px; }\n.surface-10 { border-raduis: 12px; }\n.surface-11 { border-raduis: 12px; }\n.surface-12 { border-raduis: 12px; }\n.surface-13 { border-raduis: 12px; }\n.surface-14 { border-raduis: 12px; }\n.surface-15 { border-raduis: 12px; }\n.surface-16 { border-raduis: 12px; }\n.surface-17 { border-raduis: 12px; }\n.surface-18 { border-raduis: 12px; }\n.surface-19 { border-raduis: 12px; }\n.surface-20 { border-raduis: 12px; }\n.surface-21 { border-raduis: 12px; }\n.surface-22 { border-raduis: 12px; }\n.surface-23 { border-raduis: 12px; }\n.surface-24 { border-raduis: 12px; }\n.surface-25 { border-raduis: 12px; }\n.surface-26 { border-raduis: 12px; }\n.surface-27 { border-raduis: 12px; }\n.surface-28 { border-raduis: 12px; }\n.surface-29 { border-raduis: 12px; }\n.surface-30 { border-raduis: 12px; }\n.surface-31 { border-raduis: 12px; }\n.surface-32 { border-raduis: 12px; }\n.surface-33 { border-raduis: 12px; }\n.surface-34 { border-raduis: 12px; }\n.surface-35 { border-raduis: 12px; }\n.surface-36 { border-raduis: 12px; }\n.surface-37 { border-raduis: 12px; }\n",
+        "status": "30 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL2 : C3Unknown property. Us",
+          "width": 352.4140625
+        },
+        {
+          "height": 112.8984375,
+          "id": "WARNINGL3 : C3Name the animated ",
+          "width": 352.4140625
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "2",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "draft",
+      "state": {
+        "checkedSource": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 20,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 13,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "draft",
+          "precomputed": true
+        },
+        "selected": "draft",
+        "selection": [
+          92,
+          92
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "2 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 112.8984375,
+          "id": "WARNINGL3 : C3Name the animated ",
+          "width": 352.4140625
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "1",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "radius",
+      "state": {
+        "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 21,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "radius",
+          "precomputed": true
+        },
+        "selected": "radius",
+        "selection": [
+          92,
+          92
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "1 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "0",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "clean",
+      "state": {
+        "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 22,
+        "diagnostics": [],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 0,
+          "fixture": "clean",
+          "precomputed": true
+        },
+        "selected": "clean",
+        "selection": [
+          113,
+          113
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "0 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "0",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "quoted",
+      "state": {
+        "checkedSource": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+        "checks": 23,
+        "diagnostics": [],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 0,
+          "fixture": "quoted",
+          "precomputed": true
+        },
+        "selected": "quoted",
+        "selection": [
+          97,
+          97
+        ],
+        "solid": false,
+        "source": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+        "status": "0 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL4 : C1CSS syntax needs att",
+          "width": 352.4140625
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "1",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "syntax",
+      "state": {
+        "checkedSource": ".surface {\n  color: #234;\n  border-radius: 24px;\n",
+        "checks": 24,
+        "diagnostics": [
+          {
+            "column": 1,
+            "from": 49,
+            "line": 4,
+            "message": "CSS syntax needs attention.",
+            "rule": "syntax",
+            "severity": "error",
+            "to": 49
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "syntax",
+          "precomputed": true
+        },
+        "selected": "syntax",
+        "selection": [
+          49,
+          49
+        ],
+        "solid": false,
+        "source": ".surface {\n  color: #234;\n  border-radius: 24px;\n",
+        "status": "1 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL1 : C14Unknown property. U",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL2 : C14Unknown property. U",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL3 : C14Unknown property. U",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL4 : C14Unknown property. U",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL5 : C14Unknown property. U",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL6 : C14Unknown property. U",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL7 : C14Unknown property. U",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL8 : C14Unknown property. U",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL9 : C14Unknown property. U",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL10 : C14Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL11 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL12 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL13 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL14 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL15 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL16 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL17 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL18 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL19 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL20 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL21 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL22 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL23 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL24 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL25 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL26 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL27 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL28 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL29 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL30 : C15Unknown property. ",
+          "width": 337.4140625
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "30",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 367.578125
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "bounded",
+      "state": {
+        "checkedSource": ".surface-0 { border-raduis: 12px; }\n.surface-1 { border-raduis: 12px; }\n.surface-2 { border-raduis: 12px; }\n.surface-3 { border-raduis: 12px; }\n.surface-4 { border-raduis: 12px; }\n.surface-5 { border-raduis: 12px; }\n.surface-6 { border-raduis: 12px; }\n.surface-7 { border-raduis: 12px; }\n.surface-8 { border-raduis: 12px; }\n.surface-9 { border-raduis: 12px; }\n.surface-10 { border-raduis: 12px; }\n.surface-11 { border-raduis: 12px; }\n.surface-12 { border-raduis: 12px; }\n.surface-13 { border-raduis: 12px; }\n.surface-14 { border-raduis: 12px; }\n.surface-15 { border-raduis: 12px; }\n.surface-16 { border-raduis: 12px; }\n.surface-17 { border-raduis: 12px; }\n.surface-18 { border-raduis: 12px; }\n.surface-19 { border-raduis: 12px; }\n.surface-20 { border-raduis: 12px; }\n.surface-21 { border-raduis: 12px; }\n.surface-22 { border-raduis: 12px; }\n.surface-23 { border-raduis: 12px; }\n.surface-24 { border-raduis: 12px; }\n.surface-25 { border-raduis: 12px; }\n.surface-26 { border-raduis: 12px; }\n.surface-27 { border-raduis: 12px; }\n.surface-28 { border-raduis: 12px; }\n.surface-29 { border-raduis: 12px; }\n.surface-30 { border-raduis: 12px; }\n.surface-31 { border-raduis: 12px; }\n.surface-32 { border-raduis: 12px; }\n.surface-33 { border-raduis: 12px; }\n.surface-34 { border-raduis: 12px; }\n.surface-35 { border-raduis: 12px; }\n.surface-36 { border-raduis: 12px; }\n.surface-37 { border-raduis: 12px; }\n",
+        "checks": 25,
+        "diagnostics": [
+          {
+            "column": 14,
+            "from": 13,
+            "line": 1,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 14,
+            "from": 49,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 62
+          },
+          {
+            "column": 14,
+            "from": 85,
+            "line": 3,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 98
+          },
+          {
+            "column": 14,
+            "from": 121,
+            "line": 4,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 134
+          },
+          {
+            "column": 14,
+            "from": 157,
+            "line": 5,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 170
+          },
+          {
+            "column": 14,
+            "from": 193,
+            "line": 6,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 206
+          },
+          {
+            "column": 14,
+            "from": 229,
+            "line": 7,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 242
+          },
+          {
+            "column": 14,
+            "from": 265,
+            "line": 8,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 278
+          },
+          {
+            "column": 14,
+            "from": 301,
+            "line": 9,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 314
+          },
+          {
+            "column": 14,
+            "from": 337,
+            "line": 10,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 350
+          },
+          {
+            "column": 15,
+            "from": 374,
+            "line": 11,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 387
+          },
+          {
+            "column": 15,
+            "from": 411,
+            "line": 12,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 424
+          },
+          {
+            "column": 15,
+            "from": 448,
+            "line": 13,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 461
+          },
+          {
+            "column": 15,
+            "from": 485,
+            "line": 14,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 498
+          },
+          {
+            "column": 15,
+            "from": 522,
+            "line": 15,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 535
+          },
+          {
+            "column": 15,
+            "from": 559,
+            "line": 16,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 572
+          },
+          {
+            "column": 15,
+            "from": 596,
+            "line": 17,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 609
+          },
+          {
+            "column": 15,
+            "from": 633,
+            "line": 18,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 646
+          },
+          {
+            "column": 15,
+            "from": 670,
+            "line": 19,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 683
+          },
+          {
+            "column": 15,
+            "from": 707,
+            "line": 20,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 720
+          },
+          {
+            "column": 15,
+            "from": 744,
+            "line": 21,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 757
+          },
+          {
+            "column": 15,
+            "from": 781,
+            "line": 22,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 794
+          },
+          {
+            "column": 15,
+            "from": 818,
+            "line": 23,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 831
+          },
+          {
+            "column": 15,
+            "from": 855,
+            "line": 24,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 868
+          },
+          {
+            "column": 15,
+            "from": 892,
+            "line": 25,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 905
+          },
+          {
+            "column": 15,
+            "from": 929,
+            "line": 26,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 942
+          },
+          {
+            "column": 15,
+            "from": 966,
+            "line": 27,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 979
+          },
+          {
+            "column": 15,
+            "from": 1003,
+            "line": 28,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1016
+          },
+          {
+            "column": 15,
+            "from": 1040,
+            "line": 29,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1053
+          },
+          {
+            "column": 15,
+            "from": 1077,
+            "line": 30,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1090
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "bounded",
+          "precomputed": true
+        },
+        "selected": "bounded",
+        "selection": [
+          1396,
+          1396
+        ],
+        "solid": false,
+        "source": ".surface-0 { border-raduis: 12px; }\n.surface-1 { border-raduis: 12px; }\n.surface-2 { border-raduis: 12px; }\n.surface-3 { border-raduis: 12px; }\n.surface-4 { border-raduis: 12px; }\n.surface-5 { border-raduis: 12px; }\n.surface-6 { border-raduis: 12px; }\n.surface-7 { border-raduis: 12px; }\n.surface-8 { border-raduis: 12px; }\n.surface-9 { border-raduis: 12px; }\n.surface-10 { border-raduis: 12px; }\n.surface-11 { border-raduis: 12px; }\n.surface-12 { border-raduis: 12px; }\n.surface-13 { border-raduis: 12px; }\n.surface-14 { border-raduis: 12px; }\n.surface-15 { border-raduis: 12px; }\n.surface-16 { border-raduis: 12px; }\n.surface-17 { border-raduis: 12px; }\n.surface-18 { border-raduis: 12px; }\n.surface-19 { border-raduis: 12px; }\n.surface-20 { border-raduis: 12px; }\n.surface-21 { border-raduis: 12px; }\n.surface-22 { border-raduis: 12px; }\n.surface-23 { border-raduis: 12px; }\n.surface-24 { border-raduis: 12px; }\n.surface-25 { border-raduis: 12px; }\n.surface-26 { border-raduis: 12px; }\n.surface-27 { border-raduis: 12px; }\n.surface-28 { border-raduis: 12px; }\n.surface-29 { border-raduis: 12px; }\n.surface-30 { border-raduis: 12px; }\n.surface-31 { border-raduis: 12px; }\n.surface-32 { border-raduis: 12px; }\n.surface-33 { border-raduis: 12px; }\n.surface-34 { border-raduis: 12px; }\n.surface-35 { border-raduis: 12px; }\n.surface-36 { border-raduis: 12px; }\n.surface-37 { border-raduis: 12px; }\n",
+        "status": "30 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL2 : C3Unknown property. Us",
+          "width": 546.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "WARNINGL3 : C3Name the animated ",
+          "width": 546.4453125
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "2",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 525.0234375
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 645.5546875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "draft",
+      "state": {
+        "checkedSource": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 26,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 13,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "draft",
+          "precomputed": true
+        },
+        "selected": "draft",
+        "selection": [
+          92,
+          92
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-raduis: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "2 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "WARNINGL3 : C3Name the animated ",
+          "width": 546.4453125
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "1",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 525.0234375
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 645.5546875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "radius",
+      "state": {
+        "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 27,
+        "diagnostics": [
+          {
+            "column": 3,
+            "from": 36,
+            "line": 3,
+            "message": "Name the animated properties to avoid accidental layout animation.",
+            "rule": "explicit-transition",
+            "severity": "warning",
+            "to": 51
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "radius",
+          "precomputed": true
+        },
+        "selected": "radius",
+        "selection": [
+          92,
+          92
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-radius: 24px;\n  transition: all 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "1 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "0",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 525.0234375
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 645.5546875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "clean",
+      "state": {
+        "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "checks": 28,
+        "diagnostics": [],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 0,
+          "fixture": "clean",
+          "precomputed": true
+        },
+        "selected": "clean",
+        "selection": [
+          113,
+          113
+        ],
+        "solid": false,
+        "source": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+        "status": "0 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "0",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 525.0234375
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 645.5546875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "quoted",
+      "state": {
+        "checkedSource": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+        "checks": 29,
+        "diagnostics": [],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 0,
+          "fixture": "quoted",
+          "precomputed": true
+        },
+        "selected": "quoted",
+        "selection": [
+          97,
+          97
+        ],
+        "solid": false,
+        "source": "/* transition: all is a note, not a declaration */\n.label::after {\n  content: \"border-raduis\";\n}\n",
+        "status": "0 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL4 : C1CSS syntax needs att",
+          "width": 546.4453125
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "1",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 525.0234375
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 645.5546875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "syntax",
+      "state": {
+        "checkedSource": ".surface {\n  color: #234;\n  border-radius: 24px;\n",
+        "checks": 30,
+        "diagnostics": [
+          {
+            "column": 1,
+            "from": 49,
+            "line": 4,
+            "message": "CSS syntax needs attention.",
+            "rule": "syntax",
+            "severity": "error",
+            "to": 49
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "syntax",
+          "precomputed": true
+        },
+        "selected": "syntax",
+        "selection": [
+          49,
+          49
+        ],
+        "solid": false,
+        "source": ".surface {\n  color: #234;\n  border-radius: 24px;\n",
+        "status": "1 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "controls": [
+        {
+          "height": 44,
+          "id": "lint room37",
+          "width": 159.4296875
+        },
+        {
+          "height": 44,
+          "id": "quiet",
+          "width": 60.6875
+        },
+        {
+          "height": 44,
+          "id": "check",
+          "width": 106.53125
+        },
+        {
+          "height": 46,
+          "id": "Open local CSS",
+          "width": 113.3828125
+        },
+        {
+          "height": 46,
+          "id": "download",
+          "width": 113.375
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL1 : C14Unknown property. U",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL2 : C14Unknown property. U",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL3 : C14Unknown property. U",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL4 : C14Unknown property. U",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL5 : C14Unknown property. U",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL6 : C14Unknown property. U",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL7 : C14Unknown property. U",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL8 : C14Unknown property. U",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL9 : C14Unknown property. U",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL10 : C14Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL11 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL12 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL13 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL14 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL15 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL16 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL17 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL18 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL19 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL20 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL21 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL22 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL23 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL24 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL25 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL26 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL27 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL28 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL29 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 93.3984375,
+          "id": "ERRORL30 : C15Unknown property. ",
+          "width": 531.4453125
+        },
+        {
+          "height": 44,
+          "id": "repair",
+          "width": 152.2734375
+        },
+        {
+          "height": 44,
+          "id": "receipt-download",
+          "width": 109.265625
+        },
+        {
+          "height": 44,
+          "id": "tour",
+          "width": 146.0625
+        },
+        {
+          "height": 44,
+          "id": "reset",
+          "width": 92.03125
+        }
+      ],
+      "display": {
+        "count": "30",
+        "receiptLabel": "PRECOMPUTED CLI / 0.53.0-preview.1",
+        "source": "LOCAL CHECKED SNAPSHOT"
+      },
+      "failures": [],
+      "fields": [
+        {
+          "font": 16,
+          "height": 44,
+          "id": "fixture",
+          "width": 525.0234375
+        },
+        {
+          "font": 16,
+          "height": 255,
+          "id": "source",
+          "width": 645.5546875
+        },
+        {
+          "font": 16,
+          "height": 44,
+          "id": "file",
+          "width": 111.3828125
+        }
+      ],
+      "overflow": 0,
+      "preset": "bounded",
+      "state": {
+        "checkedSource": ".surface-0 { border-raduis: 12px; }\n.surface-1 { border-raduis: 12px; }\n.surface-2 { border-raduis: 12px; }\n.surface-3 { border-raduis: 12px; }\n.surface-4 { border-raduis: 12px; }\n.surface-5 { border-raduis: 12px; }\n.surface-6 { border-raduis: 12px; }\n.surface-7 { border-raduis: 12px; }\n.surface-8 { border-raduis: 12px; }\n.surface-9 { border-raduis: 12px; }\n.surface-10 { border-raduis: 12px; }\n.surface-11 { border-raduis: 12px; }\n.surface-12 { border-raduis: 12px; }\n.surface-13 { border-raduis: 12px; }\n.surface-14 { border-raduis: 12px; }\n.surface-15 { border-raduis: 12px; }\n.surface-16 { border-raduis: 12px; }\n.surface-17 { border-raduis: 12px; }\n.surface-18 { border-raduis: 12px; }\n.surface-19 { border-raduis: 12px; }\n.surface-20 { border-raduis: 12px; }\n.surface-21 { border-raduis: 12px; }\n.surface-22 { border-raduis: 12px; }\n.surface-23 { border-raduis: 12px; }\n.surface-24 { border-raduis: 12px; }\n.surface-25 { border-raduis: 12px; }\n.surface-26 { border-raduis: 12px; }\n.surface-27 { border-raduis: 12px; }\n.surface-28 { border-raduis: 12px; }\n.surface-29 { border-raduis: 12px; }\n.surface-30 { border-raduis: 12px; }\n.surface-31 { border-raduis: 12px; }\n.surface-32 { border-raduis: 12px; }\n.surface-33 { border-raduis: 12px; }\n.surface-34 { border-raduis: 12px; }\n.surface-35 { border-raduis: 12px; }\n.surface-36 { border-raduis: 12px; }\n.surface-37 { border-raduis: 12px; }\n",
+        "checks": 31,
+        "diagnostics": [
+          {
+            "column": 14,
+            "from": 13,
+            "line": 1,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 26
+          },
+          {
+            "column": 14,
+            "from": 49,
+            "line": 2,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 62
+          },
+          {
+            "column": 14,
+            "from": 85,
+            "line": 3,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 98
+          },
+          {
+            "column": 14,
+            "from": 121,
+            "line": 4,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 134
+          },
+          {
+            "column": 14,
+            "from": 157,
+            "line": 5,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 170
+          },
+          {
+            "column": 14,
+            "from": 193,
+            "line": 6,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 206
+          },
+          {
+            "column": 14,
+            "from": 229,
+            "line": 7,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 242
+          },
+          {
+            "column": 14,
+            "from": 265,
+            "line": 8,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 278
+          },
+          {
+            "column": 14,
+            "from": 301,
+            "line": 9,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 314
+          },
+          {
+            "column": 14,
+            "from": 337,
+            "line": 10,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 350
+          },
+          {
+            "column": 15,
+            "from": 374,
+            "line": 11,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 387
+          },
+          {
+            "column": 15,
+            "from": 411,
+            "line": 12,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 424
+          },
+          {
+            "column": 15,
+            "from": 448,
+            "line": 13,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 461
+          },
+          {
+            "column": 15,
+            "from": 485,
+            "line": 14,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 498
+          },
+          {
+            "column": 15,
+            "from": 522,
+            "line": 15,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 535
+          },
+          {
+            "column": 15,
+            "from": 559,
+            "line": 16,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 572
+          },
+          {
+            "column": 15,
+            "from": 596,
+            "line": 17,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 609
+          },
+          {
+            "column": 15,
+            "from": 633,
+            "line": 18,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 646
+          },
+          {
+            "column": 15,
+            "from": 670,
+            "line": 19,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 683
+          },
+          {
+            "column": 15,
+            "from": 707,
+            "line": 20,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 720
+          },
+          {
+            "column": 15,
+            "from": 744,
+            "line": 21,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 757
+          },
+          {
+            "column": 15,
+            "from": 781,
+            "line": 22,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 794
+          },
+          {
+            "column": 15,
+            "from": 818,
+            "line": 23,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 831
+          },
+          {
+            "column": 15,
+            "from": 855,
+            "line": 24,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 868
+          },
+          {
+            "column": 15,
+            "from": 892,
+            "line": 25,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 905
+          },
+          {
+            "column": 15,
+            "from": 929,
+            "line": 26,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 942
+          },
+          {
+            "column": 15,
+            "from": 966,
+            "line": 27,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 979
+          },
+          {
+            "column": 15,
+            "from": 1003,
+            "line": 28,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1016
+          },
+          {
+            "column": 15,
+            "from": 1040,
+            "line": 29,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1053
+          },
+          {
+            "column": 15,
+            "from": 1077,
+            "line": 30,
+            "message": "Unknown property. Use border-radius.",
+            "rule": "property-typo",
+            "severity": "error",
+            "to": 1090
+          }
+        ],
+        "dirty": false,
+        "fileStatus": "",
+        "focus": "",
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "savedReceipt": {
+          "artifactVersion": "0.53.0-preview.1",
+          "code": 1,
+          "fixture": "bounded",
+          "precomputed": true
+        },
+        "selected": "bounded",
+        "selection": [
+          1396,
+          1396
+        ],
+        "solid": false,
+        "source": ".surface-0 { border-raduis: 12px; }\n.surface-1 { border-raduis: 12px; }\n.surface-2 { border-raduis: 12px; }\n.surface-3 { border-raduis: 12px; }\n.surface-4 { border-raduis: 12px; }\n.surface-5 { border-raduis: 12px; }\n.surface-6 { border-raduis: 12px; }\n.surface-7 { border-raduis: 12px; }\n.surface-8 { border-raduis: 12px; }\n.surface-9 { border-raduis: 12px; }\n.surface-10 { border-raduis: 12px; }\n.surface-11 { border-raduis: 12px; }\n.surface-12 { border-raduis: 12px; }\n.surface-13 { border-raduis: 12px; }\n.surface-14 { border-raduis: 12px; }\n.surface-15 { border-raduis: 12px; }\n.surface-16 { border-raduis: 12px; }\n.surface-17 { border-raduis: 12px; }\n.surface-18 { border-raduis: 12px; }\n.surface-19 { border-raduis: 12px; }\n.surface-20 { border-raduis: 12px; }\n.surface-21 { border-raduis: 12px; }\n.surface-22 { border-raduis: 12px; }\n.surface-23 { border-raduis: 12px; }\n.surface-24 { border-raduis: 12px; }\n.surface-25 { border-raduis: 12px; }\n.surface-26 { border-raduis: 12px; }\n.surface-27 { border-raduis: 12px; }\n.surface-28 { border-raduis: 12px; }\n.surface-29 { border-raduis: 12px; }\n.surface-30 { border-raduis: 12px; }\n.surface-31 { border-raduis: 12px; }\n.surface-32 { border-raduis: 12px; }\n.surface-33 { border-raduis: 12px; }\n.surface-34 { border-raduis: 12px; }\n.surface-35 { border-raduis: 12px; }\n.surface-36 { border-raduis: 12px; }\n.surface-37 { border-raduis: 12px; }\n",
+        "status": "30 configured diagnostics in this checked snapshot",
+        "systemReduced": false,
+        "tourRunning": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ]
+}

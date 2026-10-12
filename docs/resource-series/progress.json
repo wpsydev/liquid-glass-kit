@@ -530,12 +530,12 @@
     {
       "order": 36,
       "url": "https://3dicons.co",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Optional native icon-action toolbar and real local editing demo",
       "version": "0.52.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/toolbar/",
       "video": "docs/campaign/assets/icon-toolbar-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109541205012894083",
       "performance": [
         "benchmarks/icon-toolbar-payload.json",
         "benchmarks/icon-toolbar-native.json",
@@ -546,13 +546,17 @@
     {
       "order": 37,
       "url": "https://claude.com/product/claude-code",
-      "status": "queued",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Shared bounded CSS linter CLI and optional advisory Claude hook",
+      "version": "0.53.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/lint-room-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/lint-room-cli.json",
+        "benchmarks/lint-room-browser.json",
+        "benchmarks/lint-room-layouts.json"
+      ]
     },
     {
       "order": 38,

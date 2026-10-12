@@ -1,14 +1,14 @@
 {
-  "version": "0.52.0-preview.1",
+  "version": "0.53.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/icon-toolbar-showcase.mp4",
-      "name": "liquid-glass-icon-toolbar-showcase.mp4",
+      "path": "docs/campaign/assets/lint-room-showcase.mp4",
+      "name": "liquid-glass-lint-room-showcase.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/icon-toolbar-showcase.png",
-      "name": "liquid-glass-icon-toolbar-showcase.png",
+      "path": "docs/campaign/assets/lint-room-showcase.png",
+      "name": "liquid-glass-lint-room-showcase.png",
       "type": "image/png"
     }
   ]

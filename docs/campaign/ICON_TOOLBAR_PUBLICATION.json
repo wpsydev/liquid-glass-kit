@@ -1,0 +1,178 @@
+{
+  "commit": "f2b05e55eb6054da6cad0aedfae362b06e87d01c",
+  "version": "0.52.0-preview.1",
+  "workflows": {
+    "runs": [
+      {
+        "id": 38215727590,
+        "name": "Verify",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38215727616,
+        "name": "Publish preview release",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38215727527,
+        "name": "Publish playground",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "tests": 1196,
+    "testFiles": 55
+  },
+  "archive": {
+    "members": 218,
+    "bytes": 475307,
+    "sha256": "dbc0f8508578b2c5f4e27fb9045cc100dbf5d2351b0505fbea1e893d7d687009"
+  },
+  "assets": [
+    {
+      "name": "liquid-glass-icon-toolbar-showcase.mp4",
+      "bytes": 618949,
+      "sha256": "sha256:98332a0fc228f79c04adcaac11374c60d5f28645629cbdfd07b529d4c723bd10"
+    },
+    {
+      "name": "liquid-glass-icon-toolbar-showcase.png",
+      "bytes": 238867,
+      "sha256": "sha256:1b3c2031449019bd1a37ac3c7715a4cd0020f2b85a2a66031d301b79156673ee"
+    },
+    {
+      "name": "wpsydev-liquid-glass-0.52.0-preview.1.tgz",
+      "bytes": 475307,
+      "sha256": "sha256:dbc0f8508578b2c5f4e27fb9045cc100dbf5d2351b0505fbea1e893d7d687009"
+    }
+  ],
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/toolbar/",
+    "native": {
+      "focus": "align-center",
+      "state": {
+        "activeItem": "align-center",
+        "align": "center",
+        "bold": false,
+        "boundary": "Original local poster and scripted finite tour; no backend, external art or model service",
+        "caption": "A small space for a good next idea.",
+        "changes": [
+          {
+            "kind": "action",
+            "message": "Heading centered",
+            "revision": 1
+          }
+        ],
+        "dark": false,
+        "disableRestore": false,
+        "extraAction": false,
+        "focusRepairs": [],
+        "focused": "align-center",
+        "guides": false,
+        "hideGuides": false,
+        "items": [
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "align-left",
+            "label": "Left align",
+            "pressed": "false",
+            "tabIndex": -1,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "align-center",
+            "label": "Center align",
+            "pressed": "true",
+            "tabIndex": 0,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "bold",
+            "label": "Bold title",
+            "pressed": "false",
+            "tabIndex": -1,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "guides",
+            "label": "Show guides",
+            "pressed": "false",
+            "tabIndex": -1,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "palette",
+            "label": "Warm palette",
+            "pressed": "true",
+            "tabIndex": -1,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "restore",
+            "label": "Restore original poster",
+            "pressed": null,
+            "tabIndex": -1,
+            "tag": "BUTTON"
+          },
+          {
+            "disabled": false,
+            "hidden": false,
+            "id": "details",
+            "label": "Read composition notes",
+            "pressed": null,
+            "tabIndex": -1,
+            "tag": "A"
+          }
+        ],
+        "motion": {
+          "cancelled": 0,
+          "documentAnimations": 0,
+          "requests": 1,
+          "settled": 1
+        },
+        "palette": "warm",
+        "phase": null,
+        "quiet": false,
+        "revision": 1,
+        "rtl": false,
+        "solid": false,
+        "stamp": false,
+        "systemReducedMotion": false,
+        "timers": 0,
+        "title": "room\nto make.",
+        "vertical": false,
+        "wrap": true
+      }
+    },
+    "scope": "Native ArrowRight from left to center then Enter retains focus, sets real center alignment/revision1 and one Tab stop; idle timers0, no universal input/device claim"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109541205012894083",
+    "replies": [
+      "https://x.com/wpsygames/status/2109542013032948029",
+      "https://x.com/wpsygames/status/2109542717697237437"
+    ],
+    "publicPlayback": {
+      "duration": 12,
+      "ready": 4
+    },
+    "replyReadback": true,
+    "upload": {
+      "bytes": 618949,
+      "sha256": "98332a0fc228f79c04adcaac11374c60d5f28645629cbdfd07b529d4c723bd10"
+    }
+  },
+  "npmRegistry": "pending"
+}

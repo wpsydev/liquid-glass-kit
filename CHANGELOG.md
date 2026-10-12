@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.53.0-preview.1
+
+- Add optional read-only CSS lint CLI sharing the browser workbench’s grammar, typo and explicit-transition checks.
+- Bundle parser notices in the developer command; preserve parser-free browser material entrypoints and existing exports.
+- Add Lint Room with actual native editing, labeled saved CLI receipts, bounded file handling and original twelve-second melodic breakbeat film. Make benchmark provenance reproducible without temporary handoff files.
+
 ## 0.52.0-preview.1
 
 - Add optional native icon-action toolbar with remembered Tab entry, orientation/RTL arrow navigation, Home/End and explicit membership refresh.
