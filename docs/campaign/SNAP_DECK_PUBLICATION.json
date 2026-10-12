@@ -1,0 +1,61 @@
+{
+  "version": "0.33.0-preview.1",
+  "commit": "cc929d3cb7a1a1935ba95cff40af5824a586fc86",
+  "workflows": {
+    "verify": 38201482558,
+    "release": 38201482567,
+    "pages": 38201482560,
+    "conclusion": "success",
+    "tests": 632,
+    "testFiles": 36
+  },
+  "archive": {
+    "members": 156,
+    "bytes": 336474,
+    "sha256": "a6cd160b95b5de077c885017971d7200e13055e9d036485311cd450d24ee11f2"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/deck/",
+    "chunk": [
+      "https://wpsydev.github.io/liquid-glass-kit/assets/deck-D6IG_PHj.js"
+    ],
+    "state": {
+      "authoredCards": [
+        "form-card",
+        "colour-card",
+        "motion-card"
+      ],
+      "canNext": true,
+      "canPrevious": true,
+      "changes": 2,
+      "clientWidth": 1185,
+      "compact": false,
+      "direction": "rtl",
+      "focus": "BODY",
+      "index": 1,
+      "nativeScrollend": true,
+      "pendingTourSteps": 0,
+      "picks": 0,
+      "reason": "scroll",
+      "reduced": false,
+      "scrollLeft": -778,
+      "scrollWidth": 2316,
+      "selected": "form",
+      "systemReduced": false,
+      "tourStep": ""
+    }
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109493122111553922",
+    "replies": [
+      "https://x.com/wpsygames/status/2109493252609151261",
+      "https://x.com/wpsygames/status/2109493353297403929"
+    ],
+    "mainReadback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical reply pages read back intended text"
+  },
+  "npmRegistry": "pending"
+}

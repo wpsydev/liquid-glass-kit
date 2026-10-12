@@ -1,0 +1,1571 @@
+{
+  "observedAtUtc": "2026-10-12T03:02:30Z",
+  "scope": "Native T3 desktop Chromium responsive fictional price model; not real checkout, currency conversion, financial guidance, physical-device/Safari/AT certification or a render-speed benchmark",
+  "layouts": [
+    {
+      "headline": "$30.00",
+      "id": "usd-annual",
+      "invoice": "$359.99",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "$108.01 less over 12 months",
+      "state": {
+        "currency": "USD",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "USD",
+          "exponent": 2,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$108.01",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$359.99",
+            "minor": 35999
+          },
+          "currency": "USD",
+          "exponent": 2,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "USD",
+            "denominatorMonths": 12,
+            "exponent": 2,
+            "formatted": "$30.00",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "headline": "$39.00",
+      "id": "usd-monthly",
+      "invoice": "$39.00",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "No savings on this comparison",
+      "state": {
+        "currency": "USD",
+        "incomparable": false,
+        "period": "monthly",
+        "quiet": false,
+        "savings": null,
+        "selected": {
+          "billingAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$39.00",
+            "minor": 3900
+          },
+          "currency": "USD",
+          "exponent": 2,
+          "id": "monthly",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "USD",
+            "denominatorMonths": 1,
+            "exponent": 2,
+            "formatted": "$39.00",
+            "minor": 3900,
+            "numeratorMinor": 3900,
+            "rounded": false,
+            "rounding": "half-up"
+          },
+          "periodMonths": 1,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 3900,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "headline": "\uffe53,000",
+      "id": "jpy-annual",
+      "invoice": "\uffe535,999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "\uffe510,801 less over 12 months",
+      "state": {
+        "currency": "JPY",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "JPY",
+          "exponent": 0,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "JPY",
+            "exponent": 0,
+            "formatted": "\uffe510,801",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "JPY",
+            "exponent": 0,
+            "formatted": "\uffe535,999",
+            "minor": 35999
+          },
+          "currency": "JPY",
+          "exponent": 0,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "JPY",
+            "denominatorMonths": 12,
+            "exponent": 0,
+            "formatted": "\uffe53,000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "headline": "BHD\u00a03.000",
+      "id": "bhd-annual",
+      "invoice": "BHD\u00a035.999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "BHD\u00a010.801 less over 12 months",
+      "state": {
+        "currency": "BHD",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "BHD",
+          "exponent": 3,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a010.801",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a035.999",
+            "minor": 35999
+          },
+          "currency": "BHD",
+          "exponent": 3,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "BHD",
+            "denominatorMonths": 12,
+            "exponent": 3,
+            "formatted": "BHD\u00a03.000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "headline": "BHD\u00a03.000",
+      "id": "incomparable",
+      "invoice": "BHD\u00a035.999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "No savings comparison",
+      "state": {
+        "currency": "BHD",
+        "incomparable": true,
+        "period": "annual",
+        "quiet": false,
+        "savings": null,
+        "selected": {
+          "billingAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a035.999",
+            "minor": 35999
+          },
+          "currency": "BHD",
+          "exponent": 3,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "BHD",
+            "denominatorMonths": 12,
+            "exponent": 3,
+            "formatted": "BHD\u00a03.000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "headline": "$30.00",
+      "id": "usd-annual",
+      "invoice": "$359.99",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "$108.01 less over 12 months",
+      "state": {
+        "currency": "USD",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "USD",
+          "exponent": 2,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$108.01",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$359.99",
+            "minor": 35999
+          },
+          "currency": "USD",
+          "exponent": 2,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "USD",
+            "denominatorMonths": 12,
+            "exponent": 2,
+            "formatted": "$30.00",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "headline": "$39.00",
+      "id": "usd-monthly",
+      "invoice": "$39.00",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "No savings on this comparison",
+      "state": {
+        "currency": "USD",
+        "incomparable": false,
+        "period": "monthly",
+        "quiet": false,
+        "savings": null,
+        "selected": {
+          "billingAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$39.00",
+            "minor": 3900
+          },
+          "currency": "USD",
+          "exponent": 2,
+          "id": "monthly",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "USD",
+            "denominatorMonths": 1,
+            "exponent": 2,
+            "formatted": "$39.00",
+            "minor": 3900,
+            "numeratorMinor": 3900,
+            "rounded": false,
+            "rounding": "half-up"
+          },
+          "periodMonths": 1,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 3900,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "headline": "\uffe53,000",
+      "id": "jpy-annual",
+      "invoice": "\uffe535,999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "\uffe510,801 less over 12 months",
+      "state": {
+        "currency": "JPY",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "JPY",
+          "exponent": 0,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "JPY",
+            "exponent": 0,
+            "formatted": "\uffe510,801",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "JPY",
+            "exponent": 0,
+            "formatted": "\uffe535,999",
+            "minor": 35999
+          },
+          "currency": "JPY",
+          "exponent": 0,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "JPY",
+            "denominatorMonths": 12,
+            "exponent": 0,
+            "formatted": "\uffe53,000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "headline": "BHD\u00a03.000",
+      "id": "bhd-annual",
+      "invoice": "BHD\u00a035.999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "BHD\u00a010.801 less over 12 months",
+      "state": {
+        "currency": "BHD",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "BHD",
+          "exponent": 3,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a010.801",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a035.999",
+            "minor": 35999
+          },
+          "currency": "BHD",
+          "exponent": 3,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "BHD",
+            "denominatorMonths": 12,
+            "exponent": 3,
+            "formatted": "BHD\u00a03.000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "headline": "BHD\u00a03.000",
+      "id": "incomparable",
+      "invoice": "BHD\u00a035.999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "No savings comparison",
+      "state": {
+        "currency": "BHD",
+        "incomparable": true,
+        "period": "annual",
+        "quiet": false,
+        "savings": null,
+        "selected": {
+          "billingAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a035.999",
+            "minor": 35999
+          },
+          "currency": "BHD",
+          "exponent": 3,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "BHD",
+            "denominatorMonths": 12,
+            "exponent": 3,
+            "formatted": "BHD\u00a03.000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "headline": "$30.00",
+      "id": "usd-annual",
+      "invoice": "$359.99",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "$108.01 less over 12 months",
+      "state": {
+        "currency": "USD",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "USD",
+          "exponent": 2,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$108.01",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$359.99",
+            "minor": 35999
+          },
+          "currency": "USD",
+          "exponent": 2,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "USD",
+            "denominatorMonths": 12,
+            "exponent": 2,
+            "formatted": "$30.00",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "headline": "$39.00",
+      "id": "usd-monthly",
+      "invoice": "$39.00",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "No savings on this comparison",
+      "state": {
+        "currency": "USD",
+        "incomparable": false,
+        "period": "monthly",
+        "quiet": false,
+        "savings": null,
+        "selected": {
+          "billingAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$39.00",
+            "minor": 3900
+          },
+          "currency": "USD",
+          "exponent": 2,
+          "id": "monthly",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "USD",
+            "denominatorMonths": 1,
+            "exponent": 2,
+            "formatted": "$39.00",
+            "minor": 3900,
+            "numeratorMinor": 3900,
+            "rounded": false,
+            "rounding": "half-up"
+          },
+          "periodMonths": 1,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 3900,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "headline": "\uffe53,000",
+      "id": "jpy-annual",
+      "invoice": "\uffe535,999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "\uffe510,801 less over 12 months",
+      "state": {
+        "currency": "JPY",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "JPY",
+          "exponent": 0,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "JPY",
+            "exponent": 0,
+            "formatted": "\uffe510,801",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "JPY",
+            "exponent": 0,
+            "formatted": "\uffe535,999",
+            "minor": 35999
+          },
+          "currency": "JPY",
+          "exponent": 0,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "JPY",
+            "denominatorMonths": 12,
+            "exponent": 0,
+            "formatted": "\uffe53,000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "headline": "BHD\u00a03.000",
+      "id": "bhd-annual",
+      "invoice": "BHD\u00a035.999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "BHD\u00a010.801 less over 12 months",
+      "state": {
+        "currency": "BHD",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "BHD",
+          "exponent": 3,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a010.801",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a035.999",
+            "minor": 35999
+          },
+          "currency": "BHD",
+          "exponent": 3,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "BHD",
+            "denominatorMonths": 12,
+            "exponent": 3,
+            "formatted": "BHD\u00a03.000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "headline": "BHD\u00a03.000",
+      "id": "incomparable",
+      "invoice": "BHD\u00a035.999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "No savings comparison",
+      "state": {
+        "currency": "BHD",
+        "incomparable": true,
+        "period": "annual",
+        "quiet": false,
+        "savings": null,
+        "selected": {
+          "billingAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a035.999",
+            "minor": 35999
+          },
+          "currency": "BHD",
+          "exponent": 3,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "BHD",
+            "denominatorMonths": 12,
+            "exponent": 3,
+            "formatted": "BHD\u00a03.000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "headline": "$30.00",
+      "id": "usd-annual",
+      "invoice": "$359.99",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "$108.01 less over 12 months",
+      "state": {
+        "currency": "USD",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "USD",
+          "exponent": 2,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$108.01",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$359.99",
+            "minor": 35999
+          },
+          "currency": "USD",
+          "exponent": 2,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "USD",
+            "denominatorMonths": 12,
+            "exponent": 2,
+            "formatted": "$30.00",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "headline": "$39.00",
+      "id": "usd-monthly",
+      "invoice": "$39.00",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "No savings on this comparison",
+      "state": {
+        "currency": "USD",
+        "incomparable": false,
+        "period": "monthly",
+        "quiet": false,
+        "savings": null,
+        "selected": {
+          "billingAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$39.00",
+            "minor": 3900
+          },
+          "currency": "USD",
+          "exponent": 2,
+          "id": "monthly",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "USD",
+            "denominatorMonths": 1,
+            "exponent": 2,
+            "formatted": "$39.00",
+            "minor": 3900,
+            "numeratorMinor": 3900,
+            "rounded": false,
+            "rounding": "half-up"
+          },
+          "periodMonths": 1,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 3900,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "headline": "\uffe53,000",
+      "id": "jpy-annual",
+      "invoice": "\uffe535,999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "\uffe510,801 less over 12 months",
+      "state": {
+        "currency": "JPY",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "JPY",
+          "exponent": 0,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "JPY",
+            "exponent": 0,
+            "formatted": "\uffe510,801",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "JPY",
+            "exponent": 0,
+            "formatted": "\uffe535,999",
+            "minor": 35999
+          },
+          "currency": "JPY",
+          "exponent": 0,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "JPY",
+            "denominatorMonths": 12,
+            "exponent": 0,
+            "formatted": "\uffe53,000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "headline": "BHD\u00a03.000",
+      "id": "bhd-annual",
+      "invoice": "BHD\u00a035.999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "BHD\u00a010.801 less over 12 months",
+      "state": {
+        "currency": "BHD",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "BHD",
+          "exponent": 3,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a010.801",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a035.999",
+            "minor": 35999
+          },
+          "currency": "BHD",
+          "exponent": 3,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "BHD",
+            "denominatorMonths": 12,
+            "exponent": 3,
+            "formatted": "BHD\u00a03.000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "headline": "BHD\u00a03.000",
+      "id": "incomparable",
+      "invoice": "BHD\u00a035.999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "No savings comparison",
+      "state": {
+        "currency": "BHD",
+        "incomparable": true,
+        "period": "annual",
+        "quiet": false,
+        "savings": null,
+        "selected": {
+          "billingAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a035.999",
+            "minor": 35999
+          },
+          "currency": "BHD",
+          "exponent": 3,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "BHD",
+            "denominatorMonths": 12,
+            "exponent": 3,
+            "formatted": "BHD\u00a03.000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "headline": "$30.00",
+      "id": "usd-annual",
+      "invoice": "$359.99",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "$108.01 less over 12 months",
+      "state": {
+        "currency": "USD",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "USD",
+          "exponent": 2,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$108.01",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$359.99",
+            "minor": 35999
+          },
+          "currency": "USD",
+          "exponent": 2,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "USD",
+            "denominatorMonths": 12,
+            "exponent": 2,
+            "formatted": "$30.00",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "headline": "$39.00",
+      "id": "usd-monthly",
+      "invoice": "$39.00",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "No savings on this comparison",
+      "state": {
+        "currency": "USD",
+        "incomparable": false,
+        "period": "monthly",
+        "quiet": false,
+        "savings": null,
+        "selected": {
+          "billingAmount": {
+            "currency": "USD",
+            "exponent": 2,
+            "formatted": "$39.00",
+            "minor": 3900
+          },
+          "currency": "USD",
+          "exponent": 2,
+          "id": "monthly",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "USD",
+            "denominatorMonths": 1,
+            "exponent": 2,
+            "formatted": "$39.00",
+            "minor": 3900,
+            "numeratorMinor": 3900,
+            "rounded": false,
+            "rounding": "half-up"
+          },
+          "periodMonths": 1,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 3900,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "headline": "\uffe53,000",
+      "id": "jpy-annual",
+      "invoice": "\uffe535,999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "\uffe510,801 less over 12 months",
+      "state": {
+        "currency": "JPY",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "JPY",
+          "exponent": 0,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "JPY",
+            "exponent": 0,
+            "formatted": "\uffe510,801",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "JPY",
+            "exponent": 0,
+            "formatted": "\uffe535,999",
+            "minor": 35999
+          },
+          "currency": "JPY",
+          "exponent": 0,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "JPY",
+            "denominatorMonths": 12,
+            "exponent": 0,
+            "formatted": "\uffe53,000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "headline": "BHD\u00a03.000",
+      "id": "bhd-annual",
+      "invoice": "BHD\u00a035.999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "BHD\u00a010.801 less over 12 months",
+      "state": {
+        "currency": "BHD",
+        "incomparable": false,
+        "period": "annual",
+        "quiet": false,
+        "savings": {
+          "baselineId": "monthly",
+          "baselineTotalMinor": 46800,
+          "currency": "BHD",
+          "exponent": 3,
+          "percentBasisPoints": 2308,
+          "percentageRounded": true,
+          "percentageRounding": "half-up",
+          "periodMonths": 12,
+          "savedAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a010.801",
+            "minor": 10801
+          },
+          "selectedId": "annual",
+          "selectedTotalMinor": 35999
+        },
+        "selected": {
+          "billingAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a035.999",
+            "minor": 35999
+          },
+          "currency": "BHD",
+          "exponent": 3,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "BHD",
+            "denominatorMonths": 12,
+            "exponent": 3,
+            "formatted": "BHD\u00a03.000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "headline": "BHD\u00a03.000",
+      "id": "incomparable",
+      "invoice": "BHD\u00a035.999",
+      "minSelectFont": 16,
+      "minTarget": 44,
+      "overflow": false,
+      "savingText": "No savings comparison",
+      "state": {
+        "currency": "BHD",
+        "incomparable": true,
+        "period": "annual",
+        "quiet": false,
+        "savings": null,
+        "selected": {
+          "billingAmount": {
+            "currency": "BHD",
+            "exponent": 3,
+            "formatted": "BHD\u00a035.999",
+            "minor": 35999
+          },
+          "currency": "BHD",
+          "exponent": 3,
+          "id": "annual",
+          "kind": "recurring",
+          "monthlyEquivalent": {
+            "currency": "BHD",
+            "denominatorMonths": 12,
+            "exponent": 3,
+            "formatted": "BHD\u00a03.000",
+            "minor": 3000,
+            "numeratorMinor": 35999,
+            "rounded": true,
+            "rounding": "half-up"
+          },
+          "periodMonths": 12,
+          "quantity": 1,
+          "scopeKey": "studio-v1",
+          "totalMinor": 35999,
+          "unit": "workspace"
+        },
+        "solid": false,
+        "touring": false
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "nativeMonthly": {
+    "currency": "USD",
+    "incomparable": false,
+    "period": "monthly",
+    "quiet": false,
+    "savings": null,
+    "selected": {
+      "billingAmount": {
+        "currency": "USD",
+        "exponent": 2,
+        "formatted": "$39.00",
+        "minor": 3900
+      },
+      "currency": "USD",
+      "exponent": 2,
+      "id": "monthly",
+      "kind": "recurring",
+      "monthlyEquivalent": {
+        "currency": "USD",
+        "denominatorMonths": 1,
+        "exponent": 2,
+        "formatted": "$39.00",
+        "minor": 3900,
+        "numeratorMinor": 3900,
+        "rounded": false,
+        "rounding": "half-up"
+      },
+      "periodMonths": 1,
+      "quantity": 1,
+      "scopeKey": "studio-v1",
+      "totalMinor": 3900,
+      "unit": "workspace"
+    },
+    "solid": false,
+    "touring": false
+  },
+  "nativeRoundingDisclosure": {
+    "detail": "35,999 minor units \u00f7 12 months\n3,000 minor units / month \u00b7 half-up\n\nThe rounded display \u00d7 12 is 1 minor unit above the actual bill.",
+    "expanded": "true",
+    "focus": "inspect",
+    "hidden": false
+  },
+  "nativeIncomparable": {
+    "currency": "USD",
+    "incomparable": true,
+    "period": "annual",
+    "quiet": false,
+    "savings": null,
+    "selected": {
+      "billingAmount": {
+        "currency": "USD",
+        "exponent": 2,
+        "formatted": "$359.99",
+        "minor": 35999
+      },
+      "currency": "USD",
+      "exponent": 2,
+      "id": "annual",
+      "kind": "recurring",
+      "monthlyEquivalent": {
+        "currency": "USD",
+        "denominatorMonths": 12,
+        "exponent": 2,
+        "formatted": "$30.00",
+        "minor": 3000,
+        "numeratorMinor": 35999,
+        "rounded": true,
+        "rounding": "half-up"
+      },
+      "periodMonths": 12,
+      "quantity": 1,
+      "scopeKey": "studio-v1",
+      "totalMinor": 35999,
+      "unit": "workspace"
+    },
+    "solid": false,
+    "touring": false
+  },
+  "controls": "25cases all44px buttons/links/associated radio-checkbox labels,16pxselect. Native small radio hitbox belongs to associated44pxlabel.",
+  "nativeQuietAndSolid": {
+    "quietNextPresetRunningAnimations": 0,
+    "solidSurfacesOpaque": true,
+    "solidBackdropFilters": "none",
+    "scope": "Actual checkbox actions and computed native styles, not paint timing"
+  }
+}

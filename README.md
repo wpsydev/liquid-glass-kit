@@ -174,3 +174,5 @@ Optional `/material-preferences` coordinates scoped theme, motion and transparen
 Optional `/action` coordinates an authored native button or form with single-flight work, explicit host outcomes and cancellation intent. Native validation, successful-control FormData, child identity and editable drafts remain intact. [API](docs/ACTION.md) · [Review Room](https://wpsydev.github.io/liquid-glass-kit/actions/).
 
 Optional `/snap-deck` enhances native CSS scroll-snap with settled-view reporting, cached LTR/RTL targets and explicit motion policy. Authored cards and native buttons keep ordinary semantics and focus. [API](docs/SNAP_DECK.md) · [Offset](https://wpsydev.github.io/liquid-glass-kit/deck/).
+
+Optional `/pricing` preserves integer source charges, explicit monthly rounding and compatible recurring comparisons. Free, contact and usage states stay distinct; the host owns invoices and checkout. [API](docs/PRICING.md) · [RateCard](https://wpsydev.github.io/liquid-glass-kit/pricing/).

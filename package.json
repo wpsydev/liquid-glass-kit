@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.33.0-preview.1",
+  "version": "0.34.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -202,7 +202,11 @@
       "types": "./dist/snap-deck.d.ts",
       "import": "./dist/snap-deck.js"
     },
-    "./snap-deck.css": "./dist/snap-deck.css"
+    "./snap-deck.css": "./dist/snap-deck.css",
+    "./pricing": {
+      "types": "./dist/pricing.d.ts",
+      "import": "./dist/pricing.js"
+    }
   },
   "scripts": {
     "build": "node scripts/clean.mjs && node scripts/compile-library.mjs && node scripts/build.mjs",

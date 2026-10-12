@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e9e8dc"><meta name="description" content="An original pricing display study: exact billing totals, rounded monthly equivalents, currency precision, and honest scope comparisons using Liquid Glass Kit.">
+  <title>RateCard · Prices that make sense</title><link rel="icon" href="../mark.svg"><script type="module" src="./main.ts"></script>
+</head>
+<body data-currency="USD">
+  <div class="ratecard">
+    <header class="masthead"><a class="brand" href="../"><span class="brand-mark" aria-hidden="true">▤</span> RateCard<span class="brand-note">a liquid glass study</span></a><a class="source" href="https://github.com/wpsydev/liquid-glass-kit">Source ↗</a></header>
+    <main>
+      <section class="intro"><div><p class="eyebrow">THE SMALL PRINT, UP FRONT.</p><h1>Make the price<br><em>make sense.</em></h1></div><p class="intro-note">The bill is exact.<br>The monthly equivalent is a display.<span>Fictional plans. Local preview. No checkout.</span></p></section>
+      <section class="pricing-workspace" aria-label="Interactive pricing model">
+        <div class="offer-column">
+          <div class="controls lg-glass" data-lg-appearance="light" data-lg-corner="continuous">
+            <fieldset class="billing"><legend>Billing interval</legend><div class="segmented"><label><input type="radio" name="period" value="monthly" id="monthly"><span>Monthly</span></label><label><input type="radio" name="period" value="annual" id="annual" checked><span>Annual</span></label></div></fieldset>
+            <label class="currency-field" for="currency">Currency precision<select id="currency"><option value="USD">USD · 2 digits</option><option value="JPY">JPY · 0 digits</option><option value="BHD">BHD · 3 digits</option></select></label>
+          </div>
+          <article class="offer-card lg-glass" data-lg-appearance="light" data-lg-corner="continuous" aria-labelledby="plan-name">
+            <div class="offer-heading"><div><span class="eyebrow">YOUR SAMPLE PLAN / 01</span><h2 id="plan-name">Studio</h2></div><span class="scope-pill">1 workspace</span></div>
+            <p id="equivalent-label" class="price-label">MONTHLY EQUIVALENT</p>
+            <div class="price-line"><strong id="headline">$30.00</strong><span id="price-unit">/ month<br><small>rounded display</small></span></div>
+            <div class="bill-total"><span>EXACT BILLED TOTAL</span><strong id="invoice-total">$359.99</strong><span id="invoice-period">every 12 months</span></div>
+            <div id="saving-panel" class="saving-panel" data-result="saving"><span class="comparison-symbol" aria-hidden="true">↘</span><div><strong id="saving-title">$108.01 less over 12 months</strong><p id="saving-detail">Same workspace, scope and currency. Compared with 12 monthly bills.</p></div></div>
+            <button type="button" id="inspect" class="inspect" aria-expanded="false" aria-controls="math-detail">Inspect the rounding <span aria-hidden="true">↗</span></button>
+            <div id="math-detail" class="math-detail" hidden><span id="math-fraction">35,999 minor units ÷ 12 months</span><span id="math-rounded">3,000 minor units / month · half-up</span><p id="math-difference">The rounded display × 12 is 1 minor unit above the actual bill.</p></div>
+          </article>
+        </div>
+        <aside class="receipt-column" aria-label="Billing breakdown">
+          <div class="receipt-art" aria-hidden="true"><svg viewBox="0 0 320 220"><defs><pattern id="rate-grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="currentColor" stroke-opacity=".12"/></pattern></defs><rect width="320" height="220" fill="url(#rate-grid)"/><ellipse cx="159" cy="183" rx="97" ry="14" fill="currentColor" opacity=".12"/><path d="M81 55 204 29 246 151 123 181Z" fill="currentColor" opacity=".13"/><path d="M92 33H227V166L216 174 205 166 194 174 183 166 172 174 161 166 150 174 139 166 128 174 117 166 105 174 92 166Z" fill="#f7f6ed" stroke="currentColor" stroke-width="1.5"/><path d="M111 91H207M111 104H178M111 117H201M111 139H207" stroke="currentColor" opacity=".35" stroke-width="2"/><circle cx="159" cy="65" r="16" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m153 65 4 4 9-10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M238 74c22 17 31 44 19 64m-2-14 2 14 13-3" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="26" y="192" fill="currentColor" font-family="monospace" font-size="10">EXACT / NOT RECONSTRUCTED</text></svg><span id="currency-stamp">USD<br><small>02 DIGITS</small></span></div>
+          <section class="ledger" aria-labelledby="ledger-title"><div class="ledger-heading"><h2 id="ledger-title">The comparison</h2><span id="comparison-marker">LIKE FOR LIKE</span></div><dl><div><dt>Selected bill</dt><dd id="selected-ledger">$359.99 / 12 months</dd></div><div><dt>Baseline bill</dt><dd id="baseline-ledger">$39.00 / month</dd></div><div><dt>Same-period baseline</dt><dd id="baseline-total">$468.00 / 12 months</dd></div><div><dt>Calculated savings</dt><dd id="saving-percent">≈23.08%</dd></div></dl><label class="scope-control"><input type="checkbox" id="different-scope"><span>Compare a different scope<small>2 workspaces / Studio Plus</small></span></label><p class="precision-note" id="precision-note">Independent sample prices, not currency conversions.</p></section>
+        </aside>
+      </section>
+      <section class="other-offers" aria-label="Other explicit pricing kinds"><article><span class="offer-index">02 / FREE</span><h2>Sketch</h2><strong id="free-price">Free</strong><p>An explicit free sample plan.</p></article><article><span class="offer-index">03 / USAGE RATE</span><h2>Render jobs</h2><strong id="usage-rate">$1.45 <small>/ 1,000 jobs</small></strong><p>A usage-block rate, not an invoice.</p></article><article><span class="offer-index">04 / CUSTOM</span><h2>Studio custom</h2><strong id="custom-price">Contact sales</strong><p>Price not specified.</p></article></section>
+      <div class="demo-controls"><div class="tour-actions"><button type="button" id="tour">Play 10s tour</button><button type="button" id="reset">Reset</button></div><div class="preferences"><label><input type="checkbox" id="quiet"> Quiet motion</label><label><input type="checkbox" id="solid"> Solid surfaces</label></div><p id="status" role="status">Annual sample. Exact bill and rounded display stay separate.</p></div>
+    </main>
+    <footer><span>Original RateCard study · integer minor-unit model · no external art or fonts</span><a href="../">Liquid Glass Kit ↗</a></footer>
+  </div>
+</body></html>

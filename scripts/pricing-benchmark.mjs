@@ -1,0 +1,21 @@
+import {build} from 'vite';
+import {resolve} from 'node:path';
+import {readFile,writeFile} from 'node:fs/promises';
+import {gzipSync} from 'node:zlib';
+import {createHash} from 'node:crypto';
+import {pathToFileURL} from 'node:url';
+import {performance} from 'node:perf_hooks';
+const r=await build({configFile:false,logLevel:'silent',build:{write:false,minify:true,target:'es2022',lib:{entry:resolve('src/pricing.ts'),formats:['es']}}});
+const js=(Array.isArray(r)?r[0]:r).output.find(x=>x.type==='chunk').code;
+await writeFile('/tmp/lg-pricing-benchmark-module.mjs',js);
+const {createGlassPricingModel}=await import(pathToFileURL('/tmp/lg-pricing-benchmark-module.mjs'));
+const options={locale:'en-US',offers:[{id:'monthly',kind:'recurring',currency:'USD',exponent:2,totalMinor:3900,periodMonths:1,unit:'workspace',quantity:1,scopeKey:'studio-v1'},{id:'annual',kind:'recurring',currency:'USD',exponent:2,totalMinor:35999,periodMonths:12,unit:'workspace',quantity:1,scopeKey:'studio-v1'},{id:'free',kind:'free'},{id:'custom',kind:'contact-sales'},{id:'usage',kind:'usage',currency:'USD',exponent:2,rateMinor:145,perQuantity:1000,unit:'job'}]};
+let bytes=0,operations=0;
+const operation=()=>{const model=createGlassPricingModel(options);bytes+=JSON.stringify({offers:model.offers,savings:model.compare('annual','monthly')}).length;operations++};
+for(let i=0;i<100;i++)operation();
+const batches=[];
+for(let round=0;round<25;round++){const start=performance.now();for(let i=0;i<500;i++)operation();batches.push(performance.now()-start)}
+const normalized=batches.map(x=>x/500).sort((a,b)=>a-b);
+const result={observedAtUtc:new Date().toISOString(),runtime:process.version,operationsIncludingWarmup:operations,warmup:100,rounds:25,operationsPerRound:500,batchesMs:batches,medianOperationMs:normalized[12],p95NormalizedBatchMs:normalized[23],serializedCharacters:bytes,payload:{jsRawBytes:Buffer.byteLength(js),jsGzipBytes:gzipSync(js).length,sourceSha256:createHash('sha256').update(await readFile('src/pricing.ts')).digest('hex')},scope:'Standalone optional helper, warmed Intl Node model generation + comparison + JSON. Excludes rendering, checkout, network and browser timing; no comparative speedup'};
+await writeFile('benchmarks/pricing.json',JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify(result));

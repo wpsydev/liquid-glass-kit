@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 727880,
+  "sha256": "96c9bc3f74e60b2b6e139e95b30fd356c23cc036dc421f2d1792c27f3c0362a6",
+  "music": {
+    "style": "disco",
+    "bpm": 120,
+    "seed": 34,
+    "patch": "keys",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Native T3 actual original RateCard finite10s tour USDannual/monthly, JPY0/BHD3digits, incompatible scope. No cameraCSS/fakedamounts/geometry or currency conversion. ExportFPS not appFPS."
+}

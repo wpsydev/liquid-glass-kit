@@ -236,12 +236,12 @@
     {
       "order": 17,
       "url": "https://supahero.io",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Native cached LTR/RTL snap decks",
       "version": "0.33.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/deck/",
       "video": "docs/campaign/assets/snap-deck-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109493122111553922",
       "performance": [
         "benchmarks/snap-deck-payload.json",
         "benchmarks/snap-deck-browser.json",
@@ -252,13 +252,16 @@
     {
       "order": 18,
       "url": "https://pricingpages.design",
-      "status": "researched",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Exact integer pricing displays and compatible comparisons",
+      "version": "0.34.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/pricing-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/pricing.json",
+        "benchmarks/pricing-browser.json"
+      ]
     },
     {
       "order": 19,

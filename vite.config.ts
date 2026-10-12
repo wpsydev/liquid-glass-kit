@@ -42,6 +42,7 @@ export default defineConfig({
         preferences: resolve('site/preferences/index.html'),
         actions: resolve('site/actions/index.html'),
         deck: resolve('site/deck/index.html'),
+        pricing: resolve('site/pricing/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),
         transitions: resolve('site/transitions/index.html'),

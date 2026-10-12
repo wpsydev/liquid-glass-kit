@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.34.0-preview.1
+
+- Add optional pure pricing models: exact minor-unit formatting, explicit rounded monthly equivalents and compatible invoice-total comparisons.
+- Keep free/contact/usage distinct, require truthful host currency exponents and matching scope/quantity, and reject unsafe totals. No payment or conversion engine.
+- Add original RateCard, native rounding/quiet/solid layouts, scoped model benchmark and twelve-second disco/keys film.
+
 ## 0.33.0-preview.1
 
 - Add optional native snap decks with settled view, cached logical LTR/RTL positions, all-fit controls and explicit motion policy. No autoplay, clones, custom keys or focus transfer.

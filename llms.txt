@@ -92,3 +92,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Native snap decks](docs/SNAP_DECK.md): authored card order, settled LTR/RTL view and cached targets without custom scrolling loops.
 - [Offset](https://wpsydev.github.io/liquid-glass-kit/deck/): original art directions, native selection and quiet scrolling.
+
+- [Pricing models](docs/PRICING.md): exact invoice source amounts, explicit monthly rounding and compatible-scope comparisons.
+- [RateCard](https://wpsydev.github.io/liquid-glass-kit/pricing/): original period/currency study with rounding detail and native comfort controls.

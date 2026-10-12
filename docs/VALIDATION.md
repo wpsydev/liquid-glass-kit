@@ -426,3 +426,15 @@ Original12second360frame960square Offset film132BPMgarage/bell seed33,744719byte
 Final integrated npm run check passed1,142tests/53files including queued prototypes. Final npm pack --dry-run passed156files, excluding future modules. This release adds30tests to602published tests; release-only CI counts follow publication.
 
 0.32 publication: initialcommitce63edf32f535437185f71465edbf7621f57b8b1 passedruntime verification/pages but release asset upload failed because media descriptors were outside the allowed directory. Correctiona505aa27a855898600b1aa5a2b584b39a13627d9 stages identicalverifiedmedia underdocs/campaign/assets; Verify38201207839 (602tests/35files),release38201207815 andPages38201207795 allpassed. Existingtag remainsce63edf; packageAPI/runtime unchanged bymedia-onlycorrection. Downloaded152members/328979bytes archive SHA256 `905c7f425b8ba749c2d0db92ee1d84e4252aa472f3da317e669ffbe38a530fee`. Hostedactual FormData/native queue submission producedB03/success/onecallback. npmregistry pending.
+
+## 0.34 exact pricing displays (2026-10-12)
+
+60 focused tests cover pure model bounds, exact safe-integer minor-unit formatting, explicit monthly rounding, typed free/contact/usage distinctions and compatible recurring comparisons/unsafe derived totals. Optional JS2,573gzip. Node24 benchmark100warmups+25×500measured operations (12,600total) includes modelgeneration/comparison/JSON with warmedIntl: median normalized batch average0.042606926ms/op, p95normalizedbatch.04745392ms/op and17,577,000serializedcharacters. Excludesbrowser/rendering/network/checkout, batchpercentiles notper-call tail, no comparative speedup.
+
+Twenty-five native T3 desktopChromium5presets×5viewport320–1440cases fitnoflow/44pxcontrols+associatedradio-checkboxlabels/16pxfields. ActualMonthly39/noannualsaving; Annual$359.99 withrounded$30/month andone-minor-unit disclosure; mismatchedquantity/scope removes saving. Quiet+BHD0runninganimations, Solidknownsurfacesopaque/filter:none, actualamountsunchanged. JPY0/BHD3 fictional independentprices, no conversion. Physicalphones/Safari/ATunverified.
+
+Original native10stour exported12seconds360frames960square,120BPMdisco/keys seed34;727880bytes SHA256 `96c9bc3f74e60b2b6e139e95b30fd356c23cc036dc421f2d1792c27f3c0362a6`. No cameraCSS/fakedamounts/geometry. Frames.8/6.5/9.2reviewed, fullaudio-videodecode passed. Export30fps notappFPS.
+
+Final integrated npm run check passed1,142tests/53files includingqueuedprototypes. Final npm pack --dry-run passed159files excludingfuturemodules. This release adds60tests to632publishedtests; published-scope CI follows publication.
+
+0.33 publication: commitcc929d3cb7a1a1935ba95cff40af5824a586fc86 passedVerify38201482558 (632tests/36files),release38201482567 andPages38201482560. Downloaded156members/336474bytes archive SHA256 `a6cd160b95b5de077c885017971d7200e13055e9d036485311cd450d24ee11f2`. Hosted immediateRTLrequest actuallysettled index1/scrollLeft-778 with1185px viewportandoneauthoredtree. Xmainvideo readback12seconds, canonical main/two replyreceipts incampaign/SNAP_DECK_PUBLICATION.json. npmregistry pending.
