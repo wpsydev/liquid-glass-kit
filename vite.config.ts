@@ -57,6 +57,7 @@ export default defineConfig({
         sequence: resolve('site/sequence/index.html'),
         anchors: resolve('site/anchors/index.html'),
         edges: resolve('site/edges/index.html'),
+        quality: resolve('site/quality/index.html'),
         shaders: resolve('site/shaders/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),

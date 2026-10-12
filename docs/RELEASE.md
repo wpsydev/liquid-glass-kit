@@ -1,11 +1,11 @@
-A small detail at the edges. **0.49.0-preview.1** adds explicit `edgeQuality: 'pixel'` to the experimental owned-scene renderer.
+Enough detail. A little headroom. **0.50.0-preview.1** adds optional `/quality-governor`.
 
-[SEAM](https://wpsydev.github.io/liquid-glass-kit/edges/) compares identical legacy and pixel-aware scenes, with actual output crops, glass tiles, fused drops and bounded backing sizes. Legacy remains default; all nine default shader strings are unchanged. A failed pixel shader compilation falls back to legacy optics while retaining the owned texture.
+Sustained pressure requests a lower tier, patient recovery permits a higher one, and cooldown avoids constant switching. Manual holds remain in control. The pure controller collects no timing data and changes no renderer; your app supplies valid monotonic samples and applies its own settings.
 
-85 focused scene/texture/edge tests and 20 native desktop viewport states passed. Actual WebGL compilation, output readback, compiler failure, context recovery and keyboard controls were checked separately from unit tests. This is not physical-phone or Safari certification.
+[Current](https://wpsydev.github.io/liquid-glass-kit/quality/) labels its synthetic policy fixtures and keeps an explicitly started six-second native frame-cadence study separate. It reports requested and actually applied Canvas2D budgets. Resizing the artwork resets stale live evidence while preserving manual holds.
 
-The optional scene bundle adds493 gzip bytes (10,959 →11,452); texture+scene adds491 (14,471 →14,962) with the measured build. Pixel coverage adds shader work and conservative padding. GPU elapsed time was not measured; there is no speedup or FPS claim.
+70 focused tests and35 native desktop viewport cases passed. Optional standalone controller:2,275gzip bytes. Pure2,000sample batches:1.723ms median/2.363p95 in the recorded run, excluding rendering. Frame cadence is not GPU elapsed time; no FPS or speedup claim.
 
-Twelve-second original144BPM glass-tine two-step film, recorded from the working demo. [Guide](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/SCENE.md).
+An original twelve-second104BPM clavinet jazz-funk film shows the finite demo. [API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/QUALITY_GOVERNOR.md).
 
-Use the release archive or `npm i github:wpsydev/liquid-glass-kit#v0.49.0-preview.1`. npm publication remains pending. Independently implemented from output-footprint principles; no copied art or shaders.
+Use the archive or `npm i github:wpsydev/liquid-glass-kit#v0.50.0-preview.1`. npm publication pending. No course code or artwork copied.

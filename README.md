@@ -2,7 +2,7 @@
 
 **CSS-first glass for real web apps.** Portable materials, semantic controls, optional motion, and React/Vue adapters. Zero core runtime dependencies; safe to import during SSR.
 
-Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.49.0 pixel-aware edges preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
+Independent open source implementation inspired by Apple's Liquid Glass. This is a **0.50.0 quality policy preview**, with portable CSS as the default and experimental refraction available explicitly. It does not reproduce Apple's private renderer.
 
 ![Material workbench](docs/assets/studio.webp)
 
@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.49.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.50.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -206,3 +206,5 @@ Optional `/project-anchor` maps explicit world points and column-major camera ma
 Optional experimental `/shader-backdrop` renders trusted original GLSL with bounded backing, explicit playback and last-good shader retention. Native controls/fallback stay separate; source limits do not certify GPU cost. [API](docs/SHADER_BACKDROP.md) · [Light Studies](https://wpsydev.github.io/liquid-glass-kit/shaders/).
 
 Experimental `/scene` and `/scene-texture` accept `edgeQuality: 'pixel'` for output-footprint-aware optical coverage. Legacy remains the default. [Guide](docs/SCENE.md) · [SEAM comparison](https://wpsydev.github.io/liquid-glass-kit/edges/).
+
+Optional `/quality-governor` turns host-supplied timing samples into bounded tier requests, with sustained-pressure downgrade, patient recovery, cooldown and manual holds. Apps own measurement and the actual rendering budget. [Guide](docs/QUALITY_GOVERNOR.md) · [Current](https://wpsydev.github.io/liquid-glass-kit/quality/).

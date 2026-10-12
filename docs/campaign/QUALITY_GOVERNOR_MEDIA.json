@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "releaseStatus": "Prepared locally only; root owns publication",
+  "source": "34 / independently implemented bounded quality governor",
+  "title": "Current / enough detail, a little headroom",
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "video": "H264 yuv420p, 30fps export",
+  "audio": "AAC stereo 48kHz, original upbeat jazz-funk104 clavinet/brushed rhythm seed61, major7 harmonic voicings; procedural synthesis without external samples",
+  "nativeRecording": {
+    "seconds": 10.85,
+    "width": 1920,
+    "height": 1920,
+    "kind": "Native T3 variable cadence event capture",
+    "finalFrameHoldSeconds": 1.15,
+    "renderedFPSClaim": false
+  },
+  "review": {
+    "decodedFrames": 360,
+    "uniqueDecodedFrameHashes": 323,
+    "decodeErrors": 0,
+    "reviewedSeconds": [
+      0.8,
+      4.5,
+      9.7
+    ],
+    "captionObscuresControls": false
+  },
+  "film": {
+    "path": "docs/campaign/assets/quality-governor-showcase.mp4",
+    "bytes": 649625,
+    "sha256": "073a3611aead9956f01104d9cc10734dbc79ba8ea93e40cab8c4686cd7910978"
+  },
+  "poster": {
+    "path": "docs/campaign/assets/quality-governor-showcase.png",
+    "bytes": 402663,
+    "sha256": "0d1732993af1635fba89cc60a7c7bd82779adae0d4351dcd40d5f71bd011e405"
+  },
+  "provenance": "Original code-native Canvas2D art, real native DOM/control states, actual pure model fixture outputs. No borrowed course code or art. All music original MIT. Film illustrates synthetic fixture policy, not GPU or FPS benchmark. Separate native cadence evidence stored in benchmarks."
+}

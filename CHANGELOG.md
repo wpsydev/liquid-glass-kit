@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.50.0-preview.1
+
+- Add a pure optional quality governor with bounded evidence windows, sustained-pressure downgrade, slower recovery, cooldown and manual holds.
+- Keep measurement collection and actual renderer changes host-owned; frame cadence stays distinct from GPU elapsed time.
+- Add Current, synthetic policy traces, a finite native cadence study, scoped benchmarks and original twelve-second jazz-funk film. Reset live evidence on actual artwork geometry changes.
+
 ## 0.49.0-preview.1
 
 - Add opt-in output-footprint-aware lens, tile and fused-drop coverage with a conservative padded draw area and truthful effective-quality stats.

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10181c">
+  <meta name="description" content="An original rendering-budget desk: inspect a pure quality policy with labeled deterministic traces or an explicit six-second native frame-cadence run.">
+  <title>Current / the rendering budget desk</title>
+</head>
+<body>
+  <div class="page">
+    <header><a href="#main" class="wordmark"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M3 18c5-16 7 16 12 0s7 16 10 0M3 10c5-16 7 16 12 0s7 16 10 0" fill="none" stroke="currentColor" stroke-width="2"/></svg>current<span>34</span></a><p>A rendering budget desk / original canvas studies</p><a href="#policy">Read the policy <span aria-hidden="true">↘</span></a></header>
+    <main id="main">
+      <section class="intro" aria-labelledby="intro-heading"><div><p class="eyebrow">Measure first. Change deliberately.</p><h1 id="intro-heading">Enough detail.<br><span>A little headroom.</span></h1></div><p>One pure governor, three host-owned rendering budgets. Inspect the evidence, hold a quality level, and see exactly what this local artwork applies.</p></section>
+      <div class="workspace">
+        <section class="art-desk" aria-labelledby="art-heading">
+          <div class="section-heading"><h2 id="art-heading">01 / Current study</h2><span>Original Canvas2D · no external assets</span></div>
+          <figure class="study"><canvas id="art" width="620" height="420" aria-hidden="true"></canvas><div class="study-mark" aria-hidden="true"><span>CH 01</span><span>FORM / CURRENT</span></div><div class="quality-plate" id="quality-plate"><p>Host-applied budget</p><strong id="applied-name">Full</strong><span id="applied-recipe">16 strands / 96 segments</span><span id="pixel-readout">Canvas buffer is initializing</span></div><figcaption id="art-caption">A bounded, original ribbon study. Static until a decision, resize, or explicit finite run.</figcaption></figure>
+          <div class="mapping"><label class="check"><input id="apply" type="checkbox" checked>Apply requested levels to this artwork</label><p>The host changes its own pixel cap and tessellation. A policy request alone changes no renderer.</p></div>
+          <div class="run-control"><div><h3>Observe this browser</h3><p>Six seconds, then stop. Frame cadence includes scheduling, refresh limits and this host’s work. It is not GPU elapsed time.</p></div><label for="target">Cadence budget / ms<input id="target" type="number" min="4" max="50" step="0.01" value="16.67" required inputmode="decimal"></label><button type="button" id="live">Run six seconds</button><button type="button" id="stop" disabled>Stop run</button></div>
+          <p id="run-status" role="status" aria-atomic="true">Static by default. No automatic timing collection.</p>
+        </section>
+        <aside class="console" aria-labelledby="console-heading">
+          <div class="section-heading"><h2 id="console-heading">02 / Policy console</h2><span id="source-label">DETERMINISTIC FIXTURE</span></div>
+          <div class="requested"><div><p>Requested quality</p><strong id="requested-name">Full</strong></div><span id="lock-label">Automatic policy</span></div>
+          <ol class="tiers" aria-label="Quality budgets, lowest first"><li data-level="economy"><span>01</span><strong>Economy</strong><small>8 × 48</small></li><li data-level="balanced"><span>02</span><strong>Balanced</strong><small>12 × 72</small></li><li data-level="full"><span>03</span><strong>Full</strong><small>16 × 96</small></li></ol>
+          <div class="console-controls"><label for="lock">Manual quality<select id="lock"><option value="auto">Automatic</option><option value="economy">Hold economy</option><option value="balanced">Hold balanced</option><option value="full">Hold full</option></select></label><label class="check"><input id="quiet" type="checkbox">Quiet / static</label><button type="button" id="solid" aria-pressed="false">Solid plate</button></div>
+          <dl class="readback"><div><dt>Last sample decision</dt><dd id="decision">No samples</dd></div><div><dt>Last actual policy action</dt><dd id="last-action">None</dd></div><div><dt>Cooldown remaining</dt><dd id="cooldown">0 ms / sampled</dd></div><div><dt>Window / pressure / recovery</dt><dd id="streaks">0 / 0 / 0</dd></div><div><dt>Last interval supplied</dt><dd id="last-interval">None</dd></div><div><dt>System motion</dt><dd id="motion">Checking preference</dd></div></dl>
+          <div class="evidence"><div><h3>Latest eligible evidence</h3><span id="evidence-kind">frame-cadence</span></div><p id="evidence-label">No complete sample window.</p><svg viewBox="0 0 360 96" role="img" aria-labelledby="trace-title trace-description"><title id="trace-title">Timing sample trace</title><desc id="trace-description">No samples yet. A dashed line represents the chosen timing budget.</desc><path class="trace-grid" d="M0 24h360M0 48h360M0 72h360"/><path id="target-line" class="target-line" d="M0 50h360"/><path id="trace-line" class="trace-line" d=""/></svg><p class="chart-note">Bounded trace · red marks are rejected samples · not an FPS or GPU chart</p></div>
+          <p id="policy-config" class="config"></p>
+        </aside>
+      </div>
+      <section class="trace-cases" aria-labelledby="trace-heading"><div><p class="eyebrow">Fixture laboratory</p><h2 id="trace-heading">Six deliberately different traces.</h2><p>These durations are synthetic policy inputs, not measurements. Selecting a trace creates a separate context and stops the native run.</p></div><div class="trace-buttons"><button type="button" data-preset="spike"><span>01</span>Isolated spike</button><button type="button" data-preset="overload"><span>02</span>Sustained load</button><button type="button" data-preset="cooldown"><span>03</span>Cooldown</button><button type="button" data-preset="recovery"><span>04</span>Slow recovery</button><button type="button" data-preset="manual"><span>05</span>Manual hold</button><button type="button" data-preset="gap"><span>06</span>Interrupted gap</button></div><p id="fixture-note">No trace replayed yet. The default artwork is static.</p></section>
+      <section class="policy" id="policy" aria-labelledby="policy-heading"><div><p class="eyebrow">A small policy, not a benchmark</p><h2 id="policy-heading">Evidence has a source.<br>Quality has a cost.</h2><p>Pressure needs a mean above 1.15× the timing budget and at least 75% of samples above that threshold. Recovery needs a mean below 0.65× and at least 90% below it, sustained for more windows.</p><p>Rejected measurements, gaps and cooldowns clear adaptation evidence. A manual lock keeps the requested level fixed. Frame cadence cannot establish GPU cost or prove that fewer canvas pixels will make a page faster.</p><p>The native run starts a fresh governor with production defaults. The fixture laboratory uses shorter, clearly reported windows so you can inspect every branch. Neither is a speedup claim.</p></div><div class="audit"><h3>Last eight sample events</h3><ol id="event-list"><li>No timing samples supplied</li></ol><dl><div><dt>Actual applied canvas</dt><dd id="host-readback">Initializing</dd></div><div><dt>Observed / rejected</dt><dd id="sample-counts">0 / 0</dd></div><div><dt>Finite runner</dt><dd id="runner-readback">Stopped / no scheduled frame</dd></div></dl></div></section>
+    </main>
+    <footer><p>Current / original art · Liquid Glass Kit</p><div><button type="button" id="tour">Play the 10.5-second tour</button><button type="button" id="reset">Reset desk</button></div><p id="tour-status" role="status" aria-atomic="true">No automatic replay</p></footer>
+  </div>
+  <script type="module" src="./main.ts"></script>
+</body>
+</html>

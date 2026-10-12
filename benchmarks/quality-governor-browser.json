@@ -1,0 +1,7126 @@
+{
+  "schema": 1,
+  "sourceBase": "08a8d0bea1d01e80b611742b96e4bea5deb40659",
+  "tool": "Native T3 collaborative preview, own tab_4r",
+  "environment": {
+    "browser": "T3Code Alpha Electron44 / Chromium152 on macOS, DPR2",
+    "screenSizes": "CSS freeform layouts, desktop browser user agent"
+  },
+  "limits": [
+    "Not physical phone/Safari/assistive-technology validation",
+    "Control actions are scripted native DOM activations/change events; no physical touch gesture claim",
+    "System reduced motion observed false; explicit quiet exercised; real OS setting not changed",
+    "No GPU timer query, FPS, speedup or passes-mobile claim"
+  ],
+  "recordingActive": "Native recording active for all final layout observer delivery and actual RAF cadence runs",
+  "unfixedResizeEvidence": {
+    "after": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 250947,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.300000000017462,
+          "meanMs": 16.66333333333314,
+          "minMs": 14.799999999988358,
+          "pressureSamples": 0,
+          "startTime": 250463.7
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 251063.7,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 7,
+        "previousLevel": "full",
+        "reason": "collecting",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15,
+          "reason": "collecting",
+          "time": 249962
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.39999999999418,
+          "reason": "collecting",
+          "time": 249978.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.39999999999418,
+          "reason": "collecting",
+          "time": 249995.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18,
+          "reason": "collecting",
+          "time": 250013.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "collecting",
+          "time": 250028.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.79999999998836,
+          "reason": "collecting",
+          "time": 250045.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.79999999998836,
+          "reason": "collecting",
+          "time": 250063.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.400000000023283,
+          "reason": "collecting",
+          "time": 250078.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 250095.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.400000000023283,
+          "reason": "collecting",
+          "time": 250113.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.799999999988358,
+          "reason": "collecting",
+          "time": 250128.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.29999999998836,
+          "reason": "collecting",
+          "time": 250146.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.10000000000582,
+          "reason": "collecting",
+          "time": 250162.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "collecting",
+          "time": 250178.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.89999999999418,
+          "reason": "collecting",
+          "time": 250195.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.900000000023283,
+          "reason": "collecting",
+          "time": 250213.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250230.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250247.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250263.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.799999999988358,
+          "reason": "collecting",
+          "time": 250279.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.5,
+          "reason": "collecting",
+          "time": 250297
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250313.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250330.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250347
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250363.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250380.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250397
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250413.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.39999999999418,
+          "reason": "collecting",
+          "time": 250430.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17,
+          "reason": "neutral",
+          "time": 250447.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250463.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250480.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250497
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250513.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250530.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250547.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250563.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250580.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250597.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250613.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.099999999976717,
+          "reason": "collecting",
+          "time": 250628.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.300000000017462,
+          "reason": "collecting",
+          "time": 250647.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250663.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250680.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250697.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250713.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250730.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250747.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.199999999982538,
+          "reason": "collecting",
+          "time": 250762.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.300000000017462,
+          "reason": "collecting",
+          "time": 250779.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.39999999999418,
+          "reason": "collecting",
+          "time": 250797
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250813.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.799999999988358,
+          "reason": "collecting",
+          "time": 250828.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.89999999999418,
+          "reason": "collecting",
+          "time": 250846.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.300000000017462,
+          "reason": "collecting",
+          "time": 250863.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250880.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250897.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250913.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250930.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "neutral",
+          "time": 250947
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.10000000000582,
+          "reason": "collecting",
+          "time": 250963.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.29999999998836,
+          "reason": "collecting",
+          "time": 250980.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15,
+          "reason": "collecting",
+          "time": 250995.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.89999999999418,
+          "reason": "collecting",
+          "time": 251013.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.10000000000582,
+          "reason": "collecting",
+          "time": 251030.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 251047.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 251063.7
+        }
+      ],
+      "focus": "BODY",
+      "governor": {
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 250947,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.300000000017462,
+          "meanMs": 16.66333333333314,
+          "minMs": 14.799999999988358,
+          "pressureSamples": 0,
+          "startTime": 250463.7
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 251063.7,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 7,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 0,
+        "applied": "full",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.5,
+          "maxPixels": 600000,
+          "segments": 96,
+          "strands": 16
+        },
+        "canvasAvailable": true,
+        "cssHeight": 300,
+        "cssWidth": 711.328125,
+        "draws": 484,
+        "height": 450,
+        "pixels": 479700,
+        "width": 1066
+      },
+      "live": true,
+      "liveElapsed": 1114.999999952328,
+      "observed": 67,
+      "pendingFrame": true,
+      "pendingStopTimer": true,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "before": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 250947,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.300000000017462,
+          "meanMs": 16.66333333333314,
+          "minMs": 14.799999999988358,
+          "pressureSamples": 0,
+          "startTime": 250463.7
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 250995.4,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 3,
+        "previousLevel": "full",
+        "reason": "collecting",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15,
+          "reason": "collecting",
+          "time": 249962
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.39999999999418,
+          "reason": "collecting",
+          "time": 249978.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.39999999999418,
+          "reason": "collecting",
+          "time": 249995.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18,
+          "reason": "collecting",
+          "time": 250013.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "collecting",
+          "time": 250028.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.79999999998836,
+          "reason": "collecting",
+          "time": 250045.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.79999999998836,
+          "reason": "collecting",
+          "time": 250063.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.400000000023283,
+          "reason": "collecting",
+          "time": 250078.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 250095.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.400000000023283,
+          "reason": "collecting",
+          "time": 250113.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.799999999988358,
+          "reason": "collecting",
+          "time": 250128.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.29999999998836,
+          "reason": "collecting",
+          "time": 250146.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.10000000000582,
+          "reason": "collecting",
+          "time": 250162.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "collecting",
+          "time": 250178.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.89999999999418,
+          "reason": "collecting",
+          "time": 250195.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.900000000023283,
+          "reason": "collecting",
+          "time": 250213.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250230.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250247.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250263.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.799999999988358,
+          "reason": "collecting",
+          "time": 250279.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.5,
+          "reason": "collecting",
+          "time": 250297
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250313.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250330.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250347
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250363.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250380.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250397
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250413.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.39999999999418,
+          "reason": "collecting",
+          "time": 250430.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17,
+          "reason": "neutral",
+          "time": 250447.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250463.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250480.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250497
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250513.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250530.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250547.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250563.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250580.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250597.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250613.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.099999999976717,
+          "reason": "collecting",
+          "time": 250628.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.300000000017462,
+          "reason": "collecting",
+          "time": 250647.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250663.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250680.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250697.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250713.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250730.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250747.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.199999999982538,
+          "reason": "collecting",
+          "time": 250762.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.300000000017462,
+          "reason": "collecting",
+          "time": 250779.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.39999999999418,
+          "reason": "collecting",
+          "time": 250797
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250813.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.799999999988358,
+          "reason": "collecting",
+          "time": 250828.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.89999999999418,
+          "reason": "collecting",
+          "time": 250846.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.300000000017462,
+          "reason": "collecting",
+          "time": 250863.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250880.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 250897.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999982538,
+          "reason": "collecting",
+          "time": 250913.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "collecting",
+          "time": 250930.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.60000000000582,
+          "reason": "neutral",
+          "time": 250947
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.10000000000582,
+          "reason": "collecting",
+          "time": 250963.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.29999999998836,
+          "reason": "collecting",
+          "time": 250980.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15,
+          "reason": "collecting",
+          "time": 250995.4
+        }
+      ],
+      "focus": "BODY",
+      "governor": {
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 250947,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.300000000017462,
+          "meanMs": 16.66333333333314,
+          "minMs": 14.799999999988358,
+          "pressureSamples": 0,
+          "startTime": 250463.7
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 250995.4,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 3,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 0,
+        "applied": "full",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.5,
+          "maxPixels": 600000,
+          "segments": 96,
+          "strands": 16
+        },
+        "canvasAvailable": true,
+        "cssHeight": 420,
+        "cssWidth": 711.328125,
+        "draws": 479,
+        "height": 595,
+        "pixels": 599760,
+        "width": 1008
+      },
+      "live": true,
+      "liveElapsed": 1046.6999999523105,
+      "observed": 63,
+      "pendingFrame": true,
+      "pendingStopTimer": true,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    }
+  },
+  "nativeRunAndResize": {
+    "before": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 277813.7,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.70000000001164,
+          "meanMs": 16.666666666666668,
+          "minMs": 14.700000000011642,
+          "pressureSamples": 0,
+          "startTime": 277330.3
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 277813.7,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "previousLevel": "full",
+        "reason": "neutral",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.599999999976717,
+          "reason": "collecting",
+          "time": 276829.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.799999999988358,
+          "reason": "collecting",
+          "time": 276845.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.600000000034925,
+          "reason": "collecting",
+          "time": 276863.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 276880.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 276897
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 276913.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 276930.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 276947
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 276963.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.599999999976717,
+          "reason": "collecting",
+          "time": 276979.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.70000000001164,
+          "reason": "collecting",
+          "time": 276997
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 277013.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.099999999976717,
+          "reason": "collecting",
+          "time": 277028.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.20000000001164,
+          "reason": "collecting",
+          "time": 277047
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.400000000023283,
+          "reason": "collecting",
+          "time": 277063.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.899999999965075,
+          "reason": "collecting",
+          "time": 277080.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.100000000034925,
+          "reason": "collecting",
+          "time": 277095.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.29999999998836,
+          "reason": "collecting",
+          "time": 277113.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 277130.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 277147.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 277163.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 277180.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.100000000034925,
+          "reason": "collecting",
+          "time": 277196.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.29999999998836,
+          "reason": "collecting",
+          "time": 277213.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 277230.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 277247.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 277263.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 277280.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 277297.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "neutral",
+          "time": 277313.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 277330.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 277347
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 277363.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.700000000011642,
+          "reason": "collecting",
+          "time": 277378.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.599999999976717,
+          "reason": "collecting",
+          "time": 277397
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 277413.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 277430.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 277447.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 277463.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 277480.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 277496.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.399999999965075,
+          "reason": "collecting",
+          "time": 277512.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.400000000023283,
+          "reason": "collecting",
+          "time": 277529.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.29999999998836,
+          "reason": "collecting",
+          "time": 277546
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.70000000001164,
+          "reason": "collecting",
+          "time": 277563.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.099999999976717,
+          "reason": "collecting",
+          "time": 277578.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.79999999998836,
+          "reason": "collecting",
+          "time": 277595.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.100000000034925,
+          "reason": "collecting",
+          "time": 277611.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 277628.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.79999999998836,
+          "reason": "collecting",
+          "time": 277645.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 277661.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 277678.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.79999999998836,
+          "reason": "collecting",
+          "time": 277695.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 277711.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.400000000023283,
+          "reason": "collecting",
+          "time": 277729.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.799999999988358,
+          "reason": "collecting",
+          "time": 277745
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.70000000001164,
+          "reason": "collecting",
+          "time": 277763.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.700000000011642,
+          "reason": "collecting",
+          "time": 277778.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.599999999976717,
+          "reason": "collecting",
+          "time": 277797
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "neutral",
+          "time": 277813.7
+        }
+      ],
+      "focus": "BODY",
+      "governor": {
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 277813.7,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.70000000001164,
+          "meanMs": 16.666666666666668,
+          "minMs": 14.700000000011642,
+          "pressureSamples": 0,
+          "startTime": 277330.3
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 277813.7,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 0,
+        "applied": "full",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.5,
+          "maxPixels": 600000,
+          "segments": 96,
+          "strands": 16
+        },
+        "canvasAvailable": true,
+        "cssHeight": 420,
+        "cssWidth": 711.328125,
+        "draws": 64,
+        "height": 595,
+        "pixels": 599760,
+        "width": 1008
+      },
+      "live": true,
+      "liveElapsed": 993.2999999046442,
+      "observed": 60,
+      "pendingFrame": true,
+      "pendingStopTimer": true,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "completed": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 282345.1,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.70000000001164,
+          "meanMs": 16.603333333332557,
+          "minMs": 14.400000000023283,
+          "pressureSamples": 0,
+          "startTime": 281863
+        },
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 282813.7,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 28,
+        "previousLevel": "balanced",
+        "reason": "manual-lock",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 281630.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281647
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281663.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281680.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "manual-lock",
+          "time": 281697.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "manual-lock",
+          "time": 281713.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 281730.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281747
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281763.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281780.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 281797
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281813.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 281830.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281847
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "manual-lock",
+          "time": 281863
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.599999999976717,
+          "reason": "manual-lock",
+          "time": 281880.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.400000000023283,
+          "reason": "manual-lock",
+          "time": 281895
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.70000000001164,
+          "reason": "manual-lock",
+          "time": 281913.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 281930.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.79999999998836,
+          "reason": "manual-lock",
+          "time": 281947.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "manual-lock",
+          "time": 281963.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281980.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "manual-lock",
+          "time": 281997.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "manual-lock",
+          "time": 282013.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.20000000001164,
+          "reason": "manual-lock",
+          "time": 282030.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282047
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "manual-lock",
+          "time": 282061.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "manual-lock",
+          "time": 282078.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.599999999976717,
+          "reason": "manual-lock",
+          "time": 282097
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282113.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.700000000011642,
+          "reason": "manual-lock",
+          "time": 282128.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "manual-lock",
+          "time": 282145.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.600000000034925,
+          "reason": "manual-lock",
+          "time": 282163.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 282180.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282197
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282213.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282230.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "manual-lock",
+          "time": 282247.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "manual-lock",
+          "time": 282263.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.799999999988358,
+          "reason": "manual-lock",
+          "time": 282279.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "manual-lock",
+          "time": 282295.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.20000000001164,
+          "reason": "manual-lock",
+          "time": 282313.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282330.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.699999999953434,
+          "reason": "manual-lock",
+          "time": 282345.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.5,
+          "reason": "manual-lock",
+          "time": 282363.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.800000000046566,
+          "reason": "manual-lock",
+          "time": 282380.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.399999999965075,
+          "reason": "manual-lock",
+          "time": 282396.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.900000000023283,
+          "reason": "manual-lock",
+          "time": 282413.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282430.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 282447
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.400000000023283,
+          "reason": "manual-lock",
+          "time": 282463.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17,
+          "reason": "manual-lock",
+          "time": 282480.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 282497
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282513.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282530.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 282547
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282563.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.399999999965075,
+          "reason": "manual-lock",
+          "time": 282580.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.900000000023283,
+          "reason": "manual-lock",
+          "time": 282597
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282613.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.799999999988358,
+          "reason": "manual-lock",
+          "time": 282628.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.599999999976717,
+          "reason": "manual-lock",
+          "time": 282647.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "manual-lock",
+          "time": 282663.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282680.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.899999999965075,
+          "reason": "manual-lock",
+          "time": 282695.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.400000000023283,
+          "reason": "manual-lock",
+          "time": 282713.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282730.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "manual-lock",
+          "time": 282747.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "manual-lock",
+          "time": 282763.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 282780.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.20000000001164,
+          "reason": "manual-lock",
+          "time": 282796.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.20000000001164,
+          "reason": "manual-lock",
+          "time": 282813.7
+        }
+      ],
+      "focus": "BODY",
+      "governor": {
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 282345.1,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.70000000001164,
+          "meanMs": 16.603333333332557,
+          "minMs": 14.400000000023283,
+          "pressureSamples": 0,
+          "startTime": 281863
+        },
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 282813.7,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 28,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 1,
+        "applied": "balanced",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.25,
+          "maxPixels": 360000,
+          "segments": 72,
+          "strands": 12
+        },
+        "canvasAvailable": true,
+        "cssHeight": 300,
+        "cssWidth": 711.328125,
+        "draws": 365,
+        "height": 375,
+        "pixels": 333375,
+        "width": 889
+      },
+      "live": false,
+      "liveElapsed": 5993.299999904644,
+      "observed": 298,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "idle": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 282345.1,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.70000000001164,
+          "meanMs": 16.603333333332557,
+          "minMs": 14.400000000023283,
+          "pressureSamples": 0,
+          "startTime": 281863
+        },
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 282813.7,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 28,
+        "previousLevel": "balanced",
+        "reason": "manual-lock",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 281630.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281647
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281663.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281680.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "manual-lock",
+          "time": 281697.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "manual-lock",
+          "time": 281713.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 281730.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281747
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281763.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281780.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 281797
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281813.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 281830.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281847
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "manual-lock",
+          "time": 281863
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.599999999976717,
+          "reason": "manual-lock",
+          "time": 281880.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.400000000023283,
+          "reason": "manual-lock",
+          "time": 281895
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.70000000001164,
+          "reason": "manual-lock",
+          "time": 281913.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 281930.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.79999999998836,
+          "reason": "manual-lock",
+          "time": 281947.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "manual-lock",
+          "time": 281963.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 281980.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "manual-lock",
+          "time": 281997.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "manual-lock",
+          "time": 282013.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.20000000001164,
+          "reason": "manual-lock",
+          "time": 282030.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282047
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "manual-lock",
+          "time": 282061.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "manual-lock",
+          "time": 282078.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.599999999976717,
+          "reason": "manual-lock",
+          "time": 282097
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282113.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.700000000011642,
+          "reason": "manual-lock",
+          "time": 282128.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "manual-lock",
+          "time": 282145.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.600000000034925,
+          "reason": "manual-lock",
+          "time": 282163.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 282180.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282197
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282213.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282230.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "manual-lock",
+          "time": 282247.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "manual-lock",
+          "time": 282263.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.799999999988358,
+          "reason": "manual-lock",
+          "time": 282279.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "manual-lock",
+          "time": 282295.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.20000000001164,
+          "reason": "manual-lock",
+          "time": 282313.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282330.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.699999999953434,
+          "reason": "manual-lock",
+          "time": 282345.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.5,
+          "reason": "manual-lock",
+          "time": 282363.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.800000000046566,
+          "reason": "manual-lock",
+          "time": 282380.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.399999999965075,
+          "reason": "manual-lock",
+          "time": 282396.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.900000000023283,
+          "reason": "manual-lock",
+          "time": 282413.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282430.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 282447
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.400000000023283,
+          "reason": "manual-lock",
+          "time": 282463.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17,
+          "reason": "manual-lock",
+          "time": 282480.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 282497
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282513.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282530.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 282547
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282563.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.399999999965075,
+          "reason": "manual-lock",
+          "time": 282580.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.900000000023283,
+          "reason": "manual-lock",
+          "time": 282597
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282613.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.799999999988358,
+          "reason": "manual-lock",
+          "time": 282628.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.599999999976717,
+          "reason": "manual-lock",
+          "time": 282647.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "manual-lock",
+          "time": 282663.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282680.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.899999999965075,
+          "reason": "manual-lock",
+          "time": 282695.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.400000000023283,
+          "reason": "manual-lock",
+          "time": 282713.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 282730.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "manual-lock",
+          "time": 282747.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "manual-lock",
+          "time": 282763.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 282780.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.20000000001164,
+          "reason": "manual-lock",
+          "time": 282796.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.20000000001164,
+          "reason": "manual-lock",
+          "time": 282813.7
+        }
+      ],
+      "focus": "BODY",
+      "governor": {
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 282345.1,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.70000000001164,
+          "meanMs": 16.603333333332557,
+          "minMs": 14.400000000023283,
+          "pressureSamples": 0,
+          "startTime": 281863
+        },
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 282813.7,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 28,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 1,
+        "applied": "balanced",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.25,
+          "maxPixels": 360000,
+          "segments": 72,
+          "strands": 12
+        },
+        "canvasAvailable": true,
+        "cssHeight": 300,
+        "cssWidth": 711.328125,
+        "draws": 365,
+        "height": 375,
+        "pixels": 333375,
+        "width": 889
+      },
+      "live": false,
+      "liveElapsed": 5993.299999904644,
+      "observed": 298,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "resized": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 2467.100000000035,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 277896.6,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 3,
+        "previousLevel": "balanced",
+        "reason": "manual-lock",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.20000000001164,
+          "reason": "manual-lock",
+          "time": 277863.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 277880.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.199999999953434,
+          "reason": "manual-lock",
+          "time": 277896.6
+        }
+      ],
+      "focus": "BODY",
+      "governor": {
+        "cooldownRemainingMs": 2467.100000000035,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 277896.6,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 3,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 1,
+        "applied": "balanced",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.25,
+          "maxPixels": 360000,
+          "segments": 72,
+          "strands": 12
+        },
+        "canvasAvailable": true,
+        "cssHeight": 300,
+        "cssWidth": 711.328125,
+        "draws": 70,
+        "height": 375,
+        "pixels": 333375,
+        "width": 889
+      },
+      "live": true,
+      "liveElapsed": 1076.1999999046093,
+      "observed": 3,
+      "pendingFrame": true,
+      "pendingStopTimer": true,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    }
+  },
+  "checks": {
+    "afterResize": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 2482.5,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "full",
+          "previousLevel": "full",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 319413.6,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "previousLevel": "full",
+        "reason": "cooldown",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.799999999988358,
+          "reason": "cooldown",
+          "time": 319396.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.5,
+          "reason": "cooldown",
+          "time": 319413.6
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 2482.5,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "full",
+          "previousLevel": "full",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 319413.6,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 0,
+        "applied": "full",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.5,
+          "maxPixels": 600000,
+          "segments": 96,
+          "strands": 16
+        },
+        "canvasAvailable": true,
+        "cssHeight": 301,
+        "cssWidth": 711.328125,
+        "draws": 485,
+        "height": 451,
+        "pixels": 480766,
+        "width": 1066
+      },
+      "live": true,
+      "liveElapsed": 1066.4999999761349,
+      "observed": 2,
+      "pendingFrame": true,
+      "pendingStopTimer": true,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "applied": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": false,
+        "action": "manual",
+        "cooldownRemainingMs": 2500,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "manual",
+          "evidence": null,
+          "level": "economy",
+          "previousLevel": "full",
+          "reason": "manual-lock",
+          "time": null
+        },
+        "lastTime": 325712.3,
+        "level": "economy",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "previousLevel": "full",
+        "reason": "manual-lock",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324530.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324547
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324563.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324580.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 324596.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.899999999965075,
+          "reason": "collecting",
+          "time": 324611.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.5,
+          "reason": "collecting",
+          "time": 324630.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.100000000034925,
+          "reason": "collecting",
+          "time": 324645.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.29999999998836,
+          "reason": "collecting",
+          "time": 324663.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324680.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324697
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "neutral",
+          "time": 324713.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324730.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "collecting",
+          "time": 324746.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 324763.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324780.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324797
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324813.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.299999999988358,
+          "reason": "collecting",
+          "time": 324829
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18,
+          "reason": "collecting",
+          "time": 324847
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324863.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324880.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324897
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324913.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324930.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.29999999998836,
+          "reason": "collecting",
+          "time": 324946.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.300000000046566,
+          "reason": "collecting",
+          "time": 324962.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.5,
+          "reason": "collecting",
+          "time": 324980.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324997
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325013.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325030.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.200000000011642,
+          "reason": "collecting",
+          "time": 325045.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325063.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "collecting",
+          "time": 325078.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.5,
+          "reason": "collecting",
+          "time": 325097
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325113.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.300000000046566,
+          "reason": "collecting",
+          "time": 325128.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325147
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325163.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325180.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325197
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.200000000011642,
+          "reason": "neutral",
+          "time": 325212.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.20000000001164,
+          "reason": "collecting",
+          "time": 325230.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.799999999988358,
+          "reason": "collecting",
+          "time": 325245.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.399999999965075,
+          "reason": "collecting",
+          "time": 325263.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325280.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325297
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325313.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.5,
+          "reason": "collecting",
+          "time": 325329.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "collecting",
+          "time": 325345.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 325361.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325378.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.29999999998836,
+          "reason": "collecting",
+          "time": 325396.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.300000000046566,
+          "reason": "collecting",
+          "time": 325411.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 325428.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.300000000046566,
+          "reason": "collecting",
+          "time": 325446.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.099999999976717,
+          "reason": "collecting",
+          "time": 325462
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.29999999998836,
+          "reason": "collecting",
+          "time": 325479.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.100000000034925,
+          "reason": "collecting",
+          "time": 325495.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.699999999953434,
+          "reason": "collecting",
+          "time": 325513.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.900000000023283,
+          "reason": "collecting",
+          "time": 325529
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.099999999976717,
+          "reason": "collecting",
+          "time": 325546.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.5,
+          "reason": "collecting",
+          "time": 325563.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.800000000046566,
+          "reason": "collecting",
+          "time": 325578.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.099999999976717,
+          "reason": "collecting",
+          "time": 325595.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325613.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "collecting",
+          "time": 325630.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.800000000046566,
+          "reason": "collecting",
+          "time": 325645.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.699999999953434,
+          "reason": "collecting",
+          "time": 325663.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "collecting",
+          "time": 325678.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.70000000001164,
+          "reason": "collecting",
+          "time": 325696.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.099999999976717,
+          "reason": "neutral",
+          "time": 325712.3
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 2500,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "manual",
+          "evidence": null,
+          "level": "economy",
+          "previousLevel": "full",
+          "reason": "manual-lock",
+          "time": null
+        },
+        "lastTime": 325712.3,
+        "level": "economy",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 2,
+        "applied": "economy",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1,
+          "maxPixels": 180000,
+          "segments": 48,
+          "strands": 8
+        },
+        "canvasAvailable": true,
+        "cssHeight": 420,
+        "cssWidth": 711.328125,
+        "draws": 856,
+        "height": 326,
+        "pixels": 179952,
+        "width": 552
+      },
+      "live": false,
+      "liveElapsed": 5994.099999952305,
+      "observed": 360,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "beforeResize": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 319330.3,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.400000000023283,
+          "meanMs": 16.666666666666668,
+          "minMs": 15.399999999965075,
+          "pressureSamples": 0,
+          "startTime": 318847
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 319346.9,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 1,
+        "previousLevel": "full",
+        "reason": "collecting",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 0.03600000002188608,
+          "reason": "collecting",
+          "time": 318347
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.799999999988358,
+          "reason": "collecting",
+          "time": 318361.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.5,
+          "reason": "collecting",
+          "time": 318380.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.100000000034925,
+          "reason": "collecting",
+          "time": 318396.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.199999999953434,
+          "reason": "collecting",
+          "time": 318413.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.200000000011642,
+          "reason": "collecting",
+          "time": 318428.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.29999999998836,
+          "reason": "collecting",
+          "time": 318445.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.600000000034925,
+          "reason": "collecting",
+          "time": 318463.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 318480.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318497
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 318513.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318530.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318547
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 318563.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318580.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.100000000034925,
+          "reason": "collecting",
+          "time": 318596.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.199999999953434,
+          "reason": "collecting",
+          "time": 318613.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.800000000046566,
+          "reason": "collecting",
+          "time": 318630.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.199999999953434,
+          "reason": "collecting",
+          "time": 318646.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.100000000034925,
+          "reason": "collecting",
+          "time": 318663.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318680.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 318697
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 318713.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318730.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318747
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 318763.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318780.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "collecting",
+          "time": 318796.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 318813.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.899999999965075,
+          "reason": "neutral",
+          "time": 318830.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318847
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318863.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.399999999965075,
+          "reason": "collecting",
+          "time": 318879.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "collecting",
+          "time": 318895.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.100000000034925,
+          "reason": "collecting",
+          "time": 318913.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 318930.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318947
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.400000000023283,
+          "reason": "collecting",
+          "time": 318962.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.899999999965075,
+          "reason": "collecting",
+          "time": 318980.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 318997
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 319013.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 319030.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 319047
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 319063.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 319080.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.5,
+          "reason": "collecting",
+          "time": 319095.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.20000000001164,
+          "reason": "collecting",
+          "time": 319112
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.400000000023283,
+          "reason": "collecting",
+          "time": 319130.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 319147
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 319163.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.5,
+          "reason": "collecting",
+          "time": 319179.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17,
+          "reason": "collecting",
+          "time": 319196.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.300000000046566,
+          "reason": "collecting",
+          "time": 319212.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "collecting",
+          "time": 319228.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 319247
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 319263.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.800000000046566,
+          "reason": "collecting",
+          "time": 319280.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 319297
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 319313.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "neutral",
+          "time": 319330.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 319346.9
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 319330.3,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.400000000023283,
+          "meanMs": 16.666666666666668,
+          "minMs": 15.399999999965075,
+          "pressureSamples": 0,
+          "startTime": 318847
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 319346.9,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 1,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 0,
+        "applied": "full",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.5,
+          "maxPixels": 600000,
+          "segments": 96,
+          "strands": 16
+        },
+        "canvasAvailable": true,
+        "cssHeight": 420,
+        "cssWidth": 711.328125,
+        "draws": 480,
+        "height": 595,
+        "pixels": 599760,
+        "width": 1008
+      },
+      "live": true,
+      "liveElapsed": 999.7999999761814,
+      "observed": 61,
+      "pendingFrame": true,
+      "pendingStopTimer": true,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "declined": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": false,
+        "action": "manual",
+        "cooldownRemainingMs": 2500,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "manual",
+          "evidence": null,
+          "level": "economy",
+          "previousLevel": "full",
+          "reason": "manual-lock",
+          "time": null
+        },
+        "lastTime": 325712.3,
+        "level": "economy",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "previousLevel": "full",
+        "reason": "manual-lock",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324530.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324547
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324563.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324580.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 324596.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.899999999965075,
+          "reason": "collecting",
+          "time": 324611.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.5,
+          "reason": "collecting",
+          "time": 324630.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.100000000034925,
+          "reason": "collecting",
+          "time": 324645.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.29999999998836,
+          "reason": "collecting",
+          "time": 324663.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324680.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324697
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "neutral",
+          "time": 324713.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324730.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "collecting",
+          "time": 324746.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 324763.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324780.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324797
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324813.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.299999999988358,
+          "reason": "collecting",
+          "time": 324829
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18,
+          "reason": "collecting",
+          "time": 324847
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324863.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324880.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324897
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324913.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324930.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.29999999998836,
+          "reason": "collecting",
+          "time": 324946.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.300000000046566,
+          "reason": "collecting",
+          "time": 324962.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.5,
+          "reason": "collecting",
+          "time": 324980.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324997
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325013.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325030.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.200000000011642,
+          "reason": "collecting",
+          "time": 325045.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325063.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "collecting",
+          "time": 325078.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.5,
+          "reason": "collecting",
+          "time": 325097
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325113.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.300000000046566,
+          "reason": "collecting",
+          "time": 325128.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325147
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325163.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325180.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325197
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.200000000011642,
+          "reason": "neutral",
+          "time": 325212.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.20000000001164,
+          "reason": "collecting",
+          "time": 325230.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.799999999988358,
+          "reason": "collecting",
+          "time": 325245.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.399999999965075,
+          "reason": "collecting",
+          "time": 325263.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325280.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325297
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325313.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.5,
+          "reason": "collecting",
+          "time": 325329.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "collecting",
+          "time": 325345.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 325361.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325378.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.29999999998836,
+          "reason": "collecting",
+          "time": 325396.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.300000000046566,
+          "reason": "collecting",
+          "time": 325411.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 325428.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.300000000046566,
+          "reason": "collecting",
+          "time": 325446.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.099999999976717,
+          "reason": "collecting",
+          "time": 325462
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.29999999998836,
+          "reason": "collecting",
+          "time": 325479.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.100000000034925,
+          "reason": "collecting",
+          "time": 325495.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.699999999953434,
+          "reason": "collecting",
+          "time": 325513.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.900000000023283,
+          "reason": "collecting",
+          "time": 325529
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.099999999976717,
+          "reason": "collecting",
+          "time": 325546.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.5,
+          "reason": "collecting",
+          "time": 325563.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.800000000046566,
+          "reason": "collecting",
+          "time": 325578.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.099999999976717,
+          "reason": "collecting",
+          "time": 325595.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325613.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "collecting",
+          "time": 325630.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.800000000046566,
+          "reason": "collecting",
+          "time": 325645.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.699999999953434,
+          "reason": "collecting",
+          "time": 325663.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "collecting",
+          "time": 325678.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.70000000001164,
+          "reason": "collecting",
+          "time": 325696.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.099999999976717,
+          "reason": "neutral",
+          "time": 325712.3
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 2500,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "manual",
+          "evidence": null,
+          "level": "economy",
+          "previousLevel": "full",
+          "reason": "manual-lock",
+          "time": null
+        },
+        "lastTime": 325712.3,
+        "level": "economy",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 1,
+        "applied": "full",
+        "apply": false,
+        "budget": {
+          "maxDpr": 1.5,
+          "maxPixels": 600000,
+          "segments": 96,
+          "strands": 16
+        },
+        "canvasAvailable": true,
+        "cssHeight": 420,
+        "cssWidth": 711.328125,
+        "draws": 855,
+        "height": 595,
+        "pixels": 599760,
+        "width": 1008
+      },
+      "live": false,
+      "liveElapsed": 5994.099999952305,
+      "observed": 360,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "fixtureAfterNative": {
+      "config": {
+        "cooldownMs": 120,
+        "downgradeWindows": 2,
+        "initialLevel": "full",
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 250,
+        "recoveryWindows": 6,
+        "targetMs": 16.67,
+        "windowSize": 4
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "pressure",
+          "count": 4,
+          "endTime": 1360,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 28,
+          "meanMs": 28,
+          "minMs": 28,
+          "pressureSamples": 4,
+          "startTime": 1240
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 1360,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 1,
+        "pendingSamples": 0,
+        "previousLevel": "full",
+        "reason": "sustained-pressure",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 0
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 40
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 80
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "sustained-pressure",
+          "time": 120
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 160
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 200
+        },
+        {
+          "accepted": false,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "gap",
+          "time": 1200
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 1240
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 1280
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 1320
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "sustained-pressure",
+          "time": 1360
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "pressure",
+          "count": 4,
+          "endTime": 1360,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 28,
+          "meanMs": 28,
+          "minMs": 28,
+          "pressureSamples": 4,
+          "startTime": 1240
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 1360,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 1,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 3,
+        "applied": "full",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.5,
+          "maxPixels": 600000,
+          "segments": 96,
+          "strands": 16
+        },
+        "canvasAvailable": true,
+        "cssHeight": 420,
+        "cssWidth": 711.328125,
+        "draws": 857,
+        "height": 595,
+        "pixels": 599760,
+        "width": 1008
+      },
+      "live": false,
+      "liveElapsed": 5994.099999952305,
+      "observed": 11,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 1,
+      "selected": "gap",
+      "solid": false,
+      "source": "deterministic synthetic fixture",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "invalid": false,
+    "invalidState": {
+      "config": {
+        "cooldownMs": 120,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 250,
+        "recoveryWindows": 6,
+        "targetMs": 16.67,
+        "windowSize": 4
+      },
+      "decision": null,
+      "events": [],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 0,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": null,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 0,
+        "applied": "full",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.5,
+          "maxPixels": 600000,
+          "segments": 96,
+          "strands": 16
+        },
+        "canvasAvailable": true,
+        "cssHeight": 420,
+        "cssWidth": 711.328125,
+        "draws": 418,
+        "height": 595,
+        "pixels": 599760,
+        "width": 1008
+      },
+      "live": false,
+      "liveElapsed": 0,
+      "observed": 0,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "deterministic synthetic fixture",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "lockAfterResize": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 2483.4000000000233,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 319480.3,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 2,
+        "previousLevel": "balanced",
+        "reason": "manual-lock",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 319463.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 319480.3
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 2483.4000000000233,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 319480.3,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 2,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 1,
+        "applied": "balanced",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.25,
+          "maxPixels": 360000,
+          "segments": 72,
+          "strands": 12
+        },
+        "canvasAvailable": true,
+        "cssHeight": 302,
+        "cssWidth": 711.328125,
+        "draws": 490,
+        "height": 377,
+        "pixels": 335153,
+        "width": 889
+      },
+      "live": true,
+      "liveElapsed": 1133.1999999761465,
+      "observed": 2,
+      "pendingFrame": true,
+      "pendingStopTimer": true,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "nativeCompleted": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 325712.3,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.399999999965075,
+          "meanMs": 16.669999999999224,
+          "minMs": 14.799999999988358,
+          "pressureSamples": 0,
+          "startTime": 325230.4
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 325712.3,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "previousLevel": "full",
+        "reason": "neutral",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324530.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324547
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324563.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324580.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 324596.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.899999999965075,
+          "reason": "collecting",
+          "time": 324611.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.5,
+          "reason": "collecting",
+          "time": 324630.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.100000000034925,
+          "reason": "collecting",
+          "time": 324645.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.29999999998836,
+          "reason": "collecting",
+          "time": 324663.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324680.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324697
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "neutral",
+          "time": 324713.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324730.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "collecting",
+          "time": 324746.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 324763.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324780.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324797
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324813.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.299999999988358,
+          "reason": "collecting",
+          "time": 324829
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18,
+          "reason": "collecting",
+          "time": 324847
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324863.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324880.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324897
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324913.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324930.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.29999999998836,
+          "reason": "collecting",
+          "time": 324946.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.300000000046566,
+          "reason": "collecting",
+          "time": 324962.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.5,
+          "reason": "collecting",
+          "time": 324980.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324997
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325013.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325030.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.200000000011642,
+          "reason": "collecting",
+          "time": 325045.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325063.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "collecting",
+          "time": 325078.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.5,
+          "reason": "collecting",
+          "time": 325097
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325113.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.300000000046566,
+          "reason": "collecting",
+          "time": 325128.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325147
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325163.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325180.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325197
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.200000000011642,
+          "reason": "neutral",
+          "time": 325212.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.20000000001164,
+          "reason": "collecting",
+          "time": 325230.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.799999999988358,
+          "reason": "collecting",
+          "time": 325245.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.399999999965075,
+          "reason": "collecting",
+          "time": 325263.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325280.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325297
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325313.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.5,
+          "reason": "collecting",
+          "time": 325329.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "collecting",
+          "time": 325345.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 325361.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325378.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.29999999998836,
+          "reason": "collecting",
+          "time": 325396.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.300000000046566,
+          "reason": "collecting",
+          "time": 325411.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 325428.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.300000000046566,
+          "reason": "collecting",
+          "time": 325446.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.099999999976717,
+          "reason": "collecting",
+          "time": 325462
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.29999999998836,
+          "reason": "collecting",
+          "time": 325479.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.100000000034925,
+          "reason": "collecting",
+          "time": 325495.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.699999999953434,
+          "reason": "collecting",
+          "time": 325513.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.900000000023283,
+          "reason": "collecting",
+          "time": 325529
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.099999999976717,
+          "reason": "collecting",
+          "time": 325546.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.5,
+          "reason": "collecting",
+          "time": 325563.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.800000000046566,
+          "reason": "collecting",
+          "time": 325578.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.099999999976717,
+          "reason": "collecting",
+          "time": 325595.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325613.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "collecting",
+          "time": 325630.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.800000000046566,
+          "reason": "collecting",
+          "time": 325645.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.699999999953434,
+          "reason": "collecting",
+          "time": 325663.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "collecting",
+          "time": 325678.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.70000000001164,
+          "reason": "collecting",
+          "time": 325696.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.099999999976717,
+          "reason": "neutral",
+          "time": 325712.3
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 325712.3,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.399999999965075,
+          "meanMs": 16.669999999999224,
+          "minMs": 14.799999999988358,
+          "pressureSamples": 0,
+          "startTime": 325230.4
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 325712.3,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 1,
+        "applied": "full",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.5,
+          "maxPixels": 600000,
+          "segments": 96,
+          "strands": 16
+        },
+        "canvasAvailable": true,
+        "cssHeight": 420,
+        "cssWidth": 711.328125,
+        "draws": 855,
+        "height": 595,
+        "pixels": 599760,
+        "width": 1008
+      },
+      "live": false,
+      "liveElapsed": 5994.099999952305,
+      "observed": 360,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "nativeIdle": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 325712.3,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.399999999965075,
+          "meanMs": 16.669999999999224,
+          "minMs": 14.799999999988358,
+          "pressureSamples": 0,
+          "startTime": 325230.4
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 325712.3,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "previousLevel": "full",
+        "reason": "neutral",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324530.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324547
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324563.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324580.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 324596.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.899999999965075,
+          "reason": "collecting",
+          "time": 324611.8
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.5,
+          "reason": "collecting",
+          "time": 324630.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.100000000034925,
+          "reason": "collecting",
+          "time": 324645.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.29999999998836,
+          "reason": "collecting",
+          "time": 324663.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324680.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324697
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "neutral",
+          "time": 324713.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324730.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "collecting",
+          "time": 324746.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 324763.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324780.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324797
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324813.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.299999999988358,
+          "reason": "collecting",
+          "time": 324829
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18,
+          "reason": "collecting",
+          "time": 324847
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324863.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324880.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324897
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 324913.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324930.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.29999999998836,
+          "reason": "collecting",
+          "time": 324946.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.300000000046566,
+          "reason": "collecting",
+          "time": 324962.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.5,
+          "reason": "collecting",
+          "time": 324980.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 324997
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325013.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325030.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.200000000011642,
+          "reason": "collecting",
+          "time": 325045.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325063.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "collecting",
+          "time": 325078.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.5,
+          "reason": "collecting",
+          "time": 325097
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325113.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.300000000046566,
+          "reason": "collecting",
+          "time": 325128.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325147
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325163.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325180.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325197
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.200000000011642,
+          "reason": "neutral",
+          "time": 325212.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.20000000001164,
+          "reason": "collecting",
+          "time": 325230.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.799999999988358,
+          "reason": "collecting",
+          "time": 325245.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.399999999965075,
+          "reason": "collecting",
+          "time": 325263.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325280.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "collecting",
+          "time": 325297
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325313.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.5,
+          "reason": "collecting",
+          "time": 325329.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16,
+          "reason": "collecting",
+          "time": 325345.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.600000000034925,
+          "reason": "collecting",
+          "time": 325361.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "collecting",
+          "time": 325378.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.29999999998836,
+          "reason": "collecting",
+          "time": 325396.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.300000000046566,
+          "reason": "collecting",
+          "time": 325411.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.699999999953434,
+          "reason": "collecting",
+          "time": 325428.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.300000000046566,
+          "reason": "collecting",
+          "time": 325446.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.099999999976717,
+          "reason": "collecting",
+          "time": 325462
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.29999999998836,
+          "reason": "collecting",
+          "time": 325479.3
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.100000000034925,
+          "reason": "collecting",
+          "time": 325495.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.699999999953434,
+          "reason": "collecting",
+          "time": 325513.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.900000000023283,
+          "reason": "collecting",
+          "time": 325529
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.099999999976717,
+          "reason": "collecting",
+          "time": 325546.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.5,
+          "reason": "collecting",
+          "time": 325563.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.800000000046566,
+          "reason": "collecting",
+          "time": 325578.4
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.099999999976717,
+          "reason": "collecting",
+          "time": 325595.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 18.099999999976717,
+          "reason": "collecting",
+          "time": 325613.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.5,
+          "reason": "collecting",
+          "time": 325630.1
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 15.800000000046566,
+          "reason": "collecting",
+          "time": 325645.9
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.699999999953434,
+          "reason": "collecting",
+          "time": 325663.6
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 14.900000000023283,
+          "reason": "collecting",
+          "time": 325678.5
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 17.70000000001164,
+          "reason": "collecting",
+          "time": 325696.2
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.099999999976717,
+          "reason": "neutral",
+          "time": 325712.3
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 0,
+        "evidence": {
+          "classification": "neutral",
+          "count": 30,
+          "endTime": 325712.3,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 18.399999999965075,
+          "meanMs": 16.669999999999224,
+          "minMs": 14.799999999988358,
+          "pressureSamples": 0,
+          "startTime": 325230.4
+        },
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": 325712.3,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 1,
+        "applied": "full",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.5,
+          "maxPixels": 600000,
+          "segments": 96,
+          "strands": 16
+        },
+        "canvasAvailable": true,
+        "cssHeight": 420,
+        "cssWidth": 711.328125,
+        "draws": 855,
+        "height": 595,
+        "pixels": 599760,
+        "width": 1008
+      },
+      "live": false,
+      "liveElapsed": 5994.099999952305,
+      "observed": 360,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "noReplay": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 2483.4000000000233,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 319480.3,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 2,
+        "previousLevel": "balanced",
+        "reason": "manual-lock",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 319463.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 319480.3
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 2483.4000000000233,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 319480.3,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 2,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 1,
+        "applied": "balanced",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.25,
+          "maxPixels": 360000,
+          "segments": 72,
+          "strands": 12
+        },
+        "canvasAvailable": true,
+        "cssHeight": 302,
+        "cssWidth": 711.328125,
+        "draws": 491,
+        "height": 377,
+        "pixels": 335153,
+        "width": 889
+      },
+      "live": false,
+      "liveElapsed": 1133.1999999761465,
+      "observed": 2,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "quiet": {
+      "config": {
+        "cooldownMs": 2500,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 1000,
+        "recoveryWindows": 8,
+        "targetMs": 16.67,
+        "windowSize": 30
+      },
+      "decision": {
+        "accepted": true,
+        "action": "hold",
+        "cooldownRemainingMs": 2483.4000000000233,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 319480.3,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 2,
+        "previousLevel": "balanced",
+        "reason": "manual-lock",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.70000000001164,
+          "reason": "manual-lock",
+          "time": 319463.7
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 16.599999999976717,
+          "reason": "manual-lock",
+          "time": 319480.3
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 2483.4000000000233,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "reset",
+          "evidence": null,
+          "level": "balanced",
+          "previousLevel": "balanced",
+          "reason": "reset",
+          "time": null
+        },
+        "lastTime": 319480.3,
+        "level": "balanced",
+        "locked": true,
+        "overloadWindows": 0,
+        "pendingSamples": 2,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 1,
+        "applied": "balanced",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.25,
+          "maxPixels": 360000,
+          "segments": 72,
+          "strands": 12
+        },
+        "canvasAvailable": true,
+        "cssHeight": 302,
+        "cssWidth": 711.328125,
+        "draws": 491,
+        "height": 377,
+        "pixels": 335153,
+        "width": 889
+      },
+      "live": false,
+      "liveElapsed": 1133.1999999761465,
+      "observed": 2,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": true,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": false,
+      "source": "native frame-cadence",
+      "systemReduced": false,
+      "tourStep": ""
+    }
+  },
+  "preferences": {
+    "noReplay": {
+      "config": {
+        "cooldownMs": 120,
+        "downgradeWindows": 2,
+        "initialLevel": "full",
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 250,
+        "recoveryWindows": 6,
+        "targetMs": 16.67,
+        "windowSize": 4
+      },
+      "decision": {
+        "accepted": true,
+        "action": "downgrade",
+        "cooldownRemainingMs": 120,
+        "evidence": {
+          "classification": "pressure",
+          "count": 4,
+          "endTime": 280,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 28,
+          "meanMs": 28,
+          "minMs": 28,
+          "pressureSamples": 4,
+          "startTime": 160
+        },
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "downgrade",
+          "evidence": {
+            "classification": "pressure",
+            "count": 4,
+            "endTime": 280,
+            "headroomSamples": 0,
+            "kind": "frame-cadence",
+            "maxMs": 28,
+            "meanMs": 28,
+            "minMs": 28,
+            "pressureSamples": 4,
+            "startTime": 160
+          },
+          "level": "balanced",
+          "previousLevel": "full",
+          "reason": "sustained-pressure",
+          "time": 280
+        },
+        "lastTime": 280,
+        "level": "balanced",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "previousLevel": "full",
+        "reason": "sustained-pressure",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 0
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 40
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 80
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "sustained-pressure",
+          "time": 120
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 160
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 200
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 240
+        },
+        {
+          "accepted": true,
+          "action": "downgrade",
+          "milliseconds": 28,
+          "reason": "sustained-pressure",
+          "time": 280
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 120,
+        "evidence": {
+          "classification": "pressure",
+          "count": 4,
+          "endTime": 280,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 28,
+          "meanMs": 28,
+          "minMs": 28,
+          "pressureSamples": 4,
+          "startTime": 160
+        },
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "downgrade",
+          "evidence": {
+            "classification": "pressure",
+            "count": 4,
+            "endTime": 280,
+            "headroomSamples": 0,
+            "kind": "frame-cadence",
+            "maxMs": 28,
+            "meanMs": 28,
+            "minMs": 28,
+            "pressureSamples": 4,
+            "startTime": 160
+          },
+          "level": "balanced",
+          "previousLevel": "full",
+          "reason": "sustained-pressure",
+          "time": 280
+        },
+        "lastTime": 280,
+        "level": "balanced",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 2,
+        "applied": "balanced",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.25,
+          "maxPixels": 360000,
+          "segments": 72,
+          "strands": 12
+        },
+        "canvasAvailable": true,
+        "cssHeight": 405,
+        "cssWidth": 458.671875,
+        "draws": 881,
+        "height": 506,
+        "pixels": 289938,
+        "width": 573
+      },
+      "live": false,
+      "liveElapsed": 0,
+      "observed": 8,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "rejected": 0,
+      "selected": "overload",
+      "solid": true,
+      "source": "deterministic synthetic fixture",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "noRun": false,
+    "quiet": {
+      "config": {
+        "cooldownMs": 120,
+        "downgradeWindows": 2,
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 250,
+        "recoveryWindows": 6,
+        "targetMs": 16.67,
+        "windowSize": 4
+      },
+      "decision": null,
+      "events": [],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 0,
+        "evidence": null,
+        "kind": "frame-cadence",
+        "lastAction": null,
+        "lastTime": null,
+        "level": "full",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 1,
+        "applied": "full",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.5,
+          "maxPixels": 600000,
+          "segments": 96,
+          "strands": 16
+        },
+        "canvasAvailable": true,
+        "cssHeight": 405,
+        "cssWidth": 458.671875,
+        "draws": 880,
+        "height": 607,
+        "pixels": 417616,
+        "width": 688
+      },
+      "live": false,
+      "liveElapsed": 0,
+      "observed": 0,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": true,
+      "rejected": 0,
+      "selected": "baseline",
+      "solid": true,
+      "source": "deterministic synthetic fixture",
+      "systemReduced": false,
+      "tourStep": ""
+    },
+    "solid": {
+      "focus": "target",
+      "pressed": "true",
+      "state": {
+        "config": {
+          "cooldownMs": 120,
+          "downgradeWindows": 2,
+          "kind": "frame-cadence",
+          "levels": [
+            "economy",
+            "balanced",
+            "full"
+          ],
+          "maxGapMs": 250,
+          "recoveryWindows": 6,
+          "targetMs": 16.67,
+          "windowSize": 4
+        },
+        "decision": null,
+        "events": [],
+        "focus": "target",
+        "governor": {
+          "cooldownRemainingMs": 0,
+          "evidence": null,
+          "kind": "frame-cadence",
+          "lastAction": null,
+          "lastTime": null,
+          "level": "full",
+          "locked": false,
+          "overloadWindows": 0,
+          "pendingSamples": 0,
+          "recoveryWindows": 0
+        },
+        "host": {
+          "applications": 1,
+          "applied": "full",
+          "apply": true,
+          "budget": {
+            "maxDpr": 1.5,
+            "maxPixels": 600000,
+            "segments": 96,
+            "strands": 16
+          },
+          "canvasAvailable": true,
+          "cssHeight": 405,
+          "cssWidth": 458.671875,
+          "draws": 879,
+          "height": 607,
+          "pixels": 417616,
+          "width": 688
+        },
+        "live": false,
+        "liveElapsed": 0,
+        "observed": 0,
+        "pendingFrame": false,
+        "pendingStopTimer": false,
+        "pendingTourSteps": 0,
+        "quiet": false,
+        "rejected": 0,
+        "selected": "baseline",
+        "solid": true,
+        "source": "deterministic synthetic fixture",
+        "systemReduced": false,
+        "tourStep": ""
+      },
+      "target": "18.42",
+      "transparency": null,
+      "nativeStyleVerification": {
+        "data-lg-solid": "true",
+        "backdropFilter": "none",
+        "focus": "target",
+        "value": "18.42",
+        "idle": true
+      }
+    },
+    "staticFixture": {
+      "config": {
+        "cooldownMs": 120,
+        "downgradeWindows": 2,
+        "initialLevel": "full",
+        "kind": "frame-cadence",
+        "levels": [
+          "economy",
+          "balanced",
+          "full"
+        ],
+        "maxGapMs": 250,
+        "recoveryWindows": 6,
+        "targetMs": 16.67,
+        "windowSize": 4
+      },
+      "decision": {
+        "accepted": true,
+        "action": "downgrade",
+        "cooldownRemainingMs": 120,
+        "evidence": {
+          "classification": "pressure",
+          "count": 4,
+          "endTime": 280,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 28,
+          "meanMs": 28,
+          "minMs": 28,
+          "pressureSamples": 4,
+          "startTime": 160
+        },
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "downgrade",
+          "evidence": {
+            "classification": "pressure",
+            "count": 4,
+            "endTime": 280,
+            "headroomSamples": 0,
+            "kind": "frame-cadence",
+            "maxMs": 28,
+            "meanMs": 28,
+            "minMs": 28,
+            "pressureSamples": 4,
+            "startTime": 160
+          },
+          "level": "balanced",
+          "previousLevel": "full",
+          "reason": "sustained-pressure",
+          "time": 280
+        },
+        "lastTime": 280,
+        "level": "balanced",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "previousLevel": "full",
+        "reason": "sustained-pressure",
+        "recoveryWindows": 0
+      },
+      "events": [
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 0
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 40
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 80
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "sustained-pressure",
+          "time": 120
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 160
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 200
+        },
+        {
+          "accepted": true,
+          "action": "hold",
+          "milliseconds": 28,
+          "reason": "collecting",
+          "time": 240
+        },
+        {
+          "accepted": true,
+          "action": "downgrade",
+          "milliseconds": 28,
+          "reason": "sustained-pressure",
+          "time": 280
+        }
+      ],
+      "focus": "target",
+      "governor": {
+        "cooldownRemainingMs": 120,
+        "evidence": {
+          "classification": "pressure",
+          "count": 4,
+          "endTime": 280,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 28,
+          "meanMs": 28,
+          "minMs": 28,
+          "pressureSamples": 4,
+          "startTime": 160
+        },
+        "kind": "frame-cadence",
+        "lastAction": {
+          "action": "downgrade",
+          "evidence": {
+            "classification": "pressure",
+            "count": 4,
+            "endTime": 280,
+            "headroomSamples": 0,
+            "kind": "frame-cadence",
+            "maxMs": 28,
+            "meanMs": 28,
+            "minMs": 28,
+            "pressureSamples": 4,
+            "startTime": 160
+          },
+          "level": "balanced",
+          "previousLevel": "full",
+          "reason": "sustained-pressure",
+          "time": 280
+        },
+        "lastTime": 280,
+        "level": "balanced",
+        "locked": false,
+        "overloadWindows": 0,
+        "pendingSamples": 0,
+        "recoveryWindows": 0
+      },
+      "host": {
+        "applications": 2,
+        "applied": "balanced",
+        "apply": true,
+        "budget": {
+          "maxDpr": 1.25,
+          "maxPixels": 360000,
+          "segments": 72,
+          "strands": 12
+        },
+        "canvasAvailable": true,
+        "cssHeight": 405,
+        "cssWidth": 458.671875,
+        "draws": 881,
+        "height": 506,
+        "pixels": 289938,
+        "width": 573
+      },
+      "live": false,
+      "liveElapsed": 0,
+      "observed": 8,
+      "pendingFrame": false,
+      "pendingStopTimer": false,
+      "pendingTourSteps": 0,
+      "quiet": true,
+      "rejected": 0,
+      "selected": "overload",
+      "solid": true,
+      "source": "deterministic synthetic fixture",
+      "systemReduced": false,
+      "tourStep": ""
+    }
+  },
+  "claims": {
+    "fixture": "Seven isolated deterministic synthetic policy contexts with four-sample windows. Their 28ms/7ms values are not native measurements.",
+    "native": "Fresh 30-sample-window context, finite six-second native RAF cadence only. Last72 duration events retained, observed total360 in independent complete run.",
+    "timing": "Cadence includes scheduling/refresh/CPU/host work; not GPU elapsed time.",
+    "rendering": "Original Canvas2D host explicitly maps requested tiers to real bounded buffers/vertices. Mapping declined proves requested != applied.",
+    "idle": "After six-second run pendingFrame=false, pendingStopTimer=false and draws unchanged through100ms idle check."
+  }
+}

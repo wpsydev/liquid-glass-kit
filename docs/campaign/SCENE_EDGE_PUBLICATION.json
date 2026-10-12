@@ -1,0 +1,148 @@
+{
+  "version": "0.49.0-preview.1",
+  "commit": "1852a9aac28627fa6ed7b250409777c6ea391dfe",
+  "workflows": {
+    "runs": [
+      {
+        "id": 38213969451,
+        "name": "Publish playground",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38213967893,
+        "name": "Verify",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38213967872,
+        "name": "Publish preview release",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "tests": 1081,
+    "testFiles": 52
+  },
+  "archive": {
+    "members": 208,
+    "bytes": 454261,
+    "sha256": "dd94644cfea31b1826b6497f7f173c64fddbb416c78e98fc5edcc590b6bfacca"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/edges/",
+    "native": {
+      "focus": "compare",
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1425,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03175717396249716,
+          "pixels": 153855,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 153855,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 585
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 153855,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 585
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    "scope": "Actual native Compare selects pixel optics with retained focus and source upload1; real readback differences and zero GL errors, not quality score or GPU timing"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109535951932301728",
+    "replies": [
+      "https://x.com/wpsygames/status/2109536546797818160",
+      "https://x.com/wpsygames/status/2109536757817434581"
+    ],
+    "upload": {
+      "bytes": 1222196,
+      "sha256": "1fc6464eb084b8ac173c5d3c1f84eef2bc666346a469f469f61cd6ae37128fee"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "ready": 4
+    },
+    "replyReadback": true
+  },
+  "npmRegistry": "pending"
+}

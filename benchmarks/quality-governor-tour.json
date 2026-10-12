@@ -1,0 +1,419 @@
+{
+  "schema": 1,
+  "complete": true,
+  "density": "recording-only 960px static camera CSS, below-the-fold policy prose, native runner, fixture selector and secondary interval/motion readbacks hidden for the finite fixture tour; source labels, actual native controls, fixture evidence and requested/applied remain visible",
+  "final": {
+    "config": {
+      "cooldownMs": 120,
+      "downgradeWindows": 2,
+      "initialLevel": "full",
+      "kind": "frame-cadence",
+      "levels": [
+        "economy",
+        "balanced",
+        "full"
+      ],
+      "maxGapMs": 250,
+      "recoveryWindows": 6,
+      "targetMs": 16.67,
+      "windowSize": 4
+    },
+    "decision": {
+      "accepted": false,
+      "action": "manual",
+      "cooldownRemainingMs": 120,
+      "evidence": null,
+      "kind": "frame-cadence",
+      "lastAction": {
+        "action": "manual",
+        "evidence": null,
+        "level": "economy",
+        "previousLevel": "full",
+        "reason": "manual-lock",
+        "time": null
+      },
+      "lastTime": 1360,
+      "level": "economy",
+      "locked": true,
+      "overloadWindows": 0,
+      "pendingSamples": 0,
+      "previousLevel": "full",
+      "reason": "manual-lock",
+      "recoveryWindows": 0
+    },
+    "events": [
+      {
+        "accepted": true,
+        "action": "hold",
+        "milliseconds": 28,
+        "reason": "collecting",
+        "time": 0
+      },
+      {
+        "accepted": true,
+        "action": "hold",
+        "milliseconds": 28,
+        "reason": "collecting",
+        "time": 40
+      },
+      {
+        "accepted": true,
+        "action": "hold",
+        "milliseconds": 28,
+        "reason": "collecting",
+        "time": 80
+      },
+      {
+        "accepted": true,
+        "action": "hold",
+        "milliseconds": 28,
+        "reason": "sustained-pressure",
+        "time": 120
+      },
+      {
+        "accepted": true,
+        "action": "hold",
+        "milliseconds": 28,
+        "reason": "collecting",
+        "time": 160
+      },
+      {
+        "accepted": true,
+        "action": "hold",
+        "milliseconds": 28,
+        "reason": "collecting",
+        "time": 200
+      },
+      {
+        "accepted": false,
+        "action": "hold",
+        "milliseconds": 28,
+        "reason": "gap",
+        "time": 1200
+      },
+      {
+        "accepted": true,
+        "action": "hold",
+        "milliseconds": 28,
+        "reason": "collecting",
+        "time": 1240
+      },
+      {
+        "accepted": true,
+        "action": "hold",
+        "milliseconds": 28,
+        "reason": "collecting",
+        "time": 1280
+      },
+      {
+        "accepted": true,
+        "action": "hold",
+        "milliseconds": 28,
+        "reason": "collecting",
+        "time": 1320
+      },
+      {
+        "accepted": true,
+        "action": "hold",
+        "milliseconds": 28,
+        "reason": "sustained-pressure",
+        "time": 1360
+      }
+    ],
+    "focus": "BODY",
+    "governor": {
+      "cooldownRemainingMs": 120,
+      "evidence": null,
+      "kind": "frame-cadence",
+      "lastAction": {
+        "action": "manual",
+        "evidence": null,
+        "level": "economy",
+        "previousLevel": "full",
+        "reason": "manual-lock",
+        "time": null
+      },
+      "lastTime": 1360,
+      "level": "economy",
+      "locked": true,
+      "overloadWindows": 0,
+      "pendingSamples": 0,
+      "recoveryWindows": 0
+    },
+    "host": {
+      "applications": 9,
+      "applied": "economy",
+      "apply": true,
+      "budget": {
+        "maxDpr": 1,
+        "maxPixels": 180000,
+        "segments": 48,
+        "strands": 8
+      },
+      "canvasAvailable": true,
+      "cssHeight": 405,
+      "cssWidth": 458.671875,
+      "draws": 877,
+      "height": 398,
+      "pixels": 179498,
+      "width": 451
+    },
+    "live": false,
+    "liveElapsed": 0,
+    "observed": 11,
+    "pendingFrame": false,
+    "pendingStopTimer": false,
+    "pendingTourSteps": 0,
+    "quiet": false,
+    "rejected": 1,
+    "selected": "gap",
+    "solid": false,
+    "source": "deterministic synthetic fixture",
+    "systemReduced": false,
+    "tourStep": ""
+  },
+  "frames": [
+    {
+      "action": null,
+      "applied": "full",
+      "decision": "neutral",
+      "evidence": {
+        "classification": "neutral",
+        "count": 4,
+        "endTime": 280,
+        "headroomSamples": 0,
+        "kind": "frame-cadence",
+        "maxMs": 240,
+        "meanMs": 72,
+        "minMs": 16,
+        "pressureSamples": 1,
+        "startTime": 160
+      },
+      "level": "full",
+      "pendingFrame": false,
+      "pixels": 417616,
+      "selected": "spike",
+      "source": "deterministic synthetic fixture",
+      "step": "01 / isolated spikes are not sustained load",
+      "time": 484026
+    },
+    {
+      "action": {
+        "action": "downgrade",
+        "evidence": {
+          "classification": "pressure",
+          "count": 4,
+          "endTime": 280,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 28,
+          "meanMs": 28,
+          "minMs": 28,
+          "pressureSamples": 4,
+          "startTime": 160
+        },
+        "level": "balanced",
+        "previousLevel": "full",
+        "reason": "sustained-pressure",
+        "time": 280
+      },
+      "applied": "balanced",
+      "decision": "sustained-pressure",
+      "evidence": {
+        "classification": "pressure",
+        "count": 4,
+        "endTime": 280,
+        "headroomSamples": 0,
+        "kind": "frame-cadence",
+        "maxMs": 28,
+        "meanMs": 28,
+        "minMs": 28,
+        "pressureSamples": 4,
+        "startTime": 160
+      },
+      "level": "balanced",
+      "pendingFrame": false,
+      "pixels": 289938,
+      "selected": "overload",
+      "source": "deterministic synthetic fixture",
+      "step": "02 / a one-level decision, actually host-applied",
+      "time": 485728.7000000477
+    },
+    {
+      "action": {
+        "action": "downgrade",
+        "evidence": {
+          "classification": "pressure",
+          "count": 4,
+          "endTime": 280,
+          "headroomSamples": 0,
+          "kind": "frame-cadence",
+          "maxMs": 28,
+          "meanMs": 28,
+          "minMs": 28,
+          "pressureSamples": 4,
+          "startTime": 160
+        },
+        "level": "balanced",
+        "previousLevel": "full",
+        "reason": "sustained-pressure",
+        "time": 280
+      },
+      "applied": "balanced",
+      "decision": "cooldown",
+      "evidence": null,
+      "level": "balanced",
+      "pendingFrame": false,
+      "pixels": 289938,
+      "selected": "cooldown",
+      "source": "deterministic synthetic fixture",
+      "step": "03 / cooldown discards adaptation evidence",
+      "time": 487328.90000009537
+    },
+    {
+      "action": {
+        "action": "upgrade",
+        "evidence": {
+          "classification": "headroom",
+          "count": 4,
+          "endTime": 920,
+          "headroomSamples": 4,
+          "kind": "frame-cadence",
+          "maxMs": 7,
+          "meanMs": 7,
+          "minMs": 7,
+          "pressureSamples": 0,
+          "startTime": 800
+        },
+        "level": "balanced",
+        "previousLevel": "economy",
+        "reason": "stable-recovery",
+        "time": 920
+      },
+      "applied": "balanced",
+      "decision": "stable-recovery",
+      "evidence": {
+        "classification": "headroom",
+        "count": 4,
+        "endTime": 920,
+        "headroomSamples": 4,
+        "kind": "frame-cadence",
+        "maxMs": 7,
+        "meanMs": 7,
+        "minMs": 7,
+        "pressureSamples": 0,
+        "startTime": 800
+      },
+      "level": "balanced",
+      "pendingFrame": false,
+      "pixels": 289938,
+      "selected": "recovery",
+      "source": "deterministic synthetic fixture",
+      "step": "04 / deliberately slower recovery",
+      "time": 488928.10000002384
+    },
+    {
+      "action": {
+        "action": "manual",
+        "evidence": null,
+        "level": "balanced",
+        "previousLevel": "full",
+        "reason": "manual-lock",
+        "time": null
+      },
+      "applied": "balanced",
+      "decision": "manual-lock",
+      "evidence": {
+        "classification": "pressure",
+        "count": 4,
+        "endTime": 440,
+        "headroomSamples": 0,
+        "kind": "frame-cadence",
+        "maxMs": 28,
+        "meanMs": 28,
+        "minMs": 28,
+        "pressureSamples": 4,
+        "startTime": 320
+      },
+      "level": "balanced",
+      "pendingFrame": false,
+      "pixels": 289938,
+      "selected": "manual",
+      "source": "deterministic synthetic fixture",
+      "step": "05 / pressure cannot override a manual hold",
+      "time": 490528.8000000715
+    },
+    {
+      "action": null,
+      "applied": "full",
+      "decision": "sustained-pressure",
+      "evidence": {
+        "classification": "pressure",
+        "count": 4,
+        "endTime": 1360,
+        "headroomSamples": 0,
+        "kind": "frame-cadence",
+        "maxMs": 28,
+        "meanMs": 28,
+        "minMs": 28,
+        "pressureSamples": 4,
+        "startTime": 1240
+      },
+      "level": "full",
+      "pendingFrame": false,
+      "pixels": 417616,
+      "selected": "gap",
+      "source": "deterministic synthetic fixture",
+      "step": "06 / resumed gaps clear stale pressure",
+      "time": 492128.8000000715
+    },
+    {
+      "action": {
+        "action": "manual",
+        "evidence": null,
+        "level": "economy",
+        "previousLevel": "full",
+        "reason": "manual-lock",
+        "time": null
+      },
+      "applied": "full",
+      "decision": "manual-lock",
+      "evidence": null,
+      "level": "economy",
+      "pendingFrame": false,
+      "pixels": 417616,
+      "selected": "gap",
+      "source": "deterministic synthetic fixture",
+      "step": "Host owns rendering / requested is distinct from applied",
+      "time": 493428.7000000477
+    },
+    {
+      "action": {
+        "action": "manual",
+        "evidence": null,
+        "level": "economy",
+        "previousLevel": "full",
+        "reason": "manual-lock",
+        "time": null
+      },
+      "applied": "economy",
+      "decision": "manual-lock",
+      "evidence": null,
+      "level": "economy",
+      "pendingFrame": false,
+      "pixels": 179498,
+      "selected": "gap",
+      "source": "deterministic synthetic fixture",
+      "step": "",
+      "time": 494528.2000000477
+    }
+  ],
+  "nativeRecording": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-7303e728-c1b9-425b-a023-84d699f6e876-mp4",
+    "tabId": "tab_4r",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-7303e728-c1b9-425b-a023-84d699f6e876-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 441885,
+    "createdAt": "2026-10-12T05:34:47.317Z"
+  }
+}

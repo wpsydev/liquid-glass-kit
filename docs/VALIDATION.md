@@ -580,3 +580,11 @@ Integrated npm run check passed1,176tests/54files including queued prototypes. F
 Measured optional scene10,959→11,452gzip (+493), scene-texture14,471→14,962 (+491); all9legacy GLSL hashes unchanged. No free coverage/GPU/FPS/speedup claim. Original12s960square360-frame144BPM two-step film SHA2561fc6464eb084b8ac173c5d3c1f84eef2bc666346a469f469f61cd6ae37128fee; native finite tour, original source, readback sample timing and camera CSS disclosed; full decode/four-frame review passed.
 
 Integrated npm run check passed1,195tests/55files including queued prototypes; final site build and npm pack --dry-run passed208members/454213bytes after guide integration. Published-scope CI follows release.
+
+## 0.50.0 quality policy (2026-10-12)
+
+70focused governor tests; actual35desktop viewport states44pxcontrols/16pxfields/noflow. Syntheticcondensed threshold fixtures explicitly separate from6s native frame-cadence run360observations/last72bounded; actualgeometry420→300 resetsoldlive evidence but manualhold retained. Native cadence notGPUtime; no physicalphones/Safari/ATcertification. Purepayload5837raw2275gzip;2k-sample CPUbatch median1.723p952.363ms excludesrendering. NoGPU/FPS/speedupclaim.
+
+Original649625-byte12s960square360frame104BPM clavinet/brushed jazz-funk61 SHA256073a3611aead9956f01104d9cc10734dbc79ba8ea93e40cab8c4686cd7910978; finite10.85nativecapture+1.15hold/323uniqueframes/three-reviewed/full decodepassed. Film illustrates labeledsyntheticpolicy ratherthanGPUbenchmark.
+
+Integrated npm run check passed1,195tests/55files including queued prototypes. npm pack --dry-run passed211members/462348bytes, public export and SSR checks passed. Published-scope CI follows release.

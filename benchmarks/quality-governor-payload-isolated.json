@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "sourceSha256": "addd9d47bd3df155c01b845b5190e1113f7dc8946593b97891389948f4b4c9a3",
+  "environment": {
+    "node": "v24.21.0",
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "payload": {
+    "standaloneMinifiedBytes": 5837,
+    "gzipBytes": 2275,
+    "sha256": "0818e23b08acffd4e943d1118914ae9afa5beb7a7b27b04e4be8d8f9fcfe0d4f",
+    "scope": "one optional zero-dependency IIFE entry, not npm package or a network/load-time measurement"
+  },
+  "cpu": {
+    "batches": 100,
+    "samplesPerBatch": 2000,
+    "warmupBatches": 20,
+    "medianBatchMs": 1.830357000000049,
+    "p95BatchMs": 3.719176999999945,
+    "medianMicrosecondsPerSample": 0.9151785000000245,
+    "scope": "pure governor.sample synchronous CPU, including strict input copies/frozen decisions, excludes create/DOM/Canvas/RAF/layout/paint/GPU"
+  },
+  "timingKindContract": {
+    "cadence": {
+      "level": "full",
+      "locked": false,
+      "kind": "frame-cadence",
+      "pendingSamples": 1,
+      "overloadWindows": 0,
+      "recoveryWindows": 0,
+      "lastTime": 0,
+      "cooldownRemainingMs": 0,
+      "evidence": null,
+      "lastAction": null,
+      "previousLevel": "full",
+      "action": "hold",
+      "reason": "collecting",
+      "accepted": true
+    },
+    "wrongKind": {
+      "level": "full",
+      "locked": false,
+      "kind": "gpu-elapsed",
+      "pendingSamples": 0,
+      "overloadWindows": 0,
+      "recoveryWindows": 0,
+      "lastTime": 0,
+      "cooldownRemainingMs": 0,
+      "evidence": null,
+      "lastAction": null,
+      "previousLevel": "full",
+      "action": "hold",
+      "reason": "kind-mismatch",
+      "accepted": false
+    },
+    "gpu": {
+      "level": "full",
+      "locked": false,
+      "kind": "gpu-elapsed",
+      "pendingSamples": 1,
+      "overloadWindows": 0,
+      "recoveryWindows": 0,
+      "lastTime": 17,
+      "cooldownRemainingMs": 0,
+      "evidence": null,
+      "lastAction": null,
+      "previousLevel": "full",
+      "action": "hold",
+      "reason": "collecting",
+      "accepted": true
+    },
+    "independent": {
+      "level": "full",
+      "locked": false,
+      "kind": "frame-cadence",
+      "pendingSamples": 1,
+      "overloadWindows": 0,
+      "recoveryWindows": 0,
+      "lastTime": 0,
+      "cooldownRemainingMs": 0,
+      "evidence": null,
+      "lastAction": null
+    }
+  },
+  "claims": "No GPU elapsed queries, FPS or automatic rendering speedup inferred"
+}
