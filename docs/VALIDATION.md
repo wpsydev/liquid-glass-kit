@@ -340,3 +340,19 @@ Fifteen nativeT3Chromium responsivehero/art/editorial cases320×700,390×844,768
 Firstreuseddocument observationbuffer includedearlierpreviewshifts: discarded asCLS/sessionevidence. Demo now initializes observationboundarywithperformance.now() beforehero authoring; sumexcludesrecentinput andisnotfield/windowedCLS. Nativeimagehintsnotzero-requestguarantees, lazybrowserthresholdmayloadnearbyframes. React19SSRmayindependentlypreloadeagerimages; helperdoesnot. Original12second360framefilm synthpop112squareseed27 reviewed; cameraonlydense fields/310portrait/filenameblobmap; video584379bytes SHA256 `2f0c809faf43d72fa6c15b20992fab35bda1b14b08d0a17e592b535ecf48a6c7`.
 
 Final integrated `npm run check` passed907tests/45filesincludingqueuedprototypes; releaseadds34tests to437previouslypublished. Final `npm pack --dry-run` passed134files. Coreprops/SSRandpackagingchecksseparatefromnativebrowserandoriginalmediaevidence.
+
+0.27 publication: commit0de0ecd733c79fa05f865bb348c426bd8c65d98f passed Verify38192181723 (471tests/30files), release38192181681 and Pages38192181731. Downloaded134-member archive287893bytes SHA256 `6536da3e73a82f7144922d012fb8d75674e969da73df26ead7b734ba6c22746d`. Hosted hero/phone-picture source bytes and canonical Xmain+two replies read back; bounded publication/hosted observations in campaign/RESPONSIVE_IMAGE_PUBLICATION.json. npm registry pending.
+
+## 0.28 native bottom sheets (2026-10-12)
+
+21 focused tests cover detents, native forms/focus, dirty/stale dismissal decisions, callback errors, viewport/gesture lifecycle, hidden/reduced motion and SSR. Optional JS3484bytesgzip/CSS1174bytesgzip. Core/default CSS/import graph unchanged. Explicit dark/solid default themes tested separately from author-violet demo palette.
+
+Fifteen native T3 desktop Chromium detent/viewport cases at320×700,390×844,768×1024,844×390,1440×900 fit horizontally with44px buttons/16px fields. Actual native card open+close restored focus to that card; Escape dirty guard focused Keep editing and retained content. Actual native submit saved local title/body, not a server. Tap/Enter resized through configured resting heights. Synthetic eight-move touch handler check coalesced1RAF/1start rectangle read; no physical pointer-capture or phone/keyboard claim.
+
+Connected native reduced-motion lifecycle5×20 attach/open/two-snap/await-close/destroy batches22.2/5.8/5.3/4.3/8.7ms had5.8ms median,0customRAF/JavaScript rectangle reads and0following250msidleRAF. This excludes actual animated height layout/paint; transitions are180ms CSS, not GPU-only transforms. Host owns cleanup/geometry/model revision; native dialog APIs bypass guards.
+
+Original film actual native local editor tour/unsaved choices,12seconds360frames,124BPM marimba seed28. No camera geometry or synthetic pointer actions in film. Final representative frames reviewed and full decode passed;826285bytes SHA256 `609eaf636a0877aafccbbbeb61f821587675094ce3ebf7a59017502c2b2f1cce`. Export30fps is not app FPS. Browser validation remains separate from unit/SSR/package checks; no comparative speedup.
+
+Final integrated npm run check passed978tests/48files including queued independent prototypes; this release adds21tests to471previously published. Final npm pack --dry-run passed138files; queued feature modules are absent. Release-only CI counts follow publication.
+
+0.26 two canonical replies read back: https://x.com/wpsygames/status/2109455675436970395 and https://x.com/wpsygames/status/2109457717647855920; main plus two replies complete.

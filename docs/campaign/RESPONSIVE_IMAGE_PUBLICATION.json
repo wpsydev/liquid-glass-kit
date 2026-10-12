@@ -1,0 +1,397 @@
+{
+  "commit": "0de0ecd733c79fa05f865bb348c426bd8c65d98f",
+  "version": "0.27.0-preview.1",
+  "workflows": {
+    "verify": 38192181723,
+    "release": 38192181681,
+    "pages": 38192181731,
+    "conclusion": "success",
+    "tests": 471,
+    "testFiles": 30
+  },
+  "archive": {
+    "members": 134,
+    "bytes": 287893,
+    "sha256": "6536da3e73a82f7144922d012fb8d75674e969da73df26ead7b734ba6c22746d"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109458784808808561",
+    "reply1": "https://x.com/wpsygames/status/2109459876304871718",
+    "reply2": "https://x.com/wpsygames/status/2109464030352187836",
+    "videoDuration": 12,
+    "readyState": 4
+  },
+  "hosted": {
+    "desktop": {
+      "after": {
+        "active": {
+          "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/assets/hero-1440-CezKCqO7.webp",
+          "filename": "hero-1440-CezKCqO7.webp",
+          "hints": {
+            "decoding": "auto",
+            "fetchPriority": "auto",
+            "loading": "eager"
+          },
+          "natural": {
+            "height": 565,
+            "width": 848
+          },
+          "rendered": {
+            "height": 555,
+            "width": 833
+          },
+          "resource": {
+            "decodedBodySize": 13682,
+            "duration": 305,
+            "encodedBodySize": 13682,
+            "transferSize": 13982
+          },
+          "status": "loaded",
+          "supplied": {
+            "bytes": 13682,
+            "height": 960,
+            "width": 1440
+          }
+        },
+        "crop": "native",
+        "direction": "art",
+        "dpr": 2,
+        "editorial": [
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/assets/paper-960-BOnb5a08.webp",
+            "filename": "paper-960-BOnb5a08.webp",
+            "hints": {
+              "decoding": "async",
+              "fetchPriority": "low",
+              "loading": "lazy"
+            },
+            "id": "paper",
+            "natural": {
+              "height": 260,
+              "width": 391
+            },
+            "rendered": {
+              "height": 258,
+              "width": 386
+            },
+            "resource": {
+              "decodedBodySize": 12782,
+              "duration": 267.5,
+              "encodedBodySize": 12782,
+              "transferSize": 13082
+            },
+            "status": "loaded",
+            "supplied": {
+              "bytes": 12782,
+              "height": 640,
+              "width": 960
+            }
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/assets/orbit-960-BTo4fgRV.webp",
+            "filename": "orbit-960-BTo4fgRV.webp",
+            "hints": {
+              "decoding": "async",
+              "fetchPriority": "low",
+              "loading": "lazy"
+            },
+            "id": "orbit",
+            "natural": {
+              "height": 260,
+              "width": 391
+            },
+            "rendered": {
+              "height": 258,
+              "width": 386
+            },
+            "resource": {
+              "decodedBodySize": 8130,
+              "duration": 407.7999999523163,
+              "encodedBodySize": 8130,
+              "transferSize": 8430
+            },
+            "status": "loaded",
+            "supplied": {
+              "bytes": 8130,
+              "height": 640,
+              "width": 960
+            }
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/assets/hero-1440-CezKCqO7.webp",
+            "filename": "hero-1440-CezKCqO7.webp",
+            "hints": {
+              "decoding": "async",
+              "fetchPriority": "low",
+              "loading": "lazy"
+            },
+            "id": "form",
+            "natural": {
+              "height": 260,
+              "width": 391
+            },
+            "rendered": {
+              "height": 258,
+              "width": 386
+            },
+            "resource": {
+              "decodedBodySize": 13682,
+              "duration": 305,
+              "encodedBodySize": 13682,
+              "transferSize": 13982
+            },
+            "status": "loaded",
+            "supplied": {
+              "bytes": 13682,
+              "height": 960,
+              "width": 1440
+            }
+          }
+        ],
+        "focal": 65,
+        "forcePortrait": false,
+        "priority": "normal",
+        "revision": 2,
+        "shifts": {
+          "observedSum": 0.00024819815987790777,
+          "records": [
+            {
+              "hadRecentInput": true,
+              "startTime": 1218.6999999284744,
+              "value": 0.1180091786134323
+            },
+            {
+              "hadRecentInput": false,
+              "startTime": 118746.09999990463,
+              "value": 0.00024819815987790777
+            }
+          ],
+          "supported": true
+        },
+        "tourStep": null,
+        "viewport": 1280
+      },
+      "before": {
+        "active": {
+          "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/assets/hero-1440-CezKCqO7.webp",
+          "filename": "hero-1440-CezKCqO7.webp",
+          "hints": {
+            "decoding": "auto",
+            "fetchPriority": "high",
+            "loading": "eager"
+          },
+          "natural": {
+            "height": 565,
+            "width": 848
+          },
+          "rendered": {
+            "height": 555,
+            "width": 833
+          },
+          "resource": {
+            "decodedBodySize": 13682,
+            "duration": 305,
+            "encodedBodySize": 13682,
+            "transferSize": 13982
+          },
+          "status": "loaded",
+          "supplied": {
+            "bytes": 13682,
+            "height": 960,
+            "width": 1440
+          }
+        },
+        "crop": "native",
+        "direction": "hero",
+        "dpr": 2,
+        "editorial": [
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/assets/paper-960-BOnb5a08.webp",
+            "filename": "paper-960-BOnb5a08.webp",
+            "hints": {
+              "decoding": "async",
+              "fetchPriority": "low",
+              "loading": "lazy"
+            },
+            "id": "paper",
+            "natural": {
+              "height": 260,
+              "width": 391
+            },
+            "rendered": {
+              "height": 258,
+              "width": 386
+            },
+            "resource": {
+              "decodedBodySize": 12782,
+              "duration": 267.5,
+              "encodedBodySize": 12782,
+              "transferSize": 13082
+            },
+            "status": "loaded",
+            "supplied": {
+              "bytes": 12782,
+              "height": 640,
+              "width": 960
+            }
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/assets/orbit-960-BTo4fgRV.webp",
+            "filename": "orbit-960-BTo4fgRV.webp",
+            "hints": {
+              "decoding": "async",
+              "fetchPriority": "low",
+              "loading": "lazy"
+            },
+            "id": "orbit",
+            "natural": {
+              "height": 260,
+              "width": 391
+            },
+            "rendered": {
+              "height": 258,
+              "width": 386
+            },
+            "resource": {
+              "decodedBodySize": 8130,
+              "duration": 407.7999999523163,
+              "encodedBodySize": 8130,
+              "transferSize": 8430
+            },
+            "status": "loaded",
+            "supplied": {
+              "bytes": 8130,
+              "height": 640,
+              "width": 960
+            }
+          },
+          {
+            "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/assets/hero-960-B7upI-pI.webp",
+            "filename": "hero-960-B7upI-pI.webp",
+            "hints": {
+              "decoding": "async",
+              "fetchPriority": "low",
+              "loading": "lazy"
+            },
+            "id": "form",
+            "natural": {
+              "height": 260,
+              "width": 391
+            },
+            "rendered": {
+              "height": 258,
+              "width": 386
+            },
+            "resource": {
+              "decodedBodySize": 7316,
+              "duration": 238.29999995231628,
+              "encodedBodySize": 7316,
+              "transferSize": 7616
+            },
+            "status": "loaded",
+            "supplied": {
+              "bytes": 7316,
+              "height": 640,
+              "width": 960
+            }
+          }
+        ],
+        "focal": 65,
+        "forcePortrait": false,
+        "priority": "critical",
+        "revision": 1,
+        "shifts": {
+          "observedSum": 0.00024819815987790777,
+          "records": [
+            {
+              "hadRecentInput": true,
+              "startTime": 1218.6999999284744,
+              "value": 0.1180091786134323
+            },
+            {
+              "hadRecentInput": false,
+              "startTime": 118746.09999990463,
+              "value": 0.00024819815987790777
+            }
+          ],
+          "supported": true
+        },
+        "tourStep": null,
+        "viewport": 1280
+      },
+      "resources": [
+        {
+          "duration": 305,
+          "encoded": 13682,
+          "transfer": 13982,
+          "url": "https://wpsydev.github.io/liquid-glass-kit/assets/hero-1440-CezKCqO7.webp"
+        },
+        {
+          "duration": 267.5,
+          "encoded": 12782,
+          "transfer": 13082,
+          "url": "https://wpsydev.github.io/liquid-glass-kit/assets/paper-960-BOnb5a08.webp"
+        },
+        {
+          "duration": 238.29999995231628,
+          "encoded": 7316,
+          "transfer": 7616,
+          "url": "https://wpsydev.github.io/liquid-glass-kit/assets/hero-960-B7upI-pI.webp"
+        },
+        {
+          "duration": 407.7999999523163,
+          "encoded": 8130,
+          "transfer": 8430,
+          "url": "https://wpsydev.github.io/liquid-glass-kit/assets/orbit-960-BTo4fgRV.webp"
+        }
+      ],
+      "scripts": [
+        "https://wpsydev.github.io/liquid-glass-kit/assets/images-B0r8P8BH.js"
+      ]
+    },
+    "portrait": {
+      "active": {
+        "currentSrc": "https://wpsydev.github.io/liquid-glass-kit/assets/portrait-960-1GDduk8X.webp",
+        "filename": "portrait-960-1GDduk8X.webp",
+        "hints": {
+          "decoding": "auto",
+          "fetchPriority": "auto",
+          "loading": "eager"
+        },
+        "natural": {
+          "height": 437,
+          "width": 349
+        },
+        "rendered": {
+          "height": 419,
+          "width": 335
+        },
+        "resource": {
+          "decodedBodySize": 10986,
+          "duration": 328.7999999523163,
+          "encodedBodySize": 10986,
+          "transferSize": 11286
+        },
+        "status": "loaded",
+        "supplied": {
+          "bytes": 10986,
+          "height": 1200,
+          "width": 960
+        }
+      },
+      "overflow": false,
+      "source": [
+        {
+          "height": "1200",
+          "media": "(max-width: 600px)",
+          "width": "960"
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  "limits": "Individual hosted request observations, not network/rendering comparison or speedup; resource caching/browser choices remain authoritative. Shift sum not field CLS. npm registry pending."
+}

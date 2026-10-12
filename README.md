@@ -13,7 +13,7 @@ Independent open source implementation inspired by Apple's Liquid Glass. This is
 The public repository is installable; npm registry publication is pending. Pin the preview for reproducible installs (Node 22.12+ is required to build it):
 
 ```sh
-npm install github:wpsydev/liquid-glass-kit#v0.27.0-preview.1
+npm install github:wpsydev/liquid-glass-kit#v0.28.0-preview.1
 ```
 
 Import the stylesheet once at your app root:
@@ -162,3 +162,5 @@ Optional `/ambient-media` coordinates manual/visible/hover decorative previews w
 ## Responsive original images
 
 Optional `/responsive-image` authors native image/picture props with actual dimensions, supplied width candidates, loading intent and explicit crops. Import `/responsive-image.css` separately; the browser owns selection and the host owns file variants/delivery. [API](docs/RESPONSIVE_IMAGE.md) · [Image Office](https://wpsydev.github.io/liquid-glass-kit/images/).
+
+Optional `/bottom-sheet` adapts an authored native dialog into a mobile editor with resting heights, keyboard resize and guarded dismissal. Import `/bottom-sheet.css` separately. Real form semantics remain native; the host owns saving and unsaved-edit decisions. [API](docs/BOTTOM_SHEET.md) · [Field / Notes](https://wpsydev.github.io/liquid-glass-kit/sheet/).

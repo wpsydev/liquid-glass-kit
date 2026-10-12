@@ -149,12 +149,12 @@
     {
       "order": 11,
       "url": "https://land-book.com",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Native responsive image and picture props",
       "version": "0.27.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/images/",
       "video": "docs/campaign/assets/responsive-image-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109458784808808561",
       "performance": [
         "benchmarks/responsive-image.json",
         "benchmarks/responsive-image-browser.json"
@@ -163,13 +163,16 @@
     {
       "order": 12,
       "url": "https://mobbin.com",
-      "status": "implemented-awaiting-validation",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Native bottom-sheet editor with guarded dismissal",
+      "version": "0.28.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/bottom-sheet-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/bottom-sheet-payload.json",
+        "benchmarks/bottom-sheet-browser.json"
+      ]
     },
     {
       "order": 13,

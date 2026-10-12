@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 826285,
+  "sha256": "609eaf636a0877aafccbbbeb61f821587675094ce3ebf7a59017502c2b2f1cce",
+  "music": {
+    "style": "afro",
+    "bpm": 124,
+    "seed": 28,
+    "patch": "marimba",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Native T3 original note editor actual medium/writing/large heights, local edits, unsaved decision and explicit demo discard. No geometry or keyboard simulation in film; separate synthetic pointer validation marked as such. Defaultlight author palette unchanged by optional theme vars; exportFPS not appFPS"
+}

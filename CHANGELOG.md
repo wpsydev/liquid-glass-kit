@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.28.0-preview.1
+
+- Add optional native-dialog bottom sheets with bounded detents, keyboard resizing, coalesced grabber dragging, focus restoration and guarded dismissal.
+- Preserve authored form controls; stale approvals cannot close a newer edit state. Add explicit dark/solid theme variables and motion/transparency fallbacks.
+- Add original Field / Notes demo, responsive native browser evidence, scoped lifecycle/payload records and a twelve-second marimba film. No default import or CSS change; animated height still incurs layout/paint.
+
 ## 0.27.0-preview.1
 
 - Add pure SSR-safe responsive-image/picture props, explicit intrinsic dimensions/candidates/sizes/loading priorities, focal framing and opt-in display crops.

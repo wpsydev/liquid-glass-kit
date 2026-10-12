@@ -1,0 +1,11 @@
+{
+  "observedAtUtc": "2026-10-12T01:51:14.763Z",
+  "payload": {
+    "jsRawBytes": 9177,
+    "jsGzipBytes": 3484,
+    "cssRawBytes": 3010,
+    "cssGzipBytes": 1174,
+    "sourceSha256": "d36a33014636b335f023b9b6bec878deccfb6ac98ca1d419714e9ac4e7e37d40"
+  },
+  "scope": "Standalone optional helper/CSS, not load/FPS/GPU or speedup."
+}

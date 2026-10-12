@@ -1,0 +1,1286 @@
+{
+  "observedAtUtc": "2026-10-12T01:51:14Z",
+  "lifecycle": {
+    "batchesMs": [
+      22.200000047683716,
+      5.799999952316284,
+      5.299999952316284,
+      4.300000071525574,
+      8.699999928474426
+    ],
+    "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+    "customRaf": 0,
+    "cyclesPerBatch": 20,
+    "dpr": 2,
+    "idleRaf": 0,
+    "jsRectangleReads": 0,
+    "medianBatchMs": 5.799999952316284,
+    "open": false,
+    "scope": "Connected native dialog attach/open/two detents/guarded close/destroy, explicit reduced motion avoids height tween; includes native focus/layout, not FPS/GPU/animated paint or speedup",
+    "viewport": [
+      1280,
+      800
+    ]
+  },
+  "layouts": [
+    {
+      "bounds": {
+        "bottom": 700,
+        "height": 342,
+        "width": 289,
+        "x": 8,
+        "y": 358
+      },
+      "detent": 0.5,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 246
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 246
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 246
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.5,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        320,
+        700
+      ],
+      "vv": {
+        "height": 700,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 699.9921875,
+        "height": 465.1171875,
+        "width": 289,
+        "x": 8,
+        "y": 234.875
+      },
+      "detent": 0.68,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 246
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 246
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 246
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.68,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        320,
+        700
+      ],
+      "vv": {
+        "height": 700,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 699.9921875,
+        "height": 615.59375,
+        "width": 289,
+        "x": 8,
+        "y": 84.3984375
+      },
+      "detent": 0.9,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 246
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 246
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 246
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.9,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        320,
+        700
+      ],
+      "vv": {
+        "height": 700,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 844,
+        "height": 414,
+        "width": 359,
+        "x": 8,
+        "y": 430
+      },
+      "detent": 0.5,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 316
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 316
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 316
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.5,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        390,
+        844
+      ],
+      "vv": {
+        "height": 844,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 843.9921875,
+        "height": 563.0390625,
+        "width": 359,
+        "x": 8,
+        "y": 280.953125
+      },
+      "detent": 0.68,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 316
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 316
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 316
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.68,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        390,
+        844
+      ],
+      "vv": {
+        "height": 844,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 843.9921875,
+        "height": 745.1953125,
+        "width": 359,
+        "x": 8,
+        "y": 98.796875
+      },
+      "detent": 0.9,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 327
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 327
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 327
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.9,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        390,
+        844
+      ],
+      "vv": {
+        "height": 844,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 1024,
+        "height": 504,
+        "width": 640,
+        "x": 64,
+        "y": 520
+      },
+      "detent": 0.5,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 424
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 142
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 579
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.5,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        768,
+        1024
+      ],
+      "vv": {
+        "height": 1024,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 1023.9921875,
+        "height": 685.4375,
+        "width": 640,
+        "x": 64,
+        "y": 338.5546875
+      },
+      "detent": 0.68,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 435
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 142
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 590
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.68,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        768,
+        1024
+      ],
+      "vv": {
+        "height": 1024,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 1023.9921875,
+        "height": 907.1953125,
+        "width": 640,
+        "x": 64,
+        "y": 116.796875
+      },
+      "detent": 0.9,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 435
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 142
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 590
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.9,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        768,
+        1024
+      ],
+      "vv": {
+        "height": 1024,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 390,
+        "height": 187,
+        "width": 640,
+        "x": 94.5,
+        "y": 203
+      },
+      "detent": 0.5,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 424
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 142
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 579
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.5,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        844,
+        390
+      ],
+      "vv": {
+        "height": 390,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 389.9921875,
+        "height": 254.3125,
+        "width": 640,
+        "x": 94.5,
+        "y": 135.6796875
+      },
+      "detent": 0.68,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 424
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 142
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 579
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.68,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        844,
+        390
+      ],
+      "vv": {
+        "height": 390,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 389.9921875,
+        "height": 336.59375,
+        "width": 640,
+        "x": 94.5,
+        "y": 53.3984375
+      },
+      "detent": 0.9,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 424
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 142
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 579
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.9,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        844,
+        390
+      ],
+      "vv": {
+        "height": 390,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 900,
+        "height": 442,
+        "width": 640,
+        "x": 392.5,
+        "y": 458
+      },
+      "detent": 0.5,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 424
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 142
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 579
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.5,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "vv": {
+        "height": 900,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 899.9921875,
+        "height": 601.1171875,
+        "width": 640,
+        "x": 392.5,
+        "y": 298.875
+      },
+      "detent": 0.68,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 435
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 142
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 590
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.68,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "vv": {
+        "height": 900,
+        "offsetTop": 0
+      }
+    },
+    {
+      "bounds": {
+        "bottom": 899.9921875,
+        "height": 795.59375,
+        "width": 640,
+        "x": 392.5,
+        "y": 104.3984375
+      },
+      "detent": 0.9,
+      "dialogOverflow": false,
+      "fields": [
+        {
+          "font": 16,
+          "h": 44.3984375,
+          "id": "note-title",
+          "tag": "INPUT",
+          "w": 435
+        },
+        {
+          "font": 16,
+          "h": 44,
+          "id": "note-priority",
+          "tag": "SELECT",
+          "w": 142
+        },
+        {
+          "font": 16,
+          "h": 111.59375,
+          "id": "note-body",
+          "tag": "TEXTAREA",
+          "w": 590
+        }
+      ],
+      "focus": "note-title",
+      "minButtonHeight": 44,
+      "pageOverflow": false,
+      "state": {
+        "awaitingDecision": false,
+        "briefs": [
+          {
+            "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+            "priority": "next",
+            "title": "A calmer first five minutes"
+          },
+          {
+            "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+            "priority": "explore",
+            "title": "A place for unfinished thoughts"
+          }
+        ],
+        "detent": 0.9,
+        "dirty": false,
+        "draft": {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        "guardRequests": 0,
+        "open": true,
+        "saves": 0,
+        "selected": 0,
+        "systemReducedMotion": false,
+        "touring": false
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "vv": {
+        "height": 900,
+        "offsetTop": 0
+      }
+    }
+  ],
+  "escapeGuard": {
+    "decision": false,
+    "focus": "keep-editing",
+    "open": true,
+    "state": {
+      "awaitingDecision": true,
+      "briefs": [
+        {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        {
+          "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+          "priority": "explore",
+          "title": "A place for unfinished thoughts"
+        }
+      ],
+      "detent": 0.9,
+      "dirty": true,
+      "draft": {
+        "body": "a locally edited thought",
+        "priority": "next",
+        "title": "A calmer first five minutes"
+      },
+      "guardRequests": 1,
+      "open": true,
+      "saves": 0,
+      "selected": 0,
+      "systemReducedMotion": false,
+      "touring": false
+    }
+  },
+  "nativeSave": {
+    "dialogOpen": true,
+    "focus": "save-note",
+    "heading": "a thoughtful local note",
+    "state": {
+      "awaitingDecision": false,
+      "briefs": [
+        {
+          "body": "a locally edited thought",
+          "priority": "next",
+          "title": "a thoughtful local note"
+        },
+        {
+          "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+          "priority": "explore",
+          "title": "A place for unfinished thoughts"
+        }
+      ],
+      "detent": 0.9,
+      "dirty": false,
+      "draft": {
+        "body": "a locally edited thought",
+        "priority": "next",
+        "title": "a thoughtful local note"
+      },
+      "guardRequests": 1,
+      "open": true,
+      "saves": 1,
+      "selected": 0,
+      "systemReducedMotion": false,
+      "touring": false
+    }
+  },
+  "realFocusRestore": {
+    "focusNote": "1",
+    "focusTag": "BUTTON",
+    "open": false,
+    "state": {
+      "awaitingDecision": false,
+      "briefs": [
+        {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        {
+          "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+          "priority": "explore",
+          "title": "A place for unfinished thoughts"
+        }
+      ],
+      "detent": 0.5,
+      "dirty": false,
+      "draft": {
+        "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+        "priority": "explore",
+        "title": "A place for unfinished thoughts"
+      },
+      "guardRequests": 0,
+      "open": false,
+      "saves": 0,
+      "selected": 1,
+      "systemReducedMotion": false,
+      "touring": false
+    }
+  },
+  "nativeActivation": {
+    "detent": 0.9,
+    "focus": "lg-sheet-grabber"
+  },
+  "syntheticDrag": {
+    "frames": 1,
+    "height": 745.1953125,
+    "rectangleReads": 1,
+    "scope": "Real Chromium layout with synthetic touch PointerEvents, not physical pointer capture/device gesture",
+    "state": {
+      "awaitingDecision": false,
+      "briefs": [
+        {
+          "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+          "priority": "next",
+          "title": "A calmer first five minutes"
+        },
+        {
+          "body": "Keep drafts close, but leave room to change your mind. Let a small editor grow with the task. Never throw away a thought without asking.",
+          "priority": "explore",
+          "title": "A place for unfinished thoughts"
+        }
+      ],
+      "detent": 0.9,
+      "dirty": false,
+      "draft": {
+        "body": "Make the first visit feel considered. One clear next step, a useful empty state, and enough space for the person on the other side of the screen.",
+        "priority": "next",
+        "title": "A calmer first five minutes"
+      },
+      "guardRequests": 0,
+      "open": true,
+      "saves": 0,
+      "selected": 0,
+      "systemReducedMotion": false,
+      "touring": false
+    }
+  },
+  "theme": {
+    "samples": [
+      {
+        "background": "rgba(247, 249, 253, 0.86)",
+        "color": "rgb(21, 36, 56)",
+        "controlBorder": "rgba(23, 52, 76, 0.133)",
+        "filter": "blur(20px) saturate(1.15)",
+        "mode": "default"
+      },
+      {
+        "background": "rgba(19, 25, 38, 0.86)",
+        "color": "rgb(238, 243, 248)",
+        "controlBorder": "rgba(216, 230, 250, 0.22)",
+        "filter": "blur(20px) saturate(1.15)",
+        "mode": "dark"
+      },
+      {
+        "background": "rgb(19, 25, 38)",
+        "color": "rgb(238, 243, 248)",
+        "controlBorder": "rgba(216, 230, 250, 0.22)",
+        "filter": "none",
+        "mode": "solid"
+      }
+    ],
+    "scope": "Bare authored native dialog with helper stylesheet; demo-specific author CSS intentionally overrides its violet palette"
+  },
+  "scope": "Native T3 desktop Chromium actual dialog/controls/geometry; synthetic PointerEvents are distinct from physical pointer capture/touch. Resolutions are CSS layout tests, not real phones/soft keyboards/Safari/AT. Height transitions incur real layout/paint; lifecycle benchmark deliberately reduced motion."
+}

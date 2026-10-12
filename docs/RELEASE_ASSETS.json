@@ -1,14 +1,14 @@
 {
-  "version": "0.27.0-preview.1",
+  "version": "0.28.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/responsive-image-showcase.mp4",
-      "name": "liquid-glass-image-office.mp4",
+      "path": "docs/campaign/assets/bottom-sheet-showcase.mp4",
+      "name": "liquid-glass-field-notes.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/responsive-image-showcase.png",
-      "name": "liquid-glass-image-office.png",
+      "path": "docs/campaign/assets/bottom-sheet-showcase.png",
+      "name": "liquid-glass-field-notes.png",
       "type": "image/png"
     }
   ]
