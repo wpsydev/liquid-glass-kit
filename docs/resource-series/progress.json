@@ -592,17 +592,18 @@
     {
       "order": 40,
       "url": "https://lovable.dev",
-      "status": "validated-awaiting-publication",
+      "status": "released-main-posted-followups-pending",
       "feature": "Read-only explicit mobile layout sampling with honest incomplete results",
       "version": "0.56.0-preview.2",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/audit/",
       "video": "docs/campaign/assets/layout-audit-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109552550659723493",
       "performance": [
         "benchmarks/layout-audit-payload.json",
         "benchmarks/layout-audit-browser.json",
         "benchmarks/layout-audit-functional.json",
-        "benchmarks/layout-audit-layouts.json"
+        "benchmarks/layout-audit-layouts.json",
+        "benchmarks/layout-audit-correction-headless.json"
       ]
     }
   ],
@@ -620,5 +621,16 @@
         "benchmarks/activity-island-browser.json"
       ]
     }
-  ]
+  ],
+  "completion": {
+    "featuresReleased": 40,
+    "videoMainPostsSent": 40,
+    "fullThreadsVerified": 39,
+    "pendingFollowupThreads": [
+      40
+    ],
+    "latestVersion": "0.56.0-preview.2",
+    "registry": "pending npm email OTP",
+    "scope": "Notchgate is separately shipped; counts concern the 40 listed sources"
+  }
 }

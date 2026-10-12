@@ -646,3 +646,7 @@ At2026-10-12T07:45Z a fresh npmweblogin reachedthe already-signed-in account OTP
 Hosted native check reproduced change handlers losing chosen checkbox/select values because cancelTour rerenders oldstate first. All4 handlers nowcapturechoicebeforecancel. Core sampler/finite tour/media unchanged; originalfilm doesnotdemonstratebindingfix. Native regression readbacks follow correcteddeployment.
 
 Correction npm run check passed1,355tests/59files incldistributedCLI; npm pack --dry-run passed230members/537691bytes. Read-only handleraudit confirmedonly4DOMvalue reads wereoverwritten byrender. Correcteddeployment nativechecks remainpending beforethreadcompletion.
+
+Corrected T3 hosted native checks retain Fixed/Edges/Quiet; Fixed Audit4advisories→0 on4suppliedtargets with16pxfield/44pxheight. Native macOSselectdelivery remainedunconfirmed beforedesktopdisconnect. Independent LinuxChrome155 headlessvia actualChromeDevToolsInput mouse/key/text events passed11checks: Fixed/Edges/Quiet, scope2/64, sixunvisited/truncated, during-tourchoice/cancel, 2.2s no staleoverride, nativefield+contextSubmit retainsvalues/node. This is correctness, not physicalphones/Safari/AT/GPU/performance. Evidence:benchmarks/layout-audit-correction-headless.json.
+
+All40resourcefeatures released andall40video mainposts sent. Full canonicalthreads/video playback verified for39; final40maintext+uploadconfirmed, playbackreadback/twofollowups pendingafterT3desktopdisconnected. Drafts explicitlyunsent inLAYOUT_AUDIT_PUBLICATION.json. No followergrowth orviraloutcomeclaimed.

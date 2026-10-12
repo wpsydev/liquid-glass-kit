@@ -1,0 +1,2150 @@
+{
+  "observedAtUtc": "2026-10-12T08:09:42.500Z",
+  "scope": "Independent Chrome155 Linux headless via actual Chrome DevTools Input mouse/key/text events after T3nativehostdisconnected; no account cookies/private profiles copied",
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.39",
+    "revision": "@3ff7ac5a9224be9156d7f8703a06e22890aafd34",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.20"
+  },
+  "inputProtocolMethods": [
+    "dispatchKeyEvent",
+    "insertText",
+    "dispatchMouseEvent"
+  ],
+  "rows": [
+    {
+      "name": "initial audit",
+      "state": {
+        "fixed": false,
+        "edges": false,
+        "quiet": false,
+        "systemReduced": false,
+        "solid": false,
+        "limit": 64,
+        "revision": 0,
+        "reportRevision": 0,
+        "stale": false,
+        "report": {
+          "policy": {
+            "kind": "configured-library-layout-policy",
+            "minTarget": 44,
+            "minInputFont": 16,
+            "overflowTolerance": 1,
+            "targetLimit": 64,
+            "readLimit": 512,
+            "ancestorLimit": 16,
+            "advisoryLimit": 256
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800,
+            "overflow": {
+              "scrollWidth": 1265,
+              "clientWidth": 1265,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "root": {
+            "rect": {
+              "x": 40,
+              "y": 511.46875,
+              "width": 612.609375,
+              "height": 560.1875
+            },
+            "reason": null,
+            "overflow": {
+              "scrollWidth": 920,
+              "clientWidth": 611,
+              "excess": 309,
+              "check": "advisory"
+            }
+          },
+          "targets": [
+            {
+              "id": "review-note",
+              "kind": "field",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 726.859375,
+                "width": 528.609375,
+                "height": 40
+              },
+              "sizeCheck": "advisory",
+              "fontSize": 14,
+              "fontCheck": "advisory",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "add-review",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 599.609375,
+                "y": 730.859375,
+                "width": 32,
+                "height": 32
+              },
+              "sizeCheck": "advisory",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "checkbox-label",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 801.359375,
+                "width": 570.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": true,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            },
+            {
+              "id": "reference-shelf",
+              "kind": "container",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 928.65625,
+                "width": 570.609375,
+                "height": 124
+              },
+              "sizeCheck": "not-requested",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": {
+                "scrollWidth": 571,
+                "clientWidth": 571,
+                "excess": 0,
+                "check": "exempt"
+              },
+              "suppliedHitArea": false,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            }
+          ],
+          "advisories": [
+            {
+              "scope": "root",
+              "id": null,
+              "code": "horizontal-overflow"
+            },
+            {
+              "scope": "target",
+              "id": "review-note",
+              "code": "target-size"
+            },
+            {
+              "scope": "target",
+              "id": "review-note",
+              "code": "field-font"
+            },
+            {
+              "scope": "target",
+              "id": "add-review",
+              "code": "target-size"
+            }
+          ],
+          "counts": {
+            "supplied": 4,
+            "considered": 4,
+            "checked": 4,
+            "skipped": 0,
+            "unvisited": 0,
+            "advisories": 4
+          },
+          "reads": {
+            "total": 26,
+            "styles": 13,
+            "rects": 5,
+            "dimensions": 8
+          },
+          "truncation": {
+            "targetLimit": false,
+            "readBudget": false,
+            "ancestorLimit": false,
+            "advisories": false
+          },
+          "truncated": false,
+          "incomplete": false,
+          "limitations": [
+            "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+            "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+            "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+            "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+            "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+            "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+            "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+          ]
+        },
+        "calls": 1,
+        "lastSynchronousAuditMs": 2.800000011920929,
+        "field": {
+          "nodePreserved": true,
+          "value": "Make the setup screen easier to read",
+          "selectionStart": 0,
+          "selectionEnd": 0,
+          "focused": false
+        },
+        "identity": {
+          "node": true,
+          "value": true,
+          "focus": true,
+          "caret": true
+        },
+        "notes": [],
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "tourStep": "",
+        "pendingTourSteps": 0,
+        "focus": "audit"
+      },
+      "choices": {
+        "fixed": false,
+        "edges": false,
+        "quiet": false,
+        "limit": "64"
+      }
+    },
+    {
+      "name": "fixed choice retained",
+      "state": {
+        "fixed": true,
+        "edges": false,
+        "quiet": false,
+        "systemReduced": false,
+        "solid": false,
+        "limit": 64,
+        "revision": 1,
+        "reportRevision": 0,
+        "stale": true,
+        "report": {
+          "policy": {
+            "kind": "configured-library-layout-policy",
+            "minTarget": 44,
+            "minInputFont": 16,
+            "overflowTolerance": 1,
+            "targetLimit": 64,
+            "readLimit": 512,
+            "ancestorLimit": 16,
+            "advisoryLimit": 256
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800,
+            "overflow": {
+              "scrollWidth": 1265,
+              "clientWidth": 1265,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "root": {
+            "rect": {
+              "x": 40,
+              "y": 511.46875,
+              "width": 612.609375,
+              "height": 560.1875
+            },
+            "reason": null,
+            "overflow": {
+              "scrollWidth": 920,
+              "clientWidth": 611,
+              "excess": 309,
+              "check": "advisory"
+            }
+          },
+          "targets": [
+            {
+              "id": "review-note",
+              "kind": "field",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 726.859375,
+                "width": 528.609375,
+                "height": 40
+              },
+              "sizeCheck": "advisory",
+              "fontSize": 14,
+              "fontCheck": "advisory",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "add-review",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 599.609375,
+                "y": 730.859375,
+                "width": 32,
+                "height": 32
+              },
+              "sizeCheck": "advisory",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "checkbox-label",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 801.359375,
+                "width": 570.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": true,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            },
+            {
+              "id": "reference-shelf",
+              "kind": "container",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 928.65625,
+                "width": 570.609375,
+                "height": 124
+              },
+              "sizeCheck": "not-requested",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": {
+                "scrollWidth": 571,
+                "clientWidth": 571,
+                "excess": 0,
+                "check": "exempt"
+              },
+              "suppliedHitArea": false,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            }
+          ],
+          "advisories": [
+            {
+              "scope": "root",
+              "id": null,
+              "code": "horizontal-overflow"
+            },
+            {
+              "scope": "target",
+              "id": "review-note",
+              "code": "target-size"
+            },
+            {
+              "scope": "target",
+              "id": "review-note",
+              "code": "field-font"
+            },
+            {
+              "scope": "target",
+              "id": "add-review",
+              "code": "target-size"
+            }
+          ],
+          "counts": {
+            "supplied": 4,
+            "considered": 4,
+            "checked": 4,
+            "skipped": 0,
+            "unvisited": 0,
+            "advisories": 4
+          },
+          "reads": {
+            "total": 26,
+            "styles": 13,
+            "rects": 5,
+            "dimensions": 8
+          },
+          "truncation": {
+            "targetLimit": false,
+            "readBudget": false,
+            "ancestorLimit": false,
+            "advisories": false
+          },
+          "truncated": false,
+          "incomplete": false,
+          "limitations": [
+            "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+            "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+            "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+            "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+            "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+            "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+            "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+          ]
+        },
+        "calls": 1,
+        "lastSynchronousAuditMs": 2.800000011920929,
+        "field": {
+          "nodePreserved": true,
+          "value": "Make the setup screen easier to read",
+          "selectionStart": 0,
+          "selectionEnd": 0,
+          "focused": false
+        },
+        "identity": {
+          "node": true,
+          "value": true,
+          "focus": true,
+          "caret": true
+        },
+        "notes": [],
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "tourStep": "",
+        "pendingTourSteps": 0,
+        "focus": "fixed"
+      },
+      "choices": {
+        "fixed": true,
+        "edges": false,
+        "quiet": false,
+        "limit": "64"
+      }
+    },
+    {
+      "name": "fixed audit",
+      "state": {
+        "fixed": true,
+        "edges": false,
+        "quiet": false,
+        "systemReduced": false,
+        "solid": false,
+        "limit": 64,
+        "revision": 1,
+        "reportRevision": 1,
+        "stale": false,
+        "report": {
+          "policy": {
+            "kind": "configured-library-layout-policy",
+            "minTarget": 44,
+            "minInputFont": 16,
+            "overflowTolerance": 1,
+            "targetLimit": 64,
+            "readLimit": 512,
+            "ancestorLimit": 16,
+            "advisoryLimit": 256
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800,
+            "overflow": {
+              "scrollWidth": 1265,
+              "clientWidth": 1265,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "root": {
+            "rect": {
+              "x": 40,
+              "y": 511.46875,
+              "width": 612.609375,
+              "height": 579.484375
+            },
+            "reason": null,
+            "overflow": {
+              "scrollWidth": 611,
+              "clientWidth": 611,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "targets": [
+            {
+              "id": "review-note",
+              "kind": "field",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 726.859375,
+                "width": 516.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": 16,
+              "fontCheck": "within-policy",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "add-review",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 587.609375,
+                "y": 726.859375,
+                "width": 44,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "checkbox-label",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 805.359375,
+                "width": 570.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": true,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            },
+            {
+              "id": "reference-shelf",
+              "kind": "container",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 947.953125,
+                "width": 570.609375,
+                "height": 124
+              },
+              "sizeCheck": "not-requested",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": {
+                "scrollWidth": 571,
+                "clientWidth": 571,
+                "excess": 0,
+                "check": "exempt"
+              },
+              "suppliedHitArea": false,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            }
+          ],
+          "advisories": [],
+          "counts": {
+            "supplied": 4,
+            "considered": 4,
+            "checked": 4,
+            "skipped": 0,
+            "unvisited": 0,
+            "advisories": 0
+          },
+          "reads": {
+            "total": 26,
+            "styles": 13,
+            "rects": 5,
+            "dimensions": 8
+          },
+          "truncation": {
+            "targetLimit": false,
+            "readBudget": false,
+            "ancestorLimit": false,
+            "advisories": false
+          },
+          "truncated": false,
+          "incomplete": false,
+          "limitations": [
+            "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+            "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+            "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+            "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+            "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+            "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+            "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+          ]
+        },
+        "calls": 2,
+        "lastSynchronousAuditMs": 0.9000000357627869,
+        "field": {
+          "nodePreserved": true,
+          "value": "Make the setup screen easier to read",
+          "selectionStart": 0,
+          "selectionEnd": 0,
+          "focused": false
+        },
+        "identity": {
+          "node": true,
+          "value": true,
+          "focus": true,
+          "caret": true
+        },
+        "notes": [],
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "tourStep": "",
+        "pendingTourSteps": 0,
+        "focus": "audit"
+      },
+      "choices": {
+        "fixed": true,
+        "edges": false,
+        "quiet": false,
+        "limit": "64"
+      }
+    },
+    {
+      "name": "edge choice retained",
+      "state": {
+        "fixed": true,
+        "edges": true,
+        "quiet": false,
+        "systemReduced": false,
+        "solid": false,
+        "limit": 64,
+        "revision": 2,
+        "reportRevision": 1,
+        "stale": true,
+        "report": {
+          "policy": {
+            "kind": "configured-library-layout-policy",
+            "minTarget": 44,
+            "minInputFont": 16,
+            "overflowTolerance": 1,
+            "targetLimit": 64,
+            "readLimit": 512,
+            "ancestorLimit": 16,
+            "advisoryLimit": 256
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800,
+            "overflow": {
+              "scrollWidth": 1265,
+              "clientWidth": 1265,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "root": {
+            "rect": {
+              "x": 40,
+              "y": 511.46875,
+              "width": 612.609375,
+              "height": 579.484375
+            },
+            "reason": null,
+            "overflow": {
+              "scrollWidth": 611,
+              "clientWidth": 611,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "targets": [
+            {
+              "id": "review-note",
+              "kind": "field",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 726.859375,
+                "width": 516.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": 16,
+              "fontCheck": "within-policy",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "add-review",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 587.609375,
+                "y": 726.859375,
+                "width": 44,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "checkbox-label",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 805.359375,
+                "width": 570.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": true,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            },
+            {
+              "id": "reference-shelf",
+              "kind": "container",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 947.953125,
+                "width": 570.609375,
+                "height": 124
+              },
+              "sizeCheck": "not-requested",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": {
+                "scrollWidth": 571,
+                "clientWidth": 571,
+                "excess": 0,
+                "check": "exempt"
+              },
+              "suppliedHitArea": false,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            }
+          ],
+          "advisories": [],
+          "counts": {
+            "supplied": 4,
+            "considered": 4,
+            "checked": 4,
+            "skipped": 0,
+            "unvisited": 0,
+            "advisories": 0
+          },
+          "reads": {
+            "total": 26,
+            "styles": 13,
+            "rects": 5,
+            "dimensions": 8
+          },
+          "truncation": {
+            "targetLimit": false,
+            "readBudget": false,
+            "ancestorLimit": false,
+            "advisories": false
+          },
+          "truncated": false,
+          "incomplete": false,
+          "limitations": [
+            "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+            "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+            "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+            "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+            "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+            "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+            "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+          ]
+        },
+        "calls": 2,
+        "lastSynchronousAuditMs": 0.9000000357627869,
+        "field": {
+          "nodePreserved": true,
+          "value": "Make the setup screen easier to read",
+          "selectionStart": 0,
+          "selectionEnd": 0,
+          "focused": false
+        },
+        "identity": {
+          "node": true,
+          "value": true,
+          "focus": true,
+          "caret": true
+        },
+        "notes": [],
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "tourStep": "",
+        "pendingTourSteps": 0,
+        "focus": "edges"
+      },
+      "choices": {
+        "fixed": true,
+        "edges": true,
+        "quiet": false,
+        "limit": "64"
+      }
+    },
+    {
+      "name": "limit2 native arrow",
+      "state": {
+        "fixed": true,
+        "edges": true,
+        "quiet": false,
+        "systemReduced": false,
+        "solid": false,
+        "limit": 2,
+        "revision": 3,
+        "reportRevision": 1,
+        "stale": true,
+        "report": {
+          "policy": {
+            "kind": "configured-library-layout-policy",
+            "minTarget": 44,
+            "minInputFont": 16,
+            "overflowTolerance": 1,
+            "targetLimit": 64,
+            "readLimit": 512,
+            "ancestorLimit": 16,
+            "advisoryLimit": 256
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800,
+            "overflow": {
+              "scrollWidth": 1265,
+              "clientWidth": 1265,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "root": {
+            "rect": {
+              "x": 40,
+              "y": 511.46875,
+              "width": 612.609375,
+              "height": 579.484375
+            },
+            "reason": null,
+            "overflow": {
+              "scrollWidth": 611,
+              "clientWidth": 611,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "targets": [
+            {
+              "id": "review-note",
+              "kind": "field",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 726.859375,
+                "width": 516.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": 16,
+              "fontCheck": "within-policy",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "add-review",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 587.609375,
+                "y": 726.859375,
+                "width": 44,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "checkbox-label",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 805.359375,
+                "width": 570.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": true,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            },
+            {
+              "id": "reference-shelf",
+              "kind": "container",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 947.953125,
+                "width": 570.609375,
+                "height": 124
+              },
+              "sizeCheck": "not-requested",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": {
+                "scrollWidth": 571,
+                "clientWidth": 571,
+                "excess": 0,
+                "check": "exempt"
+              },
+              "suppliedHitArea": false,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            }
+          ],
+          "advisories": [],
+          "counts": {
+            "supplied": 4,
+            "considered": 4,
+            "checked": 4,
+            "skipped": 0,
+            "unvisited": 0,
+            "advisories": 0
+          },
+          "reads": {
+            "total": 26,
+            "styles": 13,
+            "rects": 5,
+            "dimensions": 8
+          },
+          "truncation": {
+            "targetLimit": false,
+            "readBudget": false,
+            "ancestorLimit": false,
+            "advisories": false
+          },
+          "truncated": false,
+          "incomplete": false,
+          "limitations": [
+            "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+            "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+            "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+            "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+            "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+            "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+            "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+          ]
+        },
+        "calls": 2,
+        "lastSynchronousAuditMs": 0.9000000357627869,
+        "field": {
+          "nodePreserved": true,
+          "value": "Make the setup screen easier to read",
+          "selectionStart": 0,
+          "selectionEnd": 0,
+          "focused": false
+        },
+        "identity": {
+          "node": true,
+          "value": true,
+          "focus": true,
+          "caret": true
+        },
+        "notes": [],
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "tourStep": "",
+        "pendingTourSteps": 0,
+        "focus": "limit"
+      },
+      "choices": {
+        "fixed": true,
+        "edges": true,
+        "quiet": false,
+        "limit": "2"
+      }
+    },
+    {
+      "name": "limit2 audit",
+      "state": {
+        "fixed": true,
+        "edges": true,
+        "quiet": false,
+        "systemReduced": false,
+        "solid": false,
+        "limit": 2,
+        "revision": 3,
+        "reportRevision": 3,
+        "stale": false,
+        "report": {
+          "policy": {
+            "kind": "configured-library-layout-policy",
+            "minTarget": 44,
+            "minInputFont": 16,
+            "overflowTolerance": 1,
+            "targetLimit": 2,
+            "readLimit": 512,
+            "ancestorLimit": 16,
+            "advisoryLimit": 256
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800,
+            "overflow": {
+              "scrollWidth": 1265,
+              "clientWidth": 1265,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "root": {
+            "rect": {
+              "x": 40,
+              "y": 511.46875,
+              "width": 612.609375,
+              "height": 838.078125
+            },
+            "reason": null,
+            "overflow": {
+              "scrollWidth": 611,
+              "clientWidth": 611,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "targets": [
+            {
+              "id": "review-note",
+              "kind": "field",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 726.859375,
+                "width": 516.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": 16,
+              "fontCheck": "within-policy",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "add-review",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 587.609375,
+                "y": 726.859375,
+                "width": 44,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            }
+          ],
+          "advisories": [],
+          "counts": {
+            "supplied": 8,
+            "considered": 2,
+            "checked": 2,
+            "skipped": 0,
+            "unvisited": 6,
+            "advisories": 0
+          },
+          "reads": {
+            "total": 20,
+            "styles": 11,
+            "rects": 3,
+            "dimensions": 6
+          },
+          "truncation": {
+            "targetLimit": true,
+            "readBudget": false,
+            "ancestorLimit": false,
+            "advisories": false
+          },
+          "truncated": true,
+          "incomplete": true,
+          "limitations": [
+            "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+            "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+            "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+            "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+            "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+            "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+            "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+          ]
+        },
+        "calls": 3,
+        "lastSynchronousAuditMs": 0.8999999761581421,
+        "field": {
+          "nodePreserved": true,
+          "value": "Make the setup screen easier to read",
+          "selectionStart": 0,
+          "selectionEnd": 0,
+          "focused": false
+        },
+        "identity": {
+          "node": true,
+          "value": true,
+          "focus": true,
+          "caret": true
+        },
+        "notes": [],
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "tourStep": "",
+        "pendingTourSteps": 0,
+        "focus": "audit"
+      },
+      "choices": {
+        "fixed": true,
+        "edges": true,
+        "quiet": false,
+        "limit": "2"
+      }
+    },
+    {
+      "name": "limit64 native arrow",
+      "state": {
+        "fixed": true,
+        "edges": true,
+        "quiet": false,
+        "systemReduced": false,
+        "solid": false,
+        "limit": 64,
+        "revision": 4,
+        "reportRevision": 3,
+        "stale": true,
+        "report": {
+          "policy": {
+            "kind": "configured-library-layout-policy",
+            "minTarget": 44,
+            "minInputFont": 16,
+            "overflowTolerance": 1,
+            "targetLimit": 2,
+            "readLimit": 512,
+            "ancestorLimit": 16,
+            "advisoryLimit": 256
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800,
+            "overflow": {
+              "scrollWidth": 1265,
+              "clientWidth": 1265,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "root": {
+            "rect": {
+              "x": 40,
+              "y": 511.46875,
+              "width": 612.609375,
+              "height": 838.078125
+            },
+            "reason": null,
+            "overflow": {
+              "scrollWidth": 611,
+              "clientWidth": 611,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "targets": [
+            {
+              "id": "review-note",
+              "kind": "field",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 726.859375,
+                "width": 516.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": 16,
+              "fontCheck": "within-policy",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "add-review",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 587.609375,
+                "y": 726.859375,
+                "width": 44,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            }
+          ],
+          "advisories": [],
+          "counts": {
+            "supplied": 8,
+            "considered": 2,
+            "checked": 2,
+            "skipped": 0,
+            "unvisited": 6,
+            "advisories": 0
+          },
+          "reads": {
+            "total": 20,
+            "styles": 11,
+            "rects": 3,
+            "dimensions": 6
+          },
+          "truncation": {
+            "targetLimit": true,
+            "readBudget": false,
+            "ancestorLimit": false,
+            "advisories": false
+          },
+          "truncated": true,
+          "incomplete": true,
+          "limitations": [
+            "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+            "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+            "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+            "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+            "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+            "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+            "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+          ]
+        },
+        "calls": 3,
+        "lastSynchronousAuditMs": 0.8999999761581421,
+        "field": {
+          "nodePreserved": true,
+          "value": "Make the setup screen easier to read",
+          "selectionStart": 0,
+          "selectionEnd": 0,
+          "focused": false
+        },
+        "identity": {
+          "node": true,
+          "value": true,
+          "focus": true,
+          "caret": true
+        },
+        "notes": [],
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "tourStep": "",
+        "pendingTourSteps": 0,
+        "focus": "limit"
+      },
+      "choices": {
+        "fixed": true,
+        "edges": true,
+        "quiet": false,
+        "limit": "64"
+      }
+    },
+    {
+      "name": "quiet choice retained",
+      "state": {
+        "fixed": true,
+        "edges": true,
+        "quiet": true,
+        "systemReduced": false,
+        "solid": false,
+        "limit": 64,
+        "revision": 5,
+        "reportRevision": 3,
+        "stale": true,
+        "report": {
+          "policy": {
+            "kind": "configured-library-layout-policy",
+            "minTarget": 44,
+            "minInputFont": 16,
+            "overflowTolerance": 1,
+            "targetLimit": 2,
+            "readLimit": 512,
+            "ancestorLimit": 16,
+            "advisoryLimit": 256
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800,
+            "overflow": {
+              "scrollWidth": 1265,
+              "clientWidth": 1265,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "root": {
+            "rect": {
+              "x": 40,
+              "y": 511.46875,
+              "width": 612.609375,
+              "height": 838.078125
+            },
+            "reason": null,
+            "overflow": {
+              "scrollWidth": 611,
+              "clientWidth": 611,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "targets": [
+            {
+              "id": "review-note",
+              "kind": "field",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 726.859375,
+                "width": 516.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": 16,
+              "fontCheck": "within-policy",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "add-review",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 587.609375,
+                "y": 726.859375,
+                "width": 44,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            }
+          ],
+          "advisories": [],
+          "counts": {
+            "supplied": 8,
+            "considered": 2,
+            "checked": 2,
+            "skipped": 0,
+            "unvisited": 6,
+            "advisories": 0
+          },
+          "reads": {
+            "total": 20,
+            "styles": 11,
+            "rects": 3,
+            "dimensions": 6
+          },
+          "truncation": {
+            "targetLimit": true,
+            "readBudget": false,
+            "ancestorLimit": false,
+            "advisories": false
+          },
+          "truncated": true,
+          "incomplete": true,
+          "limitations": [
+            "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+            "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+            "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+            "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+            "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+            "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+            "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+          ]
+        },
+        "calls": 3,
+        "lastSynchronousAuditMs": 0.8999999761581421,
+        "field": {
+          "nodePreserved": true,
+          "value": "Make the setup screen easier to read",
+          "selectionStart": 0,
+          "selectionEnd": 0,
+          "focused": false
+        },
+        "identity": {
+          "node": true,
+          "value": true,
+          "focus": true,
+          "caret": true
+        },
+        "notes": [],
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "tourStep": "",
+        "pendingTourSteps": 0,
+        "focus": "quiet"
+      },
+      "choices": {
+        "fixed": true,
+        "edges": true,
+        "quiet": true,
+        "limit": "64"
+      }
+    },
+    {
+      "name": "fixed choice during actual tour",
+      "state": {
+        "fixed": true,
+        "edges": false,
+        "quiet": false,
+        "systemReduced": false,
+        "solid": false,
+        "limit": 64,
+        "revision": 1,
+        "reportRevision": 0,
+        "stale": true,
+        "report": {
+          "policy": {
+            "kind": "configured-library-layout-policy",
+            "minTarget": 44,
+            "minInputFont": 16,
+            "overflowTolerance": 1,
+            "targetLimit": 64,
+            "readLimit": 512,
+            "ancestorLimit": 16,
+            "advisoryLimit": 256
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800,
+            "overflow": {
+              "scrollWidth": 1265,
+              "clientWidth": 1265,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "root": {
+            "rect": {
+              "x": 40,
+              "y": 511.46875,
+              "width": 612.609375,
+              "height": 560.1875
+            },
+            "reason": null,
+            "overflow": {
+              "scrollWidth": 920,
+              "clientWidth": 611,
+              "excess": 309,
+              "check": "advisory"
+            }
+          },
+          "targets": [
+            {
+              "id": "review-note",
+              "kind": "field",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 726.859375,
+                "width": 528.609375,
+                "height": 40
+              },
+              "sizeCheck": "advisory",
+              "fontSize": 14,
+              "fontCheck": "advisory",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "add-review",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 599.609375,
+                "y": 730.859375,
+                "width": 32,
+                "height": 32
+              },
+              "sizeCheck": "advisory",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "checkbox-label",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 801.359375,
+                "width": 570.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": true,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            },
+            {
+              "id": "reference-shelf",
+              "kind": "container",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 928.65625,
+                "width": 570.609375,
+                "height": 124
+              },
+              "sizeCheck": "not-requested",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": {
+                "scrollWidth": 571,
+                "clientWidth": 571,
+                "excess": 0,
+                "check": "exempt"
+              },
+              "suppliedHitArea": false,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            }
+          ],
+          "advisories": [
+            {
+              "scope": "root",
+              "id": null,
+              "code": "horizontal-overflow"
+            },
+            {
+              "scope": "target",
+              "id": "review-note",
+              "code": "target-size"
+            },
+            {
+              "scope": "target",
+              "id": "review-note",
+              "code": "field-font"
+            },
+            {
+              "scope": "target",
+              "id": "add-review",
+              "code": "target-size"
+            }
+          ],
+          "counts": {
+            "supplied": 4,
+            "considered": 4,
+            "checked": 4,
+            "skipped": 0,
+            "unvisited": 0,
+            "advisories": 4
+          },
+          "reads": {
+            "total": 26,
+            "styles": 13,
+            "rects": 5,
+            "dimensions": 8
+          },
+          "truncation": {
+            "targetLimit": false,
+            "readBudget": false,
+            "ancestorLimit": false,
+            "advisories": false
+          },
+          "truncated": false,
+          "incomplete": false,
+          "limitations": [
+            "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+            "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+            "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+            "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+            "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+            "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+            "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+          ]
+        },
+        "calls": 1,
+        "lastSynchronousAuditMs": 0.5,
+        "field": {
+          "nodePreserved": true,
+          "value": "Make the setup screen easier to read",
+          "selectionStart": 5,
+          "selectionEnd": 15,
+          "focused": false
+        },
+        "identity": {
+          "node": true,
+          "value": true,
+          "focus": true,
+          "caret": true
+        },
+        "notes": [],
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "tourStep": "",
+        "pendingTourSteps": 0,
+        "focus": "fixed"
+      },
+      "choices": {
+        "fixed": true,
+        "edges": false,
+        "quiet": false,
+        "limit": "64"
+      }
+    },
+    {
+      "name": "no delayed tour override",
+      "state": {
+        "fixed": true,
+        "edges": false,
+        "quiet": false,
+        "systemReduced": false,
+        "solid": false,
+        "limit": 64,
+        "revision": 1,
+        "reportRevision": 0,
+        "stale": true,
+        "report": {
+          "policy": {
+            "kind": "configured-library-layout-policy",
+            "minTarget": 44,
+            "minInputFont": 16,
+            "overflowTolerance": 1,
+            "targetLimit": 64,
+            "readLimit": 512,
+            "ancestorLimit": 16,
+            "advisoryLimit": 256
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800,
+            "overflow": {
+              "scrollWidth": 1265,
+              "clientWidth": 1265,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "root": {
+            "rect": {
+              "x": 40,
+              "y": 511.46875,
+              "width": 612.609375,
+              "height": 560.1875
+            },
+            "reason": null,
+            "overflow": {
+              "scrollWidth": 920,
+              "clientWidth": 611,
+              "excess": 309,
+              "check": "advisory"
+            }
+          },
+          "targets": [
+            {
+              "id": "review-note",
+              "kind": "field",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 726.859375,
+                "width": 528.609375,
+                "height": 40
+              },
+              "sizeCheck": "advisory",
+              "fontSize": 14,
+              "fontCheck": "advisory",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "add-review",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 599.609375,
+                "y": 730.859375,
+                "width": 32,
+                "height": 32
+              },
+              "sizeCheck": "advisory",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "checkbox-label",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 801.359375,
+                "width": 570.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": true,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            },
+            {
+              "id": "reference-shelf",
+              "kind": "container",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 928.65625,
+                "width": 570.609375,
+                "height": 124
+              },
+              "sizeCheck": "not-requested",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": {
+                "scrollWidth": 571,
+                "clientWidth": 571,
+                "excess": 0,
+                "check": "exempt"
+              },
+              "suppliedHitArea": false,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            }
+          ],
+          "advisories": [
+            {
+              "scope": "root",
+              "id": null,
+              "code": "horizontal-overflow"
+            },
+            {
+              "scope": "target",
+              "id": "review-note",
+              "code": "target-size"
+            },
+            {
+              "scope": "target",
+              "id": "review-note",
+              "code": "field-font"
+            },
+            {
+              "scope": "target",
+              "id": "add-review",
+              "code": "target-size"
+            }
+          ],
+          "counts": {
+            "supplied": 4,
+            "considered": 4,
+            "checked": 4,
+            "skipped": 0,
+            "unvisited": 0,
+            "advisories": 4
+          },
+          "reads": {
+            "total": 26,
+            "styles": 13,
+            "rects": 5,
+            "dimensions": 8
+          },
+          "truncation": {
+            "targetLimit": false,
+            "readBudget": false,
+            "ancestorLimit": false,
+            "advisories": false
+          },
+          "truncated": false,
+          "incomplete": false,
+          "limitations": [
+            "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+            "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+            "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+            "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+            "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+            "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+            "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+          ]
+        },
+        "calls": 1,
+        "lastSynchronousAuditMs": 0.5,
+        "field": {
+          "nodePreserved": true,
+          "value": "Make the setup screen easier to read",
+          "selectionStart": 5,
+          "selectionEnd": 15,
+          "focused": false
+        },
+        "identity": {
+          "node": true,
+          "value": true,
+          "focus": true,
+          "caret": true
+        },
+        "notes": [],
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "tourStep": "",
+        "pendingTourSteps": 0,
+        "focus": "fixed"
+      },
+      "choices": {
+        "fixed": true,
+        "edges": false,
+        "quiet": false,
+        "limit": "64"
+      }
+    },
+    {
+      "name": "actual native note and context submit",
+      "state": {
+        "fixed": true,
+        "edges": false,
+        "quiet": false,
+        "systemReduced": false,
+        "solid": false,
+        "limit": 64,
+        "revision": 4,
+        "reportRevision": 0,
+        "stale": true,
+        "report": {
+          "policy": {
+            "kind": "configured-library-layout-policy",
+            "minTarget": 44,
+            "minInputFont": 16,
+            "overflowTolerance": 1,
+            "targetLimit": 64,
+            "readLimit": 512,
+            "ancestorLimit": 16,
+            "advisoryLimit": 256
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800,
+            "overflow": {
+              "scrollWidth": 1265,
+              "clientWidth": 1265,
+              "excess": 0,
+              "check": "within-policy"
+            }
+          },
+          "root": {
+            "rect": {
+              "x": 40,
+              "y": 511.46875,
+              "width": 612.609375,
+              "height": 560.1875
+            },
+            "reason": null,
+            "overflow": {
+              "scrollWidth": 920,
+              "clientWidth": 611,
+              "excess": 309,
+              "check": "advisory"
+            }
+          },
+          "targets": [
+            {
+              "id": "review-note",
+              "kind": "field",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 726.859375,
+                "width": 528.609375,
+                "height": 40
+              },
+              "sizeCheck": "advisory",
+              "fontSize": 14,
+              "fontCheck": "advisory",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "add-review",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 599.609375,
+                "y": 730.859375,
+                "width": 32,
+                "height": 32
+              },
+              "sizeCheck": "advisory",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": false,
+              "viewportOffscreen": false,
+              "partialClipping": false
+            },
+            {
+              "id": "checkbox-label",
+              "kind": "control",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 801.359375,
+                "width": 570.609375,
+                "height": 44
+              },
+              "sizeCheck": "within-policy",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": null,
+              "suppliedHitArea": true,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            },
+            {
+              "id": "reference-shelf",
+              "kind": "container",
+              "status": "measured",
+              "reason": null,
+              "rect": {
+                "x": 61,
+                "y": 928.65625,
+                "width": 570.609375,
+                "height": 124
+              },
+              "sizeCheck": "not-requested",
+              "fontSize": null,
+              "fontCheck": "not-requested",
+              "overflow": {
+                "scrollWidth": 571,
+                "clientWidth": 571,
+                "excess": 0,
+                "check": "exempt"
+              },
+              "suppliedHitArea": false,
+              "viewportOffscreen": true,
+              "partialClipping": false
+            }
+          ],
+          "advisories": [
+            {
+              "scope": "root",
+              "id": null,
+              "code": "horizontal-overflow"
+            },
+            {
+              "scope": "target",
+              "id": "review-note",
+              "code": "target-size"
+            },
+            {
+              "scope": "target",
+              "id": "review-note",
+              "code": "field-font"
+            },
+            {
+              "scope": "target",
+              "id": "add-review",
+              "code": "target-size"
+            }
+          ],
+          "counts": {
+            "supplied": 4,
+            "considered": 4,
+            "checked": 4,
+            "skipped": 0,
+            "unvisited": 0,
+            "advisories": 4
+          },
+          "reads": {
+            "total": 26,
+            "styles": 13,
+            "rects": 5,
+            "dimensions": 8
+          },
+          "truncation": {
+            "targetLimit": false,
+            "readBudget": false,
+            "ancestorLimit": false,
+            "advisories": false
+          },
+          "truncated": false,
+          "incomplete": false,
+          "limitations": [
+            "44px targets and 16px fields are configurable library policies, not WCAG certification. WCAG 2.2 target-size minimum uses 24px plus exceptions that are not evaluated here.",
+            "Border boxes and ancestor-border-box clipping are conservative geometry, not complete transformed, pseudo-element, irregular or overlapping hit-test shapes.",
+            "Supplied hit areas and exemptions require host review. Native label association, keyboard, screen reader, contrast, zoom, virtual keyboard and physical devices are not tested.",
+            "Viewport-offscreen content is distinct from ancestor clipping and is not automatically inaccessible. aria-hidden and inert alone are not visual invisibility.",
+            "Shadow/slotted composed-tree visibility is not inferred. A reached shadow boundary is unknown rather than a clean geometry verdict.",
+            "Synchronous style/layout reads may force browser work. Counters describe explicit sampler operations, not paint, GPU time, network or application frame rate.",
+            "Results apply only to this explicit scope/current view. No content, form values, names, HTML, screenshots or automatic repair are collected or performed."
+          ]
+        },
+        "calls": 1,
+        "lastSynchronousAuditMs": 0.5,
+        "field": {
+          "nodePreserved": true,
+          "value": "Keep the native review clear",
+          "selectionStart": 28,
+          "selectionEnd": 28,
+          "focused": false
+        },
+        "identity": {
+          "node": true,
+          "value": true,
+          "focus": true,
+          "caret": true
+        },
+        "notes": [
+          {
+            "note": "Keep the native review clear",
+            "includeContext": false
+          }
+        ],
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "tourStep": "",
+        "pendingTourSteps": 0,
+        "focus": "fixture-action"
+      },
+      "choices": {
+        "fixed": true,
+        "edges": false,
+        "quiet": false,
+        "limit": "64"
+      }
+    }
+  ],
+  "limits": [
+    "Not T3native macOS delivery, physicalphones, Safari, OS menus or assistive technology",
+    "Correctness only; no performance/FPS/GPU claim"
+  ],
+  "coreChanged": false,
+  "fix": "Read native control choice before cancellation redraw"
+}
