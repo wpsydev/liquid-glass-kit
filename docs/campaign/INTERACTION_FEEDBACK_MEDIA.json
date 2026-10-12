@@ -1,0 +1,16 @@
+{
+  "durationSeconds": 12,
+  "width": 960,
+  "height": 960,
+  "exportFps": 30,
+  "bytes": 519274,
+  "sha256": "ea052b2510d309d7dbe1216b1a8dc0379fa67576ff4d2fb1e28dc9937646f112",
+  "music": {
+    "style": "dnb",
+    "bpm": 160,
+    "seed": 24,
+    "patch": "fm",
+    "provenance": "Original procedural synthesis, MIT, no external samples"
+  },
+  "capture": "Actual T3 source-preview local commits + finite canvas feedback; camera-only page-bottom spacer for framing; export FPS is not app FPS"
+}

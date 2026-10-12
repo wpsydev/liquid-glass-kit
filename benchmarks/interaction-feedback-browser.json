@@ -1,0 +1,90 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "dpr": 2,
+  "observedAtUtc": "2026-10-12T00:29:22.852Z",
+  "samples": [
+    {
+      "activeAfter800": false,
+      "activeRafRequests": 27,
+      "config": {
+        "duration": 420,
+        "height": 256,
+        "maxBursts": 2,
+        "maxDpr": 1.5,
+        "maxPixels": 262144,
+        "particles": 24,
+        "width": 512
+      },
+      "emitSubmitMs": 0,
+      "idleRafRequests": 0,
+      "jsRectangleReads": 0,
+      "peak": {
+        "activeBursts": 2,
+        "activeParticles": 48,
+        "backingHeight": 362,
+        "backingWidth": 724,
+        "dpr": 1.4140625,
+        "frames": 0,
+        "height": 256,
+        "pixels": 262088,
+        "width": 512
+      },
+      "settled": {
+        "activeBursts": 0,
+        "activeParticles": 0,
+        "backingHeight": 362,
+        "backingWidth": 724,
+        "dpr": 1.4140625,
+        "frames": 27,
+        "height": 256,
+        "pixels": 262088,
+        "width": 512
+      },
+      "supported": true
+    },
+    {
+      "activeAfter800": false,
+      "activeRafRequests": 28,
+      "config": {
+        "duration": 420,
+        "height": 1024,
+        "maxBursts": 4,
+        "maxDpr": 2,
+        "maxPixels": 1048576,
+        "particles": 64,
+        "width": 1024
+      },
+      "emitSubmitMs": 0.3999999761581421,
+      "idleRafRequests": 0,
+      "jsRectangleReads": 0,
+      "peak": {
+        "activeBursts": 4,
+        "activeParticles": 134,
+        "backingHeight": 1024,
+        "backingWidth": 1024,
+        "dpr": 1,
+        "frames": 0,
+        "height": 1024,
+        "pixels": 1048576,
+        "width": 1024
+      },
+      "settled": {
+        "activeBursts": 0,
+        "activeParticles": 0,
+        "backingHeight": 1024,
+        "backingWidth": 1024,
+        "dpr": 1,
+        "frames": 28,
+        "height": 1024,
+        "pixels": 1048576,
+        "width": 1024
+      },
+      "supported": true
+    }
+  ],
+  "scope": "Native finite-work counters and idle observation. EmitSubmitMs is synchronous8-call submission only; timers may be delayed. Counters are not FPS/GPU timings, no comparative speedup.",
+  "viewport": [
+    1280,
+    800
+  ]
+}

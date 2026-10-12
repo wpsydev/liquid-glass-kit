@@ -1,0 +1,1631 @@
+{
+  "browser": "T3 desktop Chromium CSS viewports",
+  "matrix": [
+    {
+      "canvas": {
+        "bottom": 1344.3515625,
+        "height": 1143,
+        "left": 17,
+        "right": 288,
+        "top": 201.3515625,
+        "width": 271,
+        "x": 17,
+        "y": 201.3515625
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 225
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "save-note",
+          "width": 105.9296875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 225
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effect",
+          "width": 129.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 129.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "density",
+          "width": 129.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 129.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 129.5
+        }
+      ],
+      "effect": "pixels",
+      "labels": [
+        {
+          "height": 105,
+          "width": 68.328125
+        },
+        {
+          "height": 105,
+          "width": 68.3359375
+        },
+        {
+          "height": 105,
+          "width": 68.3359375
+        },
+        {
+          "height": 44,
+          "width": 133
+        },
+        {
+          "height": 44,
+          "width": 129.5
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 24,
+          "backingHeight": 1487,
+          "backingWidth": 352,
+          "dpr": 1.2988929889298892,
+          "frames": 38,
+          "height": 1143,
+          "pixels": 523424,
+          "width": 271
+        }
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 1344.3515625,
+        "height": 1143,
+        "left": 17,
+        "right": 288,
+        "top": 201.3515625,
+        "width": 271,
+        "x": 17,
+        "y": 201.3515625
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 225
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "save-note",
+          "width": 105.9296875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 225
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effect",
+          "width": 129.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 129.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "density",
+          "width": 129.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 129.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 129.5
+        }
+      ],
+      "effect": "sparks",
+      "labels": [
+        {
+          "height": 105,
+          "width": 68.328125
+        },
+        {
+          "height": 105,
+          "width": 68.3359375
+        },
+        {
+          "height": 105,
+          "width": 68.3359375
+        },
+        {
+          "height": 44,
+          "width": 133
+        },
+        {
+          "height": 44,
+          "width": 129.5
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 24,
+          "backingHeight": 1487,
+          "backingWidth": 352,
+          "dpr": 1.2988929889298892,
+          "frames": 46,
+          "height": 1143,
+          "pixels": 523424,
+          "width": 271
+        }
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 1344.3515625,
+        "height": 1143,
+        "left": 17,
+        "right": 288,
+        "top": 201.3515625,
+        "width": 271,
+        "x": 17,
+        "y": 201.3515625
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 225
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "save-note",
+          "width": 105.9296875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 225
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effect",
+          "width": 129.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 129.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "density",
+          "width": 129.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 129.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 129.5
+        }
+      ],
+      "effect": "ripple",
+      "labels": [
+        {
+          "height": 105,
+          "width": 68.328125
+        },
+        {
+          "height": 105,
+          "width": 68.3359375
+        },
+        {
+          "height": 105,
+          "width": 68.3359375
+        },
+        {
+          "height": 44,
+          "width": 133
+        },
+        {
+          "height": 44,
+          "width": 129.5
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 3,
+          "backingHeight": 1487,
+          "backingWidth": 352,
+          "dpr": 1.2988929889298892,
+          "frames": 52,
+          "height": 1143,
+          "pixels": 523424,
+          "width": 271
+        }
+      },
+      "viewport": [
+        320,
+        700
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 1307.3515625,
+        "height": 1106,
+        "left": 17,
+        "right": 358,
+        "top": 201.3515625,
+        "width": 341,
+        "x": 17,
+        "y": 201.3515625
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 295
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "save-note",
+          "width": 105.9296875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 295
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effect",
+          "width": 164.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 164.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "density",
+          "width": 164.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 164.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 164.5
+        }
+      ],
+      "effect": "pixels",
+      "labels": [
+        {
+          "height": 105,
+          "width": 91.6640625
+        },
+        {
+          "height": 105,
+          "width": 91.671875
+        },
+        {
+          "height": 105,
+          "width": 91.6640625
+        },
+        {
+          "height": 44,
+          "width": 203
+        },
+        {
+          "height": 44,
+          "width": 164.5
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 24,
+          "backingHeight": 1304,
+          "backingWidth": 402,
+          "dpr": 1.1788856304985338,
+          "frames": 64,
+          "height": 1106,
+          "pixels": 524208,
+          "width": 341
+        }
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 1307.3515625,
+        "height": 1106,
+        "left": 17,
+        "right": 358,
+        "top": 201.3515625,
+        "width": 341,
+        "x": 17,
+        "y": 201.3515625
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 295
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "save-note",
+          "width": 105.9296875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 295
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effect",
+          "width": 164.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 164.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "density",
+          "width": 164.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 164.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 164.5
+        }
+      ],
+      "effect": "sparks",
+      "labels": [
+        {
+          "height": 105,
+          "width": 91.6640625
+        },
+        {
+          "height": 105,
+          "width": 91.671875
+        },
+        {
+          "height": 105,
+          "width": 91.6640625
+        },
+        {
+          "height": 44,
+          "width": 203
+        },
+        {
+          "height": 44,
+          "width": 164.5
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 24,
+          "backingHeight": 1304,
+          "backingWidth": 402,
+          "dpr": 1.1788856304985338,
+          "frames": 72,
+          "height": 1106,
+          "pixels": 524208,
+          "width": 341
+        }
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 1307.3515625,
+        "height": 1106,
+        "left": 17,
+        "right": 358,
+        "top": 201.3515625,
+        "width": 341,
+        "x": 17,
+        "y": 201.3515625
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 295
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "save-note",
+          "width": 105.9296875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 295
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effect",
+          "width": 164.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 164.5
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "density",
+          "width": 164.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 164.5
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 164.5
+        }
+      ],
+      "effect": "ripple",
+      "labels": [
+        {
+          "height": 105,
+          "width": 91.6640625
+        },
+        {
+          "height": 105,
+          "width": 91.671875
+        },
+        {
+          "height": 105,
+          "width": 91.6640625
+        },
+        {
+          "height": 44,
+          "width": 203
+        },
+        {
+          "height": 44,
+          "width": 164.5
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 3,
+          "backingHeight": 1304,
+          "backingWidth": 402,
+          "dpr": 1.1788856304985338,
+          "frames": 93,
+          "height": 1106,
+          "pixels": 524208,
+          "width": 341
+        }
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 736.65625,
+        "height": 581,
+        "left": 23,
+        "right": 730,
+        "top": 155.65625,
+        "width": 707,
+        "x": 23,
+        "y": 155.65625
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 310.5
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "save-note",
+          "width": 101.1640625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 311.5
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "effect",
+          "width": 183.390625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 238.4140625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "density",
+          "width": 146.71875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 433.8046875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 263.1953125
+        }
+      ],
+      "effect": "pixels",
+      "labels": [
+        {
+          "height": 105,
+          "width": 95.5
+        },
+        {
+          "height": 105,
+          "width": 95.5
+        },
+        {
+          "height": 105,
+          "width": 95.5
+        },
+        {
+          "height": 44,
+          "width": 229.5
+        },
+        {
+          "height": 44,
+          "width": 104.4765625
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 24,
+          "backingHeight": 656,
+          "backingWidth": 798,
+          "dpr": 1.1287128712871286,
+          "frames": 104,
+          "height": 581,
+          "pixels": 523488,
+          "width": 707
+        }
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 736.65625,
+        "height": 581,
+        "left": 23,
+        "right": 730,
+        "top": 155.65625,
+        "width": 707,
+        "x": 23,
+        "y": 155.65625
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 310.5
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "save-note",
+          "width": 101.1640625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 311.5
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "effect",
+          "width": 183.390625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 238.4140625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "density",
+          "width": 146.71875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 433.8046875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 263.1953125
+        }
+      ],
+      "effect": "sparks",
+      "labels": [
+        {
+          "height": 105,
+          "width": 95.5
+        },
+        {
+          "height": 105,
+          "width": 95.5
+        },
+        {
+          "height": 105,
+          "width": 95.5
+        },
+        {
+          "height": 44,
+          "width": 229.5
+        },
+        {
+          "height": 44,
+          "width": 104.4765625
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 24,
+          "backingHeight": 656,
+          "backingWidth": 798,
+          "dpr": 1.1287128712871286,
+          "frames": 113,
+          "height": 581,
+          "pixels": 523488,
+          "width": 707
+        }
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 736.65625,
+        "height": 581,
+        "left": 23,
+        "right": 730,
+        "top": 155.65625,
+        "width": 707,
+        "x": 23,
+        "y": 155.65625
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 310.5
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "save-note",
+          "width": 101.1640625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 311.5
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "effect",
+          "width": 183.390625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 238.4140625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "density",
+          "width": 146.71875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 433.8046875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 263.1953125
+        }
+      ],
+      "effect": "ripple",
+      "labels": [
+        {
+          "height": 105,
+          "width": 95.5
+        },
+        {
+          "height": 105,
+          "width": 95.5
+        },
+        {
+          "height": 105,
+          "width": 95.5
+        },
+        {
+          "height": 44,
+          "width": 229.5
+        },
+        {
+          "height": 44,
+          "width": 104.4765625
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 3,
+          "backingHeight": 656,
+          "backingWidth": 798,
+          "dpr": 1.1287128712871286,
+          "frames": 122,
+          "height": 581,
+          "pixels": 523488,
+          "width": 707
+        }
+      },
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 745.25,
+        "height": 581,
+        "left": 23,
+        "right": 806,
+        "top": 164.25,
+        "width": 783,
+        "x": 23,
+        "y": 164.25
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 348.5
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "save-note",
+          "width": 101.1640625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 349.5
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "effect",
+          "width": 207.90625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 270.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "density",
+          "width": 166.3359375
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 490.1875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 282.8125
+        }
+      ],
+      "effect": "pixels",
+      "labels": [
+        {
+          "height": 105,
+          "width": 108.1640625
+        },
+        {
+          "height": 105,
+          "width": 108.171875
+        },
+        {
+          "height": 105,
+          "width": 108.1640625
+        },
+        {
+          "height": 44,
+          "width": 267.5
+        },
+        {
+          "height": 44,
+          "width": 104.4765625
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 24,
+          "backingHeight": 623,
+          "backingWidth": 840,
+          "dpr": 1.072289156626506,
+          "frames": 130,
+          "height": 581,
+          "pixels": 523320,
+          "width": 783
+        }
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 745.25,
+        "height": 581,
+        "left": 23,
+        "right": 806,
+        "top": 164.25,
+        "width": 783,
+        "x": 23,
+        "y": 164.25
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 348.5
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "save-note",
+          "width": 101.1640625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 349.5
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "effect",
+          "width": 207.90625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 270.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "density",
+          "width": 166.3359375
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 490.1875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 282.8125
+        }
+      ],
+      "effect": "sparks",
+      "labels": [
+        {
+          "height": 105,
+          "width": 108.1640625
+        },
+        {
+          "height": 105,
+          "width": 108.171875
+        },
+        {
+          "height": 105,
+          "width": 108.1640625
+        },
+        {
+          "height": 44,
+          "width": 267.5
+        },
+        {
+          "height": 44,
+          "width": 104.4765625
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 24,
+          "backingHeight": 623,
+          "backingWidth": 840,
+          "dpr": 1.072289156626506,
+          "frames": 137,
+          "height": 581,
+          "pixels": 523320,
+          "width": 783
+        }
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 745.25,
+        "height": 581,
+        "left": 23,
+        "right": 806,
+        "top": 164.25,
+        "width": 783,
+        "x": 23,
+        "y": 164.25
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 348.5
+        },
+        {
+          "font": "11px",
+          "height": 44,
+          "id": "save-note",
+          "width": 101.1640625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 349.5
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "effect",
+          "width": 207.90625
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 270.28125
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "density",
+          "width": 166.3359375
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 490.1875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 282.8125
+        }
+      ],
+      "effect": "ripple",
+      "labels": [
+        {
+          "height": 105,
+          "width": 108.1640625
+        },
+        {
+          "height": 105,
+          "width": 108.171875
+        },
+        {
+          "height": 105,
+          "width": 108.1640625
+        },
+        {
+          "height": 44,
+          "width": 267.5
+        },
+        {
+          "height": 44,
+          "width": 104.4765625
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 3,
+          "backingHeight": 623,
+          "backingWidth": 840,
+          "dpr": 1.072289156626506,
+          "frames": 143,
+          "height": 581,
+          "pixels": 523320,
+          "width": 783
+        }
+      },
+      "viewport": [
+        844,
+        390
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 799.109375,
+        "height": 593,
+        "left": 155.5,
+        "right": 1269.5,
+        "top": 206.109375,
+        "width": 1114,
+        "x": 155.5,
+        "y": 206.109375
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 506
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "save-note",
+          "width": 111.9296875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 507
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "effect",
+          "width": 240.875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 337.2265625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "density",
+          "width": 192.703125
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 119.3046875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 46.4140625
+        }
+      ],
+      "effect": "pixels",
+      "labels": [
+        {
+          "height": 105,
+          "width": 160.6640625
+        },
+        {
+          "height": 105,
+          "width": 160.671875
+        },
+        {
+          "height": 105,
+          "width": 160.6640625
+        },
+        {
+          "height": 44,
+          "width": 407
+        },
+        {
+          "height": 44,
+          "width": 104.4765625
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 24,
+          "backingHeight": 528,
+          "backingWidth": 992,
+          "dpr": 0.8903878583473862,
+          "frames": 151,
+          "height": 593,
+          "pixels": 523776,
+          "width": 1114
+        }
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 799.109375,
+        "height": 593,
+        "left": 155.5,
+        "right": 1269.5,
+        "top": 206.109375,
+        "width": 1114,
+        "x": 155.5,
+        "y": 206.109375
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 506
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "save-note",
+          "width": 111.9296875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 507
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "effect",
+          "width": 240.875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 337.2265625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "density",
+          "width": 192.703125
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 119.3046875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 46.4140625
+        }
+      ],
+      "effect": "sparks",
+      "labels": [
+        {
+          "height": 105,
+          "width": 160.6640625
+        },
+        {
+          "height": 105,
+          "width": 160.671875
+        },
+        {
+          "height": 105,
+          "width": 160.6640625
+        },
+        {
+          "height": 44,
+          "width": 407
+        },
+        {
+          "height": 44,
+          "width": 104.4765625
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 24,
+          "backingHeight": 528,
+          "backingWidth": 992,
+          "dpr": 0.8903878583473862,
+          "frames": 157,
+          "height": 593,
+          "pixels": 523776,
+          "width": 1114
+        }
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "canvas": {
+        "bottom": 799.109375,
+        "height": 593,
+        "left": 155.5,
+        "right": 1269.5,
+        "top": 206.109375,
+        "width": 1114,
+        "x": 155.5,
+        "y": 206.109375
+      },
+      "controls": [
+        {
+          "font": "16px",
+          "height": 70,
+          "id": "note",
+          "width": 506
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "save-note",
+          "width": 111.9296875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "effort",
+          "width": 507
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "effect",
+          "width": 240.875
+        },
+        {
+          "font": "16px",
+          "height": 44,
+          "id": "particles",
+          "width": 337.2265625
+        },
+        {
+          "font": "12px",
+          "height": 44,
+          "id": "density",
+          "width": 192.703125
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "tour",
+          "width": 119.3046875
+        },
+        {
+          "font": "10px",
+          "height": 44,
+          "id": "cancel-tour",
+          "width": 46.4140625
+        }
+      ],
+      "effect": "ripple",
+      "labels": [
+        {
+          "height": 105,
+          "width": 160.6640625
+        },
+        {
+          "height": 105,
+          "width": 160.671875
+        },
+        {
+          "height": 105,
+          "width": 160.6640625
+        },
+        {
+          "height": 44,
+          "width": 407
+        },
+        {
+          "height": 44,
+          "width": 104.4765625
+        }
+      ],
+      "overflow": false,
+      "state": {
+        "accent": "cobalt",
+        "active": true,
+        "completed": false,
+        "effort": 3,
+        "savedNote": "make the useful part feel good",
+        "stats": {
+          "activeBursts": 1,
+          "activeParticles": 3,
+          "backingHeight": 528,
+          "backingWidth": 992,
+          "dpr": 0.8903878583473862,
+          "frames": 164,
+          "height": 593,
+          "pixels": 523776,
+          "width": 1114
+        }
+      },
+      "viewport": [
+        1440,
+        900
+      ]
+    }
+  ],
+  "quiet": {
+    "committedStateKept": true,
+    "visualCancelled": true,
+    "noFramesAfter1200": true
+  },
+  "scope": "Native source-preview geometry/control/local-state evidence, not physical-device/AT/renderer speed"
+}

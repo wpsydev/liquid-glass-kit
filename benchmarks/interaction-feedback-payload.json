@@ -1,0 +1,7 @@
+{
+  "observedAtUtc": "2026-10-12T00:29:23.524Z",
+  "rawBytes": 6145,
+  "gzipBytes": 2833,
+  "sha256": "28bf4df2ec8ede755b22b98bd50974ef9c28f71453db94a5d9f870caa1c09f5a",
+  "scope": "Standalone optional controller including shared numeric/lifecycle helpers; no renderer FPS, network load or comparative speedup claim"
+}

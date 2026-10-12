@@ -1,14 +1,14 @@
 {
-  "version": "0.23.0-preview.1",
+  "version": "0.24.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/resource-tree-showcase.mp4",
-      "name": "liquid-glass-resource-room.mp4",
+      "path": "docs/campaign/assets/interaction-feedback-showcase.mp4",
+      "name": "liquid-glass-good-loop.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/resource-tree-showcase.png",
-      "name": "liquid-glass-resource-room.png",
+      "path": "docs/campaign/assets/interaction-feedback-showcase.png",
+      "name": "liquid-glass-good-loop.png",
       "type": "image/png"
     }
   ]

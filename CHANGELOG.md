@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.24.0-preview.1
+
+- Add finite decorative pixels/sparks/ripple feedback on an owned pointer-transparent canvas, with pooled particles and explicit lifetime/DPR/pixel/burst budgets.
+- Cancel on hide, detachment or reduced motion; preserve native host action/focus semantics, with no idle RAF or geometry readback.
+- Add original Good Loop,15 native viewport/effect cases, actual quiet-state preservation and separate finite-work/payload evidence. No runtime dependency or default import change.
+
 ## 0.23.0-preview.1
 
 - Add optional single-select resource hierarchy with separate focus/selection/expansion, visible-order keyboard navigation, type-ahead and host snapshot updates.

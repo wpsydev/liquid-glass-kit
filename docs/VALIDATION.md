@@ -290,3 +290,15 @@ Eighteen focusedtests cover structure, snapshots, single-selection/expansion, ke
 Twenty nativeT3Chromium viewport/project/theme cases (320×700,390×844,768×1024,844×390,1440×900; twoinventories/twothemes) nooverflow,44pxbuttons/carets/rows,16pxfields. ArrowUp changedfocuswhilekeepingselection; Enterupdated actualpreview. FilteringallnodesoutrescuedfocusedtreeitemtotheemptyULinsideownedhost; appalreadyexternalfocusnotstolen. Originalframes reviewed, nofilesystem/Gitaccess orphysical-device/ATcertification.
 
 Five native500-node connectedlifecyclebatches of10cycles median153.4ms, no customRAF requests orJavaScriptrectreads. Allboundednodesrendered, notvirtualized. Finalintegrated npmruncheck628tests/36filesincludingqueuedprototypes; releaseadds18tree tests to352prior publishedtests. npmpackdryrun119files. Optionalpayload3,080JSgzip/1,051CSSgzip, no comparativeFPS/paint/loadclaim.
+
+0.23 publication: commit23d0dbfe3ff9c135f1747e5c6caa2ae592191864 passedVerify38187577343 (370tests/26files/final120-filepack),release38187577383 andPages38187577420. Downloadedarchive120members/259,611bytes SHA256 `afaca7d5f928c0854916d036d3bbddca02473be1a07718feac7ed088e802ad5b`; treeJS/CSS/typespresent,queuedmodulesabsent. Earlierlocal119-filepackprecedesnewguideinclusion; finalCIpackincludesit. Hostedactualchunksanddocfilter5visiblematchingrowsnoflowverified. Xpublicationawaitsexactpermalinkreadback.
+
+0.23 Xmain https://x.com/wpsygames/status/2109440013880689102 readbackverifiedwithactual12-secondvideo/readyState4 afterfreshprofile reload. Publicationnotinferredfrombuttonclickalone.
+
+## 0.24 finite interaction feedback (2026-10-12)
+
+Twenty-two focusedcontroller tests coverpool/lifetime budgets, nativefallbacks, replacement/cancel, hide/reduce/detach andcleanup. Integratedcheckpassed752tests/39filesincludingqueuedprototypes; releasescope370prior+22feedbacktests. Finalpackdryrun123filesafternewguideinclusion. Controllerstandalone2,833bytesgzip, no rootdefaultCSS/importchange.
+
+NativeT3source-preview15effect/viewportcases (pixels/sparks/ripple ×320×700,390×844,768×1024,844×390,1440×900): nooverflow,44pxbuttons/nativefieldcontrols andassociatedradio/checkboxlabels,16pxfields/selects. NativeSave button committedsessionnote, retainedfocus andemittedactual24-particleburst. Quietmodecancelledvisualwork whilechecklistcommitremainedtrue, cumulativeframesunchangedafter1,200ms.
+
+Finalactive-browserprobe used8emitcallsat24/64particleceilings andtwo/fourburstcaps. Actualbacking262,088/1,048,576pixels, peaks48/134activeparticles, settled0before800ms, drawrequests27/28, zeroRAFrequestsinfollowing250msidle andzeroJavaScriptrectreads. Submit-only timings0/.4ms, firstbelowbrowserclockresolution; notFPS/GPU/paint/performancecomparison. Discardedinactivebackground-tabrunremainedpendingat800ms, so activepaintingwasrequiredandrerun explicitly. Originalfilms/frames visuallyreviewed, notphysicaldevicecertification.

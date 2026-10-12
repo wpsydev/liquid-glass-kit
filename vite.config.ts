@@ -35,6 +35,7 @@ export default defineConfig({
         brief: resolve('site/brief/index.html'),
         readability: resolve('site/readability/index.html'),
         tree: resolve('site/tree/index.html'),
+        feedback: resolve('site/feedback/index.html'),
       },
     },
   },

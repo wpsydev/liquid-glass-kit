@@ -89,12 +89,12 @@
     {
       "order": 7,
       "url": "https://component.gallery",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Single-select resource tree",
       "version": "0.23.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/tree/",
       "video": "docs/campaign/assets/resource-tree-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109440013880689102",
       "performance": [
         "benchmarks/resource-tree-payload.json",
         "benchmarks/resource-tree-browser.json",
@@ -104,13 +104,17 @@
     {
       "order": 8,
       "url": "https://godly.website",
-      "status": "implementation-in-progress",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Finite decorative interaction feedback",
+      "version": "0.24.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/interaction-feedback-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/interaction-feedback-payload.json",
+        "benchmarks/interaction-feedback-browser.json",
+        "benchmarks/interaction-feedback-layouts.json"
+      ]
     },
     {
       "order": 9,

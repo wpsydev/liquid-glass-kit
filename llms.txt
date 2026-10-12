@@ -66,3 +66,5 @@ v0.19.0-preview.1. Install from the matching GitHub release/tag; npm publication
 - [Readability preflight](https://wpsydev.github.io/liquid-glass-kit/docs/READABILITY.md): pure supplied-color advisory and coherent opaque fallback; no captured-pixel or WCAG conformance claim
 
 - [Resource tree](https://wpsydev.github.io/liquid-glass-kit/docs/RESOURCE_TREE.md): optional single-select presentation hierarchy; focus and selection separate, native focus scrolling, host-owned snapshots, all bounded nodes rendered
+
+- [Finite feedback](https://wpsydev.github.io/liquid-glass-kit/docs/INTERACTION_FEEDBACK.md): bounded decorative pixels/sparks/ripples after host-confirmed actions; native controls remain separate, quiet when idle

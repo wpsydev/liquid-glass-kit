@@ -146,3 +146,7 @@ Optional `/readability` evaluates host-supplied opaque colors, selects an ink an
 ## Resource tree
 
 Optional `/resource-tree` and `/resource-tree.css` present a single-select hierarchy with native keyboard focus, separate expansion and host-owned data. Visible order is cached; ordinary rows share one material shell. [API](docs/RESOURCE_TREE.md) · [Resource Room](https://wpsydev.github.io/liquid-glass-kit/tree/).
+
+## Finite feedback
+
+Optional `/interaction-feedback` adds pixels, sparks or ripples after host-confirmed actions, with a bounded decorative canvas and no idle frame loop. Native controls and real state stay with the host. [API](docs/INTERACTION_FEEDBACK.md) · [Good Loop](https://wpsydev.github.io/liquid-glass-kit/feedback/).
