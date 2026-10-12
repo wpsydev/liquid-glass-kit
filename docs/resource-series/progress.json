@@ -468,12 +468,12 @@
     {
       "order": 32,
       "url": "https://shadertoy.com",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Trusted original procedural shader backdrops and last-good recovery",
       "version": "0.48.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/shaders/",
       "video": "docs/campaign/assets/shader-backdrop-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109533204537323831",
       "performance": [
         "benchmarks/shader-backdrop-payload.json",
         "benchmarks/shader-backdrop-browser.json",
@@ -484,13 +484,18 @@
     {
       "order": 33,
       "url": "https://thebookofshaders.com",
-      "status": "queued",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Opt-in output-footprint-aware edges with last-good legacy fallback",
+      "version": "0.49.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/scene-edge-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/scene-edge-payload.json",
+        "benchmarks/scene-edge-payload-comparison.json",
+        "benchmarks/scene-edge-native.json",
+        "benchmarks/scene-edge-responsive.json"
+      ]
     },
     {
       "order": 34,

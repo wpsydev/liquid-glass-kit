@@ -2,7 +2,7 @@
 
 For below-fold or optional artwork, 0.12's `/lazy` entry defers this module and GPU initialization until a canvas is near the viewport or explicitly requested. It preserves this renderer's options and fallback behavior. Reserve canvas dimensions, keep HTML controls eager and destroy the loader on unmount. [Loading guide and exact readiness semantics](LOADING.md).
 
-This opt-in WebGL2 renderer bends its own procedural wallpaper behind semantic HTML surfaces, animates thousands of decorative glass instances, and smoothly merges up to eight circular droplets. It does not read a page screenshot, sample arbitrary DOM, import external textures, or reproduce Apple's private compositor.
+The direct `/scene` entry bends its own procedural wallpaper behind semantic HTML surfaces, animates thousands of decorative glass instances, and smoothly merges up to eight circular droplets. Optional `/scene-texture` supplies a separate decoded host-owned media receiver; it does not capture arbitrary DOM. Neither entry reads a page screenshot or reproduces Apple's private compositor.
 
 ## Inspiration and implementation
 
@@ -47,6 +47,7 @@ Imports are safe during SSR. React/Vue/Svelte integrations can attach in their e
 | reducedTransparency | false | App preference combined with supported accessibility queries |
 | maxDpr | 2 | Rendering density cap, bounded to 1–2 |
 | maxPixels | absent | Optional backing-pixel budget, finite values bounded to 65,536–16,777,216; can lower effective DPR below 1, explicitly trading resolution for cost |
+| edgeQuality | legacy | `'legacy'` fixed CSS-distance coverage or explicit `'pixel'` bounded backing-aware local coverage for lenses/field/fusion; extra shader/fragment work, [policy and evidence](EDGE_QUALITY.md) |
 | field | absent | Optional decorative GPU field; no per-instance DOM nodes or semantics |
 | caustics | absent | Optional single-interface planar light projection; [exact bounds and research](CAUSTICS.md) |
 | fusion | absent | Optional smooth union of up to eight circular droplets; no HTML shape merging |
@@ -125,3 +126,11 @@ Validation distinguishes mocked lifecycle tests from actual browser rendering. R
 See [CAUSTICS.md](CAUSTICS.md) for the complete options, exact emitter coordinates, six examples, research, quality choices and measurements. Visible HTML surfaces emit automatically when caustics is enabled; up to eight total sources including explicit canvas-local emitters. Fusion/field are not automatically light emitters. The owned receiver is illuminated before all optical sampling; no arbitrary DOM capture, recursive glass layers or full light transport. Opaque accessibility modes skip caustic submissions. Reduced-motion explicit redraws use static time.
 
 Optional `/scene-texture` supplies a decoded host-owned media receiver with separate upload caps, static-by-default wrapper policy, explicit invalidation and host CORS/fallback/playback ownership. See [owned texture API](SCENE_TEXTURE.md). This opt-in seam adds no source texture work to ordinary scenes.
+
+## Optional pixel-aware edges
+
+`edgeQuality: 'pixel'` accounts for the local backing-pixel footprint when covering lens, field and fusion boundaries. Legacy remains the default, and every existing legacy shader string retains its bytes. Wallpaper/caustic shaders and portable CSS are unchanged. Carry the option forward on `update`, which replaces the complete scene configuration. In `/scene-texture`, pass it through the wrapper's `scene` settings.
+
+The copied stats include `requestedEdgeQuality`, effective `edgeQuality` and `edgeQualityFallback`. They describe policy, not proof of visible geometry submission. A native pixel pipeline compilation/link failure falls back all optics to legacy until a quality change or context restoration, preserving the independently owned receiver. Unsupported/destroyed scenes report effective legacy; keep using `supported` to choose host fallback.
+
+Pixel coverage adds fragment derivatives and conservative quad padding; extra edge fragments may be shaded. It is a local approximation, not MSAA, subpixel reconstruction, free quality or a GPU speedup. The identical standalone optional scene build grows by 493 gzip bytes versus published v0.48, even when the selected policy remains legacy. GPU elapsed time was not measured. [Complete edge API, exact math/cost boundaries, payload comparison and native study](EDGE_QUALITY.md).

@@ -1,0 +1,2045 @@
+{
+  "scope": "Native T3 desktop viewport emulation; comparison scrolled into view to activate owned WebGL visibility, no physical phones/Safari/AT claim",
+  "cases": [
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "legacy",
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 0,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0,
+          "pixels": 74236,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "legacy",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 268,
+              "pixels": 74236,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 277
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 268,
+              "pixels": 74236,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 277
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "pixel",
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1261,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.047564523950643894,
+          "pixels": 74236,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 268,
+              "pixels": 74236,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 277
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 268,
+              "pixels": 74236,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 277
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "budget",
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 793,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.02852181019511697,
+          "pixels": 65260,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.9395776634627431,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 251,
+              "pixels": 65260,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 260
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.9395776634627431,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 251,
+              "pixels": 65260,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 260
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "fusion",
+      "size": [
+        320,
+        700
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "fusion",
+        "inspection": {
+          "changed": 1407,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.049288754782046446,
+          "pixels": 74236,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 268,
+              "pixels": 74236,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 277
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 268,
+              "pixels": 74236,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 277
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "legacy",
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 0,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0,
+          "pixels": 101618,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "legacy",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 298,
+              "pixels": 101618,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 341
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 298,
+              "pixels": 101618,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 341
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "pixel",
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 971,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.0215316184140605,
+          "pixels": 101618,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 298,
+              "pixels": 101618,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 341
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 298,
+              "pixels": 101618,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 341
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "budget",
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 632,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.011954572624028692,
+          "pixels": 65247,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.8030722954334873,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 239,
+              "pixels": 65247,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 273
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.8030722954334873,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 239,
+              "pixels": 65247,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 273
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "fusion",
+      "size": [
+        390,
+        844
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "fusion",
+        "inspection": {
+          "changed": 1131,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.023653945823246536,
+          "pixels": 101618,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 298,
+              "pixels": 101618,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 341
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 298,
+              "pixels": 101618,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 341
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "legacy",
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 0,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0,
+          "pixels": 96276,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "legacy",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 284,
+              "pixels": 96276,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 339
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 284,
+              "pixels": 96276,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 339
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "pixel",
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1165,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.022695168058498482,
+          "pixels": 96276,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 284,
+              "pixels": 96276,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 339
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 284,
+              "pixels": 96276,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 339
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "budget",
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 496,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.009042265314666748,
+          "pixels": 65286,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.8244435145182285,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 234,
+              "pixels": 65286,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 279
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.8244435145182285,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 234,
+              "pixels": 65286,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 279
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "fusion",
+      "size": [
+        768,
+        1024
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "fusion",
+        "inspection": {
+          "changed": 1338,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.025080670849086655,
+          "pixels": 96276,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 284,
+              "pixels": 96276,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 339
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 284,
+              "pixels": 96276,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 339
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "legacy",
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 0,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0,
+          "pixels": 99151,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "legacy",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 99151,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 377
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 99151,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 377
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "pixel",
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1007,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03395158226677828,
+          "pixels": 99151,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 99151,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 377
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 99151,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 377
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "budget",
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 746,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.015260773062485296,
+          "pixels": 65178,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.8124630392605129,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 213,
+              "pixels": 65178,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 306
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.8124630392605129,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 213,
+              "pixels": 65178,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 306
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "fusion",
+      "size": [
+        844,
+        390
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "fusion",
+        "inspection": {
+          "changed": 1198,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03668142530080382,
+          "pixels": 99151,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 263,
+              "pixels": 99151,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 377
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 263,
+              "pixels": 99151,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 377
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "legacy",
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 0,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0,
+          "pixels": 154644,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "legacy",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 154644,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 588
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 154644,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 588
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "pixel",
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1478,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.032224550149590886,
+          "pixels": 154644,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 154644,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 588
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 154644,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 588
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "budget",
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 780,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.032929181592725267,
+          "pixels": 65322,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.6509886669795697,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 171,
+              "pixels": 65322,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 382
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.6509886669795697,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 171,
+              "pixels": 65322,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 382
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "labelsClipped": [],
+      "pageOverflow": false,
+      "preset": "fusion",
+      "size": [
+        1440,
+        900
+      ],
+      "smallFields": [],
+      "smallTargets": [],
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "fusion",
+        "inspection": {
+          "changed": 1768,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03551166981367959,
+          "pixels": 154644,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 263,
+              "pixels": 154644,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 588
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 263,
+              "pixels": 154644,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 588
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    }
+  ]
+}

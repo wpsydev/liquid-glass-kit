@@ -1,7 +1,7 @@
 import { causticFragmentSource, causticVertexSource } from './scene-caustics.js';
 import { bounded } from './numeric.js';
 import { captureState, listen } from './lifecycle.js';
-import { fieldFragmentSource, fieldVertexSource, fragmentSource, fusionFragmentSource, fusionVertexSource, lensFragmentSource, lensVertexSource, vertexSource, wallpaperSource } from './scene-shaders.js';
+import { fieldFragmentSource, fieldVertexSource, fragmentSource, fusionFragmentSource, fusionVertexSource, lensFragmentSource, lensVertexSource, scenePixelEdgeSources, vertexSource, wallpaperSource } from './scene-shaders.js';
 
 /** A surface in an owned WebGL scene. Coordinates and optics use CSS pixels. */
 export interface GlassSceneSurface {
@@ -84,6 +84,16 @@ export interface GlassSceneOptions {
   maxDpr?: number;
   /** Optional explicit backing-pixel budget; trades resolution for speed. */
   maxPixels?: number;
+  /**
+   * Default legacy fixed CSS-distance coverage. Opt-in pixel uses bounded local
+   * fragment derivatives for lens/field/fusion borders with backing-aware quad
+   * padding. It does not change wallpaper/caustics or reconstruct subpixel detail.
+   * Options replace on update: omitting this resets legacy. Unknown values use
+   * legacy. A pixel link failure falls back all optics to legacy until a quality
+   * change/context restore; inspect stats. Cost and visual quality need native
+   * hardware validation, especially at low budgets and thin/fusing geometry.
+   */
+  edgeQuality?: 'legacy' | 'pixel';
 }
 
 /** Trusted experimental renderer extension, not a sandbox for untrusted shaders. */
@@ -113,13 +123,19 @@ export interface GlassSceneStats {
   readonly height: number;
   readonly dpr: number;
   readonly pixels: number;
+  /** Normalized request; it is not proof that geometry was visible or submitted. */
+  readonly requestedEdgeQuality: 'legacy' | 'pixel';
+  /** Effective optics policy; unsupported/destroyed scenes report legacy. */
+  readonly edgeQuality: 'legacy' | 'pixel';
+  /** Pixel optics linking failed; independent receiver resources stay owned. */
+  readonly edgeQualityFallback: boolean;
 }
 
 const MAX_SURFACES = 8;
 type Pipeline = { program: WebGLProgram; locations: Record<string, WebGLUniformLocation | null> };
 const uniformNames = ['uResolution', 'uDpr', 'uTime', 'uPalette', 'uCount', 'uSolid', 'uRects[0]', 'uOptics[0]', 'uWallpaper', 'uField', 'uDirection', 'uMotion', 'uBackdrop', 'uDrops[0]', 'uFusionCount', 'uFusion', 'uFusionBounds', 'uCausticRects[0]', 'uCausticRadii[0]', 'uCaustics', 'uCausticLight', 'uCausticGrid', 'uCausticMap', 'uCausticActive'];
 type MutableStats = { -readonly [Key in keyof GlassSceneStats]: GlassSceneStats[Key] };
-const emptyStats = (): MutableStats => ({ renderer: 'webgl2', fieldCount: 0, fusionCount: 0, causticCount: 0, causticTriangles: 0, causticPixels: 0, drawCalls: 0, wallpaperPasses: 0, width: 0, height: 0, dpr: 0, pixels: 0 });
+const emptyStats = (): MutableStats => ({ renderer: 'webgl2', fieldCount: 0, fusionCount: 0, causticCount: 0, causticTriangles: 0, causticPixels: 0, drawCalls: 0, wallpaperPasses: 0, width: 0, height: 0, dpr: 0, pixels: 0, requestedEdgeQuality: 'legacy', edgeQuality: 'legacy', edgeQualityFallback: false });
 
 /**
  * Render an experimental owned wallpaper, optional lenses and decorative instances.
@@ -135,9 +151,14 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   let destroyed = false;
   let supported = false;
   let stats = emptyStats();
+  const quality = (value: GlassSceneOptions) => value?.edgeQuality === 'pixel' ? 'pixel' : 'legacy';
+  let requestedEdgeQuality: 'legacy' | 'pixel' = quality(initial), pixelQualityFailed = false;
+  const snapshotStats = (): GlassSceneStats => ({ ...stats, requestedEdgeQuality,
+    edgeQuality: supported && !destroyed && requestedEdgeQuality === 'pixel' && !pixelQualityFailed ? 'pixel' : 'legacy',
+    edgeQualityFallback: requestedEdgeQuality === 'pixel' && pixelQualityFailed });
   const noop = {
     get supported() { return false; },
-    get stats() { return { ...stats }; },
+    get stats() { return snapshotStats(); },
     update(_options: GlassSceneOptions = {}) {},
     setDrops(_drops: readonly GlassSceneDrop[]) {},
     render(_timeSeconds?: number) {},
@@ -192,6 +213,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
     for (const pipeline of [background, ownedBackground, composite, fusion, lenses, field, caustics]) if (pipeline) context.deleteProgram(pipeline.program);
     if (backdropDriver) { try { backdropDriver.release(context); } catch { /* trusted extension cleanup must not strand scene resources */ } }
     ownedBackground = null; ownedBackgroundFailed = false;
+    pixelQualityFailed = false;
     if (causticTexture) context.deleteTexture(causticTexture);
     if (causticFramebuffer) context.deleteFramebuffer(causticFramebuffer);
     causticTexture = null; causticFramebuffer = null; causticWidth = causticHeight = 0;
@@ -227,6 +249,30 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
       return { program, locations };
     } catch { if (program) context.deleteProgram(program); return null; }
     finally { shaders.forEach(shader => context.deleteShader(shader)); }
+  };
+  const releaseOptics = () => {
+    for (const pipeline of [fusion, lenses, field]) if (pipeline) context.deleteProgram(pipeline.program);
+    fusion = null; lenses = null; field = null;
+  };
+  const prepareOptics = (hasFusion: boolean, hasLenses: boolean, hasField: boolean, pixel: boolean) => {
+    if (!hasFusion && !hasLenses && !hasField) return true;
+    const source = pixel ? scenePixelEdgeSources() : undefined;
+    if (hasFusion && !fusion) {
+      fusion = createPipeline(source?.fusionVertex ?? fusionVertexSource, source?.fusionFragment ?? fusionFragmentSource);
+      if (!fusion) return false;
+      firstDraw = true;
+    }
+    if (hasLenses && !lenses) {
+      lenses = createPipeline(source?.lensVertex ?? lensVertexSource, source?.lensFragment ?? lensFragmentSource);
+      if (!lenses) return false;
+      firstDraw = true;
+    }
+    if (hasField && !field) {
+      field = createPipeline(source?.fieldVertex ?? fieldVertexSource, source?.fieldFragment ?? fieldFragmentSource);
+      if (!field) return false;
+      firstDraw = true;
+    }
+    return true;
   };
   const initialize = () => {
     firstDraw = true; releaseGpu();
@@ -354,20 +400,13 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
         textureWidth = width; textureHeight = height;
         firstDraw = true;
       }
-      if (drawFusion && !fusion) {
-        fusion = createPipeline(fusionVertexSource, fusionFragmentSource);
-        if (!fusion) throw new Error('Fusion pipeline unavailable');
-        firstDraw = true;
-      }
-      if (count && !lenses) {
-        lenses = createPipeline(lensVertexSource, lensFragmentSource);
-        if (!lenses) throw new Error('Lens pipeline unavailable');
-        firstDraw = true;
-      }
-      if (fieldCount && !field) {
-        field = createPipeline(fieldVertexSource, fieldFragmentSource);
-        if (!field) throw new Error('Field pipeline unavailable');
-        firstDraw = true;
+      const pixel = requestedEdgeQuality === 'pixel' && !pixelQualityFailed;
+      if (!prepareOptics(drawFusion, count > 0, fieldCount > 0, pixel)) {
+        if (!pixel) throw new Error('Optics pipeline unavailable');
+        // A failed optional mode must not replace the receiver/owned source.
+        // Restart ALL optics in one consistent legacy mode, not a mixed group.
+        pixelQualityFailed = true; releaseOptics();
+        if (!prepareOptics(drawFusion, count > 0, fieldCount > 0, false)) throw new Error('Legacy optics fallback unavailable');
       }
       if (causticCount && !caustics) {
         caustics = createPipeline(causticVertexSource, causticFragmentSource);
@@ -537,6 +576,10 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   const observer = Resize ? new Resize(refresh) : undefined;
   const update = (next: GlassSceneOptions = {}) => {
     if (destroyed) return;
+    const nextQuality = quality(next);
+    if (nextQuality !== requestedEdgeQuality) {
+      stop(); releaseOptics(); pixelQualityFailed = false; requestedEdgeQuality = nextQuality;
+    }
     options = { ...next, caustics: next.caustics ? { ...next.caustics, light: next.caustics.light ? [...next.caustics.light] as [number, number] : undefined,
       emitters: (Array.isArray(next.caustics.emitters) ? next.caustics.emitters : []).slice(0, MAX_SURFACES).map(e => ({ ...e })) } : undefined, field: next.field ? { ...next.field } : undefined, fusion: next.fusion ? { ...next.fusion, drops: [] } : undefined };
     fusionEnabled = Boolean(next.fusion);
@@ -567,7 +610,7 @@ export function attachGlassScene(canvas: HTMLCanvasElement, initial: GlassSceneO
   update(initial);
   return {
     get supported() { return supported && !destroyed; },
-    get stats() { return { ...stats }; },
+    get stats() { return snapshotStats(); },
     update,
     /** Stage owned droplet geometry; call render() explicitly while paused. */
     setDrops(drops: readonly GlassSceneDrop[]) {

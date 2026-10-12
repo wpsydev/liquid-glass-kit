@@ -572,3 +572,11 @@ Integrated npm run check passed1,176tests/54files including queued prototypes. n
 Original711140-byte12s960square360frame breakbeat148acidbassFMseed73 SHA25653c7c0b991afaeefbdc8a061deffe8ba94956ea72e27eadb08498a327267da4c. Actualfinite10.5tour3styles/lastgoodrejection/endpaused393submissionscountsnotFPS/cameradensitydisclosed/fourframes/full decodepass.
 
 Integrated npm run check passed1,176tests/54files including queued prototypes. Final npm pack --dry-run passed207members/448480bytes. Skill-creator validator passed,11new guide links resolve and63checked import declarations match public exports. Published-scope CI follows release.
+
+## 0.49.0 pixel-aware edges (2026-10-12)
+
+85focused scene/texture/edge tests.20actual desktop viewport states320–1440,44px controls/16px field text/no overflow or clippedlabels. Real WebGL pixel optics for lens/field/fusion compile with error0; real failed compiler falls back to identical legacy pixels while retaining source upload1; actual context restoration recreates source/upload2. Independent analytic .125-scale fixture partial coverage16→100pixels is a broader sampled transition, not a quality score. Native keyboard/focus/Quiet/Opaque/MobileInspectvisibility passed. Physical phones/Safari/AT/GPU elapsed time unmeasured.
+
+Measured optional scene10,959→11,452gzip (+493), scene-texture14,471→14,962 (+491); all9legacy GLSL hashes unchanged. No free coverage/GPU/FPS/speedup claim. Original12s960square360-frame144BPM two-step film SHA2561fc6464eb084b8ac173c5d3c1f84eef2bc666346a469f469f61cd6ae37128fee; native finite tour, original source, readback sample timing and camera CSS disclosed; full decode/four-frame review passed.
+
+Integrated npm run check passed1,195tests/55files including queued prototypes; final site build and npm pack --dry-run passed208members/454213bytes after guide integration. Published-scope CI follows release.

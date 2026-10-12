@@ -1,14 +1,14 @@
 {
-  "version": "0.48.0-preview.1",
+  "version": "0.49.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/shader-backdrop-showcase.mp4",
-      "name": "liquid-glass-light-shaders.mp4",
+      "path": "docs/campaign/assets/scene-edge-showcase.mp4",
+      "name": "liquid-glass-scene-edge-showcase.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/shader-backdrop-showcase.png",
-      "name": "liquid-glass-light-shaders.png",
+      "path": "docs/campaign/assets/scene-edge-showcase.png",
+      "name": "liquid-glass-scene-edge-showcase.png",
       "type": "image/png"
     }
   ]

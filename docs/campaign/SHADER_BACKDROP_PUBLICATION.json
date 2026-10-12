@@ -1,0 +1,94 @@
+{
+  "version": "0.48.0-preview.1",
+  "commit": "583a8fd1a8ea3592efca450599030a7d1c668a38",
+  "workflows": {
+    "runs": [
+      {
+        "id": 38213084948,
+        "name": "Verify",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38213084941,
+        "name": "Publish playground",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38213084854,
+        "name": "Publish preview release",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "tests": 1062,
+    "testFiles": 51
+  },
+  "archive": {
+    "members": 207,
+    "bytes": 448600,
+    "sha256": "3e5809a3db4dc513cfb44ae82895d8b97d0f8aba9031590cc5f8621f86c53ccc"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/shaders/",
+    "native": {
+      "focus": "warmth",
+      "state": {
+        "diagnostics": "",
+        "enabled": true,
+        "failedReplacement": false,
+        "fallback": false,
+        "height": 544,
+        "keptStudies": [],
+        "latest": "ready",
+        "pixels": 575008,
+        "playing": false,
+        "provenance": {
+          "author": "wpsydev · original Light Studies functions",
+          "license": "MIT"
+        },
+        "quiet": false,
+        "reason": "paused",
+        "seek": 0,
+        "shaders": [
+          "ice",
+          "solar",
+          "tidal"
+        ],
+        "solid": false,
+        "status": "ready",
+        "study": "ice",
+        "submittedFrames": 17,
+        "time": 0,
+        "touring": false,
+        "values": {
+          "uDetail": 1,
+          "uGain": 1,
+          "uWarmth": 0.36
+        },
+        "visible": true,
+        "width": 1057
+      },
+      "warmth": "0.36"
+    },
+    "scope": "Actual native ArrowRight warmth .35 to .36 retains focus and updates real uniforms; paused. Not physical-phone/GPU-time evidence"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109533204537323831",
+    "replies": [
+      "https://x.com/wpsygames/status/2109533464945201661",
+      "https://x.com/wpsygames/status/2109533688186773586"
+    ],
+    "upload": {
+      "bytes": 711140,
+      "sha256": "53c7c0b991afaeefbdc8a061deffe8ba94956ea72e27eadb08498a327267da4c"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "ready": 4
+    },
+    "replyReadback": true
+  },
+  "npmRegistry": "pending"
+}

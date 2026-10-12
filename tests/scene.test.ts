@@ -1,10 +1,148 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { attachGlassScene } from '../src/scene.js';
+import * as shaderSources from '../src/scene-shaders.js';
+import type { GlassSceneBackdropDriver, GlassSceneOptions } from '../src/scene.js';
 
 const scenes: Array<{ destroy(): void }> = [];
 afterEach(() => {
   scenes.forEach(scene => scene.destroy()); scenes.length = 0;
   document.body.innerHTML = ''; vi.restoreAllMocks(); vi.unstubAllGlobals();
+});
+
+describe('optional backing-pixel-aware optics quality lifecycle', () => {
+  const settings = (surface: HTMLElement, edgeQuality?: 'legacy' | 'pixel'): GlassSceneOptions => ({
+    paused: true, edgeQuality, surfaces: [{ element: surface }], field: { count: 12 },
+    fusion: { drops: [{ x: 130, y: 90, radius: 30 }, { x: 170, y: 90, radius: 30 }] }, caustics: {},
+  });
+  const sources = (gl: ReturnType<typeof gpu>, kind: number) => gl.shaderSource.mock.calls.map((call, index) => ({ source: call[1], kind: gl.createShader.mock.calls[index]?.[0] })).filter(item => item.kind === kind).map(item => item.source);
+
+  it('uses byte-identical legacy optics shaders by default without preparing optional variants', () => {
+    clock(); preferences(); const f = fixture();
+    const optional = vi.spyOn(shaderSources, 'scenePixelEdgeSources');
+    const scene = track(attachGlassScene(f.canvas, settings(f.surface)));
+    expect(scene.stats).toMatchObject({ requestedEdgeQuality: 'legacy', edgeQuality: 'legacy', edgeQualityFallback: false });
+    expect(optional).not.toHaveBeenCalled();
+    const fragments = sources(f.gl, f.gl.FRAGMENT_SHADER);
+    expect(fragments).toContain(shaderSources.fusionFragmentSource); expect(fragments).toContain(shaderSources.lensFragmentSource); expect(fragments).toContain(shaderSources.fieldFragmentSource);
+    expect(fragments.every(source => !source.includes('fwidth('))).toBe(true);
+    expect(scene.stats).toMatchObject({ fieldCount: 12, fusionCount: 2, causticCount: 1, drawCalls: 6 });
+  });
+
+  it('selects all three pixel optics without changing independent receiver/caustic shaders or pass counts', () => {
+    clock(); preferences(); const f = fixture(), scene = track(attachGlassScene(f.canvas, settings(f.surface, 'pixel')));
+    const pixel = shaderSources.scenePixelEdgeSources(), fragments = sources(f.gl, f.gl.FRAGMENT_SHADER);
+    expect(fragments).toContain(pixel.fusionFragment); expect(fragments).toContain(pixel.lensFragment); expect(fragments).toContain(pixel.fieldFragment);
+    expect(fragments.filter(source => source.includes('fwidth(d)'))).toHaveLength(3);
+    expect(fragments).toContain(shaderSources.wallpaperSource); expect(fragments).toContain(shaderSources.fragmentSource);
+    expect(scene.stats).toMatchObject({ requestedEdgeQuality: 'pixel', edgeQuality: 'pixel', edgeQualityFallback: false, fieldCount: 12, fusionCount: 2, causticCount: 1, drawCalls: 6 });
+    expect(f.gl.texStorage2D).toHaveBeenCalledTimes(2); // existing wallpaper + caustic textures only
+  });
+
+  it('switches only optics resources, retaining backing textures, receiver programs and caustic buffers', () => {
+    const time = clock(); preferences(); const f = fixture(), scene = track(attachGlassScene(f.canvas, settings(f.surface)));
+    const create = f.gl.createProgram.mock.calls.length, textures = f.gl.createTexture.mock.calls.length;
+    const vertexArrays = f.gl.createVertexArray.mock.calls.length, framebuffers = f.gl.createFramebuffer.mock.calls.length, buffers = f.gl.createBuffer.mock.calls.length;
+    scene.update(settings(f.surface, 'pixel'));
+    expect(f.gl.deleteProgram).toHaveBeenCalledTimes(3); expect(f.gl.createProgram).toHaveBeenCalledTimes(create + 3);
+    expect(f.gl.createTexture).toHaveBeenCalledTimes(textures); expect(f.gl.deleteTexture).not.toHaveBeenCalled();
+    expect(f.gl.createVertexArray).toHaveBeenCalledTimes(vertexArrays); expect(f.gl.createFramebuffer).toHaveBeenCalledTimes(framebuffers); expect(f.gl.createBuffer).toHaveBeenCalledTimes(buffers);
+    const compiled = f.gl.compileShader.mock.calls.length, queried = f.gl.getProgramParameter.mock.calls.length;
+    for (let index = 0; index < 8; index++) scene.render(index);
+    scene.update(settings(f.surface, 'pixel'));
+    expect(f.gl.compileShader).toHaveBeenCalledTimes(compiled); expect(f.gl.getProgramParameter).toHaveBeenCalledTimes(queried);
+    expect(time.frames.size).toBe(0);
+    scene.update(settings(f.surface)); // existing replace-options semantics
+    expect(scene.stats.edgeQuality).toBe('legacy'); expect(f.gl.deleteProgram).toHaveBeenCalledTimes(6); expect(f.gl.createProgram).toHaveBeenCalledTimes(create + 6);
+    scene.destroy(); expect(f.gl.deleteProgram).toHaveBeenCalledTimes(create + 6);
+  });
+
+  it('does not compile an optional optics variant when no decorative geometry is present', () => {
+    clock(); preferences(); const f = fixture(), optional = vi.spyOn(shaderSources, 'scenePixelEdgeSources');
+    const scene = track(attachGlassScene(f.canvas, { paused: true, edgeQuality: 'pixel' }));
+    expect(optional).not.toHaveBeenCalled(); expect(f.gl.createProgram).toHaveBeenCalledTimes(2);
+    expect(scene.stats).toMatchObject({ requestedEdgeQuality: 'pixel', edgeQuality: 'pixel', drawCalls: 2 });
+    scene.update({ paused: true, edgeQuality: 'pixel', field: { count: 1 } });
+    expect(optional).toHaveBeenCalledOnce(); expect(f.gl.createProgram).toHaveBeenCalledTimes(3);
+  });
+
+  it('restarts the complete needed optics group in legacy when a later optional pixel program fails', () => {
+    clock(); preferences(); const f = fixture();
+    // Wallpaper, copy, pixel fusion succeed; pixel lens fails before field is built.
+    f.gl.getProgramParameter.mockReturnValueOnce(true).mockReturnValueOnce(true).mockReturnValueOnce(true).mockReturnValueOnce(false);
+    const scene = track(attachGlassScene(f.canvas, settings(f.surface, 'pixel')));
+    expect(scene.supported).toBe(true); expect(scene.stats).toMatchObject({ requestedEdgeQuality: 'pixel', edgeQuality: 'legacy', edgeQualityFallback: true, drawCalls: 6 });
+    expect(f.gl.deleteProgram).toHaveBeenCalledTimes(2); // rejected pixel lens + previously accepted pixel fusion
+    const fragments = sources(f.gl, f.gl.FRAGMENT_SHADER);
+    expect(fragments).toContain(shaderSources.fusionFragmentSource); expect(fragments).toContain(shaderSources.lensFragmentSource); expect(fragments).toContain(shaderSources.fieldFragmentSource);
+    const programs = f.gl.createProgram.mock.calls.length, queries = f.gl.getProgramParameter.mock.calls.length;
+    for (let index = 0; index < 10; index++) scene.render(index);
+    scene.update(settings(f.surface, 'pixel'));
+    expect(f.gl.createProgram).toHaveBeenCalledTimes(programs); expect(f.gl.getProgramParameter).toHaveBeenCalledTimes(queries);
+    scene.update(settings(f.surface, 'legacy')); scene.update(settings(f.surface, 'pixel'));
+    expect(scene.stats).toMatchObject({ edgeQuality: 'pixel', edgeQualityFallback: false });
+  });
+
+  it('fails safely when both optional and legacy optics are unavailable', () => {
+    const time = clock(); preferences(); const f = fixture();
+    f.gl.getProgramParameter.mockReturnValueOnce(true).mockReturnValueOnce(true).mockReturnValue(false);
+    const scene = track(attachGlassScene(f.canvas, settings(f.surface, 'pixel')));
+    expect(scene.supported).toBe(false); expect(scene.stats).toMatchObject({ requestedEdgeQuality: 'pixel', edgeQuality: 'legacy', drawCalls: 0 });
+    expect(time.frames.size).toBe(0); expect(f.gl.deleteTexture).toHaveBeenCalledOnce();
+    const created = f.gl.createProgram.mock.calls.length; scene.render(); expect(f.gl.createProgram).toHaveBeenCalledTimes(created);
+  });
+
+  it('retains the trusted owned-backdrop resource through quality switches and link fallback', () => {
+    clock(); preferences(); const f = fixture(), release = vi.fn(), bind = vi.fn(() => true);
+    const driver: GlassSceneBackdropDriver = { fragmentSource: shaderSources.wallpaperSource, uniforms: [], bind, release };
+    const scene = track(attachGlassScene(f.canvas, settings(f.surface), driver));
+    const released = release.mock.calls.length, textures = f.gl.createTexture.mock.calls.length;
+    f.gl.getProgramParameter.mockReturnValueOnce(false);
+    scene.update(settings(f.surface, 'pixel'));
+    expect(scene.supported).toBe(true); expect(scene.stats.edgeQualityFallback).toBe(true);
+    expect(release).toHaveBeenCalledTimes(released); expect(f.gl.createTexture).toHaveBeenCalledTimes(textures); expect(bind.mock.calls.length).toBeGreaterThan(1);
+    scene.destroy(); expect(release).toHaveBeenCalledTimes(released + 1);
+  });
+
+  it('retries requested pixel quality after context restoration with bounded fresh resources', () => {
+    const time = clock(); preferences(); const f = fixture();
+    f.gl.getProgramParameter.mockReturnValueOnce(true).mockReturnValueOnce(true).mockReturnValueOnce(false);
+    const scene = track(attachGlassScene(f.canvas, settings(f.surface, 'pixel')));
+    expect(scene.stats.edgeQualityFallback).toBe(true);
+    f.canvas.dispatchEvent(new Event('webglcontextlost', { cancelable: true }));
+    expect(scene.supported).toBe(false); expect(scene.stats.edgeQuality).toBe('legacy'); expect(time.frames.size).toBe(0);
+    f.canvas.dispatchEvent(new Event('webglcontextrestored'));
+    expect(scene.supported).toBe(true); expect(scene.stats).toMatchObject({ requestedEdgeQuality: 'pixel', edgeQuality: 'pixel', edgeQualityFallback: false, fieldCount: 12, fusionCount: 2 });
+    const programs = f.gl.createProgram.mock.calls.length; scene.render(); expect(f.gl.createProgram).toHaveBeenCalledTimes(programs);
+    scene.destroy(); expect(f.gl.deleteProgram).toHaveBeenCalledTimes(programs);
+  });
+
+  it('keeps pixel cap/anisotropic scales authoritative and honors solid/reduced motion policy', () => {
+    const time = clock(), prefs = preferences(), f = fixture();
+    vi.spyOn(f.canvas, 'getBoundingClientRect').mockReturnValue({ left: 10, top: 20, width: 1800.25, height: 900.8 } as DOMRect);
+    const scene = track(attachGlassScene(f.canvas, { ...settings(f.surface, 'pixel'), maxPixels: 65536, reducedMotion: true, reducedTransparency: true }));
+    expect(scene.stats.pixels).toBeLessThanOrEqual(65536); expect(scene.stats.dpr).toBeLessThan(1); expect(time.frames.size).toBe(0);
+    expect(intUniform(f.gl, 'uSolid')).toBe(1); expect(floatUniform(f.gl, 'uTime')).toBe(0);
+    const dpr = f.gl.uniform2f.mock.calls.filter(call => (call[0] as { name: string }).name === 'uDpr').at(-1)!.slice(1);
+    expect(dpr).toEqual([f.canvas.width / 1800.25, f.canvas.height / 900.8]);
+    scene.render(20); expect(floatUniform(f.gl, 'uTime')).toBe(0);
+    prefs.set('(prefers-reduced-motion: reduce)', true); scene.update({ ...settings(f.surface, 'pixel'), paused: false }); expect(time.frames.size).toBe(0);
+    expect(scene.stats.edgeQuality).toBe('pixel'); // coverage policy does not override reductions
+  });
+
+  it('reports unsupported/noop requests without pretending pixel optics rendered', () => {
+    const time = clock(), canvas = document.createElement('canvas'); document.body.append(canvas);
+    vi.spyOn(canvas, 'getContext').mockReturnValue(null);
+    const scene = track(attachGlassScene(canvas, { edgeQuality: 'pixel' }));
+    expect(scene.supported).toBe(false); expect(scene.stats).toMatchObject({ requestedEdgeQuality: 'pixel', edgeQuality: 'legacy', edgeQualityFallback: false, drawCalls: 0 });
+    expect(time.frames.size).toBe(0);
+  });
+
+  it('normalizes untyped invalid values to legacy and returns isolated diagnostics', () => {
+    clock(); preferences(); const f = fixture(), scene = track(attachGlassScene(f.canvas, { ...settings(f.surface), edgeQuality: 'automatic' as 'pixel' }));
+    expect(scene.stats.requestedEdgeQuality).toBe('legacy');
+    const snapshot = scene.stats; (snapshot as { edgeQuality: string }).edgeQuality = 'pixel';
+    expect(scene.stats.edgeQuality).toBe('legacy');
+  });
 });
 
 function clock() {
@@ -36,7 +174,7 @@ function preferences() {
       removeEventListener: (_type: string, listener: () => void) => { remove(query, listener); },
       addListener: (listener: () => void) => { callbacks.add(listener); },
       removeListener: (listener: () => void) => { remove(query, listener); }, dispatchEvent: () => true,
-    } as MediaQueryList;
+    } as unknown as MediaQueryList;
   });
   return {
     listeners, remove,
@@ -61,7 +199,7 @@ function gpu() {
     framebufferTexture2D: vi.fn(), checkFramebufferStatus: vi.fn(() => 36053),
     enable: vi.fn(), blendFunc: vi.fn(), blendFuncSeparate: vi.fn(), drawArraysInstanced: vi.fn(),
     TRIANGLES: 4, COLOR_BUFFER_BIT: 16384, BLEND: 3042, DEPTH_TEST: 2929, NO_ERROR: 0,
-    createShader: vi.fn(() => ({})), shaderSource: vi.fn(), compileShader: vi.fn(),
+    createShader: vi.fn((_kind: number) => ({})), shaderSource: vi.fn(), compileShader: vi.fn(),
     getShaderParameter: vi.fn(() => true), getShaderInfoLog: vi.fn(() => ''), deleteShader: vi.fn(),
     createProgram: vi.fn(() => ({})), attachShader: vi.fn(), linkProgram: vi.fn(),
     getProgramParameter: vi.fn(() => true), getProgramInfoLog: vi.fn(() => ''), deleteProgram: vi.fn(),

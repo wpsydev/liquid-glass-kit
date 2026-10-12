@@ -406,3 +406,45 @@ void main() {
   }
   outColor = vec4(glass * coverage, (1.0 - shadow) * (1.0 - coverage));
 }`;
+
+type PixelEdgeSources = Readonly<{
+  lensVertex: string; lensFragment: string;
+  fieldVertex: string; fieldFragment: string;
+  fusionVertex: string; fusionFragment: string;
+}>;
+let pixelEdgeSources: PixelEdgeSources | undefined;
+
+/**
+ * Original GLSL ES 3.00 coverage math, derived from Khronos derivative behavior.
+ * Legacy strings above remain unchanged; optional variants allocate only when
+ * pixel quality actually needs an optics pipeline. fwidth is computed at the
+ * uniform main call point AFTER distance helpers have reconverged, BEFORE any
+ * coverage branch/discard. It never runs inside the helpers or vertex shaders.
+ * The half-band is bounded by the actual X+Y CSS footprint of backing pixels;
+ * a positive floor keeps smoothstep endpoints ordered on degenerate gradients.
+ * This is a local coverage approximation, not MSAA or subpixel reconstruction.
+ */
+export function scenePixelEdgeSources(): PixelEdgeSources {
+  if (pixelEdgeSources) return pixelEdgeSources;
+  const coverage = `  // Evaluate once in uniform control flow, before coverage branches/discard.
+  float edgeFootprint = fwidth(d);
+  float edgePixelCap = max(.0001, 1.0 / uDpr.x + 1.0 / uDpr.y);
+  float edgeHalfBand = clamp(.5 * edgeFootprint, .0001, edgePixelCap);
+  float coverage = 1.0 - smoothstep(-edgeHalfBand, edgeHalfBand, d);`;
+  const fragment = (source: string) => source.replace('  float coverage = 1.0 - smoothstep(-.65, .65, d);', coverage);
+  // Extra extent covers the new AA band plus a conservative derivative
+  // neighborhood when a small backing budget makes one pixel span many CSS px.
+  const padded = (source: string, from: string, to: string) => source
+    .replace('uniform vec2 uResolution;', 'uniform vec2 uResolution;\nuniform vec2 uDpr;')
+    .replace(from, to);
+  const pad = 'max(1.0, 2.0 * (1.0 / uDpr.x + 1.0 / uDpr.y))';
+  pixelEdgeSources = Object.freeze({
+    lensVertex: padded(lensVertexSource, 'vLensRect.zw + 96.0', 'vLensRect.zw + max(96.0, ' + pad + ')'),
+    lensFragment: fragment(lensFragmentSource),
+    fieldVertex: padded(fieldVertexSource, 'halfSize + 1.0', 'halfSize + ' + pad),
+    fieldFragment: fragment(fieldFragmentSource),
+    fusionVertex: padded(fusionVertexSource, 'uFusionBounds.zw;', '(uFusionBounds.zw + vec2(' + pad + '));'),
+    fusionFragment: fragment(fusionFragmentSource),
+  });
+  return pixelEdgeSources;
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "Standalone optional experimental renderers, including their existing shader strings and trusted texture receiver; not the default CSS/core entry",
+  "modules": {
+    "scene": {
+      "bytes": 35012,
+      "gzipBytes": 11452,
+      "sourceSHA256": "da2ae93e95f641825b895eaeaf5b50367504b866a8d2a64ae71f4fd515657481"
+    },
+    "texture": {
+      "bytes": 45410,
+      "gzipBytes": 14962,
+      "sourceSHA256": "4170461ac2a0c67fd97ecb6d36e31cbccdf281149144b0dc8fa6863dc34396e2"
+    }
+  },
+  "shaderSHA256": "a03d3243a2283bcd627e7102da813ffa6805310f6c0778077ca32156eb6ea004"
+}

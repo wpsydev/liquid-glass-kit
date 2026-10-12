@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.49.0-preview.1
+
+- Add opt-in output-footprint-aware lens, tile and fused-drop coverage with a conservative padded draw area and truthful effective-quality stats.
+- Preserve legacy defaults and shader strings; a failed pixel optics family falls back while retaining the owned source.
+- Add original SEAM comparison, actual pixel/compiler/context evidence, payload comparison and a twelve-second two-step film.
+
 ## 0.48.0-preview.1
 
 - Refresh the bundled agent skill install pin and helper routing; align discovery version and shader-time bounds with the code.

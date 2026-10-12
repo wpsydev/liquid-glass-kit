@@ -1,0 +1,137 @@
+{
+  "baselineCommit": "583a8fd1a8ea3592efca450599030a7d1c668a38",
+  "baselineVersion": "0.48.0-preview.1",
+  "scope": "Identical standalone minified IIFE builds of optional modules. Legacy remains the default but ships optional pixel code. Not default core, loading time or GPU work.",
+  "configuration": {
+    "target": "es2022",
+    "minify": true,
+    "format": "iife",
+    "globalName": "EdgePayload",
+    "gzipLevel": "Node default",
+    "vite": "8.3.4",
+    "node": "v24.21.0"
+  },
+  "modules": {
+    "scene": {
+      "entry": "src/scene.ts",
+      "before": {
+        "bytes": 33488,
+        "gzipBytes": 10959,
+        "bundleSHA256": "86021f672c3ca4b601dbd9aa5ccc6cb37411c45abeb8977c6cf42578f976e0df"
+      },
+      "after": {
+        "bytes": 35012,
+        "gzipBytes": 11452,
+        "bundleSHA256": "d985805133898741734cbb2de07f64d09f79a58a4651e367502d9a010e39cfc8"
+      },
+      "delta": {
+        "bytes": 1524,
+        "gzipBytes": 493,
+        "rawPercent": 4.550883898709985,
+        "gzipPercent": 4.4985856373756725
+      }
+    },
+    "texture": {
+      "entry": "src/scene-texture.ts",
+      "before": {
+        "bytes": 43901,
+        "gzipBytes": 14471,
+        "bundleSHA256": "b66cc6ba65ac7fb01255c908dc0f4c7046cd873934d0b12f3f037de881aa7214"
+      },
+      "after": {
+        "bytes": 45410,
+        "gzipBytes": 14962,
+        "bundleSHA256": "0adaa1a112817f7841c1b7094bdb5545f6e5bca6f288d6008cdc62dd86ffd630"
+      },
+      "delta": {
+        "bytes": 1509,
+        "gzipBytes": 491,
+        "rawPercent": 3.4372793330448053,
+        "gzipPercent": 3.392992882316357
+      }
+    }
+  },
+  "sources": {
+    "src/scene.ts": {
+      "beforeSHA256": "0d51469d08939452b72752f2013f77d46983b238d59515a3a34ce770d8b0964a",
+      "afterSHA256": "da2ae93e95f641825b895eaeaf5b50367504b866a8d2a64ae71f4fd515657481"
+    },
+    "src/scene-shaders.ts": {
+      "beforeSHA256": "60642351057e986af3fd0998a43cab2ce8e3e76a70f4bc31414c7982ac026171",
+      "afterSHA256": "a03d3243a2283bcd627e7102da813ffa6805310f6c0778077ca32156eb6ea004"
+    },
+    "src/scene-texture.ts": {
+      "beforeSHA256": "4170461ac2a0c67fd97ecb6d36e31cbccdf281149144b0dc8fa6863dc34396e2",
+      "afterSHA256": "4170461ac2a0c67fd97ecb6d36e31cbccdf281149144b0dc8fa6863dc34396e2"
+    }
+  },
+  "legacyShaderHashes": {
+    "fieldFragmentSource": {
+      "beforeSHA256": "fc9ec1ac54b62b368cc819b498f4afb61eee85a9aab5167a5e1a894ed9046c0a",
+      "afterSHA256": "fc9ec1ac54b62b368cc819b498f4afb61eee85a9aab5167a5e1a894ed9046c0a",
+      "equal": true
+    },
+    "fieldVertexSource": {
+      "beforeSHA256": "4f8b57e3cdc5d1c05204549539370fe9c2987c5524af4762a0adbbd8f7016040",
+      "afterSHA256": "4f8b57e3cdc5d1c05204549539370fe9c2987c5524af4762a0adbbd8f7016040",
+      "equal": true
+    },
+    "fragmentSource": {
+      "beforeSHA256": "dc812ea0eabefd4f4e9bfcc928fc17d4f2a36605254df86a62d2ff0b7b4297fa",
+      "afterSHA256": "dc812ea0eabefd4f4e9bfcc928fc17d4f2a36605254df86a62d2ff0b7b4297fa",
+      "equal": true
+    },
+    "fusionFragmentSource": {
+      "beforeSHA256": "149b1c570ffa11305782be227602de8fdcb6fcff9e67ec0cf5778de84969ebb3",
+      "afterSHA256": "149b1c570ffa11305782be227602de8fdcb6fcff9e67ec0cf5778de84969ebb3",
+      "equal": true
+    },
+    "fusionVertexSource": {
+      "beforeSHA256": "853d2c618d257f73f52c60cd4634bd46d663ef9e83dab254ecdb1c14da83ea9b",
+      "afterSHA256": "853d2c618d257f73f52c60cd4634bd46d663ef9e83dab254ecdb1c14da83ea9b",
+      "equal": true
+    },
+    "lensFragmentSource": {
+      "beforeSHA256": "63dba9ebb70475cf43edb145369f89e592d58b6fe96119e2acc7c017886540a1",
+      "afterSHA256": "63dba9ebb70475cf43edb145369f89e592d58b6fe96119e2acc7c017886540a1",
+      "equal": true
+    },
+    "lensVertexSource": {
+      "beforeSHA256": "62cf96f04a3f07716d63336913e330bc6da801aa289a3312feaae8e325075f84",
+      "afterSHA256": "62cf96f04a3f07716d63336913e330bc6da801aa289a3312feaae8e325075f84",
+      "equal": true
+    },
+    "vertexSource": {
+      "beforeSHA256": "a3af2b77724813de81b9e97a919a922d9f5943deb6afda0d700c1f4f77ff092b",
+      "afterSHA256": "a3af2b77724813de81b9e97a919a922d9f5943deb6afda0d700c1f4f77ff092b",
+      "equal": true
+    },
+    "wallpaperSource": {
+      "beforeSHA256": "3ea06514e6e6c3ac4a275f7a7c4bf0c627f923c611719408a951e3cf2cdf88e1",
+      "afterSHA256": "3ea06514e6e6c3ac4a275f7a7c4bf0c627f923c611719408a951e3cf2cdf88e1",
+      "equal": true
+    }
+  },
+  "ssr": {
+    "scene": {
+      "window": "undefined",
+      "document": "undefined",
+      "exportedController": "function"
+    },
+    "texture": {
+      "window": "undefined",
+      "document": "undefined",
+      "exportedController": "function"
+    }
+  },
+  "baselineLoadedModules": [
+    "src/lifecycle.ts",
+    "src/numeric.ts",
+    "src/scene-caustics.ts",
+    "src/scene-shaders.ts",
+    "src/scene-texture-shader.ts",
+    "src/scene-texture.ts",
+    "src/scene.ts"
+  ],
+  "costBoundary": "Pixel optics add derivative/coverage instructions and conservative quad padding; extra covered fragments can be shaded. No completed GPU timing, render-time speedup or no-cost quality claim. Lazy source construction does not remove shipped bytes."
+}

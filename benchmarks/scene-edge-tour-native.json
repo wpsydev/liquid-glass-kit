@@ -1,0 +1,4056 @@
+{
+  "samples": [
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 0.5,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 0,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "legacy",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 31,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 1,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1133,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03210052442300595,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 30,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 1.5,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1133,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03210052442300595,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 30,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 2,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1133,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03210052442300595,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 30,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 2.5,
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 603,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.01103908017858235,
+          "pixels": 65404,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 29,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 3,
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 603,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.01103908017858235,
+          "pixels": 65404,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 29,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 3.5,
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 603,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.01103908017858235,
+          "pixels": 65404,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 29,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 4,
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "field",
+        "inspection": {
+          "changed": 3516,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.13038448209079975,
+          "pixels": 65404,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 40,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 40,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 28,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 4.5,
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "field",
+        "inspection": {
+          "changed": 3516,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.13038448209079975,
+          "pixels": 65404,
+          "sampledPhase": 0
+        },
+        "phase": 1,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 40,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 40,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 20,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 5,
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "field",
+        "inspection": {
+          "changed": 3516,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.13038448209079975,
+          "pixels": 65404,
+          "sampledPhase": 0
+        },
+        "phase": 2.125,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 40,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 40,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 11,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 5.5,
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "field",
+        "inspection": {
+          "changed": 3516,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.13038448209079975,
+          "pixels": 65404,
+          "sampledPhase": 0
+        },
+        "phase": 3,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 40,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 40,
+              "fusionCount": 0,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 4,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 6,
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "fusion",
+        "inspection": {
+          "changed": 775,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.017221168939718264,
+          "pixels": 65404,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 3,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 6.5,
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "fusion",
+        "inspection": {
+          "changed": 775,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.017221168939718264,
+          "pixels": 65404,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 3,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 7,
+      "state": {
+        "budget": 65536,
+        "dpr": 1,
+        "geometry": "fusion",
+        "inspection": {
+          "changed": 775,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.017221168939718264,
+          "pixels": 65404,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 0.7499982118670515,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 197,
+              "pixels": 65404,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 332
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 3,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 7.5,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "fusion",
+        "inspection": {
+          "changed": 1348,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03436930480334852,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 2,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 8,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "fusion",
+        "inspection": {
+          "changed": 1348,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03436930480334852,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 2,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 8.5,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "fusion",
+        "inspection": {
+          "changed": 1348,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03436930480334852,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": false,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 4,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 2,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 2,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 9,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1133,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03210052442300595,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": true,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 1,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 272.8515625
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 272.859375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 72.640625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 9.5,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1133,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03210052442300595,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": true,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 1,
+        "solid": false,
+        "touring": true
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 263.0703125
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 263.078125
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 92.203125
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 10,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1133,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03210052442300595,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": true,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 263.0703125
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 263.078125
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 92.203125
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 10.5,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1133,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03210052442300595,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": true,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    },
+    {
+      "controls": [
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "quality",
+          "width": 262.9765625
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "geometry",
+          "width": 262.984375
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "16px",
+          "height": 44,
+          "id": "budget",
+          "width": 186.28125
+        },
+        {
+          "bottom": 204.4296875,
+          "font": "11px",
+          "height": 44,
+          "id": "compare",
+          "width": 158.7578125
+        },
+        {
+          "bottom": 737.8203125,
+          "font": "10px",
+          "height": 44,
+          "id": "inspect",
+          "width": 239.4375
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "dpr",
+          "width": 263.0703125
+        },
+        {
+          "bottom": 814.3203125,
+          "font": "16px",
+          "height": 44,
+          "id": "phase",
+          "width": 263.078125
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 63.5234375
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "9px",
+          "height": 44,
+          "id": "LABEL",
+          "width": 82.0390625
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "tour",
+          "width": 92.203125
+        },
+        {
+          "bottom": 809.0703125,
+          "font": "11px",
+          "height": 44,
+          "id": "reset",
+          "width": 86.0859375
+        },
+        {
+          "bottom": 876.3203125,
+          "font": "8px",
+          "height": 44,
+          "id": "SUMMARY",
+          "width": 150
+        }
+      ],
+      "elapsed": 11,
+      "state": {
+        "budget": 262144,
+        "dpr": 1,
+        "geometry": "lenses",
+        "inspection": {
+          "changed": 1133,
+          "glErrors": [
+            0,
+            0
+          ],
+          "meanRGBDelta": 0.03210052442300595,
+          "pixels": 116509,
+          "sampledPhase": 0
+        },
+        "phase": 0,
+        "quality": "pixel",
+        "quiet": true,
+        "scenes": [
+          {
+            "id": "legacy",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "legacy",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "legacy",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          },
+          {
+            "id": "chosen",
+            "scene": {
+              "causticCount": 0,
+              "causticPixels": 0,
+              "causticTriangles": 0,
+              "dpr": 1,
+              "drawCalls": 3,
+              "edgeQuality": "pixel",
+              "edgeQualityFallback": false,
+              "fieldCount": 0,
+              "fusionCount": 0,
+              "height": 263,
+              "pixels": 116509,
+              "renderer": "webgl2",
+              "requestedEdgeQuality": "pixel",
+              "wallpaperPasses": 1,
+              "width": 443
+            },
+            "source": {
+              "downscaled": true,
+              "height": 512,
+              "kind": "canvas",
+              "pixels": 262144,
+              "reason": "none",
+              "status": "ready",
+              "uploadPixels": 262144,
+              "uploads": 1,
+              "videoFrameCallback": false,
+              "visible": true,
+              "width": 512
+            },
+            "supported": true
+          }
+        ],
+        "scheduled": 0,
+        "solid": false,
+        "touring": false
+      }
+    }
+  ],
+  "camera": ".control-strip{grid-template-columns:1.1fr 1.1fr auto auto auto auto;gap:12px}.intro{padding:12px 0}.inspection{padding:10px 0;margin-top:10px}.crop canvas{max-width:100px}.notes{grid-template-columns:1fr 1.3fr auto;gap:13px;align-items:center;padding:6px 0}.notes details{grid-column:auto}.notes summary{max-width:150px;font-size:8px;line-height:1.5}.notes>p:not(#status){font-size:7px;line-height:1.5}",
+  "final": {
+    "budget": 262144,
+    "dpr": 1,
+    "geometry": "lenses",
+    "inspection": {
+      "changed": 1133,
+      "glErrors": [
+        0,
+        0
+      ],
+      "meanRGBDelta": 0.03210052442300595,
+      "pixels": 116509,
+      "sampledPhase": 0
+    },
+    "phase": 0,
+    "quality": "pixel",
+    "quiet": true,
+    "scenes": [
+      {
+        "id": "legacy",
+        "scene": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 1,
+          "drawCalls": 3,
+          "edgeQuality": "legacy",
+          "edgeQualityFallback": false,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 263,
+          "pixels": 116509,
+          "renderer": "webgl2",
+          "requestedEdgeQuality": "legacy",
+          "wallpaperPasses": 1,
+          "width": 443
+        },
+        "source": {
+          "downscaled": true,
+          "height": 512,
+          "kind": "canvas",
+          "pixels": 262144,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 262144,
+          "uploads": 1,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 512
+        },
+        "supported": true
+      },
+      {
+        "id": "chosen",
+        "scene": {
+          "causticCount": 0,
+          "causticPixels": 0,
+          "causticTriangles": 0,
+          "dpr": 1,
+          "drawCalls": 3,
+          "edgeQuality": "pixel",
+          "edgeQualityFallback": false,
+          "fieldCount": 0,
+          "fusionCount": 0,
+          "height": 263,
+          "pixels": 116509,
+          "renderer": "webgl2",
+          "requestedEdgeQuality": "pixel",
+          "wallpaperPasses": 1,
+          "width": 443
+        },
+        "source": {
+          "downscaled": true,
+          "height": 512,
+          "kind": "canvas",
+          "pixels": 262144,
+          "reason": "none",
+          "status": "ready",
+          "uploadPixels": 262144,
+          "uploads": 1,
+          "videoFrameCallback": false,
+          "visible": true,
+          "width": 512
+        },
+        "supported": true
+      }
+    ],
+    "scheduled": 0,
+    "solid": false,
+    "touring": false
+  }
+}

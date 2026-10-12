@@ -1,13 +1,11 @@
-A little light changes the room. **0.48.0-preview.1** adds optional experimental `/shader-backdrop`.
+A small detail at the edges. **0.49.0-preview.1** adds explicit `edgeQuality: 'pixel'` to the experimental owned-scene renderer.
 
-TrustedoriginalGLSL uses explicitplayback, boundedoutput, cacheduniforms/programs andactual last-good retention when replacement fails tocompile. Nativecontrols/fallback/licensing/durationstop remainhost-owned; shader/sourcecaps do notcertifyGPUcost orwatchdogsafety. Staticinitialobserver settling maydrawadditionalstillframes.
+[SEAM](https://wpsydev.github.io/liquid-glass-kit/edges/) compares identical legacy and pixel-aware scenes, with actual output crops, glass tiles, fused drops and bounded backing sizes. Legacy remains default; all nine default shader strings are unchanged. A failed pixel shader compilation falls back to legacy optics while retaining the owned texture.
 
-[Light Studies](https://wpsydev.github.io/liquid-glass-kit/shaders/) has three originalIce/Solar/Tidal shaders, nativecontrols, exactpausedsubmissioncounts/sampledplaybackreadout, andactualcompiler-rejection recovery. Four signed-basepow squares nowmultiply explicitly perGLSLESnegative-base rule;27sampled nativepixels unchangedonthisdriver. Twelve-second original148BPM acid-bass/glassFM breakbeat film recordsfinalsource.
+85 focused scene/texture/edge tests and 20 native desktop viewport states passed. Actual WebGL compilation, output readback, compiler failure, context recovery and keyboard controls were checked separately from unit tests. This is not physical-phone or Safari certification.
 
-30focusedtests/40desktop320–1440cases44/16/noflow. ActualWebGLpixels/compiler/lastgood/contextlossrestore/offscreenquietsolid/caps/nativearrows checked. Phones/Safari/AT/liveOSunverified.
+The optional scene bundle adds493 gzip bytes (10,959 →11,452); texture+scene adds491 (14,471 →14,962) with the measured build. Pixel coverage adds shader work and conservative padding. GPU elapsed time was not measured; there is no speedup or FPS claim.
 
-Optional4441gzip excludingfragments/material.200128×96commands median.6ms/40CPUdriverbatch withgeometry/style included;0recompile/locationlookup/upload inmeasuredwork. Separate6program/6VAO/14shader balancedlifecycles andidle0RAF/submissions. NoGPUelapsed/paint/FPS/speedupclaim.
+Twelve-second original144BPM glass-tine two-step film, recorded from the working demo. [Guide](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/SCENE.md).
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/SHADER_BACKDROP.md) · [Evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/shader-backdrop-native.json)
-
-Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.48.0-preview.1`. npmregistry pending. IndependentShadertoy-inspired authoring without copiedshader/channelAPI.
+Use the release archive or `npm i github:wpsydev/liquid-glass-kit#v0.49.0-preview.1`. npm publication remains pending. Independently implemented from output-footprint principles; no copied art or shaders.
