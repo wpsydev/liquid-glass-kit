@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.40.0-preview.1
+
+- Add pure native task-progress props and optional scoped CSS, explicit known/unknown quantities and host-supplied outcomes.
+- Keep status outside the busy results region, announcements deliberate and unknown decoration opt-in/quiet; no fake percentages or task runner.
+- Add original Index Room with real local text inspection, cancellation/partial rejection/retry,75 native desktop viewport/state cases, separate benchmarks and twelve-second vibraphone drum-and-bass showcase.
+
 ## 0.39.0-preview.1
 
 - Add optional finite natural-height motion around real committed content, with retargeting and immediate focus/width/reduction snaps.

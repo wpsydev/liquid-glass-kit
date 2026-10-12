@@ -48,6 +48,7 @@ export default defineConfig({
         tilt: resolve('site/tilt/index.html'),
         numbers: resolve('site/numbers/index.html'),
         size: resolve('site/size/index.html'),
+        progress: resolve('site/progress/index.html'),
         images: resolve('site/images/index.html'),
         media: resolve('site/media/index.html'),
         transitions: resolve('site/transitions/index.html'),

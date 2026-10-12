@@ -1,0 +1,5536 @@
+{
+  "observedAtUtc": "2026-10-12T04:35:12.813Z",
+  "tabId": "tab_4h",
+  "matrix": [
+    {
+      "name": "idle",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "idle",
+        "status": "Choose a local collection and explicitly start an inspection.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "unknown-static",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "unknown-animated",
+      "native": {
+        "animations": 1,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "lg-task-wait",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "unknown-quiet",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "known-zero",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": "0"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "records",
+        "value": 0
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "record-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0.125,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1,
+        "valueAttribute": "1"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "records",
+        "value": 1
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "cancelled-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0.125,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1,
+        "valueAttribute": "1"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "cancelled",
+        "status": "Inspection cancelled. 1 checked records and their measured bytes remain; the rest were not processed.",
+        "unit": "records",
+        "value": 1
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "byte-fraction",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.11578044596912522,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 135,
+        "valueAttribute": "135"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "bytes",
+        "value": 135
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "byte-cancelled",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.11578044596912522,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 135,
+        "valueAttribute": "135"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "cancelled",
+        "status": "Inspection cancelled. 1 checked records and their measured bytes remain; the rest were not processed.",
+        "unit": "bytes",
+        "value": 135
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "error-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.3653516295025729,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 426,
+        "valueAttribute": "426"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 426,
+        "failedId": "A04",
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 3,
+        "state": "error",
+        "status": "The local fixture rejected A04 before processing it. 3 actual results remain. Clear the rejection choice and explicitly try the current plan.",
+        "unit": "bytes",
+        "value": 426
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "retry-complete",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1166,
+        "valueAttribute": "1166"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 1166,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 8,
+        "state": "complete",
+        "status": "Inspection complete. 8 original local records produced 1166 UTF-8 bytes and 198 letter/number word segments.",
+        "unit": "bytes",
+        "value": 1166
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "unknown-complete",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "complete",
+        "status": "The local preparation fixture completed. No record batch was requested and no quantity was reported.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "unknown-cancelled",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "cancelled",
+        "status": "Preparation cancelled before any quantity was reported. No completion amount is invented.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "empty-error",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "error",
+        "status": "No local records were selected. Choose a record and explicitly try the current plan.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "announcement-off",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": null,
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": false,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "error",
+        "status": "No local records were selected. Choose a record and explicitly try the current plan.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 56.2421875
+      },
+      "viewport": {
+        "height": 700,
+        "width": 320
+      }
+    },
+    {
+      "name": "idle",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "idle",
+        "status": "Choose a local collection and explicitly start an inspection.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "unknown-static",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "unknown-animated",
+      "native": {
+        "animations": 1,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "lg-task-wait",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "unknown-quiet",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "known-zero",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": "0"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "records",
+        "value": 0
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "record-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0.125,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1,
+        "valueAttribute": "1"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "records",
+        "value": 1
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "cancelled-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0.125,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1,
+        "valueAttribute": "1"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "cancelled",
+        "status": "Inspection cancelled. 1 checked records and their measured bytes remain; the rest were not processed.",
+        "unit": "records",
+        "value": 1
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "byte-fraction",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.11578044596912522,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 135,
+        "valueAttribute": "135"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "bytes",
+        "value": 135
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "byte-cancelled",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.11578044596912522,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 135,
+        "valueAttribute": "135"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "cancelled",
+        "status": "Inspection cancelled. 1 checked records and their measured bytes remain; the rest were not processed.",
+        "unit": "bytes",
+        "value": 135
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "error-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.3653516295025729,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 426,
+        "valueAttribute": "426"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 426,
+        "failedId": "A04",
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 3,
+        "state": "error",
+        "status": "The local fixture rejected A04 before processing it. 3 actual results remain. Clear the rejection choice and explicitly try the current plan.",
+        "unit": "bytes",
+        "value": 426
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "retry-complete",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1166,
+        "valueAttribute": "1166"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 1166,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 8,
+        "state": "complete",
+        "status": "Inspection complete. 8 original local records produced 1166 UTF-8 bytes and 198 letter/number word segments.",
+        "unit": "bytes",
+        "value": 1166
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "unknown-complete",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "complete",
+        "status": "The local preparation fixture completed. No record batch was requested and no quantity was reported.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "unknown-cancelled",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "cancelled",
+        "status": "Preparation cancelled before any quantity was reported. No completion amount is invented.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "empty-error",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "error",
+        "status": "No local records were selected. Choose a record and explicitly try the current plan.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "announcement-off",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": null,
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": false,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "error",
+        "status": "No local records were selected. Choose a record and explicitly try the current plan.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "name": "idle",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "idle",
+        "status": "Choose a local collection and explicitly start an inspection.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "unknown-static",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "unknown-animated",
+      "native": {
+        "animations": 1,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "lg-task-wait",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "unknown-quiet",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "known-zero",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": "0"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "records",
+        "value": 0
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "record-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0.125,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1,
+        "valueAttribute": "1"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "records",
+        "value": 1
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "cancelled-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0.125,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1,
+        "valueAttribute": "1"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "cancelled",
+        "status": "Inspection cancelled. 1 checked records and their measured bytes remain; the rest were not processed.",
+        "unit": "records",
+        "value": 1
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "byte-fraction",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.11578044596912522,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 135,
+        "valueAttribute": "135"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "bytes",
+        "value": 135
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "byte-cancelled",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.11578044596912522,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 135,
+        "valueAttribute": "135"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "cancelled",
+        "status": "Inspection cancelled. 1 checked records and their measured bytes remain; the rest were not processed.",
+        "unit": "bytes",
+        "value": 135
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "error-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.3653516295025729,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 426,
+        "valueAttribute": "426"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 426,
+        "failedId": "A04",
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 3,
+        "state": "error",
+        "status": "The local fixture rejected A04 before processing it. 3 actual results remain. Clear the rejection choice and explicitly try the current plan.",
+        "unit": "bytes",
+        "value": 426
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "retry-complete",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1166,
+        "valueAttribute": "1166"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 1166,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 8,
+        "state": "complete",
+        "status": "Inspection complete. 8 original local records produced 1166 UTF-8 bytes and 198 letter/number word segments.",
+        "unit": "bytes",
+        "value": 1166
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "unknown-complete",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "complete",
+        "status": "The local preparation fixture completed. No record batch was requested and no quantity was reported.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "unknown-cancelled",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "cancelled",
+        "status": "Preparation cancelled before any quantity was reported. No completion amount is invented.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "empty-error",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "error",
+        "status": "No local records were selected. Choose a record and explicitly try the current plan.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 54.5234375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "announcement-off",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": null,
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": false,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "error",
+        "status": "No local records were selected. Choose a record and explicitly try the current plan.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 54.5234375
+      },
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "name": "idle",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "idle",
+        "status": "Choose a local collection and explicitly start an inspection.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "unknown-static",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "unknown-animated",
+      "native": {
+        "animations": 1,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "lg-task-wait",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "unknown-quiet",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "known-zero",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": "0"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "records",
+        "value": 0
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "record-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0.125,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1,
+        "valueAttribute": "1"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "records",
+        "value": 1
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "cancelled-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0.125,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1,
+        "valueAttribute": "1"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "cancelled",
+        "status": "Inspection cancelled. 1 checked records and their measured bytes remain; the rest were not processed.",
+        "unit": "records",
+        "value": 1
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "byte-fraction",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.11578044596912522,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 135,
+        "valueAttribute": "135"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "bytes",
+        "value": 135
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "byte-cancelled",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.11578044596912522,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 135,
+        "valueAttribute": "135"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "cancelled",
+        "status": "Inspection cancelled. 1 checked records and their measured bytes remain; the rest were not processed.",
+        "unit": "bytes",
+        "value": 135
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "error-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.3653516295025729,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 426,
+        "valueAttribute": "426"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 426,
+        "failedId": "A04",
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 3,
+        "state": "error",
+        "status": "The local fixture rejected A04 before processing it. 3 actual results remain. Clear the rejection choice and explicitly try the current plan.",
+        "unit": "bytes",
+        "value": 426
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "retry-complete",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1166,
+        "valueAttribute": "1166"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 1166,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 8,
+        "state": "complete",
+        "status": "Inspection complete. 8 original local records produced 1166 UTF-8 bytes and 198 letter/number word segments.",
+        "unit": "bytes",
+        "value": 1166
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "unknown-complete",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "complete",
+        "status": "The local preparation fixture completed. No record batch was requested and no quantity was reported.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "unknown-cancelled",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "cancelled",
+        "status": "Preparation cancelled before any quantity was reported. No completion amount is invented.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "empty-error",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "error",
+        "status": "No local records were selected. Choose a record and explicitly try the current plan.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 54.5234375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "announcement-off",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": null,
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": false,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "error",
+        "status": "No local records were selected. Choose a record and explicitly try the current plan.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 54.5234375
+      },
+      "viewport": {
+        "height": 390,
+        "width": 844
+      }
+    },
+    {
+      "name": "idle",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "idle",
+        "status": "Choose a local collection and explicitly start an inspection.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "unknown-static",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "unknown-animated",
+      "native": {
+        "animations": 1,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "lg-task-wait",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "unknown-quiet",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "block",
+        "ringHidden": false,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "known-zero",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": "0"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "records",
+        "value": 0
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "record-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0.125,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1,
+        "valueAttribute": "1"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "records",
+        "value": 1
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "cancelled-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 8,
+        "maxAttribute": "8",
+        "position": 0.125,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1,
+        "valueAttribute": "1"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 8,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": true,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "cancelled",
+        "status": "Inspection cancelled. 1 checked records and their measured bytes remain; the rest were not processed.",
+        "unit": "records",
+        "value": 1
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "byte-fraction",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.11578044596912522,
+        "regionBusy": "true",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 135,
+        "valueAttribute": "135"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": true,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "busy",
+        "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+        "unit": "bytes",
+        "value": 135
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "byte-cancelled",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.11578044596912522,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 135,
+        "valueAttribute": "135"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 135,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 1,
+        "state": "cancelled",
+        "status": "Inspection cancelled. 1 checked records and their measured bytes remain; the rest were not processed.",
+        "unit": "bytes",
+        "value": 135
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "error-partial",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 0.3653516295025729,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 426,
+        "valueAttribute": "426"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 426,
+        "failedId": "A04",
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 3,
+        "state": "error",
+        "status": "The local fixture rejected A04 before processing it. 3 actual results remain. Clear the rejection choice and explicitly try the current plan.",
+        "unit": "bytes",
+        "value": 426
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "retry-complete",
+      "native": {
+        "animations": 0,
+        "display": "block",
+        "hidden": false,
+        "indeterminate": false,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1166,
+        "maxAttribute": "1166",
+        "position": 1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 1166,
+        "valueAttribute": "1166"
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 1166,
+        "failedId": null,
+        "max": 1166,
+        "mode": "determinate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 8,
+        "state": "complete",
+        "status": "Inspection complete. 8 original local records produced 1166 UTF-8 bytes and 198 letter/number word segments.",
+        "unit": "bytes",
+        "value": 1166
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "unknown-complete",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "complete",
+        "status": "The local preparation fixture completed. No record batch was requested and no quantity was reported.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "unknown-cancelled",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "cancelled",
+        "status": "Preparation cancelled before any quantity was reported. No completion amount is invented.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "empty-error",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": "status",
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "error",
+        "status": "No local records were selected. Choose a record and explicitly try the current plan.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "name": "announcement-off",
+      "native": {
+        "animations": 0,
+        "display": "none",
+        "hidden": true,
+        "indeterminate": true,
+        "labels": [
+          "Inspect selected local notes"
+        ],
+        "max": 1,
+        "maxAttribute": null,
+        "position": -1,
+        "regionBusy": "false",
+        "ringAnimation": "none",
+        "ringDisplay": "none",
+        "ringHidden": true,
+        "statusOutsideBusy": true,
+        "statusRole": null,
+        "value": 0,
+        "valueAttribute": null
+      },
+      "overflow": false,
+      "selectFonts": [
+        {
+          "font": "16px",
+          "id": "collection"
+        },
+        {
+          "font": "16px",
+          "id": "unit"
+        },
+        {
+          "font": "16px",
+          "id": "delay"
+        }
+      ],
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "failedId": null,
+        "max": null,
+        "mode": "indeterminate",
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": false,
+          "announce": false,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "resultCount": 0,
+        "state": "error",
+        "status": "No local records were selected. Choose a record and explicitly try the current plan.",
+        "unit": "records",
+        "value": null
+      },
+      "targets": {
+        "below44": [],
+        "count": 25,
+        "minHeight": 44,
+        "minWidth": 63.359375
+      },
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      }
+    }
+  ],
+  "probe": "(()=>{const s=window.__progressDemo.state(),bar=document.querySelector('progress'),ring=document.querySelector('#waiting-ring'),status=document.querySelector('#task-status'),region=document.querySelector('#results-region');const controls=[...document.querySelectorAll('button,select,a[href],label.check,label.record-choice')].filter(n=>!n.hidden&&!n.closest('[hidden]')).map(n=>({id:n.id||n.textContent.trim().slice(0,32),width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height}));return {viewport:{width:innerWidth,height:innerHeight},overflow:document.documentElement.scrollWidth>innerWidth,targets:{count:controls.length,minWidth:Math.min(...controls.map(n=>n.width)),minHeight:Math.min(...controls.map(n=>n.height)),below44:controls.filter(n=>n.width<44||n.height<44)},selectFonts:[...document.querySelectorAll('select')].map(n=>({id:n.id,font:getComputedStyle(n).fontSize})),state:{state:s.state,mode:s.mode,unit:s.unit,value:s.value,max:s.max,checkedBytes:s.checkedBytes,resultCount:s.results.length,failedId:s.failedId,status:s.status,active:s.active,pendingWaits:s.pendingWaits,pendingFixtureActions:s.pendingFixtureActions,pendingTourSteps:s.pendingTourSteps,preferences:s.preferences},native:{valueAttribute:bar.getAttribute('value'),maxAttribute:bar.getAttribute('max'),value:bar.value,max:bar.max,position:bar.position,indeterminate:bar.matches(':indeterminate'),hidden:bar.hidden,display:getComputedStyle(bar).display,labels:[...bar.labels].map(n=>n.textContent),ringHidden:ring.hidden,ringDisplay:getComputedStyle(ring).display,ringAnimation:getComputedStyle(ring).animationName,statusRole:status.getAttribute('role'),statusOutsideBusy:!region.contains(status),regionBusy:region.getAttribute('aria-busy'),animations:document.getAnimations().length}}})()",
+  "matrixExpression": "(async()=>{const d=window.__progressDemo,wait=ms=>new Promise(r=>setTimeout(r,ms)),rows=[],capture=name=>{const result=(()=>{const s=window.__progressDemo.state(),bar=document.querySelector('progress'),ring=document.querySelector('#waiting-ring'),status=document.querySelector('#task-status'),region=document.querySelector('#results-region');const controls=[...document.querySelectorAll('button,select,a[href],label.check,label.record-choice')].filter(n=>!n.hidden&&!n.closest('[hidden]')).map(n=>({id:n.id||n.textContent.trim().slice(0,32),width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height}));return {viewport:{width:innerWidth,height:innerHeight},overflow:document.documentElement.scrollWidth>innerWidth,targets:{count:controls.length,minWidth:Math.min(...controls.map(n=>n.width)),minHeight:Math.min(...controls.map(n=>n.height)),below44:controls.filter(n=>n.width<44||n.height<44)},selectFonts:[...document.querySelectorAll('select')].map(n=>({id:n.id,font:getComputedStyle(n).fontSize})),state:{state:s.state,mode:s.mode,unit:s.unit,value:s.value,max:s.max,checkedBytes:s.checkedBytes,resultCount:s.results.length,failedId:s.failedId,status:s.status,active:s.active,pendingWaits:s.pendingWaits,pendingFixtureActions:s.pendingFixtureActions,pendingTourSteps:s.pendingTourSteps,preferences:s.preferences},native:{valueAttribute:bar.getAttribute('value'),maxAttribute:bar.getAttribute('max'),value:bar.value,max:bar.max,position:bar.position,indeterminate:bar.matches(':indeterminate'),hidden:bar.hidden,display:getComputedStyle(bar).display,labels:[...bar.labels].map(n=>n.textContent),ringHidden:ring.hidden,ringDisplay:getComputedStyle(ring).display,ringAnimation:getComputedStyle(ring).animationName,statusRole:status.getAttribute('role'),statusOutsideBusy:!region.contains(status),regionBusy:region.getAttribute('aria-busy'),animations:document.getAnimations().length}}})();rows.push({name,...result});};d.reset();document.querySelector('#task-frame').scrollIntoView({block:'center'});await wait(40);capture('idle');d.run({delay:200});capture('unknown-static');d.preferences({animated:true});capture('unknown-animated');d.preferences({quiet:true});capture('unknown-quiet');await wait(350);capture('known-zero');await wait(240);capture('record-partial');d.cancel();capture('cancelled-partial');d.reset();d.run({unit:'bytes',delay:200});await wait(570);capture('byte-fraction');d.cancel();capture('byte-cancelled');d.reset();await d.run({unit:'bytes',delay:80,failFourth:true});capture('error-partial');await d.run({unit:'bytes',delay:80,failFourth:false});capture('retry-complete');d.reset();await d.run({prepareOnly:true});capture('unknown-complete');d.reset();d.run({prepareOnly:true});d.cancel();capture('unknown-cancelled');d.reset();document.querySelector('#select-all').click();await d.run();capture('empty-error');d.preferences({announce:false});capture('announcement-off');d.reset();return rows})()",
+  "nativeCancel": {
+    "active": false,
+    "checkedBytes": 426,
+    "completedRuns": 0,
+    "failedId": null,
+    "focus": "BODY",
+    "generation": 133,
+    "max": 8,
+    "mode": "determinate",
+    "native": {
+      "busy": "false",
+      "hidden": false,
+      "label": "Inspect selected local notes",
+      "maxAttribute": "8",
+      "motion": "static",
+      "position": 0.375,
+      "ringHidden": true,
+      "valueAttribute": "3",
+      "valueText": "3 of 8 selected records checked"
+    },
+    "pendingFixtureActions": 0,
+    "pendingTourSteps": 0,
+    "pendingWaits": 0,
+    "preferences": {
+      "animated": false,
+      "announce": true,
+      "inView": true,
+      "quiet": false,
+      "solid": false,
+      "systemReduced": false
+    },
+    "results": [
+      {
+        "bytes": 135,
+        "id": "A01",
+        "title": "Keep the first step obvious",
+        "words": 22
+      },
+      {
+        "bytes": 157,
+        "id": "A02",
+        "title": "Put the source beside the answer",
+        "words": 28
+      },
+      {
+        "bytes": 134,
+        "id": "A03",
+        "title": "Make cancellation specific",
+        "words": 21
+      }
+    ],
+    "selected": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08"
+    ],
+    "snapshot": {
+      "collection": "interface",
+      "ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ],
+      "prepareOnly": false,
+      "title": "Interface field notes"
+    },
+    "stage": "Stopped by the host",
+    "state": "cancelled",
+    "status": "Inspection cancelled. 3 checked records and their measured bytes remain; the rest were not processed.",
+    "tourStep": "",
+    "unit": "records",
+    "value": 3
+  },
+  "nativeRetry": {
+    "active": false,
+    "checkedBytes": 1166,
+    "completedRuns": 1,
+    "failedId": null,
+    "focus": "BODY",
+    "generation": 134,
+    "max": 8,
+    "mode": "determinate",
+    "native": {
+      "busy": "false",
+      "hidden": false,
+      "label": "Inspect selected local notes",
+      "maxAttribute": "8",
+      "motion": "static",
+      "position": 1,
+      "ringHidden": true,
+      "valueAttribute": "8",
+      "valueText": "8 of 8 selected records checked"
+    },
+    "pendingFixtureActions": 0,
+    "pendingTourSteps": 0,
+    "pendingWaits": 0,
+    "preferences": {
+      "animated": false,
+      "announce": true,
+      "inView": true,
+      "quiet": false,
+      "solid": false,
+      "systemReduced": false
+    },
+    "results": [
+      {
+        "bytes": 135,
+        "id": "A01",
+        "title": "Keep the first step obvious",
+        "words": 22
+      },
+      {
+        "bytes": 157,
+        "id": "A02",
+        "title": "Put the source beside the answer",
+        "words": 28
+      },
+      {
+        "bytes": 134,
+        "id": "A03",
+        "title": "Make cancellation specific",
+        "words": 21
+      },
+      {
+        "bytes": 141,
+        "id": "A04",
+        "title": "A label before an icon",
+        "words": 25
+      },
+      {
+        "bytes": 147,
+        "id": "A05",
+        "title": "An error worth reading",
+        "words": 26
+      },
+      {
+        "bytes": 154,
+        "id": "A06",
+        "title": "Leave room for longer text",
+        "words": 26
+      },
+      {
+        "bytes": 143,
+        "id": "A07",
+        "title": "A quiet way to wait",
+        "words": 25
+      },
+      {
+        "bytes": 155,
+        "id": "A08",
+        "title": "Name what you actually counted",
+        "words": 25
+      }
+    ],
+    "selected": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08"
+    ],
+    "snapshot": {
+      "collection": "interface",
+      "ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ],
+      "prepareOnly": false,
+      "title": "Interface field notes"
+    },
+    "stage": "All selected records checked",
+    "state": "complete",
+    "status": "Inspection complete. 8 original local records produced 1166 UTF-8 bytes and 198 letter/number word segments.",
+    "tourStep": "",
+    "unit": "records",
+    "value": 8
+  },
+  "limits": [
+    "Desktop Chromium viewport dimensions; no physical devices/Safari/AT verification",
+    "Value/max omission checked through attributes: native DOM properties default to 0/1 while position is -1; omitted is not an inferred business total",
+    "DOM and CSS state validation does not verify actual screen-reader speech",
+    "Native select popup automation did not change collection; writing-data verification uses an explicit host fixture, not a falsely claimed native select change"
+  ]
+}
+

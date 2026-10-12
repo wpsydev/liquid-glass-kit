@@ -1,0 +1,56 @@
+{
+  "forcedStyleAndLayout": {
+    "batchesMs": [
+      11.100000023841858,
+      4.799999952316284,
+      4.700000047683716,
+      4.799999952316284,
+      4.600000023841858
+    ],
+    "medianBatchMs": 4.799999952316284,
+    "rectReads": 500,
+    "updatesAndExplicitRectReads": 500
+  },
+  "hostConnected": {
+    "batches": 5,
+    "batchesMs": [
+      13.200000047683716,
+      14.799999952316284,
+      11.899999976158142,
+      12.100000023841858,
+      12
+    ],
+    "cyclesPerBatch": 10,
+    "medianBatchMs": 12.100000023841858,
+    "propsPlusDOMApplies": 12800,
+    "rectReads": 0,
+    "requestAnimationFrameCalls": 0,
+    "scopes": 32,
+    "statesPerCycle": 8
+  },
+  "native": {
+    "idleAnimations": 0,
+    "statusOutsideBusy": true,
+    "terminalUnknownHidden": true,
+    "uniqueIds": true
+  },
+  "observedAtUtc": "2026-10-12T04:35:12.240Z",
+  "pure": {
+    "batchesMs": [
+      16.5,
+      11.600000023841858,
+      10.899999976158142,
+      10.600000023841858,
+      10.399999976158142
+    ],
+    "calls": 50000,
+    "callsPerBatch": 10000,
+    "checksum": 106250,
+    "medianBatchMs": 10.899999976158142
+  },
+  "scope": "Standalone synchronous pure props and connected host adapter work. Forced computed-style/rect pass includes browser style/layout. None measures paint, GPU, backend, real-task processing, throttled physical devices or comparative speedup.",
+  "subsequent250msIdleRaf": 0,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "visibility": "visible"
+}
+

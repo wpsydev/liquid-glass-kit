@@ -1,14 +1,14 @@
 {
-  "version": "0.39.0-preview.1",
+  "version": "0.40.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/auto-size-showcase.mp4",
-      "name": "liquid-glass-session-notes.mp4",
+      "path": "docs/campaign/assets/task-progress-showcase.mp4",
+      "name": "liquid-glass-index-room.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/auto-size-showcase.png",
-      "name": "liquid-glass-session-notes.png",
+      "path": "docs/campaign/assets/task-progress-showcase.png",
+      "name": "liquid-glass-index-room.png",
       "type": "image/png"
     }
   ]

@@ -1,0 +1,125 @@
+{
+  "atomic": "true",
+  "outsideBusy": true,
+  "role": "status",
+  "state": {
+    "active": false,
+    "checkedBytes": 1166,
+    "completedRuns": 1,
+    "failedId": null,
+    "focus": "BODY",
+    "generation": 16,
+    "max": 8,
+    "mode": "determinate",
+    "native": {
+      "busy": "false",
+      "hidden": false,
+      "label": "Inspect selected local notes",
+      "maxAttribute": "8",
+      "motion": "static",
+      "position": 1,
+      "ringHidden": true,
+      "valueAttribute": "8",
+      "valueText": "8 of 8 selected records checked"
+    },
+    "pendingFixtureActions": 0,
+    "pendingTourSteps": 0,
+    "pendingWaits": 0,
+    "preferences": {
+      "animated": false,
+      "announce": true,
+      "inView": false,
+      "quiet": false,
+      "solid": false,
+      "systemReduced": false
+    },
+    "results": [
+      {
+        "bytes": 135,
+        "id": "A01",
+        "title": "Keep the first step obvious",
+        "words": 22
+      },
+      {
+        "bytes": 157,
+        "id": "A02",
+        "title": "Put the source beside the answer",
+        "words": 28
+      },
+      {
+        "bytes": 134,
+        "id": "A03",
+        "title": "Make cancellation specific",
+        "words": 21
+      },
+      {
+        "bytes": 141,
+        "id": "A04",
+        "title": "A label before an icon",
+        "words": 25
+      },
+      {
+        "bytes": 147,
+        "id": "A05",
+        "title": "An error worth reading",
+        "words": 26
+      },
+      {
+        "bytes": 154,
+        "id": "A06",
+        "title": "Leave room for longer text",
+        "words": 26
+      },
+      {
+        "bytes": 143,
+        "id": "A07",
+        "title": "A quiet way to wait",
+        "words": 25
+      },
+      {
+        "bytes": 155,
+        "id": "A08",
+        "title": "Name what you actually counted",
+        "words": 25
+      }
+    ],
+    "selected": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08"
+    ],
+    "snapshot": {
+      "collection": "interface",
+      "ids": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ],
+      "prepareOnly": false,
+      "title": "Interface field notes"
+    },
+    "stage": "All selected records checked",
+    "state": "complete",
+    "status": "Inspection complete. 8 original local records produced 1166 UTF-8 bytes and 198 letter/number word segments.",
+    "tourStep": "",
+    "unit": "records",
+    "value": 8
+  },
+  "statusChanges": [
+    "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+    "The selected records are ready. Their total is now reported; no record has been checked yet.",
+    "A meaningful midpoint: 4 of 8 local records have been checked.",
+    "Inspection complete. 8 original local records produced 1166 UTF-8 bytes and 198 letter/number word segments."
+  ]
+}
+

@@ -494,3 +494,13 @@ Optional2469gzip.20connected fixtures/400measuredbatches after50warmup: median.0
 Original666747-byte12s360frame960square cinematic96/piano seed39 film SHA256f0bc86bcce89c4bfac9e3fd2a18b000f1ff4b904af6eeab26a1ad75f840e046c. Actual10stour, no cameraCSS, final3notes/same focused draft/selection5–10/zeroactiveanimations/clearedsizes. Controls bottom869.4 above caption882. Full decode/threeframe review passed; export30fps is not appFPS.
 
 Integrated npm run check passed1,145tests/53files including queued prototypes. npm pack --dry-run passed175members and excluded future entries. Published-scope CI follows release.
+
+## 0.40 task progress (2026-10-12)
+
+41 focused tests;75native15states×5viewports320–1440cases44targets/16fields/noflow. Actualnativeunknown0/1position−1 with attrsabsent, known0/8, fraction135/1166, error426/1166, terminalunknownhidden. Actual InspectCancel retains3measuredrecords; TryCurrentPlan8/8. Separate fixture-driven select mode notnativepopupproof.14records8interface/6writing allactual1166/797UTF8bytes and198/134wordsegments.4statusmilestones outsidebusyregion; realoffscreen/quietringstops. No physicalphones/Safari/AT claim.
+
+Pure50kcalls10.9ms/10kbatchmedian;connected12800applies12.1ms/2560median0RAF/rects; separate500forcedstylelayout4.8ms/100includeslayout;250idle0. Optional1613gzip/CSS907 excludingmaterial. No paint/GPU/taskprocessing/speedup/FPS inference.
+
+Original752612-byte12s960square360frame vibraphonednb160seed40 SHA256ef8b3ea4dea439816aa9cb33f6790777723588d782ae5121dbb5b463911aef81. Actual10stourfinal1166/1166bytes/0waits/actions/steps, staged delays notCPUmeasurement, cameradensitydisclosed. Fullaudio/decode/threeframespassed.
+
+Integrated npm run check passed1,145tests/53files including unreleased prototypes. npm pack --dry-run passed179members with only declared public entries. Published-scope CI follows release.

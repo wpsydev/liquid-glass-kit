@@ -1,0 +1,56 @@
+/* Optional native task progress. Host state drives quantities; CSS never guesses it. */
+.lg-task-progress {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: .5rem .75rem;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  color: inherit;
+}
+.lg-task-label { grid-column: 1 / -1; font: inherit; font-weight: 600; overflow-wrap: anywhere; }
+.lg-task-status { margin: .5rem 0 0; font: inherit; line-height: 1.5; white-space: pre-line; overflow-wrap: anywhere; }
+.lg-task-bar {
+  display: block;
+  box-sizing: border-box;
+  inline-size: 100%;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  block-size: .625rem;
+  border: 0;
+  border-radius: 999px;
+  accent-color: var(--lg-task-accent, currentColor);
+}
+.lg-task-bar::-webkit-progress-bar { background: var(--lg-task-track, rgb(127 127 127 / .2)); border-radius: inherit; }
+.lg-task-bar::-webkit-progress-value { background: var(--lg-task-accent, currentColor); border-radius: inherit; }
+.lg-task-bar::-moz-progress-bar { background: var(--lg-task-accent, currentColor); border-radius: inherit; }
+/* A neutral unknown track, with a separate optional original CSS ring. Never paint
+   an invented percentage or simulate increasing width while the quantity is unknown. */
+.lg-task-bar:indeterminate { appearance: none; background: var(--lg-task-track, rgb(127 127 127 / .2)); }
+.lg-task-bar:indeterminate::-webkit-progress-value { background: transparent; }
+.lg-task-bar:indeterminate::-moz-progress-bar { background: transparent; animation: none; }
+.lg-task-indicator {
+  display: inline-block;
+  box-sizing: border-box;
+  inline-size: 1.125rem;
+  block-size: 1.125rem;
+  border: 2px solid var(--lg-task-track, rgb(127 127 127 / .35));
+  border-block-start-color: var(--lg-task-accent, currentColor);
+  border-radius: 50%;
+}
+.lg-task-progress[data-lg-task-state='busy'][data-lg-task-mode='indeterminate'][data-lg-task-motion='animate'] > .lg-task-indicator {
+  animation: lg-task-wait 900ms linear infinite;
+}
+.lg-task-bar[hidden], .lg-task-indicator[hidden] { display: none; }
+@keyframes lg-task-wait { to { transform: rotate(1turn); } }
+@media (prefers-reduced-motion: reduce) {
+  .lg-task-progress[data-lg-task-state='busy'][data-lg-task-mode='indeterminate'][data-lg-task-motion='animate'] > .lg-task-indicator { animation: none; }
+}
+@media (forced-colors: active) {
+  .lg-task-bar, .lg-task-bar:indeterminate { appearance: auto; accent-color: auto; color: CanvasText; }
+  .lg-task-bar::-webkit-progress-bar { background: Canvas; }
+  .lg-task-bar::-webkit-progress-value, .lg-task-bar::-moz-progress-bar { background: Highlight; }
+  .lg-task-bar:indeterminate::-webkit-progress-value, .lg-task-bar:indeterminate::-moz-progress-bar { background: Highlight; }
+  .lg-task-progress .lg-task-indicator { border-color: CanvasText; border-block-start-color: Highlight; }
+  .lg-task-progress[data-lg-task-state='busy'][data-lg-task-mode='indeterminate'][data-lg-task-motion='animate'] > .lg-task-indicator { animation: none; }
+}

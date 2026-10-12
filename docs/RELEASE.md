@@ -1,13 +1,13 @@
-Real content. Natural sizing. **0.39.0-preview.1** adds optional `/auto-size`.
+Unknown means unknown. **0.40.0-preview.1** adds optional `/task-progress` and scoped CSS.
 
-A dedicated natural-height frame transitions around actual host content, then releases numeric sizes. Rapid updates retarget. Focus and responsive width changes snap while preserving the same native draft and caret. Host min/max, padding, borders, box sizing and overflow remain authored. Height animation incurs layout and painting; use a few panels.
+Pure view props preserve native progress with actual finite value/max or genuinely omitted unknown quantities. Explicit complete/error/cancelled never invents100%. Separate useful status stays outside the busy results; announcements are deliberate. Optional CSSring runs only for visible host-permitted busy unknown work, stops in quiet mode and adds no task runner. Host owns execution, visibility, cancellation and retry.
 
-Native Chromium testing found fractional CSS height normalization could falsely look like an external owner, stranding a numeric height. Recording the actual CSSOM value and priority fixes it.24 focused tests include the regression;20 desktop viewport/state cases320–1440px fit with44px controls and16px drafts. Physical phones, Safari and assistive technology remain unverified.
+[Index Room](https://wpsydev.github.io/liquid-glass-kit/progress/) computes actual UTF-8 bytes and word segments from14 original local notes. Staged preparation/record waits make states inspectable; they are not processing-speed measurements. The twelve-second original160BPM vibraphone drum-and-bass film shows honest partial rejection, cancellation/retry and quiet completion.
 
-[Session Notes](https://wpsydev.github.io/liquid-glass-kit/size/) adds/removes real local notes, filters, expands native context and retains the original editable draft. Its twelve-second original96BPM cinematic/piano film records the actual finite tour without camera CSS or invented heights.
+41 focused tests and75 native desktop viewport/state cases320–1440px retain44px targets,16px fields and no page overflow. Actual0/8, fractional135/1166, partial error426/1166, terminal unknown hiding, real offscreen/quiet stop and separate status verified. Physical phones, Safari and assistive technology remain unverified.
 
-Optional controller2,469bytesgzip. Connected20-fixture attach/destroy probe: median0.015ms/p950.035ms per-cycle batch average after warmup. Includes native styles/rectangles and induced synchronous style/layout, validation, observers/listeners, leases and cleanup. Setup, active animation, content changes and asynchronous painting excluded. No FPS, GPU-cost or comparative speedup claim.
+Optional IIFE1613gzip/CSS907gzip excluding material. Separate synchronous probes: pure10.9ms/10,000calls median; connectedhost12.1ms/2560applies median/0RAF/rect; forcedstylelayout4.8ms/100updates median includes browserstyle/layout. No painting/GPU/task/backend/comparative speedup or appFPS claim.
 
-[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/AUTO_SIZE.md) · [Native evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/auto-size-native.json)
+[API](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/TASK_PROGRESS.md) · [Evidence](https://github.com/wpsydev/liquid-glass-kit/blob/main/benchmarks/task-progress-native.json)
 
-Use the ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.39.0-preview.1`. npm registry publication remains pending. Independent Motion Primitives-inspired behavior; no copied component or required Motion/React dependency.
+Use ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.40.0-preview.1`. npm registry remains pending. Independent Uiverse-inspired waiting-state adaptation; no copied loader.

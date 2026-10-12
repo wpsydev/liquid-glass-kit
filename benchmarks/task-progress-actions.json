@@ -1,0 +1,882 @@
+{
+  "writing": {
+    "active": false,
+    "checkedBytes": 797,
+    "completedRuns": 1,
+    "failedId": null,
+    "focus": "BODY",
+    "generation": 2,
+    "max": 797,
+    "mode": "determinate",
+    "native": {
+      "busy": "false",
+      "hidden": false,
+      "label": "Inspect selected local notes",
+      "maxAttribute": "797",
+      "motion": "static",
+      "position": 1,
+      "ringHidden": true,
+      "valueAttribute": "797",
+      "valueText": "797 of 797 UTF-8 bytes checked"
+    },
+    "pendingFixtureActions": 0,
+    "pendingTourSteps": 0,
+    "pendingWaits": 0,
+    "preferences": {
+      "animated": false,
+      "announce": true,
+      "inView": true,
+      "quiet": false,
+      "solid": false,
+      "systemReduced": false
+    },
+    "results": [
+      {
+        "bytes": 139,
+        "id": "B01",
+        "title": "Keep one useful thought",
+        "words": 23
+      },
+      {
+        "bytes": 112,
+        "id": "B02",
+        "title": "Write the thing you would reuse",
+        "words": 20
+      },
+      {
+        "bytes": 162,
+        "id": "B03",
+        "title": "A small amount of context",
+        "words": 29
+      },
+      {
+        "bytes": 141,
+        "id": "B04",
+        "title": "Leave the uncertainty visible",
+        "words": 21
+      },
+      {
+        "bytes": 105,
+        "id": "B05",
+        "title": "Readable is useful",
+        "words": 17
+      },
+      {
+        "bytes": 138,
+        "id": "B06",
+        "title": "A café note for later",
+        "words": 24
+      }
+    ],
+    "selected": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06"
+    ],
+    "snapshot": {
+      "collection": "writing",
+      "ids": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06"
+      ],
+      "prepareOnly": false,
+      "title": "Writing field notes"
+    },
+    "stage": "All selected records checked",
+    "state": "complete",
+    "status": "Inspection complete. 6 original local records produced 797 UTF-8 bytes and 134 letter/number word segments.",
+    "tourStep": "",
+    "unit": "bytes",
+    "value": 797
+  },
+  "offscreen": {
+    "offscreen": {
+      "animation": "none",
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "completedRuns": 0,
+        "failedId": null,
+        "focus": "BODY",
+        "generation": 13,
+        "max": null,
+        "mode": "indeterminate",
+        "native": {
+          "busy": "true",
+          "hidden": false,
+          "label": "Inspect selected local notes",
+          "maxAttribute": null,
+          "motion": "static",
+          "position": -1,
+          "ringHidden": false,
+          "valueAttribute": null,
+          "valueText": null
+        },
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": false,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "results": [],
+        "selected": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08"
+        ],
+        "snapshot": {
+          "collection": "interface",
+          "ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08"
+          ],
+          "prepareOnly": true,
+          "title": "Interface field notes"
+        },
+        "stage": "Local preparation fixture",
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "tourStep": "",
+        "unit": "records",
+        "value": null
+      }
+    },
+    "stopped": {
+      "animation": "none",
+      "state": {
+        "active": false,
+        "checkedBytes": 0,
+        "completedRuns": 0,
+        "failedId": null,
+        "focus": "BODY",
+        "generation": 14,
+        "max": null,
+        "mode": "indeterminate",
+        "native": {
+          "busy": "false",
+          "hidden": true,
+          "label": "Inspect selected local notes",
+          "maxAttribute": null,
+          "motion": "static",
+          "position": -1,
+          "ringHidden": true,
+          "valueAttribute": null,
+          "valueText": null
+        },
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 0,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": false,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "results": [],
+        "selected": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08"
+        ],
+        "snapshot": {
+          "collection": "interface",
+          "ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08"
+          ],
+          "prepareOnly": true,
+          "title": "Interface field notes"
+        },
+        "stage": "Stopped by the host",
+        "state": "cancelled",
+        "status": "Preparation cancelled before any quantity was reported. No completion amount is invented.",
+        "tourStep": "",
+        "unit": "records",
+        "value": null
+      }
+    },
+    "visible": {
+      "animation": "lg-task-wait",
+      "state": {
+        "active": true,
+        "checkedBytes": 0,
+        "completedRuns": 0,
+        "failedId": null,
+        "focus": "BODY",
+        "generation": 13,
+        "max": null,
+        "mode": "indeterminate",
+        "native": {
+          "busy": "true",
+          "hidden": false,
+          "label": "Inspect selected local notes",
+          "maxAttribute": null,
+          "motion": "animate",
+          "position": -1,
+          "ringHidden": false,
+          "valueAttribute": null,
+          "valueText": null
+        },
+        "pendingFixtureActions": 0,
+        "pendingTourSteps": 0,
+        "pendingWaits": 1,
+        "preferences": {
+          "animated": true,
+          "announce": true,
+          "inView": true,
+          "quiet": false,
+          "solid": false,
+          "systemReduced": false
+        },
+        "results": [],
+        "selected": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08"
+        ],
+        "snapshot": {
+          "collection": "interface",
+          "ids": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08"
+          ],
+          "prepareOnly": true,
+          "title": "Interface field notes"
+        },
+        "stage": "Local preparation fixture",
+        "state": "busy",
+        "status": "Preparing the local inspection for 320 ms. This fixture stage reports no quantity.",
+        "tourStep": "",
+        "unit": "records",
+        "value": null
+      }
+    }
+  },
+  "tour": {
+    "completed": true,
+    "final": {
+      "active": false,
+      "checkedBytes": 1166,
+      "completedRuns": 3,
+      "failedId": null,
+      "focus": "BODY",
+      "generation": 11,
+      "max": 1166,
+      "mode": "determinate",
+      "native": {
+        "busy": "false",
+        "hidden": false,
+        "label": "Inspect selected local notes",
+        "maxAttribute": "1166",
+        "motion": "static",
+        "position": 1,
+        "ringHidden": true,
+        "valueAttribute": "1166",
+        "valueText": "1166 of 1166 UTF-8 bytes checked"
+      },
+      "pendingFixtureActions": 0,
+      "pendingTourSteps": 0,
+      "pendingWaits": 0,
+      "preferences": {
+        "animated": true,
+        "announce": true,
+        "inView": true,
+        "quiet": true,
+        "solid": true,
+        "systemReduced": false
+      },
+      "results": [
+        {
+          "bytes": 135,
+          "id": "A01",
+          "title": "Keep the first step obvious",
+          "words": 22
+        },
+        {
+          "bytes": 157,
+          "id": "A02",
+          "title": "Put the source beside the answer",
+          "words": 28
+        },
+        {
+          "bytes": 134,
+          "id": "A03",
+          "title": "Make cancellation specific",
+          "words": 21
+        },
+        {
+          "bytes": 141,
+          "id": "A04",
+          "title": "A label before an icon",
+          "words": 25
+        },
+        {
+          "bytes": 147,
+          "id": "A05",
+          "title": "An error worth reading",
+          "words": 26
+        },
+        {
+          "bytes": 154,
+          "id": "A06",
+          "title": "Leave room for longer text",
+          "words": 26
+        },
+        {
+          "bytes": 143,
+          "id": "A07",
+          "title": "A quiet way to wait",
+          "words": 25
+        },
+        {
+          "bytes": 155,
+          "id": "A08",
+          "title": "Name what you actually counted",
+          "words": 25
+        }
+      ],
+      "selected": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ],
+      "snapshot": {
+        "collection": "interface",
+        "ids": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05",
+          "A06",
+          "A07",
+          "A08"
+        ],
+        "prepareOnly": false,
+        "title": "Interface field notes"
+      },
+      "stage": "All selected records checked",
+      "state": "complete",
+      "status": "Inspection complete. 8 original local records produced 1166 UTF-8 bytes and 198 letter/number word segments.",
+      "tourStep": "",
+      "unit": "bytes",
+      "value": 1166
+    },
+    "samples": [
+      {
+        "elapsedMs": 603.3999999761581,
+        "preferencesBottom": 843.5234375,
+        "state": {
+          "active": true,
+          "checkedBytes": 292,
+          "completedRuns": 0,
+          "failedId": null,
+          "focus": "BODY",
+          "generation": 6,
+          "max": 8,
+          "mode": "determinate",
+          "native": {
+            "busy": "true",
+            "hidden": false,
+            "label": "Inspect selected local notes",
+            "maxAttribute": "8",
+            "motion": "static",
+            "position": 0.25,
+            "ringHidden": true,
+            "valueAttribute": "2",
+            "valueText": "2 of 8 selected records checked"
+          },
+          "pendingFixtureActions": 0,
+          "pendingTourSteps": 5,
+          "pendingWaits": 1,
+          "preferences": {
+            "animated": true,
+            "announce": true,
+            "inView": true,
+            "quiet": false,
+            "solid": false,
+            "systemReduced": false
+          },
+          "results": [
+            {
+              "bytes": 135,
+              "id": "A01",
+              "title": "Keep the first step obvious",
+              "words": 22
+            },
+            {
+              "bytes": 157,
+              "id": "A02",
+              "title": "Put the source beside the answer",
+              "words": 28
+            }
+          ],
+          "selected": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08"
+          ],
+          "snapshot": {
+            "collection": "interface",
+            "ids": [
+              "A01",
+              "A02",
+              "A03",
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08"
+            ],
+            "prepareOnly": false,
+            "title": "Interface field notes"
+          },
+          "stage": "Checking actual text",
+          "state": "busy",
+          "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+          "tourStep": "unknown / no reported quantity",
+          "unit": "records",
+          "value": 2
+        }
+      },
+      {
+        "elapsedMs": 3206.5,
+        "preferencesBottom": 843.5234375,
+        "state": {
+          "active": true,
+          "checkedBytes": 426,
+          "completedRuns": 1,
+          "failedId": null,
+          "focus": "BODY",
+          "generation": 7,
+          "max": 1166,
+          "mode": "determinate",
+          "native": {
+            "busy": "true",
+            "hidden": false,
+            "label": "Inspect selected local notes",
+            "maxAttribute": "1166",
+            "motion": "static",
+            "position": 0.3653516295025729,
+            "ringHidden": true,
+            "valueAttribute": "426",
+            "valueText": "426 of 1166 UTF-8 bytes checked"
+          },
+          "pendingFixtureActions": 0,
+          "pendingTourSteps": 4,
+          "pendingWaits": 1,
+          "preferences": {
+            "animated": true,
+            "announce": true,
+            "inView": true,
+            "quiet": false,
+            "solid": false,
+            "systemReduced": false
+          },
+          "results": [
+            {
+              "bytes": 135,
+              "id": "A01",
+              "title": "Keep the first step obvious",
+              "words": 22
+            },
+            {
+              "bytes": 157,
+              "id": "A02",
+              "title": "Put the source beside the answer",
+              "words": 28
+            },
+            {
+              "bytes": 134,
+              "id": "A03",
+              "title": "Make cancellation specific",
+              "words": 21
+            }
+          ],
+          "selected": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08"
+          ],
+          "snapshot": {
+            "collection": "interface",
+            "ids": [
+              "A01",
+              "A02",
+              "A03",
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08"
+            ],
+            "prepareOnly": false,
+            "title": "Interface field notes"
+          },
+          "stage": "Checking actual text",
+          "state": "busy",
+          "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+          "tourStep": "real byte fractions / explicit rejection",
+          "unit": "bytes",
+          "value": 426
+        }
+      },
+      {
+        "elapsedMs": 5408.200000047684,
+        "preferencesBottom": 843.5234375,
+        "state": {
+          "active": false,
+          "checkedBytes": 426,
+          "completedRuns": 1,
+          "failedId": null,
+          "focus": "BODY",
+          "generation": 9,
+          "max": 8,
+          "mode": "determinate",
+          "native": {
+            "busy": "false",
+            "hidden": false,
+            "label": "Inspect selected local notes",
+            "maxAttribute": "8",
+            "motion": "static",
+            "position": 0.375,
+            "ringHidden": true,
+            "valueAttribute": "3",
+            "valueText": "3 of 8 selected records checked"
+          },
+          "pendingFixtureActions": 0,
+          "pendingTourSteps": 3,
+          "pendingWaits": 0,
+          "preferences": {
+            "animated": true,
+            "announce": true,
+            "inView": true,
+            "quiet": false,
+            "solid": false,
+            "systemReduced": false
+          },
+          "results": [
+            {
+              "bytes": 135,
+              "id": "A01",
+              "title": "Keep the first step obvious",
+              "words": 22
+            },
+            {
+              "bytes": 157,
+              "id": "A02",
+              "title": "Put the source beside the answer",
+              "words": 28
+            },
+            {
+              "bytes": 134,
+              "id": "A03",
+              "title": "Make cancellation specific",
+              "words": 21
+            }
+          ],
+          "selected": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08"
+          ],
+          "snapshot": {
+            "collection": "interface",
+            "ids": [
+              "A01",
+              "A02",
+              "A03",
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08"
+            ],
+            "prepareOnly": false,
+            "title": "Interface field notes"
+          },
+          "stage": "Stopped by the host",
+          "state": "cancelled",
+          "status": "Inspection cancelled. 3 checked records and their measured bytes remain; the rest were not processed.",
+          "tourStep": "cancel / keep checked records",
+          "unit": "records",
+          "value": 3
+        }
+      },
+      {
+        "elapsedMs": 7809.700000047684,
+        "preferencesBottom": 843.5234375,
+        "state": {
+          "active": true,
+          "checkedBytes": 135,
+          "completedRuns": 2,
+          "failedId": null,
+          "focus": "BODY",
+          "generation": 11,
+          "max": 1166,
+          "mode": "determinate",
+          "native": {
+            "busy": "true",
+            "hidden": false,
+            "label": "Inspect selected local notes",
+            "maxAttribute": "1166",
+            "motion": "static",
+            "position": 0.11578044596912522,
+            "ringHidden": true,
+            "valueAttribute": "135",
+            "valueText": "135 of 1166 UTF-8 bytes checked"
+          },
+          "pendingFixtureActions": 0,
+          "pendingTourSteps": 1,
+          "pendingWaits": 1,
+          "preferences": {
+            "animated": true,
+            "announce": true,
+            "inView": true,
+            "quiet": true,
+            "solid": true,
+            "systemReduced": false
+          },
+          "results": [
+            {
+              "bytes": 135,
+              "id": "A01",
+              "title": "Keep the first step obvious",
+              "words": 22
+            }
+          ],
+          "selected": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08"
+          ],
+          "snapshot": {
+            "collection": "interface",
+            "ids": [
+              "A01",
+              "A02",
+              "A03",
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08"
+            ],
+            "prepareOnly": false,
+            "title": "Interface field notes"
+          },
+          "stage": "Checking actual text",
+          "state": "busy",
+          "status": "The selected records are ready. Their total is now reported; no record has been checked yet.",
+          "tourStep": "quiet / actual completed bytes",
+          "unit": "bytes",
+          "value": 135
+        }
+      },
+      {
+        "elapsedMs": 10411.399999976158,
+        "preferencesBottom": 843.5234375,
+        "state": {
+          "active": false,
+          "checkedBytes": 1166,
+          "completedRuns": 3,
+          "failedId": null,
+          "focus": "BODY",
+          "generation": 11,
+          "max": 1166,
+          "mode": "determinate",
+          "native": {
+            "busy": "false",
+            "hidden": false,
+            "label": "Inspect selected local notes",
+            "maxAttribute": "1166",
+            "motion": "static",
+            "position": 1,
+            "ringHidden": true,
+            "valueAttribute": "1166",
+            "valueText": "1166 of 1166 UTF-8 bytes checked"
+          },
+          "pendingFixtureActions": 0,
+          "pendingTourSteps": 0,
+          "pendingWaits": 0,
+          "preferences": {
+            "animated": true,
+            "announce": true,
+            "inView": true,
+            "quiet": true,
+            "solid": true,
+            "systemReduced": false
+          },
+          "results": [
+            {
+              "bytes": 135,
+              "id": "A01",
+              "title": "Keep the first step obvious",
+              "words": 22
+            },
+            {
+              "bytes": 157,
+              "id": "A02",
+              "title": "Put the source beside the answer",
+              "words": 28
+            },
+            {
+              "bytes": 134,
+              "id": "A03",
+              "title": "Make cancellation specific",
+              "words": 21
+            },
+            {
+              "bytes": 141,
+              "id": "A04",
+              "title": "A label before an icon",
+              "words": 25
+            },
+            {
+              "bytes": 147,
+              "id": "A05",
+              "title": "An error worth reading",
+              "words": 26
+            },
+            {
+              "bytes": 154,
+              "id": "A06",
+              "title": "Leave room for longer text",
+              "words": 26
+            },
+            {
+              "bytes": 143,
+              "id": "A07",
+              "title": "A quiet way to wait",
+              "words": 25
+            },
+            {
+              "bytes": 155,
+              "id": "A08",
+              "title": "Name what you actually counted",
+              "words": 25
+            }
+          ],
+          "selected": [
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A08"
+          ],
+          "snapshot": {
+            "collection": "interface",
+            "ids": [
+              "A01",
+              "A02",
+              "A03",
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08"
+            ],
+            "prepareOnly": false,
+            "title": "Interface field notes"
+          },
+          "stage": "All selected records checked",
+          "state": "complete",
+          "status": "Inspection complete. 8 original local records produced 1166 UTF-8 bytes and 198 letter/number word segments.",
+          "tourStep": "",
+          "unit": "bytes",
+          "value": 1166
+        }
+      }
+    ]
+  },
+  "cameraOnlyCSS": ".room{padding-inline:24px}header{min-height:52px}.intro{padding-block:18px 16px;gap:30px}.intro h1{font-size:43px;letter-spacing:-2px;margin-top:6px}.intro>p{font-size:11px;line-height:1.55}.plan{padding-block:9px;gap:10px 14px}.plan-title{display:none}.plan>label{font-size:9px;gap:5px}.plan>.check{font-size:10px}.fixture-note{font-size:9px;line-height:1.45;margin-block:8px 12px}.workspace{gap:24px;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}.task-console{padding:18px}.console-heading{margin-bottom:15px}.console-heading h2{font-size:22px;margin-top:6px}.quantity-line{padding-top:9px}.lg-task-status{margin-top:13px;min-height:40px;font-size:11px;line-height:1.5}.task-actions{margin-top:12px;gap:7px}.snapshot-receipt{margin-block:10px 12px;padding-bottom:10px;font-size:9px;line-height:1.45}#task-hint{font-size:9px;line-height:1.4;margin-top:8px}.results-heading{margin-bottom:7px}.table-wrap{max-height:155px;overflow:auto}.result-summary{margin-top:10px;font-size:9px}#empty-results{padding-block:14px;font-size:11px}.shelf-heading h2{font-size:23px}.shelf-note{font-size:10px;line-height:1.5;margin-bottom:5px}#record-options{max-height:355px;overflow:auto}.record-choice{min-height:54px;padding-block:9px}.record-description strong{font-size:11px}.shelf-art,.mechanics,footer{display:none}.preferences{margin-top:17px;padding-block:7px;gap:7px 13px}.preferences .check{font-size:10px}.preferences>p{font-size:9px;max-inline-size:30ch}.preferences #solid{font-size:10px}.intro{padding-block:10px}.intro h1{font-size:37px}header{min-height:44px}.task-frame{min-height:32px}.snapshot-receipt{display:none}.table-wrap{max-height:140px}.preferences{margin-top:12px}",
+  "raw": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-c8e469ae-f400-455d-97f3-ccca7d3e5200-mp4",
+    "tabId": "tab_4h",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-c8e469ae-f400-455d-97f3-ccca7d3e5200-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 809776,
+    "createdAt": "2026-10-12T04:37:47.818Z"
+  },
+  "captions": [
+    "unknown is not zero",
+    "real counts, useful partial results",
+    "quiet motion, truthful completion"
+  ]
+}
+

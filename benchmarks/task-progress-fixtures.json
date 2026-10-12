@@ -1,0 +1,114 @@
+{
+  "source": "site/progress/main.ts",
+  "records": [
+    {
+      "id": "A01",
+      "title": "Keep the first step obvious",
+      "words": 22,
+      "bytes": 135,
+      "inputSha256": "76358781f18e868af4baf67a72d991ed9fff6397fcd7c63f37d80818cc2af90b"
+    },
+    {
+      "id": "A02",
+      "title": "Put the source beside the answer",
+      "words": 28,
+      "bytes": 157,
+      "inputSha256": "b13e4708bfab1df195d0c18d4c6eb1fb3d5284dffa8711b4dc8f01ac4a1f075c"
+    },
+    {
+      "id": "A03",
+      "title": "Make cancellation specific",
+      "words": 21,
+      "bytes": 134,
+      "inputSha256": "7719c44ef5866cf005e3396fbb50558ff7b23f3e075a0f27342890b5f8d6c5ad"
+    },
+    {
+      "id": "A04",
+      "title": "A label before an icon",
+      "words": 25,
+      "bytes": 141,
+      "inputSha256": "3e0d98f3a7facdd7991fbef6a692da9ee12a20d999b7cab0c79d3b2be62ef0b1"
+    },
+    {
+      "id": "A05",
+      "title": "An error worth reading",
+      "words": 26,
+      "bytes": 147,
+      "inputSha256": "628e6fc8a2004bf390ad9ba4dba0fbda07419c14e9a1c6ef6821f0c4d3207573"
+    },
+    {
+      "id": "A06",
+      "title": "Leave room for longer text",
+      "words": 26,
+      "bytes": 154,
+      "inputSha256": "e7107124d91e510f9ff9593d6d2b0b80b1dd4d2a27af25e57cdab883cd701003"
+    },
+    {
+      "id": "A07",
+      "title": "A quiet way to wait",
+      "words": 25,
+      "bytes": 143,
+      "inputSha256": "de37137d44c3fda45ea8429a8f91e8115d8899a2e870950f9521b60ae1d7616e"
+    },
+    {
+      "id": "A08",
+      "title": "Name what you actually counted",
+      "words": 25,
+      "bytes": 155,
+      "inputSha256": "2ecc658a8210c4af71aa2de7ecee917ec66449be23b6c80eb57d38cf12df401f"
+    },
+    {
+      "id": "B01",
+      "title": "Keep one useful thought",
+      "words": 23,
+      "bytes": 139,
+      "inputSha256": "aaa511e8f82c6c23cd53e4033b4ec6700c335f0cf1dfda09b0ee75673b3a913c"
+    },
+    {
+      "id": "B02",
+      "title": "Write the thing you would reuse",
+      "words": 20,
+      "bytes": 112,
+      "inputSha256": "70dfe2fa8100a6eaa3999ae955cadb67960ae48daaced29deb0368a50e80bf38"
+    },
+    {
+      "id": "B03",
+      "title": "A small amount of context",
+      "words": 29,
+      "bytes": 162,
+      "inputSha256": "40437cf4567372e2f124f719e9bf4e6505d99ff79cf188c5e53cacfd52ed316a"
+    },
+    {
+      "id": "B04",
+      "title": "Leave the uncertainty visible",
+      "words": 21,
+      "bytes": 141,
+      "inputSha256": "e5d5a7bb59b50cbc0fca71cad3b3ccb087b41488a3535d370762c64786b1380d"
+    },
+    {
+      "id": "B05",
+      "title": "Readable is useful",
+      "words": 17,
+      "bytes": 105,
+      "inputSha256": "d857d7361dc567a176c4ddbdc29d9d9986a49a14cf208d5b5762be21548ecf58"
+    },
+    {
+      "id": "B06",
+      "title": "A café note for later",
+      "words": 24,
+      "bytes": 138,
+      "inputSha256": "a4b71f9df6c808ac3fbde595c51979c26055bcaa227adf6a0493cd81b44437ce"
+    }
+  ],
+  "totals": {
+    "interface": {
+      "bytes": 1166,
+      "words": 198
+    },
+    "writing": {
+      "bytes": 797,
+      "words": 134
+    }
+  },
+  "boundary": "Original local title, newline and note text. UTF8 byte counts and Unicode letter/number word segments, not natural-language tokenization or AI tokens. Pacing/preparation are explicit fixtures."
+}

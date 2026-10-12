@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.39.0-preview.1",
+  "version": "0.40.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -227,7 +227,12 @@
     "./auto-size": {
       "types": "./dist/auto-size.d.ts",
       "import": "./dist/auto-size.js"
-    }
+    },
+    "./task-progress": {
+      "types": "./dist/task-progress.d.ts",
+      "import": "./dist/task-progress.js"
+    },
+    "./task-progress.css": "./dist/task-progress.css"
   },
   "scripts": {
     "build": "node scripts/clean.mjs && node scripts/compile-library.mjs && node scripts/build.mjs",

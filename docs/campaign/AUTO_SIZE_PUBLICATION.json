@@ -1,0 +1,75 @@
+{
+  "version": "0.39.0-preview.1",
+  "commit": "48c2eaf49d6dbf1023bc4e9af0cd1a675c2c5111",
+  "workflows": {
+    "verify": 38206994199,
+    "release": 38206994189,
+    "pages": 38206994192,
+    "conclusion": "success",
+    "tests": 829,
+    "testFiles": 42
+  },
+  "archive": {
+    "members": 175,
+    "bytes": 378736,
+    "sha256": "747f0ac87684d56cd019566fb93af38ba41db89e30ad69efcfae3ca401466cf6"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/size/",
+    "native": {
+      "same": true,
+      "state": {
+        "active": false,
+        "contextOpen": false,
+        "draft": "Keep the draft steady",
+        "editorShown": true,
+        "filter": "all",
+        "focused": true,
+        "inlineBlockSize": "",
+        "inlineHeight": "",
+        "narrow": false,
+        "naturalContentHeight": 408,
+        "outcomes": [
+          {
+            "completed": false,
+            "reason": "retargeted"
+          },
+          {
+            "completed": false,
+            "reason": "retargeted"
+          },
+          {
+            "completed": true,
+            "reason": "focus"
+          }
+        ],
+        "quiet": false,
+        "selectionEnd": 10,
+        "selectionStart": 5,
+        "solid": false,
+        "totalNotes": 3,
+        "touring": false,
+        "updates": 3,
+        "visibleNotes": 3
+      }
+    },
+    "scope": "Actual Expand/Edit clicks and trusted ArrowRight, then focused preset fixture preserves same node/selection5\u201310/3realnotes"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109513307208225093",
+    "replies": [
+      "https://x.com/wpsygames/status/2109513533646131688",
+      "https://x.com/wpsygames/status/2109513633612869935"
+    ],
+    "upload": {
+      "bytes": 666747,
+      "sha256": "f0bc86bcce89c4bfac9e3fd2a18b000f1ff4b904af6eeab26a1ad75f840e046c"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical pages confirmed intended text"
+  },
+  "npmRegistry": "pending"
+}

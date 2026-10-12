@@ -327,12 +327,12 @@
     {
       "order": 23,
       "url": "https://motion-primitives.com",
-      "status": "validated-awaiting-publication",
+      "status": "released-posted",
       "feature": "Finite natural-height transitions with native editing and responsive snaps",
       "version": "0.39.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/size/",
       "video": "docs/campaign/assets/auto-size-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109513307208225093",
       "performance": [
         "benchmarks/auto-size-payload.json",
         "benchmarks/auto-size-lifecycle-native.json",
@@ -343,13 +343,17 @@
     {
       "order": 24,
       "url": "https://uiverse.io",
-      "status": "researched",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Pure actual-quantity native task progress and meaningful separate status",
+      "version": "0.40.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/task-progress-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/task-progress-payload.json",
+        "benchmarks/task-progress-browser.json",
+        "benchmarks/task-progress-native.json"
+      ]
     },
     {
       "order": 25,

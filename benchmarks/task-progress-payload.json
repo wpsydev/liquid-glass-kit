@@ -1,0 +1,12 @@
+{
+  "observedAtUtc": "2026-10-12T04:34:33.588Z",
+  "target": "es2022",
+  "format": "standalone minified IIFE",
+  "jsRawBytes": 3707,
+  "jsGzipBytes": 1613,
+  "cssRawBytes": 3013,
+  "cssGzipBytes": 907,
+  "sourceSha256": "5e8b83a29118e4fb567ce7f3075a78fadd6ba2dd31888281c434eb292d47ffa0",
+  "cssSha256": "3a4700430e8063692acd902a2c88f5a2d78f9a94698e7a69521df5e848370c93",
+  "scope": "Optional pure props helper only. CSS excludes prerequisite material.css. Not a comparative speedup, task executor, progress controller or CSS/GPU paint measurement."
+}
