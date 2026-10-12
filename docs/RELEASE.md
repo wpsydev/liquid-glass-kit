@@ -1,11 +1,11 @@
-Give the details a second look. **0.53.0-preview.1** adds a real, optional `liquid-glass lint` command.
+Give agents the right details. **0.54.0-preview.1** adds optional `/agent-pack`.
 
-The command and browser workbench now share one checker: CSS grammar errors, `border-raduis` typos and `transition: all` warnings. Files or stdin receive bounded text/JSON diagnostics with explicit skipped/truncated scope and exit codes. It changes no files and certifies only those configured checks.
+[Dispatch](https://wpsydev.github.io/liquid-glass-kit/agent-studio/) prepares selected Cursor project rules, portable skills and API references. It shows exact imports, quoted project context and create-only file conflicts before exporting a review plan. Existing guidance is preserved; the helper changes no files, permissions, hooks or settings.
 
-[Lint Room](https://wpsydev.github.io/liquid-glass-kit/lint-room/) shows native editing, exact diagnostic selection, actual browser results, bounded UTF-8 file input and export. Its terminal panel contains labeled receipts from the real CLI, rather than a browser shell. The optional explicit-root Claude PostToolUse hook emits advisory context; actual Claude client delivery is unverified.
+The demo’s exact0.54 catalog is generated from the built package’s actual value exports and stylesheet hashes. `host-checked` in a planner input is a caller assertion, so applications must verify their own artifact too. Agent installation and client discovery are not claimed.
 
-25 distributed-command process cases and30 native desktop viewport cases passed. The78919-byte Node command bundles four MIT parser notices. The browser material core gains no parser or runtime dependencies. Native timing, Node process work and payload are recorded separately; no GPU/FPS or universal-device claim.
+33 focused planner tests and35 native desktop viewport cases passed. A known conflicting plan exports for review with `canCreate:false`; it does not become safe to overwrite. Pure planning, host rendering and native file export evidence are separated. No GPU/FPS or universal-device claim.
 
-Original twelve-second130BPM flute-FM melodic breakbeat video. [Guide](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/CLI.md).
+Original twelve-second122BPM kalimba/wood-percussion afro video. [Guide](https://github.com/wpsydev/liquid-glass-kit/blob/main/docs/AGENT_PACK.md).
 
-Use the ready-built archive or `npm i github:wpsydev/liquid-glass-kit#v0.53.0-preview.1`. npm publication pending.
+Use the archive or `npm i github:wpsydev/liquid-glass-kit#v0.54.0-preview.1`. npm publication pending.

@@ -1,0 +1,97 @@
+{
+  "commit": "ff999ac27b759d8bdcac4dff603250296ab75a32",
+  "version": "0.53.0-preview.1",
+  "workflows": {
+    "runs": [
+      {
+        "id": 38216811678,
+        "name": "Publish preview release",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38216811726,
+        "name": "Verify",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38216811668,
+        "name": "Publish playground",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "tests": 1208,
+    "testFiles": 56
+  },
+  "archive": {
+    "members": 221,
+    "bytes": 510285,
+    "sha256": "15087564b6b2212250ff841fce5a026ebeac52fd1ec5ba8a4904c0e6b6479d63"
+  },
+  "assets": [
+    {
+      "name": "liquid-glass-lint-room-showcase.mp4",
+      "bytes": 608419,
+      "sha256": "sha256:cea830af765441a883c992cc2f77fab72d2856bab2a75f29b6608d8c06ca2365"
+    },
+    {
+      "name": "liquid-glass-lint-room-showcase.png",
+      "bytes": 286429,
+      "sha256": "sha256:a16c439bbff809c43df3a6bc55e7477ea558678cf37aa04a670e5a4570f1dbcb"
+    },
+    {
+      "name": "wpsydev-liquid-glass-0.53.0-preview.1.tgz",
+      "bytes": 510285,
+      "sha256": "sha256:15087564b6b2212250ff841fce5a026ebeac52fd1ec5ba8a4904c0e6b6479d63"
+    }
+  ],
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/lint-room/",
+    "native": {
+      "checkedSource": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "checks": 2,
+      "diagnostics": [],
+      "dirty": false,
+      "fileStatus": "",
+      "focus": "repair",
+      "pendingTourSteps": 0,
+      "quiet": false,
+      "savedReceipt": {
+        "artifactVersion": "0.53.0-preview.1",
+        "code": 0,
+        "fixture": "clean",
+        "precomputed": true
+      },
+      "selected": "clean",
+      "selection": [
+        113,
+        113
+      ],
+      "solid": false,
+      "source": ".surface {\n  border-radius: 24px;\n  transition: opacity 180ms, translate 180ms;\n  backdrop-filter: blur(12px);\n}\n",
+      "status": "0 configured diagnostics in this checked snapshot",
+      "systemReduced": false,
+      "tourRunning": false
+    },
+    "scope": "Actual native correction action changes live checked CSS from2diagnostics to0/clean snapshot, with savedCLI0.53receipt explicitlyprecomputed; not livebrowser shell or Claudeclient execution"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109544244943937800",
+    "replies": [
+      "https://x.com/wpsygames/status/2109545014724301039",
+      "https://x.com/wpsygames/status/2109545388088725661"
+    ],
+    "publicPlayback": {
+      "duration": 12,
+      "ready": 4
+    },
+    "replyReadback": true,
+    "upload": {
+      "bytes": 608419,
+      "sha256": "cea830af765441a883c992cc2f77fab72d2856bab2a75f29b6608d8c06ca2365"
+    }
+  },
+  "npmRegistry": "pending"
+}

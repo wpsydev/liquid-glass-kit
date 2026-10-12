@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "catalogVersion": "0.54.0-preview.1",
+  "node": "v24.21.0",
+  "platform": "linux",
+  "sourceSha256": "1010d031f2b787962025763c36f59efacc85596a25d838231df859637a957b2a",
+  "payload": {
+    "standaloneOptionalESMBytes": 31500,
+    "gzipBytes": 11032,
+    "sha256": "b47ab00bda1444725c3e103379a85f6770867973c2e76e123c9d9c9c09b8d3b9",
+    "scope": "optional pure planner including its reused integration-brief lifecycle dependency; not core entry size or network/load time"
+  },
+  "cpu": {
+    "samples": [
+      {
+        "files": 3,
+        "canCreate": true,
+        "contentCharacters": 4809,
+        "batches": 80,
+        "callsPerBatch": 100,
+        "warmupCalls": 20,
+        "medianBatchMs": 3.586312000000021,
+        "p95BatchMs": 5.164015000000006
+      },
+      {
+        "files": 10,
+        "canCreate": true,
+        "contentCharacters": 14307,
+        "batches": 80,
+        "callsPerBatch": 100,
+        "warmupCalls": 20,
+        "medianBatchMs": 6.006790000000024,
+        "p95BatchMs": 7.071568999999954
+      },
+      {
+        "files": 10,
+        "canCreate": false,
+        "contentCharacters": 14307,
+        "batches": 80,
+        "callsPerBatch": 100,
+        "warmupCalls": 20,
+        "medianBatchMs": 6.0463049999998475,
+        "p95BatchMs": 7.5303590000000895
+      }
+    ],
+    "scope": "synchronous pure planner only, frozen plans and generated text; excludes DOM, file writing, download, client loading, layout and paint"
+  },
+  "ssr": "actual Node ESM import of standalone bundled planner, no DOM/browser globals provided",
+  "historicalHandoffPatch": {
+    "sha256": "722e9469c2804b0201db9a5db82e8c9526b9ac08bd966bbf4c7d91d988af284d",
+    "verification": "Static accepted original handoff identity, not current file verification"
+  },
+  "sourceHashes": {
+    "src/agent-pack.ts": "1010d031f2b787962025763c36f59efacc85596a25d838231df859637a957b2a",
+    "src/integration-brief.ts": "3796a88511e280aca79321121bb53d2c12f0cfc0a8511e07661b3c83ad8855e5",
+    "src/material.ts": "85cca03714f2d3c8157e408abc2d77315c714fc57db157f45bd2718906c9fea8",
+    "src/numeric.ts": "b70f04e0134dda5d9e5bf3801e00fa962e96ba64e4aac23c1568d01efbd8d964"
+  },
+  "catalogFileSha256": "a5609e43ff6e0d8de40baec5a56dfb79b027b27dce7a1de67eb8eb40db0174ca",
+  "inputSummary": [
+    {
+      "target": "cursor",
+      "stack": "react",
+      "modules": [
+        "./material",
+        "./material.css"
+      ],
+      "globs": [
+        "src/**/*.tsx"
+      ],
+      "task": "Build a labeled local workspace toolbar with readable material and optional finite motion.",
+      "existingPaths": []
+    },
+    {
+      "target": "both",
+      "stack": "react",
+      "modules": [
+        "./material",
+        "./dom",
+        "./motion",
+        "./material.css"
+      ],
+      "globs": [
+        "src/**/*.tsx"
+      ],
+      "task": "Build a labeled local workspace toolbar with readable material and optional finite motion.",
+      "existingPaths": []
+    },
+    {
+      "target": "both",
+      "stack": "react",
+      "modules": [
+        "./material",
+        "./dom",
+        "./motion",
+        "./material.css"
+      ],
+      "globs": [
+        "src/**/*.tsx"
+      ],
+      "task": "Build a labeled local workspace toolbar with readable material and optional finite motion.",
+      "existingPaths": [
+        ".cursor/rules/liquid-glass.mdc"
+      ]
+    }
+  ]
+}

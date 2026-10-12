@@ -546,12 +546,12 @@
     {
       "order": 37,
       "url": "https://claude.com/product/claude-code",
-      "status": "validated-awaiting-publication",
+      "status": "released-and-posted",
       "feature": "Shared bounded CSS linter CLI and optional advisory Claude hook",
       "version": "0.53.0-preview.1",
-      "demo": null,
+      "demo": "https://wpsydev.github.io/liquid-glass-kit/lint-room/",
       "video": "docs/campaign/assets/lint-room-showcase.mp4",
-      "thread": null,
+      "thread": "https://x.com/wpsygames/status/2109544244943937800",
       "performance": [
         "benchmarks/lint-room-cli.json",
         "benchmarks/lint-room-browser.json",
@@ -561,13 +561,18 @@
     {
       "order": 38,
       "url": "https://cursor.com",
-      "status": "queued",
-      "feature": null,
-      "version": null,
+      "status": "validated-awaiting-publication",
+      "feature": "Exact selected API guidance plans for Cursor and portable agent skills",
+      "version": "0.54.0-preview.1",
       "demo": null,
-      "video": null,
+      "video": "docs/campaign/assets/agent-studio-showcase.mp4",
       "thread": null,
-      "performance": null
+      "performance": [
+        "benchmarks/agent-studio-catalog.json",
+        "benchmarks/agent-studio-model.json",
+        "benchmarks/agent-studio-browser.json",
+        "benchmarks/agent-studio-layouts.json"
+      ]
     },
     {
       "order": 39,

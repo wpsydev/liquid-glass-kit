@@ -1,0 +1,13 @@
+{
+  "version": "0.54.0-preview.1",
+  "bytes": 626421,
+  "sha256": "d6fe7c90a7f9370d13e545c947050dda27afb5a9cb238faf99f22f15c71e3ef4",
+  "posterBytes": 300063,
+  "posterSha256": "672dac538fc7b08dc571bae95548a643f4487b4893b440dfca547a2d7b109233",
+  "decodedFrames": 360,
+  "uniqueDecodedFrames": 281,
+  "decodeErrors": "",
+  "rawSeconds": 10.39,
+  "finalHoldSeconds": 1.61,
+  "rawInfo": "tatic https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers\n  built with gcc 8 (Debian 8.3.0-6)\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg\n  libavutil      59.  8.100 / 59.  8.100\n  libavcodec     61.  3.100 / 61.  3.100\n  libavformat    61.  1.100 / 61.  1.100\n  libavdevice    61.  1.100 / 61.  1.100\n  libavfilter    10.  1.100 / 10.  1.100\n  libswscale      8.  1.100 /  8.  1.100\n  libswresample   5.  1.100 /  5.  1.100\n  libpostproc    58.  1.100 / 58.  1.100\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-290c2546-a0a9-4841-946c-326ce43b5c8e-mp4.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso6iso2avc1mp41\n    creation_time   : 2026-10-12T06:17:15.000000Z\n  Duration: 00:00:10.39, start: 0.000000, bitrate: 253 kb/s\n  Stream #0:0[0x1](und): Video: h264 (Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1920, 253 kb/s, SAR 1:1 DAR 1:1, 1.44 fps, 4.67 tbr, 30k tbn (default)\n      Metadata:\n        creation_time   : 2026-10-12T06:17:15.000000Z\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : AVC1 Coding\nAt least one output file must be specified\n"
+}

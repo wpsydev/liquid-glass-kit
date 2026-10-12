@@ -1,0 +1,20 @@
+/** Finish a real native-preview recording with original score and readable captions. */
+import { spawnSync, execFileSync } from 'node:child_process';
+import { mkdir, writeFile } from 'node:fs/promises';
+import { dirname, resolve } from 'node:path';
+import { parseArgs } from 'node:util';
+const {values}=parseArgs({options:{input:{type:'string'},score:{type:'string'},output:{type:'string'},poster:{type:'string'},captions:{type:'string'}}});
+for(const key of ['input','score','output','poster','captions'])if(!values[key])throw Error(`Missing --${key}`);
+const ffmpeg=execFileSync('python3',['-c','import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())'],{encoding:'utf8'}).trim();
+const captions=JSON.parse(await (await import('node:fs/promises')).readFile(values.captions,'utf8'));
+const subtitlePath=resolve(`/tmp/lg-film-captions-${process.pid}.ass`);
+const header='[Script Info]\nScriptType: v4.00+\nPlayResX: 960\nPlayResY: 960\n\n[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\nStyle: Default,DejaVu Sans,24,&H00FFFFFF,&H00FFFFFF,&H00333B14,&H00333B14,0,0,0,0,100,100,0,0,1,0,0,2,24,24,39,1\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n';
+const at=s=>`0:00:${String(s).padStart(2,'0')}.00`;
+await writeFile(subtitlePath,header+captions.map((text,i)=>`Dialogue: 0,${at(i*4)},${at((i+1)*4)},Default,,0,0,0,,${text.replace(/[\r\n{}]/g,' ')}`).join('\n'));
+const filters=`scale=960:960:flags=lanczos,setsar=1,fps=30,tpad=stop_mode=clone:stop_duration=12,drawbox=x=24:y=882:w=912:h=56:color=0x6a3427@0.97:t=fill,subtitles=${subtitlePath}`;
+await mkdir(dirname(values.output),{recursive:true});
+const encoded=spawnSync(ffmpeg,['-y','-i',values.input,'-i',values.score,'-t','12','-vf',filters,'-af','loudnorm=I=-15:TP=-1.5:LRA=7','-r','30','-c:v','libx264','-preset','medium','-crf','19','-pix_fmt','yuv420p','-c:a','aac','-b:a','192k','-ar','48000','-ac','2','-movflags','+faststart',values.output],{encoding:'utf8',shell:false});
+if(encoded.status!==0)throw Error(encoded.stderr.slice(-4000));
+const poster=spawnSync(ffmpeg,['-y','-ss','6.5','-i',values.output,'-frames:v','1',values.poster],{encoding:'utf8',shell:false});
+if(poster.status!==0)throw Error(poster.stderr.slice(-2000));
+console.log(JSON.stringify({film:values.output,poster:values.poster,durationSeconds:12,size:'960x960',video:'H264 30fps',audio:'AAC stereo48kHz',provenance:'Native T3 preview capture + original procedural music + evidence-backed captions'}));

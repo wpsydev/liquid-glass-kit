@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "version": "0.54.0-preview.1",
+  "packageName": "@wpsydev/liquid-glass",
+  "environment": {
+    "node": "v24.21.0",
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "verified": [
+    {
+      "subpath": "./material",
+      "declaredImport": "./dist/material.js",
+      "bytes": 1532,
+      "sha256": "c39264105eab76f3c773a33f05210d7d051c2330099c27a3cb31bcf029a0a032",
+      "runtimeNames": [
+        "getGlassInnerRadius",
+        "getGlassProps",
+        "getResolvedGlassProps",
+        "resolveOptions"
+      ],
+      "verification": "actual Node ESM namespace names, not declaration parsing"
+    },
+    {
+      "subpath": "./dom",
+      "declaredImport": "./dist/dom.js",
+      "bytes": 6008,
+      "sha256": "dc40e91312a8554b0b11d84b40d85846389fcc3c37b8acd24ee9b99b05f0a67d",
+      "runtimeNames": [
+        "attachGlass",
+        "glass"
+      ],
+      "verification": "actual Node ESM namespace names, not declaration parsing"
+    },
+    {
+      "subpath": "./motion",
+      "declaredImport": "./dist/motion.js",
+      "bytes": 7815,
+      "sha256": "aa2ed0f57435e02b1952c3ce002d2be286a168e825f500565693fca93b380a0d",
+      "runtimeNames": [
+        "advanceGlassSpring",
+        "attachGlassMotion",
+        "createGlassSpring",
+        "resolveGlassSpring"
+      ],
+      "verification": "actual Node ESM namespace names, not declaration parsing"
+    },
+    {
+      "subpath": "./material.css",
+      "declaredImport": "./dist/material.css",
+      "bytes": 6916,
+      "sha256": "27b63b79faa0c6a39be4964505037db45fac79d675cb5f5fdf43bf95c78861a1",
+      "runtimeNames": [],
+      "verification": "declared stylesheet exists/readable"
+    }
+  ],
+  "limits": [
+    "CSS checked as a readable declared artifact, not imported by Node",
+    "No registry/client delivery/discovery verification",
+    "Rebuild and regenerate after FINAL ROOT version integration"
+  ],
+  "catalog": {
+    "packageName": "@wpsydev/liquid-glass",
+    "version": "0.54.0-preview.1",
+    "verification": "host-checked",
+    "artifact": "Checked local 0.54.0-preview.1 package build; declared export paths and actual Node value exports. Not publication or client delivery evidence.",
+    "exports": [
+      {
+        "subpath": "./material",
+        "kind": "module",
+        "runtime": "pure",
+        "runtimeNames": [
+          "getGlassInnerRadius",
+          "getGlassProps",
+          "getResolvedGlassProps",
+          "resolveOptions"
+        ],
+        "guidance": [
+          "getGlassProps produces semantic data attributes and CSS custom properties; host owns DOM application and readable fallback.",
+          "Import material.css explicitly; portable CSS is the default material tier."
+        ]
+      },
+      {
+        "subpath": "./dom",
+        "kind": "module",
+        "runtime": "dom",
+        "runtimeNames": [
+          "attachGlass",
+          "glass"
+        ],
+        "guidance": [
+          "Only attach DOM behavior in a client lifecycle; retain native control semantics and destroy owned resources when the host unmounts."
+        ]
+      },
+      {
+        "subpath": "./motion",
+        "kind": "module",
+        "runtime": "dom",
+        "runtimeNames": [
+          "advanceGlassSpring",
+          "attachGlassMotion",
+          "createGlassSpring",
+          "resolveGlassSpring"
+        ],
+        "guidance": [
+          "Optional motion needs an explicit client lifecycle and effective reduced-motion policy; keep interactions finite and clean up owned effects."
+        ]
+      },
+      {
+        "subpath": "./material.css",
+        "kind": "stylesheet",
+        "runtime": "css",
+        "runtimeNames": [],
+        "guidance": [
+          "This checked stylesheet is explicitly selected, not inferred by the pack planner."
+        ]
+      }
+    ]
+  }
+}

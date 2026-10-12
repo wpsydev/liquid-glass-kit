@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "status": "Prepared from isolated release-version build 0.54.0-preview.1; parent still owns root comparison and publication",
+  "title": "Dispatch / a thoughtful agent handoff",
+  "durationSeconds": 12,
+  "video": "H264 yuv420p960x96030fps export",
+  "audio": "AAC stereo48kHz; original ambient afro groove122 wooden percussion/kalimba, fresh major9 melody seed71, no external samples or artist imitation",
+  "native": {
+    "seconds": 10.39,
+    "dimensions": [
+      1920,
+      1920
+    ],
+    "capture": "Native T3 variable event cadence; no renderedFPS inference",
+    "finalHoldSeconds": 1.61,
+    "durationSeconds": 10.39
+  },
+  "review": {
+    "decodedFrames": 360,
+    "uniqueHashes": 281,
+    "decodeErrors": 0,
+    "reviewedSeconds": [
+      0.8,
+      4.5,
+      8.5
+    ],
+    "captionsBelowControls": true,
+    "uniqueDecodedHashes": 281
+  },
+  "film": {
+    "path": "docs/campaign/assets/agent-studio-showcase.mp4",
+    "bytes": 626421,
+    "sha256": "d6fe7c90a7f9370d13e545c947050dda27afb5a9cb238faf99f22f15c71e3ef4"
+  },
+  "poster": {
+    "path": "docs/campaign/assets/agent-studio-showcase.png",
+    "bytes": 300063,
+    "sha256": "672dac538fc7b08dc571bae95548a643f4487b4893b440dfca547a2d7b109233"
+  },
+  "catalogEvidenceVersion": "0.54.0-preview.1 isolated release-version local artifact; parent compares final-root exports before publication",
+  "catalogRegeneration": "after FINAL ROOT package build/version bump, run node scripts/agent-studio-catalog.mjs before demo build; rerun node scripts/agent-studio-benchmark.mjs",
+  "provenance": "Original native form/HTML/CSS/code icon art, actual createGlassAgentPack results and declaredexports/actual Node value-name catalog. No fake agent/client installation or shell execution. Original score MIT.",
+  "artifactVersion": "0.54.0-preview.1",
+  "audioSourceSha256": "08b2c57ba65eedd570e40aa7b4d7e37742bf3b64a039bcfc1ea24d5f2cc01eb4",
+  "sameOriginalScore": true,
+  "earlierOutputBackup": "/tmp/liquid-glass-source38-media-v030"
+}

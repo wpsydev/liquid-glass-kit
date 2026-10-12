@@ -1,6 +1,6 @@
 {
   "name": "@wpsydev/liquid-glass",
-  "version": "0.53.0-preview.1",
+  "version": "0.54.0-preview.1",
   "description": "Liquid Glass for the web: dependency-free CSS and TypeScript, React and Vue adapters, accessible fallbacks, and agent-ready recipes.",
   "type": "module",
   "license": "MIT",
@@ -279,7 +279,11 @@
       "types": "./dist/icon-toolbar.d.ts",
       "import": "./dist/icon-toolbar.js"
     },
-    "./icon-toolbar.css": "./dist/icon-toolbar.css"
+    "./icon-toolbar.css": "./dist/icon-toolbar.css",
+    "./agent-pack": {
+      "types": "./dist/agent-pack.d.ts",
+      "import": "./dist/agent-pack.js"
+    }
   },
   "scripts": {
     "build": "node scripts/clean.mjs && node scripts/compile-library.mjs && node scripts/build.mjs && node scripts/build-cli.mjs",

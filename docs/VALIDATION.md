@@ -612,3 +612,11 @@ Sharedchecker extracted fromexistingworkbench preservinggrammar/vectors/threecon
 Original608419-byte12s960square360-frame130BPM flute-FM breakbeatseed67 film SHA256cea830af765441a883c992cc2f77fab72d2856bab2a75f29b6608d8c06ca2365; recapturedactualCLI0.53/313uniqueframes/threeframes/full decode/native10.43+1.57hold; CLIpanel labeled savedreceipts, notlivebrowserterminal. Originalscorepreserved.
 
 Integrated npm run check passed1,208tests/56files includingactualdistributedCLI verifier. npm pack --dry-run passed221members/510095bytes with executablecli.js mode755 andfourMITnotices. Final0.53binary78919B/SHA25670dbfe6695ac79823effac48aeb760142bc33c268214905029d944a4590cbcdd matchesrecapturedfilm/receipts.25CLIprocess fixtures regenerated withcommittedsource/input/artifacthashes and no temporarypatch reads; finalsitebuild passed. Published-scope CI followsrelease.
+
+## 0.54.0 agent integration plans (2026-10-12)
+
+33focusedplanner +25canonicalintegrationbrief tests. PureSSR-safe /agent-pack handlesselectedexactcatalog/runtimevalues/namespaceimports/scopedglobs/quotedtasks/fixedcreate-onlydestinations/caseancestorconflicts withoutFS/network/install/hook/permissionwrites.35native desktop cases44/16/noflow/caret/stalereview/portable/conflict/exportBlob13956BcanCreatefalse/reviewOnly/exclusiveCreationRequired; actualclientdelivery/OSbackground/physicalphonesSafariATunverified. Standalone31500raw11032gzip includescanonicalbrief; separatepurevsconnectedhosttimings, noGPU/FPS/speedupclaim.
+
+Original626421-byte12s960square360-frame122BPM kalimba/wood afro71 film SHAd6fe7c90a7f9370d13e545c947050dda27afb5a9cb238faf99f22f15c71e3ef4; recapturedexplicitcatalog0.54/native10.39+1.61hold/281uniqueframes/full decode/threeframespass; no clientinstallation/AIexecution shown.
+
+Integrated npm run check passed1,241tests/57files incldistributedCLI. npm pack --dry-run passed224members/521302bytes/SSR/publicexports. Final0.54catalog rebuiltfromactual4declaredNodevalue/CSSexports, source hashes matchacceptedcore, modelbenchmarkfresh31500raw11032gzip withpure100-call medians3.586/6.007/6.046ms(cursor/both/conflict), noDOM/rendering/clientloadingcost. Published-scope CI followsrelease.

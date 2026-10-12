@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.54.0-preview.1
+
+- Add pure selected-API guidance plans for Cursor project rules and portable agent skills using exact caller-checked catalogs.
+- Preserve create-only destinations, known conflicts and quoted task context; leave filesystem writes, client installation and permissions host-owned.
+- Add Dispatch with actual rule/reference/conflict/export review, regenerated built-runtime catalog and original twelve-second kalimba/afro groove.
+
 ## 0.53.0-preview.1
 
 - Add optional read-only CSS lint CLI sharing the browser workbench’s grammar, typo and explicit-transition checks.
