@@ -1,0 +1,13 @@
+{
+  "scope": "Optional standalone pure model/semantic props; default runtime unchanged",
+  "js": {
+    "bytes": 6046,
+    "gzipBytes": 2600,
+    "sourceSHA256": "eaf67db96c01d46df4b902b93d28b6521ddc5a1eebf03bde765720dcd16c1458"
+  },
+  "css": {
+    "bytes": 1979,
+    "gzipBytes": 777,
+    "sourceSHA256": "6090a9d8874ae0d6d2aa6f241a685e690487d8cae2f85a8e4c8536577db7322a"
+  }
+}

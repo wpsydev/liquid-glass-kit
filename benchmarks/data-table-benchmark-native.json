@@ -1,0 +1,90 @@
+{
+  "authoredRows": 5000,
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "cells": 30000,
+  "columns": 6,
+  "connectedHostRowAuthoringAndReplacement": {
+    "sixRealRows": {
+      "callsPerBatch": 25,
+      "maxMs": 0.34,
+      "medianMs": 0.03199999809265137,
+      "minMs": 0.023999996185302734,
+      "p95Ms": 0.04400000095367432,
+      "samples": 200,
+      "warmupBatches": 20
+    },
+    "twoHundredRealRows": {
+      "callsPerBatch": 1,
+      "maxMs": 14.899999976158142,
+      "medianMs": 1.100000023841858,
+      "minMs": 0.7999999523162842,
+      "p95Ms": 1.600000023841858,
+      "samples": 60,
+      "warmupBatches": 10
+    }
+  },
+  "excludes": "Fixture/options construction, initial host shell/preflush, event wiring, async paint/compositor/network; no memoized-view-result, remote total, virtualization, comparative speed-up or FPS claim",
+  "includes": {
+    "creation": "Validation, detached snapshots, cached search/sort strings, allocation/freezing",
+    "hostRender": "New native tr/td creation, textContent and connected tbody replacement plus any synchronous style/layout work induced",
+    "reusedViews": "Option validation, cached-string matching/sorting when requested, ordered snapshots and page slices"
+  },
+  "preparedInputOutsideTiming": true,
+  "pure": {
+    "cachedFilterAndSortView": {
+      "callsPerBatch": 4,
+      "maxMs": 1.100000023841858,
+      "medianMs": 0.7750000059604645,
+      "minMs": 0.7249999940395355,
+      "p95Ms": 0.949999988079071,
+      "samples": 80,
+      "warmupBatches": 10
+    },
+    "cachedFilterView": {
+      "callsPerBatch": 20,
+      "maxMs": 0.1899999976158142,
+      "medianMs": 0.14000000357627868,
+      "minMs": 0.13499999642372132,
+      "p95Ms": 0.15,
+      "samples": 80,
+      "warmupBatches": 10
+    },
+    "cachedNumericSortView": {
+      "callsPerBatch": 4,
+      "maxMs": 1.75,
+      "medianMs": 1.550000011920929,
+      "minMs": 1.5,
+      "p95Ms": 1.6749999821186066,
+      "samples": 80,
+      "warmupBatches": 10
+    },
+    "cachedStringSortView": {
+      "callsPerBatch": 4,
+      "maxMs": 1.0999999940395355,
+      "medianMs": 0.949999988079071,
+      "minMs": 0.9000000059604645,
+      "p95Ms": 1.050000011920929,
+      "samples": 80,
+      "warmupBatches": 10
+    },
+    "recreateModel5000Rows": {
+      "callsPerBatch": 1,
+      "maxMs": 18.200000047683716,
+      "medianMs": 11.699999928474426,
+      "minMs": 10.100000023841858,
+      "p95Ms": 17.299999952316284,
+      "samples": 40,
+      "warmupBatches": 10
+    },
+    "reuseModelUnfilteredView": {
+      "callsPerBatch": 20,
+      "maxMs": 0.2,
+      "medianMs": 0.040000003576278684,
+      "minMs": 0.034999996423721313,
+      "p95Ms": 0.045000004768371585,
+      "samples": 80,
+      "warmupBatches": 10
+    }
+  },
+  "timerCaveat": "Quantized performance.now durations and shared-machine noise, not whole-app action latency"
+}

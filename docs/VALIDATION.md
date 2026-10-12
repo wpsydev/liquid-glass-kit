@@ -514,3 +514,13 @@ Optional2721gzip.800connectedsequences31ms/160median;26400nativegeometrygetters0
 Original668830-byte12s960square360frame garage132/pluckedkeys seed41 SHA25666493a161f0d28a0819d156cdc3f71839c1632339b44d6975aef8e3060fe8148. Actualtour14records/3unreadolder/0afterexplicitjump/0newrecordsforinplacetextgrowth. Cameraframingdisclosed; crop/fullframe reviews confirmcompletecontrols/text. No demonstratedrendererbug. Fulldecodepassed.
 
 Integrated npm run check passed1,145tests/53files including queued prototypes. npm pack --dry-run passed182members excluding future entries. Published-scope CI follows release.
+
+## 0.42 native data table (2026-10-12)
+
+23focused/20desktopresponsivecases44/16/nopageoverflow. Realheader stabletiesbothdirections/singlearia-sort/caption/scopecol/samenodes. NativePrinttyping9/18caret5/Next7–9three rows; actualApply afterfixtureselects changesST-008Review→Ready/modelrecreate/all18IDs. ActualClearSearch restoresqueryfocus.320nativeArrowRighttableScroll40/pagefit. Nullslastascending/descending/lowercaseßnotss checked. No phones/Safari/AT/backend/nativepopupclaim.
+
+Optional2600gzip/CSS777gzip. Separatepure5000rowconstruction11.70msmedian/cachedfilter.14/numericsort1.55; host200rowauthor/replace1.10median includesinducedsyncstyle/layout/noasyncpainting. Boundsnotvirtualization/noFPS/speedup/wholeapplatency.
+
+Original651714-byte12s960square360frame disco120keys seed42 SHA25627df29f759d37296e7d0e64eb03a14f5645b8315f74bec787d395cf16cff61ce. Actual10stour18rows/1localchange/notouring,4reviewframes/full decodepassed/cameradensitydisclosed/editor770/control853abovecaption882.
+
+Integrated npm run check passed1,145tests/53files including unreleased prototypes. npm pack --dry-run passed186members excluding future entries. Published-scope CI follows release.

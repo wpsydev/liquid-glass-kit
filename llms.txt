@@ -116,3 +116,6 @@ v0.31.0-preview.1. Install from the matching GitHub release/tag; npm publication
 
 - [Reader-intent following](docs/FOLLOW.md): normal native scrollport, explicit appended counts, sticky pause, native selection and deliberate tail return.
 - [Reader Relay](https://wpsydev.github.io/liquid-glass-kit/follow/): actual local notes, preserved reading position, unread ledger and native composer.
+
+- [Native data tables](docs/DATA_TABLE.md): pure local models, stable sort, full local filtering, explicit pagination and native semantic table props.
+- [Index ledger](https://wpsydev.github.io/liquid-glass-kit/table/):18 original local rows, real editing/empty recovery and keyboard table scrolling.

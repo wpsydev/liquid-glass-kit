@@ -1,0 +1,3848 @@
+{
+  "files": {
+    "showcase.mp4": {
+      "path": "/tmp/lg-data-table-showcase.mp4",
+      "bytes": 651714,
+      "sha256": "27df29f759d37296e7d0e64eb03a14f5645b8315f74bec787d395cf16cff61ce"
+    },
+    "showcase.png": {
+      "path": "/tmp/lg-data-table-showcase.png",
+      "bytes": 281641,
+      "sha256": "7cf03c7533ef690ef658871d7be1dd89a8273b0ad83440f052fb8b6f746816f4"
+    },
+    "score.wav": {
+      "path": "/tmp/lg-data-table-score.wav",
+      "bytes": 2304044,
+      "sha256": "79e905ecd511bd785a08f2ae4f287bcacc73e21a3947223225fb9a4e81f1541c"
+    }
+  },
+  "decodedFrames": 360,
+  "video": {
+    "durationSeconds": 12,
+    "width": 960,
+    "height": 960,
+    "fps": 30,
+    "codec": "H264",
+    "pixelFormat": "yuv420p"
+  },
+  "audio": {
+    "codec": "AAC",
+    "rate": 48000,
+    "channels": 2,
+    "style": "disco",
+    "bpm": 120,
+    "patch": "keys",
+    "seed": 42,
+    "rmsOriginal": 0.1462,
+    "provenance": "Original procedural music, no external samples"
+  },
+  "decodeLog": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers\n  built with gcc 8 (Debian 8.3.0-6)\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg\n  libavutil      59.  8.100 / 59.  8.100\n  libavcodec     61.  3.100 / 61.  3.100\n  libavformat    61.  1.100 / 61.  1.100\n  libavdevice    61.  1.100 / 61.  1.100\n  libavfilter    10.  1.100 / 10.  1.100\n  libswscale      8.  1.100 /  8.  1.100\n  libswresample   5.  1.100 /  5.  1.100\n  libpostproc    58.  1.100 / 58.  1.100\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/lg-data-table-showcase.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Duration: 00:00:12.00, start: 0.000000, bitrate: 434 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 960x960 [SAR 1:1 DAR 1:1], 223 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 201 kb/s (default)\n      Metadata:\n        handler_name    : SoundHandler\n        vendor_id       : [0][0][0][0]\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> rawvideo (native))\nPress [q] to stop, [?] for help\nOutput #0, framemd5, to '/tmp/lg-data-table-frames.md5':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Stream #0:0(und): Video: rawvideo (I420 / 0x30323449), yuv420p(tv, bt709, progressive), 960x960 [SAR 1:1 DAR 1:1], q=2-31, 331776 kb/s, 30 fps, 30 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 rawvideo\nframe=  267 fps=0.0 q=-0.0 size=      21KiB time=00:00:09.16 bitrate=  18.8kbits/s speed=18.3x    \n[out#0/framemd5 @ 0x42d3db80] video:486000KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  360 fps=0.0 q=-0.0 Lsize=      28KiB time=00:00:12.00 bitrate=  19.3kbits/s speed=18.2x    \n",
+  "captions": [
+    "native tables. stable ties. real local rows",
+    "filter the complete data. page actual results",
+    "one local edit. empty views recover"
+  ],
+  "nativeTour": {
+    "camera": ".page{padding-inline:32px}.intro{padding:12px 0}.intro-note p span{margin-top:4px}.inventory-art{width:116px}.toolbar.lg-glass{padding:9px 13px;gap:18px;margin-bottom:9px}.ledger-heading{margin-bottom:8px}.lg-data-table caption{padding-block:7px}.lg-data-table td{height:34px;padding-block:5px}.detail-band{gap:24px;padding-top:9px}.pagination{padding:6px 0}.table-help{margin-top:7px}.demo-controls{margin:9px 0 7px;padding-top:7px;gap:5px 18px}footer{padding-block:3px}.lg-data-table td.empty{height:204px;padding:24px 20px}",
+    "final": {
+      "changes": 1,
+      "filter": "",
+      "filtered": 18,
+      "orderedIds": [
+        "ST-001",
+        "ST-002",
+        "ST-003",
+        "ST-016",
+        "ST-011",
+        "ST-015",
+        "ST-010",
+        "ST-005",
+        "ST-013",
+        "ST-008",
+        "ST-017",
+        "ST-012",
+        "ST-004",
+        "ST-018",
+        "ST-009",
+        "ST-007",
+        "ST-014",
+        "ST-006"
+      ],
+      "page": 0,
+      "pageSize": 6,
+      "pages": 3,
+      "range": {
+        "end": 6,
+        "start": 1
+      },
+      "rows": [
+        {
+          "id": "ST-001",
+          "values": {
+            "item": "Field pad",
+            "owner": "Mira",
+            "ref": "ST-001",
+            "stage": "Ready",
+            "stock": 4,
+            "type": "Print"
+          }
+        },
+        {
+          "id": "ST-002",
+          "values": {
+            "item": "Ink proof",
+            "owner": "Theo",
+            "ref": "ST-002",
+            "stage": "Review",
+            "stock": 4,
+            "type": "Print"
+          }
+        },
+        {
+          "id": "ST-003",
+          "values": {
+            "item": "Ruler trace",
+            "owner": "June",
+            "ref": "ST-003",
+            "stage": "Hold",
+            "stock": 4,
+            "type": "Tool"
+          }
+        },
+        {
+          "id": "ST-004",
+          "values": {
+            "item": "Atlas sheet",
+            "owner": "June",
+            "ref": "ST-004",
+            "stage": "Ready",
+            "stock": 12,
+            "type": "Print"
+          }
+        },
+        {
+          "id": "ST-005",
+          "values": {
+            "item": "Colour cards",
+            "owner": "Mira",
+            "ref": "ST-005",
+            "stage": "Review",
+            "stock": 8,
+            "type": "Sample"
+          }
+        },
+        {
+          "id": "ST-006",
+          "values": {
+            "item": "Binding clips",
+            "owner": "Theo",
+            "ref": "ST-006",
+            "stage": "Ready",
+            "stock": 24,
+            "type": "Tool"
+          }
+        },
+        {
+          "id": "ST-007",
+          "values": {
+            "item": "Studio labels",
+            "owner": "Mira",
+            "ref": "ST-007",
+            "stage": "Ready",
+            "stock": 18,
+            "type": "Print"
+          }
+        },
+        {
+          "id": "ST-008",
+          "values": {
+            "item": "Margin study",
+            "owner": "June",
+            "ref": "ST-008",
+            "stage": "Ready",
+            "stock": 9,
+            "type": "Print"
+          }
+        },
+        {
+          "id": "ST-009",
+          "values": {
+            "item": "Paper swatch",
+            "owner": "Theo",
+            "ref": "ST-009",
+            "stage": "Ready",
+            "stock": 16,
+            "type": "Sample"
+          }
+        },
+        {
+          "id": "ST-010",
+          "values": {
+            "item": "Letterpress test",
+            "owner": "Mira",
+            "ref": "ST-010",
+            "stage": "Hold",
+            "stock": 7,
+            "type": "Print"
+          }
+        },
+        {
+          "id": "ST-011",
+          "values": {
+            "item": "Cutting guide",
+            "owner": "June",
+            "ref": "ST-011",
+            "stage": "Ready",
+            "stock": 6,
+            "type": "Tool"
+          }
+        },
+        {
+          "id": "ST-012",
+          "values": {
+            "item": "Grid poster",
+            "owner": "Theo",
+            "ref": "ST-012",
+            "stage": "Ready",
+            "stock": 11,
+            "type": "Print"
+          }
+        },
+        {
+          "id": "ST-013",
+          "values": {
+            "item": "Thread sample",
+            "owner": "June",
+            "ref": "ST-013",
+            "stage": "Review",
+            "stock": 8,
+            "type": "Sample"
+          }
+        },
+        {
+          "id": "ST-014",
+          "values": {
+            "item": "Archive sleeve",
+            "owner": "Mira",
+            "ref": "ST-014",
+            "stage": "Ready",
+            "stock": 20,
+            "type": "Tool"
+          }
+        },
+        {
+          "id": "ST-015",
+          "values": {
+            "item": "Fold specimen",
+            "owner": "Theo",
+            "ref": "ST-015",
+            "stage": "Hold",
+            "stock": 6,
+            "type": "Print"
+          }
+        },
+        {
+          "id": "ST-016",
+          "values": {
+            "item": "Stencil set",
+            "owner": "June",
+            "ref": "ST-016",
+            "stage": "Ready",
+            "stock": 5,
+            "type": "Tool"
+          }
+        },
+        {
+          "id": "ST-017",
+          "values": {
+            "item": "Contrast proof",
+            "owner": "Mira",
+            "ref": "ST-017",
+            "stage": "Review",
+            "stock": 10,
+            "type": "Print"
+          }
+        },
+        {
+          "id": "ST-018",
+          "values": {
+            "item": "Texture study",
+            "owner": "Theo",
+            "ref": "ST-018",
+            "stage": "Ready",
+            "stock": 14,
+            "type": "Sample"
+          }
+        }
+      ],
+      "solid": false,
+      "sort": {
+        "columnId": "stock",
+        "direction": "ascending"
+      },
+      "total": 18,
+      "touring": false,
+      "visibleIds": [
+        "ST-001",
+        "ST-002",
+        "ST-003",
+        "ST-016",
+        "ST-011",
+        "ST-015"
+      ]
+    },
+    "samples": [
+      {
+        "controlBottom": 852.6875,
+        "editBottom": 770.2890625,
+        "elapsed": 1,
+        "state": {
+          "changes": 0,
+          "filter": "",
+          "filtered": 18,
+          "orderedIds": [
+            "ST-001",
+            "ST-002",
+            "ST-003",
+            "ST-016",
+            "ST-011",
+            "ST-015",
+            "ST-010",
+            "ST-005",
+            "ST-013",
+            "ST-008",
+            "ST-017",
+            "ST-012",
+            "ST-004",
+            "ST-018",
+            "ST-009",
+            "ST-007",
+            "ST-014",
+            "ST-006"
+          ],
+          "page": 0,
+          "pageSize": 6,
+          "pages": 3,
+          "range": {
+            "end": 6,
+            "start": 1
+          },
+          "rows": [
+            {
+              "id": "ST-001",
+              "values": {
+                "item": "Field pad",
+                "owner": "Mira",
+                "ref": "ST-001",
+                "stage": "Ready",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-002",
+              "values": {
+                "item": "Ink proof",
+                "owner": "Theo",
+                "ref": "ST-002",
+                "stage": "Review",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-003",
+              "values": {
+                "item": "Ruler trace",
+                "owner": "June",
+                "ref": "ST-003",
+                "stage": "Hold",
+                "stock": 4,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-004",
+              "values": {
+                "item": "Atlas sheet",
+                "owner": "June",
+                "ref": "ST-004",
+                "stage": "Ready",
+                "stock": 12,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-005",
+              "values": {
+                "item": "Colour cards",
+                "owner": "Mira",
+                "ref": "ST-005",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-006",
+              "values": {
+                "item": "Binding clips",
+                "owner": "Theo",
+                "ref": "ST-006",
+                "stage": "Ready",
+                "stock": 24,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-007",
+              "values": {
+                "item": "Studio labels",
+                "owner": "Mira",
+                "ref": "ST-007",
+                "stage": "Ready",
+                "stock": 18,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-008",
+              "values": {
+                "item": "Margin study",
+                "owner": "June",
+                "ref": "ST-008",
+                "stage": "Review",
+                "stock": 9,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-009",
+              "values": {
+                "item": "Paper swatch",
+                "owner": "Theo",
+                "ref": "ST-009",
+                "stage": "Ready",
+                "stock": 16,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-010",
+              "values": {
+                "item": "Letterpress test",
+                "owner": "Mira",
+                "ref": "ST-010",
+                "stage": "Hold",
+                "stock": 7,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-011",
+              "values": {
+                "item": "Cutting guide",
+                "owner": "June",
+                "ref": "ST-011",
+                "stage": "Ready",
+                "stock": 6,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-012",
+              "values": {
+                "item": "Grid poster",
+                "owner": "Theo",
+                "ref": "ST-012",
+                "stage": "Ready",
+                "stock": 11,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-013",
+              "values": {
+                "item": "Thread sample",
+                "owner": "June",
+                "ref": "ST-013",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-014",
+              "values": {
+                "item": "Archive sleeve",
+                "owner": "Mira",
+                "ref": "ST-014",
+                "stage": "Ready",
+                "stock": 20,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-015",
+              "values": {
+                "item": "Fold specimen",
+                "owner": "Theo",
+                "ref": "ST-015",
+                "stage": "Hold",
+                "stock": 6,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-016",
+              "values": {
+                "item": "Stencil set",
+                "owner": "June",
+                "ref": "ST-016",
+                "stage": "Ready",
+                "stock": 5,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-017",
+              "values": {
+                "item": "Contrast proof",
+                "owner": "Mira",
+                "ref": "ST-017",
+                "stage": "Review",
+                "stock": 10,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-018",
+              "values": {
+                "item": "Texture study",
+                "owner": "Theo",
+                "ref": "ST-018",
+                "stage": "Ready",
+                "stock": 14,
+                "type": "Sample"
+              }
+            }
+          ],
+          "solid": false,
+          "sort": {
+            "columnId": "stock",
+            "direction": "ascending"
+          },
+          "total": 18,
+          "touring": true,
+          "visibleIds": [
+            "ST-001",
+            "ST-002",
+            "ST-003",
+            "ST-016",
+            "ST-011",
+            "ST-015"
+          ]
+        },
+        "targets": [
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "query"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": "clear"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "page-size"
+          },
+          {
+            "font": "15px",
+            "height": 44,
+            "id": "next"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-row"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-status"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "tour"
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "reset"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "controlBottom": 852.6875,
+        "editBottom": 770.2890625,
+        "elapsed": 2,
+        "state": {
+          "changes": 0,
+          "filter": "print",
+          "filtered": 9,
+          "orderedIds": [
+            "ST-001",
+            "ST-002",
+            "ST-015",
+            "ST-010",
+            "ST-008",
+            "ST-017",
+            "ST-012",
+            "ST-004",
+            "ST-007"
+          ],
+          "page": 0,
+          "pageSize": 6,
+          "pages": 2,
+          "range": {
+            "end": 6,
+            "start": 1
+          },
+          "rows": [
+            {
+              "id": "ST-001",
+              "values": {
+                "item": "Field pad",
+                "owner": "Mira",
+                "ref": "ST-001",
+                "stage": "Ready",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-002",
+              "values": {
+                "item": "Ink proof",
+                "owner": "Theo",
+                "ref": "ST-002",
+                "stage": "Review",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-003",
+              "values": {
+                "item": "Ruler trace",
+                "owner": "June",
+                "ref": "ST-003",
+                "stage": "Hold",
+                "stock": 4,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-004",
+              "values": {
+                "item": "Atlas sheet",
+                "owner": "June",
+                "ref": "ST-004",
+                "stage": "Ready",
+                "stock": 12,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-005",
+              "values": {
+                "item": "Colour cards",
+                "owner": "Mira",
+                "ref": "ST-005",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-006",
+              "values": {
+                "item": "Binding clips",
+                "owner": "Theo",
+                "ref": "ST-006",
+                "stage": "Ready",
+                "stock": 24,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-007",
+              "values": {
+                "item": "Studio labels",
+                "owner": "Mira",
+                "ref": "ST-007",
+                "stage": "Ready",
+                "stock": 18,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-008",
+              "values": {
+                "item": "Margin study",
+                "owner": "June",
+                "ref": "ST-008",
+                "stage": "Review",
+                "stock": 9,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-009",
+              "values": {
+                "item": "Paper swatch",
+                "owner": "Theo",
+                "ref": "ST-009",
+                "stage": "Ready",
+                "stock": 16,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-010",
+              "values": {
+                "item": "Letterpress test",
+                "owner": "Mira",
+                "ref": "ST-010",
+                "stage": "Hold",
+                "stock": 7,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-011",
+              "values": {
+                "item": "Cutting guide",
+                "owner": "June",
+                "ref": "ST-011",
+                "stage": "Ready",
+                "stock": 6,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-012",
+              "values": {
+                "item": "Grid poster",
+                "owner": "Theo",
+                "ref": "ST-012",
+                "stage": "Ready",
+                "stock": 11,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-013",
+              "values": {
+                "item": "Thread sample",
+                "owner": "June",
+                "ref": "ST-013",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-014",
+              "values": {
+                "item": "Archive sleeve",
+                "owner": "Mira",
+                "ref": "ST-014",
+                "stage": "Ready",
+                "stock": 20,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-015",
+              "values": {
+                "item": "Fold specimen",
+                "owner": "Theo",
+                "ref": "ST-015",
+                "stage": "Hold",
+                "stock": 6,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-016",
+              "values": {
+                "item": "Stencil set",
+                "owner": "June",
+                "ref": "ST-016",
+                "stage": "Ready",
+                "stock": 5,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-017",
+              "values": {
+                "item": "Contrast proof",
+                "owner": "Mira",
+                "ref": "ST-017",
+                "stage": "Review",
+                "stock": 10,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-018",
+              "values": {
+                "item": "Texture study",
+                "owner": "Theo",
+                "ref": "ST-018",
+                "stage": "Ready",
+                "stock": 14,
+                "type": "Sample"
+              }
+            }
+          ],
+          "solid": false,
+          "sort": {
+            "columnId": "stock",
+            "direction": "ascending"
+          },
+          "total": 18,
+          "touring": true,
+          "visibleIds": [
+            "ST-001",
+            "ST-002",
+            "ST-015",
+            "ST-010",
+            "ST-008",
+            "ST-017"
+          ]
+        },
+        "targets": [
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "query"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": "clear"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "page-size"
+          },
+          {
+            "font": "15px",
+            "height": 44,
+            "id": "next"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-row"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-status"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "tour"
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "reset"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "controlBottom": 852.6875,
+        "editBottom": 770.2890625,
+        "elapsed": 3,
+        "state": {
+          "changes": 0,
+          "filter": "print",
+          "filtered": 9,
+          "orderedIds": [
+            "ST-001",
+            "ST-002",
+            "ST-015",
+            "ST-010",
+            "ST-008",
+            "ST-017",
+            "ST-012",
+            "ST-004",
+            "ST-007"
+          ],
+          "page": 0,
+          "pageSize": 6,
+          "pages": 2,
+          "range": {
+            "end": 6,
+            "start": 1
+          },
+          "rows": [
+            {
+              "id": "ST-001",
+              "values": {
+                "item": "Field pad",
+                "owner": "Mira",
+                "ref": "ST-001",
+                "stage": "Ready",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-002",
+              "values": {
+                "item": "Ink proof",
+                "owner": "Theo",
+                "ref": "ST-002",
+                "stage": "Review",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-003",
+              "values": {
+                "item": "Ruler trace",
+                "owner": "June",
+                "ref": "ST-003",
+                "stage": "Hold",
+                "stock": 4,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-004",
+              "values": {
+                "item": "Atlas sheet",
+                "owner": "June",
+                "ref": "ST-004",
+                "stage": "Ready",
+                "stock": 12,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-005",
+              "values": {
+                "item": "Colour cards",
+                "owner": "Mira",
+                "ref": "ST-005",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-006",
+              "values": {
+                "item": "Binding clips",
+                "owner": "Theo",
+                "ref": "ST-006",
+                "stage": "Ready",
+                "stock": 24,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-007",
+              "values": {
+                "item": "Studio labels",
+                "owner": "Mira",
+                "ref": "ST-007",
+                "stage": "Ready",
+                "stock": 18,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-008",
+              "values": {
+                "item": "Margin study",
+                "owner": "June",
+                "ref": "ST-008",
+                "stage": "Review",
+                "stock": 9,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-009",
+              "values": {
+                "item": "Paper swatch",
+                "owner": "Theo",
+                "ref": "ST-009",
+                "stage": "Ready",
+                "stock": 16,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-010",
+              "values": {
+                "item": "Letterpress test",
+                "owner": "Mira",
+                "ref": "ST-010",
+                "stage": "Hold",
+                "stock": 7,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-011",
+              "values": {
+                "item": "Cutting guide",
+                "owner": "June",
+                "ref": "ST-011",
+                "stage": "Ready",
+                "stock": 6,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-012",
+              "values": {
+                "item": "Grid poster",
+                "owner": "Theo",
+                "ref": "ST-012",
+                "stage": "Ready",
+                "stock": 11,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-013",
+              "values": {
+                "item": "Thread sample",
+                "owner": "June",
+                "ref": "ST-013",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-014",
+              "values": {
+                "item": "Archive sleeve",
+                "owner": "Mira",
+                "ref": "ST-014",
+                "stage": "Ready",
+                "stock": 20,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-015",
+              "values": {
+                "item": "Fold specimen",
+                "owner": "Theo",
+                "ref": "ST-015",
+                "stage": "Hold",
+                "stock": 6,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-016",
+              "values": {
+                "item": "Stencil set",
+                "owner": "June",
+                "ref": "ST-016",
+                "stage": "Ready",
+                "stock": 5,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-017",
+              "values": {
+                "item": "Contrast proof",
+                "owner": "Mira",
+                "ref": "ST-017",
+                "stage": "Review",
+                "stock": 10,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-018",
+              "values": {
+                "item": "Texture study",
+                "owner": "Theo",
+                "ref": "ST-018",
+                "stage": "Ready",
+                "stock": 14,
+                "type": "Sample"
+              }
+            }
+          ],
+          "solid": false,
+          "sort": {
+            "columnId": "stock",
+            "direction": "ascending"
+          },
+          "total": 18,
+          "touring": true,
+          "visibleIds": [
+            "ST-001",
+            "ST-002",
+            "ST-015",
+            "ST-010",
+            "ST-008",
+            "ST-017"
+          ]
+        },
+        "targets": [
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "query"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": "clear"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "page-size"
+          },
+          {
+            "font": "15px",
+            "height": 44,
+            "id": "next"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-row"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-status"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "tour"
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "reset"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "controlBottom": 750.6875,
+        "editBottom": 668.2890625,
+        "elapsed": 4,
+        "state": {
+          "changes": 0,
+          "filter": "print",
+          "filtered": 9,
+          "orderedIds": [
+            "ST-001",
+            "ST-002",
+            "ST-015",
+            "ST-010",
+            "ST-008",
+            "ST-017",
+            "ST-012",
+            "ST-004",
+            "ST-007"
+          ],
+          "page": 1,
+          "pageSize": 6,
+          "pages": 2,
+          "range": {
+            "end": 9,
+            "start": 7
+          },
+          "rows": [
+            {
+              "id": "ST-001",
+              "values": {
+                "item": "Field pad",
+                "owner": "Mira",
+                "ref": "ST-001",
+                "stage": "Ready",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-002",
+              "values": {
+                "item": "Ink proof",
+                "owner": "Theo",
+                "ref": "ST-002",
+                "stage": "Review",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-003",
+              "values": {
+                "item": "Ruler trace",
+                "owner": "June",
+                "ref": "ST-003",
+                "stage": "Hold",
+                "stock": 4,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-004",
+              "values": {
+                "item": "Atlas sheet",
+                "owner": "June",
+                "ref": "ST-004",
+                "stage": "Ready",
+                "stock": 12,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-005",
+              "values": {
+                "item": "Colour cards",
+                "owner": "Mira",
+                "ref": "ST-005",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-006",
+              "values": {
+                "item": "Binding clips",
+                "owner": "Theo",
+                "ref": "ST-006",
+                "stage": "Ready",
+                "stock": 24,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-007",
+              "values": {
+                "item": "Studio labels",
+                "owner": "Mira",
+                "ref": "ST-007",
+                "stage": "Ready",
+                "stock": 18,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-008",
+              "values": {
+                "item": "Margin study",
+                "owner": "June",
+                "ref": "ST-008",
+                "stage": "Review",
+                "stock": 9,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-009",
+              "values": {
+                "item": "Paper swatch",
+                "owner": "Theo",
+                "ref": "ST-009",
+                "stage": "Ready",
+                "stock": 16,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-010",
+              "values": {
+                "item": "Letterpress test",
+                "owner": "Mira",
+                "ref": "ST-010",
+                "stage": "Hold",
+                "stock": 7,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-011",
+              "values": {
+                "item": "Cutting guide",
+                "owner": "June",
+                "ref": "ST-011",
+                "stage": "Ready",
+                "stock": 6,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-012",
+              "values": {
+                "item": "Grid poster",
+                "owner": "Theo",
+                "ref": "ST-012",
+                "stage": "Ready",
+                "stock": 11,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-013",
+              "values": {
+                "item": "Thread sample",
+                "owner": "June",
+                "ref": "ST-013",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-014",
+              "values": {
+                "item": "Archive sleeve",
+                "owner": "Mira",
+                "ref": "ST-014",
+                "stage": "Ready",
+                "stock": 20,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-015",
+              "values": {
+                "item": "Fold specimen",
+                "owner": "Theo",
+                "ref": "ST-015",
+                "stage": "Hold",
+                "stock": 6,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-016",
+              "values": {
+                "item": "Stencil set",
+                "owner": "June",
+                "ref": "ST-016",
+                "stage": "Ready",
+                "stock": 5,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-017",
+              "values": {
+                "item": "Contrast proof",
+                "owner": "Mira",
+                "ref": "ST-017",
+                "stage": "Review",
+                "stock": 10,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-018",
+              "values": {
+                "item": "Texture study",
+                "owner": "Theo",
+                "ref": "ST-018",
+                "stage": "Ready",
+                "stock": 14,
+                "type": "Sample"
+              }
+            }
+          ],
+          "solid": false,
+          "sort": {
+            "columnId": "stock",
+            "direction": "ascending"
+          },
+          "total": 18,
+          "touring": true,
+          "visibleIds": [
+            "ST-012",
+            "ST-004",
+            "ST-007"
+          ]
+        },
+        "targets": [
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "query"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": "clear"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "page-size"
+          },
+          {
+            "font": "15px",
+            "height": 44,
+            "id": "previous"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-row"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-status"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "tour"
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "reset"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "controlBottom": 750.6875,
+        "editBottom": 668.2890625,
+        "elapsed": 5,
+        "state": {
+          "changes": 1,
+          "filter": "print",
+          "filtered": 9,
+          "orderedIds": [
+            "ST-001",
+            "ST-002",
+            "ST-015",
+            "ST-010",
+            "ST-008",
+            "ST-017",
+            "ST-012",
+            "ST-004",
+            "ST-007"
+          ],
+          "page": 1,
+          "pageSize": 6,
+          "pages": 2,
+          "range": {
+            "end": 9,
+            "start": 7
+          },
+          "rows": [
+            {
+              "id": "ST-001",
+              "values": {
+                "item": "Field pad",
+                "owner": "Mira",
+                "ref": "ST-001",
+                "stage": "Ready",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-002",
+              "values": {
+                "item": "Ink proof",
+                "owner": "Theo",
+                "ref": "ST-002",
+                "stage": "Review",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-003",
+              "values": {
+                "item": "Ruler trace",
+                "owner": "June",
+                "ref": "ST-003",
+                "stage": "Hold",
+                "stock": 4,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-004",
+              "values": {
+                "item": "Atlas sheet",
+                "owner": "June",
+                "ref": "ST-004",
+                "stage": "Ready",
+                "stock": 12,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-005",
+              "values": {
+                "item": "Colour cards",
+                "owner": "Mira",
+                "ref": "ST-005",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-006",
+              "values": {
+                "item": "Binding clips",
+                "owner": "Theo",
+                "ref": "ST-006",
+                "stage": "Ready",
+                "stock": 24,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-007",
+              "values": {
+                "item": "Studio labels",
+                "owner": "Mira",
+                "ref": "ST-007",
+                "stage": "Ready",
+                "stock": 18,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-008",
+              "values": {
+                "item": "Margin study",
+                "owner": "June",
+                "ref": "ST-008",
+                "stage": "Ready",
+                "stock": 9,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-009",
+              "values": {
+                "item": "Paper swatch",
+                "owner": "Theo",
+                "ref": "ST-009",
+                "stage": "Ready",
+                "stock": 16,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-010",
+              "values": {
+                "item": "Letterpress test",
+                "owner": "Mira",
+                "ref": "ST-010",
+                "stage": "Hold",
+                "stock": 7,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-011",
+              "values": {
+                "item": "Cutting guide",
+                "owner": "June",
+                "ref": "ST-011",
+                "stage": "Ready",
+                "stock": 6,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-012",
+              "values": {
+                "item": "Grid poster",
+                "owner": "Theo",
+                "ref": "ST-012",
+                "stage": "Ready",
+                "stock": 11,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-013",
+              "values": {
+                "item": "Thread sample",
+                "owner": "June",
+                "ref": "ST-013",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-014",
+              "values": {
+                "item": "Archive sleeve",
+                "owner": "Mira",
+                "ref": "ST-014",
+                "stage": "Ready",
+                "stock": 20,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-015",
+              "values": {
+                "item": "Fold specimen",
+                "owner": "Theo",
+                "ref": "ST-015",
+                "stage": "Hold",
+                "stock": 6,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-016",
+              "values": {
+                "item": "Stencil set",
+                "owner": "June",
+                "ref": "ST-016",
+                "stage": "Ready",
+                "stock": 5,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-017",
+              "values": {
+                "item": "Contrast proof",
+                "owner": "Mira",
+                "ref": "ST-017",
+                "stage": "Review",
+                "stock": 10,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-018",
+              "values": {
+                "item": "Texture study",
+                "owner": "Theo",
+                "ref": "ST-018",
+                "stage": "Ready",
+                "stock": 14,
+                "type": "Sample"
+              }
+            }
+          ],
+          "solid": false,
+          "sort": {
+            "columnId": "stock",
+            "direction": "ascending"
+          },
+          "total": 18,
+          "touring": true,
+          "visibleIds": [
+            "ST-012",
+            "ST-004",
+            "ST-007"
+          ]
+        },
+        "targets": [
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "query"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": "clear"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "page-size"
+          },
+          {
+            "font": "15px",
+            "height": 44,
+            "id": "previous"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-row"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-status"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "tour"
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "reset"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "controlBottom": 750.6875,
+        "editBottom": 668.2890625,
+        "elapsed": 6,
+        "state": {
+          "changes": 1,
+          "filter": "print",
+          "filtered": 9,
+          "orderedIds": [
+            "ST-001",
+            "ST-002",
+            "ST-015",
+            "ST-010",
+            "ST-008",
+            "ST-017",
+            "ST-012",
+            "ST-004",
+            "ST-007"
+          ],
+          "page": 1,
+          "pageSize": 6,
+          "pages": 2,
+          "range": {
+            "end": 9,
+            "start": 7
+          },
+          "rows": [
+            {
+              "id": "ST-001",
+              "values": {
+                "item": "Field pad",
+                "owner": "Mira",
+                "ref": "ST-001",
+                "stage": "Ready",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-002",
+              "values": {
+                "item": "Ink proof",
+                "owner": "Theo",
+                "ref": "ST-002",
+                "stage": "Review",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-003",
+              "values": {
+                "item": "Ruler trace",
+                "owner": "June",
+                "ref": "ST-003",
+                "stage": "Hold",
+                "stock": 4,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-004",
+              "values": {
+                "item": "Atlas sheet",
+                "owner": "June",
+                "ref": "ST-004",
+                "stage": "Ready",
+                "stock": 12,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-005",
+              "values": {
+                "item": "Colour cards",
+                "owner": "Mira",
+                "ref": "ST-005",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-006",
+              "values": {
+                "item": "Binding clips",
+                "owner": "Theo",
+                "ref": "ST-006",
+                "stage": "Ready",
+                "stock": 24,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-007",
+              "values": {
+                "item": "Studio labels",
+                "owner": "Mira",
+                "ref": "ST-007",
+                "stage": "Ready",
+                "stock": 18,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-008",
+              "values": {
+                "item": "Margin study",
+                "owner": "June",
+                "ref": "ST-008",
+                "stage": "Ready",
+                "stock": 9,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-009",
+              "values": {
+                "item": "Paper swatch",
+                "owner": "Theo",
+                "ref": "ST-009",
+                "stage": "Ready",
+                "stock": 16,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-010",
+              "values": {
+                "item": "Letterpress test",
+                "owner": "Mira",
+                "ref": "ST-010",
+                "stage": "Hold",
+                "stock": 7,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-011",
+              "values": {
+                "item": "Cutting guide",
+                "owner": "June",
+                "ref": "ST-011",
+                "stage": "Ready",
+                "stock": 6,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-012",
+              "values": {
+                "item": "Grid poster",
+                "owner": "Theo",
+                "ref": "ST-012",
+                "stage": "Ready",
+                "stock": 11,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-013",
+              "values": {
+                "item": "Thread sample",
+                "owner": "June",
+                "ref": "ST-013",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-014",
+              "values": {
+                "item": "Archive sleeve",
+                "owner": "Mira",
+                "ref": "ST-014",
+                "stage": "Ready",
+                "stock": 20,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-015",
+              "values": {
+                "item": "Fold specimen",
+                "owner": "Theo",
+                "ref": "ST-015",
+                "stage": "Hold",
+                "stock": 6,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-016",
+              "values": {
+                "item": "Stencil set",
+                "owner": "June",
+                "ref": "ST-016",
+                "stage": "Ready",
+                "stock": 5,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-017",
+              "values": {
+                "item": "Contrast proof",
+                "owner": "Mira",
+                "ref": "ST-017",
+                "stage": "Review",
+                "stock": 10,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-018",
+              "values": {
+                "item": "Texture study",
+                "owner": "Theo",
+                "ref": "ST-018",
+                "stage": "Ready",
+                "stock": 14,
+                "type": "Sample"
+              }
+            }
+          ],
+          "solid": false,
+          "sort": {
+            "columnId": "stock",
+            "direction": "ascending"
+          },
+          "total": 18,
+          "touring": true,
+          "visibleIds": [
+            "ST-012",
+            "ST-004",
+            "ST-007"
+          ]
+        },
+        "targets": [
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "query"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": "clear"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "page-size"
+          },
+          {
+            "font": "15px",
+            "height": 44,
+            "id": "previous"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-row"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-status"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "tour"
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "reset"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "controlBottom": 852.6875,
+        "editBottom": 770.2890625,
+        "elapsed": 7,
+        "state": {
+          "changes": 1,
+          "filter": "no matching specimen",
+          "filtered": 0,
+          "orderedIds": [],
+          "page": 0,
+          "pageSize": 6,
+          "pages": 0,
+          "range": {
+            "end": 0,
+            "start": 0
+          },
+          "rows": [
+            {
+              "id": "ST-001",
+              "values": {
+                "item": "Field pad",
+                "owner": "Mira",
+                "ref": "ST-001",
+                "stage": "Ready",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-002",
+              "values": {
+                "item": "Ink proof",
+                "owner": "Theo",
+                "ref": "ST-002",
+                "stage": "Review",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-003",
+              "values": {
+                "item": "Ruler trace",
+                "owner": "June",
+                "ref": "ST-003",
+                "stage": "Hold",
+                "stock": 4,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-004",
+              "values": {
+                "item": "Atlas sheet",
+                "owner": "June",
+                "ref": "ST-004",
+                "stage": "Ready",
+                "stock": 12,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-005",
+              "values": {
+                "item": "Colour cards",
+                "owner": "Mira",
+                "ref": "ST-005",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-006",
+              "values": {
+                "item": "Binding clips",
+                "owner": "Theo",
+                "ref": "ST-006",
+                "stage": "Ready",
+                "stock": 24,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-007",
+              "values": {
+                "item": "Studio labels",
+                "owner": "Mira",
+                "ref": "ST-007",
+                "stage": "Ready",
+                "stock": 18,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-008",
+              "values": {
+                "item": "Margin study",
+                "owner": "June",
+                "ref": "ST-008",
+                "stage": "Ready",
+                "stock": 9,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-009",
+              "values": {
+                "item": "Paper swatch",
+                "owner": "Theo",
+                "ref": "ST-009",
+                "stage": "Ready",
+                "stock": 16,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-010",
+              "values": {
+                "item": "Letterpress test",
+                "owner": "Mira",
+                "ref": "ST-010",
+                "stage": "Hold",
+                "stock": 7,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-011",
+              "values": {
+                "item": "Cutting guide",
+                "owner": "June",
+                "ref": "ST-011",
+                "stage": "Ready",
+                "stock": 6,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-012",
+              "values": {
+                "item": "Grid poster",
+                "owner": "Theo",
+                "ref": "ST-012",
+                "stage": "Ready",
+                "stock": 11,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-013",
+              "values": {
+                "item": "Thread sample",
+                "owner": "June",
+                "ref": "ST-013",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-014",
+              "values": {
+                "item": "Archive sleeve",
+                "owner": "Mira",
+                "ref": "ST-014",
+                "stage": "Ready",
+                "stock": 20,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-015",
+              "values": {
+                "item": "Fold specimen",
+                "owner": "Theo",
+                "ref": "ST-015",
+                "stage": "Hold",
+                "stock": 6,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-016",
+              "values": {
+                "item": "Stencil set",
+                "owner": "June",
+                "ref": "ST-016",
+                "stage": "Ready",
+                "stock": 5,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-017",
+              "values": {
+                "item": "Contrast proof",
+                "owner": "Mira",
+                "ref": "ST-017",
+                "stage": "Review",
+                "stock": 10,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-018",
+              "values": {
+                "item": "Texture study",
+                "owner": "Theo",
+                "ref": "ST-018",
+                "stage": "Ready",
+                "stock": 14,
+                "type": "Sample"
+              }
+            }
+          ],
+          "solid": false,
+          "sort": {
+            "columnId": "stock",
+            "direction": "ascending"
+          },
+          "total": 18,
+          "touring": true,
+          "visibleIds": []
+        },
+        "targets": [
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "query"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": "clear"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "empty-reset"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "page-size"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-row"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-status"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "tour"
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "reset"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "controlBottom": 852.6875,
+        "editBottom": 770.2890625,
+        "elapsed": 8,
+        "state": {
+          "changes": 1,
+          "filter": "",
+          "filtered": 18,
+          "orderedIds": [
+            "ST-001",
+            "ST-002",
+            "ST-003",
+            "ST-016",
+            "ST-011",
+            "ST-015",
+            "ST-010",
+            "ST-005",
+            "ST-013",
+            "ST-008",
+            "ST-017",
+            "ST-012",
+            "ST-004",
+            "ST-018",
+            "ST-009",
+            "ST-007",
+            "ST-014",
+            "ST-006"
+          ],
+          "page": 0,
+          "pageSize": 6,
+          "pages": 3,
+          "range": {
+            "end": 6,
+            "start": 1
+          },
+          "rows": [
+            {
+              "id": "ST-001",
+              "values": {
+                "item": "Field pad",
+                "owner": "Mira",
+                "ref": "ST-001",
+                "stage": "Ready",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-002",
+              "values": {
+                "item": "Ink proof",
+                "owner": "Theo",
+                "ref": "ST-002",
+                "stage": "Review",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-003",
+              "values": {
+                "item": "Ruler trace",
+                "owner": "June",
+                "ref": "ST-003",
+                "stage": "Hold",
+                "stock": 4,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-004",
+              "values": {
+                "item": "Atlas sheet",
+                "owner": "June",
+                "ref": "ST-004",
+                "stage": "Ready",
+                "stock": 12,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-005",
+              "values": {
+                "item": "Colour cards",
+                "owner": "Mira",
+                "ref": "ST-005",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-006",
+              "values": {
+                "item": "Binding clips",
+                "owner": "Theo",
+                "ref": "ST-006",
+                "stage": "Ready",
+                "stock": 24,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-007",
+              "values": {
+                "item": "Studio labels",
+                "owner": "Mira",
+                "ref": "ST-007",
+                "stage": "Ready",
+                "stock": 18,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-008",
+              "values": {
+                "item": "Margin study",
+                "owner": "June",
+                "ref": "ST-008",
+                "stage": "Ready",
+                "stock": 9,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-009",
+              "values": {
+                "item": "Paper swatch",
+                "owner": "Theo",
+                "ref": "ST-009",
+                "stage": "Ready",
+                "stock": 16,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-010",
+              "values": {
+                "item": "Letterpress test",
+                "owner": "Mira",
+                "ref": "ST-010",
+                "stage": "Hold",
+                "stock": 7,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-011",
+              "values": {
+                "item": "Cutting guide",
+                "owner": "June",
+                "ref": "ST-011",
+                "stage": "Ready",
+                "stock": 6,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-012",
+              "values": {
+                "item": "Grid poster",
+                "owner": "Theo",
+                "ref": "ST-012",
+                "stage": "Ready",
+                "stock": 11,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-013",
+              "values": {
+                "item": "Thread sample",
+                "owner": "June",
+                "ref": "ST-013",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-014",
+              "values": {
+                "item": "Archive sleeve",
+                "owner": "Mira",
+                "ref": "ST-014",
+                "stage": "Ready",
+                "stock": 20,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-015",
+              "values": {
+                "item": "Fold specimen",
+                "owner": "Theo",
+                "ref": "ST-015",
+                "stage": "Hold",
+                "stock": 6,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-016",
+              "values": {
+                "item": "Stencil set",
+                "owner": "June",
+                "ref": "ST-016",
+                "stage": "Ready",
+                "stock": 5,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-017",
+              "values": {
+                "item": "Contrast proof",
+                "owner": "Mira",
+                "ref": "ST-017",
+                "stage": "Review",
+                "stock": 10,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-018",
+              "values": {
+                "item": "Texture study",
+                "owner": "Theo",
+                "ref": "ST-018",
+                "stage": "Ready",
+                "stock": 14,
+                "type": "Sample"
+              }
+            }
+          ],
+          "solid": false,
+          "sort": {
+            "columnId": "stock",
+            "direction": "ascending"
+          },
+          "total": 18,
+          "touring": true,
+          "visibleIds": [
+            "ST-001",
+            "ST-002",
+            "ST-003",
+            "ST-016",
+            "ST-011",
+            "ST-015"
+          ]
+        },
+        "targets": [
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "query"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": "clear"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "page-size"
+          },
+          {
+            "font": "15px",
+            "height": 44,
+            "id": "next"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-row"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-status"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "tour"
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "reset"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "controlBottom": 852.6875,
+        "editBottom": 770.2890625,
+        "elapsed": 9,
+        "state": {
+          "changes": 1,
+          "filter": "",
+          "filtered": 18,
+          "orderedIds": [
+            "ST-001",
+            "ST-002",
+            "ST-003",
+            "ST-016",
+            "ST-011",
+            "ST-015",
+            "ST-010",
+            "ST-005",
+            "ST-013",
+            "ST-008",
+            "ST-017",
+            "ST-012",
+            "ST-004",
+            "ST-018",
+            "ST-009",
+            "ST-007",
+            "ST-014",
+            "ST-006"
+          ],
+          "page": 0,
+          "pageSize": 6,
+          "pages": 3,
+          "range": {
+            "end": 6,
+            "start": 1
+          },
+          "rows": [
+            {
+              "id": "ST-001",
+              "values": {
+                "item": "Field pad",
+                "owner": "Mira",
+                "ref": "ST-001",
+                "stage": "Ready",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-002",
+              "values": {
+                "item": "Ink proof",
+                "owner": "Theo",
+                "ref": "ST-002",
+                "stage": "Review",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-003",
+              "values": {
+                "item": "Ruler trace",
+                "owner": "June",
+                "ref": "ST-003",
+                "stage": "Hold",
+                "stock": 4,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-004",
+              "values": {
+                "item": "Atlas sheet",
+                "owner": "June",
+                "ref": "ST-004",
+                "stage": "Ready",
+                "stock": 12,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-005",
+              "values": {
+                "item": "Colour cards",
+                "owner": "Mira",
+                "ref": "ST-005",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-006",
+              "values": {
+                "item": "Binding clips",
+                "owner": "Theo",
+                "ref": "ST-006",
+                "stage": "Ready",
+                "stock": 24,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-007",
+              "values": {
+                "item": "Studio labels",
+                "owner": "Mira",
+                "ref": "ST-007",
+                "stage": "Ready",
+                "stock": 18,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-008",
+              "values": {
+                "item": "Margin study",
+                "owner": "June",
+                "ref": "ST-008",
+                "stage": "Ready",
+                "stock": 9,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-009",
+              "values": {
+                "item": "Paper swatch",
+                "owner": "Theo",
+                "ref": "ST-009",
+                "stage": "Ready",
+                "stock": 16,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-010",
+              "values": {
+                "item": "Letterpress test",
+                "owner": "Mira",
+                "ref": "ST-010",
+                "stage": "Hold",
+                "stock": 7,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-011",
+              "values": {
+                "item": "Cutting guide",
+                "owner": "June",
+                "ref": "ST-011",
+                "stage": "Ready",
+                "stock": 6,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-012",
+              "values": {
+                "item": "Grid poster",
+                "owner": "Theo",
+                "ref": "ST-012",
+                "stage": "Ready",
+                "stock": 11,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-013",
+              "values": {
+                "item": "Thread sample",
+                "owner": "June",
+                "ref": "ST-013",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-014",
+              "values": {
+                "item": "Archive sleeve",
+                "owner": "Mira",
+                "ref": "ST-014",
+                "stage": "Ready",
+                "stock": 20,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-015",
+              "values": {
+                "item": "Fold specimen",
+                "owner": "Theo",
+                "ref": "ST-015",
+                "stage": "Hold",
+                "stock": 6,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-016",
+              "values": {
+                "item": "Stencil set",
+                "owner": "June",
+                "ref": "ST-016",
+                "stage": "Ready",
+                "stock": 5,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-017",
+              "values": {
+                "item": "Contrast proof",
+                "owner": "Mira",
+                "ref": "ST-017",
+                "stage": "Review",
+                "stock": 10,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-018",
+              "values": {
+                "item": "Texture study",
+                "owner": "Theo",
+                "ref": "ST-018",
+                "stage": "Ready",
+                "stock": 14,
+                "type": "Sample"
+              }
+            }
+          ],
+          "solid": false,
+          "sort": {
+            "columnId": "stock",
+            "direction": "ascending"
+          },
+          "total": 18,
+          "touring": true,
+          "visibleIds": [
+            "ST-001",
+            "ST-002",
+            "ST-003",
+            "ST-016",
+            "ST-011",
+            "ST-015"
+          ]
+        },
+        "targets": [
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "query"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": "clear"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "page-size"
+          },
+          {
+            "font": "15px",
+            "height": 44,
+            "id": "next"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-row"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-status"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "tour"
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "reset"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "controlBottom": 852.6875,
+        "editBottom": 770.2890625,
+        "elapsed": 10,
+        "state": {
+          "changes": 1,
+          "filter": "",
+          "filtered": 18,
+          "orderedIds": [
+            "ST-001",
+            "ST-002",
+            "ST-003",
+            "ST-016",
+            "ST-011",
+            "ST-015",
+            "ST-010",
+            "ST-005",
+            "ST-013",
+            "ST-008",
+            "ST-017",
+            "ST-012",
+            "ST-004",
+            "ST-018",
+            "ST-009",
+            "ST-007",
+            "ST-014",
+            "ST-006"
+          ],
+          "page": 0,
+          "pageSize": 6,
+          "pages": 3,
+          "range": {
+            "end": 6,
+            "start": 1
+          },
+          "rows": [
+            {
+              "id": "ST-001",
+              "values": {
+                "item": "Field pad",
+                "owner": "Mira",
+                "ref": "ST-001",
+                "stage": "Ready",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-002",
+              "values": {
+                "item": "Ink proof",
+                "owner": "Theo",
+                "ref": "ST-002",
+                "stage": "Review",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-003",
+              "values": {
+                "item": "Ruler trace",
+                "owner": "June",
+                "ref": "ST-003",
+                "stage": "Hold",
+                "stock": 4,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-004",
+              "values": {
+                "item": "Atlas sheet",
+                "owner": "June",
+                "ref": "ST-004",
+                "stage": "Ready",
+                "stock": 12,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-005",
+              "values": {
+                "item": "Colour cards",
+                "owner": "Mira",
+                "ref": "ST-005",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-006",
+              "values": {
+                "item": "Binding clips",
+                "owner": "Theo",
+                "ref": "ST-006",
+                "stage": "Ready",
+                "stock": 24,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-007",
+              "values": {
+                "item": "Studio labels",
+                "owner": "Mira",
+                "ref": "ST-007",
+                "stage": "Ready",
+                "stock": 18,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-008",
+              "values": {
+                "item": "Margin study",
+                "owner": "June",
+                "ref": "ST-008",
+                "stage": "Ready",
+                "stock": 9,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-009",
+              "values": {
+                "item": "Paper swatch",
+                "owner": "Theo",
+                "ref": "ST-009",
+                "stage": "Ready",
+                "stock": 16,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-010",
+              "values": {
+                "item": "Letterpress test",
+                "owner": "Mira",
+                "ref": "ST-010",
+                "stage": "Hold",
+                "stock": 7,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-011",
+              "values": {
+                "item": "Cutting guide",
+                "owner": "June",
+                "ref": "ST-011",
+                "stage": "Ready",
+                "stock": 6,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-012",
+              "values": {
+                "item": "Grid poster",
+                "owner": "Theo",
+                "ref": "ST-012",
+                "stage": "Ready",
+                "stock": 11,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-013",
+              "values": {
+                "item": "Thread sample",
+                "owner": "June",
+                "ref": "ST-013",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-014",
+              "values": {
+                "item": "Archive sleeve",
+                "owner": "Mira",
+                "ref": "ST-014",
+                "stage": "Ready",
+                "stock": 20,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-015",
+              "values": {
+                "item": "Fold specimen",
+                "owner": "Theo",
+                "ref": "ST-015",
+                "stage": "Hold",
+                "stock": 6,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-016",
+              "values": {
+                "item": "Stencil set",
+                "owner": "June",
+                "ref": "ST-016",
+                "stage": "Ready",
+                "stock": 5,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-017",
+              "values": {
+                "item": "Contrast proof",
+                "owner": "Mira",
+                "ref": "ST-017",
+                "stage": "Review",
+                "stock": 10,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-018",
+              "values": {
+                "item": "Texture study",
+                "owner": "Theo",
+                "ref": "ST-018",
+                "stage": "Ready",
+                "stock": 14,
+                "type": "Sample"
+              }
+            }
+          ],
+          "solid": false,
+          "sort": {
+            "columnId": "stock",
+            "direction": "ascending"
+          },
+          "total": 18,
+          "touring": false,
+          "visibleIds": [
+            "ST-001",
+            "ST-002",
+            "ST-003",
+            "ST-016",
+            "ST-011",
+            "ST-015"
+          ]
+        },
+        "targets": [
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "query"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": "clear"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "page-size"
+          },
+          {
+            "font": "15px",
+            "height": 44,
+            "id": "next"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-row"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-status"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "tour"
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "reset"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          }
+        ]
+      },
+      {
+        "controlBottom": 852.6875,
+        "editBottom": 770.2890625,
+        "elapsed": 11,
+        "state": {
+          "changes": 1,
+          "filter": "",
+          "filtered": 18,
+          "orderedIds": [
+            "ST-001",
+            "ST-002",
+            "ST-003",
+            "ST-016",
+            "ST-011",
+            "ST-015",
+            "ST-010",
+            "ST-005",
+            "ST-013",
+            "ST-008",
+            "ST-017",
+            "ST-012",
+            "ST-004",
+            "ST-018",
+            "ST-009",
+            "ST-007",
+            "ST-014",
+            "ST-006"
+          ],
+          "page": 0,
+          "pageSize": 6,
+          "pages": 3,
+          "range": {
+            "end": 6,
+            "start": 1
+          },
+          "rows": [
+            {
+              "id": "ST-001",
+              "values": {
+                "item": "Field pad",
+                "owner": "Mira",
+                "ref": "ST-001",
+                "stage": "Ready",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-002",
+              "values": {
+                "item": "Ink proof",
+                "owner": "Theo",
+                "ref": "ST-002",
+                "stage": "Review",
+                "stock": 4,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-003",
+              "values": {
+                "item": "Ruler trace",
+                "owner": "June",
+                "ref": "ST-003",
+                "stage": "Hold",
+                "stock": 4,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-004",
+              "values": {
+                "item": "Atlas sheet",
+                "owner": "June",
+                "ref": "ST-004",
+                "stage": "Ready",
+                "stock": 12,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-005",
+              "values": {
+                "item": "Colour cards",
+                "owner": "Mira",
+                "ref": "ST-005",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-006",
+              "values": {
+                "item": "Binding clips",
+                "owner": "Theo",
+                "ref": "ST-006",
+                "stage": "Ready",
+                "stock": 24,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-007",
+              "values": {
+                "item": "Studio labels",
+                "owner": "Mira",
+                "ref": "ST-007",
+                "stage": "Ready",
+                "stock": 18,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-008",
+              "values": {
+                "item": "Margin study",
+                "owner": "June",
+                "ref": "ST-008",
+                "stage": "Ready",
+                "stock": 9,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-009",
+              "values": {
+                "item": "Paper swatch",
+                "owner": "Theo",
+                "ref": "ST-009",
+                "stage": "Ready",
+                "stock": 16,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-010",
+              "values": {
+                "item": "Letterpress test",
+                "owner": "Mira",
+                "ref": "ST-010",
+                "stage": "Hold",
+                "stock": 7,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-011",
+              "values": {
+                "item": "Cutting guide",
+                "owner": "June",
+                "ref": "ST-011",
+                "stage": "Ready",
+                "stock": 6,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-012",
+              "values": {
+                "item": "Grid poster",
+                "owner": "Theo",
+                "ref": "ST-012",
+                "stage": "Ready",
+                "stock": 11,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-013",
+              "values": {
+                "item": "Thread sample",
+                "owner": "June",
+                "ref": "ST-013",
+                "stage": "Review",
+                "stock": 8,
+                "type": "Sample"
+              }
+            },
+            {
+              "id": "ST-014",
+              "values": {
+                "item": "Archive sleeve",
+                "owner": "Mira",
+                "ref": "ST-014",
+                "stage": "Ready",
+                "stock": 20,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-015",
+              "values": {
+                "item": "Fold specimen",
+                "owner": "Theo",
+                "ref": "ST-015",
+                "stage": "Hold",
+                "stock": 6,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-016",
+              "values": {
+                "item": "Stencil set",
+                "owner": "June",
+                "ref": "ST-016",
+                "stage": "Ready",
+                "stock": 5,
+                "type": "Tool"
+              }
+            },
+            {
+              "id": "ST-017",
+              "values": {
+                "item": "Contrast proof",
+                "owner": "Mira",
+                "ref": "ST-017",
+                "stage": "Review",
+                "stock": 10,
+                "type": "Print"
+              }
+            },
+            {
+              "id": "ST-018",
+              "values": {
+                "item": "Texture study",
+                "owner": "Theo",
+                "ref": "ST-018",
+                "stage": "Ready",
+                "stock": 14,
+                "type": "Sample"
+              }
+            }
+          ],
+          "solid": false,
+          "sort": {
+            "columnId": "stock",
+            "direction": "ascending"
+          },
+          "total": 18,
+          "touring": false,
+          "visibleIds": [
+            "ST-001",
+            "ST-002",
+            "ST-003",
+            "ST-016",
+            "ST-011",
+            "ST-015"
+          ]
+        },
+        "targets": [
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "query"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": "clear"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "page-size"
+          },
+          {
+            "font": "15px",
+            "height": 44,
+            "id": "next"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-row"
+          },
+          {
+            "font": "16px",
+            "height": 44,
+            "id": "edit-status"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "tour"
+          },
+          {
+            "font": "11px",
+            "height": 44,
+            "id": "reset"
+          },
+          {
+            "font": "10px",
+            "height": 44,
+            "id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "raw": {
+    "id": "28105162-0472-4705-8632-6b21d2e581a1-3f55069a-aa88-4210-ad94-ab39878c9924-mp4",
+    "tabId": "tab_4j",
+    "path": "/home/fieldwork/.t3/userdata/attachments/28105162-0472-4705-8632-6b21d2e581a1-3f55069a-aa88-4210-ad94-ab39878c9924-mp4.mp4",
+    "mimeType": "video/mp4;codecs=avc1",
+    "sizeBytes": 473665,
+    "createdAt": "2026-10-12T04:59:51.126Z"
+  },
+  "publishedAssets": {
+    "film": "docs/campaign/assets/data-table-showcase.mp4",
+    "poster": "docs/campaign/assets/data-table-showcase.png"
+  }
+}

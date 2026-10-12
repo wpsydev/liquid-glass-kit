@@ -1,0 +1,110 @@
+{
+  "version": "0.41.0-preview.1",
+  "commit": "08a8d0bea1d01e80b611742b96e4bea5deb40659",
+  "workflows": {
+    "verify": 38207646552,
+    "release": 38207646478,
+    "pages": 38207646682,
+    "conclusion": "success",
+    "tests": 891,
+    "testFiles": 44
+  },
+  "archive": {
+    "members": 182,
+    "bytes": 391811,
+    "sha256": "af313cdac8e3f7fc06eab33975bf3dd1418f4b2a9e913d7b0bd3f6304ae6d9e8"
+  },
+  "hosted": {
+    "url": "https://wpsydev.github.io/liquid-glass-kit/follow/",
+    "native": {
+      "append": {
+        "same": true,
+        "state": {
+          "declaredAppends": 3,
+          "destroyed": false,
+          "distance": 920,
+          "draft": "",
+          "following": false,
+          "growthUpdates": 0,
+          "nearEnd": false,
+          "quiet": false,
+          "recordTexts": [
+            "Start with the work. A review should make the next step easier to see.",
+            "Keep the labels close to the controls. There is no need to make someone remember them.",
+            "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+            "Use a real button to return to the latest entry. It should say what it does.",
+            "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+            "New entries can wait. An unread count is more useful than pulling the reader away.",
+            "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+            "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+            "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+            "Give people a place to stop. A useful feed does not have to keep moving.",
+            "First new fixture: the current reader position remains part of the review.",
+            "Second new fixture: a small, explicit unread count can hold the next thought.",
+            "Third new fixture: the latest entry will still be here when you choose to return."
+          ],
+          "records": 13,
+          "solid": false,
+          "stage": "reading",
+          "top": 0,
+          "touring": false,
+          "unread": 3,
+          "visible": true
+        }
+      },
+      "settledJump": {
+        "focus": "jump",
+        "state": {
+          "declaredAppends": 3,
+          "destroyed": false,
+          "distance": 0.5,
+          "draft": "",
+          "following": true,
+          "growthUpdates": 0,
+          "nearEnd": true,
+          "quiet": false,
+          "recordTexts": [
+            "Start with the work. A review should make the next step easier to see.",
+            "Keep the labels close to the controls. There is no need to make someone remember them.",
+            "The narrow layout feels calmer when the transcript gets its own scrolling space.",
+            "Use a real button to return to the latest entry. It should say what it does.",
+            "When someone selects a sentence, they are telling us they are reading. Leave that sentence where it is.",
+            "New entries can wait. An unread count is more useful than pulling the reader away.",
+            "A growing paragraph is still one record. Let the host declare the actual new-record count.",
+            "Keep the glass around the controls, and keep the long-form text on a quiet surface.",
+            "For keyboard users, returning to the end should not steal focus from the button or the draft.",
+            "Give people a place to stop. A useful feed does not have to keep moving.",
+            "First new fixture: the current reader position remains part of the review.",
+            "Second new fixture: a small, explicit unread count can hold the next thought.",
+            "Third new fixture: the latest entry will still be here when you choose to return."
+          ],
+          "records": 13,
+          "solid": false,
+          "stage": "latest",
+          "top": 919.5,
+          "touring": false,
+          "unread": 0,
+          "visible": true
+        }
+      }
+    },
+    "scope": "Actual three-fixture and Jump Latest clicks: old node retained, top0/unread3 then taildistance0.5/unread0/focusjump"
+  },
+  "x": {
+    "main": "https://x.com/wpsygames/status/2109515685433155654",
+    "replies": [
+      "https://x.com/wpsygames/status/2109515979059347877",
+      "https://x.com/wpsygames/status/2109516072617460078"
+    ],
+    "upload": {
+      "bytes": 668830,
+      "sha256": "66493a161f0d28a0819d156cdc3f71839c1632339b44d6975aef8e3060fe8148"
+    },
+    "publicPlayback": {
+      "duration": 12,
+      "readyState": 4
+    },
+    "replyReadback": "Both canonical pages confirmed intended text"
+  },
+  "npmRegistry": "pending"
+}

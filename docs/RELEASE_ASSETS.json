@@ -1,14 +1,14 @@
 {
-  "version": "0.41.0-preview.1",
+  "version": "0.42.0-preview.1",
   "assets": [
     {
-      "path": "docs/campaign/assets/follow-showcase.mp4",
-      "name": "liquid-glass-reader-relay.mp4",
+      "path": "docs/campaign/assets/data-table-showcase.mp4",
+      "name": "liquid-glass-index-ledger.mp4",
       "type": "video/mp4"
     },
     {
-      "path": "docs/campaign/assets/follow-showcase.png",
-      "name": "liquid-glass-reader-relay.png",
+      "path": "docs/campaign/assets/data-table-showcase.png",
+      "name": "liquid-glass-index-ledger.png",
       "type": "image/png"
     }
   ]

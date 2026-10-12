@@ -1,0 +1,15 @@
+/* One authored overflow frame may use material.css/getGlassProps separately.
+   Keep native caption/thead/tbody/th/td. No reset, grid roles or cell filters. */
+.lg-data-table-frame { max-inline-size: 100%; overflow-x: auto; overscroll-behavior-inline: contain; }
+.lg-data-table { inline-size: 100%; min-inline-size: var(--lg-table-min-inline-size, 28rem); border-collapse: separate; border-spacing: 0; text-align: start; color: inherit; font: inherit; }
+.lg-data-table caption { padding: 1rem; text-align: start; font-weight: 600; line-height: 1.5; }
+.lg-data-table th, .lg-data-table td { padding: .65rem .9rem; border-block-end: 1px solid var(--lg-table-line, rgb(127 127 127 / .3)); text-align: start; vertical-align: top; line-height: 1.5; white-space: normal; overflow-wrap: anywhere; }
+.lg-data-table thead { background: var(--lg-table-header-fill, rgb(127 127 127 / .08)); color: var(--lg-table-header-ink, inherit); }
+.lg-data-table th { font-weight: 650; }
+.lg-data-table th:has(.lg-data-table-sort) { padding: .2rem .4rem; }
+.lg-data-table tbody tr:last-child td, .lg-data-table tbody tr:last-child th { border-block-end: 0; }
+.lg-data-table-sort { display: inline-flex; align-items: center; justify-content: space-between; gap: .65rem; inline-size: 100%; min-inline-size: 44px; min-block-size: 44px; padding: .45rem .5rem; border: 0; border-radius: .4rem; background: transparent; color: inherit; font: inherit; text-align: start; cursor: pointer; }
+.lg-data-table-sort:disabled { cursor: default; }
+.lg-data-table-sort:focus-visible { outline: 3px solid var(--lg-table-focus, #4379e8); outline-offset: 1px; }
+@media (hover: hover) and (pointer: fine) { .lg-data-table-sort:hover:not(:disabled) { background: rgb(127 127 127 / .12); } }
+@media (forced-colors: active) { .lg-data-table thead { background: Canvas; color: CanvasText; } .lg-data-table th, .lg-data-table td { border-color: CanvasText; } .lg-data-table-sort:focus-visible { outline-color: Highlight; } }

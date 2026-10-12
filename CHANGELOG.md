@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.42.0-preview.1
+
+- Add optional pure local data-table models with stable sorting, cached filtering, truthful pagination and native semantic props.
+- Bound data/page sizes while keeping rendering/editing/focus/network host-owned; optional scoped CSS preserves native table/keyboard overflow.
+- Add original Index studio ledger,20 native responsive cases, separate5000-row model and connected-render benchmarks, and twelve-second disco showcase. Correct demo home-link44px target.
+
 ## 0.41.0-preview.1
 
 - Add optional reader-intent tail following with explicit appended counts, sticky pause, unread ledger and deliberate native tail navigation.
